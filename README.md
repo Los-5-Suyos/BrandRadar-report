@@ -13,9 +13,9 @@
 
 **Código del Curso:** 1ASI0729 &nbsp;|&nbsp; **Nombre del Curso:** Desarrollo de Aplicaciones Open Source
 
-**NRC:** `[COMPLETAR NRC]`
+**NRC:** `11863`
 
-**Profesores:** Bautista Ubillús, Efraín Ricardo · Flores Moroco, Juan Antonio · Mori Paiva, Hugo Allan · Robles Fernández, Iván · Velásquez Núñez, Ángel Augusto
+**Profesor:** Ivan Robles Fernández
 
 ---
 
@@ -24,8 +24,8 @@
 # 📄 Informe de Trabajo Final
 
 <br>
-
-## 🚀 Startup: `[NOMBRE DEL STARTUP]`
+## `Los 5 Suyos`
+## 🚀 Startup: `BRAND RADAR`
 
 <br>
 
@@ -45,7 +45,7 @@
 
 | Código | Apellidos y Nombres |
 |:------:|:-------------------|
-| `U20XXXXXXX` | `Apellido1 Apellido2, Nombre1` |
+| `U20410239` | `Salinas Guzmán, Brianna Cristina` |
 | `U20XXXXXXX` | `Apellido1 Apellido2, Nombre2` |
 | `U20XXXXXXX` | `Apellido1 Apellido2, Nombre3` |
 | `U20XXXXXXX` | `Apellido1 Apellido2, Nombre4` |
@@ -74,7 +74,7 @@
 
 ## 🔗 Project Report Collaboration Insights
 
-**URL del Repositorio:** [`https://github.com/[org]/[repo]`](https://github.com/[org]/[repo])
+**URL del Repositorio:** [`https://github.com/Los-5-Suyos/BrandRadar-AV1.git`](https://github.com/Los-5-Suyos/BrandRadar-AV1.git)
 
 > En esta sección el equipo describe cómo se han desarrollado las actividades de elaboración del informe. Se presentan capturas de los analíticos de colaboración y commits en GitHub realizados por los miembros del equipo.
 
