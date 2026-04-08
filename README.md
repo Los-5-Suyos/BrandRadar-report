@@ -217,17 +217,12 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 
 ## 📎 Anexos
 
-> *(Cada sección de anexo inicia en nueva página identificada con letra)*
 
-### Anexo A: Student Outcome — Estructura detallada
-
-*(Ver formato en el enunciado del proyecto)*
-
-### Anexo B: Participant Performance Report
+### Anexo A: Participant Performance Report
 
 *(Adjuntar como documento Word y PDF por separado)*
 
-### Anexo C: Videos de Exposiciones
+### Anexo B: Videos de Exposiciones
 
 | Entrega | Título | Enlace |
 |:-------:|:------:|:------:|
