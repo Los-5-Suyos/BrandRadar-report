@@ -34,13 +34,13 @@
 
 `U20410239` - `Salinas Guzmán, Brianna Cristina` 
 
-`U20XXXXXXX`  `Apellido1 Apellido2, Nombre2` 
+`U20XXXXXXX` - `Apellido1 Apellido2, Nombre2` 
 
-`U20XXXXXXX`  `Apellido1 Apellido2, Nombre3` 
+`U20XXXXXXX` - `Apellido1 Apellido2, Nombre3` 
 
-`U20XXXXXXX`  `Apellido1 Apellido2, Nombre4` 
+`U20XXXXXXX` - `Apellido1 Apellido2, Nombre4` 
 
-`U20XXXXXXX`  `Apellido1 Apellido2, Nombre5` 
+`U20XXXXXXX` - `Apellido1 Apellido2, Nombre5` 
 
 
 ### **Abril 2026**
@@ -169,16 +169,12 @@
 
 ## 🎯 Student Outcome
 
-> **ABET – EAC - Student Outcome 3:** Capacidad de comunicarse efectivamente con un rango de audiencias.
-
-El curso contribuye al cumplimiento del Student Outcome ABET – EAC - Student Outcome 3.
-
 En el siguiente cuadro se describen las acciones realizadas y enunciados de conclusiones que permiten sustentar el logro alcanzado.
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 |:---|:---|:---|
-| **Comunica oralmente con efectividad a diferentes rangos de audiencia.** | `[Apellido, Nombre]` <br><br> **AV1** <br> *(Completar con acciones específicas realizadas relacionadas con comunicación oral)* | *(Completar de forma grupal en cada entrega)* |
-| **Comunica por escrito con efectividad a diferentes rangos de audiencia.** | `[Apellido, Nombre]` <br><br> **AV1** <br> *(Completar con acciones específicas realizadas relacionadas con comunicación escrita)* | *(Completar de forma grupal en cada entrega)* |
+| **3.c1. Comunica oralmente con efectividad a diferentes rangos de audiencia.** | `[Apellido, Nombre]` <br><br> **AV1** <br> *(Completar con acciones específicas realizadas relacionadas con comunicación oral)* | *(Completar de forma grupal en cada entrega)* |
+| **3.c2. Comunica por escrito con efectividad a diferentes rangos de audiencia.** | `[Apellido, Nombre]` <br><br> **AV1** <br> *(Completar con acciones específicas realizadas relacionadas con comunicación escrita)* | *(Completar de forma grupal en cada entrega)* |
 
 ---
 
@@ -209,7 +205,7 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 
 <br>
 
-## 📎 Anexos
+## Anexos
 
 
 ### Anexo A: Participant Performance Report
