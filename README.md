@@ -171,18 +171,10 @@
 
 En el siguiente cuadro se describen las acciones realizadas y enunciados de conclusiones que permiten sustentar el logro alcanzado.
 
-| Criterio específico | Integrante | Acciones realizadas | Conclusiones |
-|:---|:---|:---|:---|
-| **3.c1. Comunica oralmente con efectividad a diferentes rangos de audiencia.** | Salinas Guzmán, Brianna  | **AV1:** (acción específica) | (Completar grupalmente) |
-|  | Apellido, Nombre 2 | **AV1:** (acción específica) |  |
-|  | Apellido, Nombre 3 | **AV1:** (acción específica) |  |
-|  | Apellido, Nombre 4 | **AV1:** (acción específica) |  |
-|  | Apellido, Nombre 5 | **AV1:** (acción específica) |  |
-| **3.c2. Comunica por escrito con efectividad a diferentes rangos de audiencia.** | Salinas Guzmán, Brianna  | **AV1:** (acción específica) | (Completar grupalmente) |
-|  | Apellido, Nombre 2 | **AV1:** (acción específica) |  |
-|  | Apellido, Nombre 3 | **AV1:** (acción específica) |  |
-|  | Apellido, Nombre 4 | **AV1:** (acción específica) |  |
-|  | Apellido, Nombre 5 | **AV1:** (acción específica) |  |
+| Criterio específico | Acciones realizadas | Conclusiones |
+|:---|:---|:---|
+| **3.c1. Comunica oralmente con efectividad a diferentes rangos de audiencia.** | **[Salinas Brianna** <br> AV1: (acción específica) <br><br> **[Apellido, Nombre 2]** <br> AV1: (acción específica) <br><br> **[Apellido, Nombre 3]** <br> AV1: (acción específica) <br><br> **[Apellido, Nombre 4]** <br> AV1: (acción específica) <br><br> **[Apellido, Nombre 5]** <br> AV1: (acción específica) | (Completar de forma grupal en cada entrega) |
+| ***3.c1. Comunica por escrito con efectividad a diferentes rangos de audiencia.** | **[Apellido, Nombre 1]** <br> AV1: (acción específica) <br><br> **[Apellido, Nombre 2]** <br> AV1: (acción específica) <br><br> **[Apellido, Nombre 3]** <br> AV1: (acción específica) <br><br> **[Apellido, Nombre 4]** <br> AV1: (acción específica) <br><br> **[Apellido, Nombre 5]** <br> AV1: (acción específica) | (Completar de forma grupal en cada entrega) |
 
 ---
 
@@ -224,10 +216,8 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 
 | Entrega | Título | Enlace |
 |:-------:|:------:|:------:|
-| AV1 | `upc-pre-202610-1asi0729-[NRC]-[startup]-expo-av1` | `[URL Microsoft Stream]` |
-| TB1 | `upc-pre-202610-1asi0729-[NRC]-[startup]-expo-tb1` | `[URL Microsoft Stream]` |
-| AV2 | `upc-pre-202610-1asi0729-[NRC]-[startup]-expo-av2` | `[URL Microsoft Stream]` |
-| TB2 | `upc-pre-202610-1asi0729-[NRC]-[startup]-expo-tb2` | `[URL Microsoft Stream]` |
+| AV1 | `upc-pre-202610-1asi0729-[11863]-[brandradar]-expo-av1` | `[URL Microsoft Stream]` |
+
 
 ---
 
