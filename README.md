@@ -30,19 +30,17 @@
 
 <br>
 
----
 
 ### 👥 Integrantes de ´Los 5 Suyos´
 
-- `U20410239` - `Salinas Guzmán, Brianna Cristina` 
-- `U20XXXXXXX`  `Apellido1 Apellido2, Nombre2` 
-- `U20XXXXXXX`  `Apellido1 Apellido2, Nombre3` 
-- `U20XXXXXXX`  `Apellido1 Apellido2, Nombre4` 
-- `U20XXXXXXX`  `Apellido1 Apellido2, Nombre5` 
+`U20410239` - `Salinas Guzmán, Brianna Cristina` 
+`U20XXXXXXX`  `Apellido1 Apellido2, Nombre2` 
+`U20XXXXXXX`  `Apellido1 Apellido2, Nombre3` 
+`U20XXXXXXX`  `Apellido1 Apellido2, Nombre4` 
+`U20XXXXXXX`  `Apellido1 Apellido2, Nombre5` 
 
-<br>
 
-**Abril 2026**
+###**Abril 2026**
 
 </div>
 
@@ -55,7 +53,7 @@
 
 | Versión | Fecha | Participantes | Descripción de modificación |
 |:-------:|:-----:|:-----:|:---------------------------|
-| 1.0 | 2026-04-08 | `[Nombre]` | Avance 1 del reporte del proyecto y primera version landing page |
+| 1.0 | 2026-04-08 | Brianna Cristina Salinas Guzmán<br>Nombre 2 <br>Nombre 3 <br>Nombre 4 <br>Nombre 5 | Avance 1 del reporte del proyecto y primera versión de la landing page |
 | | | | |
 
 </div>
@@ -75,7 +73,7 @@
 <br>
 
 ## 📑 Tabla de Contenidos
-
+  #### [Contenido](#tabla-de-contenidos)
   #### [Student Outcome](#student-outcome)
 
   #### [Capítulo I: Introducción](./brandradar-report/docs/capitulo-1.md)
