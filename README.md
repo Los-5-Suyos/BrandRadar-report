@@ -34,13 +34,17 @@
 ### 👥 Integrantes de ´Los 5 Suyos´
 
 `U20410239` - `Salinas Guzmán, Brianna Cristina` 
+
 `U20XXXXXXX`  `Apellido1 Apellido2, Nombre2` 
+
 `U20XXXXXXX`  `Apellido1 Apellido2, Nombre3` 
+
 `U20XXXXXXX`  `Apellido1 Apellido2, Nombre4` 
+
 `U20XXXXXXX`  `Apellido1 Apellido2, Nombre5` 
 
 
-###**Abril 2026**
+####**Abril 2026**
 
 </div>
 
