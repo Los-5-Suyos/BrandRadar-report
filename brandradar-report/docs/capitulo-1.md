@@ -51,10 +51,10 @@ BrandRadar permite a las empresas:
 
 A diferencia de otras soluciones, BrandRadar se caracteriza por:
 
-- ⏱️ Monitoreo en tiempo real  
-- 🤖 Análisis automatizado de sentimiento  
-- 🧩 Plataforma intuitiva y fácil de usar  
-- 🌐 Integración de múltiples fuentes digitales en un solo sistema  
+-  Monitoreo en tiempo real  
+-  Análisis automatizado de sentimiento  
+-  Plataforma intuitiva y fácil de usar  
+-  Integración de múltiples fuentes digitales en un solo sistema  
 
 
 ## ⭐ Valores de la Empresa
