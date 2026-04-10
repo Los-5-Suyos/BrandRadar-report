@@ -235,10 +235,7 @@ La mayoría de empresas que no accede a soluciones especializadas recurre a mét
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-# 1.2.2. Lean UX Process
 <br>
-
-## 1.2.2.1. Lean UX Problem Statements
 
 El proceso Lean UX parte de identificar con precisión los problemas reales que enfrentan los usuarios antes de proponer cualquier solución. A continuación se presentan los Problem Statements correspondientes a los dos segmentos iniciales de BrandRadar, construidos a partir del análisis de dominio, segmento de cliente, pain points, gap de mercado, visión estratégica y segmento inicial.
 
@@ -260,7 +257,7 @@ El proceso Lean UX parte de identificar con precisión los problemas reales que 
 
 > Hemos observado que las **pequeñas y medianas empresas con presencia digital** no cuentan con visibilidad en tiempo real sobre cómo son percibidas en internet. Esto genera que las crisis reputacionales escalen sin ser detectadas a tiempo y que las decisiones de comunicación se tomen de forma reactiva y sin datos. **¿Cómo podríamos** ofrecer una plataforma de monitoreo de reputación accesible, clara y accionable que permita a estas empresas proteger y gestionar su imagen digital de manera proactiva?
 
----
+<br>
 
 ## Problem Statement 2
 ###  Agencias de marketing digital
