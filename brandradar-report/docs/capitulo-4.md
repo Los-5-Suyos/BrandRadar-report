@@ -1,4 +1,4 @@
-[← Capítulo III](./capitulo-3.md) &nbsp;|&nbsp; [← Volver al índice](../README.md)
+[← Capítulo III](./capitulo-3.md) &nbsp;|&nbsp; [← Volver al índice](../../README.md)
 
 ---
 
