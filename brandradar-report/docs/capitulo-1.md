@@ -102,6 +102,8 @@ BrandRadar permite a las empresas:
 
 <br>
 
+<div align="center">
+  
 #### 👤 Integrante 2
 
 <img src="../assets/team/integrante2.jpg" alt="Foto Integrante 2" width="120"/>
@@ -112,12 +114,16 @@ BrandRadar permite a las empresas:
 | **Código de estudiante** | `U20XXXXXXX` |
 | **Carrera** | Ingeniería de Software |
 
+</div>
+
 **Descripción:**
 *(Párrafo describiendo principales conocimientos técnicos y habilidades que puede aportar al equipo)*
 
 ---
 <br>
 
+<div align="center">
+  
 #### 👤 Integrante 3
 
 <img src="../assets/team/integrante3.jpg" alt="Foto Integrante 3" width="120"/>
@@ -127,12 +133,14 @@ BrandRadar permite a las empresas:
 | **Nombres y Apellidos** | `[Apellido1 Apellido2, Nombre]` |
 | **Código de estudiante** | `U20XXXXXXX` |
 | **Carrera** | Ingeniería de Software |
+</div>
 
 **Descripción:**
 *(Párrafo describiendo principales conocimientos técnicos y habilidades que puede aportar al equipo)*
 
 ---
 <br>
+<div align="center">
 
 #### 👤 Integrante 4
 
@@ -144,12 +152,15 @@ BrandRadar permite a las empresas:
 | **Código de estudiante** | `U20XXXXXXX` |
 | **Carrera** | Ingeniería de Software |
 
+</div>
+
 **Descripción:**
 *(Párrafo describiendo principales conocimientos técnicos y habilidades que puede aportar al equipo)*
 
 ---
 <br>
-
+<div align="center">
+  
 #### 👤 Integrante 5
 
 <img src="../assets/team/integrante5.jpg" alt="Foto Integrante 5" width="120"/>
@@ -159,6 +170,7 @@ BrandRadar permite a las empresas:
 | **Nombres y Apellidos** | `[Apellido1 Apellido2, Nombre]` |
 | **Código de estudiante** | `U20XXXXXXX` |
 | **Carrera** | Ingeniería de Software |
+</div>
 
 **Descripción:**
 *(Párrafo describiendo principales conocimientos técnicos y habilidades que puede aportar al equipo)*
