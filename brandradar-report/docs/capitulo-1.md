@@ -14,6 +14,8 @@
 
 ###   1.1.1. Descripción de la Startup
 
+<br>
+
 **BrandRadar** es una startup tecnológica que desarrolla una aplicación web orientada al monitoreo y análisis de la reputación digital de marcas y empresas en tiempo real.
 
 La plataforma permite a las organizaciones comprender cómo son percibidas en internet mediante la recopilación y análisis de información proveniente de redes sociales, reseñas y menciones en distintas plataformas digitales.
@@ -52,7 +54,7 @@ BrandRadar permite a las empresas:
 -  Obtener información clara y accionable para mejorar su posicionamiento digital  
 
 
-## ⭐ Valores de la Empresa
+## ⭐ Valores
 
 -  **Innovación**: Uso de tecnología para ofrecer soluciones modernas  
 -  **Transparencia**: Información clara y confiable  
@@ -61,7 +63,7 @@ BrandRadar permite a las empresas:
 -  **Calidad**: Resultados precisos y útiles  
 
 
-## 🎯 Objetivos de la Empresa
+## 🎯 Objetivos
 
 1. Desarrollar una plataforma web funcional para el monitoreo de reputación digital  
 2. Implementar un sistema de análisis de sentimiento automático  
@@ -70,10 +72,10 @@ BrandRadar permite a las empresas:
 5. Mejorar el posicionamiento digital de las empresas usuarias  
 
 
-
 ---
 
 ###   1.1.2. Perfiles de integrantes del equipo
+<br>
 
 #### 👤 Integrante 1
 
