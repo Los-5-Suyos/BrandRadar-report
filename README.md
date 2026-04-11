@@ -197,19 +197,19 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 
 ## 📚 Bibliografía
 
-> BrightLocal. (2026). *Local consumer review survey 2026.* https://www.brightlocal.com/research/local-consumer-review-survey/
-
-> Statista. (2024). *Online reviews - statistics & facts.* https://www.statista.com/topics/4381/online-reviews/
-
-> Ott, M., Cardie, C., & Hancock, J. T. (2012). *Estimating the prevalence of deception in online review communities.* https://arxiv.org/abs/1204.2804
-
 > Backlinko. (2024). *Online review statistics.* https://backlinko.com/online-review-stats
 
-> ReputationUP. (2024). Qué es la reputación digital y cómo gestionarla. https://reputationup.com/es/reputacion-digital/
+> BrightLocal. (2026). *Local consumer review survey 2026.* https://www.brightlocal.com/research/local-consumer-review-survey/
 
-> Café Taipá. (2024, noviembre). Top CEO Digital Perú 2024: Gestión de marca y reputación de directivos. https://cafetaipa.com/2024/11/top-ceo-digital-peru-2024-gestion-de-marca-y-reputacion-de-directivos/
+> Capital One Shopping Research. (2026).* Online reviews statistics.* https://capitaloneshopping.com/research/online-reviews-statistics/
 
-> Moz. (s.f.). Moz Consumer Surveys: Artículos negativos y ventas [Infografía]. En ReputationUP. https://reputationup.com/es/reputacion-digital/
+> Ott, M., Cardie, C., & Hancock, J. T. (2012). *Estimating the prevalence of deception in online review communities*. https://arxiv.org/abs/1204.2804
+
+> ReputationUP. (2024). *Qué es la reputación digital y cómo gestionarla.* https://reputationup.com/es/reputacion-digital/
+
+> Ruby, D. (2025, December 30). *30 latest online review statistics 2026 (updated data).* DemandSage. https://www.demandsage.com/online-review-statistics/
+
+> Statista. (2024). *Online reviews - statistics & facts.* https://www.statista.com/topics/4381/online-reviews/
 
 ---
 
