@@ -259,40 +259,20 @@ El proceso Lean UX parte de identificar con precisión los problemas reales que 
 ####  Empresas y marcas digitales (PyMEs)
 <br>
 
-| Componente | Descripción |
-|---|---|
-| **Domain** | Gestión de reputación digital y monitoreo de marca en entornos online |
-| **Customer segment** | Pequeñas y medianas empresas con presencia digital activa que no cuentan con equipos especializados en relaciones públicas o marketing digital |
-| **Pain points** | No conocen en tiempo real qué se dice de su marca · No detectan crisis reputacionales antes de que escalen · Las herramientas enterprise son inaccesibles por su costo · Los datos están dispersos en múltiples plataformas sin ofrecer contexto ni acciones concretas |
-| **Gap** | No existe en el mercado hispanohablante una solución asequible, intuitiva y accionable que permita a estas empresas monitorear, analizar y responder a menciones digitales de forma proactiva y centralizada |
-| **Vision / Strategy** | Democratizar el acceso a la inteligencia de marca, ofreciendo a empresas sin grandes presupuestos de comunicación las mismas capacidades de monitoreo que hoy solo tienen las grandes corporaciones |
-| **Initial segment** | PyMEs peruanas y latinoamericanas con entre 10 y 200 empleados, activas en redes sociales, con presupuesto de marketing digital limitado y sin área de comunicaciones dedicada |
+> Hemos observado que las **pequeñas y medianas empresas con presencia digital** no cuentan con herramientas que les permitan monitorear su reputación en tiempo real, lo que provoca que no detecten a tiempo comentarios negativos o crisis reputacionales. Como resultado, reaccionan de forma tardía, toman decisiones sin datos claros y pierden control sobre la percepción de su marca.
 
-
-> Hemos observado que las **pequeñas y medianas empresas con presencia digital** no cuentan con visibilidad en tiempo real sobre cómo son percibidas en internet. Esto genera que las crisis reputacionales escalen sin ser detectadas a tiempo y que las decisiones de comunicación se tomen de forma reactiva y sin datos.
-
-**¿Cómo podríamos ofrecer una plataforma de monitoreo de reputación accesible, clara y accionable que permita a estas empresas proteger y gestionar su imagen digital de manera proactiva?**
+**¿Cómo podríamos permitir a estas empresas monitorear y detectar en tiempo real lo que se dice de su marca para gestionar su reputación de forma proactiva?**
 
 <br>
 
 ### Problem Statement 2
 
-####  Agencias y especializastas de marketing digital
+####  Especialistas de marketing o community managers
 <br>
 
-| Componente | Descripción |
-|---|---|
-| **Domain** | Gestión centralizada de reputación para múltiples clientes y marcas de forma simultánea |
-| **Customer segment** | Agencias de marketing digital y comunicación que administran la presencia online de cinco o más marcas cliente al mismo tiempo |
-| **Pain points** | Gestión fragmentada entre múltiples plataformas · Tiempo elevado invertido en reportería manual · Dificultad para demostrar valor tangible al cliente · Ausencia de alertas unificadas entre cuentas, lo que incrementa el riesgo de omitir menciones críticas |
-| **Gap** | No existe una herramienta multimarca asequible que centralice el monitoreo, el análisis de sentimiento y la generación automática de reportes para agencias de tamaño mediano en la región |
-| **Vision / Strategy** | Convertirse en el hub de inteligencia reputacional para agencias, reduciendo su carga operativa y aumentando el valor percibido por sus clientes finales mediante reportes automatizados y alertas en tiempo real |
-| **Initial segment** | Agencias digitales medianas en Perú y LATAM con entre 3 y 30 empleados, que gestionan entre 5 y 30 cuentas de clientes activas simultáneamente |
+> Hemos observado que las **agencias de marketing digital** enfrentan una gestión fragmentada de la reputación de sus clientes, sin una herramienta que centralice el monitoreo y permita detectar menciones relevantes en tiempo real. Esto incrementa el tiempo operativo, dificulta la respuesta oportuna ante crisis y limita la capacidad de gestionar múltiples marcas de forma eficiente.
 
-
-> Hemos observado que las **agencias de marketing digital** enfrentan una gestión fragmentada de la reputación de sus clientes, sin una herramienta centralizada que consolide menciones, sentimiento y alertas de múltiples marcas en un solo lugar. Esto incrementa el tiempo operativo, reduce la capacidad de respuesta ante crisis y dificulta demostrar valor tangible al cliente.
-
-**¿Cómo podríamos ofrecer una plataforma multimarca con reportería automatizada que permita a las agencias gestionar la reputación de todos sus clientes de forma eficiente y escalable?**
+**¿Cómo podríamos centralizar el monitoreo de múltiples marcas y facilitar la detección oportuna de menciones críticas en un solo lugar?**
 
 ---
 <br>
@@ -349,6 +329,8 @@ El proceso Lean UX parte de identificar con precisión los problemas reales que 
   •  Ahorrar tiempo en el monitoreo manual de plataformas.
   
   •  Gestionar su reputación de forma proactiva en lugar de reactiva.
+
+<br>
 
 ---
 
