@@ -16,25 +16,6 @@
 
 ### 2.1.1. Análisis competitivo
 
-**¿Por qué llevar a cabo este análisis?**
-*(Escribir la pregunta que busca responder o el objetivo de este análisis)*
-
-#### Competitive Analysis Landscape
-
-| | **BrandRadar** | **Competidor 1** | **Competidor 2** | **Competidor 3** |
-|:--|:--:|:--:|:--:|:--:|
-| **Logo** | *(logo)* | *(logo)* | *(logo)* | *(logo)* |
-| **Overview** | | | | |
-| **Ventaja competitiva** | | | | |
-| **Mercado objetivo** | | | | |
-| **Estrategias de marketing** | | | | |
-| **Productos & Servicios** | | | | |
-| **Precios & Costos** | | | | |
-| **Canales de distribución** | | | | |
-| **Fortalezas** | | | | |
-| **Debilidades** | | | | |
-| **Oportunidades** | | | | |
-| **Amenazas** | | | | |
 
 ---
 
@@ -46,13 +27,13 @@
 
 ## 2.2. Entrevistas
 
-> *(Investigación basada en recolección de información mediante entrevistas a representantes de los segmentos objetivo)*
+Con el objetivo de comprender mejor a los usuarios, se realizaron entrevistas a PyMEs y profesionales de marketing digital. Estas permitieron identificar cómo gestionan actualmente su reputación online, sus principales dificultades y necesidades.
 
 ### 2.2.1. Diseño de entrevistas
 
 *(Incluir las preguntas principales y complementarias para entrevistas, dirigidas a cada segmento objetivo)*
 
-**Segmento objetivo 1: `[Nombre del segmento]`**
+**Segmento objetivo 1: `Pequeñas y medianas empresas y marcas digitales (PyMEs)`**
 
 *Preguntas principales:*
 1. *(Pregunta 1)*
@@ -65,7 +46,7 @@
 
 ---
 
-**Segmento objetivo 2: `[Nombre del segmento]`**
+**Segmento objetivo 2: `Especialistas de marketing o community managers`**
 
 *Preguntas principales:*
 1. *(Pregunta 1)*
@@ -79,79 +60,152 @@
 ---
 
 ### 2.2.2. Registro de entrevistas
+<div align="center">
+  
+**Segmento objetivo 1: `Pequeñas y medianas empresas y marcas digitales (PyMEs)`**
 
-> *(Para cada segmento se requiere de 3 a 5 entrevistas)*
-
-**Segmento objetivo 1: `[Nombre del segmento]`**
-
----
+<br>
 
 #### Entrevista 1
+*Imagen de la entrevista*
+
+![Screenshot Entrevista 1](../assets/interviews/entrevista-seg1-1.png)
+
+
 
 | Campo | Detalle |
 |:------|:--------|
 | **Nombres y apellidos** | `[Nombre del entrevistado]` |
 | **Edad** | `[Edad]` |
-| **Distrito** | `[Distrito]` |
-| **Segmento objetivo** | `[Segmento]` |
+| **Ubicación** | `[Distrito]` |
 | **Fecha de entrevista** | `YYYY-MM-DD` |
 | **Duración** | `[HH:MM]` |
 | **Enlace al video** | [Ver entrevista en Microsoft Stream](`URL`) — Inicia en `[MM:SS]` |
 
-*(Screenshot del video)*
-
-![Screenshot Entrevista 1](../assets/interviews/entrevista-seg1-1.png)
+</div>
 
 **Resumen:**
 *(Redactar de forma descriptiva las respuestas del entrevistado a las preguntas realizadas. Incluir todas las características objetivas y subjetivas: personalidad, marcas e influencias, tecnología, canales de interacción, browser, dispositivos, etc.)*
 
----
-
+<br>
+<div align="center">
+  
 #### Entrevista 2
 
-| Campo | Detalle |
-|:------|:--------|
-| **Nombres y apellidos** | `[Nombre del entrevistado]` |
-| **Edad** | `[Edad]` |
-| **Distrito** | `[Distrito]` |
-| **Segmento objetivo** | `[Segmento]` |
-| **Fecha de entrevista** | `YYYY-MM-DD` |
-| **Duración** | `[HH:MM]` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](`URL`) — Inicia en `[MM:SS]` |
-
-*(Screenshot del video)*
+*Imagen de la entrevista*
 
 ![Screenshot Entrevista 2](../assets/interviews/entrevista-seg1-2.png)
 
+| Campo | Detalle |
+|:------|:--------|
+| **Nombres y apellidos** | `[Nombre del entrevistado]` |
+| **Edad** | `[Edad]` |
+| **Ubicación** | `[Distrito]` |
+| **Fecha de entrevista** | `YYYY-MM-DD` |
+| **Duración** | `[HH:MM]` |
+| **Enlace al video** | [Ver entrevista en Microsoft Stream](`URL`) — Inicia en `[MM:SS]` |
+
+</div>
+
 **Resumen:**
 *(Redactar resumen de la entrevista)*
 
----
-
+<br>
+<div align="center">
+  
 #### Entrevista 3
+
+*Imagen de la entrevista*
+
+![Screenshot Entrevista 3](../assets/interviews/entrevista-seg1-3.png)
 
 | Campo | Detalle |
 |:------|:--------|
 | **Nombres y apellidos** | `[Nombre del entrevistado]` |
 | **Edad** | `[Edad]` |
-| **Distrito** | `[Distrito]` |
-| **Segmento objetivo** | `[Segmento]` |
+| **Ubicación** | `[Distrito]` |
 | **Fecha de entrevista** | `YYYY-MM-DD` |
 | **Duración** | `[HH:MM]` |
 | **Enlace al video** | [Ver entrevista en Microsoft Stream](`URL`) — Inicia en `[MM:SS]` |
-
-*(Screenshot del video)*
-
-![Screenshot Entrevista 3](../assets/interviews/entrevista-seg1-3.png)
+</div>
 
 **Resumen:**
 *(Redactar resumen de la entrevista)*
 
 ---
+<div align="center">
+  
+**Segmento objetivo 2: `Especialistas de marketing o community managers`**
 
-**Segmento objetivo 2: `[Nombre del segmento]`**
+<br>
 
-*(Repetir estructura de entrevistas para el segundo segmento)*
+#### Entrevista 1
+
+*Imagen de la entrevista*
+
+![Screenshot Entrevista 1](../assets/interviews/entrevista-seg1-1.png)
+
+| Campo | Detalle |
+|:------|:--------|
+| **Nombres y apellidos** | `Romina Apaza]` |
+| **Edad** | `22 años` |
+| **Ubicación** | `Arequipa` |
+| **Fecha de entrevista** | `YYYY-MM-DD` |
+| **Duración** | `[HH:MM]` |
+| **Enlace al video** | [Ver entrevista en Microsoft Stream](`URL`) — Inicia en `[MM:SS]` |
+</div>
+
+
+**Resumen:**
+*(Redactar de forma descriptiva las respuestas del entrevistado a las preguntas realizadas. Incluir todas las características objetivas y subjetivas: personalidad, marcas e influencias, tecnología, canales de interacción, browser, dispositivos, etc.)*
+
+<br>
+
+<div align="center">
+  
+#### Entrevista 2
+
+*Imagen de la entrevista*
+
+![Screenshot Entrevista 2](../assets/interviews/entrevista-seg1-2.png)
+
+| Campo | Detalle |
+|:------|:--------|
+| **Nombres y apellidos** | `[Nombre del entrevistado]` |
+| **Edad** | `[Edad]` |
+| **Ubicación** | `[Distrito]` |
+| **Fecha de entrevista** | `YYYY-MM-DD` |
+| **Duración** | `[HH:MM]` |
+| **Enlace al video** | [Ver entrevista en Microsoft Stream](`URL`) — Inicia en `[MM:SS]` |
+</div>
+
+
+**Resumen:**
+*(Redactar resumen de la entrevista)*
+
+<br>
+
+<div align="center">
+
+#### Entrevista 3
+
+*Imagen de la entrevista*
+
+![Screenshot Entrevista 3](../assets/interviews/entrevista-seg1-3.png)
+
+| Campo | Detalle |
+|:------|:--------|
+| **Nombres y apellidos** | `[Nombre del entrevistado]` |
+| **Edad** | `[Edad]` |
+| **Ubicación** | `[Distrito]` |
+| **Fecha de entrevista** | `YYYY-MM-DD` |
+| **Duración** | `[HH:MM]` |
+| **Enlace al video** | [Ver entrevista en Microsoft Stream](`URL`) — Inicia en `[MM:SS]` |
+
+</div>
+
+**Resumen:**
+*(Redactar resumen de la entrevista)*
 
 ---
 
