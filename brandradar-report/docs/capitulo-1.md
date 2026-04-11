@@ -225,9 +225,9 @@ Este problema ocurre porque:
 
 ####   Who — ¿Quiénes son los afectados?
 
-- Pequeñas y medianas empresas (PyMEs).
+- Pequeñas y medianas empresas o marcas digitales (PyMEs).
 
-- Agencias de marketing digital.
+- Agencias de marketing digital y especialistas.
 
 - Community managers y responsables de comunicación.
 
@@ -331,7 +331,7 @@ El proceso Lean UX parte de identificar con precisión los problemas reales que 
 
 ### Problem Statement 1
 
-####  Empresas y marcas digitales (PyMEs)
+####  Pequeñas y medianas empresas y marcas digitales (PyMEs)
 <br>
 
 > Hemos observado que las **pequeñas y medianas empresas con presencia digital** no cuentan con herramientas que les permitan monitorear su reputación en tiempo real, lo que provoca que no detecten a tiempo comentarios negativos o crisis reputacionales. Como resultado, reaccionan de forma tardía, toman decisiones sin datos claros y pierden control sobre la percepción de su marca.
@@ -451,7 +451,7 @@ El Lean UX Canvas fue diseñado utilizando Figma, lo que permitió estructurar d
 
 > *(Describir los segmentos asociados al dominio del problema, incluyendo características demográficas e información estadística de sustento)*
 
-### Segmento objetivo 1: `Empresas y marcas digitales (PyMEs)`
+### Segmento objetivo 1: `Pequeñas y medianas empresas y marcas digitales (PyMEs)`
 
 *(Descripción del segmento: características demográficas, perfil, necesidades y estadísticas de respaldo)*
 
