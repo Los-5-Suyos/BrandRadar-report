@@ -263,7 +263,7 @@ El proceso Lean UX parte de identificar con precisión los problemas reales que 
 ### Problem Statement 2
 <br>
 
-####  Agencias de marketing digital
+####  Agencias y especializastas de marketing digital
 
 | Componente | Descripción |
 |---|---|
@@ -284,7 +284,7 @@ El proceso Lean UX parte de identificar con precisión los problemas reales que 
 
 #### 1.2.2.2. Lean UX Assumptions
 
-## Features
+### Features
 
   •  Registro de usuarios para acceder a la plataforma de monitoreo de reputación digital.
   
@@ -307,7 +307,7 @@ El proceso Lean UX parte de identificar con precisión los problemas reales que 
   •  Planes escalables: versión gratuita con funcionalidades limitadas y planes premium por volumen de menciones y marcas.
 
 
-## Business Outcomes
+### Business Outcomes
 
   •  Alcanzar un 20 % de conversión de usuarios del plan gratuito a planes de pago en los primeros 90 días.
   
@@ -320,7 +320,7 @@ El proceso Lean UX parte de identificar con precisión los problemas reales que 
   •  Posicionar a BrandRadar como la solución de monitoreo de reputación digital de referencia para PyMEs y agencias en el mercado hispanohablante dentro de los primeros 12 meses.
 
 
-## Users
+### Users
 
   •  Pequeñas y medianas empresas con presencia digital activa que buscan proteger y gestionar su reputación online sin contar con un equipo especializado de comunicaciones.
   
@@ -329,7 +329,7 @@ El proceso Lean UX parte de identificar con precisión los problemas reales que 
   •  Usuarios que valoran la simplicidad, la accionabilidad de los datos y la posibilidad de recibir alertas automáticas sin necesidad de revisar manualmente múltiples plataformas.
 
 
-## User Outcomes
+### User Outcomes
 
   •  Conocer en tiempo real qué se dice de su marca en internet sin revisar plataformas manualmente.
   
@@ -377,7 +377,7 @@ El proceso Lean UX parte de identificar con precisión los problemas reales que 
 
 > *(Describir los segmentos asociados al dominio del problema, incluyendo características demográficas e información estadística de sustento)*
 
-### Segmento objetivo 1: `[Nombre del segmento]`
+### Segmento objetivo 1: `Empresas y marcas digitales (PyMEs)`
 
 *(Descripción del segmento: características demográficas, perfil, necesidades y estadísticas de respaldo)*
 
@@ -392,7 +392,7 @@ El proceso Lean UX parte de identificar con precisión los problemas reales que 
 
 ---
 
-### Segmento objetivo 2: `[Nombre del segmento]`
+### Segmento objetivo 2: `Agencias y especializastas de marketing digital`
 
 *(Descripción del segmento: características demográficas, perfil, necesidades y estadísticas de respaldo)*
 
@@ -409,6 +409,6 @@ El proceso Lean UX parte de identificar con precisión los problemas reales que 
 
 <div align="center">
 
-[← README / Portada](../README.md) &nbsp;|&nbsp; [Capítulo II →](./capitulo-2.md)
+[← README / Portada](../../README.md) &nbsp;|&nbsp; [Capítulo II →](./capitulo-2.md)
 
 </div>
