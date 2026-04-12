@@ -132,7 +132,19 @@ Para validar las hipótesis y recolectar la información necesaria para construi
 **Resumen:**
 </div>
 
-*(Redactar de forma descriptiva las respuestas del entrevistado a las preguntas realizadas. Incluir todas las características objetivas y subjetivas: personalidad, marcas e influencias, tecnología, canales de interacción, browser, dispositivos, etc.)*
+Alfredo Negrete es gerente comercial y socio de una empresa dedicada a la fabricación de muebles de exhibición, implementación de espacios comerciales y desarrollo de mobiliario. Tiene 49 años, es padre de familia y actualmente vive en Surco.
+
+Cuenta con experiencia en el rubro, ya que anteriormente trabajó en una empresa similar. Gracias a ello, ha desarrollado habilidades que considera clave en su desempeño, como cumplir su palabra, ser puntual y ofrecer un servicio diferencial a sus clientes, lo que fortalece la credibilidad de su negocio.
+
+Además, siente admiración por las marcas de consumo masivo debido a la complejidad que implica mantenerse en el mercado frente a altos niveles de exigencia. En esa línea, su experiencia trabajando con empresas internacionales como Samsung le ha permitido tener referentes claros y reafirmar que su negocio va por buen camino.
+
+Por otro lado, considera que la comunicación es un factor fundamental en su sector. Por ello, utiliza diversas herramientas digitales como el teléfono, el correo electrónico, Zoom, Meet y WhatsApp, con el fin de mantener un contacto constante con clientes y proveedores.
+
+Actualmente, uno de sus principales objetivos es cubrir una deuda generada por su anterior empresa, también del mismo rubro. En su momento, priorizó la voz del cliente como elemento clave para la imagen empresarial, lo que lo llevó a asumir ciertos gastos que finalmente contribuyeron al quiebre del negocio.
+
+Sin embargo, le genera frustración no poder identificar con claridad las causas de las pérdidas, especialmente cuando los clientes optan por otros proveedores. A pesar de ello, ya ha utilizado anteriormente una página web como medio de comunicación y ha logrado resolver problemas importantes con clientes de manera interna, priorizando siempre mantener una buena imagen frente a las empresas con las que trabaja y potenciales clientes.
+
+Finalmente, considera que una aplicación podría ayudarle a fortalecer su imagen empresarial, permitiéndole compartir contenido como fotografías, artículos y casos de resolución de problemas relacionados con su negocio.
 
 <br>
 <div align="center">
