@@ -148,8 +148,8 @@ BrandRadar permite a las empresas:
 
 | Campo | Detalle |
 |:------|:--------|
-| **Nombres y Apellidos** | `[Acuña de la Cruz, Luis]` |
-| **Código de estudiante** | `U202417228` |
+| **Nombres y Apellidos** | `Garcia Paredes, Victor Manuel` |
+| **Código de estudiante** | `U202012001` |
 | **Carrera** | Ingeniería de Software |
 
 </div>
@@ -167,8 +167,8 @@ BrandRadar permite a las empresas:
 
 | Campo | Detalle |
 |:------|:--------|
-| **Nombres y Apellidos** | `[Apellido1 Apellido2, Nombre]` |
-| **Código de estudiante** | `U20XXXXXXX` |
+| **Nombres y Apellidos** | `Acuña de la Cruz, Luis` |
+| **Código de estudiante** | `U202417228` |
 | **Carrera** | Ingeniería de Software |
 </div>
 
