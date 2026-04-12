@@ -122,12 +122,12 @@ Para validar las hipótesis y recolectar la información necesaria para construi
 
 | Campo | Detalle |
 |:------|:--------|
-| **Nombres y apellidos** | `[Nombre del entrevistado]` |
-| **Edad** | `[Edad]` |
-| **Ubicación** | `[Distrito]` |
-| **Fecha de entrevista** | `YYYY-MM-DD` |
-| **Duración** | `[HH:MM]` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](`URL`) — Inicia en `[MM:SS]` |
+| **Nombres y apellidos** | `Alfredo Negrete` |
+| **Edad** | `49` |
+| **Ubicación** | `Surco` |
+| **Fecha de entrevista** | `2026-04-11` |
+| **Duración** | `00:15` |
+| **Enlace al video** | (https://1drv.ms/v/c/d936c864c8cca0bb/IQBCE_dtbeoPTYkZnSVxycpQASHO2xsa9YOUk000HVkybnE?e=gn42mC) — Inicia en `[00:00]` |
 
 **Resumen:**
 </div>
