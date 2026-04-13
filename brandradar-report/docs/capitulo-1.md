@@ -446,35 +446,38 @@ El Lean UX Canvas fue diseñado utilizando Figma, lo que permitió estructurar d
 ---
 
 ## 1.3. Segmentos objetivo
+<br>
 
-### Segmento objetivo 1: Dueños y Administradores de Negocios Locales (PyMEs)
+### Segmento objetivo 1: Pequeñas y medianas empresas y marcas digitales (PyMEs)
 
-Este grupo está formado por propietarios o gerentes de pequeñas y medianas empresas (como restaurantes, clínicas dentales, hoteles boutique o e-commerce) que dependen fuertemente de la confianza del público. Al no contar con un departamento interno de relaciones públicas, una mala reseña o la caída de su página web impacta directamente en sus ventas diarias. Buscan soluciones fáciles de usar que les avisen rápido si algo anda mal con su imagen.
+Este grupo está formado por propietarios o gerentes de pequeñas y medianas empresas (como restaurantes, clínicas dentales, hoteles boutique o e-commerce) que cuentan con presencia activa en canales digitales, pero que no disponen de equipos especializados en comunicación o gestión de reputación.
 
 **Características demográficas:**
-* **Edad:** Entre 30 y 55 años.
-* **Género:** Hombres y mujeres (distribución equitativa).
-* **Ubicación:** Zonas urbanas y de alto comercio en Perú (ej. Surco, Miraflores, San Isidro) y principales ciudades de Latinoamérica.
+* **Edad:** Entre 25 y 55 años.
+* **Género:** Hombres y mujeres.
+* **Ubicación:** Zonas urbanas y de alto comercio en Perú y principales ciudades de Latinoamerica.
 * **Ocupación:** Emprendedores, Gerentes Generales, Administradores de local comercial.
 * **Nivel socioeconómico:** Sectores B y C.
-
+<br>
 *Estadísticas de sustento:*
-Para respaldar este segmento, según Ipsos Perú (2023), el 85% de los consumidores peruanos revisa opiniones en línea antes de adquirir un producto o servicio. Asimismo, estudios de BrightLocal (2023) indican que el 93% de los usuarios toma decisiones de compra basadas en las reseñas locales. Esto demuestra que para una PyME, monitorear su reputación no es un lujo, sino una necesidad de supervivencia.
+<br>
+Para respaldar este segmento, según Ipsos Perú (2023), el 85% de los consumidores peruanos revisa opiniones en línea antes de adquirir un producto o servicio. Asimismo, estudios de BrightLocal (2026) indican que el 93% de los usuarios toma decisiones de compra basadas en las reseñas locales. Esto demuestra que para una PyME, monitorear su reputación no es un lujo, sino una necesidad de supervivencia.
 
 ---
 
-### Segmento objetivo 2: Directores y Account Managers de Agencias Digitales
-
-Este segmento agrupa a los profesionales que trabajan en agencias de marketing o publicidad manejando múltiples cuentas de clientes en simultáneo. Su mayor dolor es el tiempo operativo que pierden revisando diferentes redes sociales una por una y armando reportes de reputación manualmente. Necesitan una herramienta que centralice todo y les alerte de crisis en tiempo real para proteger a las marcas que representan.
+### Segmento objetivo 2: Especialistas de marketing o community managers
+<br>
+Este segmento está compuesto por profesionales responsables de gestionar la presencia digital de una o múltiples marcas, incluyendo community managers, analistas de marketing digital y equipos de comunicación. Su mayor dolor es el tiempo operativo que pierden revisando diferentes redes sociales una por una y armando reportes de reputación manualmente. Necesitan una herramienta que centralice todo y les alerte de crisis en tiempo real para proteger a las marcas que representan.
 
 **Características demográficas:**
-* **Edad:** Entre 25 y 45 años.
+* **Edad:** Entre 20 y 45 años.
 * **Género:** Hombres y mujeres.
 * **Ubicación:** Ecosistemas corporativos o en modalidad de trabajo remoto a nivel nacional y regional (LATAM).
-* **Ocupación:** Directores de Agencia, Ejecutivos de Cuentas (Account Managers), Social Media Managers, Consultores PR.
+* **Ocupación:** Directores de Agencia, Ejecutivos de Cuentas (Account Managers), Social Media Managers, Community managers.
 * **Nivel socioeconómico:** Sectores A y B.
-
+<br>
 *Estadísticas de sustento:*
+<br>
 El trabajo en agencias tiene una alta carga operativa. Según reportes anuales de la industria del marketing digital (como el State of Inbound de HubSpot), los equipos de marketing pueden destinar entre un 20% y un 30% de su jornada laboral a la recopilación de datos y elaboración de reportes manuales. Reducir este tiempo mediante la automatización multimarca justificaría la inversión en una herramienta como BrandRadar.
 
 ---
