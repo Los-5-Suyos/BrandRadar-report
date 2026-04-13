@@ -169,9 +169,8 @@ Tipo de empresa o agencia donde trabajas
 #### Entrevista 1
 *Imagen de la entrevista*
 
-![Screenshot Entrevista 1](../assets/interviews/entrevista-seg1-1.png)
-
-
+<img src="../assets/interviews/ss_entrevista_1.png" alt="Screenshot Entrevista 1" width="500"/>
+<br>
 
 | Campo | Detalle |
 |:------|:--------|
@@ -179,7 +178,7 @@ Tipo de empresa o agencia donde trabajas
 | **Edad** | `49 años` |
 | **Ubicación** | `Surco` |
 | **Fecha de entrevista** | `2026-04-11` |
-| **Duración** | `00:15` |
+| **Duración** | `15:00` |
 | **Enlace al video** | https://1drv.ms/v/c/d936c864c8cca0bb/IQBCE_dtbeoPTYkZnSVxycpQASHO2xsa9YOUk000HVkybnE?e=gn42mC — Inicia en `[00:00]` |
 
 **Resumen:**
@@ -204,7 +203,8 @@ Finalmente, considera que una aplicación podría ayudarle a fortalecer su image
   
 #### Entrevista 2
 
-![Screenshot Entrevista 2](../assets/interviews/ss_entrevista_2.png)
+<img src="../assets/interviews/ss_entrevista_2.png" alt="Screenshot Entrevista 2" width="780"/>
+<br>
 
 | Campo | Detalle |
 |:------|:--------|
@@ -213,7 +213,7 @@ Finalmente, considera que una aplicación podría ayudarle a fortalecer su image
 | **Ubicación** | `Surco` |
 | **Fecha de entrevista** | `2026-04-11` |
 | **Duración** | `09:03` |
-| **Enlace al video** | [Entrevista Jenifer][(`URL`)](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202012001_upc_edu_pe/IQAlodktDrH_RYNs0fTbCXXQAR0g-JyDOAB3OlwdYg47y2M?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=sZcbFk) — Inicia en `00:00` |
+| **Enlace al video** | [(`URL`)](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202012001_upc_edu_pe/IQAlodktDrH_RYNs0fTbCXXQAR0g-JyDOAB3OlwdYg47y2M?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=sZcbFk) — Inicia en `00:00` |
 
 **Resumen:**
 </div>
