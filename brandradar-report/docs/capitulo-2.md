@@ -329,6 +329,10 @@ La siguiente matriz identifica las tareas principales que realizan los dos User 
 
 Se observa que:
 
+- Para las PyMEs, las tareas son menos frecuentes pero muy críticas, especialmente la detección de comentarios negativos.
+- Para las agencias, casi todas las tareas son frecuentes y altamente importantes, debido a la gestión de múltiples clientes.
+- Existe una coincidencia clave: ambos segmentos
+
 ---
 
 ### 2.3.3. User Journey Mapping
