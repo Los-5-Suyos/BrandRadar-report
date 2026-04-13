@@ -450,6 +450,7 @@ El Lean UX Canvas fue diseñado utilizando Figma, lo que permitió estructurar d
 ### Segmento objetivo 1: Pequeñas y medianas empresas y marcas digitales (PyMEs)
 <br>
 Este grupo está formado por propietarios o gerentes de pequeñas y medianas empresas (como restaurantes, clínicas dentales, hoteles boutique o e-commerce) que cuentan con presencia activa en canales digitales, pero que no disponen de equipos especializados en comunicación o gestión de reputación.
+<br>
 
 **Características demográficas:**
 <br>
@@ -470,6 +471,7 @@ Para respaldar este segmento, según Ipsos Perú (2023), el 85% de los consumido
 ### Segmento objetivo 2: Especialistas de marketing o community managers
 <br>
 Este segmento está compuesto por profesionales responsables de gestionar la presencia digital de una o múltiples marcas, incluyendo community managers, analistas de marketing digital y equipos de comunicación. Su mayor dolor es el tiempo operativo que pierden revisando diferentes redes sociales una por una y armando reportes de reputación manualmente. Necesitan una herramienta que centralice todo y les alerte de crisis en tiempo real para proteger a las marcas que representan.
+<br>
 
 **Características demográficas:**
 <br>
