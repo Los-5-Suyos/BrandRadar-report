@@ -144,7 +144,7 @@ BrandRadar permite a las empresas:
 
 #### 👤 Integrante 4
 
-<img src="../assets/team/integrante4.jpg" alt="Foto Integrante 4" width="120"/>
+<img src="../assets/team/integrante4.png" alt="Foto Victor García" width="220"/>
 
 | Campo | Detalle |
 |:------|:--------|
