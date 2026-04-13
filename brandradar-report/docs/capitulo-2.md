@@ -203,6 +203,7 @@ Finalmente, considera que una aplicación podría ayudarle a fortalecer su image
 <div align="center">
   
 #### Entrevista 2
+*Imagen de la entrevista*
 
 <img src="../assets/interviews/ss_entrevista_2.png" alt="Screenshot Entrevista 2" width="1000"/>
 
