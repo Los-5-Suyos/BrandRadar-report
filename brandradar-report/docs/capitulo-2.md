@@ -321,13 +321,13 @@ La siguiente matriz identifica las tareas principales que realizan los dos User 
 
 | Tarea (Task) | `PyMe (Dueño de negocio)` Frecuencia | `PyMe` Importancia | `Agencia (Account Manager)` Frecuencia | `Agencia` Importancia |
 |:-------------|:------------------------:|:-------------------------:|:------------------------:|:-------------------------:|
-| *(Tarea 1)* | Alta / Media / Baja | Alta / Media / Baja | Alta / Media / Baja | Alta / Media / Baja |
-| *(Tarea 2)* | | | | |
-| *(Tarea 3)* | | | | |
-| *(Tarea 4)* | | | | |
-| *(Tarea 5)* | | | | |
+| *Revisar menciones de la marca* | Media | Alta | Alta | Alta |
+| *Detectar comentarios negativos* | Baja | Alta | Alta | Alta |
+| *Responder a reseñas/comentarios* | Media | Alta | Alta | Alta |
+| *Generar reportes de reputación* | Baja | Media | Alta | Alta |
+| *Monitorear múltiples plataformas* | Baja | Media | Alta | Alta |
 
-*(Explicación resaltando las tareas con mayor frecuencia e importancia, principales diferencias y coincidencias entre los User Personas)*
+Se observa que:
 
 ---
 
