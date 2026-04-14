@@ -18,8 +18,8 @@
 
 | Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
 |:---------------:|:------:|:------------|:------------------------|:-------------------------:|
-| **EP01** | `[Título del Epic 1]` | *(Descripción del Epic)* | — | — |
-| US01 | `[Título de User Story]` | Como `[rol]`, deseo `[acción]`, para `[beneficio]`. | **Scenario 1:** `[Nombre]` <br> **Given** `[contexto]` <br> **When** `[acción]` <br> **Then** `[resultado esperado]` | EP01 |
+| **EP01** | `Real-Time Monitoring & Data Collection` | *(Descripción del Epic)* | — | — |
+| US01 | `[Título de User Story]` | Como `Analista de Marketing`, quiero `conectar las API de Twitter e Instagram al sistema`, para `recolectar menciones de mi marca de forma automatizada.`. | **Scenario 1:** `[Nombre]` <br> **Given** `[contexto]` <br> **When** `[acción]` <br> **Then** `[resultado esperado]` | EP01 |
 | US02 | `[Título de User Story]` | Como `[rol]`, deseo `[acción]`, para `[beneficio]`. | **Scenario 1:** `[Nombre]` <br> **Given** `[contexto]` <br> **When** `[acción]` <br> **Then** `[resultado esperado]` | EP01 |
 | **EP02** | `[Título del Epic 2]` | *(Descripción del Epic)* | — | — |
 | US03 | `[Título de User Story]` | Como `[rol]`, deseo `[acción]`, para `[beneficio]`. | **Scenario 1:** `[Nombre]` <br> **Given** `[contexto]` <br> **When** `[acción]` <br> **Then** `[resultado esperado]` | EP02 |
