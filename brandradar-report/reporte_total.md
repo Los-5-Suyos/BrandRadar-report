@@ -175,7 +175,7 @@ Gráfico de red (network graph) de ramas en el repositorio de GitHub.
   - [3.2. Impact Mapping](./brandradar-report/docs/capitulo-3.md#32-impact-mapping)
   - [3.3. Product Backlog](./brandradar-report/docs/capitulo-3.md#33-product-backlog)
     
-  #### [Capítulo IV: Product Design](./brandradar-report/docs/capitulo-4.md)
+  #### [Capítulo IV: Product Design](#capítulo-iv-product-design-1)
   - [4.1. Style Guidelines](#41-style-guidelines)
     - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
     - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
