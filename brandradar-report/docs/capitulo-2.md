@@ -278,7 +278,7 @@ Al reflexionar sobre el impacto del entorno digital, Karim mencionó que si tuvi
 | **Edad** | `22 años` |
 | **Ubicación** | `Arequipa` |
 | **Fecha de entrevista** | `2026-04-14` |
-| **Duración** | `[HH:MM]` |
+| **Duración** | `05:31` |
 | **Enlace al video** | [Ver entrevista en Microsoft Stream](`URL`) |
 
 **Resumen:**
