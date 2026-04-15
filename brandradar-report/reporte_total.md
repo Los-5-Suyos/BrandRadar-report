@@ -170,7 +170,7 @@ Gráfico de red (network graph) de ramas en el repositorio de GitHub.
   - [2.4. Big Picture Event Storming](#24-big-picture-event-storming)
   - [2.5. Ubiquitous Language](#25-ubiquitous-language)
     
-  #### [Capítulo III: Requirements Specification](./brandradar-report/docs/capitulo-3.md)
+  #### [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification-1)
   - [3.1. User Stories](./brandradar-report/docs/capitulo-3.md#31-user-stories)
   - [3.2. Impact Mapping](./brandradar-report/docs/capitulo-3.md#32-impact-mapping)
   - [3.3. Product Backlog](./brandradar-report/docs/capitulo-3.md#33-product-backlog)
