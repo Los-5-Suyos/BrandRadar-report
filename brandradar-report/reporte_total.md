@@ -9,7 +9,7 @@
 
 <br>
 
-# 📄 Informe de Proyecto - Avance 1
+#  Informe de Proyecto - Avance 1
 
 ## Presentado por ´Los 5 Suyos´
 
@@ -115,13 +115,11 @@ En GitHub se presenta un timeline de las principales ramas creadas por cada inte
 
 - **main**: Rama principal que contiene la versión estable del proyecto.
 - **develop**: Rama de desarrollo donde se integran las nuevas características antes de ser fusionadas a `main`.
-- **feature/sprintX-pierina**: Rama utilizada por Pierina para el desarrollo de las tareas correspondientes a un determinado sprint.
-- **feature/sprintX-anjali**: Rama utilizada por Anjali para el desarrollo de las tareas correspondientes a un determinado sprint.
-- **feature/sprintX-quique**: Rama utilizada por Quique para el desarrollo de las tareas correspondientes a un determinado sprint.
-- **feature/sprintX-gonzalo**: Rama utilizada por Gonzalo para el desarrollo de las tareas correspondientes a un determinado sprint.
-- **feature/sprintX-diego**: Rama utilizada por Diego para el desarrollo de las tareas correspondientes a un determinado sprint.
-- **release/vX.X.X**: Rama creada para preparar versiones candidatas al reporte final, siguiendo Semantic Versioning 2.0.0. En esta rama se realizan ajustes finales como correcciones menores y revisiones antes de integrarla a `main`.
-- **hotfix/urgent-fix**: Rama utilizada para aplicar correcciones urgentes a la rama `main` en caso de detectar errores críticos.
+- **feature/sprintX-brianna**: Rama utilizada por Brianna para el desarrollo de las tareas correspondientes a un determinado sprint.
+- **feature/sprintX-jfranco**: Rama utilizada por JeanFranco para el desarrollo de las tareas correspondientes a un determinado sprint.
+- **feature/sprintX-joaquin**: Rama utilizada por Joaquin para el desarrollo de las tareas correspondientes a un determinado sprint.
+- **feature/sprintX-victor**: Rama utilizada por Victor para el desarrollo de las tareas correspondientes a un determinado sprint.
+- **feature/sprintX-luis**: Rama utilizada por Luis para el desarrollo de las tareas correspondientes a un determinado sprint.
 
 ---
 
