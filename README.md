@@ -68,7 +68,59 @@
 
 **URL del Repositorio:** [`https://github.com/Los-5-Suyos/BrandRadar-AV1.git`](https://github.com/Los-5-Suyos/BrandRadar-AV1.git)
 
-*(Esta sección se irá expandiendo con cada entrega)*
+---
+
+Para el desarrollo del AV1, cada participante del equipo realizó las siguientes tareas:
+
+| Integrante | Tareas Realizadas |
+|------------|------------------|
+| Salinas Guzmán, Brianna Cristina | Tareas |
+| Jáuregui Cerna, Jean Franco | CTareas |
+| Cruzalegui Herrera, Joaquin | Tareas |
+| Garcia Paredes, Victor Manuel | Tareas |
+| Acuña de la Cruz, Luis | Tareas |
+
+---
+
+## Gestión del repositorio en GitHub
+
+En GitHub se presenta un timeline de las principales ramas creadas por cada integrante del equipo, así como los procesos de merge realizados. Todas las ramas fueron gestionadas siguiendo el flujo de trabajo GitFlow, adaptado para una organización que utiliza un sistema de control de versiones.
+
+---
+
+## Integrantes y usuarios de GitHub
+
+| Integrante | Usuario GitHub |
+|------------|----------------|
+| Salinas Guzmán, Brianna Cristina | brianna-salinas |
+| Jáuregui Cerna, Jean Franco | JFranco556 |
+| Cruzalegui Herrera, Joaquin | JoaquinCruzalegui |
+| Garcia Paredes, Victor Manuel | vicmacode |
+| Acuña de la Cruz, Luis | L2006delacruz |
+
+---
+
+## Ramas principales del repositorio
+
+- **main**: Rama principal que contiene la versión estable del proyecto.
+- **develop**: Rama de desarrollo donde se integran las nuevas características antes de ser fusionadas a `main`.
+- **feature/sprintX-pierina**: Rama utilizada por Pierina para el desarrollo de las tareas correspondientes a un determinado sprint.
+- **feature/sprintX-anjali**: Rama utilizada por Anjali para el desarrollo de las tareas correspondientes a un determinado sprint.
+- **feature/sprintX-quique**: Rama utilizada por Quique para el desarrollo de las tareas correspondientes a un determinado sprint.
+- **feature/sprintX-gonzalo**: Rama utilizada por Gonzalo para el desarrollo de las tareas correspondientes a un determinado sprint.
+- **feature/sprintX-diego**: Rama utilizada por Diego para el desarrollo de las tareas correspondientes a un determinado sprint.
+- **release/vX.X.X**: Rama creada para preparar versiones candidatas al reporte final, siguiendo Semantic Versioning 2.0.0. En esta rama se realizan ajustes finales como correcciones menores y revisiones antes de integrarla a `main`.
+- **hotfix/urgent-fix**: Rama utilizada para aplicar correcciones urgentes a la rama `main` en caso de detectar errores críticos.
+
+---
+
+## AV1 - Network Graph
+
+Gráfico de red (network graph) de ramas en el repositorio de GitHub.
+
+
+
+
 
 ---
 
