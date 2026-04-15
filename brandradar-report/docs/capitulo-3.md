@@ -113,14 +113,53 @@
 
 ![Product Backlog](../assets/product-backlog/product-backlog.png)
 
-| # Orden | User Story ID | Título | Descripción | Story Points |
-|:-------:|:-------------:|:------:|:------------|:------------:|
-| 1 | US01 | `[Título]` | Como `[rol]`, deseo `[acción]`, para `[beneficio]`. | `1 / 2 / 3 / 5 / 8` |
-| 2 | US02 | `[Título]` | Como `[rol]`, deseo `[acción]`, para `[beneficio]`. | |
-| 3 | US03 | `[Título]` | Como `[rol]`, deseo `[acción]`, para `[beneficio]`. | |
-| 4 | US04 | `[Título]` | Como `[rol]`, deseo `[acción]`, para `[beneficio]`. | |
-| 5 | US05 | `[Título]` | Como `[rol]`, deseo `[acción]`, para `[beneficio]`. | |
-| n | TS01 | `[Technical Story]` | Como Developer, deseo `[endpoint]`, para `[propósito]`. | |
+| Story ID | Título | Story Points | Prioridad |
+|:--------:|:------:|:------------:|:---------:|
+| US01 | `Integración de APIs Externas` | 8 | Alta |
+| US02 | `Filtrado de Exclusión` | 3 | Alta |
+| US03 | `Live Feed Monitor` | 5 | Alta |
+| US04 | `Implementación de Webhooks` | 5 | Media |
+| US05 | `Detección de Sarcasmo e Ironía` | 13 | Alta |
+| US06 | `Ajuste Manual de Polaridad` | 3 | Media |
+| US07 | `Visualización de Word Cloud` | 5 | Media |
+| US08 | `Configuración de Semáforo de Crisis` | 5 | Alta |
+| US09 | `Alertas Multicanal en Móvil` | 8 | Alta |
+| US10 | `Asignación de Tickets de Respuesta` | 5 | Media |
+| US11 | `Gráfico de Share of Sentiment` | 8 | Media |
+| US12 | `Rastreo de Hashtags Competidores` | 5 | Baja |
+| US13 | `Reportes Automatizados PDF` | 8 | Alta |
+| US14 | `Filtro por Alcance de Influencer` | 3 | Media |
+| US15 | `Heatmap de Menciones Negativas` | 5 | Media |
+| US16 | `Exportación de Data Cruda (JSON/CSV)` | 5 | Baja |
+| US17 | `Onboarding de Usuario Nuevo` | 5 | Media |
+| US18 | `Comentarios Internos de Equipo` | 3 | Baja |
+| US19 | `Selector de Multiespacio (Workspaces)` | 5 | Alta |
+| US20 | `Optimización de Interfaz Móvil` | 8 | Alta |
+| US21 | `Galería de Casos de Éxito` | 5 | Media |
+| US22 | `Archivo Visual de Campañas` | 5 | Baja |
+| US23 | `Sugerencia de Respuestas Empáticas` | 8 | Alta |
+| US24 | `Identificación de Leads Calientes` | 5 | Alta |
+| US25 | `Sugerencia de Scripts de Venta` | 8 | Media |
+| US26 | `Monitor de Voz del Cliente` | 8 | Media |
+| US27 | `Sincronización de Google Maps` | 13 | Alta |
+| US28 | `Monitor de Múltiples Sucursales` | 5 | Media |
+| US29 | `Fidelización de Clientes VIP` | 5 | Baja |
+| US30 | `Sentimiento de Atención (Personal)` | 8 | Media |
+| US31 | `Detección de Caída de Servicios Web` | 5 | Alta |
+| US32 | `Monitor de Reputación de Aliados` | 5 | Baja |
+| US33 | `Sugerencia de Hooks Audiovisuales` | 13 | Alta |
+| US34 | `Análisis de Retención de Video` | 8 | Media |
+| US35 | `Benchmarking de Hooks Competidores` | 8 | Media |
+| US36 | `Tracking de Conversión (ROI)` | 8 | Alta |
+| US37 | `Integración de Métricas TikTok` | 5 | Media |
+| US38 | `Identificación de Influencers de Nicho` | 5 | Baja |
+| US39 | `Detección de Trending Topics Locales` | 8 | Media |
+| US40 | `Análisis de Campaña Política` | 8 | Media |
+| US41 | `Simulador de Impacto de Comunicado` | 13 | Alta |
+| US42 | `Histórico de Resoluciones de Crisis` | 5 | Baja |
+| US43 | `Dashboard de Tiempo de Respuesta Operativo` | 3 | Baja |
+| US44 | `Detección de Competencia Desleal (Market)` | 5 | Media |
+| US45 | `KPI de Retención Mensual de Clientes` | 8 | Media |
 
 ---
 
