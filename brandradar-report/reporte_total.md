@@ -1032,7 +1032,9 @@ Al reflexionar sobre el impacto del entorno digital, Karim mencionó que si tuvi
 
 </div>
 
-*(Redactar de forma descriptiva las respuestas del entrevistado a las preguntas realizadas. Incluir todas las características objetivas y subjetivas: personalidad, marcas e influencias, tecnología, canales de interacción, browser, dispositivos, etc.)*
+*Romina Apaza, especialista en marketing de 22 años de Arequipa, trabaja como freelance gestionando el monitoreo digital de dos marcas. Su labor se centra en actualizar redes sociales, analizar la interacción del público y mantener coherente la comunicación con la identidad de marca, principalmente en plataformas como Instagram y TikTok.
+Su proceso diario consiste en revisar comentarios, mensajes y menciones, evaluar la percepción del público y observar tendencias, dedicando entre una y dos horas al día y más tiempo semanalmente para reportes. Identifica el monitoreo manual como la parte más demandante de su trabajo, ya que requiere constante observación.
+Destaca por su capacidad de análisis, observación y adaptación bajo presión. Considera que herramientas automatizadas con alertas en tiempo real mejorarían su eficiencia, permitiéndole reaccionar más rápido ante crisis y enfocarse más en la estrategia que en el seguimiento constante.*
 
 <br>
 
@@ -1061,7 +1063,7 @@ Al reflexionar sobre el impacto del entorno digital, Karim mencionó que si tuvi
 
 </div>
 
-La entrevista fue realiza a Esteban Andrés Medina Hernández (27 años, vive en Breña) con el fin de recabar información para un proyecto enfocado en el monitoreo y análisis en tiempo real de la reputación digital de marcas. Esteban se presenta como editor audiovisual y marketer: trabaja con varios clientes, pero su cliente principal es una clínica dental donde se desempeña como jefe de marketing; anteriormente tuvo una agencia, pero actualmente trabaja como freelance. Relata que su interés por la edición comenzó muy joven (a los 12–13 años), primero editando para sí mismo y luego, al estudiar Ciencias de la Comunicación, asumiendo trabajos de otros estudiantes; durante la pandemia dio un salto profesional al colaborar con marcas relevantes (menciona campañas o trabajos para JBL, GG Poker y BCP), además de su trabajo sostenido con la clínica Dental Protect.
+La entrevista fue realizada a Esteban Andrés Medina Hernández (27 años, vive en Breña) con el fin de recabar información para un proyecto enfocado en el monitoreo y análisis en tiempo real de la reputación digital de marcas. Esteban se presenta como editor audiovisual y marketer: trabaja con varios clientes, pero su cliente principal es una clínica dental donde se desempeña como jefe de marketing; anteriormente tuvo una agencia, pero actualmente trabaja como freelance. Relata que su interés por la edición comenzó muy joven (a los 12–13 años), primero editando para sí mismo y luego, al estudiar Ciencias de la Comunicación, asumiendo trabajos de otros estudiantes; durante la pandemia dio un salto profesional al colaborar con marcas relevantes (menciona campañas o trabajos para JBL, GG Poker y BCP), además de su trabajo sostenido con la clínica Dental Protect.
 
 Sobre su desempeño profesional, comenta que bajo presión se considera resiliente y con “mentalidad de crecimiento”: interpreta las dificultades como aprendizaje y experiencia para optimizar procesos y resolver problemas con más eficacia. Señala como fortaleza principal su nivel de dominio en edición y postproducción (preproducción, producción y postproducción), al punto de poder entender con rapidez lo que el cliente quiere con solo conversar y traducirlo en piezas que los dejan satisfechos.
 
