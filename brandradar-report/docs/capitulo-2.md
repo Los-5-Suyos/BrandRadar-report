@@ -165,7 +165,7 @@ Tipo de empresa o agencia donde trabajas
 | **Ubicación** | `Surco` |
 | **Fecha de entrevista** | `2026-04-11` |
 | **Duración** | `15:00` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://1drv.ms/v/c/d936c864c8cca0bb/IQBCE_dtbeoPTYkZnSVxycpQASHO2xsa9YOUk000HVkybnE?e=gn42mC) — Inicia en `[00:00]` |
+| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://1drv.ms/v/c/d936c864c8cca0bb/IQBCE_dtbeoPTYkZnSVxycpQASHO2xsa9YOUk000HVkybnE?e=gn42mC) — Inicia en  |
 
 **Resumen:**
 </div>
@@ -201,7 +201,7 @@ Finalmente, considera que una aplicación podría ayudarle a fortalecer su image
 | **Ubicación** | `Surco` |
 | **Fecha de entrevista** | `2026-04-11` |
 | **Duración** | `09:03` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202012001_upc_edu_pe/IQAlodktDrH_RYNs0fTbCXXQAR0g-JyDOAB3OlwdYg47y2M?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=sZcbFk) — Inicia en `00:00` |
+| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202012001_upc_edu_pe/IQAlodktDrH_RYNs0fTbCXXQAR0g-JyDOAB3OlwdYg47y2M?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=sZcbFk) |
 
 **Resumen:**
 </div>
@@ -221,7 +221,7 @@ Al reflexionar sobre el impacto del entorno digital en sus ventas, Jenifer seña
 
 *Imagen de la entrevista*
 
-<img src="../assets/interviews/ss_entrevista_3.jpeg" alt="Screenshot Entrevista 3" width="500"/>
+<img src="../assets/interviews/ss_entrevista_3.jpeg" alt="Screenshot Entrevista 3" width="1000"/>
 
 <br>
 
@@ -232,7 +232,7 @@ Al reflexionar sobre el impacto del entorno digital en sus ventas, Jenifer seña
 | **Ubicación** | `San Isidro` |
 | **Fecha de entrevista** | `2026-04-12` |
 | **Duración** | `07:12` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202417228_upc_edu_pe/IQAYoH-uIHznQpUZ1saYqN0MATxVGo0pPEIlJliRq-sOhf8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=pA0fuu) — Inicia en `[00:00]` |
+| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202417228_upc_edu_pe/IQAYoH-uIHznQpUZ1saYqN0MATxVGo0pPEIlJliRq-sOhf8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=pA0fuu) |
 
 **Resumen:**
 
@@ -260,7 +260,7 @@ Al reflexionar sobre el impacto del entorno digital, Karim mencionó que si tuvi
 
 *Imagen de la entrevista*
 
-<img src="../assets/interviews/ss_entrevista_4.png" alt="Screenshot Entrevista 4" width="500"/>
+<img src="../assets/interviews/ss_entrevista_4.png" alt="Screenshot Entrevista 4" width="1000"/>
 
 <br>
 
@@ -269,9 +269,9 @@ Al reflexionar sobre el impacto del entorno digital, Karim mencionó que si tuvi
 | **Nombres y apellidos** | `Romina Apaza` |
 | **Edad** | `22 años` |
 | **Ubicación** | `Arequipa` |
-| **Fecha de entrevista** | `YYYY-MM-DD` |
+| **Fecha de entrevista** | `2026-04-14` |
 | **Duración** | `[HH:MM]` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](`URL`) — Inicia en `[MM:SS]` |
+| **Enlace al video** | [Ver entrevista en Microsoft Stream](`URL`)` |
 
 **Resumen:**
 
@@ -287,7 +287,7 @@ Al reflexionar sobre el impacto del entorno digital, Karim mencionó que si tuvi
 
 *Imagen de la entrevista*
 
-<img src="../assets/interviews/ss_entrevista_5.png" alt="Screenshot Entrevista 5" width="500"/>
+<img src="../assets/interviews/ss_entrevista_5.png" alt="Screenshot Entrevista 5" width="1000"/>
 
 <br>
 
@@ -298,7 +298,7 @@ Al reflexionar sobre el impacto del entorno digital, Karim mencionó que si tuvi
 | **Ubicación** | `Breña, Lima` |
 | **Fecha de entrevista** | `2026-04-13` |
 | **Duración** | `16:11` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202012001_upc_edu_pe/IQClneebUgtXSJe2UFApCmAAASuqxOfQdrm9aQzKm2Gkgpo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=OjJ9gn) — Inicia en `[00:00]` |
+| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202012001_upc_edu_pe/IQClneebUgtXSJe2UFApCmAAASuqxOfQdrm9aQzKm2Gkgpo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=OjJ9gn)|
 
 **Resumen:**
 
@@ -330,7 +330,7 @@ En ese contexto, considera que una herramienta que envíe alertas automáticas e
 
 *Imagen de la entrevista*
 
-<img src="../assets/interviews/ss_entrevista_6.png" alt="Screenshot Entrevista 6" width="500"/>
+<img src="../assets/interviews/ss_entrevista_6.png" alt="Screenshot Entrevista 6" width="1000"/>
 
 <br>
 
@@ -341,7 +341,7 @@ En ese contexto, considera que una herramienta que envíe alertas automáticas e
 | **Ubicación** | `[Distrito]` |
 | **Fecha de entrevista** | `YYYY-MM-DD` |
 | **Duración** | `[HH:MM]` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](`URL`) — Inicia en `[MM:SS]` |
+| **Enlace al video** | [Ver entrevista en Microsoft Stream](`URL`) |
 
 **Resumen:**
 
