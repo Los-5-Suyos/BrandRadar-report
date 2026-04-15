@@ -264,6 +264,7 @@ Al reflexionar sobre el impacto del entorno digital, Karim mencionó que si tuvi
 
 #### Entrevista 1
 
+
 *Imagen de la entrevista*
 
 <img src="../assets/interviews/ss_entrevista_4.png" alt="Screenshot Entrevista 4" width="700"/>
@@ -279,13 +280,22 @@ Al reflexionar sobre el impacto del entorno digital, Karim mencionó que si tuvi
 | **Ubicación** | `Arequipa` |
 | **Fecha de entrevista** | `2026-04-14` |
 | **Duración** | `05:31` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](`URL`) |
+| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410239_upc_edu_pe/IQCZytpHumWSQIGg_8klU0SaAeGDq2KGqbSibNVgBLzLz6s?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QbskUU) |
 
 **Resumen:**
 
 </div>
 
-*(Redactar de forma descriptiva las respuestas del entrevistado a las preguntas realizadas. Incluir todas las características objetivas y subjetivas: personalidad, marcas e influencias, tecnología, canales de interacción, browser, dispositivos, etc.)*
+Romina Apaza se desempeña como freelance en monitoreo de marcas en entornos digitales, trabajando actualmente con dos marcas. Su labor principal consiste en gestionar la presencia en redes sociales, analizar la interacción del público y asegurar que la comunicación sea coherente con la identidad de cada marca.
+
+Está especialmente interesada en la comunicación política y la gestión digital de comunidades municipales, lo que la ha llevado a desarrollar habilidades en análisis de audiencias y manejo de redes sociales. Trabaja principalmente con plataformas como Instagram y TikTok, enfocándose en comprender el comportamiento del público y en construir comunidades sólidas alrededor de las marcas.
+
+En su trabajo diario, revisa redes sociales, analiza comentarios, mensajes y menciones, evalúa la interacción con el público y observa tendencias tanto propias como de la competencia. Este proceso le toma entre una y dos horas diarias, mientras que semanalmente dedica más tiempo a la elaboración de reportes.
+
+Romina identifica el monitoreo como la parte más demandante de su trabajo, ya que es un proceso manual que requiere observación constante. Ha enfrentado situaciones como la propagación de comentarios negativos que no se detectaron a tiempo, lo que evidencia la necesidad de respuestas rápidas ante posibles crisis.
+
+Entre sus fortalezas destacan su capacidad de análisis, observación y adaptación bajo presión, priorizando tareas para resolver situaciones complejas. Considera que el uso de herramientas automatizadas con alertas en tiempo real mejoraría significativamente su eficiencia, permitiéndole enfocarse más en el análisis estratégico que en el monitoreo operativo.
+
 
 <br>
 
