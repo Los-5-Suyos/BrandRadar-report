@@ -1556,22 +1556,20 @@ La navegación está diseñada pensando en dos segmentos principales: dueños de
 
 ---
 
+<br>
+
 ## 4.3. Landing Page UI Design
 
-En esta sección se presenta la propuesta de interfaz de usuario (UI) para el Landing Page de *BrandRadar*. El diseño se basa en los hallazgos obtenidos durante el proceso de investigación (entrevistas y Lean UX), priorizando las necesidades de los usuarios, especialmente la visualización clara de la reputación digital y el acceso rápido a información relevante.
+>*En esta sección se presenta la propuesta de interfaz de usuario (UI) para el Landing Page de *BrandRadar*. El diseño se basa en los hallazgos obtenidos durante el proceso de investigación (entrevistas y Lean UX), priorizando las necesidades de los usuarios, especialmente la visualización clara de la reputación digital y el acceso rápido a información relevante.*
 
-Asimismo, se han aplicado principios de diseño centrados en el usuario, una arquitectura de información clara y un enfoque visual moderno, con el objetivo de comunicar de manera efectiva el valor de la plataforma y facilitar la conversión de usuarios.
+>*Asimismo, se han aplicado principios de diseño centrados en el usuario, una arquitectura de información clara y un enfoque visual moderno, con el objetivo de comunicar de manera efectiva el valor de la plataforma y facilitar la conversión de usuarios.*
 
 
 ### 4.3.1. Landing Page Wireframe
 
-Los wireframes representan la estructura base del Landing Page, permitiendo definir la organización de contenidos, jerarquía visual y flujo de navegación antes de aplicar estilos visuales.
+> *Los wireframes representan la estructura base del Landing Page, permitiendo definir la organización de contenidos, jerarquía visual y flujo de navegación antes de aplicar estilos visuales. Se desarrollaron versiones para Desktop Web Browser y Mobile Web Browser:*
 
-Se desarrollaron versiones para:
-
-- Desktop Web Browser
-  
-- Mobile Web Browser
+<br>
 
 <div align="center">
 
