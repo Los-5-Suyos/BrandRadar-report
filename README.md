@@ -1575,13 +1575,13 @@ La navegación está diseñada pensando en dos segmentos principales: dueños de
 
 *Elaboración propia en Figma*
 
-![Landing Page Wireframe Desktop](brandradar-report/assets/images/landingwireframe-desktop.png)
+![Landing Page Wireframe Desktop](brandradar-report/assets/landing-page/landingwireframe-desktop.png)
 
 **Mobile Web Browser**
 
 *Elaboración propia en Figma*
 
-![Landing Page Wireframe Mobile](brandradar-report/assets/images/landingwireframe-mobile.png)
+![Landing Page Wireframe Mobile](brandradar-report/assets/landing-page/landingwireframe-mobile.png)
 
 </div>
 
@@ -1596,7 +1596,7 @@ La navegación está diseñada pensando en dos segmentos principales: dueños de
 
 *Elaboración propia en Figma*
 
-![Landing Page Mockup Desktop](brandradar-report/assets/images/landingmockup-desktop.png)
+![Landing Page Mockup Desktop](brandradar-report/assets/landing-page/landingmockup-desktop.png)
 
 <br>
 
@@ -1604,7 +1604,7 @@ La navegación está diseñada pensando en dos segmentos principales: dueños de
 
 *Elaboración propia en Figma*
 
-![Landing Page Mockup Mobile](brandradar-report/assets/images/landingmockup-mobile.png)
+![Landing Page Mockup Mobile](brandradar-report/assets/landing-page/landingmockup-mobile.png)
 
 </div>
 
