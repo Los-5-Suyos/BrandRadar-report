@@ -1158,11 +1158,15 @@ Estos arquetipos han sido construidos a partir del análisis cualitativo de las 
 
 ---
 
-**User Persona — Segmento 2: `[Nombre del Persona]`**
+**User Persona 1 — Segmento 2: `Romina Apaza`**
 
-*(Captura de la ficha elaborada en UXPressia)*
 
-![User Persona Segmento 2](brandradar-report/assets/user-personas/user-persona-seg2.png)
+![User Persona 1 Segmento 2](brandradar-report/assets/user-personas/user-persona3-seg2.png)
+
+**User Persona 2 — Segmento 2: `Esteban Medina`**
+
+
+![User Persona 2 Segmento 2](brandradar-report/assets/user-personas/user-persona4-seg2.png)
 
 ---
 
