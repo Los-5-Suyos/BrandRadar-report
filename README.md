@@ -1785,20 +1785,29 @@ La navegación está diseñada pensando en dos segmentos principales: dueños de
 
 ### 5.1.1. Software Development Environment Configuration
 
-*(Especificar los productos de software que deben utilizar los miembros del equipo para colaborar en el ciclo de vida del producto digital)*
+*(*(REQUIREMENTS MANAGEMENT)*
+*(Miro: Plataforma en línea que permite la colaboración en tiempo real a través de pizarras digitales. Ofrece herramientas para la creación de diagramas, mapas mentales, diagramas de flujo y más. En este caso, utilizamos Miro para la elaboración de As-Is y To-Be Scenarios Mapping, así como para el Impact Mapping de cada segmento objetivo.
 
-| Categoría | Producto | Propósito | Ruta / URL |
-|:----------|:--------:|:---------:|:-----------|
-| Project Management | `[Producto]` | `[Descripción del propósito]` | `[URL]` |
-| Requirements Management | `[Producto]` | `[Descripción del propósito]` | `[URL]` |
-| Product UX/UI Design | Figma | Wireframes, Mockups y Prototipos | https://figma.com |
-| Product UX/UI Design | UXPressia | User Personas, Journey Maps, Empathy Maps | https://uxpressia.com |
-| Software Development | IntelliJ IDEA / VS Code | Desarrollo de Web Services y Frontend | `[URL de descarga]` |
-| Software Development | Angular CLI | Frontend Web Application | https://angular.io |
-| Software Development | Spring Boot | RESTful Web Services | https://spring.io |
-| Software Deployment | `[Plataforma cloud]` | Despliegue de productos | `[URL]` |
-| Software Documentation | Swagger / OpenAPI | Documentación de Web Services | `[URL]` |
-| Version Control | Git + GitHub | Control de versiones | https://github.com |
+UXPressia: Herramienta especializada en la creación de mapas de experiencia de usuario (UX). En este caso, utilizamos UXPressia para la elaboración del Impact Mapping para cada segmento objetivo (Dueños y Gerentes de PyMEs y Directores de Agencias Digitales).
+
+Figma: Herramienta de diseño de interfaces de usuario (UI) y prototipado colaborativo basada en la nube. En este caso, utilizamos Figma para la elaboración del prototipo de alta fidelidad de la aplicación web BrandRadar.
+
+PivotalTracker (o Jira/Trello según tu preferencia): Herramienta de gestión de proyectos basada en tableros. En este caso, utilizamos PivotalTracker para visualizar y actualizar el estado de las tareas e historias de usuario pertenecientes al sprint a desarrollar.)*
+
+*(Software Development:
+
+Visual Studio Code: Editor de código fuente desarrollado por Microsoft que ofrece una amplia gama de funcionalidades para programadores. En este caso, utilizamos Visual Studio Code como nuestro entorno de desarrollo integrado principal para escribir, editar y depurar el código de la aplicación.
+
+HTML5: Lenguaje estándar utilizado para estructurar y presentar el contenido de la aplicación web. En este caso, utilizamos HTML5 para la creación de la interfaz de la landing page y del dashboard de BrandRadar.
+
+CSS3 / Tailwind CSS: CSS (Cascading Style Sheets) es un lenguaje de diseño utilizado para estilizar la presentación de documentos HTML. En este caso, utilizamos CSS3 junto con Tailwind CSS para lograr un diseño moderno, responsive y consistente en toda la plataforma.
+
+JavaScript / React: Lenguaje de programación que permite añadir interactividad y dinamismo a las páginas web. En este caso, utilizamos JavaScript (con React en fases posteriores) para implementar las funcionalidades de monitoreo en tiempo real, alertas y visualización de datos.
+
+GitHub: Plataforma de desarrollo colaborativo basada en la nube que utiliza el sistema de control de versiones Git. En este caso, utilizamos GitHub como repositorio remoto para almacenar, gestionar y colaborar en el código fuente del proyecto.
+
+Netlify / Vercel: Plataforma de alojamiento y despliegue web que simplifica el proceso de implementación de sitios y aplicaciones. En este caso, utilizamos Netlify/Vercel para desplegar la landing page y la aplicación web directamente desde el repositorio de GitHub, facilitando la implementación continua.)*)*
+
 
 ---
 
