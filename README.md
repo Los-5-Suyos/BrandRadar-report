@@ -1806,13 +1806,19 @@ PivotalTracker (o Jira/Trello según tu preferencia): Herramienta de gestión de
 
 Visual Studio Code: Editor de código fuente desarrollado por Microsoft que ofrece una amplia gama de funcionalidades para programadores. En este caso, utilizamos Visual Studio Code como nuestro entorno de desarrollo integrado principal para escribir, editar y depurar el código de la aplicación.
 
+<img src="brandradar-report/assets/images/visucod.jpg" alt="BrandRadar Logo" width="320"/>
+
 HTML5: Lenguaje estándar utilizado para estructurar y presentar el contenido de la aplicación web. En este caso, utilizamos HTML5 para la creación de la interfaz de la landing page y del dashboard de BrandRadar.
+
+<img src="brandradar-report/assets/images/html.jpg" alt="BrandRadar Logo" width="320"/>
 
 CSS3 / Tailwind CSS: CSS (Cascading Style Sheets) es un lenguaje de diseño utilizado para estilizar la presentación de documentos HTML. En este caso, utilizamos CSS3 junto con Tailwind CSS para lograr un diseño moderno, responsive y consistente en toda la plataforma.
 
-JavaScript / React: Lenguaje de programación que permite añadir interactividad y dinamismo a las páginas web. En este caso, utilizamos JavaScript (con React en fases posteriores) para implementar las funcionalidades de monitoreo en tiempo real, alertas y visualización de datos.
+<img src="brandradar-report/assets/images/css.jpg" alt="BrandRadar Logo" width="320"/>
 
 GitHub: Plataforma de desarrollo colaborativo basada en la nube que utiliza el sistema de control de versiones Git. En este caso, utilizamos GitHub como repositorio remoto para almacenar, gestionar y colaborar en el código fuente del proyecto.
+
+<img src="brandradar-report/assets/images/github.jpg" alt="BrandRadar Logo" width="320"/>
 
 Netlify / Vercel: Plataforma de alojamiento y despliegue web que simplifica el proceso de implementación de sitios y aplicaciones. En este caso, utilizamos Netlify/Vercel para desplegar la landing page y la aplicación web directamente desde el repositorio de GitHub, facilitando la implementación continua.)*)*
 
@@ -1821,7 +1827,8 @@ Netlify / Vercel: Plataforma de alojamiento y despliegue web que simplifica el p
 
 ### 5.1.2. Source Code Management
 
-*(Para todo el ciclo de vida de nuestro proyecto, utilizaremos el sistema de control de versiones Git, donde la evidencia será visualizada y registrada en la plataforma de GitHub de nuestra organización. Se podrá visualizar todos los cambios y modificaciones realizadas por cada miembro del equipo. URL de GitHub: https://github.com/Los-5-Suyos/BrandRadar-report/graphs/contributors)*
+*(Para todo el ciclo de vida de nuestro proyecto, utilizaremos el sistema de control de versiones Git, donde la evidencia será visualizada y registrada en la plataforma de GitHub de nuestra organización. Se podrá visualizar todos los cambios y modificaciones realizadas por cada miembro del equipo. 
+URL de GitHub: https://github.com/Los-5-Suyos/BrandRadar-report/graphs/contributors)*
 
 ---
 
