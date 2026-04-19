@@ -11,11 +11,11 @@
 
 #  Informe de Proyecto - Avance 1
 
-## Presentado por ´Los 5 Suyos´
+## Presentado por "Los 5 Suyos"
 
 <img src="brandradar-report/assets/images/brandradar.png" alt="BrandRadar Logo" width="320"/>
 
-## Startup: BrandRadar
+## Startup analizada: BrandRadar
 
 *Monitoreo de reputación digital en tiempo real para marcas y empresas*
 
@@ -56,7 +56,6 @@
 | Versión | Fecha | Participantes | Descripción de modificación |
 |:-------:|:-----:|:-----:|:---------------------------|
 | AV1 | 2026-04-08 | Salinas Guzmán, Brianna Cristina <br> Jáuregui Cerna, Jean Franco <br> Cruzalegui Herrera, Joaquin <br> Garcia Paredes, Victor Manuel <br> Acuña de la Cruz, Luis | Avance 1 del reporte del proyecto y primera versión de la landing page |
-| | | | |
 
 </div>
 
@@ -72,15 +71,15 @@
 
 <br>
 
-Para el desarrollo del AV1, cada participante del equipo realizó las siguientes tareas:
+Para el desarrollo del AV1, cada integrante contribuyó de la siguiente manera al desarrollo del avance 1:
 
 | Integrante | Tareas Realizadas |
 |------------|------------------|
-| Salinas Guzmán, Brianna Cristina | Tareas |
-| Jáuregui Cerna, Jean Franco | Tareas |
-| Cruzalegui Herrera, Joaquin | Tareas |
-| Garcia Paredes, Victor Manuel | Tareas |
-| Acuña de la Cruz, Luis | Tareas |
+| Salinas Guzmán, Brianna Cristina | Elaboración del Student Outcome, registro de entrevistas, redacción del Capítulo I: Introducción, desarrollo de la sección 4.3 (Landing Page UI Design), modelado de diagramas de clases (4.7.1), diseño de base de datos (4.8), así como redacción de conclusiones y recomendaciones. |
+| Jáuregui Cerna, Jean Franco |  Elaboración del Student Outcome, registro de entrevistas, desarrollo del Capítulo III (Requirements Specification) y Capítulo IV (Product Design), incluyendo lineamientos de estilo general y web (4.1), así como el diseño UX/UI de aplicaciones web (4.4). |
+| Cruzalegui Herrera, Joaquin | Elaboración del Student Outcome, registro de entrevistas, participación en el Capítulo II, desarrollo de herramientas de análisis como User Task Matrix, User Journey Mapping y Empathy Mapping (2.3), modelado de eventos (2.4), definición de lenguaje ubicuo (2.5) y desarrollo del Sprint 1 (5.2.1). |
+| Garcia Paredes, Victor Manuel | Elaboración del Student Outcome, registro de entrevistas, desarrollo de la sección 1.3 (Segmentos objetivo), participación en el Capítulo II (Requirements Elicitation & Analysis), prototipado de aplicaciones web (4.5), desarrollo de arquitectura basada en Domain-Driven Design (4.6) y diseño orientado a objetos (4.7). |
+| Acuña de la Cruz, Luis | Elaboración del Student Outcome, registro de entrevistas, desarrollo de la arquitectura de información (4.2), incluyendo sistemas de organización, etiquetado, búsqueda y navegación, así como participación en el Capítulo V (Product Implementation, Validation & Deployment) y gestión de configuración del software (5.1 y 5.2). |
 
 </div>
 
@@ -88,7 +87,9 @@ Para el desarrollo del AV1, cada participante del equipo realizó las siguientes
 
 ### Gestión del repositorio en GitHub
 
-En GitHub se presenta un timeline de las principales ramas creadas por cada integrante del equipo, así como los procesos de merge realizados. Todas las ramas fueron gestionadas siguiendo el flujo de trabajo GitFlow, adaptado para una organización que utiliza un sistema de control de versiones.
+En el repositorio de GitHub se evidencia una línea de tiempo que refleja la evolución del proyecto, incluyendo las principales ramas creadas por cada integrante del equipo, así como los procesos de integración (merge) realizados. Asimismo, la gestión de dichas ramas se llevó a cabo siguiendo el flujo de trabajo GitFlow, el cual fue adaptado a las necesidades del equipo para garantizar una adecuada organización, el control de versiones y el desarrollo colaborativo del proyecto. 
+
+Este enfoque permitió mantener una estructura ordenada durante el desarrollo, evitando conflictos entre versiones y facilitando la integración del trabajo en equipo.
 
 
 
@@ -114,12 +115,14 @@ En GitHub se presenta un timeline de las principales ramas creadas por cada inte
 ## Ramas principales del repositorio
 
 - **main**: Rama principal que contiene la versión estable del proyecto.
-- **develop**: Rama de desarrollo donde se integran las nuevas características antes de ser fusionadas a `main`.
-- **feature/sprintX-brianna**: Rama utilizada por Brianna para el desarrollo de las tareas correspondientes a un determinado sprint.
-- **feature/sprintX-jfranco**: Rama utilizada por JeanFranco para el desarrollo de las tareas correspondientes a un determinado sprint.
-- **feature/sprintX-joaquin**: Rama utilizada por Joaquin para el desarrollo de las tareas correspondientes a un determinado sprint.
-- **feature/sprintX-victor**: Rama utilizada por Victor para el desarrollo de las tareas correspondientes a un determinado sprint.
-- **feature/sprintX-luis**: Rama utilizada por Luis para el desarrollo de las tareas correspondientes a un determinado sprint.
+- **develop**: Rama de desarrollo donde se integran las nuevas funcionalidades antes de ser fusionadas a `main`.
+- **feature/sprintX-brianna**: Rama destinada al desarrollo de las tareas asignadas a Brianna en cada sprint.
+- **feature/sprintX-jfranco**: Rama destinada al desarrollo de las tareas asignadas a Jean Franco en cada sprint.
+- **feature/sprintX-joaquin**: Rama destinada al desarrollo de las tareas asignadas a Joaquin en cada sprint.
+- **feature/sprintX-victor**: Rama destinada al desarrollo de las tareas asignadas a Victor en cada sprint.
+- **feature/sprintX-luis**: Rama destinada al desarrollo de las tareas asignadas a Luis en cada sprint.
+  
+Esta estructura de ramas permite un desarrollo organizado y paralelo, facilitando la integración de cambios y reduciendo conflictos durante el proceso de desarrollo.
 
 ---
 
@@ -127,10 +130,11 @@ En GitHub se presenta un timeline de las principales ramas creadas por cada inte
 
 ## AV1 - Network Graph
 
-Gráfico de red (network graph) de ramas en el repositorio de GitHub.
+A continuación, se presenta el gráfico de red (network graph) del repositorio del proyecto, el cual permite visualizar la estructura de ramas, así como la interacción entre ellas a través de los procesos de integración (merge).
 
+<div align="center">
 <img src="assets/images/Network.png" alt="Gráfico de red Repositorio" width="300"/>
-
+</div>
 
 
 ---
