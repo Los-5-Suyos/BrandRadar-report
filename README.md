@@ -1819,13 +1819,13 @@ La navegación está diseñada pensando en dos segmentos principales: dueños de
 
 ## 4.7. Software Object-Oriented Design
 
->*En esta sección se presenta el diseño orientado a objetos del sistema Pawtient mediante diagramas de clases UML, los cuales describen la estructura interna de sus componentes. Los diagramas están organizados por bounded contexts, como gestión de pacientes, citas y suministros, permitiendo una clara separación de responsabilidades. Cada diagrama incluye clases, atributos, métodos y niveles de visibilidad, así como las relaciones entre ellas, especificando asociaciones y multiplicidades. Esto proporciona una visión estructurada del sistema y sirve como base para su implementación.*
+>*Esta sección presenta el diseño orientado a objetos de BrandRadar, traduciendo el modelo de dominio obtenido del Event Storming en una estructura de clases concreta lista para su implementación. Se aplican los principios SOLID y los patrones tácticos de Domain-Driven Design, organizando el sistema en seis bounded contexts: Account Management, Brand Setup, Monitoring, Sentiment Analysis, Alert Handling y Reporting.*
 
 <br>
 
 ### 4.7.1. Class Diagrams
 
- 
+>*Los diagramas de clases documentan la estructura estática de cada bounded context, mostrando clases, atributos, métodos y relaciones con sus multiplicidades. Se utilizan los estereotipos «aggregate root», «value object», «service» y «enum» para distinguir el rol de cada elemento dentro del dominio. La comunicación entre contextos se realiza exclusivamente a través de identificadores, nunca mediante referencias directas entre objetos de distintos contextos.*
 
 <br>
 
@@ -1833,9 +1833,10 @@ La navegación está diseñada pensando en dos segmentos principales: dueños de
 
 <br>
 
- 
+Este bounded context gestiona todo lo relacionado con la identidad y acceso de los usuarios en BrandRadar. Cubre el ciclo completo desde el registro hasta el inicio de sesión: la creación de la cuenta, la verificación del correo electrónico y el manejo de sesiones activas. Los dos actores del sistema, el PyME Owner y el Agency Manager, se diferencian únicamente por su UserRole, por lo que ambos comparten la misma clase User. Las credenciales se almacenan separadas del usuario principal para aislar la información sensible, y cada sesión queda registrada de forma independiente para permitir el control de accesos activos.
 
 <br>
+
 <div align="center">
   
 *Imagen del Class Diagram*
@@ -1852,9 +1853,10 @@ La navegación está diseñada pensando en dos segmentos principales: dueños de
 
 <br>
 
- 
+Este bounded context gestiona la configuración inicial de una marca dentro de BrandRadar. Cubre el proceso completo que debe realizar un usuario para que el sistema pueda comenzar a monitorear su reputación: registrar la información de la marca, definir las palabras clave a rastrear, conectar las fuentes de datos externas como redes sociales y configurar los parámetros del monitoreo. Una marca puede tener múltiples palabras clave y múltiples fuentes de datos conectadas, pero una sola configuración de monitoreo activa.
 
 <br>
+
 <div align="center">
   
 *Imagen del Class Diagram*
@@ -1872,9 +1874,10 @@ La navegación está diseñada pensando en dos segmentos principales: dueños de
 
 <br>
 
- 
+Este bounded context se encarga de la recolección automática de menciones desde las fuentes de datos externas configuradas por el usuario. Cada vez que el sistema ejecuta un ciclo de monitoreo, se crea un MonitoringJob que orquesta todo el proceso: conecta con las APIs externas, recolecta las menciones brutas, aplica las reglas de filtrado para descartar contenido irrelevante y almacena únicamente las menciones válidas para su posterior análisis. Una mención representa cualquier publicación o referencia encontrada en internet que coincide con las palabras clave definidas para una marca.
 
 <br>
+
 <div align="center">
   
 *Imagen del Class Diagram*
@@ -1891,7 +1894,8 @@ La navegación está diseñada pensando en dos segmentos principales: dueños de
 **Bounded Context: `Sentiment Analysis`**
 
 <br>
- 
+
+Este bounded context se encarga de analizar el contenido de cada mención recolectada por el proceso de monitoreo para determinar si expresa una opinión positiva, negativa o neutral hacia la marca. El análisis se delega a un servicio externo de procesamiento de lenguaje natural, y el resultado queda registrado como un SentimentResult vinculado a la mención. Cuando el resultado supera el umbral de negatividad configurado, el NegativeMentionDetector marca la mención para que el contexto de Alert Handling genere una alerta.
 
 <br>
 <div align="center">
@@ -1909,9 +1913,11 @@ La navegación está diseñada pensando en dos segmentos principales: dueños de
 **Bounded Context: `Alert Management`**
 
 <br>
- 
+
+Este bounded context gestiona el ciclo completo de respuesta ante menciones negativas detectadas por el análisis de sentimiento. Cuando una mención supera el umbral de riesgo, el sistema genera una Alert y notifica al usuario a través del canal configurado. El usuario puede revisar la alerta, ejecutar una acción de respuesta y el sistema registra todo el proceso en un log de auditoría. Esto permite a los usuarios de BrandRadar actuar rápidamente ante situaciones que representen un riesgo para la reputación de su marca.
 
 <br>
+
 <div align="center">
   
 *Imagen del Class Diagram*
@@ -1927,9 +1933,11 @@ La navegación está diseñada pensando en dos segmentos principales: dueños de
 **Bounded Context: `Reporting`**
 
 <br>
- 
+
+Este bounded context permite a los usuarios de BrandRadar visualizar y exportar los resultados del monitoreo y análisis de su marca. A partir de los datos acumulados de menciones y sentimiento, el sistema calcula las métricas de reputación del período solicitado y las presenta tanto en reportes exportables como en el dashboard en tiempo real. Es el punto final del flujo del sistema y el principal insumo para que el PyME Owner o el Agency Manager tomen decisiones estratégicas sobre la reputación de su marca.
 
 <br>
+
 <div align="center">
   
 *Imagen del Class Diagram*
@@ -1946,13 +1954,13 @@ La navegación está diseñada pensando en dos segmentos principales: dueños de
 
 ## 4.8. Database Design
 
->* *
+>*El diseño de base de datos de BrandRadar define la estructura persistente sobre la cual se almacena toda la información del sistema. Esta sección traduce el modelo de clases orientado a objetos hacia un esquema relacional concreto, estableciendo las tablas, columnas, tipos de datos, claves primarias, claves foráneas y restricciones necesarias para garantizar la integridad y consistencia de los datos. El diseño respeta los límites de cada bounded context definidos anteriormente, agrupando las tablas según el contexto al que pertenecen.*
 
 <br>
 
 ### 4.8.1. Database Diagrams
 
-* .*
+>*Los diagramas de base de datos presentados en esta sección representan el esquema relacional del sistema organizado por bounded context. Cada diagrama muestra las tablas con sus columnas y tipos de dato, las claves primarias (PK) y foráneas (FK), y las relaciones entre tablas con su cardinalidad. La nomenclatura de columnas sigue la convención de prefijo de tres letras establecida en el diseño de clases, manteniendo consistencia entre el modelo orientado a objetos y el esquema de base de datos.*
 
 <br>
 
