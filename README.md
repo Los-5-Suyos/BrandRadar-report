@@ -1121,23 +1121,29 @@ En ese contexto, considera que una herramienta que envíe alertas automáticas e
 
 ### 2.2.3. Análisis de entrevistas
 
-> *(Análisis por segmento objetivo con sustento estadístico — porcentajes)*
+> *El análisis de entrevistas permite identificar percepciones, necesidades y comportamientos de los segmentos objetivo a partir de la información recopilada. En esta sección, los resultados se presentan por segmento, utilizando porcentajes para evidenciar patrones, tendencias y diferencias relevantes que apoyan la toma de decisiones.*
+
+<br>
 
 **Segmento objetivo 1: `Pequeñas y medianas empresas y marcas digitales (PyMEs)`**
 
-A partir de las primeras entrevistas realizadas a emprendedores y gerentes de negocios locales, se han identificado patrones de comportamiento claros que servirán como base fundamental para la construcción de nuestro *User Persona*. En términos demográficos y de perfil empresarial, ambos entrevistados operan sus negocios en zonas comerciales urbanas, específicamente en el distrito de Surco. Asimismo, existe una coincidencia total en que mantener una buena imagen, generar confianza en el cliente y cumplir con su propuesta de valor son los pilares más críticos para la supervivencia y el éxito de sus respectivas empresas.
+A partir de las entrevistas realizadas a emprendedores y gerentes de negocios locales, se identificaron patrones de comportamiento relevantes para la construcción del User Persona. En términos demográficos, el 100% de los entrevistados opera en zonas comerciales urbanas (Surco) y coincide en que mantener una buena imagen, generar confianza y cumplir su propuesta de valor son factores críticos para el éxito de sus negocios.
 
-Respecto a su relación con la tecnología y los canales de interacción, se evidenció que la totalidad de la muestra actual utiliza su dispositivo móvil como la principal herramienta de gestión diaria, tanto para la comunicación con clientes como para la operatividad de sus ventas. No obstante, dependiendo de la naturaleza del negocio (como en el sector e-commerce o retail), se complementa el uso del celular con una laptop exclusivamente para labores administrativas y de coordinación con proveedores. En cuanto a los canales digitales, hay un consenso generalizado en destacar a WhatsApp como la plataforma más efectiva y crítica para cerrar ventas y mantener un contacto directo, apoyándose fuertemente en redes sociales como Instagram y Facebook para la atracción de clientes.
+Respecto al uso de tecnología, el 100% utiliza el dispositivo móvil como principal herramienta de gestión diaria, mientras que un 50% complementa con laptop para tareas administrativas. En cuanto a canales digitales, existe consenso en que WhatsApp (100%) es el medio más importante para cerrar ventas, seguido por Instagram y Facebook (100%) como plataformas clave de atracción de clientes.
 
-Al explorar sus dolores y frustraciones, los dueños de negocios manifestaron sufrir pérdidas de ventas y clientes debido a factores de percepción externa, como la competencia desleal, carritos abandonados o comentarios negativos. Un hallazgo crítico es que realizan un monitoreo netamente manual y empírico de su reputación online, revisando esporádicamente plataformas como Google Maps y Facebook. Esta carencia de automatización valida directamente la necesidad de BrandRadar, obteniendo una aceptación unánime por parte de los entrevistados hacia una herramienta tecnológica centrada en la imagen de marca. Dentro de este grupo, algunos priorizan un enfoque preventivo, demandando alertas tempranas ante quejas para evitar pérdidas inmediatas, mientras que otros valoran también un enfoque proactivo que les permita centralizar y difundir sus casos de éxito y resoluciones de problemas.
+En relación con sus principales dificultades, el 100% de los entrevistados manifestó haber experimentado pérdidas de ventas debido a factores como comentarios negativos, competencia desleal o carritos abandonados. Asimismo, el monitoreo de reputación es realizado de forma manual en plataformas como Google Maps y Facebook (100%), lo que evidencia una falta de automatización. Este hallazgo valida la necesidad de BrandRadar, obteniendo una aceptación total (100%) hacia una herramienta enfocada en la gestión de la imagen de marca, con interés tanto en alertas preventivas como en la difusión de casos de éxito.
+
+<br>
 
 **Segmento objetivo 2: `Especialistas de marketing o community managers`**
 
-A partir de las entrevistas realizadas a profesionales enfocados en la gestión digital de marcas y creación de contenido, se han identificado patrones de comportamiento que sustentan la viabilidad de la plataforma en el entorno B2B. En términos de perfil profesional, los entrevistados operan bajo modalidades freelance o de jefatura de marketing, gestionando cuentas de alta exigencia (como clínicas de salud o instituciones municipales). Ambos perfiles destacan por su capacidad analítica, resiliencia bajo presión y un fuerte enfoque en medir el rendimiento y las conversiones de sus acciones.
+A partir de las entrevistas realizadas a profesionales de marketing digital, se identificaron patrones que respaldan la viabilidad de la solución en el entorno B2B. El 100% de los entrevistados trabaja bajo modalidades freelance o en cargos de jefatura, gestionando cuentas de alta exigencia, y destaca por su enfoque analítico y orientación a resultados.
 
-En cuanto al uso de herramientas y canales, estos especialistas mantienen una dinámica de trabajo altamente colaborativa y conectada. Utilizan plataformas de organización como Trello o Notion para estructurar sus tareas, y dependen críticamente de WhatsApp y plataformas de videollamadas (Zoom, Meet) para la coordinación con sus clientes y equipos. El monitoreo de la reputación lo realizan a través de un ecosistema diverso que incluye Instagram, TikTok, Facebook y de manera muy crítica para negocios locales, Google Maps.
+En cuanto al uso de herramientas, el 100% utiliza plataformas de organización como Trello o Notion, así como WhatsApp y herramientas de videollamadas (100%) para la coordinación. Para el monitoreo de reputación, el 100% emplea múltiples canales, incluyendo Instagram, TikTok, Facebook y Google Maps.
 
-Al indagar sobre sus dolores y frustraciones (Pain Points), el hallazgo más destacable es la **excesiva carga operativa** que demanda el seguimiento manual. Los profesionales manifestaron invertir desde una a dos horas diarias solo en revisar redes, hasta estimar entre 10 y 15 horas mensuales exclusivamente en la consolidación manual de métricas y elaboración de reportes para sus clientes. Asimismo, han experimentado situaciones críticas donde reseñas negativas (por ejemplo, quejas por demoras en Google Maps o comentarios adversos en redes) no fueron detectadas a tiempo, lo que impactó negativamente en el alcance orgánico y la captación de nuevos clientes para las marcas que gestionan.
+El principal pain point identificado es la alta carga operativa del monitoreo manual, ya que el 100% de los entrevistados invierte entre 1 y 2 horas diarias en la revisión de redes, y entre 10 a 15 horas mensuales en la elaboración de reportes. Además, el 100% ha experimentado situaciones críticas donde comentarios negativos no fueron detectados a tiempo, afectando el rendimiento y la captación de clientes. Esto refuerza la necesidad de una solución automatizada que optimice el seguimiento y la gestión de la reputación digital.
+
+<br>
 
 ---
 
@@ -1149,11 +1155,14 @@ Al indagar sobre sus dolores y frustraciones (Pain Points), el hallazgo más des
 
 Estos arquetipos han sido construidos a partir del análisis cualitativo de las entrevistas realizadas y el estudio de la competencia.
 
+<br>
+
 **User Persona 1 — Segmento 1: `Alfredo Negrete`**
 
 
 ![User Persona 1 Segmento 1](brandradar-report/assets/user-personas/user-persona1-seg1.png)
 
+<br>
 
 **User Persona 2 — Segmento 1: `Jenifer López`**
 
@@ -1162,21 +1171,29 @@ Estos arquetipos han sido construidos a partir del análisis cualitativo de las 
 
 ---
 
+<br>
+
 **User Persona 1 — Segmento 2: `Romina Apaza`**
 
 
 ![User Persona 1 Segmento 2](brandradar-report/assets/user-personas/user-persona3-seg2.png)
+
+<br>
 
 **User Persona 2 — Segmento 2: `Esteban Medina`**
 
 
 ![User Persona 2 Segmento 2](brandradar-report/assets/user-personas/user-persona4-seg2.png)
 
+<br>
+
 ---
 
 ### 2.3.2. User Task Matrix
 
 La siguiente matriz identifica las tareas principales que realizan los dos User Personas definidos: dueños de PyMEs y account managers de agencias digitales. Se evalúan según su referencia de ejecuciín y su importancia dentro del flujo de trabajo.
+
+<br>
 
 | Tarea (Task) | `PyMe (Dueño de negocio)` Frecuencia | `PyMe` Importancia | `Agencia (Account Manager)` Frecuencia | `Agencia` Importancia |
 |:-------------|:------------------------:|:-------------------------:|:------------------------:|:-------------------------:|
@@ -1186,11 +1203,15 @@ La siguiente matriz identifica las tareas principales que realizan los dos User 
 | *Generar reportes de reputación* | Baja | Media | Alta | Alta |
 | *Monitorear múltiples plataformas* | Baja | Media | Alta | Alta |
 
+<br>
+
 Se observa que:
 
 - Para las PyMEs, las tareas son menos frecuentes pero muy críticas, especialmente la detección de comentarios negativos.
 - Para las agencias, casi todas las tareas son frecuentes y altamente importantes, debido a la gestión de múltiples clientes.
 - Existe una coincidencia clave: ambos segmentos valkoran mucho la detección de comentarios negativos y monitoreo, lo que valida el enfoque de BrandRadar.
+
+<br>
 
 ---
 
@@ -1200,11 +1221,13 @@ El Customer Journey presentado ilustra el recorrido end-to-end actual (versión 
 
 En la situación actual, muchas de estas actividades se realizan de forma manual y en múltiples plataformas, lo que genera retrasos en la detección de problemas, sobrecarga de trabajo y dificultad para obtener una visión clara del estado de la reputación. Este recorrido permite identificar los principales puntos de fricción, emociones negativas y oportunidades de mejora que fundamentan el diseño de la solución propuesta.
 
+<br>
+
 **User Journey Map — `PyMEs`**
 
 ![User Journey Map Persona 1](brandradar-report/assets/journey-maps/journey-map-persona1.png)
 
----
+<br>
 
 **User Journey Map — `Agencia(Account Manager)`**
 
@@ -1216,12 +1239,14 @@ En la situación actual, muchas de estas actividades se realizan de forma manual
 
 El Empathy Mapping fue elaborado a partir del análisis de las entrevistas realizadas a los dos segmentos objetivo: dueños de PyMEs y account managers de agencias digitales. Este proceso permitió sintetizar la información cualitativa obtenida, identificando patrones de comportamiento, pensamientos, emociones, necesidades y frustraciones de los usuarios.
 
+<br>
+
 **Empathy Map — `PyMEs`**
 
 
 ![Empathy Map Persona 1](brandradar-report/assets/empathy-maps/empathy-map-persona1.png)
 
----
+<br>
 
 **Empathy Map — `Agencia(Account Manager)`**
 
@@ -1232,23 +1257,41 @@ El Empathy Mapping fue elaborado a partir del análisis de las entrevistas reali
 
 ## 2.4. Big Picture Event Storming
 
+<br>
+
 El proceso de Big Picture Event Storming se llevó a cabo con el objetivo de comprender de manera integral el flujo de negocio del sistema propuesto, identificando los principales eventos del dominio, los actores involucrados y las interacciones con sistemas externos. Esta técnica permitió visualizar el comportamiento general del sistema de forma cronológica, facilitando la identificación de procesos clave, dependencias y posibles puntos de mejora dentro del flujo operativo.
 
 Durante el desarrollo del Event Storming se trabajó siguiendo una serie de etapas estructuradas que permitieron construir progresivamente una representación clara del dominio del problema. En la primera etapa, denominada Collect Domain Events, se identificaron los eventos principales del sistema, representando acciones que ya ocurrieron dentro del flujo del negocio.
 
+<br>
+
 ![Big Picture Event Storming](brandradar-report/assets/event-storming/big-picture-event-storming-step1.png)
+
+<br>
 
 Posteriormente, en la etapa Refine Domain Events, se revisaron los eventos previamente identificados con el fin de verificar su correcta redacción en tiempo pasado, asegurar su orden temporal adecuado y eliminar posibles redundancias o inconsistencias terminológicas. Asimismo, se agregaron eventos faltantes necesarios para completar el flujo lógico del sistema y reflejar con mayor precisión los procesos internos que ocurren dentro del dominio.
 
+<br>
+
 ![Big Picture Event Storming](brandradar-report/assets/event-storming/big-picture-event-storming-step2.png)
+
+<br>
 
 En la etapa Track Causes, se identificaron los actores que interactúan con el sistema, así como las acciones específicas que desencadenan ciertos eventos, representadas mediante comandos. También se incorporaron los sistemas externos que intervienen en el proceso, tales como servicios de análisis de sentimiento y plataformas externas de datos, además de los procesos internos del sistema que ocurren automáticamente entre eventos.
 
+<br>
+
 ![Big Picture Event Storming](brandradar-report/assets/event-storming/big-picture-event-storming-step3.png)
+
+<br>
 
 Finalmente, en la etapa Find Aggregates, se agruparon los eventos relacionados dentro de límites funcionales conocidos como agregados, permitiendo identificar claramente las principales entidades del dominio y sus responsabilidades. Esta etapa facilitó la estructuración del modelo del dominio y sirvió como base para el diseño posterior del sistema.
 
+<br>
+
 ![Big Picture Event Storming](brandradar-report/assets/event-storming/big-picture-event-storming-step4.png)
+
+<br>
 
 Durante el desarrollo del Big Picture Event Storming se identificaron los principales eventos del dominio, los actores que interactúan con el sistema y los flujos que describen el comportamiento general del sistema desde el registro del usuario hasta la generación de reportes de reputación digital.
 
@@ -1272,7 +1315,9 @@ En conjunto, la identificación de eventos, actores y flujos permitió construir
 
 ## 2.5. Ubiquitous Language
 
-> *(Glosario de términos y conceptos del business domain, sin ambigüedad. Términos en inglés con definición en español)*
+> *El Ubiquitous Language es un glosario de términos clave del dominio del negocio que busca unificar el significado de los conceptos utilizados por todos los involucrados en el proyecto. Su objetivo es evitar ambigüedades y asegurar una comunicación clara y consistente entre el equipo técnico y el área de negocio. En esta sección, se definen los principales términos del sistema en inglés, acompañados de su explicación en español dentro del contexto del proyecto.*
+
+<br>
 
 | Término (EN) | Término (ES) | Definición |
 |:-------------|:-------------|:-----------|
