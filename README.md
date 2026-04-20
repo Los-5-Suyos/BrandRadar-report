@@ -1819,33 +1819,246 @@ La navegación está diseñada pensando en dos segmentos principales: dueños de
 
 ## 4.7. Software Object-Oriented Design
 
-*(Introducción resumiendo las principales características de los diagramas)*
+>*En esta sección se presenta el diseño orientado a objetos del sistema Pawtient mediante diagramas de clases UML, los cuales describen la estructura interna de sus componentes. Los diagramas están organizados por bounded contexts, como gestión de pacientes, citas y suministros, permitiendo una clara separación de responsabilidades. Cada diagrama incluye clases, atributos, métodos y niveles de visibilidad, así como las relaciones entre ellas, especificando asociaciones y multiplicidades. Esto proporciona una visión estructurada del sistema y sirve como base para su implementación.*
+
+<br>
 
 ### 4.7.1. Class Diagrams
 
-*(Class Diagrams UML para cada bounded context, incluyendo clases, interfaces, enumeraciones, atributos, métodos, scope y relaciones con multiplicidad)*
+ 
 
-**Bounded Context: `[Nombre del Bounded Context]`**
+<br>
 
-![Class Diagram BC1](brandradar-report/assets/class-diagrams/class-diagram-bc1.png)
+**Bounded Context: `Account Management`**
 
-*(Explicación del Class Diagram)*
+<br>
+
+ 
+
+<br>
+<div align="center">
+  
+*Imagen del Class Diagram*
+
+![Class Diagram BC1](pawtient-report/assets/images/class-diagrams/bounded_1.png)
+
+*Elaboración propia con LucidChart*
+
+</div>
+
+<br>
+
+**Bounded Context: `Brand Management`**
+
+<br>
+
+ 
+
+<br>
+<div align="center">
+  
+*Imagen del Class Diagram*
+
+![Class Diagram BC1](pawtient-report/assets/images/class-diagrams/bounded_2.png)
+
+*Elaboración propia con LucidChart*
+
+</div>
+
+
+<br>
+
+**Bounded Context: `Monitoring`**
+
+<br>
+
+ 
+
+<br>
+<div align="center">
+  
+*Imagen del Class Diagram*
+
+![Class Diagram BC1](pawtient-report/assets/images/class-diagrams/bounded_3.png)
+
+*Elaboración propia con LucidChart*
+
+</div>
+
+
+<br>
+
+**Bounded Context: `Sentiment Analysis`**
+
+<br>
+ 
+
+<br>
+<div align="center">
+  
+*Imagen del Class Diagram*
+
+![Class Diagram BC1](pawtient-report/assets/images/class-diagrams/bounded_4.png)
+
+*Elaboración propia con LucidChart*
+
+</div>
+
+<br>
+
+**Bounded Context: `Alert Management`**
+
+<br>
+ 
+
+<br>
+<div align="center">
+  
+*Imagen del Class Diagram*
+
+![Class Diagram BC1](pawtient-report/assets/images/class-diagrams/bounded_5.png)
+
+*Elaboración propia con LucidChart*
+
+</div>
+
+<br>
+
+**Bounded Context: `Reporting`**
+
+<br>
+ 
+
+<br>
+<div align="center">
+  
+*Imagen del Class Diagram*
+
+![Class Diagram BC1](pawtient-report/assets/images/class-diagrams/bounded_6.png)
+
+*Elaboración propia con LucidChart*
+
+</div>
+
+<br>
 
 ---
 
 ## 4.8. Database Design
 
-*(Introducción resumiendo las principales características de los Database Diagrams)*
+>* *
+
+<br>
 
 ### 4.8.1. Database Diagrams
 
-*(Database Diagrams para cada bounded context — tablas, columnas, constraints, relaciones)*
+* .*
 
-**Bounded Context: `[Nombre del Bounded Context]`**
+<br>
 
-![Database Diagram BC1](brandradar-report/assets/database/database-diagram-bc1.png)
+<div align="center">
+  
+**Bounded Context: `Account Management (Database Diagram)`**
 
-*(Explicación del Database Diagram)*
+<br>
+
+![Database Diagram BC1](pawtient-report/assets/images/database/db_1.png)
+
+</div>
+
+<br>
+
+*Descripcion.*
+
+
+<br>
+
+<div align="center">
+  
+**Bounded Context: `Brand Management`**
+
+<br>
+
+![Database Diagram BC2](pawtient-report/assets/images/database/db_2.png)
+
+</div>
+
+<br>
+
+*Descripcion.*
+
+<br>
+
+<div align="center">
+  
+**Bounded Context: `Monitoring (Database Diagram)`**
+
+<br>
+
+![Database Diagram BC3](pawtient-report/assets/images/database/db_3.png)
+
+</div>
+
+<br>
+
+*Descripcion.*
+
+
+<br>
+
+
+<div align="center">
+  
+**Bounded Context: `Sentiment Analysis (Database Diagram)`**
+
+<br>
+
+![Database Diagram BC4](pawtient-report/assets/images/database/db_4.png)
+
+</div>
+
+<br>
+
+*Descripcion.*
+
+
+<br>
+
+
+<div align="center">
+  
+**Bounded Context: `Alert Management (Database Diagram)`**
+
+<br>
+
+![Database Diagram BC4](pawtient-report/assets/images/database/db_5.png)
+
+</div>
+
+<br>
+
+*Descripcion.*
+
+
+<br>
+
+
+<div align="center">
+  
+**Bounded Context: `Reporting (Database Diagram)`**
+
+<br>
+
+![Database Diagram BC4](pawtient-report/assets/images/database/db_6.png)
+
+</div>
+
+<br>
+
+*Descripcion.*
+
+
+<br>
 
 ---
 
