@@ -1485,53 +1485,53 @@ El Impact Mapping de BrandRadar conecta nuestro propósito estratégico con las 
 
 ![Product Backlog](assets/product-backlog/product-backlog.png)
 
-| Story ID | Título | Story Points | Prioridad |
-|:--------:|:------:|:------------:|:---------:|
-| US01 | `Integración de APIs Externas` | 8 | Alta |
-| US02 | `Filtrado de Exclusión` | 3 | Alta |
-| US03 | `Live Feed Monitor` | 5 | Alta |
-| US04 | `Implementación de Webhooks` | 5 | Media |
-| US05 | `Detección de Sarcasmo e Ironía` | 13 | Alta |
-| US06 | `Ajuste Manual de Polaridad` | 3 | Media |
-| US07 | `Visualización de Word Cloud` | 5 | Media |
-| US08 | `Configuración de Semáforo de Crisis` | 5 | Alta |
-| US09 | `Alertas Multicanal en Móvil` | 8 | Alta |
-| US10 | `Asignación de Tickets de Respuesta` | 5 | Media |
-| US11 | `Gráfico de Share of Sentiment` | 8 | Media |
-| US12 | `Rastreo de Hashtags Competidores` | 5 | Baja |
-| US13 | `Reportes Automatizados PDF` | 8 | Alta |
-| US14 | `Filtro por Alcance de Influencer` | 3 | Media |
-| US15 | `Heatmap de Menciones Negativas` | 5 | Media |
-| US16 | `Exportación de Data Cruda (JSON/CSV)` | 5 | Baja |
-| US17 | `Onboarding de Usuario Nuevo` | 5 | Media |
-| US18 | `Comentarios Internos de Equipo` | 3 | Baja |
-| US19 | `Selector de Multiespacio (Workspaces)` | 5 | Alta |
-| US20 | `Optimización de Interfaz Móvil` | 8 | Alta |
-| US21 | `Galería de Casos de Éxito` | 5 | Media |
-| US22 | `Archivo Visual de Campañas` | 5 | Baja |
-| US23 | `Sugerencia de Respuestas Empáticas` | 8 | Alta |
-| US24 | `Identificación de Leads Calientes` | 5 | Alta |
-| US25 | `Sugerencia de Scripts de Venta` | 8 | Media |
-| US26 | `Monitor de Voz del Cliente` | 8 | Media |
-| US27 | `Sincronización de Google Maps` | 13 | Alta |
-| US28 | `Monitor de Múltiples Sucursales` | 5 | Media |
-| US29 | `Fidelización de Clientes VIP` | 5 | Baja |
-| US30 | `Sentimiento de Atención (Personal)` | 8 | Media |
-| US31 | `Detección de Caída de Servicios Web` | 5 | Alta |
-| US32 | `Monitor de Reputación de Aliados` | 5 | Baja |
-| US33 | `Sugerencia de Hooks Audiovisuales` | 13 | Alta |
-| US34 | `Análisis de Retención de Video` | 8 | Media |
-| US35 | `Benchmarking de Hooks Competidores` | 8 | Media |
-| US36 | `Tracking de Conversión (ROI)` | 8 | Alta |
-| US37 | `Integración de Métricas TikTok` | 5 | Media |
-| US38 | `Identificación de Influencers de Nicho` | 5 | Baja |
-| US39 | `Detección de Trending Topics Locales` | 8 | Media |
-| US40 | `Análisis de Campaña Política` | 8 | Media |
-| US41 | `Simulador de Impacto de Comunicado` | 13 | Alta |
-| US42 | `Histórico de Resoluciones de Crisis` | 5 | Baja |
-| US43 | `Dashboard de Tiempo de Respuesta Operativo` | 3 | Baja |
-| US44 | `Detección de Competencia Desleal (Market)` | 5 | Media |
-| US45 | `KPI de Retención Mensual de Clientes` | 8 | Media |
+| # Orden | Story ID | Título | Descripción | Story Points |
+|:-------:|:--------:|:------:|:-----------:|:------------:|
+| 01 | US01 | `Integración de APIs Externas` | Como `Analista`, quiero `conectar APIs de Twitter e Instagram`, para `recolectar menciones automáticamente`. | 8 |
+| 02 | US02 | `Filtrado de Exclusión` | Como `Emprendedor`, quiero `excluir keywords irrelevantes`, para `evitar ruido de marcas homónimas`. | 3 |
+| 03 | US03 | `Live Feed Monitor` | Como `Community Manager`, quiero `ver un feed en vivo`, para `reaccionar de inmediato`. | 5 |
+| 04 | US04 | `Implementación de Webhooks` | Como `Desarrollador`, quiero `usar Webhooks`, para `reducir la latencia de alertas`. | 5 |
+| 05 | US05 | `Detección de Sarcasmo e Ironía` | Como `Gerente`, quiero `identificar sarcasmo`, para `evitar falsos positivos`. | 13 |
+| 06 | US06 | `Ajuste Manual de Polaridad` | Como `Analista`, quiero `corregir la polaridad manualmente`, para `entrenar mejor a la IA`. | 3 |
+| 07 | US07 | `Visualización de Word Cloud` | Como `Usuario`, quiero `ver nubes de palabras por sentimiento`, para `identificar temas críticos`. | 5 |
+| 08 | US08 | `Configuración de Semáforo de Crisis` | Como `Jefe de PR`, quiero `un semáforo configurable`, para `saber cuándo intervenir legalmente`. | 5 |
+| 09 | US09 | `Alertas Multicanal en Móvil` | Como `Usuario`, quiero `alertas móviles`, para `estar enterado fuera de la oficina`. | 8 |
+| 10 | US10 | `Asignación de Tickets de Respuesta` | Como `Soporte`, quiero `asignar menciones a miembros del equipo`, para `gestión inmediata`. | 5 |
+| 11 | US11 | `Gráfico de Share of Sentiment` | Como `Gerente`, quiero `ver mi sentimiento vs competencia`, para `saber mi posición en el mercado`. | 8 |
+| 12 | US12 | `Rastreo de Hashtags Competidores` | Como `Analista`, quiero `monitorear hashtags de competencia`, para `entender sus estrategias`. | 5 |
+| 13 | US13 | `Reportes Automatizados PDF` | Como `Ejecutivo`, quiero `reportes semanales automáticos`, para `ahorrar tiempo de gestión`. | 8 |
+| 14 | US14 | `Filtro por Alcance de Influencer` | Como `Usuario`, quiero `filtrar por número de seguidores`, para `priorizar respuestas críticas`. | 3 |
+| 15 | US15 | `Heatmap de Menciones Negativas` | Como `Estratega`, quiero `ver horas pico de quejas`, para `ajustar turnos de moderación`. | 5 |
+| 16 | US16 | `Exportación de Data Cruda (JSON/CSV)` | Como `Admin`, quiero `exportar data cruda`, para `análisis en Power BI`. | 5 |
+| 17 | US17 | `Onboarding de Usuario Nuevo` | Como `Usuario nuevo`, quiero `un tutorial guiado`, para `configurar el sistema sin soporte`. | 5 |
+| 18 | US18 | `Comentarios Internos de Equipo` | Como `Líder`, quiero `dejar comentarios en menciones`, para `coordinar respuestas con el equipo`. | 3 |
+| 19 | US19 | `Selector de Multiespacio (Workspaces)` | Como `Agencia`, quiero `cambiar entre marcas`, para `mantener datos separados`. | 5 |
+| 20 | US20 | `Optimización de Interfaz Móvil` | Como `Usuario móvil`, quiero `un diseño adaptable`, para `monitorear desde el celular`. | 8 |
+| 21 | US21 | `Galería de Casos de Éxito` | Como `Gerente de Muebles`, quiero `subir fotos de problemas resueltos`, para `mejorar mi imagen ante clientes`. | 5 |
+| 22 | US22 | `Archivo Visual de Campañas` | Como `Dueña de Boutique`, quiero `guardar snapshots de mis redes`, para `replicar el éxito el próximo año`. | 5 |
+| 23 | US23 | `Sugerencia de Respuestas Empáticas` | Como `Dueña de Boutique`, quiero `respuestas automáticas de cortesía`, para `atender al cliente rápido`. | 8 |
+| 24 | US24 | `Identificación de Leads Calientes` | Como `Vendedora`, quiero `detectar usuarios que preguntan por precios`, para `priorizar la atención`. | 5 |
+| 25 | US25 | `Sugerencia de Scripts de Venta` | Como `Usuario de WhatsApp`, quiero `sugerencias de frases de cierre`, para `evitar carritos abandonados`. | 8 |
+| 26 | US26 | `Monitor de Voz del Cliente` | Como `Gerente Comercial`, quiero `un reporte de sugerencias de mejora`, para `priorizar nuevos modelos`. | 8 |
+| 27 | US27 | `Sincronización de Google Maps` | Como `Dueño de Cafetería`, quiero `sincronizar reseñas de Maps`, para `no enterarme tarde de quejas`. | 13 |
+| 28 | US28 | `Monitor de Múltiples Sucursales` | Como `Dueño de locales`, quiero `ver datos de sedes por separado`, para `evaluar el desempeño local`. | 5 |
+| 29 | US29 | `Fidelización de Clientes VIP` | Como `Gerente de Cafetería`, quiero `identificar clientes frecuentes`, para `ofrecerles compensaciones`. | 5 |
+| 30 | US30 | `Sentimiento de Atención (Personal)` | Como `Gerente`, quiero `monitorear menciones sobre el trato del staff`, para `gestionar capacitaciones`. | 8 |
+| 31 | US31 | `Detección de Caída de Servicios Web` | Como `Dueño de Negocio`, quiero `alerta de inactividad de página web`, para `no perder ventas técnicas`. | 5 |
+| 32 | US32 | `Monitor de Reputación de Aliados` | Como `Gerente Comercial`, quiero `monitorear menciones de proveedores`, para `anticipar problemas de suministro`. | 5 |
+| 33 | US33 | `Sugerencia de Hooks Audiovisuales` | Como `Editor`, quiero `sugerencias de ganchos de tendencia`, para `retener audiencia rápido`. | 13 |
+| 34 | US34 | `Análisis de Retención de Video` | Como `Marketer`, quiero `ver en qué segundo los usuarios dejan de ver mis videos`, para `mejorar el montaje`. | 8 |
+| 35 | US35 | `Benchmarking de Hooks Competidores` | Como `Editor`, quiero `saber qué ganchos usa la competencia`, para `diferenciar mi contenido`. | 8 |
+| 36 | US36 | `Tracking de Conversión (ROI)` | Como `Jefe de Marketing`, quiero `conectar clics con ventas reales`, para `medir el retorno de inversión`. | 8 |
+| 37 | US37 | `Integración de Métricas TikTok` | Como `Marketer`, quiero `ver visualizaciones vs comentarios`, para `diagnosticar el bajo alcance`. | 5 |
+| 38 | US38 | `Identificación de Influencers de Nicho` | Como `Socio`, quiero `identificar profesionales influyentes`, para `proponer alianzas`. | 5 |
+| 39 | US39 | `Detección de Trending Topics Locales` | Como `Gestora Municipal`, quiero `saber qué preocupa a los vecinos`, para `orientar la comunicación oficial`. | 8 |
+| 40 | US40 | `Análisis de Campaña Política` | Como `Freelance en política`, quiero `monitorear menciones de candidatos`, para `gestionar comunidades`. | 8 |
+| 41 | US41 | `Simulador de Impacto de Comunicado` | Como `Gerente de PR`, quiero `predecir la reacción a un comunicado`, para `evitar empeorar la crisis`. | 13 |
+| 42 | US42 | `Histórico de Resoluciones de Crisis` | Como `Jefe de PR`, quiero `ver cómo se resolvieron crisis pasadas`, para `no repetir errores`. | 5 |
+| 43 | US43 | `Dashboard de Tiempo de Respuesta Operativo` | Como `Freelance`, quiero `medir mi tiempo de respuesta`, para `cumplir con KPIs de atención`. | 3 |
+| 44 | US44 | `Detección de Competencia Desleal (Market)` | Como `Dueño de Negocio`, quiero `alerta de ofertas agresivas de rivales`, para `ajustar mi estrategia`. | 5 |
+| 45 | US45 | `KPI de Retención Mensual de Clientes` | Como `Administrador`, quiero `ver cuántos clientes dejan reseñas positivas`, para `medir fidelización`. | 8 |
 
 ---
 
