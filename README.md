@@ -2361,9 +2361,8 @@ El video tendrá como objetivo presentar a los integrantes del equipo, sus roles
 
 ---
 
-<br>
 
-## 📚 Bibliografía
+##  Bibliografía
 
 > Backlinko. (2024). *Online review statistics.* https://backlinko.com/online-review-stats
 
