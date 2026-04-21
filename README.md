@@ -1436,10 +1436,6 @@ En esta sección se presentan las User Stories organizadas dentro de Epics, lo q
 
 ## 3.2. Impact Mapping
 
-<img src="brandradar-report/assets/images/BrandRadarImpactMapping.png" alt="Brand Radar Impact Mapping" width="1000"/>
-<br>
-
-
 ![Impact Map](brandradar-report/assets/images/BrandRadarImpactMapping.png)
 
 *(Explicación del Impact Map: Business Goals, Actors/Personas, Impacts, Deliverables y User Stories)*
