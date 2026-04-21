@@ -2284,7 +2284,11 @@ Los servicios backend (RESTful API) se despliegan en Render o Railway. Se vincul
 
 ![Team Collaboration Sprint 1](assets/sprints/sprint1-collaboration.png)
 
+<br>
+
 ---
+
+<br>
 
 ## 5.3. Validation Interviews
 
@@ -2293,43 +2297,12 @@ Los servicios backend (RESTful API) se despliegan en Render o Railway. Se vincul
 
 ### 5.3.2. Registro de Entrevistas
 
-*(Para cada segmento se requiere de 3 a 5 entrevistas de validación)*
-
-**Segmento objetivo 1:**
-
-| Campo | Detalle |
-|:------|:--------|
-| **Nombres y apellidos** | `[Nombre]` |
-| **Edad** | `[Edad]` |
-| **Distrito** | `[Distrito]` |
-| **Enlace al video** | [Ver en Microsoft Stream](`URL`) — Inicia en `[MM:SS]` |
-
-*(Screenshot del video de validación)*
-
-![Validation Interview Screenshot](assets/validation/validation-seg1-1.png)
-
-**Resumen:** *(Descripción de las principales apreciaciones del entrevistado)*
 
 ### 5.3.3. Evaluaciones según heurísticas
-
-*(Ver formato completo en el Anexo D del enunciado del proyecto)*
-
-**UX Heuristics & Principles Evaluation**
-
 
 ---
 
 ## 5.4. Video About-the-Product
-
-*(Introducción y descripción del Video About-the-Product)*
-
-- **Público objetivo:** Visitantes del Landing Page y usuarios de las aplicaciones
-- **Duración:** 1 a 3 minutos
-- **URL Microsoft Stream:** [`[Nombre del video]`](`URL`)
-- **URL YouTube (para incrustar en Landing Page):** [`[Nombre del video]`](`URL`)
-
-
-![About the Product Video Screenshot](assets/videos/about-the-product-screenshot.png)
 
 ---
 
@@ -2339,35 +2312,35 @@ Los servicios backend (RESTful API) se despliegan en Render o Railway. Se vincul
 ## Conclusiones
 
 
-1. El análisis realizado evidencia que la **reputación digital** se ha convertido en un factor crítico para el éxito de las empresas, especialmente en el caso de las PyMEs y agencias de marketing digital, donde la percepción del cliente impacta directamente en la toma de decisiones de compra.
+1. El análisis realizado evidencia que la reputación digital se ha convertido en un factor crítico para el éxito de las empresas, especialmente en el caso de las PyMEs y agencias de marketing digital, donde la percepción del cliente impacta directamente en la toma de decisiones de compra.
 
-2. A partir de las entrevistas y el proceso de *needfinding*, se identificó que existe una **falta de herramientas accesibles, centralizadas y en tiempo real**, lo que obliga a los usuarios a realizar monitoreos manuales, generando pérdida de tiempo, baja eficiencia y detección tardía de crisis reputacionales.
+2. A partir de las entrevistas y el proceso de *needfinding*, se identificó que existe una falta de herramientas accesibles, centralizadas y en tiempo real**, lo que obliga a los usuarios a realizar monitoreos manuales, generando pérdida de tiempo, baja eficiencia y detección tardía de crisis reputacionales.
 
-3. La validación con usuarios permitió confirmar que ambos segmentos objetivo presentan **dolores similares**, destacando la necesidad de automatización, centralización de información y generación de alertas tempranas.
+3. La validación con usuarios permitió confirmar que ambos segmentos objetivo presentan dolores similares, destacando la necesidad de automatización, centralización de información y generación de alertas tempranas.
 
-4. La propuesta de solución **BrandRadar** responde de manera efectiva a estas problemáticas al integrar monitoreo de múltiples fuentes, análisis de sentimiento y alertas en tiempo real dentro de un único dashboard, facilitando la toma de decisiones basada en datos.
+4. La propuesta de solución BrandRadar responde de manera efectiva a estas problemáticas al integrar monitoreo de múltiples fuentes, análisis de sentimiento y alertas en tiempo real dentro de un único dashboard, facilitando la toma de decisiones basada en datos.
 
-5. El uso de metodologías como **Lean UX, Event Storming y Domain-Driven Design** permitió construir una solución alineada con las necesidades reales del usuario, asegurando coherencia entre el problema identificado, el diseño del sistema y su arquitectura.
+5. El uso de metodologías como Lean UX, Event Storming y Domain-Driven Design permitió construir una solución alineada con las necesidades reales del usuario, asegurando coherencia entre el problema identificado, el diseño del sistema y su arquitectura.
 
-6. El diseño de la arquitectura y base de datos demuestra que el sistema es **escalable, modular y mantenible**, lo cual es clave para su evolución futura y posible implementación en entornos reales.
+6. El diseño de la arquitectura y base de datos demuestra que el sistema es escalable, modular y mantenible, lo cual es clave para su evolución futura y posible implementación en entornos reales.
 
-
+<br>
 
 ## Recomendaciones
 
-1. Para la siguiente etapa del proyecto, se recomienda avanzar hacia la **validación de la solución propuesta mediante prototipos de mayor fidelidad**, permitiendo evaluar la usabilidad del sistema con usuarios reales de los segmentos identificados.
+1. Para la siguiente etapa del proyecto, se recomienda avanzar hacia la validación de la solución propuesta mediante prototipos de mayor fidelidad, permitiendo evaluar la usabilidad del sistema con usuarios reales de los segmentos identificados.
 
-2. Se sugiere profundizar en la **definición de requerimientos funcionales y no funcionales**, asegurando que estos estén correctamente alineados con los insights obtenidos en las entrevistas y el proceso de needfinding.
+2. Se sugiere profundizar en la definición de requerimientos funcionales y no funcionales, asegurando que estos estén correctamente alineados con los insights obtenidos en las entrevistas y el proceso de needfinding.
 
-3. Es recomendable desarrollar **User Stories y Product Backlog priorizado**, que permita organizar el trabajo en iteraciones y facilitar la planificación de los siguientes sprints del proyecto.
+3. Es recomendable desarrollar User Stories y Product Backlog priorizado, que permita organizar el trabajo en iteraciones y facilitar la planificación de los siguientes sprints del proyecto.
 
-4. Se propone continuar con el diseño de la solución a nivel técnico mediante la **elaboración de diagramas de arquitectura (C4 Model)**, con el fin de definir claramente los componentes del sistema y sus interacciones.
+4. Se propone continuar con el diseño de la solución a nivel técnico mediante la elaboración de diagramas de arquitectura (C4 Model), con el fin de definir claramente los componentes del sistema y sus interacciones.
 
-5. Para mejorar la calidad de la propuesta, se recomienda realizar **iteraciones adicionales del Lean UX Canvas**, validando hipótesis clave con potenciales usuarios antes de avanzar a etapas de desarrollo.
+5. Para mejorar la calidad de la propuesta, se recomienda realizar iteraciones adicionales del Lean UX Canvas, validando hipótesis clave con potenciales usuarios antes de avanzar a etapas de desarrollo.
 
-6. Se sugiere explorar con mayor profundidad las **fuentes de datos externas y sus posibles integraciones**, evaluando su viabilidad técnica y limitaciones para el monitoreo en tiempo real.
+6. Se sugiere explorar con mayor profundidad las fuentes de datos externas y sus posibles integraciones, evaluando su viabilidad técnica y limitaciones para el monitoreo en tiempo real.
 
-7. Finalmente, se recomienda mantener un enfoque iterativo y centrado en el usuario, incorporando **feedback continuo** en cada fase del proyecto para asegurar que la solución evolucione de acuerdo con las necesidades reales del mercado.
+7. Finalmente, se recomienda mantener un enfoque iterativo y centrado en el usuario, incorporando feedback continuo en cada fase del proyecto para asegurar que la solución evolucione de acuerdo con las necesidades reales del mercado.
 
 <br>
 
