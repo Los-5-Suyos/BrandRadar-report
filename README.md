@@ -1501,7 +1501,7 @@ El Impact Mapping de BrandRadar conecta nuestro propósito estratégico con las 
 | 12 | US12 | `Rastreo de Hashtags Competidores` | Como `Analista`, quiero `monitorear hashtags de competencia`, para `entender sus estrategias`. | 5 |
 | 13 | US13 | `Reportes Automatizados PDF` | Como `Ejecutivo`, quiero `reportes semanales automáticos`, para `ahorrar tiempo de gestión`. | 8 |
 | 14 | US14 | `Filtro por Alcance de Influencer` | Como `Usuario`, quiero `filtrar por número de seguidores`, para `priorizar respuestas críticas`. | 3 |
-| 15 | US15 | `Heatmap de Menciones Negativas` | Como `Estratega`, quiero `ver horas pico de quejas`, para `ajustar turnos de moderación`. | 5 |
+| 15 | US15 | `Heatmap Horario` | Como `Estratega`, quiero `ver horas pico de quejas`, para `ajustar turnos de moderación`. | 5 |
 | 16 | US16 | `Exportación de Data Cruda (JSON/CSV)` | Como `Admin`, quiero `exportar data cruda`, para `análisis en Power BI`. | 5 |
 | 17 | US17 | `Onboarding de Usuario Nuevo` | Como `Usuario nuevo`, quiero `un tutorial guiado`, para `configurar el sistema sin soporte`. | 5 |
 | 18 | US18 | `Comentarios Internos de Equipo` | Como `Líder`, quiero `dejar comentarios en menciones`, para `coordinar respuestas con el equipo`. | 3 |
