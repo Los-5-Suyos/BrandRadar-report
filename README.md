@@ -1436,7 +1436,8 @@ En esta sección se presentan las User Stories organizadas dentro de Epics, lo q
 
 ## 3.2. Impact Mapping
 
-*(Introducción y capturas del Impact Mapping elaborado en la herramienta indicada — UXPressia)*
+<img src="brandradar-report/assets/images/BrandRadarImpactMapping.png" alt="Brand Radar Impact Mapping" width="1000"/>
+<br>
 
 
 ![Impact Map](brandradar-report/assets/impact-mapping/impact-map.png)
