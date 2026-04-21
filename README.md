@@ -2338,15 +2338,53 @@ Los servicios backend (RESTful API) se despliegan en Render o Railway. Se vincul
 
 ## Conclusiones
 
-*(Esta sección se desarrolla progresivamente en cada entrega)*
+
+1. El análisis realizado evidencia que la **reputación digital** se ha convertido en un factor crítico para el éxito de las empresas, especialmente en el caso de las PyMEs y agencias de marketing digital, donde la percepción del cliente impacta directamente en la toma de decisiones de compra.
+
+2. A partir de las entrevistas y el proceso de *needfinding*, se identificó que existe una **falta de herramientas accesibles, centralizadas y en tiempo real**, lo que obliga a los usuarios a realizar monitoreos manuales, generando pérdida de tiempo, baja eficiencia y detección tardía de crisis reputacionales.
+
+3. La validación con usuarios permitió confirmar que ambos segmentos objetivo presentan **dolores similares**, destacando la necesidad de automatización, centralización de información y generación de alertas tempranas.
+
+4. La propuesta de solución **BrandRadar** responde de manera efectiva a estas problemáticas al integrar monitoreo de múltiples fuentes, análisis de sentimiento y alertas en tiempo real dentro de un único dashboard, facilitando la toma de decisiones basada en datos.
+
+5. El uso de metodologías como **Lean UX, Event Storming y Domain-Driven Design** permitió construir una solución alineada con las necesidades reales del usuario, asegurando coherencia entre el problema identificado, el diseño del sistema y su arquitectura.
+
+6. El diseño de la arquitectura y base de datos demuestra que el sistema es **escalable, modular y mantenible**, lo cual es clave para su evolución futura y posible implementación en entornos reales.
+
+
 
 ## Recomendaciones
 
-*(Esta sección se desarrolla progresivamente en cada entrega)*
+1. Para la siguiente etapa del proyecto, se recomienda avanzar hacia la **validación de la solución propuesta mediante prototipos de mayor fidelidad**, permitiendo evaluar la usabilidad del sistema con usuarios reales de los segmentos identificados.
+
+2. Se sugiere profundizar en la **definición de requerimientos funcionales y no funcionales**, asegurando que estos estén correctamente alineados con los insights obtenidos en las entrevistas y el proceso de needfinding.
+
+3. Es recomendable desarrollar **User Stories y Product Backlog priorizado**, que permita organizar el trabajo en iteraciones y facilitar la planificación de los siguientes sprints del proyecto.
+
+4. Se propone continuar con el diseño de la solución a nivel técnico mediante la **elaboración de diagramas de arquitectura (C4 Model)**, con el fin de definir claramente los componentes del sistema y sus interacciones.
+
+5. Para mejorar la calidad de la propuesta, se recomienda realizar **iteraciones adicionales del Lean UX Canvas**, validando hipótesis clave con potenciales usuarios antes de avanzar a etapas de desarrollo.
+
+6. Se sugiere explorar con mayor profundidad las **fuentes de datos externas y sus posibles integraciones**, evaluando su viabilidad técnica y limitaciones para el monitoreo en tiempo real.
+
+7. Finalmente, se recomienda mantener un enfoque iterativo y centrado en el usuario, incorporando **feedback continuo** en cada fase del proyecto para asegurar que la solución evolucione de acuerdo con las necesidades reales del mercado.
+
+<br>
 
 ## Video About-The-Team
 
-*(Incluir screenshot, URL de Microsoft Stream y YouTube, y timing del video)*
+Este apartado será desarrollado en la **entrega final del proyecto**, donde se incluirá el video de presentación del equipo.
+
+En la versión final del reporte se incorporará:
+
+- Screenshot representativo del video  
+- URL del video en Microsoft Stream  
+- URL del video en YouTube  
+- Timing o estructura del contenido presentado (introducción, desarrollo y cierre)
+
+El video tendrá como objetivo presentar a los integrantes del equipo, sus roles, contribuciones y la experiencia adquirida durante el desarrollo del proyecto BrandRadar.
+
+<br>
 
 ---
 
@@ -2370,7 +2408,7 @@ Los servicios backend (RESTful API) se despliegan en Render o Railway. Se vincul
 
 > Statista. (2024). *Online reviews - statistics & facts.* https://www.statista.com/topics/4381/online-reviews/
 
-
+<br>
 
 ---
 
@@ -2381,7 +2419,11 @@ Los servicios backend (RESTful API) se despliegan en Render o Railway. Se vincul
 
 ### Anexo A: Participant Performance Report
 
-*(Adjuntar como documento Word y PDF por separado)*
+El *Participant Performance Report* se adjunta como documento independiente en formato Word y PDF, donde se detalla el nivel de participación, contribuciones y desempeño de cada integrante del equipo a lo largo del desarrollo del presente proyecto.
+
+En este documento se incluyen los criterios de evaluación, evidencias de trabajo y la distribución de responsabilidades asumidas por cada miembro del equipo.
+
+<br>
 
 ### Anexo B: Videos de Exposiciones
 
