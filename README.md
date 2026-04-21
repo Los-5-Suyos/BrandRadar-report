@@ -1970,13 +1970,13 @@ Este bounded context permite a los usuarios de BrandRadar visualizar y exportar 
 
 <br>
 
-![Database Diagram BC1](brandradar-report/assets/database/db_1.png)
+![Database Diagram BC1](brandradar-report/assets/database/db_diagram1.png)
 
 </div>
 
 <br>
 
-*Descripcion.*
+*El diagrama de base de datos del bounded context Account Management gestiona la identidad y acceso de los usuarios. La tabla central User almacena la información principal del usuario y se relaciona con tres tablas dependientes: UserCredentials para las credenciales de autenticación, EmailVerification para los tokens de verificación de correo, y Session para el registro de sesiones activas. Todas se vinculan a User mediante clave foránea garantizando la integridad referencial del contexto.*
 
 
 <br>
@@ -1987,13 +1987,13 @@ Este bounded context permite a los usuarios de BrandRadar visualizar y exportar 
 
 <br>
 
-![Database Diagram BC2](brandradar-report/assets/database/db_2.png)
+![Database Diagram BC2](brandradar-report/assets/database/db_diagram2.png)
 
 </div>
 
 <br>
 
-*Descripcion.*
+*El diagrama de base de datos del bounded context Brand Setup gestiona la configuración de marcas dentro de BrandRadar. La tabla central Brand almacena la información principal de cada marca y se relaciona con tres tablas dependientes: Keyword para las palabras clave de monitoreo, DataSource para las fuentes de datos externas conectadas, y MonitoringConfig para los parámetros de configuración del monitoreo. Todas se vinculan a Brand mediante clave foránea garantizando la integridad referencial del contexto.*
 
 <br>
 
@@ -2003,13 +2003,13 @@ Este bounded context permite a los usuarios de BrandRadar visualizar y exportar 
 
 <br>
 
-![Database Diagram BC3](brandradar-report/assets/database/db_3.png)
+![Database Diagram BC3](brandradar-report/assets/database/db_diagram3.png)
 
 </div>
 
 <br>
 
-*Descripcion.*
+*El diagrama de base de datos del bounded context Monitoring gestiona la recolección automática de menciones desde fuentes externas. La tabla central MonitoringJob registra cada ciclo de monitoreo ejecutado y se relaciona con Mention, que almacena cada publicación recolectada desde las plataformas externas. La tabla FilterRule almacena las reglas de filtrado definidas por marca para depurar el contenido irrelevante antes de su almacenamiento.*
 
 
 <br>
@@ -2021,13 +2021,13 @@ Este bounded context permite a los usuarios de BrandRadar visualizar y exportar 
 
 <br>
 
-![Database Diagram BC4](brandradar-report/assets/database/db_4.png)
+![Database Diagram BC4](brandradar-report/assets/database/db_diagram4.png)
 
 </div>
 
 <br>
 
-*Descripcion.*
+*El diagrama de base de datos del bounded context Sentiment Analysis gestiona el análisis de sentimiento de cada mención recolectada. La tabla central SentimentAnalysis registra cada análisis ejecutado y se relaciona con SentimentResult, que almacena el resultado del análisis incluyendo el score, la etiqueta y el nivel de confianza. La tabla ClassificationProcess registra los parámetros del modelo utilizado para clasificar cada mención.*
 
 
 <br>
@@ -2039,13 +2039,13 @@ Este bounded context permite a los usuarios de BrandRadar visualizar y exportar 
 
 <br>
 
-![Database Diagram BC5](brandradar-report/assets/database/db_5.png)
+![Database Diagram BC5](brandradar-report/assets/database/db_diagram5.png)
 
 </div>
 
 <br>
 
-*Descripcion.*
+*El diagrama de base de datos del bounded context Alert Handling gestiona el ciclo de respuesta ante menciones negativas detectadas. La tabla central Alert registra cada alerta generada y se relaciona con Notification, que almacena los envíos de notificación al usuario, y con Response, que registra las acciones tomadas ante cada alerta. La tabla AlertLog guarda el historial de auditoría de todo el proceso.*
 
 
 <br>
@@ -2057,13 +2057,13 @@ Este bounded context permite a los usuarios de BrandRadar visualizar y exportar 
 
 <br>
 
-![Database Diagram BC6](brandradar-report/assets/database/db_6.png)
+![Database Diagram BC6](brandradar-report/assets/database/db_diagram6.png)
 
 </div>
 
 <br>
 
-*Descripcion.*
+*El diagrama de base de datos del bounded context Reporting gestiona la generación y visualización de resultados del monitoreo de marca. La tabla central Report registra cada reporte generado y se relaciona con ReputationMetrics, que almacena las métricas calculadas para el período solicitado. La tabla Dashboard mantiene el estado del panel de visualización en tiempo real de cada marca.*
 
 
 <br>
