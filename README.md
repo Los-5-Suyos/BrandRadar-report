@@ -2348,9 +2348,11 @@ En base a la coordinación del equipo, se asignaron los siguientes liderazgos pa
 |:--------:|---|---|---|---|---|---|---|
 | **Sprint 1** | **User Story** | | **Work-Item / Task** | | | | |
 | | **ID** | **Título** | **ID** | **Título** | **Descripción** | **Estimación (h)** | **Asignado a** | **Estado** |
-| | US01 | `[Título]` | T01 | `[Título del task]` | `[Descripción]` | `[n]` | `[Nombre]` | To-do / In-Process / To-Review / Done |
-| | US01 | | T02 | `[Título del task]` | `[Descripción]` | `[n]` | `[Nombre]` | |
-| | US02 | `[Título]` | T03 | `[Título del task]` | `[Descripción]` | `[n]` | `[Nombre]` | |
+| | US20 | `[Título]` | T01 | `[Título del task]` | `[Descripción]` | `[n]` | `[Nombre]` | To-do / In-Process / To-Review / Done |
+| | US20 | | T02 | `[Título del task]` | `[Descripción]` | `[n]` | `[Nombre]` | |
+| | US03 | `[Título]` | T03 | `[Título del task]` | `[Descripción]` | `[n]` | `[Nombre]` | |
+| | US07 | `[Título]` | T03 | `[Título del task]` | `[Descripción]` | `[n]` | `[Nombre]` | |
+| | US17 | `[Título]` | T03 | `[Título del task]` | `[Descripción]` | `[n]` | `[Nombre]` | |
 
 ---
 
