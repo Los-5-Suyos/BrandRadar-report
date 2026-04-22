@@ -1388,7 +1388,7 @@ Estrategia de Contenido: Se sustenta en herramientas de análisis como la US30 (
 
 ## 3.3. Product Backlog
 
-Propósito y Estructura:
+1. Propósito y Estructura:
 El backlog ha sido diseñado bajo un enfoque modular, organizando las necesidades del negocio en Epics (Épicas) que agrupan funcionalidades de alto nivel. Estas, a su vez, se desglosan en User Stories (Historias de Usuario) que siguen el estándar "Como [rol], quiero [acción], para [beneficio]".
 
     Esta estructura permite:
