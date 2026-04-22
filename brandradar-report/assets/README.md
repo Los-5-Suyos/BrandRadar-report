@@ -7,7 +7,7 @@ Esta carpeta contiene todos los recursos gráficos y multimedia del informe del 
 | Carpeta | Contenido |
 |:--------|:----------|
 | `team/` | Fotos de los integrantes del equipo (`integrante1.jpg`, `integrante2.jpg`, ...) |
-| `lean-ux/` | Capturas del Lean UX Canvas |
+| `lean-canvas/` | Capturas del Lean UX Canvas |
 | `interviews/` | Screenshots de los videos de entrevistas de Needfinding |
 | `user-personas/` | Capturas de User Personas elaboradas en UXPressia |
 | `journey-maps/` | Capturas de User Journey Maps (UXPressia) |
