@@ -1100,18 +1100,24 @@ En ese contexto, considera que una herramienta que envíe alertas automáticas e
 
 | Campo | Detalle |
 |:------|:--------|
-| **Nombres y apellidos** | `[Nombre del entrevistado]` |
-| **Edad** | `[Edad]` |
-| **Ubicación** | `[Distrito]` |
-| **Fecha de entrevista** | `YYYY-MM-DD` |
-| **Duración** | `[HH:MM]` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](`URL`) |
+| **Nombres y apellidos** | `[Valeria Nuñez]` |
+| **Edad** | `[22]` |
+| **Ubicación** | `[Miraflores]` |
+| **Fecha de entrevista** | `2026-04-21` |
+| **Duración** | `[10:10]` |
+| **Enlace al video** | [Ver entrevista en Microsoft Stream](`https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410024_upc_edu_pe/IQDzVbzry8MzSKHuE6JMAtsWASvmIkfCaAhcBpafy-BUcb0?e=BT9n1A&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D`) |
 
 **Resumen:**
 
 </div>
 
-*(Redactar resumen de la entrevista)*
+La entrevista fue realizada a Valeria, una joven de 22 años residente de Miraflores, quien se desempeña como Community Manager y Social Media Strategist en una agencia de publicidad. Con formación en comunicaciones y una trayectoria que inició desde sus prácticas universitarias, Vale gestiona actualmente tres marcas de los sectores lifestyle y tech. Su perfil representa al usuario especializado que vive la inmediatez de las redes sociales y que debe mantener un equilibrio entre la creatividad y el manejo de crisis bajo presión.
+
+En su día a día, Vale se inspira en el trabajo de agencias globales como Ogilvy y referentes de estrategia digital como Vilma Núñez. Para ella, la gestión de comunidades no es solo responder mensajes, sino realizar una empatía estratégica que le permita entender el sentimiento real del usuario. Su flujo de trabajo es altamente demandante: dedica entre 2 a 3 horas diarias solo al monitoreo manual de menciones y hasta dos días completos al mes para consolidar reportes de sentimiento y métricas.
+
+Actualmente, Vale enfrenta limitaciones críticas con las herramientas oficiales como Meta Business Suite, ya que estas solo le notifican menciones directas (etiquetas). Esto genera un "punto ciego" peligroso, especialmente en plataformas como TikTok y X (Twitter), donde las críticas pueden viralizarse sin que la marca sea etiquetada. Relató una experiencia reciente donde una queja de un influencer no detectada a tiempo derivó en una crisis reputacional que tuvo que atenderse de emergencia un fin de semana, afectando la percepción de la marca.
+
+La mayor frustración de Vale radica en el carácter "artesanal" y manual del monitoreo actual, lo cual le genera una constante ansiedad por la posibilidad de no detectar un "incendio" digital a tiempo. Al conocer la propuesta de BrandRadar, destacó que una herramienta que centralice alertas en tiempo real y automatice el análisis de percepción cambiaría radicalmente su dinámica laboral. Para ella, BrandRadar no solo optimizaría su tiempo de reporte, sino que le permitiría transitar de un modo reactivo a uno proactivo, eliminando el estrés de la búsqueda manual y garantizando que ninguna mención relevante pase desapercibida.
 
 ---
 
