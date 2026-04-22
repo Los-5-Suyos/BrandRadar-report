@@ -1852,7 +1852,7 @@ Este nivel de detalle nos permite identificar las piezas de software que compone
 
 **Bounded Context: `Alert Management`**
 
-![Component Diagram BC1](brandradar-report/assets/architecture/Account-Components.png)
+![Component Diagram BC1](brandradar-report/assets/architecture/account-components.png)
 
 Administra la seguridad, la emisión de tokens JWT, el registro de usuarios y el control de las cuotas permitidas según el plan de suscripción adquirido.
 
@@ -1860,7 +1860,7 @@ Administra la seguridad, la emisión de tokens JWT, el registro de usuarios y el
 
 **Bounded Context: `Brand Management`**
 
-![Component Diagram BC2](brandradar-report/assets/architecture/Brand-Components.png)
+![Component Diagram BC2](brandradar-report/assets/architecture/brand-components.png)
 
 Permite la configuración del núcleo del negocio: la creación de marcas, la validación de palabras clave (keywords) y el intercambio seguro de tokens OAuth con plataformas de terceros.
 
@@ -1868,7 +1868,7 @@ Permite la configuración del núcleo del negocio: la creación de marcas, la va
 
 **Bounded Context: `Monitoring`**
 
-![Component Diagram BC3](brandradar-report/assets/architecture/Monitoring-Components.png)
+![Component Diagram BC3](brandradar-report/assets/architecture/monitoring-components.png)
 
 Encargado de orquestar los ciclos programados (Schedulers) para extraer datos de Google Maps y Redes Sociales, filtrarlos y almacenarlos en la base de datos documental.
 
@@ -1876,7 +1876,7 @@ Encargado de orquestar los ciclos programados (Schedulers) para extraer datos de
 
 **Bounded Context: `Sentiment Analysis`**
 
-![Component Diagram BC4](brandradar-report/assets/architecture/Sentiment-Components.png)
+![Component Diagram BC4](brandradar-report/assets/architecture/sentiment-components.png)
 
 Integra el motor central de evaluación. Recibe eventos de nuevas menciones, interactúa con la API de NLP externa, aplica reglas locales para detección de sarcasmo y determina si el sentimiento cruza el umbral negativo.
 
@@ -1884,7 +1884,7 @@ Integra el motor central de evaluación. Recibe eventos de nuevas menciones, int
 
 **Bounded Context: `Alert Management`**
 
-![Component Diagram BC5](brandradar-report/assets/architecture/Alert-Components.png)
+![Component Diagram BC5](brandradar-report/assets/architecture/alert-components.png)
 
 Gestiona el ciclo de vida de las crisis de reputación. Evalúa las menciones negativas, genera tickets de seguimiento y dispara notificaciones push a través de servicios como Firebase/APNs.
 
@@ -1892,7 +1892,7 @@ Gestiona el ciclo de vida de las crisis de reputación. Evalúa las menciones ne
 
 **Bounded Context: `Reporting`**
 
-![Component Diagram BC6](brandradar-report/assets/architecture/Reporting-Components.png)
+![Component Diagram BC6](brandradar-report/assets/architecture/reporting-components.png)
 
 Consolida la información mediante procesos asíncronos para generar dashboards analíticos y reportes descargables en PDF, permitiendo a las agencias presentar resultados tangibles a sus clientes.
 
