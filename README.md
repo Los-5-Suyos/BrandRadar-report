@@ -2226,15 +2226,15 @@ Los servicios backend (RESTful API) se despliegan en Render o Railway. Se vincul
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
-*(Introducción explicando los principales aspectos del Sprint)*
+En base a la coordinación del equipo, se asignaron los siguientes liderazgos para los componentes de la Landing Page:
 
-| Team Member (Last Name, First Name) | GitHub Username | `[Aspecto 1]` | `[Aspecto 2]` | `[Aspecto 3]` | `[Aspecto n]` |
+| Team Member (Last Name, First Name) | GitHub Username | `[Header + Hero]` | `[Características]` | `[Beneficios + Métricas]` | `[DashBoard + Testimonios]` | `[Precios + CTA + Footer]` |
 |:-----------------------------------:|:---------------:|:-------------:|:-------------:|:-------------:|:-------------:|
-| `[Apellido, Nombre]` | `[username]` | L | C | C | L |
-| `[Apellido, Nombre]` | `[username]` | C | L | C | C |
-| `[Apellido, Nombre]` | `[username]` | C | C | L | C |
-| `[Apellido, Nombre]` | `[username]` | C | C | C | L |
-| `[Apellido, Nombre]` | `[username]` | L | C | C | C |
+| `[Salinas, Briana]` | `[brianna-salinas]` | L | C | C | C | C |
+| `[García, Victor]` | `[vicmacode]` | C | L | C | C | C |
+| `[Jáuregui, Jean]` | `[JFranco556]` | C | C | L | C | C |
+| `[Acuña, Luis]` | `[L2006delacruz]` | C | C | C | L | C |
+| `[Cruzalegui, Joaquin]` | `[JoaquinCruzalegui]` | C | C | C | C | L |
 
 > **L** = Leader &nbsp;|&nbsp; **C** = Collaborator
 
