@@ -1350,7 +1350,7 @@ El Empathy Mapping fue elaborado a partir del análisis de las entrevistas reali
 
 *(Introducción y capturas del Impact Mapping elaborado en la herramienta indicada — UXPressia)*
 
-<img src="brandradar-report/assets/impact-mapping/impact-mapping.png" alt="Brand Radar Impact Mapping" style="width: 90%;height:1000px">
+<img src="brandradar-report/assets/impact-mapping/impact_mapping.png" alt="Brand Radar Impact Mapping" style="width: 90%;height:1000px">
 <br>
 
 *(Business Goals deben cumplir criterios SMART. Ejemplo: "Alcanzar los 600 usuarios suscritos al plan A en el lapso de 8 meses.")*
