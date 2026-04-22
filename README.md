@@ -1390,11 +1390,11 @@ Estrategia de Contenido: Se sustenta en herramientas de análisis como la US30 (
 
 *(Introducción al Product Backlog de BrandRadar)*
 
-> **Herramienta utilizada:** `[Pivotal Tracker / JetBrains YouTrack / Jira / Trello]`
+> **Herramienta utilizada:** `[Trello]`
 >
 > **URL del Product Backlog:** [`[URL pública del Product Backlog]`](`[URL]`)
 
-*(Captura del Product Backlog en la herramienta indicada)*
+<img src="brandradar-report/assets/product-backlog/productbacklog1.png" alt="Product Backlog parte 1" style="display: flex;justify-content: left"> <img src="brandradar-report/assets/product-backlog/productbacklog2.png" alt="Product Backlog parte 2" style="display: flex;justify-content: right">
 
 ![Product Backlog](assets/product-backlog/product-backlog.png)
 
