@@ -139,9 +139,10 @@ A continuación, se presenta el gráfico de red (network graph) del repositorio 
 </div>
 
 <br>
+
 A continuación, se muestran los gráficos con el análisis de los commits realizados en el repositorio. Estos reflejan tanto la cantidad de líneas de código añadidas por cada integrante del equipo como la actividad de commits registrada.
 
-<br>
+<br> <br>
 
 <div align="center">
 <img src="brandradar-report/assets/images/commits.png" alt="Gráfico de red Repositorio" width="900"/>
