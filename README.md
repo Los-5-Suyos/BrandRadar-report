@@ -345,7 +345,7 @@ BrandRadar permite a las empresas:
   
 ####  Integrante 1
 
-<img src="brandradar-report/assets/team/integrante1.jpg" alt="Foto Integrante 1" width="120"/>
+<img src="brandradar-report/assets/team/integrante1.jpg" alt="Foto Integrante 1" width="300"/>
 
 | Campo | Detalle |
 |:------|:--------|
@@ -367,7 +367,7 @@ BrandRadar permite a las empresas:
   
 ####  Integrante 2
 
-<img src="brandradar-report/assets/team/integrante2.jpg" alt="Foto Integrante 2" width="120"/>
+<img src="brandradar-report/assets/team/integrante2.jpg" alt="Foto Integrante 2" width="300"/>
 
 | Campo | Detalle |
 |:------|:--------|
@@ -387,7 +387,7 @@ BrandRadar permite a las empresas:
   
 ####  Integrante 3
 
-<img src="brandradar-report/assets/team/integrante3.jpg" alt="Foto Integrante 3" width="120"/>
+<img src="brandradar-report/assets/team/integrante3.jpg" alt="Foto Integrante 3" width="300"/>
 
 | Campo | Detalle |
 |:------|:--------|
@@ -424,7 +424,7 @@ BrandRadar permite a las empresas:
   
 ####  Integrante 5
 
-<img src="brandradar-report/assets/team/integrante5.jpg" alt="Foto Integrante 5" width="120"/>
+<img src="brandradar-report/assets/team/integrante5.jpg" alt="Foto Integrante 5" width="300"/>
 
 | Campo | Detalle |
 |:------|:--------|
@@ -1125,16 +1125,16 @@ Finalmente, identifica como uno de los mayores retos del marketing de contenidos
 
 <img src="brandradar-report/assets/interviews/ss_entrevista_6.png" alt="Screenshot Entrevista 6" width="1000"/>
 
-<br>
+<br> <br>
 
 | Campo | Detalle |
 |:------|:--------|
-| **Nombres y apellidos** | `[Valeria Nuñez]` |
+| **Nombres y apellidos** | `Valeria Nuñez` |
 | **Edad** | `[22]` |
-| **Ubicación** | `[Miraflores]` |
+| **Ubicación** | `Miraflores` |
 | **Fecha de entrevista** | `2026-04-21` |
 | **Duración** | `[HH:MM]` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](`https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410024_upc_edu_pe/IQDzVbzry8MzSKHuE6JMAtsWASvmIkfCaAhcBpafy-BUcb0?e=BRsswd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D`) |
+| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410024_upc_edu_pe/IQDzVbzry8MzSKHuE6JMAtsWASvmIkfCaAhcBpafy-BUcb0?e=BRsswd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
 
 **Resumen:**
 
@@ -1190,11 +1190,11 @@ Estos hallazgos refuerzan la necesidad de una solución automatizada que optimic
 
 ## 2.3. Needfinding
 
-> *Artefactos resultantes del proceso de análisis de la información recolectada a través de entrevistas y la síntesis de hallazgos cualitativos.*
+>*Artefactos resultantes del proceso de análisis de la información recolectada a través de entrevistas y la síntesis de hallazgos cualitativos.*
 
 ### 2.3.1. User Personas
 
-Estos arquetipos han sido construidos a partir del análisis cualitativo de las entrevistas realizadas a los usuarios de los segmentos objetivo, complementado con la identificación de patrones de comportamiento y el análisis del contexto del mercado y la competencia.
+>*Estos arquetipos han sido construidos a partir del análisis cualitativo de las entrevistas realizadas a los usuarios de los segmentos objetivo, complementado con la identificación de patrones de comportamiento y el análisis del contexto del mercado y la competencia.*
 
 <br>
 
@@ -1259,18 +1259,21 @@ A partir de la matriz se observa que:
 ### 2.3.3. User Journey Mapping
 >*El Customer Journey presentado ilustra el recorrido end-to-end actual (versión As-Is) que siguen los usuarios objetivo (dueños de PyMEs y especialistas de marketing) al gestionar la reputación digital de sus marcas. Este journey describe las etapas desde la toma de conciencia de la falta de control sobre las opiniones en línea, pasando por la búsqueda y adopción de soluciones, hasta el uso continuo de herramientas para monitorear menciones y responder a comentarios.
 En el contexto actual, gran parte de estas actividades se realiza de forma manual y en múltiples plataformas, lo que genera retrasos en la detección de problemas, sobrecarga operativa y dificultades para obtener una visión integrada del estado de la reputación digital.
-
 Este recorrido permite identificar puntos de fricción, emociones asociadas a cada etapa y oportunidades de mejora clave, las cuales fundamentan el diseño de la solución propuesta.*
 
 <br>
 
 **User Journey Map — `PyMEs`**
 
+<br>
+
 ![User Journey Map Persona 1](brandradar-report/assets/journey-maps/journey-map-persona1.png)
 
 <br>
 
 **User Journey Map — `Agencia(Account Manager)`**
+
+<br>
 
 ![User Journey Map Persona 2](brandradar-report/assets/journey-maps/journey-map-persona2.png)
 
@@ -1369,7 +1372,7 @@ En conjunto, la identificación de eventos, actores y flujos permitió construir
 |:-------------|:-------------|:-----------|
 | `User` | Usuario | Persona que interactúa con el sistema para gestionar la reputación digital de una o más marcas |
 | `PyME Owner` | Dueño de PyME | Usuario que gestiona la reputación digital de su propia marca |
-| `Agency Manager` | Gestor de Agencia | Usuario que administra múltiples marcas de distintos clientes |
+| `Community Manager` | Especialista de marketing y comunidades | Usuario que administra múltiples marcas de distintos clientes |
 | `Account` | Cuenta | Identidad del usuario dentro del sistema que permite autenticación y acceso |
 | `Session` | Sesión | Estado activo de un usuario autenticado en el sistema |
 | `Brand` | Marca | Empresa o negocio cuya reputación digital es monitoreada |
@@ -1415,6 +1418,7 @@ En conjunto, la identificación de eventos, actores y flujos permitió construir
 
 >*Las User Stories de BrandRadar expresan las necesidades reales de los usuarios en su propio lenguaje, describiendo qué requieren del sistema y por qué es importante para ellos. Cada historia traduce un requerimiento de negocio en una funcionalidad concreta, manteniendo el foco en el valor que aporta al usuario. En esta sección, las historias se organizan en Epics, lo que permite estructurar el alcance del producto y priorizar el desarrollo de las funcionalidades más relevantes. Los criterios de aceptación se redactan en tiempo presente y tercera persona, sin referencias a detalles de interfaz, siguiendo la estructura Gherkin (Given / When / Then).*
 
+<br>
 
 | Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
 |:---------------:|:------:|:------------|:------------------------|:-------------------------:|
@@ -1483,22 +1487,18 @@ En conjunto, la identificación de eventos, actores y flujos permitió construir
 
 ## 3.2. Impact Mapping
 
+>*El Impact Mapping de BrandRadar vincula el objetivo central del producto —lograr la conversión y fidelización mediante el monitoreo de reputación e infraestructura— con las necesidades de Alfredo Negrete y Romina Apaza.*
 <br>
 
 <img src="brandradar-report/assets/impact-mapping/impact-mapping.png" alt="Brand Radar Impact Mapping" style="width: 1000 px">
 
 <br>
 
-
-
-
-"El Impact Mapping de BrandRadar vincula el objetivo central del producto —lograr la conversión y fidelización mediante el monitoreo de reputación e infraestructura— con las necesidades de Alfredo Negrete y Romina Apaza.
-
-*Para Alfredo Negrete, el sistema no solo facilita la detección de quejas, sino que transforma el feedback en oportunidades de venta directa mediante la identificación de leads calientes y scripts de cierre.
+Para Alfredo Negrete, el sistema no solo facilita la detección de quejas, sino que transforma el feedback en oportunidades de venta directa mediante la identificación de leads calientes y scripts de cierre.
 
 Para Romina Apaza, la solución elimina la carga operativa del monitoreo manual y le otorga capacidad analítica avanzada, permitiéndole entregar valor estratégico a través de KPIs de retención mensual y métricas de conversión real (ROI).
 
-Estos impactos se materializan en entregables como el motor de IA con entrenamiento por industria, módulos de SEO local sincronizados con Google Maps y herramientas de análisis creativo para redes sociales, asegurando una trazabilidad total con las 46 historias de usuario del backlog."
+Estos impactos se materializan en entregables como el motor de IA con entrenamiento por industria, módulos de SEO local sincronizados con Google Maps y herramientas de análisis creativo para redes sociales, asegurando una trazabilidad total con las 46 historias de usuario del backlog.
 
 <br>
 
@@ -1506,9 +1506,7 @@ Estos impactos se materializan en entregables como el motor de IA con entrenamie
 
 ## 3.3. Product Backlog
 
->*El Product Backlog de BrandRadar consolida el conjunto de funcionalidades priorizadas que guían el desarrollo del producto. Cada historia de usuario está estimada en Story Points y ordenada según su valor estratégico, lo que permite planificar iteraciones de forma incremental y realista.
-
-El backlog abarca cinco áreas principales: monitoreo de redes sociales, análisis de sentimiento mediante inteligencia artificial, gestión de reputación digital, generación de reportes y exportación de datos, y herramientas de respuesta y colaboración. En conjunto, el backlog está compuesto por 45 historias de usuario, distribuidas según su nivel de complejidad y prioridad.*
+>*El Product Backlog de BrandRadar consolida el conjunto de funcionalidades priorizadas que guían el desarrollo del producto. Cada historia de usuario está estimada en Story Points y ordenada según su valor estratégico, lo que permite planificar iteraciones de forma incremental y realista. El backlog abarca cinco áreas principales: monitoreo de redes sociales, análisis de sentimiento mediante inteligencia artificial, gestión de reputación digital, generación de reportes y exportación de datos, y herramientas de respuesta y colaboración. En conjunto, el backlog está compuesto por 45 historias de usuario, distribuidas según su nivel de complejidad y prioridad.*
 
 <br>
 
@@ -1561,6 +1559,19 @@ El backlog abarca cinco áreas principales: monitoreo de redes sociales, anális
 | 45 | US45 | Sentimiento de Atención (Personal) | Como `Gerente`, quiero `monitorear menciones sobre el trato de mis empleados`, para `gestionar capacitaciones`. | 5 |
 | 46 | US46 | KPI de Retención Mensual de Clientes | Como `Administrador`, quiero `ver cuántos clientes vuelven a dejar reseñas positivas`, para `medir la fidelización`. | 8 |
 
+<div align="center">
+  
+**Herramienta utilizada:** `Jira`
+
+**URL del Product Backlog:** [Ver Product Backlog en Jira](https://briupalace.atlassian.net/jira/software/projects/PAW/boards/2/backlog?atlOrigin=eyJpIjoiMTE0ZjJmNThkNjBhNDQyNzkwMzI2YTJiMzJkNjRiN2MiLCJwIjoiaiJ9)
+
+<br>
+
+*Captura del Product Backlog en herramienta*
+
+![Product Backlog](pawtient-report/assets/images/product-backlog/product-backlog.png)
+
+</div>
 
 <br>
 
@@ -1578,14 +1589,31 @@ El backlog abarca cinco áreas principales: monitoreo de redes sociales, anális
 
 ### 4.1.1. General Style Guidelines
 
-**Branding:**
+### Branding:*
 
-Logo Principal: El logotipo de BrandRadar se compone de un isotipo circular que encierra una flecha/brújula estilizada en dirección noreste, simbolizando crecimiento y monitoreo estratégico. La tipografía es una Sans Serif moderna que combina el negro para "Brand" y un gradiente violeta para "Radar", enfatizando el enfoque tecnológico.
+<br>
 
-Logo Alternativo: Se permite el uso de una variante minimalista en blanco puro sobre fondos oscuros o una versión monocromática en negro absoluto para documentos impresos. El isotipo puede utilizarse de forma independiente como avatar o favicon en interfaces reducidas.
+**Logo Principal:**
+
+El logotipo de BrandRadar se compone de un isotipo circular que encierra una flecha/brújula estilizada en dirección noreste, simbolizando crecimiento y monitoreo estratégico. La tipografía es una Sans Serif moderna que combina el negro para "Brand" y un gradiente violeta para "Radar", enfatizando el enfoque tecnológico.
+
+<div align="center">
+<img src="brandradar-report/assets/images/brandradar.png" alt="BrandRadar Logo" width="320"/>
+</div>
+
+<br>
+
+**Logo Alternativo:**
+
+Se permite el uso de una variante minimalista en blanco puro sobre fondos oscuros o una versión monocromática en negro absoluto para documentos impresos. El isotipo puede utilizarse de forma independiente como avatar o favicon en interfaces reducidas.
 
 Uso No Permitido: No se permite el uso de sombras paralelas (drop shadows) excesivas en el logotipo, ni la alteración de sus proporciones (estiramiento). Queda prohibido el uso de combinaciones de colores cálidos como rojo o naranja, ya que entran en conflicto con la psicología de "monitoreo sereno" y "seguridad de marca" que el azul y morado proyectan.
 
+<div align="center">
+<img src="brandradar-report/assets/images/brandradar.png" alt="BrandRadar Logo" width="320"/>
+</div>
+
+<br>
 
 **Typography:**
 
@@ -1603,6 +1631,8 @@ Fuente Secundaria: Inter (optimizada para la lectura fluida de datos analíticos
 | Display / Heading | `[Plus Jakarta Sans]` | Títulos y encabezados |
 | Body | `[Inter]` | Texto de contenido |
 | Monospace | `[JetBrains Mono]` | Código y datos técnicos |
+
+<br>
 
 **Colors**
 
@@ -1637,7 +1667,7 @@ Fuente Secundaria: Inter (optimizada para la lectura fluida de datos analíticos
 ### 4.1.2. Web Style Guidelines
 
 
- En esta sección se integran las decisiones para la interfaz Responsive:
+En esta sección se integran las decisiones para la interfaz Responsive:
 
 Componentes de Botón: Todos los botones poseen un border-radius de 12px. El botón primario utiliza un degradado lineal (linear-gradient) de Indigo a Purple para destacar sobre fondos neutros.
 
