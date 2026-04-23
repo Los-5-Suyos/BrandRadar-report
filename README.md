@@ -1593,23 +1593,40 @@ Estos impactos se materializan en entregables como el motor de IA con entrenamie
 
 <br>
 
-**Logo Principal:**
+  
+**Branding Overview**
 
-El logotipo de BrandRadar se compone de un isotipo circular que encierra una flecha/brújula estilizada en dirección noreste, simbolizando crecimiento y monitoreo estratégico. La tipografía es una Sans Serif moderna que combina el negro para "Brand" y un gradiente violeta para "Radar", enfatizando el enfoque tecnológico.
+El nombre BrandRadar combina dos conceptos centrales: *"Brand"*, que representa la identidad y reputación de una empresa en el mercado, y *"Radar"*, que evoca monitoreo continuo, detección temprana y precisión analítica. Este nombre fue elegido por su claridad conceptual, fácil recordación y por reflejar con exactitud la misión del producto: rastrear, detectar y gestionar la reputación digital de una marca en tiempo real.
 
 <br>
 
-**Logo Alternativo:**
+**Logo e Isotipo**
 
-Se permite el uso de una variante minimalista en blanco puro sobre fondos oscuros o una versión monocromática en negro absoluto para documentos impresos. El isotipo puede utilizarse de forma independiente como avatar o favicon en interfaces reducidas.
+El logotipo de BrandRadar combina un símbolo geométrico con una tipografía sans serif de alto contraste. El símbolo —un avión de papel dentro de un círculo con un punto en la parte superior— transmite velocidad, dirección y monitoreo activo, evocando la idea de rastrear señales en tiempo real. El punto exterior al círculo refuerza la metáfora del radar: una señal siendo detectada.
 
+La tipografía del wordmark divide visualmente las dos palabras que conforman el nombre: **Brand** aparece en negro y **Radar** en el color primario de la marca (azul-violeta o verde según la variante), lo que refuerza el concepto de "seguimiento de marca" de forma inmediata.
+
+Se dispone de dos variantes de logo para adaptarse a distintos contextos:
 
 <br>
 
 <div align="center">
-<img src="brandradar-report/assets/images/logos.png" alt="Logos de BrandRadar" width="320"/>
+  
+| Variante | Descripción | Uso recomendado |
+|---|---|---|
+| **Principal (Purple/Blue)** | Isotipo en gradiente violeta–azul con wordmark en negro y primario | Fondos blancos, documentos, landing page |
+| **Alternativa (Teal)** | Isotipo en verde-turquesa con wordmark en negro y verde | Fondos claros alternativos, materiales secundarios |
+
 </div>
 
+<br>
+
+El isotipo circular puede utilizarse de forma independiente como favicon, ícono de aplicación móvil o avatar en redes sociales, manteniendo plena legibilidad a tamaños reducidos.
+
+<br>
+<div align="center">
+<img src="brandradar-report/assets/images/logos.png" alt="Logos de BrandRadar" width="500"/>
+</div>
 <br>
 
 **Uso No Permitido:**
@@ -1617,48 +1634,60 @@ Se permite el uso de una variante minimalista en blanco puro sobre fondos oscuro
 No se permite el uso de sombras paralelas (drop shadows) excesivas en el logotipo, ni la alteración de sus proporciones (estiramiento). Queda prohibido el uso de combinaciones de colores cálidos como rojo o naranja, ya que entran en conflicto con la psicología de "monitoreo sereno" y "seguridad de marca" que el azul y morado proyectan.
 
 <br>
-
 <div align="center">
-<img src="brandradar-report/assets/images/logo-no.png" alt="Logo No Permitido" width="320"/>
+<img src="brandradar-report/assets/images/logo-no.png" alt="Logo No Permitido" width="500"/>
 </div>
-
 <br>
 
 **Typography:**
 
-El sistema tipográfico de BrandRadar combina fuentes modernas y expresivas para transmitir tecnología, precisión y dinamismo visual. Se utilizan distintas familias tipográficas para reforzar la jerarquía y personalidad de la marca.
-
-
-| Tipo           |              Fuente              | Uso                                       |
-| :------------- | :------------------------------: | :---------------------------------------- |
-| Display / Hero |  **Special Gothic Expanded One** | Títulos principales, landing, branding    |
-| Heading        |            **Spartan**           | Encabezados (H2, H3, secciones)           |
-| Subheading     | **Special Gothic Condensed One** | Subtítulos y bloques destacados           |
-| UI / Body      |       **Radio Canada Big**       | Texto principal, navegación, interfaz     |
-| Accent / Tech  |         **TASA Orbiter**         | Elementos tecnológicos, números, detalles |
-
 <br>
 
-Jerarquía Tipográfica
+La estrategia tipográfica de BrandRadar combina cinco familias de fuentes con roles claramente diferenciados, logrando un sistema visual que equilibra impacto, legibilidad y personalidad tecnológica. Todas las fuentes están disponibles a través de Google Fonts, garantizando compatibilidad en entornos web y móviles sin dependencias externas.
 
-| Nivel           |            Fuente            | Peso / Estilo | Uso                         |
-| :-------------- | :--------------------------: | :-----------: | :-------------------------- |
-| H1              |  Special Gothic Expanded One |  Bold / Wide  | Hero, títulos principales   |
-| H2              |            Spartan           |    SemiBold   | Secciones principales       |
-| H3              |            Spartan           |     Medium    | Sub-secciones               |
-| H4              | Special Gothic Condensed One |    Regular    | Encabezados secundarios     |
-| Body            |       Radio Canada Big       |    Regular    | Texto general               |
-| Small / Caption |       Radio Canada Big       |     Light     | Texto secundario            |
-| UI / Data       |         TASA Orbiter         |    Regular    | Datos, métricas, UI técnica |
+**Special Gothic Expanded One** se reserva para los títulos principales y elementos de branding de alto impacto. Su diseño expandido y de trazo uniforme domina el espacio visual, ideal para el hero de la landing page y portadas de reportes.
 
+**Spartan** actúa como la fuente de encabezados estructurales. Su geometría limpia y sus proporciones equilibradas la hacen perfecta para organizar la jerarquía de secciones sin competir con el display principal.
+
+**Special Gothic Condensed One** complementa al display en subtítulos y bloques destacados donde se requiere presencia tipográfica con menor ocupación horizontal, permitiendo mayor densidad de información en espacios reducidos.
+
+**Radio Canada Big** es la fuente de interfaz y cuerpo de texto. Diseñada para alta legibilidad en pantallas, se usa en todo el contenido navegable: descripciones, párrafos, etiquetas de navegación, botones y formularios.
+
+**TASA Orbiter** se emplea de forma selectiva en elementos de datos, métricas y componentes técnicos, aportando un carácter tecnológico y preciso que refuerza la naturaleza analítica del producto.
 
 
 <br>
-
 <div align="center">
-<img src="brandradar-report/assets/images/typography.jpeg" alt="Typography and colors" width="700"/>
+Sistema de familias tipográficas
+
+| Tipo | Fuente | Uso |
+|:---|:---:|:---|
+| Display / Hero | **Special Gothic Expanded One** | Títulos principales, landing, branding |
+| Heading | **Spartan** | Encabezados (H2, H3, secciones) |
+| Subheading | **Special Gothic Condensed One** | Subtítulos y bloques destacados |
+| UI / Body | **Radio Canada Big** | Texto principal, navegación, interfaz |
+| Accent / Tech | **TASA Orbiter** | Elementos tecnológicos, números, métricas |
+
+Jerarquía tipográfica
+
+| Nivel | Fuente | Peso / Estilo | Tamaño | Uso |
+|:---|:---:|:---:|:---:|:---|
+| H1 | Special Gothic Expanded One | Bold / Wide | 56–72px | Hero, títulos principales |
+| H2 | Spartan | SemiBold | 36–42px | Secciones principales |
+| H3 | Spartan | Medium | 24–28px | Sub-secciones |
+| H4 | Special Gothic Condensed One | Regular | 18–20px | Encabezados secundarios |
+| Body 1 (Bold) | Radio Canada Big | SemiBold | 16px | Énfasis en cuerpo de texto |
+| Body 1 (Regular) | Radio Canada Big | Regular | 16px | Texto general de interfaz |
+| Body 2 / Caption | Radio Canada Big | Light | 13–14px | Texto secundario, notas al pie |
+| Nav link | Radio Canada Big | Medium | 15px | Ítems de navegación |
+| Button text | Radio Canada Big | SemiBold | 14px | Etiquetas de botones y CTAs |
+| UI / Data | TASA Orbiter | Regular | 14–16px | Datos, métricas, UI técnica |
 </div>
 
+<br>
+<div align="center">
+<img src="brandradar-report/assets/images/type.png" alt="Typography and colors" width="700"/>
+</div>
 <br>
 
 **Colors**
