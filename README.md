@@ -2703,11 +2703,20 @@ Esto incluye la implementación de secciones de social proof, como testimonios y
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
-*(Introducción resumiendo los principales avances en implementación del Sprint 1)*
+Durante el Sprint 1, el equipo se enfocó en establecer la base técnica de BrandRadar mediante el uso de estándares web modernos: HTML5 para la estructura y CSS3 para el diseño visual. Se priorizó una arquitectura de estilos modular, donde cada componente de la Landing Page cuenta con su propia hoja de estilos, facilitando el trabajo paralelo y evitando conflictos en el código.
+
+Se adoptó el flujo GitFlow, organizando el desarrollo en ramas de características (feature/) que permitieron a los integrantes trabajar de forma independiente en el Header, Hero, Beneficios y demás secciones, antes de consolidar el producto final en la rama develop para su revisión.
 
 | Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on (Date) |
 |:----------:|:------:|:---------:|:--------------:|:-------------------:|:-------------------:|
-| `[user/repo]` | `[branch]` | `[commit-id]` | `[mensaje]` | `[cuerpo]` | `YYYY-MM-DD` |
+| `[Los-5-Suyos/BrandRadar-Landing-Page]` | `[main]` | `[b148470]` | `[initial commit]` | `[Configuración inicial del repositorio y README base]` | `2026-04-13` |
+| `[Los-5-Suyos/BrandRadar-Landing-Page]` | `[develop]` | `[f3aaaf1]` | `[feat: project structure setup]` | `[Creación de carpetas e integración de estilos CSS base]` | `2026-04-13` |
+| `[Los-5-Suyos/BrandRadar-Landing-Page]` | `[feature/brianna]` | `[f85e590]` | `[feat: add header and hero]` | `[Implementación de navegación e impacto visual con CSS nativo]` | `2026-04-19` |
+| `[Los-5-Suyos/BrandRadar-Landing-Page]` | `[feature/victor]` | `[b5b80f6]` | `[feat: add features section]` | `[Desarrollo de la cuadrícula de servicios usando CSS]` | `2026-04-DD` |
+| `[Los-5-Suyos/BrandRadar-Landing-Page]` | `[feature/jfranco]` | `[09c0f86]` | `[feat: add benefits and metrics]` | `[Maquetación de beneficios y métricas con estilos personalizados]` | `2026-04-22` |
+| `[Los-5-Suyos/BrandRadar-Landing-Page]` | `[feature/luis]` | `[6272bc2]` | `[feat: add dashboard and social proof]` | `[Implementación de testimonios y previsualización de Dashboard]` | `2026-04-23` |
+| `[Los-5-Suyos/BrandRadar-Landing-Page]` | `[feature/Joaquin]` | `[68319a2]` | `[feat: add pricing and footer]` | `[Diseño de tablas de precios y cierre de página con CSS responsivo]` | `2026-04-22` |
+| `[Los-5-Suyos/BrandRadar-Landing-Page]` | `[develop]` | `[d9812fb]` | `[merge: final integration]` | `[Fusión de ramas para el despliegue final en producción]` | `2026-04-23` |
 | | | | | | |
 
 ---
