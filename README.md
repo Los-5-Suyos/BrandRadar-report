@@ -1460,17 +1460,20 @@ En conjunto, la identificación de eventos, actores y flujos permitió construir
 
 <br>
 
-![Impact Map](brandradar-report/assets/images/BrandRadarImpactMapping.png)
+<img src="brandradar-report/assets/impact-mapping/impact-mapping.png" alt="Brand Radar Impact Mapping" style="width:1000px">
 
 <br>
 
->*El Impact Mapping de BrandRadar vincula el objetivo central del producto —centralizar el monitoreo de la reputación digital y el estado de la infraestructura web— con las necesidades específicas de los usuarios objetivo: Alfredo Negrete y Romina Apaza.
 
-Para Alfredo Negrete, el sistema debe permitir la detección inmediata de quejas o comentarios negativos, facilitando la toma de decisiones basada en feedback real para optimizar sus procesos de negocio.
 
-Para Romina Apaza, la solución debe reducir la carga operativa asociada al monitoreo manual, permitiéndole gestionar múltiples marcas de manera más eficiente.
 
-Cada uno de estos impactos se traduce en entregables funcionales como alertas en tiempo real, dashboards centralizados, análisis de sentimiento y reportes de reputación, los cuales se conectan directamente con las historias de usuario definidas en el backlog del producto.*
+"El Impact Mapping de BrandRadar vincula el objetivo central del producto —lograr la conversión y fidelización mediante el monitoreo de reputación e infraestructura— con las necesidades de Alfredo Negrete y Romina Apaza.
+
+*Para Alfredo Negrete, el sistema no solo facilita la detección de quejas, sino que transforma el feedback en oportunidades de venta directa mediante la identificación de leads calientes y scripts de cierre.
+
+Para Romina Apaza, la solución elimina la carga operativa del monitoreo manual y le otorga capacidad analítica avanzada, permitiéndole entregar valor estratégico a través de KPIs de retención mensual y métricas de conversión real (ROI).
+
+Estos impactos se materializan en entregables como el motor de IA con entrenamiento por industria, módulos de SEO local sincronizados con Google Maps y herramientas de análisis creativo para redes sociales, asegurando una trazabilidad total con las 46 historias de usuario del backlog."
 
 <br>
 
