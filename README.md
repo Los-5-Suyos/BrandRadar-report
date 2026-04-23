@@ -1622,7 +1622,15 @@ Fuente Secundaria: Inter (optimizada para la lectura fluida de datos analíticos
 ---
 
 ### 4.1.2. Web Style Guidelines
- 
+
+
+ En esta sección se integran las decisiones para la interfaz Responsive:
+
+Componentes de Botón: Todos los botones poseen un border-radius de 12px. El botón primario utiliza un degradado lineal (linear-gradient) de Indigo a Purple para destacar sobre fondos neutros.
+
+Tarjetas (Cards): Las tarjetas de características presentan un borde suave (border: 1px solid #E2E8F0) y un radio de 24px. En estado hover, la tarjeta debe mostrar una sombra sutil (box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1)).
+
+Sistema de Rejilla: Uso de Flexbox y CSS Grid. En pantallas superiores a 1280px, las tarjetas se distribuyen en 3 columnas. En dispositivos de 768px o menos, la rejilla colapsa a una sola columna para optimizar el área de lectura.
 
 ---
 
