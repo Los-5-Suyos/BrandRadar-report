@@ -1727,7 +1727,7 @@ Adicionalmente, se definen colores de estado semántico para alertas, notificaci
 
 <br>
 <div align="center">
-<img src="brandradar-report/assets/images/colors.png" alt="Paleta de colores de BrandRadar" width="400"/>
+<img src="brandradar-report/assets/images/colors.png" alt="Paleta de colores de BrandRadar" width="800"/>
 </div>
 <br>
 
