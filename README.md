@@ -1589,11 +1589,8 @@ Estos impactos se materializan en entregables como el motor de IA con entrenamie
 
 ### 4.1.1. General Style Guidelines
 
-#### Branding:
+### Branding:
 
-<br>
-
-  
 **Branding Overview**
 
 El nombre BrandRadar combina dos conceptos centrales: *"Brand"*, que representa la identidad y reputación de una empresa en el mercado, y *"Radar"*, que evoca monitoreo continuo, detección temprana y precisión analítica. Este nombre fue elegido por su claridad conceptual, fácil recordación y por reflejar con exactitud la misión del producto: rastrear, detectar y gestionar la reputación digital de una marca en tiempo real.
@@ -1602,7 +1599,7 @@ El nombre BrandRadar combina dos conceptos centrales: *"Brand"*, que representa 
 
 **Logo e Isotipo**
 
-El logotipo de BrandRadar combina un símbolo geométrico con una tipografía sans serif de alto contraste. El símbolo —un avión de papel dentro de un círculo con un punto en la parte superior— transmite velocidad, dirección y monitoreo activo, evocando la idea de rastrear señales en tiempo real. El punto exterior al círculo refuerza la metáfora del radar: una señal siendo detectada.
+El logotipo de BrandRadar combina un símbolo geométrico con una tipografía sans serif de alto contraste. El símbolo (un avión de papel dentro de un círculo con un punto en la parte superior) transmite velocidad, dirección y monitoreo activo, evocando la idea de rastrear señales en tiempo real. El punto exterior al círculo refuerza la metáfora del radar: una señal siendo detectada.
 
 La tipografía del wordmark divide visualmente las dos palabras que conforman el nombre: **Brand** aparece en negro y **Radar** en el color primario de la marca (azul-violeta o verde según la variante), lo que refuerza el concepto de "seguimiento de marca" de forma inmediata.
 
@@ -1625,7 +1622,7 @@ El isotipo circular puede utilizarse de forma independiente como favicon, ícono
 
 <br>
 <div align="center">
-<img src="brandradar-report/assets/images/logos.png" alt="Logos de BrandRadar" width="800"/>
+<img src="brandradar-report/assets/images/logos.png" alt="Logos de BrandRadar" width="600"/>
 </div>
 <br>
 
@@ -1635,11 +1632,11 @@ No se permite el uso de sombras paralelas (drop shadows) excesivas en el logotip
 
 <br>
 <div align="center">
-<img src="brandradar-report/assets/images/logo-no.png" alt="Logo No Permitido" width="500"/>
+<img src="brandradar-report/assets/images/logo-no.png" alt="Logo No Permitido" width="300"/>
 </div>
 <br>
 
-#### Typography:
+### Typography:
 
 <br>
 
@@ -1658,12 +1655,13 @@ La estrategia tipográfica de BrandRadar combina cinco familias de fuentes con r
 
 <br>
 <div align="center">
-
-<img src="brandradar-report/assets/images/type.png" alt="Typography and colors" width="500"/>
-
+<img src="brandradar-report/assets/images/type.png" alt="Typography and colors" width="350"/>
+</div>
 <br>
 
 Sistema de familias tipográficas
+
+<br>
 
 | Tipo | Fuente | Uso |
 |:---|:---:|:---|
@@ -1673,7 +1671,11 @@ Sistema de familias tipográficas
 | UI / Body | **Radio Canada Big** | Texto principal, navegación, interfaz |
 | Accent / Tech | **TASA Orbiter** | Elementos tecnológicos, números, métricas |
 
+<br>
+
 Jerarquía tipográfica
+
+<br>
 
 | Nivel | Fuente | Peso / Estilo | Tamaño | Uso |
 |:---|:---:|:---:|:---:|:---|
@@ -1690,64 +1692,43 @@ Jerarquía tipográfica
 
 <br>
 
+### Colors
 
+La paleta de BrandRadar está diseñada para transmitir confianza, tecnología y enfoque analítico, manteniendo un balance entre tonos oscuros profundos, fondos limpios y acentos vibrantes que dirigen la atención del usuario hacia las acciones y datos más relevantes.
+
+Los tonos oscuros (negro y azul pizarra) aportan seriedad y profundidad, adecuados para encabezados, fondos de componentes y texto principal. Los tonos lavanda y lila claro funcionan como superficies neutras de bajo contraste, ideales para fondos de tarjetas, estados hover y separadores. El blanco y el gris muy claro garantizan espacios de respiro visual que mejoran la legibilidad. Como contrapeso, los acentos en azul-violeta intenso y violeta-púrpura introducen dinamismo, identifican las acciones primarias y refuerzan la identidad tecnológica del producto.
+
+<br>
+
+| Nombre | Hex | Uso |
+|:---|:---:|:---|
+| Black | `#000000` | Texto de alta importancia, encabezados H1 |
+| Slate / Dark Text | `#3D4466` | Texto secundario oscuro, íconos, subtítulos |
+| Lavender Medium | `#8B8FBF` | Estados deshabilitados, texto terciario |
+| Lavender Light | `#C5C7E0` | Bordes, separadores, fondos de hover |
+| Off-White | `#ECEDF5` | Fondo de tarjetas, superficies secundarias |
+| White / Ghost | `#F5F5FA` | Fondo general de la aplicación |
+| Near White | `#FAFAFA` | Fondo de página, áreas de contenido amplio |
+| Navy Deep | `#0D1033` | Fondo de headers oscuros, sidebar dark mode |
+| Midnight Blue | `#1A2155` | Fondo de secciones hero, banners de alerta |
+| Primary Purple | `#5B5FEE` | Botones primarios, links activos, CTA |
+| Accent Blue | `#4B6EF5` | Estados hover de botones, énfasis secundario |
+| Accent Violet | `#9B3CF7` | Highlights, badges, métricas destacadas |
+
+<br>
+<div align="center">
+<img src="brandradar-report/assets/images/colors.png" alt="Paleta de colores de BrandRadar" width="400"/>
 </div>
 <br>
 
-**Colors**
+Adicionalmente, se definen colores de estado semántico para alertas, notificaciones y feedback del sistema:
 
-La paleta de BrandRadar está diseñada para transmitir confianza, tecnología y enfoque analítico, manteniendo un balance entre tonos fríos y acentos vibrantes.
-
-| Nombre           |    Hex    | Uso                           |
-| :--------------- | :-------: | :---------------------------- |
-| Primary Dark     | `#141B38` | Fondo oscuro, headers         |
-| Primary          | `#4A51F4` | Botones, acciones principales |
-| Background Light | `#F4F5FB` | Fondo general                 |
-| Accent Purple    | `#A934D7` | Énfasis, highlights           |
-| Secondary Text   | `#566689` | Texto secundario              |
-
-<br>
-
-**Spacing**
-
-El sistema de espaciado de BrandRadar se basa en una unidad base de 8px, lo que permite mantener consistencia visual y alineación precisa en todos los componentes de la interfaz.
-
-Se utilizan múltiplos de esta unidad para definir márgenes, paddings y separación entre elementos:
-
-<br>
-
-| Escala | Valor | Uso                                      |
-| :----: | :---: | :--------------------------------------- |
-|   xs   |  4px  | Espaciados muy pequeños (íconos, labels) |
-|   sm   |  8px  | Separación mínima entre elementos        |
-|   md   |  16px | Espaciado estándar en componentes        |
-|   lg   |  24px | Separación entre secciones relacionadas  |
-|   xl   |  32px | Separación entre bloques principales     |
-|   2xl  |  48px | Espaciado amplio para layouts            |
-
-
-Este sistema asegura una interfaz limpia, ordenada y fácil de escanear visualmente, especialmente en dashboards y visualización de datos.
-
-<br>
-
-**Tono de comunicación**
-
-El tono de BrandRadar está diseñado para transmitir confianza, claridad y tecnología, sin perder cercanía con el usuario.
-
-
-| Dimensión                |             Selección             |
-| :----------------------- | :-------------------------------: |
-| Divertido / Serio        |    **70% Serio – 30% Cercano**    |
-| Formal / Casual          |    **60% Formal – 40% Casual**    |
-| Respetuoso / Irreverente | **90% Respetuoso – 10% Creativo** |
-| Entusiasta / Sereno      |  **60% Sereno – 40% Entusiasta**  |
-
-
-Descripción del tono:
-
-BrandRadar comunica de forma clara, directa y profesional, priorizando la comprensión de información analítica. Mantiene un estilo sereno y confiable, alineado con herramientas de monitoreo y análisis, pero incorpora un toque ligero de entusiasmo para transmitir innovación y dinamismo tecnológico.
-
-Se evita el uso de lenguaje demasiado técnico cuando no es necesario, así como expresiones exageradas o informales que puedan afectar la percepción de seriedad de la plataforma.
+| Estado | Hex | Uso |
+|:---|:---:|:---|
+| Success (positivo) | `#22C55E` | Sentimiento positivo, confirmaciones |
+| Warning (moderado) | `#F59E0B` | Alertas medias, advertencias |
+| Danger (crítico) | `#EF4444` | Alertas críticas, errores, sentimiento negativo |
+| Info (informativo) | `#3B82F6` | Mensajes informativos, tooltips |
 
 <br>
 
