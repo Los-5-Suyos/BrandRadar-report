@@ -3222,10 +3222,10 @@ Como resultado del Sprint Planning, el equipo estableció un conjunto claro de t
 |:------|:--------|
 | **Sprint #** | Sprint 1 |
 | **Date** | 2026-04-15 |
-| **Time** | 06:00 PM |
+| **Time** | 18:00 PM |
 | **Location** | Llamada por la plataforma de discord |
 | **Prepared By** | Salinas Guzmán, Brianna Cristina |
-| **Attendees** | Salinas, Briana / Cruzalegui, Joaquin / Jáuregui, Jean  / García, Victor / Acuña, Luis|
+| **Attendees** | Salinas, Brianna / Cruzalegui, Joaquin / Jáuregui, Jean  / García, Victor / Acuña, Luis|
 | **Sprint 0 Review Summary** | Se finalizó la etapa de investigación y diseño de arquitectura base. El equipo cuenta con los mock-ups de alta fidelidad listos para iniciar la implementación de la Landing Page. |
 | **Sprint 0 Retrospective Summary** | El equipo muestra compromiso, pero se debe reforzar el flujo de GitFlow para evitar conflictos en la integración de las secciones de la Landing Page. |
 | **Sprint 1 Goal** | Nuestro enfoque es el desarrollo y despliegue de la Landing Page de BrandRadar. Creemos que entrega valor al permitir la captación de leads y visibilidad de marca. Esto se confirmará cuando todas las secciones estén integradas y funcionales en Netlify. |
