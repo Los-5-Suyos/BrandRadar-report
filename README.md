@@ -2787,81 +2787,81 @@ En esta sección se describen las herramientas de software seleccionadas para da
 
 **Gestión de Requisitos**
 
-| Logo | Herramienta | Uso principal | Enlace |
-|:---:|:---|:---|:---|
-| <img src="https://logo.clearbit.com/miro.com" width="40"/> | **Miro** | Elaboración colaborativa de As-Is y To-Be Scenario Maps, así como Impact Maps para cada segmento objetivo. | [miro.com](https://miro.com) |
-| <img src="https://logo.clearbit.com/uxpressia.com" width="40"/> | **UXPressia** | Creación de User Personas, Empathy Maps, Journey Maps e Impact Maps para los segmentos Dueños de PyMEs y Directores de Agencias Digitales. | [uxpressia.com](https://uxpressia.com) |
-| <img src="https://logo.clearbit.com/pivotaltracker.com" width="40"/> | **PivotalTracker** | Seguimiento de proyectos con enfoque en historias de usuario, métricas de velocidad y visualización del estado de tareas por sprint. | [pivotaltracker.com](https://pivotaltracker.com) |
+| Herramienta | Uso principal | Enlace |
+|:---|:---|:---|
+| ![Miro](https://img.shields.io/badge/Miro-FFD02F?style=for-the-badge&logo=miro&logoColor=black) | Elaboración colaborativa de As-Is y To-Be Scenario Maps, así como Impact Maps para cada segmento objetivo. | [miro.com](https://miro.com) |
+| ![UXPressia](https://img.shields.io/badge/UXPressia-6B4FBB?style=for-the-badge&logoColor=white) | Creación de User Personas, Empathy Maps, Journey Maps e Impact Maps para los segmentos Dueños de PyMEs y Directores de Agencias Digitales. | [uxpressia.com](https://uxpressia.com) |
+| ![PivotalTracker](https://img.shields.io/badge/Pivotal_Tracker-5C3D9E?style=for-the-badge&logo=pivotaltracker&logoColor=white) | Seguimiento de proyectos con enfoque en historias de usuario, métricas de velocidad y visualización del estado de tareas por sprint. | [pivotaltracker.com](https://pivotaltracker.com) |
 
 
 <br>
 
 **Diseño de Experiencia y UI/UX**
 
-| Logo | Herramienta | Uso principal | Enlace |
-|:---:|:---|:---|:---|
-| <img src="https://logo.clearbit.com/figma.com" width="40"/> | **Figma** | Diseño colaborativo de wireframes, mockups y prototipos de alta fidelidad de la aplicación web BrandRadar. | [figma.com](https://figma.com) |
-| <img src="https://logo.clearbit.com/lucidchart.com" width="40"/> | **LucidChart** | Elaboración de user flows, wireflows y diagramas de procesos o arquitectura. | [lucidchart.com](https://lucidchart.com) |
-| <img src="https://logo.clearbit.com/miro.com" width="40"/> | **Miro** | Diseño colaborativo en tiempo real de mapas de experiencia (As-Is y To-Be Scenarios). | [miro.com](https://miro.com) |
-| <img src="https://logo.clearbit.com/uxpressia.com" width="40"/> | **UXPressia** | Creación de User Personas, Empathy Maps y Journey Maps para la validación de la experiencia de usuario. | [uxpressia.com](https://uxpressia.com) |
+| Herramienta | Uso principal | Enlace |
+|:---|:---|:---|
+| ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white) | Diseño colaborativo de wireframes, mockups y prototipos de alta fidelidad de la aplicación web BrandRadar. | [figma.com](https://figma.com) |
+| ![LucidChart](https://img.shields.io/badge/LucidChart-F97316?style=for-the-badge&logo=lucid&logoColor=white) | Elaboración de user flows, wireflows y diagramas de procesos o arquitectura. | [lucidchart.com](https://lucidchart.com) |
+| ![Miro](https://img.shields.io/badge/Miro-FFD02F?style=for-the-badge&logo=miro&logoColor=black) | Diseño colaborativo en tiempo real de mapas de experiencia (As-Is y To-Be Scenarios). | [miro.com](https://miro.com) |
+| ![UXPressia](https://img.shields.io/badge/UXPressia-6B4FBB?style=for-the-badge&logoColor=white) | Creación de User Personas, Empathy Maps y Journey Maps para la validación de la experiencia de usuario. | [uxpressia.com](https://uxpressia.com) |
 
 <br>
 
 **Desarrollo de Software**
 
-| Logo | Herramienta / Tecnología | Uso principal | Enlace |
-|:---:|:---|:---|:---|
-| <img src="https://logo.clearbit.com/visualstudio.com" width="40"/> | **Visual Studio Code** | Entorno de desarrollo integrado principal para escribir, editar y depurar el código de la aplicación. | [code.visualstudio.com](https://code.visualstudio.com) |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="40"/> | **HTML5** | Lenguaje de marcado para estructurar el contenido de la landing page y del dashboard de BrandRadar. | [MDN Web Docs](https://developer.mozilla.org/docs/Web/HTML) |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" width="40"/> | **CSS3** | Lenguaje de estilos para definir la apariencia visual de la landing page y la aplicación web. | [MDN Web Docs](https://developer.mozilla.org/docs/Web/CSS) |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg" width="40"/> | **Angular** | Framework principal para el desarrollo de la aplicación web con componentes reutilizables y enrutamiento. | [angular.io](https://angular.io) |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" width="40"/> | **TypeScript** | Superconjunto tipado de JavaScript utilizado como lenguaje principal del proyecto Angular. | [typescriptlang.org](https://www.typescriptlang.org) |
+| Herramienta / Tecnología | Uso principal | Enlace |
+|:---|:---|:---|
+| ![VSCode](https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white) | Entorno de desarrollo integrado principal para escribir, editar y depurar el código de la aplicación. | [code.visualstudio.com](https://code.visualstudio.com) |
+| ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) | Lenguaje de marcado para estructurar el contenido de la landing page y del dashboard de BrandRadar. | [MDN Web Docs](https://developer.mozilla.org/docs/Web/HTML) |
+| ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) | Lenguaje de estilos para definir la apariencia visual de la landing page y la aplicación web. | [MDN Web Docs](https://developer.mozilla.org/docs/Web/CSS) |
+| ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white) | Framework principal para el desarrollo de la aplicación web con componentes reutilizables y enrutamiento. | [angular.io](https://angular.io) |
+| ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) | Superconjunto tipado de JavaScript utilizado como lenguaje principal del proyecto Angular. | [typescriptlang.org](https://www.typescriptlang.org) |
 
 <br>
 
 **Pruebas de Software**
 
-| Logo | Herramienta | Uso principal |
-|:---:|:---|:---|
-| <img src="https://upload.wikimedia.org/wikipedia/en/7/7e/Cucumber_logo.svg" width="40"/> | **Gherkin** | Lenguaje para definir criterios de aceptación de las User Stories en formato legible por todos los integrantes del equipo (Given / When / Then). |
+| Herramienta | Uso principal |
+|:---|:---|
+| ![Gherkin](https://img.shields.io/badge/Gherkin-23D96C?style=for-the-badge&logo=cucumber&logoColor=white) | Lenguaje para definir criterios de aceptación de las User Stories en formato legible por todos los integrantes del equipo (Given / When / Then). |
 
 <br>
 
 **Diseño de Arquitectura de Software**
 
-| Logo | Herramienta | Uso principal | Enlace |
-|:---:|:---|:---|:---|
-| <img src="https://logo.clearbit.com/structurizr.com" width="40"/> | **Structurizr DSL** | Modelado de la arquitectura del sistema con el enfoque C4 mediante la técnica Diagrams-as-Code. | [structurizr.com/dsl](https://structurizr.com/dsl) |
-| <img src="https://logo.clearbit.com/lucidchart.com" width="40"/> | **LucidChart** | Elaboración de diagramas UML y de arquitectura, compatible con documentación técnica del proyecto. | [lucidchart.com](https://www.lucidchart.com/pages/es) |
-| <img src="https://logo.clearbit.com/mysql.com" width="40"/> | **MySQL Workbench** | Diseño visual y profesional de bases de datos relacionales. | [mysql.com/products/workbench](https://www.mysql.com/products/workbench) |
+| Herramienta | Uso principal | Enlace |
+|:---|:---|:---|
+| ![Structurizr](https://img.shields.io/badge/Structurizr_DSL-1168BD?style=for-the-badge&logoColor=white) | Modelado de la arquitectura del sistema con el enfoque C4 mediante la técnica Diagrams-as-Code. | [structurizr.com/dsl](https://structurizr.com/dsl) |
+| ![LucidChart](https://img.shields.io/badge/LucidChart-F97316?style=for-the-badge&logo=lucid&logoColor=white) | Elaboración de diagramas UML y de arquitectura, compatible con la documentación técnica del proyecto. | [lucidchart.com](https://www.lucidchart.com/pages/es) |
+| ![MySQL](https://img.shields.io/badge/MySQL_Workbench-4479A1?style=for-the-badge&logo=mysql&logoColor=white) | Diseño visual y profesional de bases de datos relacionales. | [mysql.com/products/workbench](https://www.mysql.com/products/workbench) |
 
 <br>
 
 **Control de Versiones y Colaboración**
 
-| Logo | Herramienta | Uso principal | Enlace |
-|:---:|:---|:---|:---|
-| <img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg" width="40"/> | **Git** | Sistema distribuido de control de versiones para la gestión del código fuente. | [git-scm.com](https://git-scm.com) |
-| <img src="https://logo.clearbit.com/github.com" width="40"/> | **GitHub** | Repositorio remoto para almacenar, gestionar y colaborar en el código fuente. Incluye seguimiento de issues y revisión de Pull Requests. | [github.com](https://github.com) |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg" width="40"/> | **GitFlow Workflow** | Modelo de ramificación para mantener el código organizado en ramas (`main`, `develop`, `feature`, `release`, `hotfix`). | [nvie.com](https://nvie.com/posts/a-successful-git-branching-model) |
-| <img src="https://www.conventionalcommits.org/img/conventional-commits.svg" width="40"/> | **Conventional Commits** | Convención de mensajes de commit para mejorar la trazabilidad y facilitar la generación de changelogs. | [conventionalcommits.org](https://www.conventionalcommits.org) |
+| Herramienta | Uso principal | Enlace |
+|:---|:---|:---|
+| ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) | Sistema distribuido de control de versiones para la gestión del código fuente. | [git-scm.com](https://git-scm.com) |
+| ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) | Repositorio remoto para almacenar, gestionar y colaborar en el código fuente. Incluye seguimiento de issues y revisión de Pull Requests. | [github.com](https://github.com) |
+| ![GitFlow](https://img.shields.io/badge/GitFlow-F05032?style=for-the-badge&logo=git&logoColor=white) | Modelo de ramificación para mantener el código organizado en ramas (`main`, `develop`, `feature`, `release`, `hotfix`). | [nvie.com](https://nvie.com/posts/a-successful-git-branching-model) |
+| ![Conventional Commits](https://img.shields.io/badge/Conventional_Commits-FE5196?style=for-the-badge&logo=conventionalcommits&logoColor=white) | Convención de mensajes de commit para mejorar la trazabilidad y facilitar la generación de changelogs. | [conventionalcommits.org](https://www.conventionalcommits.org) |
 
 <br>
 
 **Despliegue de Software**
 
-| Logo | Herramienta / Plataforma | Uso principal | Enlace |
-|:---:|:---|:---|:---|
-| <img src="https://logo.clearbit.com/netlify.com" width="40"/> | **Netlify** | Despliegue automático y gratuito de la landing page directamente desde el repositorio de GitHub, con integración continua. | [netlify.com](https://www.netlify.com) |
+| Herramienta / Plataforma | Uso principal | Enlace |
+|:---|:---|:---|
+| ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white) | Despliegue automático y gratuito de la landing page directamente desde el repositorio de GitHub, con integración continua. | [netlify.com](https://www.netlify.com) |
 
 <br>
 
 **Documentación de Software**
 
-| Logo | Herramienta / Recurso | Uso principal | Enlace |
-|:---:|:---|:---|:---|
-| <img src="https://logo.clearbit.com/github.com" width="40"/> | **GitHub** | Repositorio central de documentación mediante `README.md`, issues y wikis del proyecto. | [github.com](https://github.com) |
-| <img src="https://logo.clearbit.com/visualstudio.com" width="40"/> | **Visual Studio Code** | Edición y mantenimiento del archivo `README.md` asociado a la documentación del proyecto. | [code.visualstudio.com](https://code.visualstudio.com) |
+| Herramienta / Recurso | Uso principal | Enlace |
+|:---|:---|:---|
+| ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) | Repositorio central de documentación mediante `README.md`, issues y wikis del proyecto. | [github.com](https://github.com) |
+| ![VSCode](https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white) | Edición y mantenimiento del archivo `README.md` asociado a la documentación del proyecto. | [code.visualstudio.com](https://code.visualstudio.com) |
 
 </div>
 <br>
