@@ -1822,7 +1822,7 @@ El objetivo del sistema de etiquetado de BrandRadar es representar conjuntos de 
 <div align="center">
 <img src="brandradar-report/assets/images/icons.png" alt="Iconos de navegacion" width="700"/>
 
-<br>
+<br> <br>
 
 **Etiquetas de estados y badges**
 
@@ -1953,16 +1953,24 @@ Los resultados se presentan como **tarjetas informativas** ordenadas cronológic
 
 <br>
 
----
 
 ## 4.2.5. Navigation Systems
 
 Los sistemas de navegación de BrandRadar han sido diseñados para guiar al usuario de forma clara, personalizada e intuitiva tanto en la Landing Page como en la aplicación web y móvil. El objetivo es que los dueños de PyMEs y los especialistas de marketing encuentren cualquier funcionalidad en tres clics o menos.
 
-### Landing Page
+<br>
+<div align="center">
+  
+**Landing Page**
+
+</div>
+<br>
 
 La navegación se basa en una **barra superior fija** (sticky header) con las siguientes secciones:
 
+<br>
+<div align="center">
+  
 | Etiqueta | Destino |
 |---|---|
 | Inicio | Hero section con propuesta de valor |
@@ -1972,6 +1980,9 @@ La navegación se basa en una **barra superior fija** (sticky header) con las si
 | Comunidad | Foro y recursos de la comunidad BrandRadar |
 | Iniciar sesión | Redirección al login de la aplicación |
 
+<br>
+</div>
+
 Se incorporan **CTAs visibles** a lo largo del scroll:
 - _"Empieza tu monitoreo gratis"_ — activa el flujo de registro.
 - _"Agenda una demo"_ — abre un modal con formulario de contacto.
@@ -1979,7 +1990,13 @@ Se incorporan **CTAs visibles** a lo largo del scroll:
 
 El **pie de página** complementa la navegación secundaria con acceso a: Política de Privacidad, Términos de Servicio, Documentación de la API, Centro de Ayuda y redes sociales oficiales.
 
-### Aplicación Web — Dashboard
+<br>
+<div align="center">
+  
+**Aplicación Web — Dashboard**
+
+</div>
+<br>
 
 Se implementa un patrón de navegación híbrido:
 
@@ -1987,16 +2004,26 @@ Se implementa un patrón de navegación híbrido:
 - **Pestañas superiores** dentro de secciones complejas (ej. Monitoreo > pestaña Instagram / Google Maps / Web).
 - **Breadcrumbs** en rutas profundas para indicar al usuario en qué nivel de la jerarquía se encuentra (ej. _Clientes > Marca XYZ > Alertas_).
 
+<br>
+<div align="center">
+  
+**Aplicación Móvil**
 
-### Aplicación Móvil
+</div>
 
 La navegación móvil utiliza una **barra inferior de navegación** (bottom tab bar) con los 4-5 destinos más frecuentes, siguiendo el patrón estándar de iOS y Android:
 
+<br>
+<div align="center">
+  
 **Dueño de PyME (barra inferior)**
- 
+
+<img src="brandradar-report/assets/images/navigation-1.png" alt="Navegacion Movil" width="700"/>
 
 **Especialista de Marketing (barra inferior)**
 
+<img src="brandradar-report/assets/images/navigation-2.png" alt="Navegacion Movil" width="700"/>
+</div>
 
 Las notificaciones push dirigen al usuario directamente a la mención o alerta específica, sin necesidad de navegar manualmente por la app. Los flujos de acción rápida (responder reseña, escalar alerta) se resuelven en modales de pantalla completa que no interrumpen la ruta de navegación principal.
 
