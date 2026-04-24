@@ -2180,6 +2180,8 @@ A continuación, se presentan los prototipos para Desktop y Mobile Web, junto co
 
 <br>
 
+<div align="center">
+
 **Prototipo Desktop**
 
 ![Screenshot Prototipo Desktop](brandradar-report/assets/prototypes/prototype-desktop-screenshot.png)
@@ -2194,6 +2196,8 @@ A continuación, se presentan los prototipos para Desktop y Mobile Web, junto co
 
 [Ver video de prototipo Mobile en Microsoft Stream](`URL`)
 
+</div>
+
 <br>
 
 ---
@@ -2205,73 +2209,109 @@ A continuación, se presentan los prototipos para Desktop y Mobile Web, junto co
 >*Para definir la arquitectura de BrandRadar orientada al dominio (DDD), se realizó un proceso iterativo de Design-Level Event Storming siguiendo la metodología de 10 pasos. A continuación, se detalla la evolución del modelo:*
 
 <br>
-
+  
 **Step 1: Unstructured Exploration**
 
 Se identificaron y representaron todos los eventos que modifican el estado del sistema, escritos en tiempo pasado (post-its naranjas). Estos abarcan desde `User Registered` hasta `PDF Report Generated`, entre otros eventos relevantes del dominio.
 
 <br>
-
+<div align="center">
+  
 ![Step1 - Event Storming](brandradar-report/assets/design-level-storm/step1.png)
+
+</div>
 
 **Step 2: Timelines**
 
 Se ordenaron los eventos del dominio de forma cronológica de izquierda a derecha, estableciendo el flujo del ciclo de vida del monitoreo de reputación digital.
 
 <br>
-
+<div align="center">
+  
 ![Step2 - Event Storming](brandradar-report/assets/design-level-storm/step2.png)
+
+</div>
 
 **Step 3: Hotspots**
 
 Se identificaron los puntos críticos del sistema y riesgos técnicos del negocio (marcados con rombos rojos), como posibles limitaciones por rate limits en APIs de redes sociales o falsos positivos en los modelos de análisis de sentimiento basados en inteligencia artificial.
 
 <br>
-
+<div align="center">
+  
 ![Step3 - Event Storming](brandradar-report/assets/design-level-storm/step3.png)
+
+</div>
 
 **Step 4: Pivotal Events**
 
 Se definieron eventos pivote que segmentan el flujo del sistema en fases funcionales, delimitando el cambio de estado entre la configuración inicial, el monitoreo automático y la gestión de crisis reputacionales.
 
+<div align="center">
+  
 ![Step4 - Event Storming](brandradar-report/assets/design-level-storm/step4.png)
+
+</div>
 
 **Step 5: Commands & Actors**
 
 Se definieron los commands (post-its azules) que disparan los eventos del sistema, así como los actores (íconos amarillos) responsables de ejecutarlos, ya sean usuarios (PyME / Agencia) o procesos automatizados del sistema.
 
+<div align="center">
+  
 ![Step5 - Event Storming](brandradar-report/assets/design-level-storm/step5.png)
+
+</div>
 
 **Step 6: Policies**
 
 Se incorporaron las business policies (post-its lilas), que representan reglas de negocio reactivas que automatizan el comportamiento del sistema. Por ejemplo, la regla que establece que cuando una mención presenta sentimiento negativo, se genera automáticamente una alerta de alta prioridad.
 
+<div align="center">
+  
 ![Step6 - Event Storming](brandradar-report/assets/design-level-storm/step6.png)
+
+</div>
 
 **Step 7: Read Models**
 
 Se mapearon los read models (post-its verdes), que representan las vistas e interfaces que los usuarios necesitan consultar para la toma de decisiones antes de ejecutar un comando.
 
+<div align="center">
+  
 ![Step7 - Event Storming](brandradar-report/assets/design-level-storm/step7.png)
+
+</div>
 
 **Step 8: External Systems**
 
 Se identificaron los sistemas externos (post-its rosados) que interactúan con BrandRadar, incluyendo APIs de redes sociales, Google Maps API y servicios de procesamiento de lenguaje natural (NLP) basados en inteligencia artificial.
 
+<div align="center">
+  
 ![Step8 - Event Storming](brandradar-report/assets/design-level-storm/step8.png)
+
+</div>
 
 **Step 9: Aggregates**
 
 Se incrementó el nivel de abstracción agrupando comandos y eventos alrededor de las principales entidades del dominio (Aggregates, representados como post-its amarillos grandes). En esta etapa se definieron agregados clave como `Account`, `Brand`, `Mention`, `Crisis Alert` y `Analytics Report`, los cuales encapsulan la consistencia de las reglas de negocio y el estado del sistema.
 
+<div align="center">
+  
 ![Step9 - Event Storming](brandradar-report/assets/design-level-storm/step9.png)
+
+</div>
 
 **Step 10: Bounded Contexts**
 
 Finalmente, se delimitaron los límites semánticos y transaccionales del dominio mediante la definición de Bounded Contexts, agrupando los agregados relacionados en bloques coherentes e independientes. Este paso consolidó la arquitectura del sistema en seis contextos principales: Account Management, Brand Management, Monitoring, Sentiment Analysis, Alert Management y Reporting.
 
+<div align="center">
+  
 ![Step10 - Event Storming](brandradar-report/assets/design-level-storm/step10.png)
 
+  
 **Bounded Contexts:**
 
 ![BoundextContext1](brandradar-report/assets/boundext-context/accountmanager.png)
@@ -2285,6 +2325,8 @@ Finalmente, se delimitaron los límites semánticos y transaccionales del domini
 ![BoundextContext5](brandradar-report/assets/boundext-context/alertmanagment.png)
 
 ![BoundextContext6](brandradar-report/assets/boundext-context/reporting.png)
+
+</div>
 
 <br>
 
@@ -2302,11 +2344,9 @@ A partir del análisis del dominio de BrandRadar, se consolidaron seis Bounded C
 
 ---
 
-<br>
-
 ### 4.6.2. Software Architecture Context Diagram
 
-El Diagrama de Contexto representa a BrandRadar dentro de su entorno operativo, mostrando las interacciones de alto nivel entre el sistema, los usuarios y los sistemas externos.
+>*El Diagrama de Contexto representa a BrandRadar dentro de su entorno operativo, mostrando las interacciones de alto nivel entre el sistema, los usuarios y los sistemas externos.*
 
 <br>
 
