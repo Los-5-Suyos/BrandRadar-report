@@ -3058,15 +3058,16 @@ A continuación, se describe el proceso de configuración del despliegue:
 
 <br>
 
-<div align="center">
+
   
 **1. Ingreso a Netlify**
 
-</div>
+
 
 Se accede a la plataforma mediante las credenciales de GitHub, utilizando la opción "Log in with GitHub".
 
 <br>
+
 <div align="center">
 
 *Screenshot 1 del Deployment*
@@ -3076,11 +3077,8 @@ Se accede a la plataforma mediante las credenciales de GitHub, utilizando la opc
 </div>
 <br>
 
-<div align="center">
-  
-**2. Autorización de Netlify**
 
-</div>
+**2. Autorización de Netlify**
 
 Se otorgan permisos a Netlify para acceder a los repositorios del equipo en GitHub.
 Posteriormente, se ingresa a la sección "Sites" y se selecciona la opción "Add new site", seguido de "Import an existing project".
@@ -3095,11 +3093,9 @@ Posteriormente, se ingresa a la sección "Sites" y se selecciona la opción "Add
 </div>
 <br>
 
-<div align="center">
+
   
 **3. Selección del proveedor**
-
-</div>
 
 En la sección "Let’s deploy your project with...", se elige GitHub como proveedor de repositorios.
 
@@ -3113,11 +3109,9 @@ En la sección "Let’s deploy your project with...", se elige GitHub como prove
 </div>
 <br>
 
-<div align="center">
+
   
 **4. Selección del repositorio**
-
-</div>
 
 Se selecciona la organización del equipo Los 5 Suyos y luego el repositorio correspondiente a la Landing Page de BrandRadar.
 
@@ -3131,11 +3125,8 @@ Se selecciona la organización del equipo Los 5 Suyos y luego el repositorio cor
 </div>
 <br>
 
-<div align="center">
   
 **5. Configuración del despliegue**
-
-</div>
 
 Se configuran los parámetros principales del despliegue:
 
@@ -3151,9 +3142,7 @@ Branch: main
 ![Screenshot 5](brandradar-report/assets/deploy/ss-5.png)
 
 </div>
-
 <br>
-<div align="center">
   
 **6. Configuración final**
 
@@ -3163,7 +3152,6 @@ Publish directory: public (o la carpeta de salida del proyecto)
 
 Finalmente, se selecciona la opción "Deploy site" para iniciar el proceso.
 
-</div>
 
 <br>
 <div align="center">
@@ -3174,7 +3162,6 @@ Finalmente, se selecciona la opción "Deploy site" para iniciar el proceso.
 
 </div>
 <br>
-<div align="center">
   
 **7. Despliegue completado**
 
@@ -3196,6 +3183,7 @@ Una vez finalizado el proceso, Netlify genera automáticamente un enlace públic
 
 Con la configuración realizada, el despliegue queda automatizado.
 Cada vez que se realiza un push en la rama main, Netlify ejecuta un nuevo despliegue de manera automática, actualizando la aplicación sin necesidad de repetir el proceso manual.
+
 <br>
 
 *Enlace de la Landing Page*
@@ -3212,7 +3200,21 @@ Cada vez que se realiza un push en la rama main, Netlify ejecuta un nuevo despli
 
 #### 5.2.1.1. Sprint Planning 1
 
-*(Introducción al Sprint Planning 1)*
+El Sprint Planning 1 tuvo como objetivo principal completar y desplegar la Landing Page del proyecto BrandRadar, estableciendo así una primera versión funcional y accesible para los usuarios.
+
+Durante este sprint, el equipo definió las tareas necesarias para finalizar el desarrollo visual y estructural de la Landing Page, asegurando el cumplimiento de los lineamientos de diseño responsive y experiencia de usuario previamente establecidos. Asimismo, se planificó la integración con el repositorio en GitHub y su posterior despliegue en la plataforma Netlify.
+
+Entre las actividades principales se incluyeron:
+
+- Finalización de secciones clave de la Landing Page (Home, Features, About, Contact).
+- Ajustes de estilos y diseño responsive.
+- Optimización de componentes y estructura HTML/CSS.
+- Configuración del despliegue continuo mediante Netlify.
+- Publicación de la versión inicial accesible mediante un enlace web.
+
+Como resultado del Sprint Planning, el equipo estableció un conjunto claro de tareas priorizadas, permitiendo organizar el trabajo de manera eficiente y cumplir con el objetivo de contar con una Landing Page completamente funcional y desplegada al finalizar el sprint.
+
+<br>
 
 | Campo | Detalle |
 |:------|:--------|
