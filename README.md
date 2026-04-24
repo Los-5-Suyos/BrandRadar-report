@@ -1733,7 +1733,6 @@ Adicionalmente, se definen colores de estado semántico para alertas, notificaci
 
 ---
 
-
 ## 4.2. Information Architecture
 
 La arquitectura de información de **BrandRadar** ha sido diseñada para estructurar de forma clara y jerárquica los contenidos, permitiendo a los usuarios (dueños de PyMEs y especialistas de marketing) monitorear su reputación digital sin fricciones. Se prioriza una navegación intuitiva que reduzca la carga cognitiva al gestionar múltiples fuentes de datos en tiempo real.
@@ -1756,10 +1755,12 @@ A continuación, se presentan los diagramas de estructura que representan la org
 
 ### 4.2.1. Organization Systems
 
+<div align="center">
+  
 ### Organización visual del contenido
 
 <br>
-<div align="center">
+
   
 **Experiencia Web**
 
@@ -1769,9 +1770,7 @@ A continuación, se presentan los diagramas de estructura que representan la org
 | **Secuencial (Step-by-step)** | Guía al usuario en flujos obligatorios que deben completarse en orden, como el alta de una marca o la conexión de fuentes de datos externas. | Registro de cuenta, Configuración de fuentes (APIs), Configuración de alertas, Onboarding. |
 | **Matricial (Modular)** | Divide las métricas (sentimiento, reseñas, menciones) en bloques independientes y comparables, evitando la saturación visual al gestionar múltiples fuentes simultáneamente. | Sección de Monitoreo detallado, Reportes, Análisis comparativo. |
 
-
 <br>
-
 
 **Experiencia Móvil**
 
@@ -1782,13 +1781,15 @@ A continuación, se presentan los diagramas de estructura que representan la org
 | **Matricial (Modular)** | Optimiza la lectura de datos de sentimiento y tendencias agrupándolos en tarjetas desplazables, sin saturar la interfaz móvil. | Dashboard móvil, Ajustes de alertas. |
 
 </div>
+
 <br>
 
+<div align="center">
+  
 ### Esquemas de categorización de contenido
 
 <br>
-<div align="center">
-  
+
 **Experiencia Web**
 
 | Esquema de organización | Razón | Sección de la plataforma |
@@ -1818,25 +1819,10 @@ El objetivo del sistema de etiquetado de BrandRadar es representar conjuntos de 
 
 <br>
 
-**Navegación principal — Dueños de PyMEs (Web y App)**
+<div align="center">
+<img src="brandradar-report/assets/images/icons.png" alt="Iconos de navegacion" width="700"/>
 
-| Ícono | Etiqueta | Asociación para el usuario |
-|:---:|---|---|
-| 🏠 `dashboard` | **Dashboard** | Vista general del estado de reputación de la marca hoy. |
-| 📢 `notifications_active` | **Monitoreo** | Feed en tiempo real de menciones detectadas en todas las fuentes. |
-| ⚠️ `warning_amber` | **Alertas** | Notificaciones urgentes por crisis, reseñas negativas o caídas de score. |
-| 📊 `bar_chart` | **Reportes** | Informes visuales del historial de reputación y tendencias. |
-| 👤 `account_circle` | **Perfil** | Datos de la empresa, cuentas conectadas y preferencias. |
-
-**Navegación principal — Especialistas de Marketing / Agencias (Web y App)**
-
-| Ícono | Etiqueta | Asociación para el usuario |
-|:---:|---|---|
-| 📊 `analytics` | **Análisis** | Panel de NLP con desglose de sentimiento positivo, negativo y neutro. |
-| 👥 `groups` | **Clientes** | Gestión centralizada de múltiples marcas o cuentas de clientes. |
-| 🤖 `auto_awesome` | **Insights** | Recomendaciones accionables generadas por IA para la comunicación. |
-| 💬 `chat_bubble_outline` | **Chat** | Soporte técnico y gestión de respuestas automáticas a reseñas. |
-| ⚙️ `settings` | **Configuración** | Suscripciones, equipo de trabajo y métricas de desempeño. |
+<br>
 
 **Etiquetas de estados y badges**
 
@@ -1849,6 +1835,10 @@ El objetivo del sistema de etiquetado de BrandRadar es representar conjuntos de 
 | Nivel de alerta medio | **Moderado** | Naranja `#FB8C00` |
 | Nivel de alerta bajo | **Informativo** | Azul `#1A73E8` |
 
+</div>
+
+<br>
+
 **Etiquetas de acciones directas en tarjetas**
 
 - **Responder** — abre el editor de respuesta a una reseña.
@@ -1856,6 +1846,7 @@ El objetivo del sistema de etiquetado de BrandRadar es representar conjuntos de 
 - **Generar reporte** — inicia la generación del informe de la crisis detectada.
 - **Marcar revisado** — archiva la alerta sin generar acción.
 - **Escalar** — redirige la alerta al administrador de cuenta.
+
 
 <br>
 
@@ -1959,6 +1950,8 @@ Los resultados se presentan como **tarjetas informativas** ordenadas cronológic
 - Los **botones de acción directa** permiten gestionar la mención sin salir de la vista de resultados.
 - Al aplicar filtros, aparece una barra de **filtros activos** en la parte superior, donde cada filtro puede eliminarse individualmente con una "X".
 - Si la búsqueda no devuelve resultados, se muestra un mensaje con sugerencias: "No encontramos menciones con estos filtros. Prueba ampliar el rango de fechas o eliminar un filtro."
+
+<br>
 
 ---
 
