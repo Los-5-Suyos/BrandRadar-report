@@ -67,7 +67,7 @@
 
 <div align="center">
   
-**URL del Repositorio:** [`https://github.com/Los-5-Suyos/BrandRadar.git`](https://github.com/Los-5-Suyos/BrandRadar.git)
+**URL del Repositorio:** [`https://github.com/Los-5-Suyos/BrandRadar-report.git`](https://github.com/Los-5-Suyos/BrandRadar-report.git)
 
 <br>
 
