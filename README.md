@@ -1733,71 +1733,6 @@ Adicionalmente, se definen colores de estado semántico para alertas, notificaci
 
 ---
 
-### 4.1.2. Web Style Guidelines
-
-En esta sección se definen los lineamientos visuales y de comportamiento para la interfaz web responsive de BrandRadar, asegurando consistencia, usabilidad y adaptabilidad en distintos dispositivos.
-
-## Paleta de colores
-
-| Rol | Color | Hex |
-|---|---|---|
-| Primary | Azul corporativo | `#1A73E8` |
-| Secondary | Gris oscuro | `#2D2D2D` |
-| Accent / Alerta crítica | Rojo | `#E53935` |
-| Accent / Alerta media | Naranja | `#FB8C00` |
-| Accent / Positivo | Verde | `#43A047` |
-| Background | Blanco humo | `#F5F7FA` |
-| Surface / Tarjetas | Blanco | `#FFFFFF` |
-| Text primary | Gris carbón | `#212121` |
-| Text secondary | Gris medio | `#757575` |
-
-## Tipografía
-
-| Uso | Familia | Peso | Tamaño |
-|---|---|---|---|
-| Títulos H1 | Inter | 700 Bold | 32px |
-| Títulos H2 | Inter | 600 SemiBold | 24px |
-| Títulos H3 | Inter | 600 SemiBold | 18px |
-| Cuerpo de texto | Inter | 400 Regular | 16px |
-| Etiquetas / Badges | Inter | 500 Medium | 12px |
-| Botones | Inter | 600 SemiBold | 14px |
-
-## Componentes base
-
-- **Botones primarios:** fondo `#1A73E8`, texto blanco, radio de borde 8px, altura mínima 44px (accesibilidad táctil).
-- **Botones secundarios:** borde `1px #1A73E8`, fondo transparente, texto `#1A73E8`.
-- **Tarjetas (Cards):** fondo blanco, sombra `0 2px 8px rgba(0,0,0,0.08)`, radio 12px. Se usan para mostrar menciones, alertas y métricas.
-- **Badges de sentimiento:** pastilla de color (verde = positivo, rojo = negativo, gris = neutro), texto 12px.
-- **Inputs / Campos de búsqueda:** borde `1px #BDBDBD`, foco `#1A73E8`, altura 40px, ícono lupa a la izquierda.
-
-## Iconografía
-
-Se utiliza la librería **Material Symbols (Google)** en estilo Outlined para garantizar legibilidad en todos los tamaños. Tamaño estándar: 24px en desktop, 20px en móvil.
-
-| Sección | Ícono Material Symbols |
-|---|---|
-| Dashboard | `dashboard` |
-| Monitoreo | `notifications_active` |
-| Alertas | `warning_amber` |
-| Reportes | `bar_chart` |
-| Perfil | `account_circle` |
-| Análisis | `analytics` |
-| Clientes | `groups` |
-| Insights IA | `auto_awesome` |
-| Chat / Soporte | `chat_bubble_outline` |
-| Configuración | `settings` |
-| Búsqueda | `search` |
-| Filtros | `tune` |
-
-## Breakpoints responsive
-
-| Dispositivo | Ancho | Comportamiento |
-|---|---|---|
-| Mobile | < 768px | 1 columna, sidebar colapsado en hamburger |
-| Tablet | 768px – 1024px | 2 columnas, sidebar con iconos |
-| Desktop | > 1024px | Sidebar expandido con etiquetas + contenido multi-columna |
-
----
 
 ## 4.2. Information Architecture
 
@@ -1824,8 +1759,9 @@ A continuación, se presentan los diagramas de estructura que representan la org
 ### Organización visual del contenido
 
 <br>
-
-**Experiencia Web****
+<div align="center">
+  
+**Experiencia Web**
 
 | Forma de organización visual | Razón | Sección de la plataforma |
 |---|---|---|
@@ -1833,9 +1769,11 @@ A continuación, se presentan los diagramas de estructura que representan la org
 | **Secuencial (Step-by-step)** | Guía al usuario en flujos obligatorios que deben completarse en orden, como el alta de una marca o la conexión de fuentes de datos externas. | Registro de cuenta, Configuración de fuentes (APIs), Configuración de alertas, Onboarding. |
 | **Matricial (Modular)** | Divide las métricas (sentimiento, reseñas, menciones) en bloques independientes y comparables, evitando la saturación visual al gestionar múltiples fuentes simultáneamente. | Sección de Monitoreo detallado, Reportes, Análisis comparativo. |
 
+
 <br>
 
-**Experiencia Móvil****
+
+**Experiencia Móvil**
 
 | Forma de organización visual | Razón | Sección de la plataforma |
 |---|---|---|
@@ -1843,10 +1781,14 @@ A continuación, se presentan los diagramas de estructura que representan la org
 | **Secuencial (Step-by-step)** | Permite al usuario completar tareas rápidas —como responder una reseña o reportar una mención negativa— sin perderse en submenús. | Gestión de reseñas individuales, Reporte de incidentes, Respuesta rápida. |
 | **Matricial (Modular)** | Optimiza la lectura de datos de sentimiento y tendencias agrupándolos en tarjetas desplazables, sin saturar la interfaz móvil. | Dashboard móvil, Ajustes de alertas. |
 
+</div>
 <br>
 
 ### Esquemas de categorización de contenido
 
+<br>
+<div align="center">
+  
 **Experiencia Web**
 
 | Esquema de organización | Razón | Sección de la plataforma |
@@ -1865,6 +1807,7 @@ A continuación, se presentan los diagramas de estructura que representan la org
 | **Por tópicos** | Clasifica las alertas por nivel de riesgo (Alto, Medio, Bajo) para que el usuario priorice su atención de forma visual e inmediata. | Filtros de búsqueda rápida, Listado de crisis detectadas. |
 | **Según audiencia** | Adapta las herramientas y acciones disponibles en el menú según el rol del usuario autenticado. | Menú de navegación principal, Pantalla de configuración de perfil. |
 
+</div>
 <br>
 
 ---
@@ -1873,7 +1816,9 @@ A continuación, se presentan los diagramas de estructura que representan la org
 
 El objetivo del sistema de etiquetado de BrandRadar es representar conjuntos de información complejos (reputación, sentimiento, alertas, métricas) con el menor número de palabras posible, evitando la ambigüedad. Todas las etiquetas son concretas, orientadas a la acción y coherentes entre la versión web y móvil.
 
-### Navegación principal — Dueños de PyMEs (Web y App)
+<br>
+
+**Navegación principal — Dueños de PyMEs (Web y App)**
 
 | Ícono | Etiqueta | Asociación para el usuario |
 |:---:|---|---|
@@ -1883,7 +1828,7 @@ El objetivo del sistema de etiquetado de BrandRadar es representar conjuntos de 
 | 📊 `bar_chart` | **Reportes** | Informes visuales del historial de reputación y tendencias. |
 | 👤 `account_circle` | **Perfil** | Datos de la empresa, cuentas conectadas y preferencias. |
 
-### Navegación principal — Especialistas de Marketing / Agencias (Web y App)
+**Navegación principal — Especialistas de Marketing / Agencias (Web y App)**
 
 | Ícono | Etiqueta | Asociación para el usuario |
 |:---:|---|---|
@@ -1893,7 +1838,7 @@ El objetivo del sistema de etiquetado de BrandRadar es representar conjuntos de 
 | 💬 `chat_bubble_outline` | **Chat** | Soporte técnico y gestión de respuestas automáticas a reseñas. |
 | ⚙️ `settings` | **Configuración** | Suscripciones, equipo de trabajo y métricas de desempeño. |
 
-### Etiquetas de estados y badges
+**Etiquetas de estados y badges**
 
 | Contexto | Etiqueta | Color |
 |---|---|---|
@@ -1904,7 +1849,7 @@ El objetivo del sistema de etiquetado de BrandRadar es representar conjuntos de 
 | Nivel de alerta medio | **Moderado** | Naranja `#FB8C00` |
 | Nivel de alerta bajo | **Informativo** | Azul `#1A73E8` |
 
-### Etiquetas de acciones directas en tarjetas
+**Etiquetas de acciones directas en tarjetas**
 
 - **Responder** — abre el editor de respuesta a una reseña.
 - **Ver detalle** — expande la mención o alerta seleccionada.
@@ -1912,11 +1857,13 @@ El objetivo del sistema de etiquetado de BrandRadar es representar conjuntos de 
 - **Marcar revisado** — archiva la alerta sin generar acción.
 - **Escalar** — redirige la alerta al administrador de cuenta.
 
+<br>
+
 ---
 
 ### 4.2.3. SEO Tags and Meta Tags
 
-### Landing Page
+**Landing Page**
 
 ```html
 <!-- Landing Page: BrandRadar -->
@@ -1944,8 +1891,11 @@ El objetivo del sistema de etiquetado de BrandRadar es representar conjuntos de 
 
 <link rel="canonical" href="https://brandradar.app">
 ```
+<br>
 
-### Web Application — Dashboard (usuario autenticado)
+**Web Application — Dashboard (usuario autenticado)**
+
+<br>
 
 ```html
 <!-- Dashboard principal -->
@@ -1954,8 +1904,11 @@ El objetivo del sistema de etiquetado de BrandRadar es representar conjuntos de 
 <meta name="robots" content="noindex, nofollow">
 <meta name="author" content="BrandRadar Team">
 ```
+<br>
 
-### Web Application — Sección Monitoreo
+**Web Application — Sección Monitoreo**
+
+<br>
 
 ```html
 <title>Monitoreo en Tiempo Real – BrandRadar</title>
@@ -1965,7 +1918,9 @@ El objetivo del sistema de etiquetado de BrandRadar es representar conjuntos de 
 <meta name="author" content="BrandRadar Team">
 ```
 
-### Web Application — Sección Reportes
+<br>
+
+**Web Application — Sección Reportes**
 
 ```html
 <title>Reportes de Reputación – BrandRadar</title>
@@ -1975,7 +1930,7 @@ El objetivo del sistema de etiquetado de BrandRadar es representar conjuntos de 
 <meta name="author" content="BrandRadar Team">
 ```
 
-> **Nota:** Las páginas internas de la aplicación (Dashboard, Monitoreo, Alertas, Reportes) utilizan `noindex, nofollow` para evitar que contenido privado del usuario sea indexado por motores de búsqueda.
+<br>
 
 ---
 
@@ -1983,7 +1938,7 @@ El objetivo del sistema de etiquetado de BrandRadar es representar conjuntos de 
 
 En BrandRadar, los sistemas de búsqueda han sido diseñados para reducir el tiempo de localización de información crítica dentro de un volumen alto de datos provenientes de múltiples fuentes simultáneas. El usuario nunca debe sentirse abrumado; los filtros actúan como capas que van reduciendo progresivamente el universo de resultados hasta mostrar exactamente lo que necesita.
 
-### Tipos de búsqueda disponibles
+**Tipos de búsqueda disponibles**
 
 | Nombre | Descripción | Disponible en |
 |---|---|---|
@@ -1995,7 +1950,7 @@ En BrandRadar, los sistemas de búsqueda han sido diseñados para reducir el tie
 | **Filtro por tipo de mención** | Diferencia entre reseñas, comentarios, noticias y menciones directas en redes. | Web |
 | **Buscador de competidores** | Busca palabras clave asociadas a la competencia para análisis de benchmarking. | Web |
 
-### Cómo lucen los resultados después de la búsqueda
+**Cómo lucen los resultados después de la búsqueda**
 
 Los resultados se presentan como **tarjetas informativas** ordenadas cronológicamente (más reciente primero):
 
