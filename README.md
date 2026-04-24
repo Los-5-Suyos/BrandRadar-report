@@ -3260,21 +3260,15 @@ Este sprint se enfoca en construir una primera versión funcional orientada al u
 
 A continuación, se detallan las User Stories seleccionadas y las tareas asociadas:
 
-| Sprint # | Sprint 1 |
-| :------- | :------- |
-
-| User Story |                                      | Work-Item / Task |                                        | Description                                                   | Estimation (Hours) | Assigned To | Status (To-do / In-Process / To-Review / Done) |
-| :--------- | :----------------------------------- | :--------------- | :------------------------------------- | :------------------------------------------------------------ | :----------------: | :---------- | :--------------------------------------------- |
-| Id         | Title                                | Id               | Title                                  |                                                               |                    |             |                                                |
-| US31       | Landing Page – Página principal      | T1               | Diseñar estructura de la página        | Crear wireframe simple con encabezado, cuerpo y pie de página |          4         | Equipo UX   | Done                                           |
-| US31       | Landing Page – Página principal      | T2               | Implementar página principal           | Desarrollar HTML/CSS base de la página principal              |          6         | Dev Front   | Done                                           |
-| US32       | Landing Page – Características       | T3               | Redactar sección de características    | Elaborar contenido con puntos clave de la plataforma          |          2         | PO / Equipo | Done                                           |
-| US32       | Landing Page – Características       | T4               | Implementar sección de características | Codificar la sección en la web app                            |          4         | Dev Front   | Done                                           |
-| US33       | Landing Page – Planes de suscripción | T5               | Diseñar sección de planes              | Definir estructura visual de planes con beneficios y precios  |          3         | Equipo UX   | Done                                           |
-| US33       | Landing Page – Planes de suscripción | T6               | Implementar sección de planes          | Programar en frontend con estructura responsive               |          5         | Dev Front   | Done                                           |
-| US34       | Landing Page – Contacto/Soporte      | T7               | Redactar información de contacto       | Crear contenido con correo, soporte y redes sociales          |          2         | PO / Equipo | Done                                           |
-| US34       | Landing Page – Contacto/Soporte      | T8               | Implementar sección de contacto        | Agregar formulario o enlaces de contacto en la web app        |          4         | Dev Front   | Done                                           |
-| —          | Deployment Landing Page              | T9               | Configuración de hosting/despliegue    | Preparar entorno y publicar la Landing Page en Netlify        |          6         | DevOps      | Done                                           |
+| Sprint #     |                           |        |                      |                                                                |                    |                |
+| :----------- | :------------------------ | :----- | :------------------- | :------------------------------------------------------------- | :----------------- | :------------- |
+| **Sprint 1** | **User Story**            |        | **Work-Item / Task** |                                                                |                    |                |
+| **ID**       | **Título**                | **ID** | **Título**           | **Descripción**                                                | **Estimación (h)** | **Asignado a** |
+| US20         | Interfaz Responsiva       | T01    | Header & Hero UI     | Implementar sección de navegación y primer impacto visual      | 6                  | Brianna         |
+| US20         | Interfaz Responsiva       | T02    | Features Section     | Desarrollo de la sección de características clave del servicio | 5                  | Victor         |
+| US03         | Live Feed Monitor         | T03    | Benefits & Metrics   | Maquetación de beneficios y visualización de datos de marca    | 7                  | Jean           |
+| US07         | Word Cloud de Sentimiento | T04    | Social Proof UI      | Implementar sección de dashboard y reseñas de usuarios         | 6                  | Luis           |
+| US17         | Onboarding interactivo    | T05    | Conversion & Footer  | Implementar tablas de precios, CTA y pie de página corporativo | 5                  | Joaquin        |
 
 <br>
 
@@ -3284,19 +3278,23 @@ A continuación, se detallan las User Stories seleccionadas y las tareas asociad
 
 Durante el Sprint 1, el equipo se enfocó en establecer la base técnica de BrandRadar mediante el uso de estándares web modernos: HTML5 para la estructura y CSS3 para el diseño visual. Se priorizó una arquitectura de estilos modular, donde cada componente de la Landing Page cuenta con su propia hoja de estilos, facilitando el trabajo paralelo y evitando conflictos en el código.
 
-Se adoptó el flujo GitFlow, organizando el desarrollo en ramas de características (feature/) que permitieron a los integrantes trabajar de forma independiente en el Header, Hero, Beneficios y demás secciones, antes de consolidar el producto final en la rama develop para su revisión.
+Se adoptó el flujo GitFlow, organizando el desarrollo en ramas de características (feature/) que permitieron a los integrantes trabajar de forma independiente en el Header, Hero, Beneficios y demás secciones, antes de consolidar el producto final en la rama develop para su revisión. 
+
+El desarrollo se realizó en el repositorio público https://github.com/Los-5-Suyos/BrandRadar-Landing-Page, utilizando un flujo de ramas basado en feature branches.
 
 | Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on (Date) |
 |:----------:|:------:|:---------:|:--------------:|:-------------------:|:-------------------:|
-| `[Los-5-Suyos/BrandRadar-Landing-Page]` | `[main]` | `[b148470]` | `[initial commit]` | `[Configuración inicial del repositorio y README base]` | `2026-04-13` |
-| `[Los-5-Suyos/BrandRadar-Landing-Page]` | `[develop]` | `[f3aaaf1]` | `[feat: project structure setup]` | `[Creación de carpetas e integración de estilos CSS base]` | `2026-04-13` |
-| `[Los-5-Suyos/BrandRadar-Landing-Page]` | `[feature/brianna]` | `[f85e590]` | `[feat: add header and hero]` | `[Implementación de navegación e impacto visual con CSS nativo]` | `2026-04-19` |
-| `[Los-5-Suyos/BrandRadar-Landing-Page]` | `[feature/victor]` | `[b5b80f6]` | `[feat: add features section]` | `[Desarrollo de la cuadrícula de servicios usando CSS]` | `2026-04-DD` |
-| `[Los-5-Suyos/BrandRadar-Landing-Page]` | `[feature/jfranco]` | `[09c0f86]` | `[feat: add benefits and metrics]` | `[Maquetación de beneficios y métricas con estilos personalizados]` | `2026-04-22` |
-| `[Los-5-Suyos/BrandRadar-Landing-Page]` | `[feature/luis]` | `[6272bc2]` | `[feat: add dashboard and social proof]` | `[Implementación de testimonios y previsualización de Dashboard]` | `2026-04-23` |
-| `[Los-5-Suyos/BrandRadar-Landing-Page]` | `[feature/Joaquin]` | `[68319a2]` | `[feat: add pricing and footer]` | `[Diseño de tablas de precios y cierre de página con CSS responsivo]` | `2026-04-22` |
-| `[Los-5-Suyos/BrandRadar-Landing-Page]` | `[develop]` | `[d9812fb]` | `[merge: final integration]` | `[Fusión de ramas para el despliegue final en producción]` | `2026-04-23` |
+| Los-5-Suyos/BrandRadar-Landing-Page | main | b148470 | `initial commit | Configuración inicial del repositorio y README base | 2026-04-13 |
+| Los-5-Suyos/BrandRadar-Landing-Page | develop | f3aaaf1 | feat: project structure setup | Creación de carpetas e integración de estilos CSS base | 2026-04-13 |
+| Los-5-Suyos/BrandRadar-Landing-Page | feature/brianna | f85e590 | feat: add header and hero | Implementación de navegación e impacto visual con CSS nativo | 2026-04-19 |
+| Los-5-Suyos/BrandRadar-Landing-Page | feature/victor | b5b80f6 | feat: add features section | Desarrollo de la cuadrícula de servicios usando CSS | 2026-04-DD |
+| Los-5-Suyos/BrandRadar-Landing-Page | feature/jfranco | 09c0f86 | feat: add benefits and metrics | Maquetación de beneficios y métricas con estilos personalizados | 2026-04-22 |
+| Los-5-Suyos/BrandRadar-Landing-Page | feature/luis | 6272bc2 | feat: add dashboard and social proof | Implementación de testimonios y previsualización de Dashboard | 2026-04-23 |
+| Los-5-Suyos/BrandRadar-Landing-Page | feature/Joaquin | 68319a2 | feat: add pricing and footer | Diseño de tablas de precios y cierre de página con CSS responsivo | 2026-04-22 |
+| Los-5-Suyos/BrandRadar-Landing-Page | develop | d9812fb | merge: final integration | Fusión de ramas para el despliegue final en producción | 2026-04-23 |
 | | | | | | |
+
+<br>
 
 ---
 
@@ -3314,6 +3312,7 @@ Durante el Sprint 1 se completó la Landing Page de BrandRadar, cumpliendo con l
 
 A continuación se muestran las capturas de las vistas desarrolladas 
 
+<br>
 
 ![Execution Evidence 1](brandradar-report/assets/sprints/sprint1-execution-1.png)
 
@@ -3329,8 +3328,13 @@ A continuación se muestran las capturas de las vistas desarrolladas
 
 ![Execution Evidence 7](brandradar-report/assets/sprints/sprint1-execution-7.png)
 
+<br>
+
+Asimismo, se elaboró un video demostrativo que muestra la navegación de la Landing Page y explica cada una de las secciones implementadas:
 
 [Ver video de ejecución Sprint 1](`URL`)
+
+<br>
 
 ---
 
@@ -3340,21 +3344,44 @@ Durante el Sprint 1, el alcance del proyecto estuvo centrado estrictamente en la
 
 Sin embargo, el equipo ha definido preliminarmente la estructura de los servicios necesarios para la captación de leads que se integrarán en futuros ciclos, dejando preparada la base de la documentación técnica (OpenAPI/Swagger) para asegurar la trazabilidad del desarrollo.
 
+<br>
+
 ---
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
-*(Introducción explicando las actividades de despliegue realizadas durante el Sprint 1)*
+Durante el Sprint 1 se realizó el despliegue de la Landing Page del proyecto BrandRadar utilizando la plataforma Netlify, integrada con el repositorio en GitHub.
 
-*(Capturas e instrucciones de los pasos realizados durante el Sprint: creación de cuentas, configuración de recursos en cloud, configuración de proyectos)*
+El despliegue fue configurado mediante integración continua (CI/CD), permitiendo que la aplicación se publique automáticamente cada vez que se realizan cambios en la rama principal (main) del repositorio.
 
-![Deployment Evidence 1](assets/sprints/sprint1-deployment-1.png)
+ **Proceso seguido**
+  1. Ingresar a la plataforma Netlify utilizando la opción “Log in with GitHub”.
+  2. Autorizar el acceso de Netlify a los repositorios del equipo.
+  3. Seleccionar la opción “Add new site” → “Import an existing project”.
+  4. Elegir GitHub como proveedor del repositorio.
+  5. Seleccionar la organización Los 5 Suyos y el repositorio de la Landing Page.
+  6. Configurar los parámetros de despliegue: Branch: main, Publish directory: public (o carpeta de salida del proyecto)
+  7. Ejecutar el proceso de despliegue mediante la opción “Deploy site”.
+  8. Esperar la confirmación de despliegue exitoso.
+  9. Acceder a la URL pública generada por Netlify.
+
+<br>
+ **URL del despliegue**
+
+ (Agregar aquí el enlace de tu Landing Page en Netlify)
+
+ **Evidencias**
+
+A continuación, se presentan capturas del proceso de despliegue y del resultado final:
+
+![Evidencias Sprint 1](brandradar-report/assets/sprints/sprint1-evidence.png)
+
+<br>
 
 ---
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
-5.2.1.8. Team Collaboration Insights during Sprint
 El equipo utilizó la estrategia GitFlow para gestionar el desarrollo paralelo. Cada integrante trabajó en su propia rama de característica (feature/brianna, feature/victor, etc.), las cuales fueron fusionadas en la rama develop tras pasar una revisión de código básica.
 
 Métricas de colaboración:
@@ -3370,24 +3397,6 @@ Gráfico de red de ramas en el repositorio de GitHub evidenciando la integració
 ![Team Collaboration Sprint 1](brandradar-report/assets/sprints/sprint1-over-time.png)
 
 <br>
-
----
-
-<br>
-
-## 5.3. Validation Interviews
-
-### 5.3.1. Diseño de Entrevistas
-
-
-### 5.3.2. Registro de Entrevistas
-
-
-### 5.3.3. Evaluaciones según heurísticas
-
----
-
-## 5.4. Video About-the-Product
 
 ---
 
