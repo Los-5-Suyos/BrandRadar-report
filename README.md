@@ -2874,19 +2874,19 @@ Durante el Sprint 1 se completó la Landing Page de BrandRadar, cumpliendo con l
 A continuación se muestran las capturas de las vistas desarrolladas 
 
 
-![Execution Evidence 1](assets/sprints/sprint1-execution-1.png)
+![Execution Evidence 1](brandradar-report/assets/sprints/sprint1-execution-1.png)
 
-![Execution Evidence 2](assets/sprints/sprint1-execution-2.png)
+![Execution Evidence 2](brandradar-report/assets/sprints/sprint1-execution-2.png)
 
-![Execution Evidence 3](assets/sprints/sprint1-execution-3.png)
+![Execution Evidence 3](brandradar-report/assets/sprints/sprint1-execution-3.png)
 
-![Execution Evidence 4](assets/sprints/sprint1-execution-4.png)
+![Execution Evidence 4](brandradar-report/assets/sprints/sprint1-execution-4.png)
 
-![Execution Evidence 5](assets/sprints/sprint1-execution-5.png)
+![Execution Evidence 5](brandradar-report/assets/sprints/sprint1-execution-5.png)
 
-![Execution Evidence 6](assets/sprints/sprint1-execution-6.png)
+![Execution Evidence 6](brandradar-report/assets/sprints/sprint1-execution-6.png)
 
-![Execution Evidence 7](assets/sprints/sprint1-execution-7.png)
+![Execution Evidence 7](brandradar-report/assets/sprints/sprint1-execution-7.png)
 
 
 [Ver video de ejecución Sprint 1](`URL`)
