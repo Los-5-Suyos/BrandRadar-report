@@ -2870,8 +2870,69 @@ En esta sección se describen las herramientas de software seleccionadas para da
 
 ### 5.1.2. Source Code Management
 
-*(Para la gestión del ciclo de vida del proyecto se utilizará el sistema de control de versiones Git, centralizando el repositorio en GitHub bajo la organización del equipo. Esta plataforma permite registrar, rastrear y visualizar todos los cambios realizados en el código fuente, así como identificar la contribución de cada integrante del equipo a lo largo del desarrollo del proyecto. 
-URL de GitHub: https://github.com/Los-5-Suyos/BrandRadar-report/graphs/contributors)*
+El equipo utilizará Git como sistema de control de versiones y GitHub como plataforma centralizada para la gestión del repositorio del proyecto BrandRadar. Esta infraestructura permite registrar, rastrear y visualizar todos los cambios realizados en el código fuente, así como identificar la contribución individual de cada integrante del equipo a lo largo del ciclo de desarrollo.
+
+<br>
+
+El repositorio principal del proyecto se encuentra disponible en el siguiente enlace:
+
+[https://github.com/Los-5-Suyos/BrandRadar-report](https://github.com/Los-5-Suyos/BrandRadar-report)
+
+<br>
+
+**Contribuciones del equipo:**
+
+[https://github.com/Los-5-Suyos/BrandRadar-report/graphs/contributors](https://github.com/Los-5-Suyos/BrandRadar-report/graphs/contributors)
+
+| Producto                 | Repositorio GitHub                                                                                   |
+| :----------------------- | :--------------------------------------------------------------------------------------------------- |
+| Organización Los 5 Suyos | [https://github.com/Los-5-Suyos](https://github.com/Los-5-Suyos)                                     |
+| Landing Page             | [https://github.com/Los-5-Suyos/BrandRadar-Landing-Page](https://github.com/Los-5-Suyos/BrandRadar-Landing-Page)  |
+| Report                   | [https://github.com/Los-5-Suyos/BrandRadar-report](https://github.com/Los-5-Suyos/BrandRadar-report) |
+| Web Application          | [https://github.com/Los-5-Suyos/BrandRadar-Frontend-Web-App](https://github.com/Los-5-Suyos/BrandRadar-Frontend-Web-App)  |
+| API / Backend            | [https://github.com/Los-5-Suyos/BrandRadar-Web-Services](https://github.com/Los-5-Suyos/BrandRadar-Web-Services)  |
+
+<br>
+
+**Modelo de Ramificación (GitFlow)**
+
+El equipo adoptará la estrategia GitFlow Workflow, la cual permite organizar el desarrollo de manera estructurada mediante el uso de ramas especializadas.
+
+Se definen dos ramas principales:
+
+- main: contiene las versiones estables listas para producción.
+- develop: integra las nuevas funcionalidades antes de su liberación.
+
+<br>
+
+| Tipo de rama | Uso principal                        | Convención de nombres        | Ejemplo                |
+| :----------- | :----------------------------------- | :--------------------------- | :--------------------- |
+| feature      | Desarrollo de nuevas funcionalidades | feature/<nombre-descriptivo> | feature/login-usuarios |
+| release      | Preparación de versiones previas     | release/vX.Y.Z               | release/v1.0.0         |
+| hotfix       | Corrección de errores en producción  | hotfix/<problema>            | hotfix/error-navbar    |
+
+
+<br>
+
+**Convención de Commits**
+
+Para mantener consistencia y trazabilidad, los mensajes de commit seguirán la convención Conventional Commits.
+
+Formato general:
+
+*tipo(alcance opcional): descripción breve*
+
+Tipos de commit definidos:
+
+- feat: nueva funcionalidad
+- fix: corrección de errores
+- docs: cambios en documentación
+- style: ajustes de formato
+- refactor: cambios sin alterar funcionalidad
+- test: pruebas
+- chore: tareas de mantenimiento
+
+<br>
 
 ---
 
