@@ -229,7 +229,7 @@ A continuación, se muestran los gráficos con el análisis de los commits reali
     - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
   - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
     - [5.2.1. Sprint 1](#521-sprint-1)
-    - [5.2.2. Sprint 2](#521-sprint-2)
+    - [5.2.2. Sprint 2](#522-sprint-2)
   - [5.3. Validation Interviews](#53-validation-interviews)
   - [5.4. Video About-the-Product](#54-video-about-the-product)
     
