@@ -229,6 +229,7 @@ A continuación, se muestran los gráficos con el análisis de los commits reali
     - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
   - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
     - [5.2.1. Sprint 1](#521-sprint-1)
+    - [5.2.2. Sprint 2](#521-sprint-2)
   - [5.3. Validation Interviews](#53-validation-interviews)
   - [5.4. Video About-the-Product](#54-video-about-the-product)
     
@@ -3278,39 +3279,87 @@ Gráfico de red de ramas en el repositorio de GitHub evidenciando la integració
 
 ---
 
+### 5.2.2. Sprint 2
+
+#### 5.2.2.1. Sprint Planning 2
+
+<br>
+
+---
+
+#### 5.2.2.2. Aspect Leaders and Collaborators
+
+<br>
+
+---
+
+#### 5.2.2.3. Sprint Backlog 1
+
+<br>
+
+---
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+<br>
+
+---
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+<br>
+
+---
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+<br>
+
+---
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+<br>
+
+---
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
+<br>
+
+---
 
 <br>
 
 ## Conclusiones
 
 
-1. Durante el Avance 1 se estableció una base sólida del proyecto BrandRadar, definiendo la identidad de la startup, así como su misión, visión y propuesta de valor orientada al monitoreo de reputación digital en tiempo real para PyMEs y agencias de marketing digital.
+1. 
 
-2. El proceso de investigación mediante entrevistas semiestructuradas a 5 usuarios reales (3 del segmento PyMEs y 2 del segmento de especialistas en marketing) permitió validar la problemática identificada, evidenciando que el monitoreo manual, fragmentado y tardío de la reputación digital es un dolor relevante y compartido por ambos segmentos objetivo.
+2. 
 
-3. A partir del proceso de needfinding se elaboraron artefactos clave como User Personas, User Journey Maps, Empathy Maps y la User Task Matrix, los cuales permitieron comprender en profundidad las necesidades, frustraciones y comportamientos de los usuarios, sirviendo como base para las decisiones de diseño.
+3. 
 
-4. El proceso de Big Picture Event Storming permitió modelar el flujo completo del dominio del negocio, identificando eventos, actores, comandos y agregados del sistema, lo que facilitó la definición de seis Bounded Contexts: Account Management, Brand Management, Monitoring, Sentiment Analysis, Alert Management y Reporting.
+4. 
 
-5. Se definió un Product Backlog de 45 User Stories organizadas en 10 Epics, priorizadas según el valor aportado a los segmentos objetivo, estableciendo una hoja de ruta clara para el desarrollo incremental del producto.
+5. 
 
-6. Se diseñó la interfaz de usuario de la landing page en versiones desktop y mobile, incluyendo wireframes y mock-ups desarrollados en Figma, y se implementó una primera versión funcional desplegada mediante servicios como GitHub Pages y Vercel/Netlify.
-
-7. El diseño de la arquitectura del sistema, a través de diagramas de clases por bounded context y diagramas de base de datos relacionales, evidencia una estructura técnica coherente, modular y escalable, que servirá como base para el desarrollo en las siguientes iteraciones.
+ 
 
 <br>
 
 ## Recomendaciones
 
-1. Para la siguiente etapa del proyecto, se recomienda avanzar en la validación de la solución mediante prototipos de alta fidelidad, con el objetivo de evaluar la usabilidad del sistema en escenarios reales con usuarios de los segmentos identificados.
+1. 
 
-2. Se sugiere profundizar en la definición y refinamiento de los requerimientos funcionales y no funcionales, asegurando su alineación directa con los insights obtenidos en las entrevistas y el proceso de needfinding.}
+2. 
 
-3. Se recomienda iterar el Lean UX Canvas con validaciones adicionales de las hipótesis críticas del producto, incorporando feedback temprano de usuarios potenciales antes de avanzar a fases de desarrollo más complejas.
+3. 
 
-4. Se sugiere analizar con mayor detalle las fuentes de datos externas y sus mecanismos de integración, evaluando su viabilidad técnica, limitaciones de acceso (APIs, rate limits) y escalabilidad para el monitoreo en tiempo real.
+4. 
 
-5. Finalmente, se recomienda mantener un enfoque iterativo, centrado en el usuario y basado en evidencia, incorporando retroalimentación continua en cada fase del desarrollo para asegurar la evolución del producto en función de necesidades reales del mercado.
+5. 
+
 
 <br>
 
@@ -3372,6 +3421,7 @@ En este documento se incluyen los criterios de evaluación, evidencias de trabaj
 | Entrega | Título | Enlace |
 |:-------:|:------:|:------:|
 | AV1 | `upc-pre-202610-1asi0729-[11863]-[brandradar]-expo-av1` | [URL Microsoft Stream](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202410239_upc_edu_pe/IgBV-ACEG37lQ466daCivegHARBFGxWIBXchDZGj6xfsMAY?e=Y3HNmH) |
+| TB1 | `upc-pre-202610-1asi0729-[11863]-[brandradar]-expo-tb1` | [URL Microsoft Stream](https://upcedupe-my.sharepoint.com/) |
 
 
 ---

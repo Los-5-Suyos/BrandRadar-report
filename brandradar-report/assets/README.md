@@ -1,29 +1,36 @@
-# 📁 Assets — Guía de carpetas
+# Assets — Guía de carpetas
 
-Esta carpeta contiene todos los recursos gráficos y multimedia del informe del proyecto BrandRadar.
-
-## Estructura
+<br>
 
 | Carpeta | Contenido |
 |:--------|:----------|
-| `team/` | Fotos de los integrantes del equipo (`integrante1.jpg`, `integrante2.jpg`, ...) |
-| `lean-canvas/` | Capturas del Lean UX Canvas |
-| `interviews/` | Screenshots de los videos de entrevistas de Needfinding |
-| `user-personas/` | Capturas de User Personas elaboradas en UXPressia |
-| `journey-maps/` | Capturas de User Journey Maps (UXPressia) |
-| `empathy-maps/` | Capturas de Empathy Maps (UXPressia) |
-| `event-storming/` | Capturas de Big Picture y Design-Level Event Storming (Miro/LucidChart) |
-| `impact-mapping/` | Capturas del Impact Map (UXPressia) |
-| `product-backlog/` | Capturas del Product Backlog en herramienta de control |
-| `landing-page/` | Wireframes y Mockups del Landing Page (Figma) |
-| `web-app/` | Wireframes, Wireflows, Mockups y User Flows de la Web App (Figma/LucidChart) |
-| `prototypes/` | Screenshots de los prototipos interactivos |
-| `architecture/` | Diagramas C4 (Context, Container, Component) elaborados en Structurizr |
-| `class-diagrams/` | Diagramas de clases UML (LucidChart) |
-| `database/` | Diagramas de base de datos (LucidChart/Vertabelo) |
-| `sprints/` | Capturas de boards de Sprint, evidencias de ejecución y colaboración |
-| `validation/` | Screenshots de entrevistas de validación |
-| `videos/` | Screenshots de los videos (About-the-Product, About-the-Team) |
+| `bounded-context/` | Diagramas de Bounded Context (Account, Alert, Brand, Monitoring, Reporting, Sentiment Analysis) |
+| `domain-driven-design/architecture/context-diagram/` | Diagrama de contexto (C4 - Nivel 1) |
+| `domain-driven-design/architecture/container-diagram/` | Diagrama de contenedores (C4 - Nivel 2) |
+| `domain-driven-design/architecture/components-diagram/` | Diagramas de componentes por módulo |
+| `domain-driven-design/architecture/design-level-storm/` | Event Storming a nivel diseño |
+| `class-diagrams/` | Diagramas de clases UML (por bounded context) |
+| `database-diagram/` | Diagramas de base de datos |
+| `competitive-analysis/` | Análisis competitivo del producto |
+| `information-architecture/` | Arquitectura de información (sitemap, estructura) |
+| `event-storming/` | Event Storming general (Big Picture) |
+| `interviews/` | Evidencias de entrevistas |
+| `needfinding/empathy-maps/` | Mapas de empatía |
+| `needfinding/journey-maps/` | User Journey Maps |
+| `needfinding/user-personas/` | User Personas |
+| `lean-canvas/` | Lean Canvas del modelo de negocio |
+| `requirements-specification/impact-mapping/` | Impact Mapping |
+| `requirements-specification/product-backlog/` | Product Backlog |
+| `sprints/sprint-1/` | Evidencias del Sprint 1 |
+| `sprints/sprint-2/` | Evidencias del Sprint 2 |
+| `ux-design/` | Wireframes, mockups, prototipos y flujos UX |
+| `network-repo-av1/` | Evidencias del repositorio (commits, red del proyecto) |
+| `team/` | Información e imágenes del equipo |
+| `images/` | Imágenes generales utilizadas en el proyecto |
+
+<br>
+
+---
 
 ## Convención de nomenclatura
 
@@ -33,8 +40,18 @@ Usar nombres descriptivos en minúsculas con guiones:
 [tipo]-[contexto]-[número].png
 ```
 
-Ejemplos:
-- `user-persona-seg1.png`
-- `wireframe-desktop.png`
+
+### Ejemplos:
+- `bounded-account-1.png`
+- `db-diagram-1.png`
 - `sprint1-board.png`
-- `entrevista-seg1-1.png`
+- `journey-map-user1.png`
+- `components-reporting.png`
+
+<br>
+
+## ⚠️ Recomendaciones
+
+- Mantener nombres consistentes en inglés y con guiones (`-`)
+- Evitar espacios en nombres de carpetas
+- Usar nombres descriptivos para facilitar la navegación del repositorio
