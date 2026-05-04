@@ -86,7 +86,7 @@ Para el desarrollo del AV1, cada integrante contribuyó de la siguiente manera:
 <br>
 <br>
 
-Para el desarrollo deL TB1, cada integrante contribuyó de la siguiente manera:
+Para el desarrollo del TB1, cada integrante contribuyó de la siguiente manera:
 
 | Integrante | Tareas Realizadas |
 |------------|------------------|
