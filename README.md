@@ -73,6 +73,8 @@
 
 <br>
 
+**AV1 Collaboration Insights**
+
 Para el desarrollo del AV1, cada integrante contribuyó de la siguiente manera:
 
 | Integrante | Tareas Realizadas |
@@ -85,6 +87,8 @@ Para el desarrollo del AV1, cada integrante contribuyó de la siguiente manera:
 
 <br>
 <br>
+
+**TB1 Collaboration Insights**
 
 Para el desarrollo del TB1, cada integrante contribuyó de la siguiente manera:
 
