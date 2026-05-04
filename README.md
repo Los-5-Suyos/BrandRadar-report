@@ -149,7 +149,7 @@ Esta estructura de ramas permite un desarrollo organizado y paralelo, facilitand
 
 ## AV1 - Network Graph
 
-A continuación, se presenta el gráfico de red (network graph) del repositorio del proyecto, el cual permite visualizar la estructura de ramas, así como la interacción entre ellas a través de los procesos de integración (merge).
+A continuación, se presenta el gráfico de red (network graph) del repositorio del proyecto de la entrega AV1, el cual permite visualizar la estructura de ramas, así como la interacción entre ellas a través de los procesos de integración (merge).
 
 <br>
 
@@ -159,12 +159,34 @@ A continuación, se presenta el gráfico de red (network graph) del repositorio 
 
 <br>
 
-A continuación, se muestran los gráficos con el análisis de los commits realizados en el repositorio. Estos reflejan tanto la cantidad de líneas de código añadidas por cada integrante del equipo como la actividad de commits registrada.
+A continuación, se muestran los gráficos con el análisis de los commits realizados en el repositorio en la entrega AV1. Estos reflejan tanto la cantidad de líneas de código añadidas por cada integrante del equipo como la actividad de commits registrada.
 
 <br>
 
 <div align="center">
 <img src="brandradar-report/assets/network-repo/av1/commits.png" alt="Commits realizados AV1" width="900"/>
+</div>
+
+<br>
+
+## TB1 - Network Graph
+
+A continuación, se presenta el gráfico de red (network graph) del repositorio del proyecto de la entrega TB1, el cual permite visualizar la estructura de ramas, así como la interacción entre ellas a través de los procesos de integración (merge).
+
+<br>
+
+<div align="center">
+<img src="brandradar-report/assets/network-repo/tb1/network.png" alt="Gráfico de red TB1" width="900"/>
+</div>
+
+<br>
+
+A continuación, se muestran los gráficos con el análisis de los commits realizados en el repositorio en la entrega TB1. Estos reflejan tanto la cantidad de líneas de código añadidas por cada integrante del equipo como la actividad de commits registrada.
+
+<br>
+
+<div align="center">
+<img src="brandradar-report/assets/network-repo/tb1/commits.png" alt="Commits realizados TB1" width="900"/>
 </div>
 
 <br>
