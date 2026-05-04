@@ -13,7 +13,7 @@
 
 ## Presentado por "Los 5 Suyos"
 
-<img src="brandradar-report/assets/images/brandradar.png" alt="BrandRadar Logo" width="320"/>
+<img src="brandradar-report/assets/images/brandradar.png" alt="BrandRadar Logo" width="300"/>
 
 ## Startup analizada: BrandRadar
 
@@ -56,7 +56,7 @@
 | Versión | Fecha | Participantes | Descripción de modificación |
 |:-------:|:-----:|:-----:|:---------------------------|
 | AV1 | 2026-04-08 | Salinas Guzmán, Brianna Cristina <br> Jáuregui Cerna, Jean Franco <br> Cruzalegui Herrera, Joaquin <br> Garcia Paredes, Victor Manuel <br> Acuña de la Cruz, Luis | Avance 1 del reporte del proyecto y primera versión de la landing page |
-| TB2 | 2026-05-15 | Salinas Guzmán, Brianna Cristina  | Avance 2 |
+| TB2 | 2026-05-15 | Salinas Guzmán, Brianna Cristina  | Entrega del reporte TB1 del proyecto, nueva version del landing page y frontend web application desplegadas |
 </div>
 
 ---
@@ -66,12 +66,14 @@
 ##  Project Report Collaboration Insights
 
 <div align="center">
+<br>
+
   
-**URL del Repositorio:** [`https://github.com/Los-5-Suyos/BrandRadar-report.git`](https://github.com/Los-5-Suyos/BrandRadar-report.git)
+**URL del Repositorio:** [`link`](link)
 
 <br>
 
-Para el desarrollo del AV1, cada integrante contribuyó de la siguiente manera al desarrollo del avance 1:
+Para el desarrollo del AV1, cada integrante contribuyó de la siguiente manera:
 
 | Integrante | Tareas Realizadas |
 |------------|------------------|
@@ -80,6 +82,19 @@ Para el desarrollo del AV1, cada integrante contribuyó de la siguiente manera a
 | Cruzalegui Herrera, Joaquin | Elaboración del Student Outcome, registro de entrevistas, participación en el Capítulo II, desarrollo de herramientas de análisis como User Task Matrix, User Journey Mapping y Empathy Mapping (2.3), modelado de eventos (2.4), definición de lenguaje ubicuo (2.5) y desarrollo del Sprint 1 (5.2.1). |
 | Garcia Paredes, Victor Manuel | Elaboración del Student Outcome, registro de entrevistas, desarrollo de la sección 1.3 (Segmentos objetivo), participación en el Capítulo II (Requirements Elicitation & Analysis), prototipado de aplicaciones web (4.5), desarrollo de arquitectura basada en Domain-Driven Design (4.6) y diseño orientado a objetos (4.7). |
 | Acuña de la Cruz, Luis | Elaboración del Student Outcome, registro de entrevistas, desarrollo de la arquitectura de información (4.2), incluyendo sistemas de organización, etiquetado, búsqueda y navegación, así como participación en el Capítulo V (Product Implementation, Validation & Deployment) y gestión de configuración del software (5.1 y 5.2). |
+
+<br>
+<br>
+
+Para el desarrollo deL TB1, cada integrante contribuyó de la siguiente manera:
+
+| Integrante | Tareas Realizadas |
+|------------|------------------|
+| Salinas Guzmán, Brianna Cristina | Tareas TB1 |
+| Jáuregui Cerna, Jean Franco |  Tareas TB1 |
+| Cruzalegui Herrera, Joaquin | Tareas TB1 |
+| Garcia Paredes, Victor Manuel | Tareas TB1 |
+| Acuña de la Cruz, Luis | Tareas TB1 |
 
 </div>
 
@@ -135,17 +150,17 @@ A continuación, se presenta el gráfico de red (network graph) del repositorio 
 <br>
 
 <div align="center">
-<img src="brandradar-report/assets/images/network.png" alt="Gráfico de red Repositorio" width="900"/>
+<img src="brandradar-report/assets/network-repo/av1/network.png" alt="Gráfico de red AV1" width="900"/>
 </div>
 
 <br>
 
 A continuación, se muestran los gráficos con el análisis de los commits realizados en el repositorio. Estos reflejan tanto la cantidad de líneas de código añadidas por cada integrante del equipo como la actividad de commits registrada.
 
-<br> <br>
+<br>
 
 <div align="center">
-<img src="brandradar-report/assets/images/commits.png" alt="Gráfico de red Repositorio" width="900"/>
+<img src="brandradar-report/assets/network-repo/av1/commits.png" alt="Commits realizados AV1" width="900"/>
 </div>
 
 <br>
@@ -230,8 +245,6 @@ A continuación, se muestran los gráficos con el análisis de los commits reali
   - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
     - [5.2.1. Sprint 1](#521-sprint-1)
     - [5.2.2. Sprint 2](#522-sprint-2)
-  - [5.3. Validation Interviews](#53-validation-interviews)
-  - [5.4. Video About-the-Product](#54-video-about-the-product)
     
   #### [Conclusiones](#conclusiones-1)
   
@@ -253,8 +266,8 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 |:---|:---|:---|
-| **3.c1. Comunica oralmente con efectividad a diferentes rangos de audiencia.** | **Salinas, Brianna** <br> AV1: Durante el registro de entrevistas, conduje sesiones con usuarios del segmento objetivo adaptando mi discurso oral según el perfil del entrevistado, logrando transmitir el propósito de BrandRadar de forma clara y comprensible tanto para perfiles técnicos como no técnicos. <br><br> **Jáuregui, Jean Franco** <br> AV1: (acción específica) <br><br> **Cruzalegui, Joaquin** <br> AV1: Elaboré una de las entrevistas del segmento 1 (PyMEs), por la cual tuve que adecuar mi vocabulario de la mejor manera posible, para hacer sentir cómodo al entrevistado y poder recopilar la mejor información posible <br><br> **Garcia Paredes, Victor** <br> AV1: Diseñé y conduje oralmente dos entrevistas dirigidas a representantes de nuestros segmentos objetivo (una PyME y una Agencia Digital). Durante las sesiones, adapté mi lenguaje y tono para generar empatía con perfiles no técnicos, logrando extraer con claridad sus dolores respecto a la gestión de su reputación digital y comunicando efectivamente el propósito de nuestra investigación. <br><br> **Acuña de la Cruz, Luis** <br> AV1: (acción específica) | (Completar de forma grupal en cada entrega) |
-| **3.c2. Comunica por escrito con efectividad a diferentes rangos de audiencia.** | **Salinas, Brianna** <br> AV1: Redacté el Capítulo I, la sección 4.3 de Landing Page UI Design, los diagramas de clases (4.7.1) y el diseño de base de datos (4.8), empleando un lenguaje técnico preciso y estructurado acorde al formato académico del informe, garantizando que el contenido sea comprensible para lectores con distintos niveles de conocimiento en ingeniería de software. <br><br> **Jáuregui, Jean Franco** <br> AV1: (acción específica) <br><br> **Cruzalegui, Joaquin** <br> AV1: Realicé los Empathy Maps, los Journey Maps en base a las entrevistas y User Personas, también el Event Storming donde identifiqué los principales eventos del dominio. Además realicé el capítulo 5.2.1 sobre el sprint 1 <br><br> **Garcia Paredes, Victor** <br> AV1: Redacté las secciones de segmentos objetivo, análisis competitivo, needfinding y arquitectura de software basada en DDD. Empleé un lenguaje claro, persuasivo y estructurado para documentar los User Personas; y utilicé terminología técnica estandarizada para describir el design-level event storming y los diagramas del modelo C4, garantizando que la documentación sea comprensible tanto para stakeholders como para el equipo de desarrollo. <br><br> **Acuña de la Cruz, Luis** <br> AV1: (acción específica) | (Completar de forma grupal en cada entrega) |
+| **3.c1. Comunica oralmente con efectividad a diferentes rangos de audiencia.** | **Salinas, Brianna** <br> AV1: Durante el registro de entrevistas, conduje sesiones con usuarios del segmento objetivo adaptando mi discurso oral según el perfil del entrevistado, logrando transmitir el propósito de BrandRadar de forma clara y comprensible tanto para perfiles técnicos como no técnicos. <br><br> TB1: (acción específica)<br><br> **Jáuregui, Jean Franco** <br> AV1: (acción específica) <br><br> TB1: (acción específica)<br><br> **Cruzalegui, Joaquin** <br> AV1: Elaboré una de las entrevistas del segmento 1 (PyMEs), por la cual tuve que adecuar mi vocabulario de la mejor manera posible, para hacer sentir cómodo al entrevistado y poder recopilar la mejor información posible <br><br> TB1: (acción específica)<br><br> **Garcia Paredes, Victor** <br> AV1: Diseñé y conduje oralmente dos entrevistas dirigidas a representantes de nuestros segmentos objetivo (una PyME y una Agencia Digital). Durante las sesiones, adapté mi lenguaje y tono para generar empatía con perfiles no técnicos, logrando extraer con claridad sus dolores respecto a la gestión de su reputación digital y comunicando efectivamente el propósito de nuestra investigación. <br><br> TB1: (acción específica)<br><br> **Acuña de la Cruz, Luis** <br> AV1: (acción específica) <br><br> TB1: (acción específica) <br> | (Completar de forma grupal en cada entrega) |
+| **3.c2. Comunica por escrito con efectividad a diferentes rangos de audiencia.** | **Salinas, Brianna** <br> AV1: Redacté el Capítulo I, la sección 4.3 de Landing Page UI Design, los diagramas de clases (4.7.1) y el diseño de base de datos (4.8), empleando un lenguaje técnico preciso y estructurado acorde al formato académico del informe, garantizando que el contenido sea comprensible para lectores con distintos niveles de conocimiento en ingeniería de software. <br><br> TB1: (acción específica) <br><br> **Jáuregui, Jean Franco** <br> AV1: (acción específica) <br><br> TB1: (acción específica) <br><br> **Cruzalegui, Joaquin** <br> AV1: Realicé los Empathy Maps, los Journey Maps en base a las entrevistas y User Personas, también el Event Storming donde identifiqué los principales eventos del dominio. Además realicé el capítulo 5.2.1 sobre el sprint 1 <br><br> TB1: (acción específica) <br><br> **Garcia Paredes, Victor** <br> AV1: Redacté las secciones de segmentos objetivo, análisis competitivo, needfinding y arquitectura de software basada en DDD. Empleé un lenguaje claro, persuasivo y estructurado para documentar los User Personas; y utilicé terminología técnica estandarizada para describir el design-level event storming y los diagramas del modelo C4, garantizando que la documentación sea comprensible tanto para stakeholders como para el equipo de desarrollo. <br><br> TB1: (acción específica) <br><br> **Acuña de la Cruz, Luis** <br> AV1: (acción específica) <br><br> TB1: (acción específica) <br> | (Completar de forma grupal en cada entrega) |
 
 ---
 
@@ -788,7 +801,7 @@ Estos datos evidencian que los profesionales del marketing requieren herramienta
 
 En esta sección se presenta el *Competitive Analysis Landscape*, el cual permite evaluar a **BrandRadar** frente a las principales soluciones disponibles en el mercado. Este análisis tiene como finalidad identificar fortalezas, debilidades y oportunidades, con el fin de comprender el posicionamiento de la propuesta y su valor diferencial frente a la competencia.
 
-![Competitive Analysis](brandradar-report/assets/competitive-analyaia/analisis_competitivo.png)
+![Competitive Analysis](brandradar-report/assets/competitive-analysis/analisis_competitivo.png)
 
 <br>
 
@@ -1202,14 +1215,14 @@ Estos hallazgos refuerzan la necesidad de una solución automatizada que optimic
 **User Persona 1 — Segmento 1: `Alfredo Negrete`**
 
 
-![User Persona 1 Segmento 1](brandradar-report/assets/user-personas/user-persona1-seg1.png)
+![User Persona 1 Segmento 1](brandradar-report/assets/needfinding/user-personas/user-persona1-seg1.png)
 
 <br>
 
 **User Persona 2 — Segmento 1: `Jenifer López`**
 
 
-![User Persona 2 Segmento 1](brandradar-report/assets/user-personas/user-persona2-seg1.png)
+![User Persona 2 Segmento 1](brandradar-report/assets/needfinding/user-personas/user-persona2-seg1.png)
 
 ---
 
@@ -1218,14 +1231,14 @@ Estos hallazgos refuerzan la necesidad de una solución automatizada que optimic
 **User Persona 1 — Segmento 2: `Romina Apaza`**
 
 
-![User Persona 1 Segmento 2](brandradar-report/assets/user-personas/user-persona3-seg2.png)
+![User Persona 1 Segmento 2](brandradar-report/assets/needfinding/user-personas/user-persona3-seg2.png)
 
 <br>
 
 **User Persona 2 — Segmento 2: `Esteban Medina`**
 
 
-![User Persona 2 Segmento 2](brandradar-report/assets/user-personas/user-persona4-seg2.png)
+![User Persona 2 Segmento 2](brandradar-report/assets/needfinding/user-personas/user-persona4-seg2.png)
 
 <br>
 
@@ -1268,7 +1281,7 @@ Este recorrido permite identificar puntos de fricción, emociones asociadas a ca
 
 <br>
 
-![User Journey Map Persona 1](brandradar-report/assets/journey-maps/journey-map-persona1.png)
+![User Journey Map Persona 1](brandradar-report/assets/needfinding/journey-maps/journey-map-persona1.png)
 
 <br>
 
@@ -1276,7 +1289,7 @@ Este recorrido permite identificar puntos de fricción, emociones asociadas a ca
 
 <br>
 
-![User Journey Map Persona 2](brandradar-report/assets/journey-maps/journey-map-persona2.png)
+![User Journey Map Persona 2](brandradar-report/assets/needfinding/journey-maps/journey-map-persona2.png)
 
 <br>
 
@@ -1291,14 +1304,14 @@ Este recorrido permite identificar puntos de fricción, emociones asociadas a ca
 **Empathy Map — `PyMEs`**
 
 
-![Empathy Map Persona 1](brandradar-report/assets/empathy-maps/empathy-map-persona1.png)
+![Empathy Map Persona 1](brandradar-report/assets/needfinding/empathy-maps/empathy-map-persona1.png)
 
 <br>
 
 **Empathy Map — `Agencia(Account Manager)`**
 
 
-![Empathy Map Persona 2](brandradar-report/assets/empathy-maps/empathy-map-persona2.png)
+![Empathy Map Persona 2](brandradar-report/assets/needfinding/empathy-maps/empathy-map-persona2.png)
 
 <br>
 
@@ -1572,7 +1585,7 @@ Estos impactos se materializan en entregables como el motor de IA con entrenamie
 
 *Captura del Product Backlog en herramienta*
 
-![Product Backlog](brandradar-report/assets/product-backlog/productbacklog.png)
+![Product Backlog](brandradar-report/assets/requirements-specification/product-backlog/productbacklog.png)
 
 </div>
 
@@ -1625,7 +1638,7 @@ El isotipo circular puede utilizarse de forma independiente como favicon, ícono
 
 <br>
 <div align="center">
-<img src="brandradar-report/assets/images/logos.png" alt="Logos de BrandRadar" width="600"/>
+<img src="brandradar-report/assets/ux-design/logos.png" alt="Logos de BrandRadar" width="500"/>
 </div>
 <br>
 
@@ -1635,7 +1648,7 @@ No se permite el uso de sombras paralelas (drop shadows) excesivas en el logotip
 
 <br>
 <div align="center">
-<img src="brandradar-report/assets/images/logo-no.png" alt="Logo No Permitido" width="300"/>
+<img src="brandradar-report/assets/ux-design/logo-no.png" alt="Logo No Permitido" width="400"/>
 </div>
 <br>
 
@@ -1689,8 +1702,9 @@ Jerarquía tipográfica
 | UI / Data | TASA Orbiter | Regular | 14–16px | Datos, métricas, UI técnica |
 
 <br>
+
 <div align="center">
-<img src="brandradar-report/assets/images/type.png" alt="Typography and colors" width="350"/>
+<img src="brandradar-report/assets/ux-design/type.png" alt="Typography and colors" width="400"/>
 </div>
 <br>
 
@@ -1702,7 +1716,7 @@ Los tonos oscuros (negro y azul pizarra) aportan seriedad y profundidad, adecuad
 
 <br>
 <div align="center">
-<img src="brandradar-report/assets/images/colors.png" alt="Paleta de colores de BrandRadar" width="650"/>
+<img src="brandradar-report/assets/ux-design/colors.png" alt="Paleta de colores de BrandRadar" width="700"/>
 </div>
 <br>
 
@@ -1744,13 +1758,13 @@ A continuación, se presentan los diagramas de estructura que representan la org
 
 **Figura 1. Diagrama de estructura de la página web**
 
-<img src="brandradar-report/assets/images/PRIMER DIAGRAMA.png" alt="BrandRadar Web Map" width="100%"/>
+<img src="brandradar-report/assets/information-architecture/diagram-1.png" alt="BrandRadar Web Map" width="800"/>
 
 <br>
 
 **Figura 2. Diagrama de la estructura de la aplicación móvil (Android y iOS)**
 
-<img src="brandradar-report/assets/images/SEGUNDO DIAGRAMA.png" alt="BrandRadar Mobile Map" width="100%"/>
+<img src="brandradar-report/assets/information-architecture/diagram-2.png" alt="BrandRadar Mobile Map" width="800"/>
 
 <br>
 
@@ -1823,7 +1837,7 @@ El objetivo del sistema de etiquetado de BrandRadar es representar conjuntos de 
 <br>
 
 <div align="center">
-<img src="brandradar-report/assets/images/icons.png" alt="Iconos de navegacion" width="700"/>
+<img src="brandradar-report/assets/ux-design/icons.png" alt="Iconos de navegacion" width="600"/>
 
 <br> <br>
 
@@ -2021,11 +2035,11 @@ La navegación móvil utiliza una **barra inferior de navegación** (bottom tab 
   
 **Dueño de PyME (barra inferior)**
 
-<img src="brandradar-report/assets/images/navigation-1.png" alt="Navegacion Movil" width="700"/>
+<img src="brandradar-report/assets/ux-design/navigation-1.png" alt="Navegacion Movil" width="600"/>
 
 **Especialista de Marketing (barra inferior)**
 
-<img src="brandradar-report/assets/images/navigation-2.png" alt="Navegacion Movil" width="700"/>
+<img src="brandradar-report/assets/ux-design/navigation-2.png" alt="Navegacion Movil" width="600"/>
 </div>
 
 Las notificaciones push dirigen al usuario directamente a la mención o alerta específica, sin necesidad de navegar manualmente por la app. Los flujos de acción rápida (responder reseña, escalar alerta) se resuelven en modales de pantalla completa que no interrumpen la ruta de navegación principal.
@@ -2055,7 +2069,7 @@ Las notificaciones push dirigen al usuario directamente a la mención o alerta e
 
 *Elaboración propia en Figma*
 
-![Landing Page Wireframe Desktop](brandradar-report/assets/landing-page/wireframe-desktop.png)
+![Landing Page Wireframe Desktop](brandradar-report/assets/ux-design/landing-page/wireframes/wireframe-desktop.png)
 
 <br>
 
@@ -2064,7 +2078,7 @@ Las notificaciones push dirigen al usuario directamente a la mención o alerta e
 
 *Elaboración propia en Figma*
 
-![Landing Page Wireframe Mobile](brandradar-report/assets/landing-page/wireframe-mobile.png)
+![Landing Page Wireframe Mobile](brandradar-report/assets/ux-design/landing-page/wireframes/wireframe-mobile.png)
 
 </div>
 
@@ -2082,7 +2096,7 @@ En esta etapa se materializa la propuesta de wireframes en una interfaz visual c
 
 *Elaboración propia en Figma*
 
-![Landing Page Mockup Desktop](brandradar-report/assets/landing-page/landingmockup-desktop.png)
+![Landing Page Mockup Desktop](brandradar-report/assets/ux-design/landing-page/mockups/landingmockup-desktop.png)
 
 <br>
 
@@ -2092,7 +2106,7 @@ En esta etapa se materializa la propuesta de wireframes en una interfaz visual c
 
 *Elaboración propia en Figma*
 
-![Landing Page Mockup Mobile](brandradar-report/assets/landing-page/landingmockup-mobile.png)
+![Landing Page Mockup Mobile](brandradar-report/assets/ux-design/landing-page/mockups/landingmockup-mobile.png)
 
 </div>
 
@@ -2220,7 +2234,7 @@ Se identificaron y representaron todos los eventos que modifican el estado del s
 <br>
 <div align="center">
   
-![Step1 - Event Storming](brandradar-report/assets/design-level-storm/step1.png)
+![Step1 - Event Storming](brandradar-report/assets/domain-driven-design/design-level-storm/step1.png)
 
 </div>
 
@@ -2231,7 +2245,7 @@ Se ordenaron los eventos del dominio de forma cronológica de izquierda a derech
 <br>
 <div align="center">
   
-![Step2 - Event Storming](brandradar-report/assets/design-level-storm/step2.png)
+![Step2 - Event Storming](brandradar-report/assets/domain-driven-design/design-level-storm/step2.png)
 
 </div>
 
@@ -2242,7 +2256,7 @@ Se identificaron los puntos críticos del sistema y riesgos técnicos del negoci
 <br>
 <div align="center">
   
-![Step3 - Event Storming](brandradar-report/assets/design-level-storm/step3.png)
+![Step3 - Event Storming](brandradar-report/assets/domain-driven-design/design-level-storm/step3.png)
 
 </div>
 
@@ -2252,7 +2266,7 @@ Se definieron eventos pivote que segmentan el flujo del sistema en fases funcion
 
 <div align="center">
   
-![Step4 - Event Storming](brandradar-report/assets/design-level-storm/step4.png)
+![Step4 - Event Storming](brandradar-report/assets/domain-driven-design/design-level-storm/step4.png)
 
 </div>
 
@@ -2262,7 +2276,7 @@ Se definieron los commands (post-its azules) que disparan los eventos del sistem
 
 <div align="center">
   
-![Step5 - Event Storming](brandradar-report/assets/design-level-storm/step5.png)
+![Step5 - Event Storming](brandradar-report/assets/domain-driven-design/design-level-storm/step5.png)
 
 </div>
 
@@ -2272,7 +2286,7 @@ Se incorporaron las business policies (post-its lilas), que representan reglas d
 
 <div align="center">
   
-![Step6 - Event Storming](brandradar-report/assets/design-level-storm/step6.png)
+![Step6 - Event Storming](brandradar-report/assets/domain-driven-design/design-level-storm/step6.png)
 
 </div>
 
@@ -2282,7 +2296,7 @@ Se mapearon los read models (post-its verdes), que representan las vistas e inte
 
 <div align="center">
   
-![Step7 - Event Storming](brandradar-report/assets/design-level-storm/step7.png)
+![Step7 - Event Storming](brandradar-report/assets/domain-driven-design/design-level-storm/step7.png)
 
 </div>
 
@@ -2292,7 +2306,7 @@ Se identificaron los sistemas externos (post-its rosados) que interactúan con B
 
 <div align="center">
   
-![Step8 - Event Storming](brandradar-report/assets/design-level-storm/step8.png)
+![Step8 - Event Storming](brandradar-report/assets/domain-driven-design/design-level-storm/step8.png)
 
 </div>
 
@@ -2302,7 +2316,7 @@ Se incrementó el nivel de abstracción agrupando comandos y eventos alrededor d
 
 <div align="center">
   
-![Step9 - Event Storming](brandradar-report/assets/design-level-storm/step9.png)
+![Step9 - Event Storming](brandradar-report/assets/domain-driven-design/design-level-storm/step9.png)
 
 </div>
 
@@ -2312,22 +2326,22 @@ Finalmente, se delimitaron los límites semánticos y transaccionales del domini
 
 <div align="center">
   
-![Step10 - Event Storming](brandradar-report/assets/design-level-storm/step10.png)
+![Step10 - Event Storming](brandradar-report/assets/domain-driven-design/design-level-storm/step10.png)
 
   
 **Bounded Contexts:**
 
-![BoundextContext1](brandradar-report/assets/boundext-context/accountmanager.png)
+![BoundextContext1](brandradar-report/assets/bounded-context/accountmanager.png)
 
-![BoundextContext2](brandradar-report/assets/boundext-context/brandmanager.png)
+![BoundextContext2](brandradar-report/assets/bounded-context/brandmanager.png)
 
-![BoundextContext3](brandradar-report/assets/boundext-context/monitoring.png)
+![BoundextContext3](brandradar-report/assets/bounded-context/monitoring.png)
 
-![BoundextContext4](brandradar-report/assets/boundext-context/sentimentanalysis.png)
+![BoundextContext4](brandradar-report/assets/bounded-context/sentimentanalysis.png)
 
-![BoundextContext5](brandradar-report/assets/boundext-context/alertmanagment.png)
+![BoundextContext5](brandradar-report/assets/bounded-context/alertmanagment.png)
 
-![BoundextContext6](brandradar-report/assets/boundext-context/reporting.png)
+![BoundextContext6](brandradar-report/assets/bounded-context/reporting.png)
 
 </div>
 
@@ -2353,7 +2367,7 @@ A partir del análisis del dominio de BrandRadar, se consolidaron seis Bounded C
 
 <br>
 
-![Software Architecture Context Diagram](brandradar-report/assets/architecture/context-diagram.png)
+![Software Architecture Context Diagram](brandradar-report/assets/domain-driven-design/architecture/context-diagram/context-diagram.png)
 
 Este nivel de abstracción permite comprender el alcance del sistema y su valor dentro del dominio de negocio, evidenciando cómo los actores principales —PyME Owner y Agency Manager— interactúan con la plataforma central de BrandRadar. Asimismo, se identifican las dependencias críticas con sistemas externos, como las APIs de redes sociales y Google Maps para la obtención de datos, y servicios de Inteligencia Artificial (NLP) para el análisis automático de sentimiento.
 
@@ -2366,7 +2380,7 @@ Este nivel de abstracción permite comprender el alcance del sistema y su valor 
 <br>
 <div align="center">
   
-![Software Architecture Container Diagram](brandradar-report/assets/architecture/container-diagram.png)
+![Software Architecture Container Diagram](brandradar-report/assets/domain-driven-design/architecture/container-diagram/container-diagram.png)
 
 </div>
 <br>
@@ -2392,7 +2406,7 @@ A continuación, se presentan los diagramas de componentes correspondientes a lo
   
 **Bounded Context: `Account Manager`**
 
-![Component Diagram BC1](brandradar-report/assets/architecture/account-components.png)
+![Component Diagram BC1](brandradar-report/assets/domain-driven-design/architecture/components-diagram/account-components.png)
 
 </div>
 <br>
@@ -2404,7 +2418,7 @@ Administra la seguridad, la emisión de tokens JWT, el registro de usuarios y el
   
 **Bounded Context: `Brand Management`**
 
-![Component Diagram BC2](brandradar-report/assets/architecture/brand-components.png)
+![Component Diagram BC2](brandradar-report/assets/domain-driven-design/architecture/components-diagram/brand-components.png)
 
 </div>
 <br>
@@ -2416,7 +2430,7 @@ Permite la configuración del núcleo del negocio: la creación de marcas, la va
 
 **Bounded Context: `Monitoring`**
 
-![Component Diagram BC3](brandradar-report/assets/architecture/monitoring-components.png)
+![Component Diagram BC3](brandradar-report/assets/domain-driven-design/architecture/components-diagram/monitoring-components.png)
 
 </div>
 <br>
@@ -2428,7 +2442,7 @@ Encargado de orquestar los ciclos programados (Schedulers) para extraer datos de
 
 **Bounded Context: `Sentiment Analysis`**
 
-![Component Diagram BC4](brandradar-report/assets/architecture/sentiment-components.png)
+![Component Diagram BC4](brandradar-report/assets/domain-driven-design/architecture/components-diagram/sentiment-components.png)
 
 </div>
 <br>
@@ -2441,7 +2455,7 @@ Integra el motor central de evaluación. Recibe eventos de nuevas menciones, int
   
 **Bounded Context: `Alert Management`**
 
-![Component Diagram BC5](brandradar-report/assets/architecture/alert-components.png)
+![Component Diagram BC5](brandradar-report/assets/domain-driven-design/architecture/components-diagram/alert-components.png)
 
 </div>
 <br>
@@ -2453,7 +2467,7 @@ Gestiona el ciclo de vida de las crisis de reputación. Evalúa las menciones ne
   
 **Bounded Context: `Reporting`**
 
-![Component Diagram BC6](brandradar-report/assets/architecture/reporting-components.png)
+![Component Diagram BC6](brandradar-report/assets/domain-driven-design/architecture/components-diagram/reporting-components.png)
 
 </div>
 <br>
@@ -2646,7 +2660,7 @@ Este contexto representa la capa de visualización y síntesis del sistema, cons
 
 <br>
 
-![Database Diagram BC1](brandradar-report/assets/database/db_diagram1.png)
+![Database Diagram BC1](brandradar-report/assets/database-diagrams/db_diagram1.png)
 
 </div>
 
@@ -2667,7 +2681,7 @@ Este contexto representa la capa de visualización y síntesis del sistema, cons
 
 <br>
 
-![Database Diagram BC2](brandradar-report/assets/database/db_diagram2.png)
+![Database Diagram BC2](brandradar-report/assets/database-diagrams/db_diagram2.png)
 
 </div>
 
@@ -2687,7 +2701,7 @@ Este contexto representa la capa de visualización y síntesis del sistema, cons
 
 <br>
 
-![Database Diagram BC3](brandradar-report/assets/database/db_diagram3.png)
+![Database Diagram BC3](brandradar-report/assets/database-diagrams/db_diagram3.png)
 
 </div>
 
@@ -2709,7 +2723,7 @@ Este contexto representa la capa de visualización y síntesis del sistema, cons
 
 <br>
 
-![Database Diagram BC4](brandradar-report/assets/database/db_diagram4.png)
+![Database Diagram BC4](brandradar-report/assets/database-diagrams/db_diagram4.png)
 
 </div>
 
@@ -2731,7 +2745,7 @@ Este contexto representa la capa de visualización y síntesis del sistema, cons
 
 <br>
 
-![Database Diagram BC5](brandradar-report/assets/database/db_diagram5.png)
+![Database Diagram BC5](brandradar-report/assets/database-diagrams/db_diagram5.png)
 
 </div>
 
@@ -2753,7 +2767,7 @@ Este contexto representa la capa de visualización y síntesis del sistema, cons
 
 <br>
 
-![Database Diagram BC6](brandradar-report/assets/database/db_diagram6.png)
+![Database Diagram BC6](brandradar-report/assets/database-diagrams/db_diagram6.png)
 
 </div>
 
@@ -2846,7 +2860,7 @@ En esta sección se describen las herramientas de software seleccionadas para da
 |:---|:---|:---|
 | ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) | Sistema distribuido de control de versiones para la gestión del código fuente. | [git-scm.com](https://git-scm.com) |
 | ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) | Repositorio remoto para almacenar, gestionar y colaborar en el código fuente. Incluye seguimiento de issues y revisión de Pull Requests. | [github.com](https://github.com) |
-| ![GitFlow](https://img.shields.io/badge/GitFlow-F05032?style=for-the-badge&logo=git&logoColor=white) | Modelo de ramificación para mantener el código organizado en ramas (`main`, `develop`, `feature`, `release`, `hotfix`). | [nvie.com](https://nvie.com/posts/a-successful-git-branching-model) |
+| ![GitFlow](https://img.shields.io/badge/GitFlow-F05032?style=for-the-badge&logo=git&logoColor=white) | Modelo de ramificación para mantener el código organizado en ramas (`main`, `develop`, `feature`, `release`). | [nvie.com](https://nvie.com/posts/a-successful-git-branching-model) |
 | ![Conventional Commits](https://img.shields.io/badge/Conventional_Commits-FE5196?style=for-the-badge&logo=conventionalcommits&logoColor=white) | Convención de mensajes de commit para mejorar la trazabilidad y facilitar la generación de changelogs. | [conventionalcommits.org](https://www.conventionalcommits.org) |
 
 <br>
@@ -2879,7 +2893,7 @@ El equipo utilizará Git como sistema de control de versiones y GitHub como plat
 
 El repositorio principal del proyecto se encuentra disponible en el siguiente enlace:
 
-[https://github.com/Los-5-Suyos/BrandRadar-report](https://github.com/Los-5-Suyos/BrandRadar-report)
+[https://github.com/Los-5-Suyos/BrandRadar](https://github.com/Los-5-Suyos/BrandRadar)
 
 <br>
 
@@ -2891,7 +2905,7 @@ El repositorio principal del proyecto se encuentra disponible en el siguiente en
 | :----------------------- | :--------------------------------------------------------------------------------------------------- |
 | Organización Los 5 Suyos | [https://github.com/Los-5-Suyos](https://github.com/Los-5-Suyos)                                     |
 | Landing Page             | [https://github.com/Los-5-Suyos/BrandRadar-Landing-Page](https://github.com/Los-5-Suyos/BrandRadar-Landing-Page)  |
-| Report                   | [https://github.com/Los-5-Suyos/BrandRadar-report](https://github.com/Los-5-Suyos/BrandRadar-report) |
+| Report                   | [https://github.com/Los-5-Suyos/BrandRadar](https://github.com/Los-5-Suyos/BrandRadar) |
 | Web Application          | [https://github.com/Los-5-Suyos/BrandRadar-Frontend-Web-App](https://github.com/Los-5-Suyos/BrandRadar-Frontend-Web-App)  |
 | API / Backend            | [https://github.com/Los-5-Suyos/BrandRadar-Web-Services](https://github.com/Los-5-Suyos/BrandRadar-Web-Services)  |
 
@@ -3186,25 +3200,25 @@ A continuación se muestran las capturas de las vistas desarrolladas
 
 <br>
 
-![Execution Evidence 1](brandradar-report/assets/sprints/sprint1-execution-1.png)
+![Execution Evidence 1](brandradar-report/assets/sprints/sprint-1/sprint1-execution-1.png)
 
-![Execution Evidence 2](brandradar-report/assets/sprints/sprint1-execution-2.png)
+![Execution Evidence 2](brandradar-report/assets/sprints/sprint-1/sprint1-execution-2.png)
 
-![Execution Evidence 3](brandradar-report/assets/sprints/sprint1-execution-3.png)
+![Execution Evidence 3](brandradar-report/assets/sprints/sprint-1/sprint1-execution-3.png)
 
-![Execution Evidence 4](brandradar-report/assets/sprints/sprint1-execution-4.png)
+![Execution Evidence 4](brandradar-report/assets/sprints/sprint-1/sprint1-execution-4.png)
 
-![Execution Evidence 5](brandradar-report/assets/sprints/sprint1-execution-5.png)
+![Execution Evidence 5](brandradar-report/assets/sprints/sprint-1/sprint1-execution-5.png)
 
-![Execution Evidence 6](brandradar-report/assets/sprints/sprint1-execution-6.png)
+![Execution Evidence 6](brandradar-report/assets/sprints/sprint-1/sprint1-execution-6.png)
 
-![Execution Evidence 7](brandradar-report/assets/sprints/sprint1-execution-7.png)
+![Execution Evidence 7](brandradar-report/assets/sprints/sprint-1/sprint1-execution-7.png)
 
 <br>
 
 Asimismo, se elaboró un video demostrativo que muestra la navegación de la Landing Page y explica cada una de las secciones implementadas:
 
-[Ver video de ejecución Sprint 1](`[URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411354_upc_edu_pe/IQBglzF7t1MLS5D9Y52AB6oMAdQK0GqOTwkBViRGT8Agma0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=md7RBa)`)
+[Ver video de ejecución Sprint 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411354_upc_edu_pe/IQBglzF7t1MLS5D9Y52AB6oMAdQK0GqOTwkBViRGT8Agma0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=md7RBa)
 
 <br>
 
@@ -3245,15 +3259,15 @@ El despliegue fue configurado mediante integración continua (CI/CD), permitiend
 
 A continuación, se presentan capturas del proceso de despliegue y del resultado final:
 
-![Evidencias Sprint 1](brandradar-report/assets/sprints/despliegue-1.png)
-![Evidencias Sprint 1](brandradar-report/assets/sprints/despliegue-2.png)
-![Evidencias Sprint 1](brandradar-report/assets/sprints/despliegue-3.png)
-![Evidencias Sprint 1](brandradar-report/assets/sprints/despliegue-4.png)
-![Evidencias Sprint 1](brandradar-report/assets/sprints/despliegue-5.png)
-![Evidencias Sprint 1](brandradar-report/assets/sprints/despliegue-6.png)
-![Evidencias Sprint 1](brandradar-report/assets/sprints/despliegue-7.png)
-![Evidencias Sprint 1](brandradar-report/assets/sprints/despliegue-8.png)
-![Evidencias Sprint 1](brandradar-report/assets/sprints/despliegue-9.png)
+![Evidencias Sprint 1](brandradar-report/assets/sprints/sprint-1/despliegue-1.png)
+![Evidencias Sprint 1](brandradar-report/assets/sprints/sprint-1/despliegue-2.png)
+![Evidencias Sprint 1](brandradar-report/assets/sprints/sprint-1/despliegue-3.png)
+![Evidencias Sprint 1](brandradar-report/assets/sprints/sprint-1/despliegue-4.png)
+![Evidencias Sprint 1](brandradar-report/assets/sprints/sprint-1/despliegue-5.png)
+![Evidencias Sprint 1](brandradar-report/assets/sprints/sprint-1/despliegue-6.png)
+![Evidencias Sprint 1](brandradar-report/assets/sprints/sprint-1/despliegue-7.png)
+![Evidencias Sprint 1](brandradar-report/assets/sprints/sprint-1/despliegue-8.png)
+![Evidencias Sprint 1](brandradar-report/assets/sprints/sprint-1/despliegue-9.png)
 
 <br>
 
@@ -3271,9 +3285,9 @@ Roles: La matriz de trabajo permitió que cada componente tuviera un líder resp
 
 Gráfico de red de ramas en el repositorio de GitHub evidenciando la integración de las 5 ramas de características en la rama develop.
 
-![Team Collaboration Sprint 1](brandradar-report/assets/sprints/sprint1-collaboration.png)
+![Team Collaboration Sprint 1](brandradar-report/assets/sprints/sprint-1/sprint1-collaboration.png)
 
-![Team Collaboration Sprint 1](brandradar-report/assets/sprints/sprint1-over-time.png)
+![Team Collaboration Overtime Sprint 1](brandradar-report/assets/sprints/sprint-1/sprint1-over-time.png)
 
 <br>
 
