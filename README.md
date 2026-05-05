@@ -1716,7 +1716,7 @@ BrandRadar es una solución desarrollada para responder a la necesidad de rastre
 <br>
 
 
-**Branding Overview**
+### Branding Overview
 
 El nombre BrandRadar combina dos conceptos centrales: *"Brand"*, que representa la identidad y reputación de una empresa en el mercado, y *"Radar"*, que evoca monitoreo continuo, detección temprana y precisión analítica. Este nombre fue elegido por su claridad conceptual, fácil recordación y por reflejar con exactitud la misión del producto: rastrear, detectar y gestionar la reputación digital de una marca en tiempo real.
 
@@ -1843,7 +1843,7 @@ Los tonos oscuros (negro y azul pizarra) aportan seriedad y profundidad, adecuad
 | Accent Blue | `#4B6EF5` | Estados hover de botones, énfasis secundario |
 | Accent Violet | `#9B3CF7` | Highlights, badges, métricas destacadas |
 
-<br><br>
+<br>
 
 Adicionalmente, se definen colores de estado semántico para alertas, notificaciones y feedback del sistema:
 
@@ -1938,13 +1938,15 @@ La arquitectura de información de **BrandRadar** ha sido diseñada para estruct
 
 A continuación, se presentan los diagramas de estructura que representan la organización general de la plataforma, tanto en su versión web como móvil.
 
-**Figura 1. Diagrama de estructura de la página web**
+<br>
+
+**Figura 1. Diagrama de estructura Web Desktop**
 
 <img src="brandradar-report/assets/information-architecture/diagram-1.png" alt="BrandRadar Web Map" width="800"/>
 
 <br>
 
-**Figura 2. Diagrama de la estructura de la aplicación móvil (Android y iOS)**
+**Figura 2. Diagrama de la estructura Web Mobile**
 
 <img src="brandradar-report/assets/information-architecture/diagram-2.png" alt="BrandRadar Mobile Map" width="800"/>
 
@@ -2017,7 +2019,6 @@ A continuación, se presentan los diagramas de estructura que representan la org
 El objetivo del sistema de etiquetado de BrandRadar es representar conjuntos de información complejos (reputación, sentimiento, alertas, métricas) con el menor número de palabras posible, evitando la ambigüedad. Todas las etiquetas son concretas, orientadas a la acción y coherentes entre la versión web y móvil.
 
 <br>
-
 <div align="center">
 <img src="brandradar-report/assets/ux-design/icons.png" alt="Iconos de navegacion" width="600"/>
 
@@ -2140,14 +2141,22 @@ En BrandRadar, los sistemas de búsqueda han sido diseñados para reducir el tie
 | **Filtro por tipo de mención** | Diferencia entre reseñas, comentarios, noticias y menciones directas en redes. | Web |
 | **Buscador de competidores** | Busca palabras clave asociadas a la competencia para análisis de benchmarking. | Web |
 
+<br>
+
 **Cómo lucen los resultados después de la búsqueda**
+
+<br>
 
 Los resultados se presentan como **tarjetas informativas** ordenadas cronológicamente (más reciente primero):
 
 - El **badge de sentimiento** (verde/rojo/gris) permite identificar el tono de un vistazo.
+
 - El **badge de criticidad** (Crítico / Moderado / Informativo) indica la urgencia de acción.
+
 - Los **botones de acción directa** permiten gestionar la mención sin salir de la vista de resultados.
+
 - Al aplicar filtros, aparece una barra de **filtros activos** en la parte superior, donde cada filtro puede eliminarse individualmente con una "X".
+
 - Si la búsqueda no devuelve resultados, se muestra un mensaje con sugerencias: "No encontramos menciones con estos filtros. Prueba ampliar el rango de fechas o eliminar un filtro."
 
 <br>
@@ -2160,53 +2169,64 @@ Los sistemas de navegación de BrandRadar han sido diseñados para guiar al usua
 <br>
 <div align="center">
   
-**Landing Page**
+## Landing Page
 
 </div>
-<br>
-
 La navegación se basa en una **barra superior fija** (sticky header) con las siguientes secciones:
 
+<div align="center"> 
 <br>
-<div align="center">
-  
-| Etiqueta | Destino |
-|---|---|
-| Inicio | Hero section con propuesta de valor |
-| Características | Bloque de funcionalidades principales |
-| Planes | Tabla de precios y comparativa de suscripciones |
-| Testimonios | Casos de éxito de clientes |
-| Comunidad | Foro y recursos de la comunidad BrandRadar |
-| Iniciar sesión | Redirección al login de la aplicación |
+
+<img src="brandradar-report/assets/ux-design/landing-navigation.png" alt="Navegacion Movil" width="900"/>
+
+<br><br>
+
+| Etiqueta        | Destino                                  |
+| --------------- | ---------------------------------------- |
+| Inicio (logo)   | Hero section con propuesta de valor      |
+| Características | Bloque de funcionalidades principales    |
+| Beneficios      | Sección de ventajas y valor diferencial  |
+| Precios         | Tabla de planes y comparativa            |
+| Contacto        | Formulario o sección de contacto         |
+| Empezar ahora   | Redirección al registro de la aplicación |
 
 <br>
 </div>
 
-Se incorporan **CTAs visibles** a lo largo del scroll:
-- _"Empieza tu monitoreo gratis"_ — activa el flujo de registro.
-- _"Agenda una demo"_ — abre un modal con formulario de contacto.
-- _"Ver planes"_ — ancla a la sección de precios.
+Se incorporan CTAs visibles en la interfaz:
 
-El **pie de página** complementa la navegación secundaria con acceso a: Política de Privacidad, Términos de Servicio, Documentación de la API, Centro de Ayuda y redes sociales oficiales.
+Se incorpora un CTA principal visible en la barra:
+
+- **"Empezar ahora"** — inicia el flujo de registro.
+
+- **"Ver precios"** — ancla a la sección de precios.
+
+- **"Contactar"** — acceso directo al formulario.
+
+El pie de página es minimalista y contiene únicamente el texto:
+**"BrandRadar © 2026"**, cumpliendo una función informativa básica sin incluir navegación secundaria.
 
 <br>
 <div align="center">
   
-**Aplicación Web — Dashboard**
+## Web Application Desktop
 
 </div>
 <br>
 
-Se implementa un patrón de navegación híbrido:
+Se implementa un patrón de navegación híbrido en tres niveles que se adapta tanto a la profundidad de la información como al dispositivo del usuario.
 
-- **Sidebar lateral izquierdo** (fijo en desktop, colapsable en tablet): acceso permanente a las secciones principales.
-- **Pestañas superiores** dentro de secciones complejas (ej. Monitoreo > pestaña Instagram / Google Maps / Web).
-- **Breadcrumbs** en rutas profundas para indicar al usuario en qué nivel de la jerarquía se encuentra (ej. _Clientes > Marca XYZ > Alertas_).
+
+- El **sidebar lateral izquierdo** es el punto de entrada permanente a las secciones principales de la plataforma. En desktop se muestra expandido con íconos, etiquetas y badges de notificación. En tablet se colapsa automáticamente a una barra de íconos de 52px de ancho, liberando espacio para el contenido sin eliminar el acceso a la navegación. El usuario puede expandirlo o colapsarlo manualmente mediante el botón ‹ ubicado en el borde derecho del sidebar.
+
+- Las **pestañas superiores** se utilizan dentro de secciones que agrupan múltiples fuentes o vistas del mismo contexto. Por ejemplo, en la sección Monitoreo, las pestañas permiten alternar entre los canales General, Instagram, Google Maps, Web y Twitter/X sin abandonar la sección ni perder el estado de los filtros activos. Las pestañas con alertas pendientes muestran un badge de color según la severidad: rojo para alertas críticas y amarillo para advertencias.
+
+- Los **breadcrumbs** aparecen en rutas de cuatro o más niveles de profundidad, ubicados entre la topbar y las pestañas. Indican al usuario su posición exacta dentro de la jerarquía de la plataforma (ej. Inicio › Clientes › Marca XYZ › Monitoreo) y funcionan como links activos para regresar a cualquier nivel anterior sin necesidad de usar el botón atrás del navegador.
 
 <br>
 <div align="center">
   
-**Aplicación Móvil**
+## Web Application Mobile
 
 </div>
 
@@ -2217,12 +2237,13 @@ La navegación móvil utiliza una **barra inferior de navegación** (bottom tab 
   
 **Dueño de PyME (barra inferior)**
 
-<img src="brandradar-report/assets/ux-design/navigation-1.png" alt="Navegacion Movil" width="600"/>
+<img src="brandradar-report/assets/ux-design/navigation-1.png" alt="Navegacion Movil" width="500"/>
 
 **Especialista de Marketing (barra inferior)**
 
-<img src="brandradar-report/assets/ux-design/navigation-2.png" alt="Navegacion Movil" width="600"/>
+<img src="brandradar-report/assets/ux-design/navigation-2.png" alt="Navegacion Movil" width="500"/>
 </div>
+<br>
 
 Las notificaciones push dirigen al usuario directamente a la mención o alerta específica, sin necesidad de navegar manualmente por la app. Los flujos de acción rápida (responder reseña, escalar alerta) se resuelven en modales de pantalla completa que no interrumpen la ruta de navegación principal.
 
@@ -2381,7 +2402,7 @@ A continuación, se presentan los prototipos para Desktop y Mobile Web, junto co
 
 <div align="center">
 
-**Prototipo Desktop**
+**Desktop Prototyping**
 
 ![Screenshot Prototipo Desktop](brandradar-report/assets/prototypes/prototype-desktop-screenshot.png)
 
@@ -2389,7 +2410,7 @@ A continuación, se presentan los prototipos para Desktop y Mobile Web, junto co
 
 <br>
 
-**Prototipo Mobile**
+**Mobile Prototyping**
 
 ![Screenshot Prototipo Mobile](brandradar-report/assets/prototypes/prototype-mobile-screenshot.png)
 
@@ -3080,23 +3101,23 @@ Se definen dos ramas principales:
 
 <br>
 
-**Convención de Commits**
+## Convención de Commits
 
 Para mantener consistencia y trazabilidad, los mensajes de commit seguirán la convención Conventional Commits.
 
-Formato general:
+**Formato general:**
 
-*tipo(alcance opcional): descripción breve*
+>*tipo(alcance opcional): descripción breve*
 
-Tipos de commit definidos:
+**Tipos de commit definidos:**
 
-- feat: nueva funcionalidad
-- fix: corrección de errores
-- docs: cambios en documentación
-- style: ajustes de formato
-- refactor: cambios sin alterar funcionalidad
-- test: pruebas
-- chore: tareas de mantenimiento
+- **feat:** nueva funcionalidad
+- **fix:** corrección de errores
+- **docs:** cambios en documentación
+- **style:** ajustes de formato
+- **refactor:** cambios sin alterar funcionalidad
+- **test:** pruebas
+- **chore:** tareas de mantenimiento
 
 <br>
 
@@ -3218,14 +3239,25 @@ And condiciones adicionales
 
 ### 5.1.4. Software Deployment Configuration
 
-Landing Page:
+<br>
+
+## Landing Page:
+
 Para desplegar la landing page de BrandRadar, utilizamos GitHub como repositorio y Netlify como plataforma de hosting. El despliegue se configura conectando el repositorio de GitHub a Netlify, permitiendo implementación continua automática cada vez que se realiza un push a la rama principal. El directorio de publicación corresponde a la carpeta que contiene el archivo index.html.
 
-Frontend Web Application:
+<br>
+
+## Frontend Web Application:
+
 El frontend de la aplicación web se despliega utilizando GitHub + Netlify. Se configura el build automático (npm run build) y se define el directorio de salida. Esto permite que las actualizaciones del dashboard, sistema de alertas y visualización de menciones se publiquen de forma rápida y automática.
 
-Web Services (RESTful API):
+<br>
+
+## Web Services (RESTful API):
+
 Los servicios backend (RESTful API) se despliegan en Render o Railway. Se vincula el repositorio de GitHub, se configuran las variables de entorno necesarias para las integraciones con APIs externas y se activa el despliegue automático. De esta forma, el backend que procesa el análisis de sentimiento y genera alertas funciona de manera independiente del frontend.
+
+<br>
 
 ---
 
@@ -3273,6 +3305,8 @@ Como resultado del Sprint Planning, el equipo estableció un conjunto claro de t
 
 Ahora presentaremos nuestro LACX (Leadership-and-Collaboration Matrix) que nos ayudará a saber quién lidera y quién colabora en cada aspecto de este primer sprint. En base a la coordinación del equipo, se asignaron los siguientes liderazgos para los componentes de la Landing Page:
 
+<br>
+
 | Team Member (Last Name, First Name) | GitHub Username | `[Header + Hero]` | `[Características]` | `[Beneficios + Métricas]` | `[DashBoard + Testimonios]` | `[Precios + CTA + Footer]` |
 |:-----------------------------------:|:---------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
 | Salinas, Brianna | brianna-salinas | L | C | C | C | C |
@@ -3280,6 +3314,8 @@ Ahora presentaremos nuestro LACX (Leadership-and-Collaboration Matrix) que nos a
 | Jáuregui, Jean | JFranco556 | C | C | L | C | C |
 | Acuña, Luis | L2006delacruz | C | C | C | L | C |
 | Cruzalegui, Joaquin | JoaquinCruzalegui | C | C | C | C | L |
+
+<br>
 
 > **L** = Leader &nbsp;|&nbsp; **C** = Collaborator
 
@@ -3294,6 +3330,8 @@ El objetivo principal del Sprint 1 es diseñar, implementar y desplegar la Landi
 Este sprint se enfoca en construir una primera versión funcional orientada al usuario final, priorizando la experiencia visual, la estructura responsive y la claridad del mensaje del producto. Asimismo, el despliegue permitirá validar la aceptación inicial del producto y establecer una base sólida para futuras iteraciones.
 
 A continuación, se detallan las User Stories seleccionadas y las tareas asociadas:
+
+<br>
 
 | Sprint #     |                           |        |                      |                                                                |                    |                |
 | :----------- | :------------------------ | :----- | :------------------- | :------------------------------------------------------------- | :----------------- | :------------- |
@@ -3317,6 +3355,8 @@ Se adoptó el flujo GitFlow, organizando el desarrollo en ramas de característi
 
 El desarrollo se realizó en el repositorio público https://github.com/Los-5-Suyos/BrandRadar-Landing-Page, utilizando un flujo de ramas basado en feature branches.
 
+<br>
+
 | Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on (Date) |
 |:----------:|:------:|:---------:|:--------------:|:-------------------:|:-------------------:|
 | Los-5-Suyos/BrandRadar-Landing-Page | main | b148470 | `initial commit | Configuración inicial del repositorio y README base | 2026-04-13 |
@@ -3337,13 +3377,15 @@ El desarrollo se realizó en el repositorio público https://github.com/Los-5-Su
 
 Durante el Sprint 1 se completó la Landing Page de BrandRadar, cumpliendo con los objetivos de diseño responsivo y captación de interés. El producto permite una navegación fluida y cuenta con interactividad avanzada gracias a la implementación de scripts de scroll y observadores de intersección.
 
-- El desarrollo se validó mediante:
+El desarrollo se validó mediante:
 
 - Interactividad: Menú hamburguesa funcional para móviles y efectos de sombra dinámicos en el header.
 
 - Secciones integradas: Hero (Brianna), Características (Victor), Beneficios (Jean Franco), Dashboard/Testimonios (Luis) y Precios/Footer (Joaquin).
 
 - Rendimiento: Uso de técnicas de carga diferida visual para la aparición de elementos de la interfaz.
+
+<br>
 
 A continuación se muestran las capturas de las vistas desarrolladas 
 
@@ -3389,7 +3431,9 @@ Durante el Sprint 1 se realizó el despliegue de la Landing Page del proyecto Br
 
 El despliegue fue configurado mediante integración continua (CI/CD), permitiendo que la aplicación se publique automáticamente cada vez que se realizan cambios en la rama principal (main) del repositorio.
 
- **Proceso seguido**
+<br>
+
+ **Deployment Process**
   1. Ingresar a la plataforma Netlify utilizando la opción “Log in with GitHub”.
   2. Autorizar el acceso de Netlify a los repositorios del equipo.
   3. Seleccionar la opción “Add new site” → “Import an existing project”.
@@ -3400,9 +3444,11 @@ El despliegue fue configurado mediante integración continua (CI/CD), permitiend
   8. Esperar la confirmación de despliegue exitoso.
   9. Acceder a la URL pública generada por Netlify.
 
-<br>
 
-[https://brandradar-landing-page.netlify.app/](https://brandradar-landing-page.netlify.app/)
+
+**URL pública:** [https://brandradar-landing-page.netlify.app/](https://brandradar-landing-page.netlify.app/)
+
+<br>
 
 **Evidencias**
 
@@ -3426,13 +3472,17 @@ A continuación, se presentan capturas del proceso de despliegue y del resultado
 
 El equipo utilizó la estrategia GitFlow para gestionar el desarrollo paralelo. Cada integrante trabajó en su propia rama de característica (feature/brianna, feature/victor, etc.), las cuales fueron fusionadas en la rama develop tras pasar una revisión de código básica.
 
-Métricas de colaboración:
+<br>
 
-Commits: Se registró una actividad constante de los 5 miembros, con picos de integración los días previos a la entrega.
+## Métricas de colaboración:
 
-Roles: La matriz de trabajo permitió que cada componente tuviera un líder responsable, evitando la duplicidad de trabajo.
+- Commits: Se registró una actividad constante de los 5 miembros, con picos de integración los días previos a la entrega.
 
-Gráfico de red de ramas en el repositorio de GitHub evidenciando la integración de las 5 ramas de características en la rama develop.
+- Roles: La matriz de trabajo permitió que cada componente tuviera un líder responsable, evitando la duplicidad de trabajo.
+
+- Gráfico de red de ramas en el repositorio de GitHub evidenciando la integración de las 5 ramas de características en la rama develop.
+
+<br>
 
 ![Team Collaboration Sprint 1](brandradar-report/assets/sprints/sprint-1/sprint1-collaboration.png)
 
@@ -3446,6 +3496,24 @@ Gráfico de red de ramas en el repositorio de GitHub evidenciando la integració
 
 #### 5.2.2.1. Sprint Planning 2
 
+
+A continuación se presenta el sprint planning para esta segunda entrega, donde definimos el trabajo a realizar, las metas y el enfoque del equipo para el desarrollo del frontend web de BrandRadar.
+
+<br>
+
+| Campo | Detalle |
+|:------|:--------|
+| **Sprint #** | Sprint 2 |
+| **Date** | 2026-05-05 |
+| **Time** | 9:00 PM |
+| **Location** | Llamada por la plataforma de Discord |
+| **Prepared By** | Salinas Guzmán, Brianna Cristina |
+| **Attendees** | Salinas, Brianna / Cruzalegui, Joaquin / Jáuregui, Jean / García, Victor / Acuña, Luis |
+| **Sprint 1 Review Summary** | Durante el Sprint 1 se desarrolló y desplegó la Landing Page de BrandRadar, completando todas sus secciones principales (Home, Features, About, Contact) con diseño responsive y publicación continua mediante Netlify. Como feedback se identificó la necesidad de reforzar el uso del flujo GitFlow para evitar conflictos durante la integración. |
+| **Sprint 1 Retrospective Summary** | El equipo mostró compromiso durante el sprint, sin embargo se evidenciaron oportunidades de mejora en la coordinación de ramas y en la comunicación sobre el avance individual de cada tarea. Se acordó mantener reuniones de seguimiento más frecuentes y respetar estrictamente el flujo GitFlow para el siguiente sprint. |
+| **Sprint 2 Velocity** | - |
+| **Sum of Story Points** | - |
+
 <br>
 
 ---
@@ -3456,7 +3524,8 @@ Gráfico de red de ramas en el repositorio de GitHub evidenciando la integració
 
 ---
 
-#### 5.2.2.3. Sprint Backlog 1
+#### 5.2.2.3. Sprint Backlog 2
+
 
 <br>
 
