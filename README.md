@@ -1607,7 +1607,7 @@ En conjunto, la identificación de eventos, actores y flujos permitió construir
 >*El Impact Mapping de BrandRadar vincula el objetivo central del producto —lograr la conversión y fidelización mediante el monitoreo de reputación e infraestructura— con las necesidades de Alfredo Negrete y Romina Apaza.*
 <br>
 
-<img src="brandradar-report/assets/impact-mapping/impact-mapping.png" alt="Brand Radar Impact Mapping" style="width: 1000 px">
+<img src="brandradar-report\assets\requirements-specification\impact-mapping\impact-mapping.png" alt="Brand Radar Impact Mapping" style="width: 1000 px">
 
 <br>
 
@@ -1706,9 +1706,15 @@ Estos impactos se materializan en entregables como el motor de IA con entrenamie
 
 ## 4.1. Style Guidelines
 
+>*Los lineamientos de estilo de BrandRadar buscan unificar la identidad visual y la comunicación del producto en todos sus puntos de contacto. Para ello se estableció un repositorio común que contiene tipografías, paleta de colores, íconos e isotipos, asegurando consistencia en cada pantalla de la aplicación y en la landing page.*
+
 ### 4.1.1. General Style Guidelines
 
-### Branding:
+La identidad visual de BrandRadar ha sido diseñada para transmitir precisión, tecnología y confianza analítica, cualidades esenciales en una herramienta digital orientada al monitoreo y gestión de la reputación de marca en tiempo real. El estilo visual se inspira en principios de claridad, sofisticación y consistencia, permitiendo que tanto equipos de marketing como analistas de datos y gestores de marca puedan interactuar con la plataforma de manera intuitiva en su versión web y móvil.
+BrandRadar es una solución desarrollada para responder a la necesidad de rastrear, detectar y gestionar la reputación digital de una organización mediante el uso de tecnología analítica avanzada, asegurando una experiencia centrada en el usuario y adaptable a distintos perfiles y roles. La plataforma integra procesos de monitoreo de menciones, análisis de sentimiento, generación de reportes y alertas en tiempo real, con un enfoque accesible, preciso y profesional.
+
+<br>
+
 
 **Branding Overview**
 
@@ -1751,7 +1757,7 @@ No se permite el uso de sombras paralelas (drop shadows) excesivas en el logotip
 
 <br>
 <div align="center">
-<img src="brandradar-report/assets/ux-design/logo-no.png" alt="Logo No Permitido" width="400"/>
+<img src="brandradar-report/assets/ux-design/logo-no.png" alt="Logo No Permitido" width="200"/>
 </div>
 <br>
 
@@ -1770,6 +1776,10 @@ La estrategia tipográfica de BrandRadar combina cinco familias de fuentes con r
 - **Radio Canada Big** es la fuente de interfaz y cuerpo de texto. Diseñada para alta legibilidad en pantallas, se usa en todo el contenido navegable: descripciones, párrafos, etiquetas de navegación, botones y formularios.
 
 - **TASA Orbiter** se emplea de forma selectiva en elementos de datos, métricas y componentes técnicos, aportando un carácter tecnológico y preciso que refuerza la naturaleza analítica del producto.
+
+<br>
+
+<img src="brandradar-report/assets/ux-design/typography.png" alt="Typography and colors" width="600"/>
 
 <br>
 
@@ -1806,11 +1816,6 @@ Jerarquía tipográfica
 
 <br>
 
-<div align="center">
-<img src="brandradar-report/assets/ux-design/type.png" alt="Typography and colors" width="400"/>
-</div>
-<br>
-
 ### Colors
 
 La paleta de BrandRadar está diseñada para transmitir confianza, tecnología y enfoque analítico, manteniendo un balance entre tonos oscuros profundos, fondos limpios y acentos vibrantes que dirigen la atención del usuario hacia las acciones y datos más relevantes.
@@ -1819,9 +1824,9 @@ Los tonos oscuros (negro y azul pizarra) aportan seriedad y profundidad, adecuad
 
 <br>
 <div align="center">
-<img src="brandradar-report/assets/ux-design/colors.png" alt="Paleta de colores de BrandRadar" width="700"/>
+<img src="brandradar-report/assets/ux-design/colors-brand.png" alt="Paleta de colores de BrandRadar" width="700"/>
 </div>
-<br>
+<br><br>
 
 | Nombre | Hex | Uso |
 |:---|:---:|:---|
@@ -1838,7 +1843,7 @@ Los tonos oscuros (negro y azul pizarra) aportan seriedad y profundidad, adecuad
 | Accent Blue | `#4B6EF5` | Estados hover de botones, énfasis secundario |
 | Accent Violet | `#9B3CF7` | Highlights, badges, métricas destacadas |
 
-<br>
+<br><br>
 
 Adicionalmente, se definen colores de estado semántico para alertas, notificaciones y feedback del sistema:
 
@@ -1849,6 +1854,80 @@ Adicionalmente, se definen colores de estado semántico para alertas, notificaci
 | Danger (crítico) | `#EF4444` | Alertas críticas, errores, sentimiento negativo |
 | Info (informativo) | `#3B82F6` | Mensajes informativos, tooltips |
 
+<br><br>
+
+### 4.1.2. Web Style Guidelines
+
+En esta sección se describen las decisiones relacionadas con los estándares visuales y de interacción aplicados a las interfaces web de BrandRadar, enfocadas en la construcción de un sistema de diseño consistente, moderno y escalable.
+
+El sistema de componentes ha sido diseñado bajo un enfoque minimalista sobre fondo claro, priorizando la legibilidad, la jerarquía visual y la claridad en las interacciones. Asimismo, se emplea una paleta basada en tonos neutros (blancos y grises) combinados con acentos en gradientes azul-violeta, los cuales permiten resaltar elementos clave sin sobrecargar la interfaz.
+
+Las decisiones adoptadas buscan garantizar una experiencia de usuario intuitiva, accesible y coherente en todos los módulos del sistema, especialmente en contextos de análisis de datos y monitoreo de reputación digital en tiempo real.
+
+<br>
+
+### Buttons
+
+Para las acciones principales dentro de la plataforma (como iniciar monitoreo, analizar métricas o acceder a reportes), se han definido distintos tipos de botones que responden a diferentes niveles de jerarquía e interacción.
+
+El botón Primary utiliza un gradiente en tonos azul-violeta, destacándose visualmente como la acción principal en cada vista. Este presenta diferentes estados (default, hover, active y disabled), los cuales proporcionan retroalimentación inmediata al usuario.
+
+Por otro lado, el botón Secondary (outline) emplea bordes con color de acento y fondo transparente, siendo utilizado para acciones complementarias. También se incluyen variantes como Ghost buttons, utilizados en contextos de baja prioridad visual, e Icon buttons, orientados a acciones rápidas mediante iconografía.
+
+Finalmente, se contemplan diferentes tamaños (large, medium, small), permitiendo su adaptación a múltiples contextos dentro de la interfaz.
+
+<br>
+<img src="brandradar-report/assets/ux-design/buttons.png" alt="Buttons Design" width="600"/>
+<br><br>
+<img src="brandradar-report/assets/ux-design/buttons-dark.png" alt="Buttons Design" width="1000"/>
+<br>
+
+### Cards
+
+Las tarjetas (cards) constituyen uno de los componentes principales para la organización y visualización de información dentro de BrandRadar. Estas permiten agrupar datos relevantes de manera clara y estructurada, facilitando la comprensión de métricas y resultados por parte del usuario.
+
+Se han definido múltiples variantes de cards:
+
+- **Default:** utilizada para mostrar información general con un diseño limpio y sombras suaves.
+
+- **Hover:** incorpora elevación y sombreado para indicar interactividad.
+
+- **Outline:** presenta bordes definidos para un estilo más ligero.
+
+- **Soft:** utiliza fondos sutilmente coloreados para destacar contenido sin generar alto contraste.
+
+Asimismo, se incluyen cards de métricas, las cuales resaltan indicadores clave (porcentajes, comparativas, rendimiento, etc.) mediante el uso de tipografía destacada y colores de acento. Estas son fundamentales en dashboards y vistas analíticas.
+
+<br>
+<img src="brandradar-report/assets/ux-design/cards.png" alt="Cards Design" width="600"/>
+<br><br>
+<img src="brandradar-report/assets/ux-design/cards-dark.png" alt="Cards Design" width="800"/>
+<br>
+
+### Forms
+
+La recolección de datos en BrandRadar se realiza mediante un conjunto de componentes de formulario diseñados para ser claros, accesibles y consistentes.
+
+Los elementos principales incluyen:
+
+- **Inputs (default, focus, error):** campos de entrada con distintos estados visuales que indican interacción y validación.
+
+- **Inputs con label:** permiten contextualizar la información solicitada.
+
+- **Selects:** utilizados para la selección de opciones predefinidas.
+
+- **Textarea:** destinado a entradas de texto más extensas.
+
+- **Checkbox y Radio buttons:** empleados para selecciones múltiples o únicas.
+
+- **Toggle switch:** utilizado para activar o desactivar configuraciones de manera rápida.
+
+Se incorporan estados de validación, como el estado de error (con borde rojo y mensaje descriptivo), que facilitan la identificación de problemas en la entrada de datos. Además, los estados de foco incluyen resaltados en color de acento, mejorando la experiencia de interacción.
+
+<br>
+<img src="brandradar-report/assets/ux-design/forms.png" alt="Cards Design" width="600"/>
+<br><br>
+<img src="brandradar-report/assets/ux-design/forms-dark.png" alt="Cards Design" width="800"/>
 <br>
 
 ---
