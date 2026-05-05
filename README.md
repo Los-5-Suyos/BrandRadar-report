@@ -1614,6 +1614,7 @@ En conjunto, la identificación de eventos, actores y flujos permitió construir
 | TS10 | Endpoint de generación de reporte | Como Developer, quiero implementar el endpoint POST /api/v1/brands/{id}/reports para que la aplicación pueda solicitar la generación de un reporte de reputación para un período específico. | **Escenario 1 – Reporte generado (201):** Given que el Developer envía una solicitud POST autenticada con un rango de fechas válido y datos disponibles, When el servidor procesa la solicitud, Then retorna un status 201 Created con el id del reporte generado y un enlace de descarga. **Escenario 2 – Sin datos en el período (404):** Given que el Developer especifica un rango de fechas sin menciones registradas para la marca, When el servidor ejecuta la generación, Then retorna un status 404 Not Found con el mensaje "No hay datos disponibles para el período indicado." **Escenario 3 – Solicitud inválida (400):** Given que el Developer envía la solicitud con parámetros de fecha faltantes o con formato incorrecto, When el servidor valida la entrada, Then retorna un status 400 Bad Request con la descripción del error de validación de parámetros. | EP13 |
 | TS11 | Endpoint de exportación de reporte | Como Developer, quiero implementar el endpoint GET /api/v1/reports/{id}/export?format={pdf\|csv} para que la aplicación pueda exportar un reporte en el formato solicitado. | **Escenario 1 – Exportación exitosa (200):** Given que el Developer envía una solicitud GET con el id de un reporte existente y el parámetro format con valor "pdf" o "csv", When el servidor genera el archivo, Then retorna un status 200 OK con el archivo adjunto en el Content-Type correspondiente (application/pdf o text/csv). **Escenario 2 – Formato no soportado (400):** Given que el Developer envía un valor de format distinto a "pdf" o "csv", When el servidor valida el parámetro, Then retorna un status 400 Bad Request con el mensaje "Formato de exportación no soportado. Usa pdf o csv." **Escenario 3 – Reporte no encontrado (404):** Given que el Developer envía el id de un reporte que no existe o no pertenece al usuario autenticado, When el servidor busca el reporte, Then retorna un status 404 Not Found con el mensaje "Reporte no encontrado." | EP13 |
 
+<br>
 
 ---
 
@@ -3348,17 +3349,19 @@ A continuación, se detallan las User Stories seleccionadas y las tareas asociad
 
 <br>
 
-| Sprint #     |                           |        |                      |                                                                |                    |                |
-| :----------- | :------------------------ | :----- | :------------------- | :------------------------------------------------------------- | :----------------- | :------------- |
-| **Sprint 1** | **User Story**            |        | **Work-Item / Task** |                                                                |                    |                |
-| **ID**       | **Título**                | **ID** | **Título**           | **Descripción**                                                | **Estimación (h)** | **Asignado a** |
-| US20         | Interfaz Responsiva       | T01    | Header & Hero UI     | Implementar sección de navegación y primer impacto visual      | 6                  | Brianna         |
-| US20         | Interfaz Responsiva       | T02    | Features Section     | Desarrollo de la sección de características clave del servicio | 5                  | Victor         |
-| US03         | Live Feed Monitor         | T03    | Benefits & Metrics   | Maquetación de beneficios y visualización de datos de marca    | 7                  | Jean           |
-| US07         | Word Cloud de Sentimiento | T04    | Social Proof UI      | Implementar sección de dashboard y reseñas de usuarios         | 6                  | Luis           |
-| US17         | Onboarding interactivo    | T05    | Conversion & Footer  | Implementar tablas de precios, CTA y pie de página corporativo | 5                  | Joaquin        |
-
+| Sprint #     |                                                  |        |                      |                                                                                                   |                    |                |
+| :----------- | :----------------------------------------------- | :----- | :------------------- | :------------------------------------------------------------------------------------------------ | :----------------- | :------------- |
+| **Sprint 1** | **User Story**                                   |        | **Work-Item / Task** |                                                                                                   |                    |                |
+| **ID**       | **Título**                                       | **ID** | **Título**           | **Descripción**                                                                                   | **Estimación (h)** | **Asignado a** |
+| US22         | Ver propuesta de valor en la landing page        | T01    | Header & Hero UI     | Implementar sección de navegación y hero con propuesta de valor, descripción del producto y CTA principal visible sin scroll | 6 | Brianna |
+| US23         | Ver sección de funcionalidades para PyMEs        | T02    | Features Section     | Desarrollo de la sección de funcionalidades clave (monitoreo, alertas, reportes) con iconos dirigida al segmento PyME y scroll suave desde el menú | 5 | Victor |
+| US24         | Ver sección para agencias en la landing page     | T03    | Agency Section       | Maquetación de la sección orientada a Agency Managers con beneficios multi-marca y CTA con tipo de cuenta preseleccionado | 7 | Jean |
+| US25         | Ver planes y precios en la landing page          | T04    | Pricing Section      | Implementar tabla de planes con plan recomendado destacado visualmente y CTA por plan que redirige al registro con plan preseleccionado | 6 | Luis |
+| US26         | Enviar mensaje de contacto desde la landing page | T05    | Contact & Footer     | Implementar formulario de contacto con validación de campos, mensaje de confirmación y pie de página corporativo | 5 | Joaquin |
+ 
 <br>
+ 
+
 
 ---
 
@@ -3541,7 +3544,45 @@ A continuación se presenta el sprint planning para esta segunda entrega, donde 
 
 #### 5.2.2.3. Sprint Backlog 2
 
+El objetivo principal del Sprint 2 es diseñar e implementar la primera versión funcional de la aplicación web de BrandRadar utilizando Angula como framework y TypeScript como lenguaje de programación, cubriendo los flujos principales de gestión de cuentas, configuración de marcas, monitoreo de menciones, análisis de sentimiento, gestión de alertas y reportes.
+ 
+Este sprint se enfoca en construir las vistas y componentes del frontend conectados a datos simulados (mocks), priorizando la usabilidad, la navegación entre módulos y la correcta implementación de los criterios de aceptación definidos para cada User Story. El resultado permitirá validar la experiencia de usuario antes de integrar el backend en el Sprint 3.
+ 
+A continuación, se detallan las User Stories seleccionadas y las tareas asociadas:
 
+<br>
+
+**Tech Lead: Brianna Cristina Salinas Guzmán**
+
+<br>
+
+| Sprint #     |                                          |        |                                        |                                                                                                                              |                    |                |
+| :----------- | :--------------------------------------- | :----- | :------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------- | :----------------- | :------------- |
+| **Sprint 2** | **User Story**                           |        | **Work-Item / Task**                   |                                                                                                                              |                    |                |
+| **ID**       | **Título**                               | **ID** | **Título**                             | **Descripción**                                                                                                              | **Estimación (h)** | **Asignado a** |
+| US01         | Registrar cuenta                         | T06    | Setup proyecto Angular                 | Inicializar proyecto Angular + TypeScript, estructura de carpetas, routing base y librería de componentes                    | 4                  | Tech Lead      |
+| US01         | Registrar cuenta                         | T07    | Formulario de registro                 | Implementar vista y componente de registro con validaciones de campos, contraseña segura y mensaje de confirmación           | 6                  | Brianna        |
+| US02         | Verificar correo electrónico             | T08    | Vista de verificación de cuenta        | Implementar pantalla de verificación de token con mensajes de éxito, token expirado e inválido                               | 4                  | Brianna        |
+| US03         | Iniciar sesión                           | T09    | Formulario de login                    | Implementar vista de login con validaciones, manejo de credenciales incorrectas y redirección al dashboard                   | 5                  | Victor         |
+| US04         | Cerrar sesión                            | T10    | Logout y manejo de sesión              | Implementar cierre de sesión, invalidación del token local y redirección al login desde cualquier ruta protegida             | 3                  | Victor         |
+| US05         | Crear perfil de marca (PyME)             | T11    | Formulario de creación de marca        | Implementar vista y componente de creación de marca con campos de nombre, descripción y palabras clave mínimas               | 6                  | Jean           |
+| US06         | Agregar marca de cliente (Agency)        | T12    | Vista de gestión de cuentas cliente    | Implementar panel de Agency Manager para agregar marcas de clientes con validación de límite de plan                        | 6                  | Jean           |
+| US07         | Configurar palabras clave de monitoreo   | T13    | Componente de gestión de keywords      | Implementar componente de edición y eliminación de palabras clave con detección de duplicados y límite por plan              | 5                  | Luis           |
+| US08         | Conectar fuentes de datos                | T14    | Vista de conexión de plataformas       | Implementar sección de fuentes de datos con estados Conectado / No conectado y mensajes de error por credencial o plataforma | 6                  | Luis           |
+| US09         | Iniciar monitoreo de marca               | T15    | Control de inicio de monitoreo         | Implementar botón de activación de monitoreo con validación de configuración completa y actualización de estado en tiempo real | 5                 | Joaquin        |
+| US10         | Visualizar menciones recolectadas        | T16    | Vista de listado de menciones          | Implementar tabla/listado de menciones con fuente, fecha, texto y sentimiento, incluyendo estado vacío y aviso de error      | 7                  | Brianna        |
+| US11         | Filtrar menciones por criterio           | T17    | Componente de filtros de menciones     | Implementar filtros por fecha, fuente y sentimiento con opción de limpiar filtros y actualización reactiva del listado       | 5                  | Brianna        |
+| US12         | Ver análisis de sentimiento general      | T18    | Vista de análisis de sentimiento       | Implementar gráfico de distribución de sentimiento (positivo, negativo, neutro) con estados de carga e insuficiencia de datos | 7                 | Victor         |
+| US13         | Ver menciones por categoría sentimiento  | T19    | Filtro de categoría de sentimiento     | Implementar filtro interactivo por categoría de sentimiento con actualización del listado sin recarga de página              | 4                  | Victor         |
+| US14         | Ver tendencia de sentimiento en el tiempo| T20    | Gráfico de tendencia temporal          | Implementar gráfico de línea de evolución del sentimiento con selector de rango de fechas y comparación entre períodos       | 8                  | Jean           |
+| US15         | Recibir alertas de menciones críticas    | T21    | Panel de alertas                       | Implementar panel de alertas con listado de críticas, estado atendido/pendiente y mensaje de ausencia de alertas             | 6                  | Jean           |
+| US16         | Configurar criterios de alerta           | T22    | Formulario de configuración de alertas | Implementar formulario de criterios de alerta con palabras clave críticas, umbral de sentimiento y validación de duplicados  | 5                  | Luis           |
+| US17         | Responder a una mención desde la alerta  | T23    | Vista de detalle y respuesta de alerta | Implementar vista de detalle de alerta con campo de respuesta, validación de texto vacío e historial de respuestas previas   | 6                  | Luis           |
+| US18         | Ver dashboard de reputación              | T24    | Dashboard principal                    | Implementar dashboard con widgets de menciones, sentimiento, alertas activas y tendencia reciente; estado vacío y actualización | 8                | Joaquin        |
+| US19         | Generar reporte de reputación            | T25    | Vista de generación de reportes        | Implementar selector de rango de fechas y acción de generación de reporte con estados de éxito, sin datos y error            | 6                  | Joaquin        |
+| US20         | Exportar reporte                         | T26    | Componente de exportación              | Implementar opciones de exportación en PDF y CSV con validación de reporte disponible y descarga automática                  | 5                  | Brianna        |
+| US21         | Comparar reputación entre períodos       | T27    | Vista de comparación de períodos       | Implementar selector de dos períodos con cuadro comparativo de variaciones en menciones, sentimiento y alertas              | 7                  | Victor         |
+ 
 <br>
 
 ---
