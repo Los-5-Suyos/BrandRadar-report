@@ -225,6 +225,7 @@ A continuación, se muestran los gráficos con el análisis de los commits reali
     - [2.3.2. User Task Matrix](#232-user-task-matrix)
     - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+    - [2.3.5. As-Is Scenario Mapping](#235-as-is-scenario-mapping)
   - [2.4. Big Picture Event Storming](#24-big-picture-event-storming)
   - [2.5. Ubiquitous Language](#25-ubiquitous-language)
     
@@ -1272,25 +1273,57 @@ Estos hallazgos refuerzan la necesidad de una solución automatizada que optimic
 
 ### 2.3.2. User Task Matrix
 
->*La siguiente matriz identifica las tareas principales que realizan los dos User Personas definidos: dueños de PyMEs y account managers de agencias digitales. Estas tareas se evalúan según su frecuencia de ejecución y su nivel de importancia dentro del flujo de trabajo.*
+>*A continuación se presenta la matriz de tareas que realizan los User Persona de cada segmento para alcanzar sus objetivos, independientemente de la existencia de una solución de software. El análisis permite identificar qué tareas son más críticas para cada segmento según su frecuencia e importancia, y dónde existe mayor oportunidad de generar valor con BrandRadar.*
+
 
 <br>
 
-| Tarea (Task) | `PyMe (Dueño de negocio)` Frecuencia | `PyMe` Importancia | `Agencia (Account Manager)` Frecuencia | `Agencia` Importancia |
-|:-------------|:------------------------:|:-------------------------:|:------------------------:|:-------------------------:|
-| *Revisar menciones de la marca* | Media | Alta | Alta | Alta |
-| *Detectar comentarios negativos* | Baja | Alta | Alta | Alta |
-| *Responder a reseñas/comentarios* | Media | Alta | Alta | Alta |
-| *Generar reportes de reputación* | Baja | Media | Alta | Alta |
-| *Monitorear múltiples plataformas* | Baja | Media | Alta | Alta |
+**User Task Matrix — `PyMEs`**
 
 <br>
 
-A partir de la matriz se observa que:
+| Task | Frecuency | Importance |
+|---|:---:|:---:|
+| 1. Buscar menciones y reseñas de la marca en plataformas digitales | Media | Alta |
+| 2. Revisar comentarios de clientes actuales y potenciales | Media | Alta |
+| 3. Identificar comentarios negativos que afecten la imagen empresarial | Baja | Muy Alta |
+| 4. Responder a clientes insatisfechos por canales directos (WhatsApp, email) | Media | Alta |
+| 5. Identificar las causas de pérdida de clientes o contratos | Baja | Muy Alta |
+| 6. Analizar la percepción general de la marca en el mercado | Baja | Alta |
+| 7. Tomar decisiones comerciales en base a retroalimentación recibida | Media | Muy Alta |
+| 8. Compartir casos de éxito y resolución de problemas con socios o clientes | Media | Alta |
+| 9. Verificar si las acciones correctivas mejoraron la imagen de marca | Baja | Alta |
+| 10. Comparar el desempeño reputacional de la empresa en distintos periodos | Baja | Media |
 
-- Para las PyMEs, las tareas no se realizan con alta frecuencia; sin embargo, tienen un alto nivel de importancia, especialmente aquellas relacionadas con la detección de comentarios negativos y la gestión de la reputación.
-- Para las agencias, las tareas son altamente frecuentes y críticas, debido a la gestión simultánea de múltiples marcas y clientes.
-- Existe una coincidencia clave entre ambos segmentos: la alta importancia de la detección de comentarios negativos y el monitoreo de la reputación digital, lo que valida directamente el enfoque de BrandRadar como solución centralizada de monitoreo.
+<br>
+
+Este segmento agrupa a profesionales que administran empresas o áreas comerciales y para quienes la reputación de marca es un activo estratégico directamente vinculado a la captación y retención de clientes corporativos. Sus tareas de monitoreo y análisis se realizan de forma esporádica y sin un proceso definido, ya que no cuentan con herramientas especializadas ni con el tiempo operativo para hacerlo de manera sistemática. La alta importancia asignada a tareas de baja frecuencia revela una brecha crítica: saben que el monitoreo de su reputación es fundamental, pero no logran ejecutarlo con la regularidad necesaria.
+
+<br>
+
+
+**User Task Matrix — `Agencia(Account Manager)`**
+
+<br>
+
+| Task | Frecuency | Importance |
+|---|:---:|:---:|
+| 1. Monitorear menciones y reseñas de múltiples marcas en distintas plataformas | Alta | Muy Alta |
+| 2. Identificar y priorizar comentarios negativos según urgencia e impacto | Alta | Muy Alta |
+| 3. Responder públicamente a reseñas o comentarios en nombre de la marca | Alta | Alta |
+| 4. Detectar quejas en Google Maps que afecten el posicionamiento del cliente | Alta | Muy Alta |
+| 5. Escalar casos críticos de reputación al cliente o responsable interno | Media | Alta |
+| 6. Analizar el sentimiento general por marca para orientar la estrategia de contenido | Media | Alta |
+| 7. Elaborar reportes periódicos de reputación digital para cada cliente | Alta | Muy Alta |
+| 8. Gestionar simultáneamente la reputación de múltiples cuentas o marcas | Alta | Muy Alta |
+| 9. Configurar criterios de alerta ante eventos críticos de reputación | Media | Alta |
+| 10. Verificar el estado de las fuentes de datos monitoreadas por plataforma | Alta | Media |
+| 11. Comparar métricas de reputación entre periodos para evaluar evolución | Media | Alta |
+| 12. Presentar resultados y estrategias de mejora a los clientes | Media | Media |
+
+<br>
+
+Este segmento comprende a profesionales digitales que gestionan la presencia en línea de múltiples marcas de forma simultánea, con alta exposición a crisis de reputación y exigencias de respuesta inmediata por parte de sus clientes. A diferencia del primer segmento, sus tareas de monitoreo y reporte son parte del núcleo de su trabajo diario, por lo que se ejecutan con alta frecuencia. La combinación de alta frecuencia y muy alta importancia en varias tareas evidencia que el proceso actual, al depender de revisiones manuales y herramientas dispersas, genera una carga operativa insostenible que limita su capacidad de escalar y ofrecer un servicio de mayor valor estratégico.
 
 <br>
 
@@ -1338,6 +1371,50 @@ Este recorrido permite identificar puntos de fricción, emociones asociadas a ca
 
 
 ![Empathy Map Persona 2](brandradar-report/assets/needfinding/empathy-maps/empathy-map-persona2.png)
+
+<br>
+
+---
+
+### 2.3.5. As-Is Scenario Mapping
+
+>*El As-Is Scenario Mapping permite visualizar el estado actual de la experiencia de cada segmento objetivo antes de la existencia de BrandRadar. A través de las dimensiones de acciones (Doing), pensamientos (Thinking) y emociones (Feeling), se identifican los puntos de fricción, ineficiencias y necesidades insatisfechas que motivan el desarrollo de la solución. Este análisis es la base para comprender qué aspectos del proceso actual deben ser transformados.*
+
+<br>
+
+**Segmento 1: `PyMEs`**
+
+<br>
+
+*"Alfredo, gerente comercial de una empresa de mobiliario, necesita monitorear cómo perciben su marca los clientes y potenciales socios, pero no cuenta con un sistema centralizado para hacerlo."*
+
+<br>
+
+| | **Búsqueda de menciones y opiniones sobre su marca** | **Análisis y evaluación de la información recopilada** | **Toma de decisiones y respuesta al cliente** | **Seguimiento de resultados** |
+|---|---|---|---|---|
+| **Doing** | Revisa manualmente Google Maps, redes sociales y correos recibidos buscando comentarios sobre su empresa. Pregunta a su equipo comercial si han escuchado quejas o elogios de clientes. | Anota en hojas de cálculo o cuadernos los comentarios que considera relevantes. Intenta identificar patrones de insatisfacción basándose en su experiencia. | Responde personalmente a clientes insatisfechos por WhatsApp o email. Toma decisiones sobre cambios en el servicio de forma intuitiva, sin datos consolidados. | Verifica semanas después si el cliente volvió a contactarlo o si la queja se repite. No tiene un registro estructurado del historial. |
+| **Thinking** | "No sé si hay comentarios negativos sobre mi empresa que no estoy viendo." | "No puedo saber con certeza si este problema es aislado o sistemático." | "Estoy respondiendo sin saber si mi respuesta realmente resuelve la percepción del cliente." | "No tengo forma de saber si mejoré mi reputación o solo resolví un caso puntual." |
+| | "Revisar todo esto me quita tiempo que debería dedicar a conseguir nuevos clientes." | "Mis decisiones dependen de lo que recuerdo, no de datos reales." | "Si pierdo a un cliente potencial, nunca sabré si fue por algo que dijeron de mí en internet." | "Mi imagen de marca podría estar deteriorándose y yo sin enterarme a tiempo." |
+| **Feeling** | Se siente inseguro al no tener visibilidad completa de lo que se dice sobre su empresa. | Se siente frustrado por la falta de claridad para identificar las causas reales de sus pérdidas comerciales. | Se siente impotente al responder de forma reactiva sin datos que respalden sus decisiones. | Se siente ansioso al no poder confirmar si sus acciones correctivas están teniendo efecto. |
+
+
+<br>
+
+**Segmento 2: `Agencia(Account Manager)`**
+
+<br>
+
+*"Romina, community manager freelance que gestiona cuentas de clínicas y organismos municipales, necesita monitorear la reputación de múltiples marcas en tiempo real, pero su proceso actual es fragmentado y manual."*
+
+<br>
+
+| | **Monitoreo de menciones en múltiples plataformas** | **Clasificación y priorización de comentarios** | **Respuesta y gestión de crisis** | **Reporte a clientes** |
+|---|---|---|---|---|
+| **Doing** | Ingresa manualmente a cada red social, Google Maps y reseñas por marca para revisar nuevos comentarios. Alterna entre plataformas sin un orden fijo, dependiendo del tiempo disponible. | Copia y pega los comentarios relevantes en un documento de Notion o Trello para organizarlos por urgencia. | Redacta respuestas individuales para cada comentario negativo. Escala a sus clientes los casos más críticos por WhatsApp. | Arma reportes manuales en documentos, agregando capturas de pantalla y métricas recopiladas a mano cada mes. |
+| **Thinking** | "Hay demasiadas plataformas para revisar y siempre tengo miedo de perderme algo importante." | "Clasificar esto a mano me lleva horas que podría usar en estrategia de contenido." | "Si no detecto una queja a tiempo, el posicionamiento de mi cliente en Google puede verse afectado." | "Armar este reporte me tomó 3 horas. No es sostenible si quiero escalar mis cuentas." |
+| | "No puedo estar pendiente de todo al mismo tiempo cuando manejo más de una marca." | "No tengo certeza de que lo que priorizo sea realmente lo más urgente." | "Respondo como puedo, pero sin datos de sentimiento no sé si mi estrategia está funcionando." | "Mis clientes me exigen datos que yo mismo estoy calculando a ojo." |
+| **Feeling** | Se siente abrumada por el volumen de información dispersa que debe revisar diariamente. | Se siente agotada al invertir más de dos horas diarias en tareas repetitivas y manuales. | Se siente bajo presión constante ante el riesgo de no detectar una crisis a tiempo. | Se siente limitada profesionalmente porque el tiempo que pierde en reportes le impide ofrecer un servicio de mayor valor a sus clientes. |
+
 
 <br>
 
@@ -2512,153 +2589,199 @@ Consolida la información mediante procesos asíncronos para generar dashboards 
 
 ### 4.7.1. Class Diagrams
 
->*Los diagramas de clases describen la estructura estática de cada Bounded Context, incluyendo clases, atributos, métodos y relaciones con sus respectivas multiplicidades. Se emplean estereotipos como «Aggregate Root», «Value Object», «Service» y «Enum» para representar el rol de cada elemento dentro del dominio.
-
-La comunicación entre contextos se realiza únicamente mediante identificadores (IDs) o contratos de integración, evitando referencias directas entre objetos pertenecientes a distintos Bounded Contexts, con el fin de mantener el bajo acoplamiento y la independencia de cada módulo.*
+>*A continuación, se presentan los diagramas de clases UML para cada bounded context de BrandRadar. Estos diagramas describen las clases, sus atributos, métodos y relaciones, diferenciando además los componentes de frontend y backend. Esta representación permite comprender la organización modular del sistema y la distribución de responsabilidades entre la interfaz de usuario y la lógica de negocio, asegurando coherencia con la arquitectura definida.*
 
 <br>
 
-**Bounded Context: `Account Management`**
+**1. Bounded Context: `Account Management`**
 
 <br>
 
-Este Bounded Context gestiona todo lo relacionado con la identidad, autenticación y autorización de usuarios en BrandRadar. Cubre el ciclo completo de vida de la cuenta, desde el registro hasta el inicio de sesión, incluyendo la verificación de correo electrónico y la gestión de sesiones activas.
-
-Los dos actores del sistema, **PyME Owner y Agency Manager**, se modelan como variantes de un mismo agregado de usuario, diferenciados mediante el atributo UserRole, por lo que ambos comparten la entidad principal User.
-
-Las credenciales de autenticación se gestionan como una entidad separada dentro del mismo contexto, con el objetivo de aislar información sensible y reforzar la seguridad del sistema. Asimismo, cada sesión se registra de forma independiente, permitiendo el control y la trazabilidad de accesos activos.
-
-<br>
-
-<div align="center">
-  
-*Imagen del Class Diagram*
-
-![Class Diagram BC1](brandradar-report/assets/class-diagrams/bounded_1.png)
-
-*Elaboración propia con LucidChart*
-
-</div>
-
-<br>
-
-**Bounded Context: `Brand Management`**
-
-<br>
-
-Este Bounded Context gestiona la configuración inicial y el mantenimiento de una marca dentro de BrandRadar. Cubre el proceso mediante el cual el usuario habilita una marca para el monitoreo de reputación digital, incluyendo el registro de información básica de la marca, la definición de palabras clave (keywords) y la conexión con fuentes de datos externas como redes sociales y plataformas de reseñas.
-
-Una *Brand* puede asociarse a múltiples *Keywords* y múltiples *Data Sources*, mientras que la configuración de monitoreo define los parámetros activos bajo los cuales el sistema realiza la recolección de información en tiempo real.
-
-<br>
-
-<div align="center">
-  
-*Imagen del Class Diagram*
-
-![Class Diagram BC2](brandradar-report/assets/class-diagrams/bounded_2.png)
-
-*Elaboración propia con LucidChart*
-
-</div>
-
-
-<br>
-
-**Bounded Context: `Monitoring`**
-
-<br>
-
-Este Bounded Context se encarga de la recolección automatizada de menciones desde las fuentes de datos externas configuradas por el usuario. Cada vez que se ejecuta un ciclo de monitoreo, se genera un MonitoringJob, el cual coordina el proceso de ingesta de datos desde APIs externas.
-
-Durante su ejecución, el sistema recupera menciones en bruto, aplica reglas de filtrado para eliminar contenido irrelevante o duplicado, y persiste únicamente aquellas menciones que cumplen con los criterios definidos para su posterior procesamiento.
-
-Una *Mention* representa cualquier publicación, comentario o referencia en línea que contiene coincidencias con las *keywords* asociadas a una marca dentro del sistema.
-<br>
-
-<div align="center">
-  
-*Imagen del Class Diagram*
-
-![Class Diagram BC3](brandradar-report/assets/class-diagrams/bounded_3.png)
-
-*Elaboración propia con LucidChart*
-
-</div>
-
-
-<br>
-
-**Bounded Context: `Sentiment Analysis`**
-
-<br>
-
-Este Bounded Context se encarga del análisis del contenido de las menciones recolectadas por el *Monitoring Context*, con el objetivo de determinar el sentimiento expresado hacia la marca (positivo, neutro o negativo).
-
-El análisis de sentimiento se realiza mediante la integración con un servicio externo de procesamiento de lenguaje natural (NLP), cuyo resultado se registra como un SentimentResult asociado a cada Mention.
-
-En función de los resultados obtenidos, el sistema evalúa un umbral de negatividad configurado previamente. Cuando dicho umbral es superado, la mención es clasificada como crítica y queda disponible para su tratamiento dentro del Alert Management Context, el cual se encarga de la generación de alertas.
+Este diagrama corresponde al contexto de gestión de cuentas, responsable de administrar la identidad de los usuarios, sus roles y las sesiones de autenticación dentro de la plataforma BrandRadar. El agregado principal User contiene información clave como el correo electrónico, nombre completo, rol asignado (PyME Owner o Agency Manager) y el estado de la cuenta. Este contexto garantiza que solo usuarios autorizados puedan acceder al sistema, gestionando el ciclo completo de autenticación mediante tokens JWT. Además, contempla la gestión de sesiones activas, permitiendo al usuario revisar y revocar accesos desde distintos dispositivos, lo que refuerza la seguridad de la plataforma.
 
 <br>
 <div align="center">
-  
-*Imagen del Class Diagram*
 
-![Class Diagram BC4](brandradar-report/assets/class-diagrams/bounded_4.png)
+**Frontend Components Diagrams**
 
-*Elaboración propia con LucidChart*
+![Frontend Diagram BC1](brandradar-report/assets/class-diagrams/frontend/front-diagram-1.png)
 
 </div>
-
 <br>
 
-**Bounded Context: `Alert Management`**
+El módulo Account Management permite a los usuarios registrarse, iniciar sesión y gestionar su perfil personal. Incluye componentes como LoginView, RegisterView, ProfileView y SessionManagementView, acompañados de componentes reutilizables como LoginFormComponent, UserAvatarComponent y RoleBadgeComponent. El AccountStore gestiona el estado de autenticación y sincroniza los datos del usuario con el backend a través del AccountApi.
 
 <br>
-
-Este *Bounded Context* gestiona el ciclo de vida de las alertas generadas a partir de menciones clasificadas como críticas por el *Sentiment Analysis Context*.
-
-Cuando una mención supera el umbral de riesgo definido, el sistema genera una Alert y desencadena el proceso de notificación al usuario a través del canal configurado.
-
-El usuario puede revisar la alerta, evaluar su contenido y ejecutar una acción de respuesta. Todas las acciones realizadas sobre la alerta quedan registradas en un log de auditoría, garantizando trazabilidad del proceso.
-
-Este contexto permite a los usuarios de BrandRadar reaccionar de manera oportuna ante situaciones que puedan impactar la reputación de su marca.
-
-<br>
-
 <div align="center">
-  
-*Imagen del Class Diagram*
 
-![Class Diagram BC5](brandradar-report/assets/class-diagrams/bounded_5.png)
+**Backend Components Diagrams**
 
-*Elaboración propia con LucidChart*
+![Backend Diagram BC1](brandradar-report/assets/class-diagrams/backend/back-diagram-1.png)
 
 </div>
+<br>
+
+El módulo Account Management gestiona la lógica de negocio relacionada con el registro, autenticación y administración de usuarios. Implementa comandos como RegisterUserCommand, LoginCommand y UpdateProfileCommand, procesados por sus respectivos servicios de aplicación. El JwtService se encarga de la generación y validación de tokens, mientras que el UserRepository y el TokenRepository aseguran la persistencia de usuarios y sesiones activas.
 
 <br>
 
-**Bounded Context: `Reporting`**
+**2. Bounded Context: `Brand Management`**
 
 <br>
 
-Este *Bounded Context* permite a los usuarios de BrandRadar visualizar y exportar los resultados del monitoreo y análisis de reputación de sus marcas.
-
-A partir de los datos acumulados de menciones y análisis de sentimiento, el sistema calcula métricas de reputación correspondientes al período solicitado y las presenta en forma de dashboards en tiempo real y reportes exportables.
-
-Este contexto representa la capa de visualización y síntesis del sistema, consolidando la información procesada para facilitar la toma de decisiones estratégicas por parte del *PyME Owner* o el *Agency Manager*.
+Este diagrama corresponde al contexto de gestión de marcas, responsable de administrar la configuración de marcas, sus palabras clave de monitoreo y la conexión con fuentes de datos externas. El agregado principal Brand centraliza la información de cada marca, como nombre, industria, estado y su propietario. Este contexto permite a los usuarios de tipo PyME Owner y Agency Manager registrar y configurar las marcas que desean monitorear. Además, gestiona las Keyword asociadas —clasificadas como primarias, secundarias, negativas o hashtags— y los DataSource que representan las cuentas o canales de redes sociales vinculados a cada marca.
 
 <br>
-
 <div align="center">
-  
-*Imagen del Class Diagram*
 
-![Class Diagram BC6](brandradar-report/assets/class-diagrams/bounded_6.png)
+**Frontend Components Diagrams**
 
-*Elaboración propia con LucidChart*
+![Frontend Diagram BC2](brandradar-report/assets/class-diagrams/frontend/front-diagram-2.png)
 
 </div>
+<br>
+
+El módulo Brand Management permite a los usuarios crear, editar y administrar sus marcas y su configuración de seguimiento. Incluye vistas como BrandListView, BrandDetailView, BrandFormView, KeywordManagementView y DataSourceView, junto con componentes reutilizables como BrandCardComponent, KeywordTagComponent y DataSourceCardComponent. El BrandStore centraliza el estado y coordina las operaciones con el backend a través del BrandApi.
+
+<br>
+<div align="center">
+
+**Backend Components Diagrams**
+
+![Backend Diagram BC2](brandradar-report/assets/class-diagrams/backend/back-diagram-2.png)
+
+</div>
+<br>
+
+El módulo Brand Management gestiona la lógica de negocio para la creación y configuración de marcas. Implementa comandos como CreateBrandCommand, AddKeywordCommand y ConnectDataSourceCommand, procesados por el BrandCommandServiceImpl y el DataSourceCommandServiceImpl. El ExternalSourceConnector valida y prueba la conexión con plataformas externas, mientras que los repositorios BrandRepository, KeywordRepository y DataSourceRepository garantizan la persistencia estructurada de toda la información.
+
+<br>
+
+**3. Bounded Context: `Monitoring`**
+
+<br>
+
+Este diagrama corresponde al contexto de monitoreo, responsable de coordinar la integración con APIs externas y la recolección de menciones en tiempo real. El agregado principal Mention representa cada publicación capturada de las redes sociales o fuentes de noticias, almacenando el contenido, la plataforma de origen, el autor y la fecha de publicación. Este contexto opera de forma continua, recolectando menciones relevantes según las palabras clave configuradas por cada marca. El SourceStatus permite llevar un control del estado de salud de cada fuente de datos integrada, detectando fallos o degradaciones en la conectividad con las APIs externas.
+
+<br>
+<div align="center">
+
+**Frontend Components Diagrams**
+
+![Frontend Diagram BC3](brandradar-report/assets/class-diagrams/frontend/front-diagram-3.png)
+
+</div>
+<br>
+
+El módulo Monitoring ofrece a los usuarios una vista centralizada de todas las menciones recolectadas para sus marcas. Incluye vistas como MonitoringDashboardView, MentionListView, MentionDetailView, LiveFeedView y SourceStatusView, acompañadas de componentes como MentionCardComponent, MentionFilterComponent, LiveFeedTickerComponent y MentionStatsComponent. El MonitoringStore gestiona el estado reactivo del feed en tiempo real y sincroniza los filtros y estadísticas con el backend a través del MonitoringApi.
+
+<br>
+<div align="center">
+
+**Backend Components Diagrams**
+
+![Backend Diagram BC3](brandradar-report/assets/class-diagrams/backend/back-diagram-3.png)
+
+</div>
+<br>
+
+El módulo Monitoring gestiona la recolección y almacenamiento de menciones provenientes de múltiples plataformas sociales. Implementa comandos como CollectMentionCommand, BulkCollectMentionsCommand y RunCollectionJobCommand, procesados por el MentionCommandServiceImpl y el MonitoringJobServiceImpl. Los colectores externos TwitterApiCollector e InstagramApiCollector implementan la interfaz ExternalApiCollector para obtener menciones, mientras que el SentimentAnalysisClient delega el análisis de texto al bounded context correspondiente. El MentionRepository garantiza la persistencia y evita duplicados mediante el control del externalId.
+
+<br>
+
+**4. Bounded Context: `Sentiment Analysis`**
+
+<br>
+
+Este diagrama corresponde al contexto de análisis de sentimiento, responsable de procesar el lenguaje natural de las menciones recolectadas y clasificar su tono como positivo, neutro o negativo. El agregado principal SentimentResult almacena el resultado del análisis para cada mención, incluyendo la puntuación de confianza, el idioma detectado y las palabras clave relevantes extraídas del texto. Este contexto actúa como un servicio especializado que delega el procesamiento lingüístico a un NlpProcessorClient externo, transformando datos crudos en inteligencia accionable sobre la percepción pública de cada marca. Adicionalmente, genera tendencias y resúmenes agregados que alimentan el contexto de Reporting.
+
+<br>
+<div align="center">
+
+**Frontend Components Diagrams**
+
+![Frontend Diagram BC4](brandradar-report/assets/class-diagrams/frontend/front-diagram-4.png)
+
+</div>
+<br>
+
+El módulo Sentiment Analysis permite a los usuarios explorar el estado emocional de las menciones de sus marcas a lo largo del tiempo. Incluye vistas como SentimentOverviewView, SentimentResultListView, SentimentDetailView y SentimentTrendView, junto con componentes visuales como SentimentGaugeComponent, SentimentBadgeComponent, SentimentTrendChartComponent y KeywordSentimentComponent. El SentimentStore centraliza el estado y coordina las llamadas al SentimentApi para obtener resultados, tendencias y resúmenes agregados por marca.
+
+<br>
+<div align="center">
+
+**Backend Components Diagrams**
+
+![Backend Diagram BC4](brandradar-report/assets/class-diagrams/backend/back-diagram-4.png)
+
+</div>
+<br>
+
+El módulo Sentiment Analysis gestiona la lógica de clasificación emocional de menciones. Implementa comandos como AnalyzeMentionCommand, ReanalyzeMentionCommand y BatchAnalyzeCommand, procesados por el SentimentAnalysisCommandServiceImpl. El NlpProcessorClient se integra con el servicio externo de procesamiento de lenguaje natural, mientras que el LanguageDetectorClient identifica el idioma del texto antes del análisis. El SentimentResultRepository persiste cada resultado y expone consultas para generar resúmenes estadísticos y datos de tendencia por marca y periodo.
+
+<br>
+
+**5. Bounded Context: `Alert Management`**
+
+<br>
+
+Este diagrama corresponde al contexto de gestión de alertas, responsable de aplicar reglas de negocio configurables para detectar eventos críticos y notificar a los usuarios ante situaciones como picos de menciones negativas o caídas abruptas de sentimiento. El agregado AlertRule define las condiciones de disparo —métrica, operador, umbral y ventana de tiempo— mientras que el agregado Alert representa cada evento generado al cumplirse dichas condiciones. Este contexto contempla múltiples canales de notificación (correo electrónico, webhooks y notificaciones in-app), permitiendo que cada usuario configure sus preferencias de recepción mediante el NotificationSettings.
+
+<br>
+<div align="center">
+
+**Frontend Components Diagrams**
+
+![Frontend Diagram BC5](brandradar-report/assets/class-diagrams/frontend/front-diagram-5.png)
+
+</div>
+<br>
+
+El módulo Alert Management permite a los usuarios revisar alertas activas, configurar reglas de disparo y personalizar sus canales de notificación. Incluye vistas como AlertInboxView, AlertDetailView, AlertRulesView, AlertRuleFormView y NotificationSettingsView, junto con componentes como AlertCardComponent, AlertBadgeComponent, AlertRuleCardComponent y NotificationChannelComponent. El AlertStore gestiona el estado de las alertas, el conteo de no leídas y la configuración de notificaciones, comunicándose con el backend a través del AlertApi.
+
+<br>
+<div align="center">
+
+**Backend Components Diagrams**
+
+![Backend Diagram BC5](brandradar-report/assets/class-diagrams/backend/back-diagram-5.png)
+
+</div>
+<br>
+
+El módulo Alert Management gestiona la evaluación de reglas y la generación de alertas ante eventos detectados por el sistema de monitoreo. Implementa comandos como TriggerAlertCommand, AcknowledgeAlertCommand y CreateAlertRuleCommand, procesados por el AlertCommandServiceImpl, el AlertRuleCommandServiceImpl y el AlertEvaluationServiceImpl. El NotificationDispatcher coordina el envío de notificaciones a través de los servicios EmailNotificationService, WebhookNotificationService e InAppNotificationService, garantizando que cada alerta llegue por los canales configurados por el usuario.
+
+<br>
+
+**6. Bounded Context: `Reporting`**
+
+<br>
+
+Este diagrama corresponde al contexto de reportes y métricas, responsable de consolidar los datos generados por los demás bounded contexts y transformarlos en dashboards interactivos y reportes exportables. El agregado principal Report encapsula la configuración de un reporte —métricas seleccionadas, rango de fechas y estado de generación— mientras que Dashboard organiza los widgets visuales que el usuario visualiza en tiempo real. El ReportSchedule permite automatizar la generación periódica de reportes con frecuencias diaria, semanal o mensual. Este contexto es el punto de toma de decisiones de la plataforma, ofreciendo exportaciones en formatos PDF, Excel, CSV y JSON.
+
+<br>
+<div align="center">
+
+**Frontend Components Diagrams**
+
+![Frontend Diagram BC6](brandradar-report/assets/class-diagrams/frontend/front-diagram-6.png)
+
+</div>
+<br>
+
+El módulo Reporting proporciona a los usuarios una vista consolidada del rendimiento de sus marcas a través de dashboards y reportes personalizados. Incluye vistas como DashboardView, ReportListView, ReportDetailView, ReportFormView y ScheduleReportView, junto con componentes como DashboardWidgetComponent, MetricChartComponent, ReportCardComponent, ExportButtonComponent y PeriodSelectorComponent. El ReportStore gestiona el estado de métricas, el periodo seleccionado y el proceso de exportación, sincronizando todo a través del ReportApi.
+
+<br>
+<div align="center">
+
+**Backend Components Diagrams**
+
+![Backend Diagram BC6](brandradar-report/assets/class-diagrams/backend/back-diagram-6.png)
+
+</div>
+<br>
+
+El módulo Reporting gestiona la generación, almacenamiento y exportación de reportes analíticos. Implementa comandos como CreateReportCommand, GenerateReportCommand, ExportReportCommand y RunScheduledReportsCommand, procesados por el ReportCommandServiceImpl, el DashboardCommandServiceImpl y el ScheduleCommandServiceImpl. El ReportGeneratorService agrega métricas consultando los repositorios de menciones, sentimientos y alertas, mientras que el ReportExportService delega la generación de archivos al PdfGeneratorClient y al ExcelGeneratorClient según el formato solicitado.
 
 <br>
 
@@ -2674,137 +2797,58 @@ Este contexto representa la capa de visualización y síntesis del sistema, cons
 
 ### 4.8.1. Database Diagrams
 
->*Los diagramas de base de datos representan el esquema relacional del sistema organizado por Bounded Context. Cada diagrama detalla las tablas correspondientes, incluyendo sus columnas, tipos de datos, claves primarias (PK), claves foráneas (FK) y relaciones con sus respectivas cardinalidades.*
-
-*La nomenclatura de atributos sigue la convención definida en el modelo de clases, manteniendo consistencia entre el diseño orientado a objetos y la capa de persistencia, asegurando trazabilidad entre dominio y base de datos.*
+>*El diagrama de base de datos de Brandradar refleja una arquitectura orientada al dominio, organizada en múltiples bounded contexts, cada uno responsable de un conjunto cohesivo de entidades. Para su elaboración se utilizó MySQL Workbench, herramienta que permitió diseñar, visualizar y estructurar las tablas, columnas y relaciones del sistema de manera clara. Aunque el modelo es único a nivel físico, en el diagrama las tablas se agrupan visualmente según el bounded context al que pertenecen, lo que facilita la comprensión de la estructura del sistema sin generar duplicación de datos.*
 
 <br>
 
 <div align="center">
   
-**Bounded Context: `Account Management (Database Diagram)`**
+
+**`Database Diagram`**
 
 <br>
 
-![Database Diagram BC1](brandradar-report/assets/database-diagrams/db_diagram1.png)
+![Database Diagram](brandradar-report/assets/database-diagrams/db-diagram.png)
 
 </div>
 
 <br>
 
-*El diagrama de base de datos del Bounded Context Account Management gestiona la identidad y el acceso de los usuarios del sistema. La entidad principal es la tabla User, que almacena la información base del usuario y actúa como raíz del agregado.*
-
-*Esta tabla se relaciona con tres entidades dependientes: UserCredentials, que almacena las credenciales de autenticación; EmailVerification, que gestiona los tokens de verificación de correo electrónico; y Session, que registra las sesiones activas del usuario.*
-
-*Todas las relaciones se establecen mediante claves foráneas hacia User, garantizando la integridad referencial dentro del contexto y manteniendo la consistencia del modelo de identidad.*
-
+*Explicación:*
 
 <br>
 
-<div align="center">
-  
-**Bounded Context: `Brand Management (Database Diagram)`**
+**Account Management**
+
+Este contexto gestiona identidad, autenticación y sesiones. USERS es la raíz: centraliza credenciales, roles y estado. De ella se derivan AUTH_TOKENS (tokens de acceso y refresh con expiración) y SESSIONS (sesiones activas por dispositivo/IP), garantizando el control de acceso transversal al sistema.
 
 <br>
 
-![Database Diagram BC2](brandradar-report/assets/database-diagrams/db_diagram2.png)
+**Brand Management** 
 
-</div>
-
-<br>
-
-*El diagrama de base de datos del Bounded Context Brand Setup gestiona la configuración de las marcas dentro de BrandRadar. La entidad principal es la tabla Brand, que almacena la información base de cada marca y actúa como raíz del agregado.*
-
-*Esta entidad se relaciona con tres componentes dependientes: Keyword, que define las palabras clave utilizadas para el monitoreo; DataSource, que representa las fuentes de datos externas conectadas al sistema; y MonitoringConfig, que almacena los parámetros de configuración del proceso de monitoreo.*
-
-*Todas las relaciones se establecen mediante claves foráneas hacia Brand, garantizando la integridad referencial del contexto y manteniendo la consistencia de la configuración de cada marca.*
+Este contexto administra las marcas monitoreadas. BRANDS es la raíz y se vincula con DATA_SOURCES (plataformas conectadas como canales de escucha) y KEYWORDS (términos de búsqueda por marca y tipo). Es el contexto base del que dependen casi todos los demás.
 
 <br>
 
-<div align="center">
-  
-**Bounded Context: `Monitoring (Database Diagram)`**
+**Monitoring** 
+
+
+Este contexto captura las menciones en tiempo real. MENTIONS registra contenido, autor, URL y metadatos de cada aparición detectada. SOURCE_STATUSES complementa el estado de sincronización de cada fuente, permitiendo saber cuándo fue el último rastreo exitoso.
+Sentiment Analysis es el contexto de inteligencia. SENTIMENT_RESULTS toma cada mención y genera un análisis: sentimiento, score de confianza, idioma y keywords detectadas. No recolecta datos propios, sino que enriquece los del contexto de Monitoring.
 
 <br>
 
-![Database Diagram BC3](brandradar-report/assets/database-diagrams/db_diagram3.png)
+**Alert Management** 
 
-</div>
 
-<br>
-
-*El diagrama de base de datos del Bounded Context Monitoring gestiona el proceso de recolección automática de menciones desde fuentes de datos externas. La entidad principal es la tabla MonitoringJob, que registra cada ejecución del ciclo de monitoreo y actúa como raíz del proceso de recolección.*
-
-*Esta entidad se relaciona con Mention, que almacena las publicaciones recolectadas desde las plataformas externas, y con FilterRule, que define las reglas de filtrado configuradas por cada marca para depurar contenido irrelevante antes de su persistencia.*
-
-*Todas las relaciones se estructuran mediante claves foráneas dentro del contexto, asegurando la trazabilidad entre cada ejecución de monitoreo, las reglas aplicadas y las menciones obtenidas.*
-
+Este contexto orquesta las alertas. ALERT_RULES define las condiciones de disparo (métrica, operador, umbral, severidad). Cuando se cumple una regla, ALERTS registra el evento. NOTIFICATION_SETTINGS configura los canales de entrega (email, webhook, in-app) por marca.
 
 <br>
 
-
-<div align="center">
-  
-**Bounded Context: `Sentiment Analysis (Database Diagram)`**
-
-<br>
-
-![Database Diagram BC4](brandradar-report/assets/database-diagrams/db_diagram4.png)
-
-</div>
-
-<br>
-
-*El diagrama de base de datos del Bounded Context Sentiment Analysis gestiona el análisis de sentimiento aplicado a cada mención recolectada por el sistema.*
-
-*La entidad principal es la tabla SentimentAnalysis, que registra cada proceso de análisis ejecutado sobre una mención. Esta se relaciona con SentimentResult, que almacena el resultado del análisis, incluyendo el score, la etiqueta de sentimiento y el nivel de confianza del modelo.*
-
-*Adicionalmente, la tabla ClassificationProcess registra la configuración y parámetros del modelo utilizado en cada análisis, permitiendo la trazabilidad del proceso de clasificación.*
+**Reporting** 
 
 
-<br>
-
-
-<div align="center">
-  
-**Bounded Context: `Alert Management (Database Diagram)`**
-
-<br>
-
-![Database Diagram BC5](brandradar-report/assets/database-diagrams/db_diagram5.png)
-
-</div>
-
-<br>
-
-*El diagrama de base de datos del Bounded Context Alert Management gestiona el ciclo de vida de las alertas generadas a partir de menciones clasificadas como negativas.*
-
-*La entidad principal es la tabla Alert, que registra cada alerta generada por el sistema. Esta se relaciona con Notification, que almacena los envíos de notificaciones al usuario, y con Response, que registra las acciones realizadas en respuesta a cada alerta.*
-
-*La tabla AlertLog almacena el historial de auditoría de todo el proceso, garantizando la trazabilidad de las decisiones y acciones ejecutadas sobre cada alerta.*
-
-
-<br>
-
-
-<div align="center">
-  
-**Bounded Context: `Reporting (Database Diagram)`**
-
-<br>
-
-![Database Diagram BC6](brandradar-report/assets/database-diagrams/db_diagram6.png)
-
-</div>
-
-<br>
-
-*El diagrama de base de datos del Bounded Context Reporting gestiona la generación, consolidación y visualización de resultados derivados del monitoreo y análisis de reputación de marca.*
-
-*La entidad principal es la tabla Report, que registra cada reporte generado para una marca en un período determinado. Esta se relaciona con ReputationMetrics, que almacena las métricas calculadas a partir de las menciones y su análisis de sentimiento, correspondientes al rango de tiempo solicitado.*
-
-*Adicionalmente, la tabla Dashboard mantiene el estado de visualización en tiempo real por marca, permitiendo representar indicadores actualizados de reputación y desempeño.*
-
+Este contexto consolida y presenta datos analíticos. REPORTS almacena los reportes generados con su rango temporal. REPORT_SCHEDULES automatiza su ejecución periódica. DASHBOARDS y DASHBOARD_WIDGETS permiten construir vistas visuales personalizadas. Este contexto no duplica información: consume datos de Monitoring, Sentiment Analysis y Alert Management como única fuente de verdad.
 
 <br>
 
@@ -2875,7 +2919,7 @@ En esta sección se describen las herramientas de software seleccionadas para da
 | Herramienta | Uso principal | Enlace |
 |:---|:---|:---|
 | ![Structurizr](https://img.shields.io/badge/Structurizr_DSL-1168BD?style=for-the-badge&logoColor=white) | Modelado de la arquitectura del sistema con el enfoque C4 mediante la técnica Diagrams-as-Code. | [structurizr.com/dsl](https://structurizr.com/dsl) |
-| ![LucidChart](https://img.shields.io/badge/LucidChart-F97316?style=for-the-badge&logo=lucid&logoColor=white) | Elaboración de diagramas UML y de arquitectura, compatible con la documentación técnica del proyecto. | [lucidchart.com](https://www.lucidchart.com/pages/es) |
+| ![PlantUML](https://img.shields.io/badge/PlantUML-1A5276?style=for-the-badge&logoColor=white) | Elaboración de diagramas UML y de arquitectura, compatible con la documentación técnica del proyecto. | [plantuml.com](https://plantuml.com/es/) |
 | ![MySQL](https://img.shields.io/badge/MySQL_Workbench-4479A1?style=for-the-badge&logo=mysql&logoColor=white) | Diseño visual y profesional de bases de datos relacionales. | [mysql.com/products/workbench](https://www.mysql.com/products/workbench) |
 
 <br>
@@ -3463,6 +3507,7 @@ En este documento se incluyen los criterios de evaluación, evidencias de trabaj
 | AV1 | `upc-pre-202610-1asi0729-[11863]-[brandradar]-expo-av1` | [URL Microsoft Stream](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202410239_upc_edu_pe/IgBV-ACEG37lQ466daCivegHARBFGxWIBXchDZGj6xfsMAY?e=Y3HNmH) |
 | TB1 | `upc-pre-202610-1asi0729-[11863]-[brandradar]-expo-tb1` | [URL Microsoft Stream](https://upcedupe-my.sharepoint.com/) |
 
+<br>
 
 ---
 
