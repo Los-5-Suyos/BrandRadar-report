@@ -3530,8 +3530,8 @@ A continuación se presenta el Sprint Planning para esta segunda entrega, donde 
 | **Sprint 1 Review Summary**         | Durante el Sprint 1 se desarrolló y desplegó la Landing Page de BrandRadar, permitiendo a los usuarios conocer la propuesta de valor, funcionalidades, planes y contacto del producto. Se logró una integración completa de las secciones y su despliegue en Netlify. Como feedback, se identificó la necesidad de mejorar la redirección de los call-to-action hacia la Web Application y establecer el idioma inglés como predeterminado.  |
 | **Sprint 1 Retrospective Summary**  | El equipo mantuvo una comunicación constante a través de Discord; sin embargo, se identificaron dificultades en la gestión de ramas debido a un uso inconsistente de GitFlow. Para este sprint se adoptará un flujo más estructurado basado en feature branches por User Story, así como revisiones mediante Pull Requests antes de integrar cambios en la rama principal.   |
 | **Sprint 2 Goal**                   | Nuestro enfoque está en desarrollar la primera versión funcional del frontend de BrandRadar, implementando el flujo de autenticación (registro, login, recuperación de contraseña y logout) e integrándolo con una Fake API. Creemos que esto permitirá validar la arquitectura base del sistema y los flujos principales de usuario. Esto se confirmará cuando los usuarios puedan registrarse, iniciar sesión, recuperar su contraseña y acceder a una vista inicial protegida dentro de la aplicación Angular. |
-| **Sprint 2 Velocity**               | 12 |
-| **Sum of Story Points**             | 16 |
+| **Sprint 2 Velocity**               | 20 |
+| **Sum of Story Points**             | 26 |
 
 
 <br>
@@ -3559,19 +3559,26 @@ A continuación se presenta el Sprint Planning para esta segunda entrega, donde 
 | **Sprint 2** | **User Story** |        | **Work-Item / Task** |                 |                    |                | **Status** |
 | **ID**       | **Título**     | **ID** | **Título**           | **Descripción** | **Estimación**     | **Asignado a** |            |
 | — | — | T00 | Angular Project Setup | Crear proyecto Angular, routing, módulos (auth, shared), estructura base. | 6 horas | Brianna | To-do |
-| — | — | T01 | Fake API Setup | Configurar JSON Server y db.json con usuarios mock. | 5 horas | Victor | To-do |
+| — | — | T01 | Fake API Setup | Configurar JSON Server y db.json con usuarios y marcas mock. | 5 horas | Victor | To-do |
 | US06 | Registrar cuenta | T02 | Register UI | Formulario con validaciones (Reactive Forms). | 6 horas | Brianna | To-do |
-| US06 | | T03 | Register Service | Servicio Angular para POST register en Fake API. | 4 horas | Victor | To-do |
-| US06 | | T04 | Register Flow | Integración UI + servicio + mensajes + redirección. | 4 horas | Jean | To-do |
+| US06 | Registrar cuenta | T03 | Register Service | Servicio Angular para POST register en Fake API. | 4 horas | Victor | To-do |
+| US06 | Registrar cuenta | T04 | Register Flow | Integración UI + servicio + mensajes + redirección. | 4 horas | Jean | To-do |
 | US07 | Verificar correo | T05 | Verification UI | Vista de confirmación (éxito, expirado, inválido). | 3 horas | Jean | To-do |
-| US07 | | T06 | Verification Logic | Simular token desde URL (mock). | 3 horas | Victor | To-do |
+| US07 | Verificar correo | T06 | Verification Logic | Simular token desde URL (mock). | 3 horas | Victor | To-do |
 | US08 | Iniciar sesión | T07 | Login UI | Formulario login con validaciones. | 5 horas | Luis | To-do |
-| US08 | | T08 | Login Service | Consumo Fake API (login mock). | 4 horas | Victor | To-do |
-| US08 | | T09 | Auth Handling | Manejo de sesión (localStorage) + redirección. | 5 horas | Brianna | To-do |
+| US08 | Iniciar sesión | T08 | Login Service | Consumo Fake API (login mock). | 4 horas | Victor | To-do |
+| US08 | Iniciar sesión | T09 | Auth Handling | Manejo de sesión (localStorage) + redirección. | 5 horas | Brianna | To-do |
 | US09 | Recuperar contraseña | T10 | Forgot Password UI | Formulario solicitud recuperación. | 3 horas | Joaquin | To-do |
-| US09 | | T11 | Reset Password UI | Vista nueva contraseña. | 3 horas | Joaquin | To-do |
-| US09 | | T12 | Recovery Flow | Simulación completa con Fake API. | 4 horas | Victor | To-do |
+| US09 | Recuperar contraseña | T11 | Reset Password UI | Vista nueva contraseña. | 3 horas | Joaquin | To-do |
+| US09 | Recuperar contraseña | T12 | Recovery Flow | Simulación completa con Fake API. | 4 horas | Victor | To-do |
 | US10 | Cerrar sesión | T13 | Logout | Eliminar sesión y redirigir al login. | 2 horas | Brianna | To-do |
+| US11 | Crear perfil de marca | T16 | Create Brand UI | Formulario para crear marca (nombre, descripción, keywords). | 5 horas | Jean | To-do |
+| US11 | Crear perfil de marca | T17 | Create Brand Service | Servicio Angular para POST brand en Fake API. | 4 horas | Victor | To-do |
+| US11 | Crear perfil de marca | T18 | Create Brand Flow | Integración UI + servicio + mensaje de éxito. | 3 horas | Brianna | To-do |
+| US12 | Editar perfil de marca | T19 | Edit Brand UI | Formulario precargado para editar marca. | 4 horas | Luis | To-do |
+| US12 | Editar perfil de marca | T20 | Edit Brand Service | Servicio Angular para PUT brand. | 3 horas | Victor | To-do |
+| US13 | Eliminar marca | T21 | Delete Brand UI | Botón + modal de confirmación. | 3 horas | Joaquin | To-do |
+| US13 | Eliminar marca | T22 | Delete Brand Logic | Lógica para eliminar marca en Fake API. | 2 horas | Victor | To-do |
 | — | — | T14 | Routing & Guards | Implementar AuthGuard y rutas protegidas. | 5 horas | Luis | To-do |
 | — | — | T15 | Dashboard Layout | Navbar + layout base post-login. | 4 horas | Jean | To-do |
 
