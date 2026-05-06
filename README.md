@@ -135,7 +135,7 @@ A continuación, se presenta el gráfico de red (network graph) del repositorio 
 <br>
 
 <div align="center">
-<img src="brandradar-report/assets/images/network.png" alt="Gráfico de red Repositorio" width="900"/>
+<img src="brandradar-report/assets/images/networ.png" alt="Gráfico de red Repositorio" width="900"/>
 </div>
 
 <br>
@@ -145,7 +145,7 @@ A continuación, se muestran los gráficos con el análisis de los commits reali
 <br> <br>
 
 <div align="center">
-<img src="brandradar-report/assets/images/commits.png" alt="Gráfico de red Repositorio" width="900"/>
+<img src="brandradar-report/assets/images/commit.png" alt="Gráfico de red Repositorio" width="900"/>
 </div>
 
 <br>
@@ -252,8 +252,8 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 |:---|:---|:---|
-| **3.c1. Comunica oralmente con efectividad a diferentes rangos de audiencia.** | **Salinas, Brianna** <br> AV1: Durante el registro de entrevistas, conduje sesiones con usuarios del segmento objetivo adaptando mi discurso oral según el perfil del entrevistado, logrando transmitir el propósito de BrandRadar de forma clara y comprensible tanto para perfiles técnicos como no técnicos. <br><br> **Jáuregui, Jean Franco** <br> AV1: (acción específica) <br><br> **Cruzalegui, Joaquin** <br> AV1: Elaboré una de las entrevistas del segmento 1 (PyMEs), por la cual tuve que adecuar mi vocabulario de la mejor manera posible, para hacer sentir cómodo al entrevistado y poder recopilar la mejor información posible <br><br> **Garcia Paredes, Victor** <br> AV1: Diseñé y conduje oralmente dos entrevistas dirigidas a representantes de nuestros segmentos objetivo (una PyME y una Agencia Digital). Durante las sesiones, adapté mi lenguaje y tono para generar empatía con perfiles no técnicos, logrando extraer con claridad sus dolores respecto a la gestión de su reputación digital y comunicando efectivamente el propósito de nuestra investigación. <br><br> **Acuña de la Cruz, Luis** <br> AV1: (acción específica) | (Completar de forma grupal en cada entrega) |
-| **3.c2. Comunica por escrito con efectividad a diferentes rangos de audiencia.** | **Salinas, Brianna** <br> AV1: Redacté el Capítulo I, la sección 4.3 de Landing Page UI Design, los diagramas de clases (4.7.1) y el diseño de base de datos (4.8), empleando un lenguaje técnico preciso y estructurado acorde al formato académico del informe, garantizando que el contenido sea comprensible para lectores con distintos niveles de conocimiento en ingeniería de software. <br><br> **Jáuregui, Jean Franco** <br> AV1: (acción específica) <br><br> **Cruzalegui, Joaquin** <br> AV1: Realicé los Empathy Maps, los Journey Maps en base a las entrevistas y User Personas, también el Event Storming donde identifiqué los principales eventos del dominio. Además realicé el capítulo 5.2.1 sobre el sprint 1 <br><br> **Garcia Paredes, Victor** <br> AV1: Redacté las secciones de segmentos objetivo, análisis competitivo, needfinding y arquitectura de software basada en DDD. Empleé un lenguaje claro, persuasivo y estructurado para documentar los User Personas; y utilicé terminología técnica estandarizada para describir el design-level event storming y los diagramas del modelo C4, garantizando que la documentación sea comprensible tanto para stakeholders como para el equipo de desarrollo. <br><br> **Acuña de la Cruz, Luis** <br> AV1: (acción específica) | (Completar de forma grupal en cada entrega) |
+| **3.c1. Comunica oralmente con efectividad a diferentes rangos de audiencia.** | **Salinas, Brianna** <br> AV1: Durante el registro de entrevistas, conduje sesiones con usuarios del segmento objetivo adaptando mi discurso oral según el perfil del entrevistado, logrando transmitir el propósito de BrandRadar de forma clara y comprensible tanto para perfiles técnicos como no técnicos. <br><br> **Jáuregui, Jean Franco** <br> AV1: (acción específica) <br><br> **Cruzalegui, Joaquin** <br> AV1: (acción específica) <br><br> **Garcia Paredes, Victor** <br> AV1: (acción específica) <br><br> **Acuña de la Cruz, Luis** <br> AV1: (acción específica) | (Completar de forma grupal en cada entrega) |
+| **3.c2. Comunica por escrito con efectividad a diferentes rangos de audiencia.** | **Salinas, Brianna** <br> AV1: Redacté el Capítulo I, la sección 4.3 de Landing Page UI Design, los diagramas de clases (4.7.1) y el diseño de base de datos (4.8), empleando un lenguaje técnico preciso y estructurado acorde al formato académico del informe, garantizando que el contenido sea comprensible para lectores con distintos niveles de conocimiento en ingeniería de software. <br><br> **Jáuregui, Jean Franco** <br> AV1: (acción específica) <br><br> **Cruzalegui, Joaquin** <br> AV1: (acción específica) <br><br> **Garcia Paredes, Victor** <br> AV1: (acción específica) <br><br> **Acuña de la Cruz, Luis** <br> AV1: (acción específica) | (Completar de forma grupal en cada entrega) |
 
 ---
 
@@ -269,6 +269,7 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 ## 1.1. Startup Profile
 
 ###   1.1.1. Descripción de la Startup
+
 
 <br>
 
@@ -367,7 +368,7 @@ BrandRadar permite a las empresas:
   
 ####  Integrante 2
 
-<img src="brandradar-report/assets/team/integrante2.jpg" alt="Foto Integrante 2" width="300"/>
+<img src="brandradar-report/assets/team/integrante.jpg" alt="Foto Integrante 2" width="300"/>
 
 | Campo | Detalle |
 |:------|:--------|
@@ -387,7 +388,7 @@ BrandRadar permite a las empresas:
   
 ####  Integrante 3
 
-<img src="brandradar-report/assets/team/integrante3.png" alt="Foto Integrante 3" width="300"/>
+<img src="brandradar-report/assets/team/integrante.png" alt="Foto Integrante 3" width="300"/>
 
 | Campo | Detalle |
 |:------|:--------|
@@ -397,7 +398,7 @@ BrandRadar permite a las empresas:
 </div>
 
 **Descripción:**
-*Soy estudiante de la carrera de Ingeniería de Software, actualmente cuento con conocimiento de desarrollo de aplicaciones, estructura de datos y programación orientada a objetos. Cuento con experiencia en lenguajes como C++ y un nivel intermedio de python, además he trabajado con MySql y MongoDB en cuanto a base de datos. Considero que soy una persona resposable, que se desenvuelve mejor en trabajos colaborativos y que da lo mejor de sí en las acividades correspondientes para el cumplimiento de un proyecto.*
+*(Párrafo describiendo principales conocimientos técnicos y habilidades que puede aportar al equipo)*
 
 ---
 <br>
@@ -405,7 +406,7 @@ BrandRadar permite a las empresas:
 
 ####  Integrante 4
 
-<img src="brandradar-report/assets/team/integrante4.png" alt="Foto Integrante 4" width="300"/>
+<img src="brandradar-report/assets/team/integrante.png" alt="Foto Integrante 4" width="300"/>
 
 | Campo | Detalle |
 |:------|:--------|
@@ -416,7 +417,7 @@ BrandRadar permite a las empresas:
 </div>
 
 **Descripción:**
-*Soy estudiante de Ingeniería de Software con sólidos conocimientos en desarrollo de aplicaciones, estructuras de datos y programación orientada a objetos. Tengo experiencia en el uso de C++, así como en la gestión de proyectos mediante herramientas como Git y GitHub para el control de versiones. También tengo un conocimiento basico sobre Python, MSSQL y MongoDB. Me caracterizo por ser una persona responsable, con iniciativa para el aprendizaje autónomo, y con habilidades para el trabajo en equipo y la comunicación efectiva de ideas.*
+*(Párrafo describiendo principales conocimientos técnicos y habilidades que puede aportar al equipo)*
 
 ---
 <br>
@@ -424,7 +425,7 @@ BrandRadar permite a las empresas:
   
 ####  Integrante 5
 
-<img src="brandradar-report/assets/team/integrante5.jpg" alt="Foto Integrante 5" width="300"/>
+<img src="brandradar-report/assets/team/integrante.jpg" alt="Foto Integrante 5" width="300"/>
 
 | Campo | Detalle |
 |:------|:--------|
@@ -442,7 +443,6 @@ BrandRadar permite a las empresas:
 ## 1.2. Solution Profile
 
 ###   1.2.1. Antecedentes y problemática
-
 ###  Antecedentes
 
 
@@ -711,65 +711,13 @@ El Lean UX Canvas fue elaborado utilizando la herramienta Figma, lo que permiti�
 
 Asimismo, su desarrollo facilitó la iteración continua de ideas y la alineación del equipo en torno a los objetivos del producto. De esta manera, se logró validar supuestos de forma temprana y enfocar los esfuerzos en generar valor para el usuario final.
 
+<br>
+
 ---
 
 ## 1.3. Segmentos objetivo
 
-### Segmento objetivo 1: Pequeñas y medianas empresas y marcas digitales (PyMEs)
 <br>
-
-Este segmento está conformado por propietarios o gerentes de pequeñas y medianas empresas, como restaurantes, clínicas dentales, hoteles boutique o negocios de comercio electrónico, que cuentan con presencia activa en canales digitales. Sin embargo, no disponen de equipos especializados en comunicación o gestión de la reputación, lo que limita su capacidad para monitorear y responder de manera oportuna a las interacciones de los usuarios.
-
-<br>
-
-**Características demográficas:**
-
-<br>
-
-* **Edad:** Entre 25 y 55 años.
-* **Género:** Hombres y mujeres.
-* **Ubicación:** Zonas urbanas y de alto comercio en Perú y principales ciudades de Latinoamerica.
-* **Ocupación:** Emprendedores, Gerentes Generales, Administradores de local comercial.
-* **Nivel socioeconómico:** Sectores B y C.
-
-<br>
-
-*Estadísticas de sustento:*
-
-<br>
-Para respaldar este segmento, según Ipsos Perú (2023), el 85 % de los consumidores peruanos revisa opiniones en línea antes de adquirir un producto o servicio. Asimismo, estudios de BrightLocal (2026) indican que el 93 % de los usuarios toma decisiones de compra basadas en reseñas locales.
-
-Estos datos evidencian que, para una PyME, el monitoreo de su reputación digital no constituye un elemento opcional, sino una necesidad estratégica para su posicionamiento y sostenibilidad en el mercado.
-
----
-
-### Segmento objetivo 2: Especialistas de marketing o community managers
-<br>
-
-Este segmento está conformado por profesionales responsables de gestionar la presencia digital de una o múltiples marcas, incluyendo community managers, analistas de marketing digital y equipos de comunicación. Estos usuarios enfrentan como principal dificultad el alto tiempo operativo que invierten en la revisión manual de diversas plataformas digitales y en la elaboración de reportes de reputación.
-
-En este contexto, requieren una herramienta que les permita centralizar la información, optimizar sus procesos de monitoreo y recibir alertas en tiempo real ante posibles crisis, con el fin de gestionar de manera más eficiente la reputación de las marcas que representan.
-
-<br>
-
-**Características demográficas:**
-
-<br>
-
-* **Edad:** Entre 20 y 45 años.
-* **Género:** Hombres y mujeres.
-* **Ubicación:** Ecosistemas corporativos o en modalidad de trabajo remoto a nivel nacional y regional (LATAM).
-* **Ocupación:** Directores de Agencia, Ejecutivos de Cuentas (Account Managers), Social Media Managers, Community managers.
-* **Nivel socioeconómico:** Sectores A y B.
-<br>
-
-*Estadísticas de sustento:*
-
-<br>
-
-Según reportes de la industria, como el *State of Marketing* de HubSpot (2024), los equipos de marketing enfrentan una creciente necesidad de gestionar grandes volúmenes de información, lo que incrementa el tiempo dedicado a tareas operativas como la elaboración de reportes y el seguimiento de métricas.
-
-Estos datos evidencian que los profesionales del marketing requieren herramientas que optimicen sus procesos, reduzcan la carga operativa y les permitan enfocarse en actividades estratégicas de mayor valor.
 
 ---
 
@@ -785,23 +733,9 @@ Estos datos evidencian que los profesionales del marketing requieren herramienta
 
 ### 2.1.1. Análisis competitivo
 
-En esta sección se presenta el *Competitive Analysis Landscape*, el cual permite evaluar a **BrandRadar** frente a las principales soluciones disponibles en el mercado. Este análisis tiene como finalidad identificar fortalezas, debilidades y oportunidades, con el fin de comprender el posicionamiento de la propuesta y su valor diferencial frente a la competencia.
-
-![Competitive Analysis](brandradar-report/assets/competitive-analyaia/analisis_competitivo.png)
-
 <br>
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
-
-Para asegurar la competitividad de BrandRadar en el mercado de herramientas de monitoreo digital, se plantean estrategias orientadas a diferenciar su propuesta de valor frente a las soluciones existentes, aprovechando sus limitaciones y las necesidades no cubiertas del mercado.
-
-En primer lugar, se adopta una estrategia de enfoque en la prevención, diferenciándose de herramientas como Metricool, que priorizan la gestión de contenido. En este sentido, BrandRadar se centra en la detección temprana de riesgos reputacionales. Como táctica, se implementan alertas automáticas en tiempo real ante picos de menciones negativas o eventos críticos, posicionándose como una herramienta que permite anticiparse a posibles crisis y no solo reaccionar ante ellas.
-
-En segundo lugar, se propone una estrategia de liderazgo en costos y usabilidad frente a plataformas más complejas como Mention. BrandRadar busca democratizar el acceso a herramientas de monitoreo mediante una interfaz intuitiva y un modelo SaaS accesible para PyMEs. Como táctica, se simplifica la visualización de datos a través de indicadores claros (por ejemplo, semáforos de reputación) y se ofrecen planes adaptados al contexto del mercado.
-
-Finalmente, se plantea una estrategia de diferenciación tecnológica frente a soluciones básicas como Google Alerts, que se limitan a la detección de menciones. BrandRadar incorpora análisis de sentimiento y centralización de la información, lo que permite no solo identificar qué se dice de una marca, sino también interpretar cómo es percibida. Como táctica, se integran técnicas de procesamiento de lenguaje natural para generar insights accionables que apoyen la toma de decisiones.
-
-En conjunto, estas estrategias permiten posicionar a BrandRadar como una solución accesible, inteligente y orientada a la acción dentro del mercado de monitoreo de reputación digital. De este modo, la propuesta no solo responde a las limitaciones de las herramientas existentes, sino que también aporta un valor diferencial al facilitar una gestión más proactiva, integrada y basada en datos.
 
 <br>
 
@@ -813,223 +747,12 @@ En conjunto, estas estrategias permiten posicionar a BrandRadar como una soluci�
 
 ### 2.2.1. Diseño de entrevistas
 
-En esta sección se presenta el diseño de las entrevistas realizadas con el objetivo de comprender en profundidad las necesidades, comportamientos y problemáticas de los usuarios identificados. Para ello, se empleó un enfoque de entrevistas semiestructuradas, el cual permitió obtener información cualitativa relevante, manteniendo a la vez flexibilidad para profundizar en las respuestas de los participantes.
-
-El diseño de las entrevistas se basó en buenas prácticas de investigación en experiencia de usuario (UX), priorizando el uso de preguntas abiertas, evitando sesgos y enfocándose en experiencias reales de los usuarios. Asimismo, se buscó recolectar tanto información principal —relacionada con el problema y el uso de herramientas— como información complementaria, como datos demográficos y contexto personal, necesarios para la construcción de arquetipos o user personas.
-<br>
-
-### Segmento 1: Pequeñas y medianas empresas y marcas digitales (PyMEs)
-
-Para este segmento, las entrevistas estuvieron orientadas a comprender cómo las empresas gestionan actualmente su reputación digital, qué dificultades enfrentan en este proceso y cuál es su nivel de conocimiento sobre herramientas tecnológicas disponibles.
-  
-<br>
-
-**Preguntas iniciales**
-
-- Para comenzar, ¿podrías presentarte brevemente? (edad, lugar donde vives, con quiénes vives y a qué te dedicas).
-  
-- Si tuvieras que describir tu personalidad y tus principales habilidades en el trabajo en tres palabras, ¿cuáles serían y por qué?
-  
-- ¿Qué marcas (nacionales o internacionales) o referentes te inspiran en tu día a día o en la gestión de tu negocio?
-  
-<br>
-
-### Preguntas principales:
-
-1. En la última semana, ¿cómo verificaste qué opinaban los clientes sobre tu marca? Describe el proceso paso a paso.
-2. ¿Con qué frecuencia revisas comentarios o menciones en redes sociales o internet? (diario, semanal, ocasional)
-3. ¿Qué haces exactamente cuando encuentras un comentario negativo sobre tu negocio?
-4. ¿Cuánto tiempo te toma revisar todas tus redes o plataformas para ver qué dicen de tu marca?
-5. ¿Alguna vez te enteraste tarde de un comentario negativo o problema? ¿Qué ocurrió y qué impacto tuvo?
-6. ¿Qué herramientas específicas utilizas actualmente para monitorear tu marca? ¿Qué es lo que más te dificulta de ellas?
-7. Si no revisas constantemente, ¿qué te impide hacerlo (tiempo, desconocimiento, complejidad, otros)?
-8. ¿Qué tan útil sería para ti recibir una alerta inmediata cuando alguien habla negativamente de tu marca? ¿En qué situaciones la usarías?
-
-<br>
-
-**Preguntas complementarias:**
-
-¿Cuántas personas trabajan en tu empresa?
-
-¿En qué distrito o ciudad operas?
-
-¿Qué redes sociales utilizas con mayor frecuencia?
-
-¿Qué dispositivos utilizas para gestionar tu negocio?
-
-¿Qué tipo de herramientas digitales sueles usar?
-
-¿Qué te gustaría mejorar en la gestión de tu marca?
-
-<br>
-
-### Segmento 2: Especialistas de marketing o community managers
-
-En este segmento, las entrevistas estuvieron orientadas a comprender el flujo de trabajo de los profesionales, las herramientas que utilizan, la carga operativa asociada a sus funciones y sus necesidades en relación con la automatización en la gestión de la reputación digital.
-
-<br>
-
-**Preguntas iniciales**
-
-- ¿Podrías presentarte indicando tu edad, distrito de residencia, estado civil?
-  
-- ¿Cómo ha sido tu background profesional para llegar a este puesto donde gestionas múltiples marcas?
-  
-- ¿Cómo describirías tu personalidad trabajando bajo presión y cuáles crees que son tus mejores habilidades profesionales?
-  
-- ¿Qué marcas, agencias referentes o "influencias" del rubro sigues para mantenerte actualizado?
-
-<br>
-
-### Preguntas principales:
-
-1. ¿Cuál es tu rol y cuáles son tus principales responsabilidades en la gestión de marcas?
-2. Describe tu flujo diario para monitorear menciones de las marcas que gestionas. ¿Qué pasos sigues?
-3. ¿Qué plataformas revisas normalmente para monitorear estas menciones?
-4. ¿Qué herramientas utilizas actualmente para este proceso? ¿Qué limitaciones tienen?
-5. ¿Cuánto tiempo dedicas diariamente o semanalmente al monitoreo y a la elaboración de reportes?
-6. ¿Cómo detectas actualmente una crisis o un aumento de comentarios negativos?
-7. Cuéntame sobre la última vez que una mención negativa no fue detectada a tiempo. ¿Qué ocurrió?
-8. ¿Qué parte del proceso (monitoreo, análisis o reporte) te consume más tiempo y por qué?
-9. Si contaras con una herramienta que te envíe alertas automáticas en tiempo real sobre la percepción de la marca en redes sociales e internet, ¿cómo cambiaría tu forma de trabajo?
-
-<br>
-
-**Preguntas complementarias:**
-
-Edad, género (opcional), lugar de residencia
-
-Formación académica o experiencia laboral
-
-Tipo de empresa o agencia donde trabajas
-
-¿Cuántas marcas gestionas actualmente?
-
-¿Qué dispositivos utilizas con mayor frecuencia?
-
-¿Qué plataformas digitales usas diariamente?
-
-¿Qué herramientas o marcas influyen en tu trabajo?
-
 <br>
 
 ---
 
 ### 2.2.2. Registro de entrevistas
-<div align="center">
-  
-**Segmento objetivo 1: `Pequeñas y medianas empresas y marcas digitales (PyMEs)`**
 
-<br>
-
-#### Entrevista 1
-*Imagen de la entrevista*
-
-<img src="brandradar-report/assets/interviews/ss_entrevista_1.png" alt=" Entrevista 1" width="700"/>
-
-<br>
-
-<br>
-
-| Campo | Detalle |
-|:------|:--------|
-| **Nombres y apellidos** | `Alfredo Negrete` |
-| **Edad** | `49 años` |
-| **Ubicación** | `Surco` |
-| **Fecha de entrevista** | `2026-04-11` |
-| **Duración** | `15:00` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411354_upc_edu_pe/IQBjxTLrWi8NSqPn4hPz_eWwAeBG68dptaNBlqth-0p3xhU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=bVj4ft) |
-
-**Resumen:**
-</div>
-
-Alfredo Negrete es gerente comercial y socio de una empresa dedicada a la fabricación de muebles de exhibición, implementación de espacios comerciales y desarrollo de mobiliario. Tiene 49 años, es padre de familia y reside en el distrito de Surco. Cuenta con experiencia previa en el rubro, lo que le ha permitido desarrollar habilidades clave como el cumplimiento de compromisos, la puntualidad y la orientación a brindar un servicio diferencial, aspectos que fortalecen la credibilidad de su negocio.
-
-Asimismo, manifiesta admiración por las marcas de consumo masivo debido a la complejidad que implica mantenerse competitivas en el mercado. Su experiencia trabajando con empresas internacionales, como Samsung, le ha permitido establecer referentes claros y reforzar su percepción de que su negocio se encuentra bien encaminado.
-
-En cuanto a su dinámica laboral, considera que la comunicación es un factor fundamental en su sector, por lo que utiliza diversas herramientas digitales como el teléfono, correo electrónico, Zoom, Google Meet y WhatsApp para mantener un contacto constante con clientes y proveedores.
-
-Por otro lado, uno de sus principales objetivos actuales es cubrir una deuda generada por su anterior empresa, también del mismo rubro. En ese contexto, menciona que anteriormente priorizó la satisfacción del cliente como elemento central de la imagen empresarial, lo que lo llevó a asumir ciertos costos que finalmente contribuyeron al quiebre del negocio. Sin embargo, expresa frustración al no poder identificar con claridad las causas de las pérdidas, especialmente cuando los clientes optan por otros proveedores.
-
-A pesar de estas dificultades, ha utilizado herramientas digitales como páginas web para comunicarse con sus clientes y ha logrado resolver conflictos de manera interna, priorizando siempre mantener una imagen positiva frente a sus clientes actuales y potenciales.
-
-Finalmente, considera que una aplicación podría ayudarle a fortalecer su imagen empresarial, permitiéndole compartir contenido relevante, como fotografías, artículos y casos de resolución de problemas vinculados a su negocio.
-
-<br>
-<div align="center">
-  
-#### Entrevista 2
-*Imagen de la entrevista*
-
-<img src="brandradar-report/assets/interviews/ss_entrevista_2.png" alt=" Entrevista 2" width="1000"/>
-
-<br>
-
-<br>
-
-| Campo | Detalle |
-|:------|:--------|
-| **Nombres y apellidos** | `Jenifer Natali López Huamán` |
-| **Edad** | `22` |
-| **Ubicación** | `Surco` |
-| **Fecha de entrevista** | `2026-04-11` |
-| **Duración** | `09:03` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202012001_upc_edu_pe/IQAlodktDrH_RYNs0fTbCXXQAR0g-JyDOAB3OlwdYg47y2M?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=sZcbFk) |
-
-**Resumen:**
-</div>
-
-Jenifer Natali López Huamán es una estudiante de Administración y emprendedora de 22 años, fundadora de Siana Boutique, una tienda de ropa femenina que inició sus operaciones de manera virtual durante la pandemia. Gracias a su esfuerzo y capacidad de ahorro, logró expandir su negocio hacia un local físico, combinando así la venta digital con la atención presencial.
-
-En su gestión diaria, encuentra inspiración en marcas de retail como Zara, Shein y H&M, así como en creadores de contenido en plataformas como Instagram y TikTok. Su principal herramienta de trabajo es el celular, el cual utiliza para la venta, la creación de contenido y la gestión de redes sociales, mientras que la laptop es empleada principalmente para tareas administrativas y coordinación con proveedores.
-
-En cuanto a la comunicación con sus clientes, utiliza principalmente WhatsApp para concretar ventas, debido a la confianza que genera este canal. Asimismo, emplea Instagram como catálogo visual y Facebook, especialmente Marketplace, para atraer clientes a nivel local. Entre sus principales objetivos se encuentran incrementar sus ventas, fidelizar clientes, mejorar su presencia digital y posicionar su marca en el mercado.
-
-No obstante, enfrenta diversas dificultades en su día a día, como la pérdida de ventas durante el proceso de compra, la competencia con precios bajos y la gestión de comentarios negativos. Actualmente, el monitoreo de la opinión de sus clientes lo realiza de manera manual, revisando plataformas como Google Maps y Facebook, lo que limita su capacidad de respuesta oportuna.
-
-A pesar de ello, demuestra una actitud proactiva frente a la retroalimentación. Por ejemplo, mencionó que, ante una queja relacionada con la falta de tallas, decidió ampliar su inventario para atender a un público más diverso, convirtiendo una crítica en una oportunidad de mejora.
-
-Finalmente, reconoce la importancia del entorno digital en su negocio y señala que, ante una posible caída de su tienda online, probablemente se enteraría de forma tardía a través de reclamos de los clientes, lo que afectaría tanto sus ingresos como su imagen de marca. En este contexto, considera que una solución como BrandRadar le resultaría útil, especialmente si le permite recibir alertas en tiempo real, automatizar respuestas ante incidencias y fortalecer su reputación mediante la generación de comentarios positivos.
-
-<br>
-<div align="center">
-  
-#### Entrevista 3
-
-*Imagen de la entrevista*
-
-<img src="brandradar-report/assets/interviews/ss_entrevista_3.jpeg" alt=" Entrevista 3" width="700"/>
-
-<br>
-
-<br>
-
-| Campo | Detalle |
-|:------|:--------|
-| **Nombres y apellidos** | `Karim Castillo` |
-| **Edad** | `25` |
-| **Ubicación** | `San Isidro` |
-| **Fecha de entrevista** | `2026-04-12` |
-| **Duración** | `07:12` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202417228_upc_edu_pe/IQAYoH-uIHznQpUZ1saYqN0MATxVGo0pPEIlJliRq-sOhf8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=pA0fuu) |
-
-**Resumen:**
-
-</div>
-
-Karim Castillo es un emprendedor de 25 años, fundador y gerente de dos cafeterías especializadas en café de especialidad, desayunos saludables y postres, ubicadas en los distritos de San Isidro y Miraflores. Su negocio inició hace aproximadamente dos años y medio, luego de haber trabajado como barista mientras estudiaba Administración de Empresas.
-
-En la gestión de sus cafeterías, encuentra inspiración en marcas internacionales como Starbucks, por la experiencia que brindan al cliente, así como en marcas locales como La Brea y Cholo’s, que han logrado crecer manteniendo estándares de calidad. Su principal herramienta de trabajo es el celular, el cual utiliza constantemente para comunicarse con proveedores y su equipo a través de WhatsApp, revisar reseñas en Google Maps e Instagram y atender a los clientes. Por otro lado, utiliza la laptop para tareas administrativas como el control de ventas, pedidos y contabilidad.
-
-En cuanto a la comunicación, WhatsApp es su canal principal debido a la rapidez y cercanía que ofrece. Asimismo, emplea Instagram para promocionar sus productos y atraer nuevos clientes, mientras que el correo electrónico lo utiliza únicamente para gestiones formales.
-
-Entre sus principales objetivos se encuentran incrementar sus ventas en un 40 %, fortalecer su presencia en Google y redes sociales, implementar un servicio de delivery propio y abrir una tercera sucursal en el futuro. Sin embargo, enfrenta diversas dificultades en su operación diaria, como no enterarse oportunamente de reseñas negativas, la alta rotación de personal y el incremento constante de costos.
-
-Actualmente, el monitoreo de la opinión de sus clientes lo realiza de manera manual, revisando Google Maps cada dos o tres días y consultando notificaciones de Facebook de forma irregular. En este contexto, mencionó que en una ocasión se enteró con retraso de un comentario negativo sobre la calidad del producto y el servicio, lo que limitó su capacidad de respuesta oportuna, a pesar de haber ofrecido disculpas y una compensación al cliente.
-
-Finalmente, reconoce que el entorno digital tiene un impacto directo en su negocio. Señala que, ante una posible falla en una página web o sistema de pagos, probablemente se enteraría a través de reclamos de clientes, lo que implicaría pérdidas económicas inmediatas y un alto nivel de estrés. En ese sentido, considera que una herramienta como BrandRadar le resultaría de gran utilidad, ya que le permitiría recibir alertas en tiempo real, centralizar la información de sus locales, analizar el sentimiento de las opiniones y responder de manera más rápida y eficiente.
-
----
 <div align="center">
   
 **Segmento objetivo 2: `Especialistas de marketing o community managers`**
@@ -1072,117 +795,9 @@ Entre sus principales fortalezas destacan su capacidad de análisis, observació
 
 <br>
 
-<div align="center">
-  
-#### Entrevista 2
-
-*Imagen de la entrevista*
-
-<img src="brandradar-report/assets/interviews/ss_entrevista_5.png" alt=" Entrevista 5" width="1000"/>
-
-<br>
-
-<br>
-
-| Campo | Detalle |
-|:------|:--------|
-| **Nombres y apellidos** | `Esteban Andrés Medina Hernández` |
-| **Edad** | `27` |
-| **Ubicación** | `Breña, Lima` |
-| **Fecha de entrevista** | `2026-04-13` |
-| **Duración** | `16:11` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202012001_upc_edu_pe/IQClneebUgtXSJe2UFApCmAAASuqxOfQdrm9aQzKm2Gkgpo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=OjJ9gn)|
-
-**Resumen:**
-
-</div>
-
-La entrevista fue realizada a Esteban Andrés Medina Hernández (27 años, residente en Breña), con el objetivo de recabar información para un proyecto enfocado en el monitoreo y análisis en tiempo real de la reputación digital de marcas. Esteban se desempeña como editor audiovisual y marketer freelance, trabajando principalmente con una clínica dental donde ejerce como jefe de marketing, además de haber tenido experiencia previa dirigiendo su propia agencia.
-
-Relata que su interés por la edición audiovisual comenzó desde temprana edad (aproximadamente a los 12–13 años), iniciando con proyectos personales y posteriormente desarrollándose profesionalmente durante su formación en Ciencias de la Comunicación. Durante la pandemia, experimentó un crecimiento significativo al colaborar con marcas como JBL, GG Poker y BCP, además de su trabajo continuo con la clínica Dental Protect.
-
-En cuanto a su perfil profesional, se describe como una persona resiliente, con mentalidad de crecimiento, capaz de aprender de las dificultades y optimizar procesos bajo presión. Su principal fortaleza radica en su dominio integral de la producción audiovisual (preproducción, producción y postproducción), lo que le permite interpretar rápidamente las necesidades del cliente y transformarlas en productos satisfactorios.
-
-Respecto a sus referentes, no sigue marcas de manera constante, sino más bien creadores de contenido en TikTok vinculados al ámbito audiovisual. Sin embargo, menciona como marcas de interés a Sony (cámaras), Rode (audio) y Apple (tecnología), destacando la optimización de los equipos Mac para edición y postproducción.
-
-En su flujo de trabajo, el monitoreo de métricas y reputación digital suele ser una tarea compartida dentro del equipo, generalmente liderada por el community manager. Sus actividades incluyen reuniones semanales de una a dos horas para revisar rendimiento de contenido, comentarios, mensajes, resultados de publicidad y métricas de conversión. En su enfoque, el indicador más relevante es la conversión de usuarios en clientes potenciales o ventas efectivas.
-
-Para la gestión diaria, utiliza herramientas como WhatsApp (principal canal de comunicación), Google Meet y Zoom para reuniones, Trello y Notion para organización de tareas. Señala que la elaboración de reportes manuales puede tomar entre 10 y 15 horas mensuales, ya que implica consolidar métricas, capturas y análisis de desempeño.
-
-En cuanto a la detección de problemas o crisis, indica que muchas veces se identifican a partir del rendimiento del contenido o del análisis conjunto del equipo. Distingue entre resultados orgánicos y pagados, señalando que el éxito final se mide en función de interacciones y conversiones.
-
-Como caso relevante, menciona una reseña negativa en Google para la clínica dental donde trabaja, relacionada con demoras en la atención. Dado que gran parte de la captación de clientes proviene de Google Maps, este tipo de comentarios impacta directamente en la decisión de los usuarios. El manejo del caso incluyó comunicación con el cliente, disculpas y explicación de la situación, aunque la reseña no pudo ser eliminada. Este evento evidenció cómo la reputación digital puede afectar directamente el rendimiento de la marca en distintos canales.
-
-Finalmente, identifica como uno de los mayores retos del marketing de contenidos la creación del “hook” o gancho inicial, el cual puede requerir múltiples iteraciones y pruebas. Además, resalta la necesidad de adaptar el contenido a cada plataforma, ya que un mismo video puede funcionar en TikTok pero no en Instagram. En este contexto, considera que una herramienta como BrandRadar, capaz de ofrecer alertas en tiempo real sobre la reputación digital y análisis de percepción de audiencia, sería altamente valiosa, ya que permitiría optimizar la creación de contenido, reducir el tiempo de prueba y error y mejorar la conversión. Incluso afirma que una solución que sugiera tipos de hooks efectivos sería altamente útil y la adoptaría de inmediato.
-
-<br>
-
-<div align="center">
-
-#### Entrevista 3
-
-*Imagen de la entrevista*
-
-<img src="brandradar-report/assets/interviews/ss_entrevista_6.png" alt="Screenshot Entrevista 6" width="1000"/>
-
-<br> <br>
-
-| Campo | Detalle |
-|:------|:--------|
-| **Nombres y apellidos** | `Valeria Nuñez` |
-| **Edad** | `[22]` |
-| **Ubicación** | `Miraflores` |
-| **Fecha de entrevista** | `2026-04-21` |
-| **Duración** | `[HH:MM]` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410024_upc_edu_pe/IQDzVbzry8MzSKHuE6JMAtsWASvmIkfCaAhcBpafy-BUcb0?e=BRsswd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
-
-**Resumen:**
-
-</div>
-
-La entrevista fue realizada a Valeria, una joven de 22 años residente de Miraflores, quien se desempeña como Community Manager y Social Media Strategist en una agencia de publicidad. Con formación en comunicaciones y una trayectoria que inició desde sus prácticas universitarias, Vale gestiona actualmente tres marcas de los sectores lifestyle y tech. Su perfil representa al usuario especializado que vive la inmediatez de las redes sociales y que debe mantener un equilibrio entre la creatividad y el manejo de crisis bajo presión.
-
-En su día a día, Vale se inspira en el trabajo de agencias globales como Ogilvy y referentes de estrategia digital como Vilma Núñez. Para ella, la gestión de comunidades no es solo responder mensajes, sino realizar una empatía estratégica que le permita entender el sentimiento real del usuario. Su flujo de trabajo es altamente demandante: dedica entre 2 a 3 horas diarias solo al monitoreo manual de menciones y hasta dos días completos al mes para consolidar reportes de sentimiento y métricas.
-
-Actualmente, Vale enfrenta limitaciones críticas con las herramientas oficiales como Meta Business Suite, ya que estas solo le notifican menciones directas (etiquetas). Esto genera un "punto ciego" peligroso, especialmente en plataformas como TikTok y X (Twitter), donde las críticas pueden viralizarse sin que la marca sea etiquetada. Relató una experiencia reciente donde una queja de un influencer no detectada a tiempo derivó en una crisis reputacional que tuvo que atenderse de emergencia un fin de semana, afectando la percepción de la marca.
-
-La mayor frustración de Vale radica en el carácter "artesanal" y manual del monitoreo actual, lo cual le genera una constante ansiedad por la posibilidad de no detectar un "incendio" digital a tiempo. Al conocer la propuesta de BrandRadar, destacó que una herramienta que centralice alertas en tiempo real y automatice el análisis de percepción cambiaría radicalmente su dinámica laboral. Para ella, BrandRadar no solo optimizaría su tiempo de reporte, sino que le permitiría transitar de un modo reactivo a uno proactivo, eliminando el estrés de la búsqueda manual y garantizando que ninguna mención relevante pase desapercibida.
-
-<br>
-
 ---
 
 ### 2.2.3. Análisis de entrevistas
-
-> *El análisis de entrevistas permite identificar percepciones, necesidades y comportamientos de los segmentos objetivo a partir de la información recopilada. En esta sección, los resultados se presentan por segmento, utilizando porcentajes y hallazgos cualitativos para evidenciar patrones, tendencias y diferencias relevantes que apoyan la toma de decisiones en el diseño de la solución.*
-
-<br>
-
-**Segmento objetivo 1: `Pequeñas y medianas empresas y marcas digitales (PyMEs)`**
-
-<br>
-
-A partir de las entrevistas realizadas a emprendedores y gerentes de negocios locales, se identificaron patrones de comportamiento relevantes para la construcción del User Persona. En términos demográficos, el 100 % de los entrevistados opera en zonas comerciales urbanas (Surco) y coincide en que mantener una buena imagen, generar confianza y cumplir con su propuesta de valor son factores críticos para el éxito de sus negocios.
-
-Respecto al uso de tecnología, el 100 % utiliza el dispositivo móvil como principal herramienta de gestión diaria, mientras que el 50 % complementa sus actividades con el uso de laptop para tareas administrativas. En cuanto a canales digitales, existe consenso en que WhatsApp (100 %) es el medio más importante para el cierre de ventas, seguido de Instagram y Facebook (100 %) como plataformas clave para la atracción de clientes.
-
-En relación con las principales dificultades, el 100 % de los entrevistados manifestó haber experimentado pérdidas de ventas asociadas a factores como comentarios negativos, competencia en precios o abandono del proceso de compra. Asimismo, el monitoreo de la reputación digital se realiza de forma manual en plataformas como Google Maps y Facebook (100 %), lo que evidencia una ausencia de automatización en estos procesos.
-
-Este hallazgo valida la necesidad de una solución como BrandRadar, la cual obtuvo una aceptación total (100 %) por parte de los entrevistados. Los usuarios mostraron especial interés en funcionalidades como alertas preventivas en tiempo real y la visualización de información que les permita gestionar de manera más eficiente la imagen de sus marcas.
-
-<br>
-
-**Segmento objetivo 2: `Especialistas de marketing o community managers`**
-
-<br>
-
-A partir de las entrevistas realizadas a profesionales de marketing digital, se identificaron patrones que respaldan la viabilidad de la solución en un entorno B2B. El 100 % de los entrevistados trabaja bajo modalidad freelance o en posiciones de jefatura, gestionando cuentas de alta exigencia, y destaca por su enfoque analítico y orientación a resultados.
-
-En cuanto al uso de herramientas, el 100 % emplea plataformas de organización como Trello o Notion, así como herramientas de comunicación como WhatsApp y videollamadas para la coordinación de equipos y clientes. Para el monitoreo de reputación digital, el 100 % utiliza múltiples canales, incluyendo Instagram, TikTok, Facebook y Google Maps.
-
-El principal pain point identificado es la alta carga operativa asociada al monitoreo manual. El 100 % de los entrevistados invierte entre 1 y 2 horas diarias en la revisión de redes sociales, además de entre 10 y 15 horas mensuales en la elaboración de reportes. Asimismo, el 100 % ha enfrentado situaciones críticas en las que comentarios negativos no fueron detectados a tiempo, lo que impactó directamente en el rendimiento de las campañas y la captación de clientes.
-
-Estos hallazgos refuerzan la necesidad de una solución automatizada que optimice el monitoreo, centralice la información y mejore la capacidad de respuesta ante eventos críticos de reputación digital.
 
 <br>
 
@@ -1190,41 +805,9 @@ Estos hallazgos refuerzan la necesidad de una solución automatizada que optimic
 
 ## 2.3. Needfinding
 
->*Artefactos resultantes del proceso de análisis de la información recolectada a través de entrevistas y la síntesis de hallazgos cualitativos.*
 
 ### 2.3.1. User Personas
 
->*Estos arquetipos han sido construidos a partir del análisis cualitativo de las entrevistas realizadas a los usuarios de los segmentos objetivo, complementado con la identificación de patrones de comportamiento y el análisis del contexto del mercado y la competencia.*
-
-<br>
-
-**User Persona 1 — Segmento 1: `Alfredo Negrete`**
-
-
-![User Persona 1 Segmento 1](brandradar-report/assets/user-personas/user-persona1-seg1.png)
-
-<br>
-
-**User Persona 2 — Segmento 1: `Jenifer López`**
-
-
-![User Persona 2 Segmento 1](brandradar-report/assets/user-personas/user-persona2-seg1.png)
-
----
-
-<br>
-
-**User Persona 1 — Segmento 2: `Romina Apaza`**
-
-
-![User Persona 1 Segmento 2](brandradar-report/assets/user-personas/user-persona3-seg2.png)
-
-<br>
-
-**User Persona 2 — Segmento 2: `Esteban Medina`**
-
-
-![User Persona 2 Segmento 2](brandradar-report/assets/user-personas/user-persona4-seg2.png)
 
 <br>
 
@@ -1232,50 +815,11 @@ Estos hallazgos refuerzan la necesidad de una solución automatizada que optimic
 
 ### 2.3.2. User Task Matrix
 
->*La siguiente matriz identifica las tareas principales que realizan los dos User Personas definidos: dueños de PyMEs y account managers de agencias digitales. Estas tareas se evalúan según su frecuencia de ejecución y su nivel de importancia dentro del flujo de trabajo.*
-
-<br>
-
-| Tarea (Task) | `PyMe (Dueño de negocio)` Frecuencia | `PyMe` Importancia | `Agencia (Account Manager)` Frecuencia | `Agencia` Importancia |
-|:-------------|:------------------------:|:-------------------------:|:------------------------:|:-------------------------:|
-| *Revisar menciones de la marca* | Media | Alta | Alta | Alta |
-| *Detectar comentarios negativos* | Baja | Alta | Alta | Alta |
-| *Responder a reseñas/comentarios* | Media | Alta | Alta | Alta |
-| *Generar reportes de reputación* | Baja | Media | Alta | Alta |
-| *Monitorear múltiples plataformas* | Baja | Media | Alta | Alta |
-
-<br>
-
-A partir de la matriz se observa que:
-
-- Para las PyMEs, las tareas no se realizan con alta frecuencia; sin embargo, tienen un alto nivel de importancia, especialmente aquellas relacionadas con la detección de comentarios negativos y la gestión de la reputación.
-- Para las agencias, las tareas son altamente frecuentes y críticas, debido a la gestión simultánea de múltiples marcas y clientes.
-- Existe una coincidencia clave entre ambos segmentos: la alta importancia de la detección de comentarios negativos y el monitoreo de la reputación digital, lo que valida directamente el enfoque de BrandRadar como solución centralizada de monitoreo.
-
 <br>
 
 ---
 
 ### 2.3.3. User Journey Mapping
->*El Customer Journey presentado ilustra el recorrido end-to-end actual (versión As-Is) que siguen los usuarios objetivo (dueños de PyMEs y especialistas de marketing) al gestionar la reputación digital de sus marcas. Este journey describe las etapas desde la toma de conciencia de la falta de control sobre las opiniones en línea, pasando por la búsqueda y adopción de soluciones, hasta el uso continuo de herramientas para monitorear menciones y responder a comentarios.
-En el contexto actual, gran parte de estas actividades se realiza de forma manual y en múltiples plataformas, lo que genera retrasos en la detección de problemas, sobrecarga operativa y dificultades para obtener una visión integrada del estado de la reputación digital.
-Este recorrido permite identificar puntos de fricción, emociones asociadas a cada etapa y oportunidades de mejora clave, las cuales fundamentan el diseño de la solución propuesta.*
-
-<br>
-
-**User Journey Map — `PyMEs`**
-
-<br>
-
-![User Journey Map Persona 1](brandradar-report/assets/journey-maps/journey-map-persona1.png)
-
-<br>
-
-**User Journey Map — `Agencia(Account Manager)`**
-
-<br>
-
-![User Journey Map Persona 2](brandradar-report/assets/journey-maps/journey-map-persona2.png)
 
 <br>
 
@@ -1283,80 +827,11 @@ Este recorrido permite identificar puntos de fricción, emociones asociadas a ca
 
 ### 2.3.4. Empathy Mapping
 
->*El Empathy Mapping fue elaborado a partir del análisis de las entrevistas realizadas a los dos segmentos objetivo: dueños de PyMEs y account managers de agencias digitales. Este proceso permitió sintetizar la información cualitativa recolectada, identificando patrones de comportamiento, pensamientos, emociones, necesidades y frustraciones de los usuarios.*
-
-<br>
-
-**Empathy Map — `PyMEs`**
-
-
-![Empathy Map Persona 1](brandradar-report/assets/empathy-maps/empathy-map-persona1.png)
-
-<br>
-
-**Empathy Map — `Agencia(Account Manager)`**
-
-
-![Empathy Map Persona 2](brandradar-report/assets/empathy-maps/empathy-map-persona2.png)
-
 <br>
 
 ---
 
 ## 2.4. Big Picture Event Storming
-
-<br>
-
-El proceso de Big Picture Event Storming se llevó a cabo con el objetivo de comprender de manera integral el flujo del dominio del sistema propuesto, identificando los principales eventos, actores involucrados e interacciones con sistemas externos. Esta técnica permitió visualizar el comportamiento del sistema de forma cronológica, facilitando la identificación de procesos clave, dependencias y posibles puntos de mejora dentro del flujo operativo.
-
-Durante el desarrollo del Event Storming, se siguieron etapas estructuradas que permitieron construir progresivamente una representación clara del dominio del problema. En la primera etapa, denominada Collect Domain Events, se identificaron los principales eventos del sistema, los cuales representan acciones que ya han ocurrido dentro del flujo del negocio.
-
-<br>
-
-![Big Picture Event Storming](brandradar-report/assets/event-storming/big-picture-event-storming-step1.png)
-
-<br>
-
-Posteriormente, en la etapa *Refine Domain Events*, se revisaron los eventos previamente identificados con el fin de validar su correcta redacción en tiempo pasado, asegurar su orden temporal y depurar posibles redundancias o inconsistencias terminológicas. Asimismo, se incorporaron eventos adicionales necesarios para completar el flujo lógico del sistema y representar con mayor precisión los procesos internos del dominio.
-<br>
-
-![Big Picture Event Storming](brandradar-report/assets/event-storming/big-picture-event-storming-step2.png)
-
-<br>
-
-En la etapa *Track Causes*, se identificaron los actores que interactúan con el sistema, así como las acciones específicas que desencadenan determinados eventos, representadas mediante comandos. Asimismo, se incorporaron los sistemas externos que intervienen en el flujo, como servicios de análisis de sentimiento y plataformas de datos externas, además de los procesos internos que se ejecutan de manera automática entre eventos.
-
-<br>
-
-![Big Picture Event Storming](brandradar-report/assets/event-storming/big-picture-event-storming-step3.png)
-
-<br>
-
-Finalmente, en la etapa *Find Aggregates*, se agruparon los eventos relacionados dentro de límites de consistencia conocidos como aggregates, lo que permitió identificar las principales entidades del dominio y sus responsabilidades. Esta etapa facilitó la estructuración del modelo de dominio y sirvió como base para el diseño posterior del sistema.
-
-<br>
-
-![Big Picture Event Storming](brandradar-report/assets/event-storming/big-picture-event-storming-step4.png)
-
-<br>
-
-Durante el desarrollo del Big Picture Event Storming se identificaron los principales eventos del dominio, los actores que interactúan con el sistema y los flujos que describen el comportamiento general del sistema, desde el registro del usuario hasta la generación de reportes de reputación digital.
-
-En primer lugar, se definieron los eventos del dominio, los cuales representan cambios significativos dentro del sistema y describen acciones ya completadas en tiempo pasado. Entre los eventos identificados se incluyen aquellos relacionados con la gestión de cuentas, como el registro de usuario, la verificación de correo electrónico y el inicio de sesión. Estos eventos marcan el inicio del flujo del sistema y habilitan el acceso del usuario a las funcionalidades principales.
-
-Posteriormente, se identificaron eventos asociados a la configuración de marcas y fuentes de datos, como el registro de información de la marca, la definición de palabras clave y la conexión con fuentes externas. Estos eventos resultan fundamentales para iniciar el proceso de monitoreo y habilitar la recolección de información desde distintas plataformas digitales.
-
-Asimismo, se reconocieron eventos vinculados al proceso de monitoreo automático, en el cual el sistema recolecta menciones desde fuentes externas, las filtra y las almacena para su análisis. En esta etapa se incluyen también los eventos de análisis de sentimiento, donde las menciones son clasificadas según su polaridad, permitiendo identificar posibles riesgos reputacionales.
-
-Dentro del flujo del sistema, también se identificaron eventos relacionados con la gestión de alertas, donde el sistema genera notificaciones ante la detección de menciones negativas. Estas alertas son revisadas por los usuarios, quienes pueden ejecutar acciones de respuesta según la criticidad del caso.
-
-Finalmente, se identificaron eventos correspondientes a la generación de reportes y visualización de métricas, donde el sistema permite crear informes, exportar resultados y actualizar dashboards con indicadores clave. Estos eventos facilitan la evaluación del desempeño de la marca y la toma de decisiones basadas en datos.
-
-En cuanto a los actores identificados, se reconocen principalmente dos roles: el PyME Owner, responsable de la gestión directa de su marca, y el Agency Manager, encargado de administrar múltiples cuentas de clientes. Ambos interactúan con el sistema mediante acciones como la configuración de marcas, la revisión de alertas y la generación de reportes. Asimismo, se identificaron sistemas externos como redes sociales, servicios de análisis de sentimiento y servicios de notificación, los cuales alimentan el sistema con datos y permiten la interacción con los usuarios.
-
-Los flujos del sistema describen el recorrido end-to-end desde el registro inicial hasta la generación de reportes finales, permitiendo visualizar cómo se encadenan los eventos y cómo interactúan los distintos actores y sistemas externos. Este análisis permitió identificar dependencias críticas, automatizaciones potenciales y puntos de mejora dentro del sistema.
-
-En conjunto, la identificación de eventos, actores y flujos permitió construir una representación estructurada del dominio del problema, sirviendo como base para la definición de agregados y el diseño del modelo de dominio.
 
 <br>
 
@@ -1416,70 +891,6 @@ En conjunto, la identificación de eventos, actores y flujos permitió construir
 
 ## 3.1. User Stories
 
->*Las User Stories de BrandRadar expresan las necesidades reales de los usuarios en su propio lenguaje, describiendo qué requieren del sistema y por qué es importante para ellos. Cada historia traduce un requerimiento de negocio en una funcionalidad concreta, manteniendo el foco en el valor que aporta al usuario. En esta sección, las historias se organizan en Epics, lo que permite estructurar el alcance del producto y priorizar el desarrollo de las funcionalidades más relevantes. Los criterios de aceptación se redactan en tiempo presente y tercera persona, sin referencias a detalles de interfaz, siguiendo la estructura Gherkin (Given / When / Then).*
-
-<br>
-
-| Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
-|:---------------:|:------:|:------------|:------------------------|:-------------------------:|
-| **EP01** | `Real-Time Monitoring & Data Collection` | Sistema de recolección automatizada de datos desde redes sociales y fuentes digitales. | — | — |
-| US01 | `Integración de APIs Externas` | Como `Analista`, quiero `conectar APIs de Twitter e Instagram`, para `recolectar menciones automáticamente`. | **Scenario 1:** Vínculo exitoso. **Given** credenciales válidas **When** se conecta la API **Then** inicia la sincronización. <br> **Scenario 2:** Token expirado. **Given** una conexión previa **When** el token vence **Then** el sistema pide re-autenticación. | EP01 |
-| US02 | `Filtrado de Exclusión` | Como `Emprendedor`, quiero `excluir keywords irrelevantes`, para `evitar ruido de marcas homónimas`. | **Scenario 1:** Filtro activo. **Given** ruido de homónimos **When** se añade la palabra al "Blacklist" **Then** el feed se limpia. <br> **Scenario 2:** Validación. **Given** intento de keyword vacía **When** se guarda **Then** muestra error de campo obligatorio. | EP01 |
-| US03 | `Live Feed Monitor` | Como `Community Manager`, quiero `ver un feed en vivo`, para `reaccionar de inmediato`. | **Scenario 1:** Update dinámico. **Given** dashboard abierto **When** entra mención **Then** aparece al inicio sin recargar. <br> **Scenario 2:** Pausa de flujo. **Given** alto volumen **When** se presiona "Pausa" **Then** el feed se detiene para lectura. | EP01 |
-| US04 | `Implementación de Webhooks` | Como `Desarrollador`, quiero `usar Webhooks`, para `reducir la latencia de alertas`. | **Scenario 1:** Registro. **Given** URL de escucha **When** se registra en el panel **Then** el sistema envía un JSON de prueba. <br> **Scenario 2:** Reintento. **Given** server destino caído **When** falla el envío **Then** el sistema reintenta 3 veces. | EP01 |
-| **EP02** | `AI Sentiment Analysis` | Módulo de procesamiento de lenguaje natural para categorizar el tono emocional. | — | — |
-| US05 | `Detección de Sarcasmo e Ironía` | Como `Gerente`, quiero `identificar sarcasmo`, para `evitar falsos positivos`. | **Scenario 1:** Tono irónico. **Given** frase "Excelente demora" **When** la IA procesa **Then** clasifica como "Negativo". <br> **Scenario 2:** Confianza baja. **Given** frase ambigua **When** IA duda **Then** etiqueta como "Para revisión manual". | EP02 |
-| US06 | `Ajuste Manual de Polaridad` | Como `Analista`, quiero `corregir la polaridad manualmente`, para `entrenar mejor a la IA`. | **Scenario 1:** Corrección. **Given** mención mal clasificada **When** se cambia a "Negativo" **Then** se actualiza el dashboard. <br> **Scenario 2:** Log de cambios. **Given** una edición **When** se guarda **Then** registra qué usuario hizo el cambio. | EP02 |
-| US07 | `Entrenamiento de Modelos por Industria` | Como `Administrador`, quiero `entrenar la IA con vocabulario específico`, para `mejorar la precisión según el rubro del cliente`. | **Scenario 1:** Cambio de contexto. **Given** sector "Hospitalidad" **When** detecta palabra "limpieza" **Then** le asigna un peso mayor en satisfacción. <br> **Scenario 2:** Glosario custom. **Given** términos técnicos **When** se suben al modelo **Then** deja de marcarlos como errores. | EP02 |
-| US08 | `Word Cloud de Sentimiento` | Como `Usuario`, quiero `ver nubes de palabras por sentimiento`, para `identificar temas críticos`. | **Scenario 1:** Filtro negativo. **Given** filtro "Negativo" activo **When** carga nube **Then** muestra términos de queja más frecuentes. <br> **Scenario 2:** Drill-down. **Given** una palabra en la nube **When** se clickea **Then** muestra los posts que la contienen. | EP02 |
-| **EP03** | `Crisis Management & Alerts` | Herramientas de detección temprana y protocolos ante incidentes reputacionales. | — | — |
-| US09 | `Configuración de Semáforo de Crisis` | Como `Jefe de PR`, quiero `un semáforo configurable`, para `saber cuándo intervenir legalmente`. | **Scenario 1:** Alerta Roja. **Given** umbral de 50 quejas/hora **When** se alcanza **Then** el dashboard se pone rojo. <br> **Scenario 2:** Personalización. **Given** ajustes de alerta **When** se cambia el límite **Then** el sistema aplica la nueva regla. | EP03 |
-| US10 | `Alertas Multicanal en Móvil` | Como `Usuario`, quiero `alertas móviles`, para `estar enterado fuera de la oficina`. | **Scenario 1:** Notificación móvil. **Given** crisis detectada **When** usuario vinculado **Then** llega mensaje instantáneo con link. <br> **Scenario 2:** Silent mode. **Given** horario nocturno **When** llega alerta no crítica **Then** el sistema la encola para la mañana. | EP03 |
-| US11 | `Asignación de Tickets de Respuesta` | Como `Soporte`, quiero `asignar menciones a miembros del equipo`, para `gestión inmediata`. | **Scenario 1:** Derivación. **Given** queja crítica **When** se asigna a un agente **Then** este recibe notificación de tarea. <br> **Scenario 2:** Cierre de ticket. **Given** ticket resuelto **When** se marca "Finalizado" **Then** sale del flujo de pendientes. | EP03 |
-| **EP04** | `Competitive Intelligence` | Análisis comparativo frente a competidores directos. | — | — |
-| US12 | `Share of Sentiment` | Como `Gerente`, quiero `ver mi sentimiento vs competencia`, para `saber mi posición en el mercado`. | **Scenario 1:** Gráfico barras. **Given** 2 competidores **When** se genera reporte **Then** muestra ratio comparativo de positividad. <br> **Scenario 2:** Exportación. **Given** gráfico listo **When** se descarga **Then** genera un PNG de alta calidad. | EP04 |
-| US13 | `Rastreo de Hashtags Competidores` | Como `Analista`, quiero `monitorear hashtags de competencia`, para `entender sus estrategias`. | **Scenario 1:** Monitor campaña. **Given** hashtag nuevo de competencia **When** se añade **Then** inicia medición de volumen. <br> **Scenario 2:** Alerta viral. **Given** hashtag competidor **When** crece 200% **Then** notifica "Campaña Viral Detectada". | EP04 |
-| **EP05** | `Advanced Analytics & Reporting` | Generación de reportes y filtrado profundo de datos. | — | — |
-| US14 | `Reportes PDF Programados` | Como `Ejecutivo`, quiero `reportes semanales automáticos`, para `ahorrar tiempo de gestión`. | **Scenario 1:** Envío lunes. **Given** Lunes 8am **When** cronjob corre **Then** envía PDF por correo. <br> **Scenario 2:** Error log. **Given** fallo en PDF **When** falla envío **Then** reintenta en 1 hora y avisa al admin. | EP05 |
-| US15 | `Filtro por Alcance (Influencers)` | Como `Usuario`, quiero `filtrar por número de seguidores`, para `priorizar respuestas críticas`. | **Scenario 1:** Filtro 10k. **Given** feed lleno **When** se filtra ">10k fans" **Then** solo muestra cuentas influyentes. <br> **Scenario 2:** Badge dorado. **Given** mención nueva **When** autor tiene >50k fans **Then** marca el post con icono especial. | EP05 |
-| US16 | `Heatmap Horario` | Como `Estratega`, quiero `ver horas pico de quejas`, para `ajustar turnos de moderación`. | **Scenario 1:** Generación mapa. **Given** data de 30 días **When** se abre "Insights" **Then** muestra cuadrícula 24/7 de calor. <br> **Scenario 2:** Filtro finde. **Given** heatmap mensual **When** se marca "Sáb/Dom" **Then** actualiza solo para esos días. | EP05 |
-| US17 | `Exportación CSV/JSON` | Como `Admin`, quiero `exportar data cruda`, para `análisis en Power BI`. | **Scenario 1:** Exportación. **Given** rango fechas **When** se presiona "Exportar" **Then** descarga CSV con todos los campos. <br> **Scenario 2:** Fondo. **Given** data masiva **When** se exporta **Then** procesa en background y avisa al terminar. | EP05 |
-| **EP06** | `User Experience & Collaboration` | Gestión de interfaz, flujos internos y acceso multiplataforma. | — | — |
-| US18 | `Onboarding Interactivo` | Como `Usuario nuevo`, quiero `un tutorial guiado`, para `configurar el sistema sin soporte`. | **Scenario 1:** Inicio tour. **Given** login #1 **When** entra dashboard **Then** resalta botones clave con explicación. <br> **Scenario 2:** Skip. **Given** tour activo **When** presiona "Omitir" **Then** cierra tutorial y no vuelve a aparecer. | EP06 |
-| US19 | `Notas Internas` | Como `Líder`, quiero `dejar comentarios en menciones`, para `coordinar respuestas con el equipo`. | **Scenario 1:** Nota privada. **Given** mención crítica **When** líder comenta **Then** solo el equipo interno ve la nota. <br> **Scenario 2:** Mención @usuario. **Given** nota interna **When** se usa @nombre **Then** el usuario recibe alerta de mención. | EP06 |
-| US20 | `Selector de Workspaces` | Como `Agencia`, quiero `cambiar entre marcas`, para `mantener datos separados`. | **Scenario 1:** Cambio marca. **Given** 2 clientes **When** cambia en el menú lateral **Then** carga métricas de la nueva marca. <br> **Scenario 2:** Independencia. **Given** 2 workspaces **When** cambia keyword en uno **Then** el otro no se ve afectado. | EP06 |
-| US21 | `Interfaz Responsiva` | Como `Usuario móvil`, quiero `un diseño adaptable`, para `monitorear desde el celular`. | **Scenario 1:** Vista móvil. **Given** resolución smartphone **When** carga web **Then** los gráficos se apilan verticalmente. <br> **Scenario 2:** Touch target. **Given** interfaz móvil **When** hay botones de acción **Then** tienen tamaño mín de 44px para dedos. | EP06 |
-| **EP07** | `Industry-Specific Branding & Social Evidence` | Funcionalidades diseñadas para la gestión de imagen comercial y validación social. | — | — |
-| US22 | `Galería de Casos de Éxito` | Como `Gerente de Muebles`, quiero `subir fotos de problemas resueltos`, para `mejorar mi imagen ante clientes`. | **Scenario 1:** Subir evidencia. **Given** caso cerrado **When** sube foto de solución **Then** se añade a la galería pública. <br> **Scenario 2:** Tagging. **Given** foto nueva **When** se etiqueta como "Retail" **Then** aparece en el filtro de ese sector. | EP07 |
-| US23 | `Archivo Visual de Campañas` | Como `Dueña de Boutique`, quiero `guardar snapshots de mis redes en fechas de alta venta`, para `replicar el éxito el próximo año`. | **Scenario 1:** Snapshot estacional. **Given** campaña finalizada **When** presiona "Guardar Snapshot" **Then** captura el estado visual del feed. <br> **Scenario 2:** Comparativa anual. **Given** campaña actual **When** compara con archivo previo **Then** indica variaciones en la recepción. | EP07 |
-| US24 | `Sugerencia de Respuestas Empáticas` | Como `Dueña de Boutique`, quiero `respuestas automáticas de cortesía`, para `atender al cliente mientras estoy ocupada`. | **Scenario 1:** Out of office. **Given** queja recibida 2am **When** bot activo **Then** responde "Estamos revisando tu caso". <br> **Scenario 2:** Desactivación. **Given** horario laboral **When** entra mención **Then** el bot se inhibe para respuesta humana. | EP07 |
-| US25 | `Monitor de Voz del Cliente` | Como `Gerente Comercial`, quiero `un reporte de sugerencias de mejora de productos`, para `priorizar la fabricación de nuevos modelos`. | **Scenario 1:** Agrupación pedidos. **Given** menciones de mejora **When** IA agrupa **Then** muestra tendencias de diseño solicitadas. <br> **Scenario 2:** Feedback loop. **Given** característica nueva lanzada **When** entran menciones **Then** compara satisfacción vs anterior. | EP07 |
-| **EP08** | `Multi-Platform Local SEO & Service Monitoring` | Monitoreo de reputación en plataformas de servicios y ubicación geográfica. | — | — |
-| US26 | `Sincronización de Google Maps` | Como `Dueño de Cafetería`, quiero `sincronizar reseñas de Maps`, para `no enterarme tarde de quejas de servicio`. | **Scenario 1:** Pull reseñas. **Given** local vinculado **When** entra reseña 1 estrella **Then** el sistema dispara alerta inmediata. <br> **Scenario 2:** Reply direct. **Given** reseña nueva **When** usuario escribe respuesta **Then** se publica en Google Maps desde la App. | EP08 |
-| US27 | `Monitor de Múltiples Sucursales` | Como `Dueño de locales`, quiero `ver datos de San Isidro y Miraflores por separado`, para `evaluar el desempeño de cada equipo`. | **Scenario 1:** Filtro local. **Given** 2 locales **When** selecciona sede **Then** muestra solo sentimientos de ese punto físico. <br> **Scenario 2:** Ranking interno. **Given** datos globales **When** abre reporte global **Then** rankea sedes por estrellas promedio. | EP08 |
-| US28 | `Detección de Caída de Servicios Web` | Como `Dueño de Negocio`, quiero `alerta de inactividad de página web o pasarela`, para `no perder ventas técnicas`. | **Scenario 1:** Web Down. **Given** monitoreo URL **When** sitio devuelve error **Then** envía alerta crítica "Sitio Caído". <br> **Scenario 2:** Restore alert. **Given** web caída **When** vuelve a estar online **Then** envía confirmación de recuperación. | EP08 |
-| US29 | `Monitor de Reputación de Aliados` | Como `Gerente Comercial`, quiero `monitorear menciones de mis proveedores`, para `anticipar problemas en mi cadena de suministro`. | **Scenario 1:** Alerta proveedor. **Given** proveedor en crisis **When** entra noticia negativa **Then** envía alerta "Riesgo en Suministro". <br> **Scenario 2:** Reputación aliados. **Given** lista de proveedores **When** compara sentimiento **Then** sugiere el más confiable. | EP08 |
-| **EP09** | `Digital Content Strategy & Creative Analysis` | Herramientas para la optimización de contenido audiovisual y estrategias de retención. | — | — |
-| US30 | `Sugerencia de Hooks Audiovisuales` | Como `Editor`, quiero `sugerencias de ganchos basados en tendencias`, para `retener audiencia en los primeros 3 segundos`. | **Scenario 1:** Analizar video. **Given** video con poco alcance **When** pide ayuda **Then** IA propone 3 ganchos tipo "Sabías que...". <br> **Scenario 2:** Comparativa hooks. **Given** 2 videos distintos **When** compara performance **Then** indica cuál retuvo más gente. | EP09 |
-| US31 | `Análisis de Retención de Video` | Como `Marketer`, quiero `ver en qué segundo los usuarios dejan de ver mis videos`, para `mejorar el montaje`. | **Scenario 1:** Punto de fuga. **Given** video de TikTok **When** analiza data **Then** marca el segundo exacto de la caída de audiencia. <br> **Scenario 2:** Sugerencia edición. **Given** fuga detectada **When** pide mejora **Then** sugiere cambios de plano o textos dinámicos. | EP09 |
-| US32 | `Benchmarking de Hooks Competidores` | Como `Editor`, quiero `saber qué ganchos usa la competencia`, para `diferenciar mi contenido`. | **Scenario 1:** Análisis viral. **Given** video externo viral **When** IA analiza audio **Then** extrae el hook utilizado. <br> **Scenario 2:** Reporte originalidad. **Given** guion nuevo **When** compara con sector **Then** indica si el gancho es cliché. | EP09 |
-| US33 | `Tracking de Conversión (ROI)` | Como `Jefe de Marketing`, quiero `conectar clics en menciones con ventas reales`, para `medir el retorno de inversión`. | **Scenario 1:** UTM Tracking. **Given** link de respuesta **When** cliente compra **Then** el dashboard marca "Conversión Exitosa". <br> **Scenario 2:** Reporte ROI. **Given** campaña de mes **When** genera reporte **Then** indica costo por mención vs venta generada. | EP09 |
-| US34 | `Integración de Métricas TikTok` | Como `Marketer`, quiero `ver visualizaciones vs comentarios de TikTok`, para `diagnosticar por qué un video no despega`. | **Scenario 1:** Ratio engagement. **Given** video posteado **When** carga data **Then** calcula % de interacción sobre vistas. <br> **Scenario 2:** Diagnóstico. **Given** bajo ratio **When** solicita análisis **Then** indica si falla el gancho o el contenido. | EP09 |
-| US35 | `Identificación de Influencers de Nicho` | Como `Socio`, quiero `identificar profesionales influyentes en mi rubro`, para `proponer alianzas`. | **Scenario 1:** Ranking sectorial. **Given** keywords nicho **When** analiza autores **Then** muestra ranking de los más seguidos. <br> **Scenario 2:** Contact info. **Given** perfil identificado **When** se clickea **Then** muestra enlaces a perfiles profesionales. | EP09 |
-| **EP10** | `Public Governance & Crisis Simulation` | Gestión de comunidades municipales y simulación de escenarios críticos. | — | — |
-| US36 | `Detección de Trending Topics Locales` | Como `Gestora Municipal`, quiero `saber qué temas preocupan a los vecinos por distrito`, para `orientar la comunicación oficial`. | **Scenario 1:** Top temas. **Given** ubicación específica **When** analiza menciones locales **Then** reporta temas críticos (ej. Inseguridad). <br> **Scenario 2:** Sentimiento por barrio. **Given** data distrital **When** filtra por zona **Then** muestra barrios con más quejas. | EP10 |
-| US37 | `Análisis de Campaña Política` | Como `Freelance en política`, quiero `monitorear menciones de candidatos`, para `gestionar comunidades municipales`. | **Scenario 1:** Tracking apoyo. **Given** keyword candidato **When** entra mención **Then** clasifica si es apoyo o denuncia. <br> **Scenario 2:** Reporte de vecinos. **Given** menciones territoriales **When** genera reporte **Then** agrupa quejas por necesidades ciudadanas. | EP10 |
-| US38 | `Simulador de Impacto de Comunicado` | Como `Gerente de PR`, quiero `predecir la reacción a un comunicado`, para `evitar empeorar la crisis`. | **Scenario 1:** Test de respuesta. **Given** borrador comunicado **When** pasa por simulador **Then** indica probabilidad de aceptación. <br> **Scenario 2:** Red flags. **Given** texto respuesta **When** contiene lenguaje agresivo **Then** resalta palabras y sugiere cambios. | EP10 |
-| US39 | `Histórico de Resoluciones de Crisis` | Como `Jefe de PR`, quiero `ver cómo se resolvieron crisis similares en el pasado`, para `no repetir errores`. | **Scenario 1:** Búsqueda histórica. **Given** crisis nueva **When** busca casos similares **Then** muestra el protocolo usado anteriormente. <br> **Scenario 2:** Base de conocimiento. **Given** caso cerrado **When** se añade "Lección" **Then** se guarda en la Wiki del equipo. | EP10 |
-| US40 | `Dashboard de Tiempo de Respuesta Operativo` | Como `Freelance`, quiero `medir mi tiempo de respuesta`, para `cumplir con KPIs de atención`. | **Scenario 1:** Tiempo promedio. **Given** respuestas del día **When** abre reporte **Then** muestra media de minutos por respuesta. <br> **Scenario 2:** Alerta demora. **Given** mención sin respuesta **When** pasa el tiempo límite **Then** lanza recordatorio de atención. | EP10 |
-| **EP11** | `Sales & Lead Management` | Herramientas para la detección de oportunidades de venta y competencia comercial. | — | — |
-| US41 | `Identificación de Leads Calientes` | Como `Vendedora`, quiero `detectar usuarios que preguntan por precios/tallas`, para `priorizar su atención inmediata`. | **Scenario 1:** Tagging automático. **Given** comentario "¿Precio?" **When** entra al sistema **Then** le asigna etiqueta "Lead Caliente". <br> **Scenario 2:** Alerta venta. **Given** lead identificado **When** no se responde en 5 min **Then** lanza alerta push sonora. | EP11 |
-| US42 | `Sugerencia de Scripts de Venta` | Como `Usuario de WhatsApp`, quiero `sugerencias de frases para cerrar ventas`, para `evitar carritos abandonados`. | **Scenario 1:** Sugerencia cierre. **Given** chat estancado **When** pide ayuda **Then** IA sugiere frases de escasez o urgencia. <br> **Scenario 2:** A/B Testing frases. **Given** 2 tipos de cierre **When** analiza ventas finalizadas **Then** indica cuál convierte más. | EP11 |
-| US43 | `Detección de Competencia Desleal (Market)` | Como `Dueño de Negocio`, quiero `alerta de precios/ofertas agresivas de competidores`, para `ajustar mi estrategia`. | **Scenario 1:** Price drop alert. **Given** monitor competencia **When** detecta post con ofertas 50% menores **Then** envía alerta. <br> **Scenario 2:** Comparativa stock. **Given** post competencia **When** IA analiza **Then** indica si compite con mi producto estrella. | EP11 |
-| **EP12** | `Customer Loyalty & Success` | Módulo de fidelización y métricas de satisfacción a largo plazo. | — | — |
-| US44 | `Fidelización de Clientes VIP` | Como `Gerente de Cafetería`, quiero `identificar clientes frecuentes que dejan reseñas`, para `ofrecerles compensaciones`. | **Scenario 1:** Identificar fan. **Given** usuario recurrente **When** publica reseña **Then** el sistema lo marca como "Cliente VIP". <br> **Scenario 2:** Cupón automático. **Given** reseña positiva de VIP **When** se aprueba respuesta **Then** envía código de descuento. | EP12 |
-| US45 | `Sentimiento de Atención (Personal)` | Como `Gerente`, quiero `monitorear menciones sobre el trato de mis empleados`, para `gestionar capacitaciones`. | **Scenario 1:** Detección de nombre. **Given** reseña con nombre de empleado **When** detecta el patrón **Then** vincula la queja al legajo digital del staff. <br> **Scenario 2:** Tendencia trato. **Given** datos mensuales **When** genera reporte RRHH **Then** indica si las quejas son por actitud o lentitud. | EP12 |
-| US46 | `KPI de Retención Mensual de Clientes` | Como `Administrador`, quiero `ver cuántos clientes vuelven a dejar reseñas positivas`, para `medir la fidelización`. | **Scenario 1:** Tasa de retorno. **Given** historial anual **When** genera KPI **Then** indica el % de usuarios recurrentes. <br> **Scenario 2:** Churn reputacional. **Given** usuarios que antes eran positivos y ahora son negativos **When** detecta el cambio **Then** alerta sobre "Riesgo de pérdida de cliente". | EP12 |
 
 <br>
 
@@ -1487,93 +898,12 @@ En conjunto, la identificación de eventos, actores y flujos permitió construir
 
 ## 3.2. Impact Mapping
 
->*El Impact Mapping de BrandRadar vincula el objetivo central del producto —lograr la conversión y fidelización mediante el monitoreo de reputación e infraestructura— con las necesidades de Alfredo Negrete y Romina Apaza.*
-<br>
-
-<img src="brandradar-report/assets/impact-mapping/impact-mapping.png" alt="Brand Radar Impact Mapping" style="width: 1000 px">
-
-<br>
-
-Para Alfredo Negrete, el sistema no solo facilita la detección de quejas, sino que transforma el feedback en oportunidades de venta directa mediante la identificación de leads calientes y scripts de cierre.
-
-Para Romina Apaza, la solución elimina la carga operativa del monitoreo manual y le otorga capacidad analítica avanzada, permitiéndole entregar valor estratégico a través de KPIs de retención mensual y métricas de conversión real (ROI).
-
-Estos impactos se materializan en entregables como el motor de IA con entrenamiento por industria, módulos de SEO local sincronizados con Google Maps y herramientas de análisis creativo para redes sociales, asegurando una trazabilidad total con las 46 historias de usuario del backlog.
 
 <br>
 
 ---
 
 ## 3.3. Product Backlog
-
->*El Product Backlog de BrandRadar consolida el conjunto de funcionalidades priorizadas que guían el desarrollo del producto. Cada historia de usuario está estimada en Story Points y ordenada según su valor estratégico, lo que permite planificar iteraciones de forma incremental y realista. El backlog abarca cinco áreas principales: monitoreo de redes sociales, análisis de sentimiento mediante inteligencia artificial, gestión de reputación digital, generación de reportes y exportación de datos, y herramientas de respuesta y colaboración. En conjunto, el backlog está compuesto por 45 historias de usuario, distribuidas según su nivel de complejidad y prioridad.*
-
-<br>
-
-
-| # Orden | Story ID | Título | Descripción | Story Points |
-|:-------:|:--------:|:-------|:------------|:------------:|
-| 1 | US01 | Integración de APIs Externas | Como `Analista`, quiero `conectar APIs de Twitter e Instagram`, para `recolectar menciones automáticamente`. | 8 |
-| 2 | US02 | Filtrado de Exclusión | Como `Emprendedor`, quiero `excluir keywords irrelevantes`, para `evitar ruido de marcas homónimas`. | 3 |
-| 3 | US03 | Live Feed Monitor | Como `Community Manager`, quiero `ver un feed en vivo`, para `reaccionar de inmediato`. | 5 |
-| 4 | US04 | Implementación de Webhooks | Como `Desarrollador`, quiero `usar Webhooks`, para `reducir la latencia de alertas`. | 8 |
-| 5 | US05 | Detección de Sarcasmo e Ironía | Como `Gerente`, quiero `identificar sarcasmo`, para `evitar falsos positivos`. | 13 |
-| 6 | US06 | Ajuste Manual de Polaridad | Como `Analista`, quiero `corregir la polaridad manualmente`, para `entrenar mejor a la IA`. | 3 |
-| 7 | US07 | Entrenamiento de Modelos por Industria | Como `Administrador`, quiero `entrenar la IA con vocabulario específico`, para `mejorar la precisión según el rubro del cliente`. | 8 |
-| 8 | US08 | Visualización de Word Cloud | Como `Usuario`, quiero `ver nubes de palabras por sentimiento`, para `identificar temas críticos`. | 5 |
-| 9 | US09 | Configuración de Semáforo de Crisis | Como `Jefe de PR`, quiero `un semáforo configurable`, para `saber cuándo intervenir legalmente`. | 5 |
-| 10 | US10 | Alertas Multicanal en Móvil | Como `Usuario`, quiero `alertas móviles`, para `estar enterado fuera de la oficina`. | 5 |
-| 11 | US11 | Asignación de Tickets de Respuesta | Como `Soporte`, quiero `asignar menciones a miembros del equipo`, para `gestión inmediata`. | 5 |
-| 12 | US12 | Share of Sentiment | Como `Gerente`, quiero `ver mi sentimiento vs competencia`, para `saber mi posición en el mercado`. | 8 |
-| 13 | US13 | Rastreo de Hashtags Competidores | Como `Analista`, quiero `monitorear hashtags de competencia`, para `entender sus estrategias`. | 5 |
-| 14 | US14 | Reportes PDF Programados | Como `Ejecutivo`, quiero `reportes semanales automáticos`, para `ahorrar tiempo de gestión`. | 8 |
-| 15 | US15 | Filtro por Alcance (Influencers) | Como `Usuario`, quiero `filtrar por número de seguidores`, para `priorizar respuestas críticas`. | 3 |
-| 16 | US16 | Heatmap Horario | Como `Estratega`, quiero `ver horas pico de quejas`, para `ajustar turnos de moderación`. | 5 |
-| 17 | US17 | Exportación CSV/JSON | Como `Admin`, quiero `exportar data cruda`, para `análisis en Power BI`. | 3 |
-| 18 | US18 | Onboarding Interactivo | Como `Usuario nuevo`, quiero `un tutorial guiado`, para `configurar el sistema sin soporte`. | 5 |
-| 19 | US19 | Notas Internas | Como `Líder`, quiero `dejar comentarios en menciones`, para `coordinar respuestas con el equipo`. | 3 |
-| 20 | US20 | Selector de Workspaces | Como `Agencia`, quiero `cambiar entre marcas`, para `mantener datos separados`. | 5 |
-| 21 | US21 | Interfaz Responsiva | Como `Usuario móvil`, quiero `un diseño adaptable`, para `monitorear desde el celular`. | 8 |
-| 22 | US22 | Galería de Casos de Éxito | Como `Gerente de Muebles`, quiero `subir fotos de problemas resueltos`, para `mejorar mi imagen ante clientes`. | 5 |
-| 23 | US23 | Archivo Visual de Campañas | Como `Dueña de Boutique`, quiero `guardar snapshots de mis redes en fechas de alta venta`, para `replicar el éxito el próximo año`. | 5 |
-| 24 | US24 | Sugerencia de Respuestas Empáticas | Como `Dueña de Boutique`, quiero `respuestas automáticas de cortesía`, para `atender al cliente mientras estoy ocupada`. | 8 |
-| 25 | US25 | Monitor de Voz del Cliente | Como `Gerente Comercial`, quiero `un reporte de sugerencias de mejora de productos`, para `priorizar la fabricación de nuevos modelos`. | 8 |
-| 26 | US26 | Sincronización de Google Maps | Como `Dueño de Cafetería`, quiero `sincronizar reseñas de Maps`, para `no enterarme tarde de quejas de servicio`. | 8 |
-| 27 | US27 | Monitor de Múltiples Sucursales | Como `Dueño de locales`, quiero `ver datos de San Isidro y Miraflores por separado`, para `evaluar el desempeño de cada equipo`. | 5 |
-| 28 | US28 | Detección de Caída de Servicios Web | Como `Dueño de Negocio`, quiero `alerta de inactividad de página web o pasarela`, para `no perder ventas técnicas`. | 5 |
-| 29 | US29 | Monitor de Reputación de Aliados | Como `Gerente Comercial`, quiero `monitorear menciones de mis proveedores`, para `anticipar problemas en mi cadena de suministro`. | 5 |
-| 30 | US30 | Sugerencia de Hooks Audiovisuales | Como `Editor`, quiero `sugerencias de ganchos basados en tendencias`, para `retener audiencia en los primeros 3 segundos`. | 8 |
-| 31 | US31 | Análisis de Retención de Video | Como `Marketer`, quiero `ver en qué segundo los usuarios dejan de ver mis videos`, para `mejorar el montaje`. | 8 |
-| 32 | US32 | Benchmarking de Hooks Competidores | Como `Editor`, quiero `saber qué ganchos usa la competencia`, para `diferenciar mi contenido`. | 5 |
-| 33 | US33 | Tracking de Conversión (ROI) | Como `Jefe de Marketing`, quiero `conectar clics en menciones con ventas reales`, para `medir el retorno de inversión`. | 8 |
-| 34 | US34 | Integración de Métricas TikTok | Como `Marketer`, quiero `ver visualizaciones vs comentarios de TikTok`, para `diagnosticar por qué un video no despega`. | 5 |
-| 35 | US35 | Identificación de Influencers de Nicho | Como `Socio`, quiero `identificar profesionales influyentes en mi rubro`, para `proponer alianzas`. | 3 |
-| 36 | US36 | Detección de Trending Topics Locales | Como `Gestora Municipal`, quiero `saber qué temas preocupan a los vecinos por distrito`, para `orientar la comunicación oficial`. | 5 |
-| 37 | US37 | Análisis de Campaña Política | Como `Freelance en política`, quiero `monitorear menciones de candidatos`, para `gestionar comunidades municipales`. | 5 |
-| 38 | US38 | Simulador de Impacto de Comunicado | Como `Gerente de PR`, quiero `predecir la reacción a un comunicado`, para `evitar empeorar la crisis`. | 13 |
-| 39 | US39 | Histórico de Resoluciones de Crisis | Como `Jefe de PR`, quiero `ver cómo se resolvieron crisis similares en el pasado`, para `no repetir errores`. | 3 |
-| 40 | US40 | Dashboard de Tiempo de Respuesta Operativo | Como `Freelance`, quiero `medir mi tiempo de respuesta`, para `cumplir con KPIs de atención`. | 5 |
-| 41 | US41 | Identificación de Leads Calientes | Como `Vendedora`, quiero `detectar usuarios que preguntan por precios/tallas`, para `priorizar su atención inmediata`. | 5 |
-| 42 | US42 | Sugerencia de Scripts de Venta | Como `Usuario de WhatsApp`, quiero `sugerencias de frases para cerrar ventas`, para `evitar carritos abandonados`. | 5 |
-| 43 | US43 | Detección de Competencia Desleal (Market) | Como `Dueño de Negocio`, quiero `alerta de precios/ofertas agresivas de competidores`, para `ajustar mi estrategia`. | 5 |
-| 44 | US44 | Fidelización de Clientes VIP | Como `Gerente de Cafetería`, quiero `identificar clientes frecuentes que dejan reseñas`, para `ofrecerles compensaciones`. | 3 |
-| 45 | US45 | Sentimiento de Atención (Personal) | Como `Gerente`, quiero `monitorear menciones sobre el trato de mis empleados`, para `gestionar capacitaciones`. | 5 |
-| 46 | US46 | KPI de Retención Mensual de Clientes | Como `Administrador`, quiero `ver cuántos clientes vuelven a dejar reseñas positivas`, para `medir la fidelización`. | 8 |
-
-
-<div align="center">
-  
-**Herramienta utilizada:** `Trello`
-
-**URL del Product Backlog:** [Ver Product Backlog en Trello](https://trello.com/invite/b/69dfea832aaca97dda513a28/ATTI3586e52f52192c31ff4597c5fcf42e5cC6CA6C96/productbacklog-brandradar)
-
-<br>
-
-*Captura del Product Backlog en herramienta*
-
-![Product Backlog](brandradar-report/assets/product-backlog/productbacklog.png)
-
-</div>
 
 <br>
 
@@ -1591,165 +921,12 @@ Estos impactos se materializan en entregables como el motor de IA con entrenamie
 
 ### 4.1.1. General Style Guidelines
 
-### Branding:
-
-**Branding Overview**
-
-El nombre BrandRadar combina dos conceptos centrales: *"Brand"*, que representa la identidad y reputación de una empresa en el mercado, y *"Radar"*, que evoca monitoreo continuo, detección temprana y precisión analítica. Este nombre fue elegido por su claridad conceptual, fácil recordación y por reflejar con exactitud la misión del producto: rastrear, detectar y gestionar la reputación digital de una marca en tiempo real.
-
-<br>
-
-**Logo e Isotipo**
-
-El logotipo de BrandRadar combina un símbolo geométrico con una tipografía sans serif de alto contraste. El símbolo (un avión de papel dentro de un círculo con un punto en la parte superior) transmite velocidad, dirección y monitoreo activo, evocando la idea de rastrear señales en tiempo real. El punto exterior al círculo refuerza la metáfora del radar: una señal siendo detectada.
-
-La tipografía del wordmark divide visualmente las dos palabras que conforman el nombre: **Brand** aparece en negro y **Radar** en el color primario de la marca (azul-violeta o verde según la variante), lo que refuerza el concepto de "seguimiento de marca" de forma inmediata.
-
-Se dispone de dos variantes de logo para adaptarse a distintos contextos:
-
-<br>
-
-<div align="center">
-  
-| Variante | Descripción | Uso recomendado |
-|---|---|---|
-| **Principal (Purple/Blue)** | Isotipo en gradiente violeta–azul con wordmark en negro y primario | Fondos blancos, documentos, landing page |
-| **Alternativa (Teal)** | Isotipo en verde-turquesa con wordmark en negro y verde | Fondos claros alternativos, materiales secundarios |
-
-</div>
-
-<br>
-
-El isotipo circular puede utilizarse de forma independiente como favicon, ícono de aplicación móvil o avatar en redes sociales, manteniendo plena legibilidad a tamaños reducidos.
-
-<br>
-<div align="center">
-<img src="brandradar-report/assets/images/logos.png" alt="Logos de BrandRadar" width="600"/>
-</div>
-<br>
-
-**Uso No Permitido:**
-
-No se permite el uso de sombras paralelas (drop shadows) excesivas en el logotipo, ni la alteración de sus proporciones (estiramiento). Queda prohibido el uso de combinaciones de colores cálidos como rojo o naranja, ya que entran en conflicto con la psicología de "monitoreo sereno" y "seguridad de marca" que el azul y morado proyectan.
-
-<br>
-<div align="center">
-<img src="brandradar-report/assets/images/logo-no.png" alt="Logo No Permitido" width="300"/>
-</div>
-<br>
-
-### Typography:
-
-<br>
-
-La estrategia tipográfica de BrandRadar combina cinco familias de fuentes con roles claramente diferenciados, logrando un sistema visual que equilibra impacto, legibilidad y personalidad tecnológica. Todas las fuentes están disponibles a través de Google Fonts, garantizando compatibilidad en entornos web y móviles sin dependencias externas.
-
-- **Special Gothic Expanded One** se reserva para los títulos principales y elementos de branding de alto impacto. Su diseño expandido y de trazo uniforme domina el espacio visual, ideal para el hero de la landing page y portadas de reportes.
-
-- **Spartan** actúa como la fuente de encabezados estructurales. Su geometría limpia y sus proporciones equilibradas la hacen perfecta para organizar la jerarquía de secciones sin competir con el display principal.
-
-- **Special Gothic Condensed One** complementa al display en subtítulos y bloques destacados donde se requiere presencia tipográfica con menor ocupación horizontal, permitiendo mayor densidad de información en espacios reducidos.
-
-- **Radio Canada Big** es la fuente de interfaz y cuerpo de texto. Diseñada para alta legibilidad en pantallas, se usa en todo el contenido navegable: descripciones, párrafos, etiquetas de navegación, botones y formularios.
-
-- **TASA Orbiter** se emplea de forma selectiva en elementos de datos, métricas y componentes técnicos, aportando un carácter tecnológico y preciso que refuerza la naturaleza analítica del producto.
-
-<br>
-
-Sistema de familias tipográficas
-
-<br>
-
-| Tipo | Fuente | Uso |
-|:---|:---:|:---|
-| Display / Hero | **Special Gothic Expanded One** | Títulos principales, landing, branding |
-| Heading | **Spartan** | Encabezados (H2, H3, secciones) |
-| Subheading | **Special Gothic Condensed One** | Subtítulos y bloques destacados |
-| UI / Body | **Radio Canada Big** | Texto principal, navegación, interfaz |
-| Accent / Tech | **TASA Orbiter** | Elementos tecnológicos, números, métricas |
-
-<br>
-
-Jerarquía tipográfica
-
-<br>
-
-| Nivel | Fuente | Peso / Estilo | Tamaño | Uso |
-|:---|:---:|:---:|:---:|:---|
-| H1 | Special Gothic Expanded One | Bold / Wide | 56–72px | Hero, títulos principales |
-| H2 | Spartan | SemiBold | 36–42px | Secciones principales |
-| H3 | Spartan | Medium | 24–28px | Sub-secciones |
-| H4 | Special Gothic Condensed One | Regular | 18–20px | Encabezados secundarios |
-| Body 1 (Bold) | Radio Canada Big | SemiBold | 16px | Énfasis en cuerpo de texto |
-| Body 1 (Regular) | Radio Canada Big | Regular | 16px | Texto general de interfaz |
-| Body 2 / Caption | Radio Canada Big | Light | 13–14px | Texto secundario, notas al pie |
-| Nav link | Radio Canada Big | Medium | 15px | Ítems de navegación |
-| Button text | Radio Canada Big | SemiBold | 14px | Etiquetas de botones y CTAs |
-| UI / Data | TASA Orbiter | Regular | 14–16px | Datos, métricas, UI técnica |
-
-<br>
-<div align="center">
-<img src="brandradar-report/assets/images/type.png" alt="Typography and colors" width="350"/>
-</div>
-<br>
-
-### Colors
-
-La paleta de BrandRadar está diseñada para transmitir confianza, tecnología y enfoque analítico, manteniendo un balance entre tonos oscuros profundos, fondos limpios y acentos vibrantes que dirigen la atención del usuario hacia las acciones y datos más relevantes.
-
-Los tonos oscuros (negro y azul pizarra) aportan seriedad y profundidad, adecuados para encabezados, fondos de componentes y texto principal. Los tonos lavanda y lila claro funcionan como superficies neutras de bajo contraste, ideales para fondos de tarjetas, estados hover y separadores. El blanco y el gris muy claro garantizan espacios de respiro visual que mejoran la legibilidad. Como contrapeso, los acentos en azul-violeta intenso y violeta-púrpura introducen dinamismo, identifican las acciones primarias y refuerzan la identidad tecnológica del producto.
-
-<br>
-<div align="center">
-<img src="brandradar-report/assets/images/colors.png" alt="Paleta de colores de BrandRadar" width="650"/>
-</div>
-<br>
-
-| Nombre | Hex | Uso |
-|:---|:---:|:---|
-| Black | `#000000` | Texto de alta importancia, encabezados H1 |
-| Slate / Dark Text | `#3D4466` | Texto secundario oscuro, íconos, subtítulos |
-| Lavender Medium | `#8B8FBF` | Estados deshabilitados, texto terciario |
-| Lavender Light | `#C5C7E0` | Bordes, separadores, fondos de hover |
-| Off-White | `#ECEDF5` | Fondo de tarjetas, superficies secundarias |
-| White / Ghost | `#F5F5FA` | Fondo general de la aplicación |
-| Near White | `#FAFAFA` | Fondo de página, áreas de contenido amplio |
-| Navy Deep | `#0D1033` | Fondo de headers oscuros, sidebar dark mode |
-| Midnight Blue | `#1A2155` | Fondo de secciones hero, banners de alerta |
-| Primary Purple | `#5B5FEE` | Botones primarios, links activos, CTA |
-| Accent Blue | `#4B6EF5` | Estados hover de botones, énfasis secundario |
-| Accent Violet | `#9B3CF7` | Highlights, badges, métricas destacadas |
-
-<br>
-
-Adicionalmente, se definen colores de estado semántico para alertas, notificaciones y feedback del sistema:
-
-| Estado | Hex | Uso |
-|:---|:---:|:---|
-| Success (positivo) | `#22C55E` | Sentimiento positivo, confirmaciones |
-| Warning (moderado) | `#F59E0B` | Alertas medias, advertencias |
-| Danger (crítico) | `#EF4444` | Alertas críticas, errores, sentimiento negativo |
-| Info (informativo) | `#3B82F6` | Mensajes informativos, tooltips |
-
 <br>
 
 ---
 
 ## 4.2. Information Architecture
 
-La arquitectura de información de **BrandRadar** ha sido diseñada para estructurar de forma clara y jerárquica los contenidos, permitiendo a los usuarios (dueños de PyMEs y especialistas de marketing) monitorear su reputación digital sin fricciones. Se prioriza una navegación intuitiva que reduzca la carga cognitiva al gestionar múltiples fuentes de datos en tiempo real.
-
-A continuación, se presentan los diagramas de estructura que representan la organización general de la plataforma, tanto en su versión web como móvil.
-
-**Figura 1. Diagrama de estructura de la página web**
-
-<img src="brandradar-report/assets/images/PRIMER DIAGRAMA.png" alt="BrandRadar Web Map" width="100%"/>
-
-<br>
-
-**Figura 2. Diagrama de la estructura de la aplicación móvil (Android y iOS)**
-
-<img src="brandradar-report/assets/images/SEGUNDO DIAGRAMA.png" alt="BrandRadar Mobile Map" width="100%"/>
 
 <br>
 
@@ -1757,98 +934,11 @@ A continuación, se presentan los diagramas de estructura que representan la org
 
 ### 4.2.1. Organization Systems
 
-<div align="center">
-  
-### Organización visual del contenido
-
-<br>
-
-  
-**Experiencia Web**
-
-| Forma de organización visual | Razón | Sección de la plataforma |
-|---|---|---|
-| **Jerárquica (Visual Hierarchy)** | Prioriza las alertas críticas y el score de reputación para una respuesta inmediata ante crisis. Los elementos de mayor importancia (score, alertas rojas) ocupan la posición superior izquierda y mayor tamaño visual. | Dashboard principal, Panel de alertas críticas. |
-| **Secuencial (Step-by-step)** | Guía al usuario en flujos obligatorios que deben completarse en orden, como el alta de una marca o la conexión de fuentes de datos externas. | Registro de cuenta, Configuración de fuentes (APIs), Configuración de alertas, Onboarding. |
-| **Matricial (Modular)** | Divide las métricas (sentimiento, reseñas, menciones) en bloques independientes y comparables, evitando la saturación visual al gestionar múltiples fuentes simultáneamente. | Sección de Monitoreo detallado, Reportes, Análisis comparativo. |
-
-<br>
-
-**Experiencia Móvil**
-
-| Forma de organización visual | Razón | Sección de la plataforma |
-|---|---|---|
-| **Jerárquica (Visual Hierarchy)** | Facilita el acceso inmediato a notificaciones push y al resumen de menciones recientes en pantallas de tamaño reducido, donde el espacio es crítico. | Pantalla de inicio, Centro de notificaciones en tiempo real. |
-| **Secuencial (Step-by-step)** | Permite al usuario completar tareas rápidas —como responder una reseña o reportar una mención negativa— sin perderse en submenús. | Gestión de reseñas individuales, Reporte de incidentes, Respuesta rápida. |
-| **Matricial (Modular)** | Optimiza la lectura de datos de sentimiento y tendencias agrupándolos en tarjetas desplazables, sin saturar la interfaz móvil. | Dashboard móvil, Ajustes de alertas. |
-
-</div>
-
-<br>
-
-<div align="center">
-  
-### Esquemas de categorización de contenido
-
-<br>
-
-**Experiencia Web**
-
-| Esquema de organización | Razón | Sección de la plataforma |
-|---|---|---|
-| **Cronológico** | Muestra las menciones y comentarios conforme ocurren en tiempo real, ofreciendo al usuario una línea de tiempo de su reputación. | Feed de Monitoreo, Historial de alertas, Línea de tiempo de menciones. |
-| **Por tópicos** | Agrupa el análisis según la fuente o área temática (Redes Sociales, Google Maps, Web General), para que el usuario acceda directamente a la fuente relevante. | Fuentes de datos configuradas, Análisis de sentimiento por plataforma. |
-| **Según audiencia** | Personaliza el panel y las funciones visibles según el rol del usuario: vista simplificada para el dueño de PyME vs. vista multi-marca para el Account Manager de agencia. | Dashboard principal, Gestión de cuentas de clientes. |
-
-<br>
-
-**Experiencia Móvil**
-
-| Esquema de organización | Razón | Sección de la plataforma |
-|---|---|---|
-| **Cronológico** | Presenta las alertas más urgentes primero según el momento de detección, facilitando la respuesta oportuna desde cualquier lugar. | Centro de notificaciones, Feed de menciones recientes. |
-| **Por tópicos** | Clasifica las alertas por nivel de riesgo (Alto, Medio, Bajo) para que el usuario priorice su atención de forma visual e inmediata. | Filtros de búsqueda rápida, Listado de crisis detectadas. |
-| **Según audiencia** | Adapta las herramientas y acciones disponibles en el menú según el rol del usuario autenticado. | Menú de navegación principal, Pantalla de configuración de perfil. |
-
-</div>
 <br>
 
 ---
 
 ### 4.2.2. Labeling Systems
-
-El objetivo del sistema de etiquetado de BrandRadar es representar conjuntos de información complejos (reputación, sentimiento, alertas, métricas) con el menor número de palabras posible, evitando la ambigüedad. Todas las etiquetas son concretas, orientadas a la acción y coherentes entre la versión web y móvil.
-
-<br>
-
-<div align="center">
-<img src="brandradar-report/assets/images/icons.png" alt="Iconos de navegacion" width="700"/>
-
-<br> <br>
-
-**Etiquetas de estados y badges**
-
-| Contexto | Etiqueta | Color |
-|---|---|---|
-| Sentimiento positivo | **Positivo** | Verde `#43A047` |
-| Sentimiento negativo | **Negativo** | Rojo `#E53935` |
-| Sentimiento neutro | **Neutro** | Gris `#9E9E9E` |
-| Nivel de alerta alto | **Crítico** | Rojo `#E53935` |
-| Nivel de alerta medio | **Moderado** | Naranja `#FB8C00` |
-| Nivel de alerta bajo | **Informativo** | Azul `#1A73E8` |
-
-</div>
-
-<br>
-
-**Etiquetas de acciones directas en tarjetas**
-
-- **Responder** — abre el editor de respuesta a una reseña.
-- **Ver detalle** — expande la mención o alerta seleccionada.
-- **Generar reporte** — inicia la generación del informe de la crisis detectada.
-- **Marcar revisado** — archiva la alerta sin generar acción.
-- **Escalar** — redirige la alerta al administrador de cuenta.
-
 
 <br>
 
@@ -1856,178 +946,16 @@ El objetivo del sistema de etiquetado de BrandRadar es representar conjuntos de 
 
 ### 4.2.3. SEO Tags and Meta Tags
 
-**Landing Page**
-
-```html
-<!-- Landing Page: BrandRadar -->
-<title>BrandRadar – Monitoreo de Reputación Digital para PyMEs</title>
-
-<meta name="description"
-  content="BrandRadar analiza en tiempo real las menciones, reseñas y comentarios de tu marca en redes sociales, Google Maps y la web. Detecta crisis, gestiona alertas y mejora tu reputación digital.">
-
-<meta name="keywords"
-  content="monitoreo de reputación, gestión de reseñas, alertas de marca, análisis de sentimiento, menciones en redes sociales, reputación digital PyMEs, Google Maps reviews, social listening">
-
-<meta name="author" content="BrandRadar Team">
-
-<meta property="og:title" content="BrandRadar – Monitoreo de Reputación Digital para PyMEs">
-<meta property="og:description"
-  content="Detecta crisis reputacionales antes de que escalen. Analiza el sentimiento de tu marca en tiempo real.">
-<meta property="og:image" content="https://brandradar.app/assets/og-cover.png">
-<meta property="og:url" content="https://brandradar.app">
-<meta property="og:type" content="website">
-
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="BrandRadar – Monitoreo de Reputación Digital">
-<meta name="twitter:description"
-  content="Gestiona la reputación de tu negocio desde un solo panel. Alertas en tiempo real, análisis de sentimiento y reportes automáticos.">
-
-<link rel="canonical" href="https://brandradar.app">
-```
-<br>
-
-**Web Application — Dashboard (usuario autenticado)**
-
-<br>
-
-```html
-<!-- Dashboard principal -->
-<title>Dashboard – BrandRadar</title>
-<meta name="description" content="Resumen de tu score de reputación, alertas críticas y menciones recientes.">
-<meta name="robots" content="noindex, nofollow">
-<meta name="author" content="BrandRadar Team">
-```
-<br>
-
-**Web Application — Sección Monitoreo**
-
-<br>
-
-```html
-<title>Monitoreo en Tiempo Real – BrandRadar</title>
-<meta name="description"
-  content="Feed en tiempo real de todas las menciones detectadas de tu marca en redes sociales, Google Maps y la web general.">
-<meta name="robots" content="noindex, nofollow">
-<meta name="author" content="BrandRadar Team">
-```
-
-<br>
-
-**Web Application — Sección Reportes**
-
-```html
-<title>Reportes de Reputación – BrandRadar</title>
-<meta name="description"
-  content="Genera informes detallados sobre la evolución de la reputación de tu marca. Exporta en PDF o comparte directamente.">
-<meta name="robots" content="noindex, nofollow">
-<meta name="author" content="BrandRadar Team">
-```
-
 <br>
 
 ---
 
 ### 4.2.4. Searching Systems
 
-En BrandRadar, los sistemas de búsqueda han sido diseñados para reducir el tiempo de localización de información crítica dentro de un volumen alto de datos provenientes de múltiples fuentes simultáneas. El usuario nunca debe sentirse abrumado; los filtros actúan como capas que van reduciendo progresivamente el universo de resultados hasta mostrar exactamente lo que necesita.
-
-**Tipos de búsqueda disponibles**
-
-| Nombre | Descripción | Disponible en |
-|---|---|---|
-| **Barra de búsqueda libre** | Búsqueda por palabra clave, nombre de marca, frase específica o URL. Autocompletado con sugerencias basadas en historial. | Web y App |
-| **Filtro por Sentimiento** | Aísla menciones positivas, negativas o neutras para gestión de crisis o fidelización. | Web y App |
-| **Filtro por Plataforma** | Segmenta resultados por fuente: Instagram, Facebook, Google Maps, Twitter/X, TripAdvisor, web general. | Web y App |
-| **Filtro por Criticidad** | Enfoca la vista en alertas de alta prioridad (caída de score, reseñas de 1 estrella, pico de menciones negativas). | Web y App |
-| **Rango cronológico** | Visualiza menciones y tendencias en un período específico (ej. semana de campaña, Black Friday). | Web y App |
-| **Filtro por tipo de mención** | Diferencia entre reseñas, comentarios, noticias y menciones directas en redes. | Web |
-| **Buscador de competidores** | Busca palabras clave asociadas a la competencia para análisis de benchmarking. | Web |
-
-**Cómo lucen los resultados después de la búsqueda**
-
-Los resultados se presentan como **tarjetas informativas** ordenadas cronológicamente (más reciente primero):
-
-- El **badge de sentimiento** (verde/rojo/gris) permite identificar el tono de un vistazo.
-- El **badge de criticidad** (Crítico / Moderado / Informativo) indica la urgencia de acción.
-- Los **botones de acción directa** permiten gestionar la mención sin salir de la vista de resultados.
-- Al aplicar filtros, aparece una barra de **filtros activos** en la parte superior, donde cada filtro puede eliminarse individualmente con una "X".
-- Si la búsqueda no devuelve resultados, se muestra un mensaje con sugerencias: "No encontramos menciones con estos filtros. Prueba ampliar el rango de fechas o eliminar un filtro."
-
 <br>
 
 
 ## 4.2.5. Navigation Systems
-
-Los sistemas de navegación de BrandRadar han sido diseñados para guiar al usuario de forma clara, personalizada e intuitiva tanto en la Landing Page como en la aplicación web y móvil. El objetivo es que los dueños de PyMEs y los especialistas de marketing encuentren cualquier funcionalidad en tres clics o menos.
-
-<br>
-<div align="center">
-  
-**Landing Page**
-
-</div>
-<br>
-
-La navegación se basa en una **barra superior fija** (sticky header) con las siguientes secciones:
-
-<br>
-<div align="center">
-  
-| Etiqueta | Destino |
-|---|---|
-| Inicio | Hero section con propuesta de valor |
-| Características | Bloque de funcionalidades principales |
-| Planes | Tabla de precios y comparativa de suscripciones |
-| Testimonios | Casos de éxito de clientes |
-| Comunidad | Foro y recursos de la comunidad BrandRadar |
-| Iniciar sesión | Redirección al login de la aplicación |
-
-<br>
-</div>
-
-Se incorporan **CTAs visibles** a lo largo del scroll:
-- _"Empieza tu monitoreo gratis"_ — activa el flujo de registro.
-- _"Agenda una demo"_ — abre un modal con formulario de contacto.
-- _"Ver planes"_ — ancla a la sección de precios.
-
-El **pie de página** complementa la navegación secundaria con acceso a: Política de Privacidad, Términos de Servicio, Documentación de la API, Centro de Ayuda y redes sociales oficiales.
-
-<br>
-<div align="center">
-  
-**Aplicación Web — Dashboard**
-
-</div>
-<br>
-
-Se implementa un patrón de navegación híbrido:
-
-- **Sidebar lateral izquierdo** (fijo en desktop, colapsable en tablet): acceso permanente a las secciones principales.
-- **Pestañas superiores** dentro de secciones complejas (ej. Monitoreo > pestaña Instagram / Google Maps / Web).
-- **Breadcrumbs** en rutas profundas para indicar al usuario en qué nivel de la jerarquía se encuentra (ej. _Clientes > Marca XYZ > Alertas_).
-
-<br>
-<div align="center">
-  
-**Aplicación Móvil**
-
-</div>
-
-La navegación móvil utiliza una **barra inferior de navegación** (bottom tab bar) con los 4-5 destinos más frecuentes, siguiendo el patrón estándar de iOS y Android:
-
-<br>
-<div align="center">
-  
-**Dueño de PyME (barra inferior)**
-
-<img src="brandradar-report/assets/images/navigation-1.png" alt="Navegacion Movil" width="700"/>
-
-**Especialista de Marketing (barra inferior)**
-
-<img src="brandradar-report/assets/images/navigation-2.png" alt="Navegacion Movil" width="700"/>
-</div>
-
-Las notificaciones push dirigen al usuario directamente a la mención o alerta específica, sin necesidad de navegar manualmente por la app. Los flujos de acción rápida (responder reseña, escalar alerta) se resuelven en modales de pantalla completa que no interrumpen la ruta de navegación principal.
 
 <br>
 
@@ -2101,67 +1029,25 @@ En esta etapa se materializa la propuesta de wireframes en una interfaz visual c
 
 ## 4.4. Web Applications UX/UI Design
 
->*En esta sección se presenta la propuesta visual y de interacción para la aplicación web de BrandRadar. El diseño ha sido desarrollado a partir de los hallazgos obtenidos en el proceso de investigación con usuarios, priorizando la claridad en la visualización de datos, el acceso rápido a funcionalidades críticas y una experiencia coherente tanto para dueños de PyMEs como para especialistas de marketing.
-Se aplican principios de diseño centrado en el usuario, consistencia visual basada en el Design System definido y una arquitectura de información orientada a reducir la carga cognitiva en cada interacción.*
 
 <br>
 
 ### 4.4.1. Web Applications Wireframes
 
->*Los wireframes presentados a continuación representan la estructura base de las principales vistas de la aplicación web de BrandRadar. Su elaboración se realizó aplicando principios de diseño inclusivo, asegurando que la disposición de los elementos sea clara, comprensible y accesible para usuarios con distintos niveles de experiencia tecnológica.*
-
 <br>
 
-![Web App Wireframes](brandradar-report/assets/web-app/wireframes.png)
 
-<br>
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
-*(Un Wireflow por cada User goal, considerando los User Personas definidos)*
-
-<br>
-
-
-**User goal: `[Nombre del User goal]`**
-
-*(Descripción del flujo especificado)*
-
-![Wireflow Diagrama 1](brandradar-report/assets/web-app/wireflow-1.png)
-
-<br>
-
-**User goal: `[Nombre del User goal]`**
-
-*(Descripción del flujo especificado)*
-
-![Wireflow Diagrama 2](brandradar-report/assets/web-app/wireflow-2.png)
 
 <br>
 
 ### 4.4.3. Web Applications Mock-ups
 
->*Los mock-ups presentados a continuación representan la propuesta visual final de las principales vistas de la aplicación web de BrandRadar, incorporando el Design System definido en la sección 4.1. A diferencia de los wireframes, estas vistas integran la paleta de colores, tipografía, iconografía, componentes visuales y espaciado establecidos para la plataforma, ofreciendo una representación de alta fidelidad de la experiencia de usuario en el sistema.*
-
->*El diseño busca transmitir confianza, claridad y eficiencia, valores fundamentales de BrandRadar, asegurando que tanto los dueños de PyMEs como los account managers de agencias puedan interpretar la información de reputación digital de forma rápida e intuitiva.*
-
-<br>
-
-![Web App Mockups](brandradar-report/assets/web-app/mockups.png)
-
 <br>
 
 ### 4.4.4. Web Applications User Flow Diagrams
-
-*(User Flows incluyendo Mock-ups de vistas, happy paths y unhappy paths)*
-
-<br>
-
-**User goal: `[Nombre del User goal]`**
-
-*(Descripción de los flujos y condiciones especificadas)*
-
-![User Flow Diagrama 1](brandradar-report/assets/web-app/user-flow-1.png)
 
 <br>
 
@@ -2169,36 +1055,6 @@ Se aplican principios de diseño centrado en el usuario, consistencia visual bas
 
 ## 4.5. Web Applications Prototyping
 
-En esta sección se presenta el prototipo interactivo de la aplicación web de BrandRadar, desarrollado en Figma a partir de los mock-ups de alta fidelidad definidos en la sección anterior. El prototipo simula la navegación real del sistema, permitiendo visualizar los flujos de interacción entre las distintas vistas de la plataforma en sus versiones Desktop y Mobile Web.
-
-Las decisiones de interacción del prototipo se basaron en los siguientes criterios:
-
-- **Accesibilidad y simplicidad:** Se prioriza una navegación intuitiva que permita a cualquier usuario, independientemente de su nivel técnico, utilizar la plataforma sin necesidad de instrucciones previas, especialmente en el segmento de dueños de PyMEs.
-- **Rapidez de acceso a funciones críticas:** Las acciones más frecuentes, como la revisión de alertas, el análisis de sentimiento y la generación de reportes, se encuentran disponibles desde el Dashboard principal con el menor número de interacciones posible.
-- **Consistencia visual:** Todos los elementos siguen el Design System definido, garantizando un comportamiento coherente y predecible en componentes como botones, formularios, tarjetas y navegación.
-- **Diseño responsivo:** El prototipo se adapta a dispositivos móviles, asegurando una experiencia consistente que permita el monitoreo de la reputación digital desde cualquier dispositivo.
-
-A continuación, se presentan los prototipos para Desktop y Mobile Web, junto con los videos de simulación de navegación correspondientes.
-
-<br>
-
-<div align="center">
-
-**Prototipo Desktop**
-
-![Screenshot Prototipo Desktop](brandradar-report/assets/prototypes/prototype-desktop-screenshot.png)
-
-[Ver video de prototipo Desktop en Microsoft Stream](`URL`)
-
-<br>
-
-**Prototipo Mobile**
-
-![Screenshot Prototipo Mobile](brandradar-report/assets/prototypes/prototype-mobile-screenshot.png)
-
-[Ver video de prototipo Mobile en Microsoft Stream](`URL`)
-
-</div>
 
 <br>
 
@@ -2207,140 +1063,6 @@ A continuación, se presentan los prototipos para Desktop y Mobile Web, junto co
 ## 4.6. Domain-Driven Software Architecture
 
 ### 4.6.1. Design-Level Event Storming
-
->*Para definir la arquitectura de BrandRadar orientada al dominio (DDD), se realizó un proceso iterativo de Design-Level Event Storming siguiendo la metodología de 10 pasos. A continuación, se detalla la evolución del modelo:*
-
-<br>
-  
-**Step 1: Unstructured Exploration**
-
-Se identificaron y representaron todos los eventos que modifican el estado del sistema, escritos en tiempo pasado (post-its naranjas). Estos abarcan desde `User Registered` hasta `PDF Report Generated`, entre otros eventos relevantes del dominio.
-
-<br>
-<div align="center">
-  
-![Step1 - Event Storming](brandradar-report/assets/design-level-storm/step1.png)
-
-</div>
-
-**Step 2: Timelines**
-
-Se ordenaron los eventos del dominio de forma cronológica de izquierda a derecha, estableciendo el flujo del ciclo de vida del monitoreo de reputación digital.
-
-<br>
-<div align="center">
-  
-![Step2 - Event Storming](brandradar-report/assets/design-level-storm/step2.png)
-
-</div>
-
-**Step 3: Hotspots**
-
-Se identificaron los puntos críticos del sistema y riesgos técnicos del negocio (marcados con rombos rojos), como posibles limitaciones por rate limits en APIs de redes sociales o falsos positivos en los modelos de análisis de sentimiento basados en inteligencia artificial.
-
-<br>
-<div align="center">
-  
-![Step3 - Event Storming](brandradar-report/assets/design-level-storm/step3.png)
-
-</div>
-
-**Step 4: Pivotal Events**
-
-Se definieron eventos pivote que segmentan el flujo del sistema en fases funcionales, delimitando el cambio de estado entre la configuración inicial, el monitoreo automático y la gestión de crisis reputacionales.
-
-<div align="center">
-  
-![Step4 - Event Storming](brandradar-report/assets/design-level-storm/step4.png)
-
-</div>
-
-**Step 5: Commands & Actors**
-
-Se definieron los commands (post-its azules) que disparan los eventos del sistema, así como los actores (íconos amarillos) responsables de ejecutarlos, ya sean usuarios (PyME / Agencia) o procesos automatizados del sistema.
-
-<div align="center">
-  
-![Step5 - Event Storming](brandradar-report/assets/design-level-storm/step5.png)
-
-</div>
-
-**Step 6: Policies**
-
-Se incorporaron las business policies (post-its lilas), que representan reglas de negocio reactivas que automatizan el comportamiento del sistema. Por ejemplo, la regla que establece que cuando una mención presenta sentimiento negativo, se genera automáticamente una alerta de alta prioridad.
-
-<div align="center">
-  
-![Step6 - Event Storming](brandradar-report/assets/design-level-storm/step6.png)
-
-</div>
-
-**Step 7: Read Models**
-
-Se mapearon los read models (post-its verdes), que representan las vistas e interfaces que los usuarios necesitan consultar para la toma de decisiones antes de ejecutar un comando.
-
-<div align="center">
-  
-![Step7 - Event Storming](brandradar-report/assets/design-level-storm/step7.png)
-
-</div>
-
-**Step 8: External Systems**
-
-Se identificaron los sistemas externos (post-its rosados) que interactúan con BrandRadar, incluyendo APIs de redes sociales, Google Maps API y servicios de procesamiento de lenguaje natural (NLP) basados en inteligencia artificial.
-
-<div align="center">
-  
-![Step8 - Event Storming](brandradar-report/assets/design-level-storm/step8.png)
-
-</div>
-
-**Step 9: Aggregates**
-
-Se incrementó el nivel de abstracción agrupando comandos y eventos alrededor de las principales entidades del dominio (Aggregates, representados como post-its amarillos grandes). En esta etapa se definieron agregados clave como `Account`, `Brand`, `Mention`, `Crisis Alert` y `Analytics Report`, los cuales encapsulan la consistencia de las reglas de negocio y el estado del sistema.
-
-<div align="center">
-  
-![Step9 - Event Storming](brandradar-report/assets/design-level-storm/step9.png)
-
-</div>
-
-**Step 10: Bounded Contexts**
-
-Finalmente, se delimitaron los límites semánticos y transaccionales del dominio mediante la definición de Bounded Contexts, agrupando los agregados relacionados en bloques coherentes e independientes. Este paso consolidó la arquitectura del sistema en seis contextos principales: Account Management, Brand Management, Monitoring, Sentiment Analysis, Alert Management y Reporting.
-
-<div align="center">
-  
-![Step10 - Event Storming](brandradar-report/assets/design-level-storm/step10.png)
-
-  
-**Bounded Contexts:**
-
-![BoundextContext1](brandradar-report/assets/boundext-context/accountmanager.png)
-
-![BoundextContext2](brandradar-report/assets/boundext-context/brandmanager.png)
-
-![BoundextContext3](brandradar-report/assets/boundext-context/monitoring.png)
-
-![BoundextContext4](brandradar-report/assets/boundext-context/sentimentanalysis.png)
-
-![BoundextContext5](brandradar-report/assets/boundext-context/alertmanagment.png)
-
-![BoundextContext6](brandradar-report/assets/boundext-context/reporting.png)
-
-</div>
-
-<br>
-
-El proceso de Design-Level Event Storming permitió profundizar en el comportamiento técnico del sistema, tomando como base los flujos identificados en el Big Picture Event Storming. En esta etapa, se definieron los límites transaccionales (Bounded Contexts) y se incorporaron elementos de diseño táctico como Comandos (Commands), Agregados (Aggregates) y Políticas (Policies). [Ver Miro](https://miro.com/welcomeonboard/OFNBUUR3ZHl3VWkyVzJPRzhPWEV5bHF2S0hiRjArNEswejJoT0ZyZVdHQ0VMVDkzNy9Xd3RCOGdHemhTN3ZJblhjSkJLRjBneGRvNjdaaXNCZHkvWVQ3N1VhMUxRYkI4SmNBRTdTaHpBWWlzRHhGTTZKL2NFVjVtK1IwcFZscnhnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=126405139400).
-
-A partir del análisis del dominio de BrandRadar, se consolidaron seis Bounded Contexts principales:
-1. **Account Management:** Gestiona la identidad de los usuarios, roles (PyME Owner, Agency Manager) y sesiones de autenticación.
-2. **Brand Management:** Administra la configuración de marcas, palabras clave (keywords) y la conexión con fuentes de datos externas.
-3. **Monitoring:** Coordina la integración con APIs externas y la recolección de menciones (mentions) en tiempo real.
-4. **Sentiment Analysis:** Delega el procesamiento de lenguaje natural y clasifica el sentimiento.
-5. **Alert Management:** Aplica reglas de negocio para la generación de alertas y notificaciones ante eventos críticos o menciones negativas.
-6. **Reporting:** Consolida métricas del sistema y genera dashboards y reportes exportables para análisis y toma de decisiones.
    
 <br>
 
@@ -2348,116 +1070,9 @@ A partir del análisis del dominio de BrandRadar, se consolidaron seis Bounded C
 
 ### 4.6.2. Software Architecture Context Diagram
 
->*El Diagrama de Contexto representa a BrandRadar dentro de su entorno operativo, mostrando las interacciones de alto nivel entre el sistema, los usuarios y los sistemas externos.*
-
-<br>
-
-![Software Architecture Context Diagram](brandradar-report/assets/architecture/context-diagram.png)
-
-Este nivel de abstracción permite comprender el alcance del sistema y su valor dentro del dominio de negocio, evidenciando cómo los actores principales —PyME Owner y Agency Manager— interactúan con la plataforma central de BrandRadar. Asimismo, se identifican las dependencias críticas con sistemas externos, como las APIs de redes sociales y Google Maps para la obtención de datos, y servicios de Inteligencia Artificial (NLP) para el análisis automático de sentimiento.
-
-<br>
-
-### 4.6.3. Software Architecture Container Diagrams
-
->*El Diagrama de Contenedores descompone el sistema BrandRadar en sus unidades desplegables, describiendo cómo se distribuyen las responsabilidades técnicas y las tecnologías utilizadas en cada componente.*
-
-<br>
-<div align="center">
-  
-![Software Architecture Container Diagram](brandradar-report/assets/architecture/container-diagram.png)
-
-</div>
-<br>
-
-En esta vista se presenta la arquitectura de contenedores del sistema BrandRadar, basada en una aproximación de microservicios. Se observa cómo la aplicación cliente (Web App SPA) se comunica exclusivamente con un API Gateway, el cual actúa como punto de entrada único y enruta las solicitudes hacia los distintos servicios de dominio.
-
-Este enfoque permite centralizar la gestión de autenticación, seguridad y enrutamiento, desacoplando la capa de presentación de la lógica de negocio.
-
-Asimismo, se justifica la adopción de persistencia políglota, utilizando una base de datos relacional para datos transaccionales estructurados (cuentas, usuarios y suscripciones), y una base de datos documental para el manejo de información no estructurada y de alta volumetría, como las menciones provenientes de redes sociales.
-
 <br>
 
 ### 4.6.4. Software Architecture Components Diagrams
-
-Para el diagrama de componentes, se ha desglosado la arquitectura interna de cada contenedor principal, alineándola directamente con los Bounded Contexts identificados durante el proceso de Event Storming.
-
-Este nivel de detalle permite identificar las piezas de software que conforman cada microservicio, tales como controladores, servicios de lógica de negocio, repositorios de acceso a datos y conectores hacia sistemas externos.
-
-A continuación, se presentan los diagramas de componentes correspondientes a los seis contextos delimitados del sistema:
-
-<br>
-<div align="center">
-  
-**Bounded Context: `Account Manager`**
-
-![Component Diagram BC1](brandradar-report/assets/architecture/account-components.png)
-
-</div>
-<br>
-
-Administra la seguridad, la emisión de tokens JWT, el registro de usuarios y el control de las cuotas permitidas según el plan de suscripción adquirido.
-
-<br>
-<div align="center">
-  
-**Bounded Context: `Brand Management`**
-
-![Component Diagram BC2](brandradar-report/assets/architecture/brand-components.png)
-
-</div>
-<br>
-
-Permite la configuración del núcleo del negocio: la creación de marcas, la validación de palabras clave (keywords) y el intercambio seguro de tokens OAuth con plataformas de terceros.
-
-<br>
-<div align="center">
-
-**Bounded Context: `Monitoring`**
-
-![Component Diagram BC3](brandradar-report/assets/architecture/monitoring-components.png)
-
-</div>
-<br>
-  
-Encargado de orquestar los ciclos programados (Schedulers) para extraer datos de Google Maps y Redes Sociales, filtrarlos y almacenarlos en la base de datos documental.
-
-<br>
-<div align="center">
-
-**Bounded Context: `Sentiment Analysis`**
-
-![Component Diagram BC4](brandradar-report/assets/architecture/sentiment-components.png)
-
-</div>
-<br>
-
-Integra el motor central de evaluación. Recibe eventos de nuevas menciones, interactúa con la API de NLP externa, aplica reglas locales para detección de sarcasmo y determina si el sentimiento cruza el umbral negativo.
-
-
-<br>
-<div align="center">
-  
-**Bounded Context: `Alert Management`**
-
-![Component Diagram BC5](brandradar-report/assets/architecture/alert-components.png)
-
-</div>
-<br>
-
-Gestiona el ciclo de vida de las crisis de reputación. Evalúa las menciones negativas, genera tickets de seguimiento y dispara notificaciones push a través de servicios como Firebase/APNs.
-
-<br>
-<div align="center">
-  
-**Bounded Context: `Reporting`**
-
-![Component Diagram BC6](brandradar-report/assets/architecture/reporting-components.png)
-
-</div>
-<br>
-
-Consolida la información mediante procesos asíncronos para generar dashboards analíticos y reportes descargables en PDF, permitiendo a las agencias presentar resultados tangibles a sus clientes.
 
 <br>
 
@@ -2781,272 +1396,11 @@ Este contexto representa la capa de visualización y síntesis del sistema, cons
 
 ### 5.1.1. Software Development Environment Configuration
 
-En esta sección se describen las herramientas de software seleccionadas para dar soporte a las distintas fases del ciclo de vida del producto digital BrandRadar. Se incluyen sus nombres, objetivos específicos dentro del proyecto y los enlaces de acceso o descarga, diferenciando entre soluciones SaaS y aplicaciones instalables.
-
-<br>
-
-<div align="center">
-
-**Gestión de Requisitos**
-
-| Herramienta | Uso principal | Enlace |
-|:---|:---|:---|
-| ![Miro](https://img.shields.io/badge/Miro-FFD02F?style=for-the-badge&logo=miro&logoColor=black) | Elaboración colaborativa de As-Is y To-Be Scenario Maps, así como Impact Maps para cada segmento objetivo. | [miro.com](https://miro.com) |
-| ![UXPressia](https://img.shields.io/badge/UXPressia-6B4FBB?style=for-the-badge&logoColor=white) | Creación de User Personas, Empathy Maps, Journey Maps e Impact Maps para los segmentos Dueños de PyMEs y Directores de Agencias Digitales. | [uxpressia.com](https://uxpressia.com) |
-| ![PivotalTracker](https://img.shields.io/badge/Pivotal_Tracker-5C3D9E?style=for-the-badge&logo=pivotaltracker&logoColor=white) | Seguimiento de proyectos con enfoque en historias de usuario, métricas de velocidad y visualización del estado de tareas por sprint. | [pivotaltracker.com](https://pivotaltracker.com) |
-
-
-<br>
-
-**Diseño de Experiencia y UI/UX**
-
-| Herramienta | Uso principal | Enlace |
-|:---|:---|:---|
-| ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white) | Diseño colaborativo de wireframes, mockups y prototipos de alta fidelidad de la aplicación web BrandRadar. | [figma.com](https://figma.com) |
-| ![LucidChart](https://img.shields.io/badge/LucidChart-F97316?style=for-the-badge&logo=lucid&logoColor=white) | Elaboración de user flows, wireflows y diagramas de procesos o arquitectura. | [lucidchart.com](https://lucidchart.com) |
-| ![Miro](https://img.shields.io/badge/Miro-FFD02F?style=for-the-badge&logo=miro&logoColor=black) | Diseño colaborativo en tiempo real de mapas de experiencia (As-Is y To-Be Scenarios). | [miro.com](https://miro.com) |
-| ![UXPressia](https://img.shields.io/badge/UXPressia-6B4FBB?style=for-the-badge&logoColor=white) | Creación de User Personas, Empathy Maps y Journey Maps para la validación de la experiencia de usuario. | [uxpressia.com](https://uxpressia.com) |
-
-<br>
-
-**Desarrollo de Software**
-
-| Herramienta / Tecnología | Uso principal | Enlace |
-|:---|:---|:---|
-| ![VSCode](https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white) | Entorno de desarrollo integrado principal para escribir, editar y depurar el código de la aplicación. | [code.visualstudio.com](https://code.visualstudio.com) |
-| ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) | Lenguaje de marcado para estructurar el contenido de la landing page y del dashboard de BrandRadar. | [MDN Web Docs](https://developer.mozilla.org/docs/Web/HTML) |
-| ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) | Lenguaje de estilos para definir la apariencia visual de la landing page y la aplicación web. | [MDN Web Docs](https://developer.mozilla.org/docs/Web/CSS) |
-| ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white) | Framework principal para el desarrollo de la aplicación web con componentes reutilizables y enrutamiento. | [angular.io](https://angular.io) |
-| ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) | Superconjunto tipado de JavaScript utilizado como lenguaje principal del proyecto Angular. | [typescriptlang.org](https://www.typescriptlang.org) |
-
-<br>
-
-**Pruebas de Software**
-
-| Herramienta | Uso principal |
-|:---|:---|
-| ![Gherkin](https://img.shields.io/badge/Gherkin-23D96C?style=for-the-badge&logo=cucumber&logoColor=white) | Lenguaje para definir criterios de aceptación de las User Stories en formato legible por todos los integrantes del equipo (Given / When / Then). |
-
-<br>
-
-**Diseño de Arquitectura de Software**
-
-| Herramienta | Uso principal | Enlace |
-|:---|:---|:---|
-| ![Structurizr](https://img.shields.io/badge/Structurizr_DSL-1168BD?style=for-the-badge&logoColor=white) | Modelado de la arquitectura del sistema con el enfoque C4 mediante la técnica Diagrams-as-Code. | [structurizr.com/dsl](https://structurizr.com/dsl) |
-| ![LucidChart](https://img.shields.io/badge/LucidChart-F97316?style=for-the-badge&logo=lucid&logoColor=white) | Elaboración de diagramas UML y de arquitectura, compatible con la documentación técnica del proyecto. | [lucidchart.com](https://www.lucidchart.com/pages/es) |
-| ![MySQL](https://img.shields.io/badge/MySQL_Workbench-4479A1?style=for-the-badge&logo=mysql&logoColor=white) | Diseño visual y profesional de bases de datos relacionales. | [mysql.com/products/workbench](https://www.mysql.com/products/workbench) |
-
-<br>
-
-**Control de Versiones y Colaboración**
-
-| Herramienta | Uso principal | Enlace |
-|:---|:---|:---|
-| ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) | Sistema distribuido de control de versiones para la gestión del código fuente. | [git-scm.com](https://git-scm.com) |
-| ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) | Repositorio remoto para almacenar, gestionar y colaborar en el código fuente. Incluye seguimiento de issues y revisión de Pull Requests. | [github.com](https://github.com) |
-| ![GitFlow](https://img.shields.io/badge/GitFlow-F05032?style=for-the-badge&logo=git&logoColor=white) | Modelo de ramificación para mantener el código organizado en ramas (`main`, `develop`, `feature`, `release`, `hotfix`). | [nvie.com](https://nvie.com/posts/a-successful-git-branching-model) |
-| ![Conventional Commits](https://img.shields.io/badge/Conventional_Commits-FE5196?style=for-the-badge&logo=conventionalcommits&logoColor=white) | Convención de mensajes de commit para mejorar la trazabilidad y facilitar la generación de changelogs. | [conventionalcommits.org](https://www.conventionalcommits.org) |
-
-<br>
-
-**Despliegue de Software**
-
-| Herramienta / Plataforma | Uso principal | Enlace |
-|:---|:---|:---|
-| ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white) | Despliegue automático y gratuito de la landing page directamente desde el repositorio de GitHub, con integración continua. | [netlify.com](https://www.netlify.com) |
-
-<br>
-
-**Documentación de Software**
-
-| Herramienta / Recurso | Uso principal | Enlace |
-|:---|:---|:---|
-| ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) | Repositorio central de documentación mediante `README.md`, issues y wikis del proyecto. | [github.com](https://github.com) |
-| ![VSCode](https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white) | Edición y mantenimiento del archivo `README.md` asociado a la documentación del proyecto. | [code.visualstudio.com](https://code.visualstudio.com) |
-
-</div>
 <br>
 
 ---
 
 ### 5.1.2. Source Code Management
-
-El equipo utilizará Git como sistema de control de versiones y GitHub como plataforma centralizada para la gestión del repositorio del proyecto BrandRadar. Esta infraestructura permite registrar, rastrear y visualizar todos los cambios realizados en el código fuente, así como identificar la contribución individual de cada integrante del equipo a lo largo del ciclo de desarrollo.
-
-<br>
-
-El repositorio principal del proyecto se encuentra disponible en el siguiente enlace:
-
-[https://github.com/Los-5-Suyos/BrandRadar-report](https://github.com/Los-5-Suyos/BrandRadar-report)
-
-<br>
-
-**Contribuciones del equipo:**
-
-[https://github.com/Los-5-Suyos/BrandRadar-report/graphs/contributors](https://github.com/Los-5-Suyos/BrandRadar-report/graphs/contributors)
-
-| Producto                 | Repositorio GitHub                                                                                   |
-| :----------------------- | :--------------------------------------------------------------------------------------------------- |
-| Organización Los 5 Suyos | [https://github.com/Los-5-Suyos](https://github.com/Los-5-Suyos)                                     |
-| Landing Page             | [https://github.com/Los-5-Suyos/BrandRadar-Landing-Page](https://github.com/Los-5-Suyos/BrandRadar-Landing-Page)  |
-| Report                   | [https://github.com/Los-5-Suyos/BrandRadar-report](https://github.com/Los-5-Suyos/BrandRadar-report) |
-| Web Application          | [https://github.com/Los-5-Suyos/BrandRadar-Frontend-Web-App](https://github.com/Los-5-Suyos/BrandRadar-Frontend-Web-App)  |
-| API / Backend            | [https://github.com/Los-5-Suyos/BrandRadar-Web-Services](https://github.com/Los-5-Suyos/BrandRadar-Web-Services)  |
-
-<br>
-
-**Modelo de Ramificación (GitFlow)**
-
-El equipo adoptará la estrategia GitFlow Workflow, la cual permite organizar el desarrollo de manera estructurada mediante el uso de ramas especializadas.
-
-Se definen dos ramas principales:
-
-- main: contiene las versiones estables listas para producción.
-- develop: integra las nuevas funcionalidades antes de su liberación.
-
-<br>
-
-| Tipo de rama | Uso principal                        | Convención de nombres        | Ejemplo                |
-| :----------- | :----------------------------------- | :--------------------------- | :--------------------- |
-| feature      | Desarrollo de nuevas funcionalidades | feature/<nombre-descriptivo> | feature/login-usuarios |
-| release      | Preparación de versiones previas     | release/vX.Y.Z               | release/v1.0.0         |
-| hotfix       | Corrección de errores en producción  | hotfix/<problema>            | hotfix/error-navbar    |
-
-
-<br>
-
-**Convención de Commits**
-
-Para mantener consistencia y trazabilidad, los mensajes de commit seguirán la convención Conventional Commits.
-
-Formato general:
-
-*tipo(alcance opcional): descripción breve*
-
-Tipos de commit definidos:
-
-- feat: nueva funcionalidad
-- fix: corrección de errores
-- docs: cambios en documentación
-- style: ajustes de formato
-- refactor: cambios sin alterar funcionalidad
-- test: pruebas
-- chore: tareas de mantenimiento
-
-<br>
-
----
-
-### 5.1.3. Source Code Style Guide & Conventions
-
-Con el objetivo de mantener un código ordenado, consistente y fácil de mantener entre todos los miembros del equipo, se han definido las siguientes convenciones para el proyecto BrandRadar. Estas normas aseguran una correcta colaboración y facilitan la escalabilidad del sistema.
-
-<br>
-
-**Convenciones Generales**
-
-- Se utilizará inglés como idioma único para nombres de variables, funciones, clases, comentarios y documentación.
-- Se evitarán abreviaciones innecesarias y nombres genéricos como data1, temp, info, etc.
-- Los nombres deben ser descriptivos y reflejar claramente su propósito.
-- Se prioriza la claridad del código sobre soluciones complejas.
-
-<br>
-
-### HTML
-
-- Atributos en minúsculas.
-- Nombres de clases usando kebab-case (ej. section-title, main-container).
-- Uso de estructura semántica clara:
-  - *header*
-  - *nav*
-  - *main*
-  - *section*
-  - *footer*
-- Sangría de 2 espacios.
-- Atributos ordenados de manera lógica:
-- id, class, type, name, placeholder, value, required, etc.
-
-<br>
-
-### CSS
-
-- Para clases personalizadas se utilizará kebab-case.
-- Las clases se organizarán por orden lógico:
-  - layout → spacing → color → typography
-- Se evitarán estilos redundantes y se priorizará la reutilización.
-
-<br>
-
-### TypeScript
-
-Basado en buenas prácticas de desarrollo, se adoptan las siguientes reglas:
-
-Nombres y sintaxis:
-
-- camelCase para variables, funciones y parámetros.
-- PascalCase para clases, interfaces, enums y tipos.
-- Constantes globales en UPPER_CASE_WITH_UNDERSCORES.
-
-Módulos e imports:
-
-- Imports ordenados:
-    Librerías externas
-    Módulos internos
-- Evitar default export, usar:
-    export const
-    export class
-  
-Tipado:
-
-- Tipar explícitamente parámetros y valores de retorno.
-- Evitar any excepto cuando sea estrictamente necesario.
-- Usar readonly en propiedades inmutables.
-- Preferir interface sobre type cuando aplique.
-
-Buenas prácticas:
-
-- Preferir const sobre let y evitar var.
-- Evitar el uso de this fuera de clases.
-- Separar lógica de negocio de la capa de presentación.
-- Mantener funciones pequeñas y reutilizables.
-
-<br>
-
-### Angular
-
-Se seguirán buenas prácticas para mantener una arquitectura limpia:
-
-Componentes:
-
-- Nombres en PascalCase con sufijo Component
-(ej. UserCardComponent)
-- Separación de archivos:
-    templateUrl para HTML
-    styleUrls para CSS
-- Evitar lógica compleja en los templates.
-
-Buenas prácticas:
-
-- No incluir lógica de negocio dentro de los componentes.
-- Delegar procesos a servicios.
-- Usar async en templates en lugar de suscripciones manuales.
-- Selectores en kebab-case (ej. app-user-card).
-
-<br>
-
-### Pruebas (Gherkin)
-
-En caso de utilizar especificaciones basadas en Gherkin:
-
-- Se empleará el formato estándar:
-
-```html
-Given condición inicial  
-When ocurre una acción  
-Then se obtiene un resultado  
-And condiciones adicionales  
-```
 
 <br>
 
@@ -3054,14 +1408,7 @@ And condiciones adicionales
 
 ### 5.1.4. Software Deployment Configuration
 
-Landing Page:
-Para desplegar la landing page de BrandRadar, utilizamos GitHub como repositorio y Netlify como plataforma de hosting. El despliegue se configura conectando el repositorio de GitHub a Netlify, permitiendo implementación continua automática cada vez que se realiza un push a la rama principal. El directorio de publicación corresponde a la carpeta que contiene el archivo index.html.
-
-Frontend Web Application:
-El frontend de la aplicación web se despliega utilizando GitHub + Netlify. Se configura el build automático (npm run build) y se define el directorio de salida. Esto permite que las actualizaciones del dashboard, sistema de alertas y visualización de menciones se publiquen de forma rápida y automática.
-
-Web Services (RESTful API):
-Los servicios backend (RESTful API) se despliegan en Render o Railway. Se vincula el repositorio de GitHub, se configuran las variables de entorno necesarias para las integraciones con APIs externas y se activa el despliegue automático. De esta forma, el backend que procesa el análisis de sentimiento y genera alertas funciona de manera independiente del frontend.
+<br>
 
 ---
 
@@ -3071,53 +1418,11 @@ Los servicios backend (RESTful API) se despliegan en Render o Railway. Se vincul
 
 #### 5.2.1.1. Sprint Planning 1
 
-El Sprint Planning 1 tuvo como objetivo principal completar y desplegar la Landing Page del proyecto BrandRadar, estableciendo así una primera versión funcional y accesible para los usuarios.
-
-Durante este sprint, el equipo definió las tareas necesarias para finalizar el desarrollo visual y estructural de la Landing Page, asegurando el cumplimiento de los lineamientos de diseño responsive y experiencia de usuario previamente establecidos. Asimismo, se planificó la integración con el repositorio en GitHub y su posterior despliegue en la plataforma Netlify.
-
-Entre las actividades principales se incluyeron:
-
-- Finalización de secciones clave de la Landing Page (Home, Features, About, Contact).
-- Ajustes de estilos y diseño responsive.
-- Optimización de componentes y estructura HTML/CSS.
-- Configuración del despliegue continuo mediante Netlify.
-- Publicación de la versión inicial accesible mediante un enlace web.
-
-Como resultado del Sprint Planning, el equipo estableció un conjunto claro de tareas priorizadas, permitiendo organizar el trabajo de manera eficiente y cumplir con el objetivo de contar con una Landing Page completamente funcional y desplegada al finalizar el sprint.
-
-<br>
-
-| Campo | Detalle |
-|:------|:--------|
-| **Sprint #** | Sprint 1 |
-| **Date** | 2026-04-15 |
-| **Time** | 18:00 PM |
-| **Location** | Llamada por la plataforma de discord |
-| **Prepared By** | Salinas Guzmán, Brianna Cristina |
-| **Attendees** | Salinas, Brianna / Cruzalegui, Joaquin / Jáuregui, Jean  / García, Victor / Acuña, Luis|
-| **Sprint 0 Review Summary** | Se finalizó la etapa de investigación y diseño de arquitectura base. El equipo cuenta con los mock-ups de alta fidelidad listos para iniciar la implementación de la Landing Page. |
-| **Sprint 0 Retrospective Summary** | El equipo muestra compromiso, pero se debe reforzar el flujo de GitFlow para evitar conflictos en la integración de las secciones de la Landing Page. |
-| **Sprint 1 Goal** | Nuestro enfoque es el desarrollo y despliegue de la Landing Page de BrandRadar. Creemos que entrega valor al permitir la captación de leads y visibilidad de marca. Esto se confirmará cuando todas las secciones estén integradas y funcionales en Netlify. |
-| **Sprint 1 Velocity** | 45 |
-| **Sum of Story Points** | 35 |
-
 <br>
 
 ---
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
-
-Ahora presentaremos nuestro LACX (Leadership-and-Collaboration Matrix) que nos ayudará a saber quién lidera y quién colabora en cada aspecto de este primer sprint. En base a la coordinación del equipo, se asignaron los siguientes liderazgos para los componentes de la Landing Page:
-
-| Team Member (Last Name, First Name) | GitHub Username | `[Header + Hero]` | `[Características]` | `[Beneficios + Métricas]` | `[DashBoard + Testimonios]` | `[Precios + CTA + Footer]` |
-|:-----------------------------------:|:---------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
-| Salinas, Brianna | brianna-salinas | L | C | C | C | C |
-| García, Victor | vicmacode | C | L | C | C | C |
-| Jáuregui, Jean | JFranco556 | C | C | L | C | C |
-| Acuña, Luis | L2006delacruz | C | C | C | L | C |
-| Cruzalegui, Joaquin | JoaquinCruzalegui | C | C | C | C | L |
-
-> **L** = Leader &nbsp;|&nbsp; **C** = Collaborator
 
 <br>
 
@@ -3125,45 +1430,11 @@ Ahora presentaremos nuestro LACX (Leadership-and-Collaboration Matrix) que nos a
 
 #### 5.2.1.3. Sprint Backlog 1
 
-El objetivo principal del Sprint 1 es diseñar, implementar y desplegar la Landing Page del proyecto BrandRadar, permitiendo presentar la propuesta de valor, funcionalidades principales, planes de suscripción y canales de contacto.
-
-Este sprint se enfoca en construir una primera versión funcional orientada al usuario final, priorizando la experiencia visual, la estructura responsive y la claridad del mensaje del producto. Asimismo, el despliegue permitirá validar la aceptación inicial del producto y establecer una base sólida para futuras iteraciones.
-
-A continuación, se detallan las User Stories seleccionadas y las tareas asociadas:
-
-| Sprint #     |                           |        |                      |                                                                |                    |                |
-| :----------- | :------------------------ | :----- | :------------------- | :------------------------------------------------------------- | :----------------- | :------------- |
-| **Sprint 1** | **User Story**            |        | **Work-Item / Task** |                                                                |                    |                |
-| **ID**       | **Título**                | **ID** | **Título**           | **Descripción**                                                | **Estimación (h)** | **Asignado a** |
-| US20         | Interfaz Responsiva       | T01    | Header & Hero UI     | Implementar sección de navegación y primer impacto visual      | 6                  | Brianna         |
-| US20         | Interfaz Responsiva       | T02    | Features Section     | Desarrollo de la sección de características clave del servicio | 5                  | Victor         |
-| US03         | Live Feed Monitor         | T03    | Benefits & Metrics   | Maquetación de beneficios y visualización de datos de marca    | 7                  | Jean           |
-| US07         | Word Cloud de Sentimiento | T04    | Social Proof UI      | Implementar sección de dashboard y reseñas de usuarios         | 6                  | Luis           |
-| US17         | Onboarding interactivo    | T05    | Conversion & Footer  | Implementar tablas de precios, CTA y pie de página corporativo | 5                  | Joaquin        |
-
 <br>
 
 ---
 
 #### 5.2.1.4. Development Evidence for Sprint Review
-
-Durante el Sprint 1, el equipo se enfocó en establecer la base técnica de BrandRadar mediante el uso de estándares web modernos: HTML5 para la estructura y CSS3 para el diseño visual. Se priorizó una arquitectura de estilos modular, donde cada componente de la Landing Page cuenta con su propia hoja de estilos, facilitando el trabajo paralelo y evitando conflictos en el código.
-
-Se adoptó el flujo GitFlow, organizando el desarrollo en ramas de características (feature/) que permitieron a los integrantes trabajar de forma independiente en el Header, Hero, Beneficios y demás secciones, antes de consolidar el producto final en la rama develop para su revisión. 
-
-El desarrollo se realizó en el repositorio público https://github.com/Los-5-Suyos/BrandRadar-Landing-Page, utilizando un flujo de ramas basado en feature branches.
-
-| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on (Date) |
-|:----------:|:------:|:---------:|:--------------:|:-------------------:|:-------------------:|
-| Los-5-Suyos/BrandRadar-Landing-Page | main | b148470 | `initial commit | Configuración inicial del repositorio y README base | 2026-04-13 |
-| Los-5-Suyos/BrandRadar-Landing-Page | develop | f3aaaf1 | feat: project structure setup | Creación de carpetas e integración de estilos CSS base | 2026-04-13 |
-| Los-5-Suyos/BrandRadar-Landing-Page | feature/brianna | f85e590 | feat: add header and hero | Implementación de navegación e impacto visual con CSS nativo | 2026-04-19 |
-| Los-5-Suyos/BrandRadar-Landing-Page | feature/victor | b5b80f6 | feat: add features section | Desarrollo de la cuadrícula de servicios usando CSS | 2026-04-DD |
-| Los-5-Suyos/BrandRadar-Landing-Page | feature/jfranco | 09c0f86 | feat: add benefits and metrics | Maquetación de beneficios y métricas con estilos personalizados | 2026-04-22 |
-| Los-5-Suyos/BrandRadar-Landing-Page | feature/luis | 6272bc2 | feat: add dashboard and social proof | Implementación de testimonios y previsualización de Dashboard | 2026-04-23 |
-| Los-5-Suyos/BrandRadar-Landing-Page | feature/Joaquin | 68319a2 | feat: add pricing and footer | Diseño de tablas de precios y cierre de página con CSS responsivo | 2026-04-22 |
-| Los-5-Suyos/BrandRadar-Landing-Page | develop | d9812fb | merge: final integration | Fusión de ramas para el despliegue final en producción | 2026-04-23 |
-| | | | | | |
 
 <br>
 
@@ -3171,108 +1442,11 @@ El desarrollo se realizó en el repositorio público https://github.com/Los-5-Su
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
-Durante el Sprint 1 se completó la Landing Page de BrandRadar, cumpliendo con los objetivos de diseño responsivo y captación de interés. El producto permite una navegación fluida y cuenta con interactividad avanzada gracias a la implementación de scripts de scroll y observadores de intersección.
-
-- El desarrollo se validó mediante:
-
-- Interactividad: Menú hamburguesa funcional para móviles y efectos de sombra dinámicos en el header.
-
-- Secciones integradas: Hero (Brianna), Características (Victor), Beneficios (Jean Franco), Dashboard/Testimonios (Luis) y Precios/Footer (Joaquin).
-
-- Rendimiento: Uso de técnicas de carga diferida visual para la aparición de elementos de la interfaz.
-
-A continuación se muestran las capturas de las vistas desarrolladas 
-
-<br>
-
-![Execution Evidence 1](brandradar-report/assets/sprints/sprint1-execution-1.png)
-
-![Execution Evidence 2](brandradar-report/assets/sprints/sprint1-execution-2.png)
-
-![Execution Evidence 3](brandradar-report/assets/sprints/sprint1-execution-3.png)
-
-![Execution Evidence 4](brandradar-report/assets/sprints/sprint1-execution-4.png)
-
-![Execution Evidence 5](brandradar-report/assets/sprints/sprint1-execution-5.png)
-
-![Execution Evidence 6](brandradar-report/assets/sprints/sprint1-execution-6.png)
-
-![Execution Evidence 7](brandradar-report/assets/sprints/sprint1-execution-7.png)
-
-<br>
-
-Asimismo, se elaboró un video demostrativo que muestra la navegación de la Landing Page y explica cada una de las secciones implementadas:
-
-[Ver video de ejecución Sprint 1](`[URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411354_upc_edu_pe/IQBglzF7t1MLS5D9Y52AB6oMAdQK0GqOTwkBViRGT8Agma0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=md7RBa)`)
-
-<br>
-
----
-
-#### 5.2.1.6. Services Documentation Evidence for Sprint Review
-
-Durante el Sprint 1, el alcance del proyecto estuvo centrado estrictamente en la implementación del Frontend (Landing Page). Por lo tanto, no se desarrollaron servicios de backend asociados a la lógica de negocio ni se expusieron endpoints funcionales en esta etapa.
-
-Sin embargo, el equipo ha definido preliminarmente la estructura de los servicios necesarios para la captación de leads que se integrarán en futuros ciclos, dejando preparada la base de la documentación técnica (OpenAPI/Swagger) para asegurar la trazabilidad del desarrollo.
-
-<br>
-
----
-
-#### 5.2.1.7. Software Deployment Evidence for Sprint Review
-
-Durante el Sprint 1 se realizó el despliegue de la Landing Page del proyecto BrandRadar utilizando la plataforma Netlify, integrada con el repositorio en GitHub.
-
-El despliegue fue configurado mediante integración continua (CI/CD), permitiendo que la aplicación se publique automáticamente cada vez que se realizan cambios en la rama principal (main) del repositorio.
-
- **Proceso seguido**
-  1. Ingresar a la plataforma Netlify utilizando la opción “Log in with GitHub”.
-  2. Autorizar el acceso de Netlify a los repositorios del equipo.
-  3. Seleccionar la opción “Add new site” → “Import an existing project”.
-  4. Elegir GitHub como proveedor del repositorio.
-  5. Seleccionar la organización Los 5 Suyos y el repositorio de la Landing Page.
-  6. Configurar los parámetros de despliegue: Branch: main, Publish directory: public (o carpeta de salida del proyecto)
-  7. Ejecutar el proceso de despliegue mediante la opción “Deploy site”.
-  8. Esperar la confirmación de despliegue exitoso.
-  9. Acceder a la URL pública generada por Netlify.
-
-<br>
-
-[https://brandradar-landing-page.netlify.app/](https://brandradar-landing-page.netlify.app/)
-
-**Evidencias**
-
-A continuación, se presentan capturas del proceso de despliegue y del resultado final:
-
-![Evidencias Sprint 1](brandradar-report/assets/sprints/despliegue-1.png)
-![Evidencias Sprint 1](brandradar-report/assets/sprints/despliegue-2.png)
-![Evidencias Sprint 1](brandradar-report/assets/sprints/despliegue-3.png)
-![Evidencias Sprint 1](brandradar-report/assets/sprints/despliegue-4.png)
-![Evidencias Sprint 1](brandradar-report/assets/sprints/despliegue-5.png)
-![Evidencias Sprint 1](brandradar-report/assets/sprints/despliegue-6.png)
-![Evidencias Sprint 1](brandradar-report/assets/sprints/despliegue-7.png)
-![Evidencias Sprint 1](brandradar-report/assets/sprints/despliegue-8.png)
-![Evidencias Sprint 1](brandradar-report/assets/sprints/despliegue-9.png)
-
 <br>
 
 ---
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
-
-El equipo utilizó la estrategia GitFlow para gestionar el desarrollo paralelo. Cada integrante trabajó en su propia rama de característica (feature/brianna, feature/victor, etc.), las cuales fueron fusionadas en la rama develop tras pasar una revisión de código básica.
-
-Métricas de colaboración:
-
-Commits: Se registró una actividad constante de los 5 miembros, con picos de integración los días previos a la entrega.
-
-Roles: La matriz de trabajo permitió que cada componente tuviera un líder responsable, evitando la duplicidad de trabajo.
-
-Gráfico de red de ramas en el repositorio de GitHub evidenciando la integración de las 5 ramas de características en la rama develop.
-
-![Team Collaboration Sprint 1](brandradar-report/assets/sprints/sprint1-collaboration.png)
-
-![Team Collaboration Sprint 1](brandradar-report/assets/sprints/sprint1-over-time.png)
 
 <br>
 
@@ -3304,7 +1478,7 @@ Gráfico de red de ramas en el repositorio de GitHub evidenciando la integració
 
 1. Para la siguiente etapa del proyecto, se recomienda avanzar en la validación de la solución mediante prototipos de alta fidelidad, con el objetivo de evaluar la usabilidad del sistema en escenarios reales con usuarios de los segmentos identificados.
 
-2. Se sugiere profundizar en la definición y refinamiento de los requerimientos funcionales y no funcionales, asegurando su alineación directa con los insights obtenidos en las entrevistas y el proceso de needfinding.}
+2. Se sugiere profundizar en la definición y refinamiento de los requerimientos funcionales y no funcionales, asegurando su alineación directa con los insights obtenidos en las entrevistas y el proceso de needfinding.
 
 3. Se recomienda iterar el Lean UX Canvas con validaciones adicionales de las hipótesis críticas del producto, incorporando feedback temprano de usuarios potenciales antes de avanzar a fases de desarrollo más complejas.
 
