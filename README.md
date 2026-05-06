@@ -69,7 +69,7 @@
 <br>
 
   
-**URL del Repositorio:** [`link`](link)
+**URL del Repositorio:** [`https://github.com/Los-5-Suyos/BrandRadar.git`](https://github.com/Los-5-Suyos/BrandRadar.git)
 
 <br>
 
@@ -3090,7 +3090,7 @@ El repositorio principal del proyecto se encuentra disponible en el siguiente en
 | :----------------------- | :--------------------------------------------------------------------------------------------------- |
 | Organización Los 5 Suyos | [https://github.com/Los-5-Suyos](https://github.com/Los-5-Suyos)                                     |
 | Landing Page             | [https://github.com/Los-5-Suyos/BrandRadar-Landing-Page](https://github.com/Los-5-Suyos/BrandRadar-Landing-Page)  |
-| Report                   | [https://github.com/Los-5-Suyos/BrandRadar](https://github.com/Los-5-Suyos/BrandRadar) |
+| Report                   | [https://github.com/Los-5-Suyos/BrandRadar](https://github.com/Los-5-Suyos/BrandRadar.git) |
 | Web Application          | [https://github.com/Los-5-Suyos/BrandRadar-Frontend-Web-App](https://github.com/Los-5-Suyos/BrandRadar-Frontend-Web-App)  |
 | API / Backend            | [https://github.com/Los-5-Suyos/BrandRadar-Web-Services](https://github.com/Los-5-Suyos/BrandRadar-Web-Services)  |
 
