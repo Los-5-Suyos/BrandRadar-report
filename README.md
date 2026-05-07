@@ -1770,13 +1770,13 @@ Estos impactos se materializan en entregables como el motor de IA con entrenamie
   
 **Herramienta utilizada:** `Jira`
 
-**URL del Product Backlog:** [Ver Product Backlog en Jira](https://trello.com/invite/b/69dfea832aaca97dda513a28/ATTI3586e52f52192c31ff4597c5fcf42e5cC6CA6C96/productbacklog-brandradar)
+**URL del Product Backlog:** [Ver Product Backlog en Jira](https://brandradarproject.atlassian.net/jira/software/projects/BRAN/boards/34/backlog?atlOrigin=eyJpIjoiNzQxNDU0ZjFmYmEzNGNjOGIzMjM0OGIxNGIxNWFhYTciLCJwIjoiaiJ9)
 
 <br>
 
 *Captura del Product Backlog en herramienta*
 
-![Product Backlog](brandradar-report/assets/requirements-specification/product-backlog/productbacklo.png)
+![Product Backlog](brandradar-report/assets/requirements-specification/product-backlog/productbacklog.png)
 
 </div>
 
