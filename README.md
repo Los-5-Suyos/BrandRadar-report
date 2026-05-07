@@ -3646,8 +3646,8 @@ A continuación se presenta el Sprint Planning para esta segunda entrega, donde 
 | **Sprint 1 Review Summary**         | Durante el Sprint 1 se desarrolló y desplegó la Landing Page de BrandRadar, permitiendo a los usuarios conocer la propuesta de valor, funcionalidades, planes y contacto del producto. Se logró una integración completa de las secciones y su despliegue en Netlify. Como feedback, se identificó la necesidad de mejorar la redirección de los call-to-action hacia la Web Application y establecer el idioma inglés como predeterminado.  |
 | **Sprint 1 Retrospective Summary**  | El equipo mantuvo una comunicación constante a través de Discord; sin embargo, se identificaron dificultades en la gestión de ramas debido a un uso inconsistente de GitFlow. Para este sprint se adoptará un flujo más estructurado basado en feature branches por User Story, así como revisiones mediante Pull Requests antes de integrar cambios en la rama principal.   |
 | **Sprint 2 Goal**                   | Nuestro enfoque está en desarrollar la primera versión funcional del frontend de BrandRadar, implementando el flujo de autenticación (registro, login, recuperación de contraseña y logout) e integrándolo con una Fake API. Creemos que esto permitirá validar la arquitectura base del sistema y los flujos principales de usuario. Esto se confirmará cuando los usuarios puedan registrarse, iniciar sesión, recuperar su contraseña y acceder a una vista inicial protegida dentro de la aplicación Angular. |
-| **Sprint 2 Velocity**               | 45 |
-| **Sum of Story Points**             | 44 |
+| **Sprint 2 Velocity**               | 157 |
+| **Sum of Story Points**             | 157 |
 
 
 <br>
