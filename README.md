@@ -2628,7 +2628,7 @@ Finalmente, se delimitaron los límites semánticos y transaccionales del domini
 
 ![BoundextContext3](brandradar-report/assets/bounded-context/monitoring_3.jpg)
 
-![BoundextContext4](brandradar-report/assets/bounded-context/ssentiment_intelligence_4.jpg)
+![BoundextContext4](brandradar-report/assets/bounded-context/sentiment_intelligence_4.jpg)
 
 ![BoundextContext5](brandradar-report/assets/bounded-context/crisis_detection_5.jpg)
 
