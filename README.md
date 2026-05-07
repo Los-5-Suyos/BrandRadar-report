@@ -2779,197 +2779,199 @@ Consolida la información mediante procesos asíncronos para generar dashboards 
 
 >*A continuación, se presentan los diagramas de clases UML para cada bounded context de BrandRadar. Estos diagramas describen las clases, sus atributos, métodos y relaciones, diferenciando además los componentes de frontend y backend. Esta representación permite comprender la organización modular del sistema y la distribución de responsabilidades entre la interfaz de usuario y la lógica de negocio, asegurando coherencia con la arquitectura definida.*
 
-<br>
 
-**1. Bounded Context: `Account Management`**
 
-<br>
-
-Este diagrama corresponde al contexto de gestión de cuentas, responsable de administrar la identidad de los usuarios, sus roles y las sesiones de autenticación dentro de la plataforma BrandRadar. El agregado principal User contiene información clave como el correo electrónico, nombre completo, rol asignado (PyME Owner o Agency Manager) y el estado de la cuenta. Este contexto garantiza que solo usuarios autorizados puedan acceder al sistema, gestionando el ciclo completo de autenticación mediante tokens JWT. Además, contempla la gestión de sesiones activas, permitiendo al usuario revisar y revocar accesos desde distintos dispositivos, lo que refuerza la seguridad de la plataforma.
-
-<br>
-<div align="center">
-
-**Frontend Components Diagrams**
-
-![Frontend Diagram BC1](brandradar-report/assets/class-diagrams/frontend/front-diagram-1.png)
-
-</div>
-<br>
-
-El módulo Account Management permite a los usuarios registrarse, iniciar sesión y gestionar su perfil personal. Incluye componentes como LoginView, RegisterView, ProfileView y SessionManagementView, acompañados de componentes reutilizables como LoginFormComponent, UserAvatarComponent y RoleBadgeComponent. El AccountStore gestiona el estado de autenticación y sincroniza los datos del usuario con el backend a través del AccountApi.
-
-<br>
-<div align="center">
-
-**Backend Components Diagrams**
-
-![Backend Diagram BC1](brandradar-report/assets/class-diagrams/backend/back-diagram-1.png)
-
-</div>
-<br>
-
-El módulo Account Management gestiona la lógica de negocio relacionada con el registro, autenticación y administración de usuarios. Implementa comandos como RegisterUserCommand, LoginCommand y UpdateProfileCommand, procesados por sus respectivos servicios de aplicación. El JwtService se encarga de la generación y validación de tokens, mientras que el UserRepository y el TokenRepository aseguran la persistencia de usuarios y sesiones activas.
+**1. Bounded Context: `Identity Access Context`**
 
 <br>
 
-**2. Bounded Context: `Brand Management`**
-
-<br>
-
-Este diagrama corresponde al contexto de gestión de marcas, responsable de administrar la configuración de marcas, sus palabras clave de monitoreo y la conexión con fuentes de datos externas. El agregado principal Brand centraliza la información de cada marca, como nombre, industria, estado y su propietario. Este contexto permite a los usuarios de tipo PyME Owner y Agency Manager registrar y configurar las marcas que desean monitorear. Además, gestiona las Keyword asociadas —clasificadas como primarias, secundarias, negativas o hashtags— y los DataSource que representan las cuentas o canales de redes sociales vinculados a cada marca.
+Descripcion
 
 <br>
 <div align="center">
 
 **Frontend Components Diagrams**
 
-![Frontend Diagram BC2](brandradar-report/assets/class-diagrams/frontend/front-diagram-2.png)
+![Frontend Diagram BC1](brandradar-report/assets/class-diagrams/frontend/front-diagram-.png)
 
 </div>
 <br>
 
-El módulo Brand Management permite a los usuarios crear, editar y administrar sus marcas y su configuración de seguimiento. Incluye vistas como BrandListView, BrandDetailView, BrandFormView, KeywordManagementView y DataSourceView, junto con componentes reutilizables como BrandCardComponent, KeywordTagComponent y DataSourceCardComponent. El BrandStore centraliza el estado y coordina las operaciones con el backend a través del BrandApi.
+Descripcion
 
 <br>
 <div align="center">
 
 **Backend Components Diagrams**
 
-![Backend Diagram BC2](brandradar-report/assets/class-diagrams/backend/back-diagram-2.png)
+![Backend Diagram BC1](brandradar-report/assets/class-diagrams/backend/back-diagram-.png)
 
 </div>
 <br>
 
-El módulo Brand Management gestiona la lógica de negocio para la creación y configuración de marcas. Implementa comandos como CreateBrandCommand, AddKeywordCommand y ConnectDataSourceCommand, procesados por el BrandCommandServiceImpl y el DataSourceCommandServiceImpl. El ExternalSourceConnector valida y prueba la conexión con plataformas externas, mientras que los repositorios BrandRepository, KeywordRepository y DataSourceRepository garantizan la persistencia estructurada de toda la información.
+Descripcion
 
 <br>
 
-**3. Bounded Context: `Monitoring`**
+
+**2. Bounded Context: `Brand Workspace Context`**
 
 <br>
 
-Este diagrama corresponde al contexto de monitoreo, responsable de coordinar la integración con APIs externas y la recolección de menciones en tiempo real. El agregado principal Mention representa cada publicación capturada de las redes sociales o fuentes de noticias, almacenando el contenido, la plataforma de origen, el autor y la fecha de publicación. Este contexto opera de forma continua, recolectando menciones relevantes según las palabras clave configuradas por cada marca. El SourceStatus permite llevar un control del estado de salud de cada fuente de datos integrada, detectando fallos o degradaciones en la conectividad con las APIs externas.
+Descripcion
 
 <br>
 <div align="center">
 
 **Frontend Components Diagrams**
 
-![Frontend Diagram BC3](brandradar-report/assets/class-diagrams/frontend/front-diagram-3.png)
+![Frontend Diagram BC2](brandradar-report/assets/class-diagrams/frontend/front-diagram-.png)
 
 </div>
 <br>
 
-El módulo Monitoring ofrece a los usuarios una vista centralizada de todas las menciones recolectadas para sus marcas. Incluye vistas como MonitoringDashboardView, MentionListView, MentionDetailView, LiveFeedView y SourceStatusView, acompañadas de componentes como MentionCardComponent, MentionFilterComponent, LiveFeedTickerComponent y MentionStatsComponent. El MonitoringStore gestiona el estado reactivo del feed en tiempo real y sincroniza los filtros y estadísticas con el backend a través del MonitoringApi.
+Descripcion
 
 <br>
 <div align="center">
 
 **Backend Components Diagrams**
 
-![Backend Diagram BC3](brandradar-report/assets/class-diagrams/backend/back-diagram-3.png)
+![Backend Diagram BC2](brandradar-report/assets/class-diagrams/backend/back-diagram-.png)
 
 </div>
 <br>
 
-El módulo Monitoring gestiona la recolección y almacenamiento de menciones provenientes de múltiples plataformas sociales. Implementa comandos como CollectMentionCommand, BulkCollectMentionsCommand y RunCollectionJobCommand, procesados por el MentionCommandServiceImpl y el MonitoringJobServiceImpl. Los colectores externos TwitterApiCollector e InstagramApiCollector implementan la interfaz ExternalApiCollector para obtener menciones, mientras que el SentimentAnalysisClient delega el análisis de texto al bounded context correspondiente. El MentionRepository garantiza la persistencia y evita duplicados mediante el control del externalId.
+Descripcion
 
 <br>
 
-**4. Bounded Context: `Sentiment Analysis`**
+**3. Bounded Context: `Reputation Monitoring Context`**
 
 <br>
 
-Este diagrama corresponde al contexto de análisis de sentimiento, responsable de procesar el lenguaje natural de las menciones recolectadas y clasificar su tono como positivo, neutro o negativo. El agregado principal SentimentResult almacena el resultado del análisis para cada mención, incluyendo la puntuación de confianza, el idioma detectado y las palabras clave relevantes extraídas del texto. Este contexto actúa como un servicio especializado que delega el procesamiento lingüístico a un NlpProcessorClient externo, transformando datos crudos en inteligencia accionable sobre la percepción pública de cada marca. Adicionalmente, genera tendencias y resúmenes agregados que alimentan el contexto de Reporting.
+Descripcion
 
 <br>
 <div align="center">
 
 **Frontend Components Diagrams**
 
-![Frontend Diagram BC4](brandradar-report/assets/class-diagrams/frontend/front-diagram-4.png)
+![Frontend Diagram BC3](brandradar-report/assets/class-diagrams/frontend/front-diagram-.png)
 
 </div>
 <br>
 
-El módulo Sentiment Analysis permite a los usuarios explorar el estado emocional de las menciones de sus marcas a lo largo del tiempo. Incluye vistas como SentimentOverviewView, SentimentResultListView, SentimentDetailView y SentimentTrendView, junto con componentes visuales como SentimentGaugeComponent, SentimentBadgeComponent, SentimentTrendChartComponent y KeywordSentimentComponent. El SentimentStore centraliza el estado y coordina las llamadas al SentimentApi para obtener resultados, tendencias y resúmenes agregados por marca.
+Descripcion
 
 <br>
 <div align="center">
 
 **Backend Components Diagrams**
 
-![Backend Diagram BC4](brandradar-report/assets/class-diagrams/backend/back-diagram-4.png)
+![Backend Diagram BC3](brandradar-report/assets/class-diagrams/backend/back-diagram-.png)
 
 </div>
 <br>
 
-El módulo Sentiment Analysis gestiona la lógica de clasificación emocional de menciones. Implementa comandos como AnalyzeMentionCommand, ReanalyzeMentionCommand y BatchAnalyzeCommand, procesados por el SentimentAnalysisCommandServiceImpl. El NlpProcessorClient se integra con el servicio externo de procesamiento de lenguaje natural, mientras que el LanguageDetectorClient identifica el idioma del texto antes del análisis. El SentimentResultRepository persiste cada resultado y expone consultas para generar resúmenes estadísticos y datos de tendencia por marca y periodo.
+Descripcion
 
 <br>
 
-**5. Bounded Context: `Alert Management`**
+**4. Bounded Context: `Crisis Detection Context`**
 
 <br>
 
-Este diagrama corresponde al contexto de gestión de alertas, responsable de aplicar reglas de negocio configurables para detectar eventos críticos y notificar a los usuarios ante situaciones como picos de menciones negativas o caídas abruptas de sentimiento. El agregado AlertRule define las condiciones de disparo —métrica, operador, umbral y ventana de tiempo— mientras que el agregado Alert representa cada evento generado al cumplirse dichas condiciones. Este contexto contempla múltiples canales de notificación (correo electrónico, webhooks y notificaciones in-app), permitiendo que cada usuario configure sus preferencias de recepción mediante el NotificationSettings.
+Descripcion
 
 <br>
 <div align="center">
 
 **Frontend Components Diagrams**
 
-![Frontend Diagram BC5](brandradar-report/assets/class-diagrams/frontend/front-diagram-5.png)
+![Frontend Diagram BC4](brandradar-report/assets/class-diagrams/frontend/front-diagram-.png)
 
 </div>
 <br>
 
-El módulo Alert Management permite a los usuarios revisar alertas activas, configurar reglas de disparo y personalizar sus canales de notificación. Incluye vistas como AlertInboxView, AlertDetailView, AlertRulesView, AlertRuleFormView y NotificationSettingsView, junto con componentes como AlertCardComponent, AlertBadgeComponent, AlertRuleCardComponent y NotificationChannelComponent. El AlertStore gestiona el estado de las alertas, el conteo de no leídas y la configuración de notificaciones, comunicándose con el backend a través del AlertApi.
+Descripcion
 
 <br>
 <div align="center">
 
 **Backend Components Diagrams**
 
-![Backend Diagram BC5](brandradar-report/assets/class-diagrams/backend/back-diagram-5.png)
+![Backend Diagram BC4](brandradar-report/assets/class-diagrams/backend/back-diagram-.png)
 
 </div>
 <br>
 
-El módulo Alert Management gestiona la evaluación de reglas y la generación de alertas ante eventos detectados por el sistema de monitoreo. Implementa comandos como TriggerAlertCommand, AcknowledgeAlertCommand y CreateAlertRuleCommand, procesados por el AlertCommandServiceImpl, el AlertRuleCommandServiceImpl y el AlertEvaluationServiceImpl. El NotificationDispatcher coordina el envío de notificaciones a través de los servicios EmailNotificationService, WebhookNotificationService e InAppNotificationService, garantizando que cada alerta llegue por los canales configurados por el usuario.
+Descripcion
 
 <br>
 
-**6. Bounded Context: `Reporting`**
+**5. Bounded Context: `Sentiment Intelligence Context`**
 
 <br>
 
-Este diagrama corresponde al contexto de reportes y métricas, responsable de consolidar los datos generados por los demás bounded contexts y transformarlos en dashboards interactivos y reportes exportables. El agregado principal Report encapsula la configuración de un reporte —métricas seleccionadas, rango de fechas y estado de generación— mientras que Dashboard organiza los widgets visuales que el usuario visualiza en tiempo real. El ReportSchedule permite automatizar la generación periódica de reportes con frecuencias diaria, semanal o mensual. Este contexto es el punto de toma de decisiones de la plataforma, ofreciendo exportaciones en formatos PDF, Excel, CSV y JSON.
+Descripcion
 
 <br>
 <div align="center">
 
 **Frontend Components Diagrams**
 
-![Frontend Diagram BC6](brandradar-report/assets/class-diagrams/frontend/front-diagram-6.png)
+![Frontend Diagram BC5](brandradar-report/assets/class-diagrams/frontend/front-diagram-.png)
 
 </div>
 <br>
 
-El módulo Reporting proporciona a los usuarios una vista consolidada del rendimiento de sus marcas a través de dashboards y reportes personalizados. Incluye vistas como DashboardView, ReportListView, ReportDetailView, ReportFormView y ScheduleReportView, junto con componentes como DashboardWidgetComponent, MetricChartComponent, ReportCardComponent, ExportButtonComponent y PeriodSelectorComponent. El ReportStore gestiona el estado de métricas, el periodo seleccionado y el proceso de exportación, sincronizando todo a través del ReportApi.
+Descripcion
+<br>
+<div align="center">
+
+**Backend Components Diagrams**
+
+![Backend Diagram BC5](brandradar-report/assets/class-diagrams/backend/back-diagram-.png)
+
+</div>
+<br>
+
+Descripcion
+
+<br>
+
+**6. Bounded Context: `Infrastructure Health Context`**
+
+<br>
+
+Descripcion
+
+<br>
+<div align="center">
+
+**Frontend Components Diagrams**
+
+![Frontend Diagram BC6](brandradar-report/assets/class-diagrams/frontend/front-diagram-.png)
+
+</div>
+<br>
+
+Descripcion
 
 <br>
 <div align="center">
 
 **Backend Components Diagrams**
 
-![Backend Diagram BC6](brandradar-report/assets/class-diagrams/backend/back-diagram-6.png)
+![Backend Diagram BC6](brandradar-report/assets/class-diagrams/backend/back-diagram-.png)
 
 </div>
 <br>
 
-El módulo Reporting gestiona la generación, almacenamiento y exportación de reportes analíticos. Implementa comandos como CreateReportCommand, GenerateReportCommand, ExportReportCommand y RunScheduledReportsCommand, procesados por el ReportCommandServiceImpl, el DashboardCommandServiceImpl y el ScheduleCommandServiceImpl. El ReportGeneratorService agrega métricas consultando los repositorios de menciones, sentimientos y alertas, mientras que el ReportExportService delega la generación de archivos al PdfGeneratorClient y al ExcelGeneratorClient según el formato solicitado.
+Descripcion
+
+
 
 <br>
 
@@ -2996,7 +2998,7 @@ El módulo Reporting gestiona la generación, almacenamiento y exportación de r
 
 <br>
 
-![Database Diagram](brandradar-report/assets/database-diagrams/db-diagram.png)
+![Database Diagram](brandradar-report/assets/database-diagrams/db-diagra.png)
 
 </div>
 
@@ -3006,37 +3008,33 @@ El módulo Reporting gestiona la generación, almacenamiento y exportación de r
 
 <br>
 
-**Account Management**
+**Brand Workspace Context**
 
-Este contexto gestiona identidad, autenticación y sesiones. USERS es la raíz: centraliza credenciales, roles y estado. De ella se derivan AUTH_TOKENS (tokens de acceso y refresh con expiración) y SESSIONS (sesiones activas por dispositivo/IP), garantizando el control de acceso transversal al sistema.
-
-<br>
-
-**Brand Management** 
-
-Este contexto administra las marcas monitoreadas. BRANDS es la raíz y se vincula con DATA_SOURCES (plataformas conectadas como canales de escucha) y KEYWORDS (términos de búsqueda por marca y tipo). Es el contexto base del que dependen casi todos los demás.
+Descripcion
 
 <br>
 
-**Monitoring** 
+**Reputation Monitoring Context** 
 
-
-Este contexto captura las menciones en tiempo real. MENTIONS registra contenido, autor, URL y metadatos de cada aparición detectada. SOURCE_STATUSES complementa el estado de sincronización de cada fuente, permitiendo saber cuándo fue el último rastreo exitoso.
-Sentiment Analysis es el contexto de inteligencia. SENTIMENT_RESULTS toma cada mención y genera un análisis: sentimiento, score de confianza, idioma y keywords detectadas. No recolecta datos propios, sino que enriquece los del contexto de Monitoring.
+Descripcion
 
 <br>
 
-**Alert Management** 
+**Crisis Detection Context** 
 
-
-Este contexto orquesta las alertas. ALERT_RULES define las condiciones de disparo (métrica, operador, umbral, severidad). Cuando se cumple una regla, ALERTS registra el evento. NOTIFICATION_SETTINGS configura los canales de entrega (email, webhook, in-app) por marca.
+Descripcion
 
 <br>
 
-**Reporting** 
+**Sentiment Intelligence Context** 
 
+Descripcion
 
-Este contexto consolida y presenta datos analíticos. REPORTS almacena los reportes generados con su rango temporal. REPORT_SCHEDULES automatiza su ejecución periódica. DASHBOARDS y DASHBOARD_WIDGETS permiten construir vistas visuales personalizadas. Este contexto no duplica información: consume datos de Monitoring, Sentiment Analysis y Alert Management como única fuente de verdad.
+<br>
+
+**Infrastructure Health Context** 
+
+Descripcion
 
 <br>
 
@@ -3670,42 +3668,82 @@ A continuación se presenta el Sprint Planning para esta segunda entrega, donde 
 
 <br>
 
- **Story Points comprometidos: 44 SP | Duración: 2 semanas | Stack: Angular 17 / TypeScript / json-server**
+ **Story Points comprometidos: 157 SP | Duración: 2 semanas | Stack: Angular 17 / TypeScript / json-server**
  
 **Tech Lead: Brianna Cristina Salinas Guzmán**
 
 <br>
 
-| Sprint #     |                                                                               |        |                      |                                                                     |                                                                                                                                                                                                                                        |                |                    |            |
-| :----------- | :---------------------------------------------------------------------------- | :----- | :------------------- | :------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------- | :----------------- | :--------- |
-| **Sprint 2** | **User Story**     |        | **Work-Item / Task** |   |  |                | **Asignado a**     | **Status** |
-| **ID**       | **Título**                                                                    | **SP** | **ID**               | **Título**                                                          | **Descripción**                                                                                                                                                                                                                        | **Estimación** | **Asignado a**     |            |
-| —            | Setup Sprint 2                                                                | —      | T16                  | Configurar fake API completa                                        | Ampliar db.json con entidades: users, workspaces, monitoringRules, sources, auditLogs. Agregar routes.json con todos los endpoints de autenticación y marcas. Levantar en puerto 3000.                                                   | 4h             | Frontend/Backend   | To-Do      |
-| —            | Setup Sprint 2                                                                | —      | T17                  | Implementar interceptor HTTP con JWT simulado                       | Configurar interceptor Angular para adjuntar JWT simulado en el header Authorization de cada request autenticado. Manejar expiración y redirección automática a login.                                                                   | 2h             | Frontend           | To-Do      |
-| —            | Setup Sprint 2                                                                | —      | T18                  | Implementar AuthGuard y WorkspaceGuard                              | Crear AuthGuard para proteger rutas privadas. Crear WorkspaceGuard para validar que el workspaceId en la ruta pertenece al usuario autenticado. Registrar intentos no autorizados en fake API como `UnauthorizedAccessAttempted`.        | 4h             | Frontend           | To-Do      |
-| —            | Setup Sprint 2                                                                | —      | T19                  | Implementar servicio de estado global del workspace activo          | Servicio Angular con BehaviorSubject para gestionar el workspace activo en sesión. Limpiar contexto al logout o al revocar acceso. Compartido entre componentes sin duplicar lógica.                                                     | 4h             | Frontend           | To-Do      |
-| US06         | Registrar cuenta para acceder a monitoreo reputacional                        | 5      | T20                  | Implementar componente de registro                                  | Formulario con Angular Reactive Forms: nombre, correo, contraseña con validación de fortaleza y tipo de cuenta. Errores inline por campo. Redirigir a pantalla de verificación pendiente tras registro exitoso.                          | 4h             | Frontend           | To-Do      |
-| US06         | Registrar cuenta para acceder a monitoreo reputacional                        | 5      | T21                  | Conectar registro a fake API                                        | POST /api/v1/auth/register — persiste cuenta en estado `PENDIENTE_VERIFICACIÓN`, registra `AccountRegistered` en auditLogs. Retorna 409 si correo duplicado sin revelar estado de cuenta existente.                                     | 2h             | Frontend           | To-Do      |
-| US07         | Verificar correo para activar acceso reputacional                             | 3      | T22                  | Implementar pantalla de verificación de correo                      | Pantalla que recibe token simulado por query param. Muestra estado diferenciado: verificación exitosa, token expirado o token inválido. Redirige al workspace al verificar exitosamente.                                                 | 3h             | Frontend           | To-Do      |
-| US07         | Verificar correo para activar acceso reputacional                             | 3      | T23                  | Conectar verificación a fake API                                    | GET /api/v1/auth/verify?token={token} — transiciona cuenta de `PENDIENTE_VERIFICACIÓN` a `ACTIVA` en db.json. Registra `AccountActivated` en auditLogs. Retorna error diferenciado para token inválido vs. expirado.                    | 2h             | Frontend           | To-Do      |
-| US08         | Iniciar sesión para acceder a marcas asignadas                                | 3      | T24                  | Implementar componente de login con bloqueo automático              | Formulario de login con contador de intentos fallidos. Al quinto intento consecutivo, actualiza estado de cuenta a `BLOQUEADA` en fake API y bloquea el acceso. Carga exclusivamente los workspaces asignados al usuario autenticado.    | 4h             | Frontend           | To-Do      |
-| US08         | Iniciar sesión para acceder a marcas asignadas                                | 3      | T25                  | Conectar login a fake API                                           | POST /api/v1/auth/login — retorna JWT simulado con workspaceIds como claims. Almacena token en memoria (no en localStorage). Redirige al workspace asignado. Maneja cuenta `BLOQUEADA` con respuesta 403 y mensaje claro.               | 2h             | Frontend           | To-Do      |
-| US09         | Recuperar acceso sin comprometer seguridad reputacional                       | 3      | T26                  | Implementar flujo de recuperación en 2 pantallas                   | Pantalla 1: solicitar correo (respuesta ambigua — no revela si el correo existe). Pantalla 2: nueva contraseña con token simulado en query param. Validación de fortaleza de contraseña antes de permitir el envío.                      | 4h             | Frontend           | To-Do      |
-| US09         | Recuperar acceso sin comprometer seguridad reputacional                       | 3      | T27                  | Conectar recuperación a fake API y limpiar sesiones                 | POST /api/v1/auth/forgot-password y POST /api/v1/auth/reset-password. Al restablecer: actualiza contraseña en db.json, invalida token, limpia sessionStorage/localStorage y registra `PasswordReset` en auditLogs.                      | 2h             | Frontend           | To-Do      |
-| US10         | Cerrar sesión para proteger datos reputacionales                              | 2      | T28a                 | Implementar logout y limpieza de contexto de sesión                 | Logout invalida el JWT en cliente, limpia el BehaviorSubject del workspace activo y redirige al login. Detectar sesión inválida en otras pestañas y bloquear operaciones pendientes antes de limpiar.                                    | 2h             | Frontend           | To-Do      |
-| US10         | Cerrar sesión para proteger datos reputacionales                              | 2      | T28b                 | Implementar timeout de inactividad con RxJS timer                   | Configurar timer de 30 minutos de inactividad con RxJS. Al expirar, ejecutar el mismo flujo de logout de T28a mostrando aviso previo de 60 segundos al usuario. Sin dependencia de localStorage.                                         | 1h             | Frontend           | To-Do      |
-| US11         | Definir perímetro de monitoreo de una marca                                   | 5      | T29                  | Implementar pantalla de creación y edición de marca                 | Formulario con nombre de marca, al menos una keyword y al menos una fuente. Bloquear confirmación si configuración mínima incompleta. Rechazar nombre duplicado dentro de la cuenta con mensaje claro.                                   | 4h             | Frontend           | To-Do      |
-| US11         | Definir perímetro de monitoreo de una marca                                   | 5      | T30                  | Conectar creación de marca a fake API                               | POST /api/v1/brands — persiste `BrandWorkspace` en estado `MONITOREO_ACTIVO` al completar configuración mínima. Registra `MonitoringActivated` en auditLogs. Retorna 409 si nombre duplicado.                                           | 2h             | Frontend           | To-Do      |
-| US14         | Definir reglas de monitoreo para detectar menciones sensibles                 | 5      | T31                  | Implementar gestión de palabras clave                               | Componente para agregar y eliminar keywords por marca. Rechazar duplicados. Al eliminar la última keyword activa, mostrar advertencia y transitar workspace a `SIN_CONFIGURACIÓN` al confirmar.                                          | 3h             | Frontend           | To-Do      |
-| US14         | Definir reglas de monitoreo para detectar menciones sensibles                 | 5      | T32                  | Conectar keywords a fake API                                        | PUT /api/v1/brands/{id}/keywords — actualiza `MonitoringRule` en db.json, registra versión anterior para trazabilidad y emite `MonitoringRuleUpdated` en auditLogs.                                                                     | 2h             | Frontend           | To-Do      |
-| US15         | Centralizar canales digitales para reducir monitoreo manual                   | 8      | T33                  | Implementar pantalla de conexión de fuentes                         | Pantalla con plataformas disponibles (Twitter/X, Instagram, Google Reviews — simuladas). Estados visuales diferenciados: `CONECTADA` (verde), `DESCONECTADA` (gris), `ERROR` (rojo), `CRÍTICA` (naranja).                              | 4h             | Frontend           | To-Do      |
-| US15         | Centralizar canales digitales para reducir monitoreo manual                   | 8      | T34                  | Conectar fuentes a fake API                                         | POST /api/v1/brands/{id}/sources — simula validación de credenciales. Persiste fuente en estado `CONECTADA` o `DESCONECTADA`. Falla de fuente activa transita a `ERROR` y registra `MonitoringSourceFailed` en auditLogs.                | 2h             | Frontend           | To-Do      |
-| US13         | Desactivar marca para suspender monitoreo sin perder evidencia                | 2      | T35a                 | Implementar componente UI de desactivación con guard de rol         | Opción de desactivación visible únicamente para rol `ADMIN`. Mostrar modal de confirmación explícita con advertencia de impacto. Bloquear la acción si el usuario no tiene el claim de ADMIN en el JWT simulado.                         | 1h             | Frontend           | To-Do      |
-| US13         | Desactivar marca para suspender monitoreo sin perder evidencia                | 2      | T35b                 | Conectar desactivación a fake API y registrar evento de auditoría   | PATCH /api/v1/brands/{id}/deactivate — transita `BrandWorkspace` a estado `INACTIVO` en db.json conservando historial íntegro de menciones e incidentes. Registra `WorkspaceDeactivated` en auditLogs con userId y timestamp.            | 1h             | Frontend           | To-Do      |
-| US33         | Operar exclusivamente dentro del perímetro de marcas asignadas                | 8      | T36                  | Implementar WorkspaceGuard con validación de claims JWT             | WorkspaceGuard verifica que el workspaceId en la ruta esté incluido en los claims del JWT simulado antes de activar cualquier componente. Acceso no autorizado redirige a pantalla 403.                                                  | 3h             | Frontend           | To-Do      |
-| US33         | Operar exclusivamente dentro del perímetro de marcas asignadas                | 8      | T38                  | Implementar pantalla 403 y registro de intento en fake API          | Pantalla de acceso denegado con mensaje claro. POST /api/v1/audit registra evento `UnauthorizedAccessAttempted` con userId, workspaceId y timestamp.                                                                                     | 2h             | Frontend           | To-Do      |
-| —            | QA Sprint 2                                                                   | —      | T39                  | Pruebas del flujo completo de onboarding                            | Pruebas manuales: registro → verificación → login → dashboard → crear marca → keywords → fuentes. Verificar todos los estados de dominio reflejados en fake API y en UI sin datos hardcodeados en componentes.                           | 3h             | QA / Equipo        | To-Do      |
-
+| Sprint # | | | | | | | | |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Sprint 2** | **User Story** | | **Work-Item / Task** | | | | **Asignado a** | **Status** |
+| **ID** | **Título** | **SP** | **ID** | **Título** | **Descripción** | **Estimación** | **Asignado a** | |
+| — | Setup Sprint 2 | — | T01 | Configurar fake API completa con todos los Bounded Contexts | Ampliar `db.json` con entidades de los 5 BCs: `brandWorkspaces`, `reputationIncidents`, `mentionStreams`, `mentions`, `monitoringRules`, `sentimentResults`, `crisisAlerts`, `reputationReports`, `dashboardMetrics`, `auditLogs`, `users`. Agregar `routes.json` con todos los endpoints organizados por BC. Levantar en puerto 3000. | 5h | Frontend / Backend | To-Do |
+| — | Setup Sprint 2 | — | T02 | Implementar interceptor HTTP con JWT simulado y claims de workspace | Configurar interceptor Angular que adjunte JWT simulado con `workspaceIds` como claims en el header `Authorization`. Manejar expiración y redirección automática a login sin exponer datos reputacionales. | 2h | Frontend | To-Do |
+| — | Setup Sprint 2 | — | T03 | Implementar `AuthGuard` y `WorkspaceGuard` con validación de claims | Crear `AuthGuard` para rutas privadas. Crear `WorkspaceGuard` que valide que el `workspaceId` en la ruta pertenece a los claims del JWT simulado. Registrar `UnauthorizedAccessAttempted` en `auditLogs` ante intentos fallidos. Redirigir a pantalla 403. | 4h | Frontend | To-Do |
+| — | Setup Sprint 2 | — | T04 | Implementar servicio de estado global del `BrandWorkspace` activo | Servicio Angular con `BehaviorSubject` para gestionar el workspace activo en sesión. Limpiar contexto al logout o al revocar acceso. Exponer el estado del workspace (`ACTIVO`, `INACTIVO`, `EMERGENCIA`) a todos los componentes. | 4h | Frontend | To-Do |
+| — | Setup Sprint 2 | — | T05 | Configurar estructura de rutas por Bounded Context | Definir módulos de rutas separados por BC: `/workspace`, `/monitoring`, `/crisis`, `/sentiment`, `/reports`. Aplicar lazy loading por módulo. Registrar navegación entre BCs en `auditLogs` para trazabilidad. | 3h | Frontend | To-Do |
+| US06 | Registrar cuenta para acceder a monitoreo reputacional | 5 | T06 | Implementar componente de registro con validación de dominio | Formulario Angular Reactive Forms: nombre, correo, contraseña con indicador de fortaleza, tipo de cuenta (`PYME_OWNER` / `AGENCY_MANAGER`). Errores inline por campo. Al registrar exitosamente redirigir a pantalla de verificación pendiente. | 4h | Frontend | To-Do |
+| US06 | Registrar cuenta para acceder a monitoreo reputacional | 5 | T07 | Conectar registro a fake API y emitir `AccountRegistered` | `POST /api/v1/auth/register` — persiste cuenta en estado `PENDIENTE_VERIFICACIÓN` en `db.json`. Registra `AccountRegistered` en `auditLogs` con timestamp. Retorna 409 si correo duplicado sin revelar estado de cuenta existente. | 2h | Frontend | To-Do |
+| US07 | Verificar correo para activar acceso reputacional | 3 | T08 | Implementar pantalla de verificación con estados diferenciados | Pantalla que recibe token simulado por query param. Muestra estados diferenciados: verificación exitosa (`ACTIVA`), token expirado, token inválido. Redirige al workspace al verificar exitosamente. | 3h | Frontend | To-Do |
+| US07 | Verificar correo para activar acceso reputacional | 3 | T09 | Conectar verificación a fake API y emitir `AccountActivated` | `GET /api/v1/auth/verify?token={token}` — transiciona cuenta de `PENDIENTE_VERIFICACIÓN` a `ACTIVA`. Registra `AccountActivated` en `auditLogs`. Retorna error diferenciado para token inválido vs. expirado. | 2h | Frontend | To-Do |
+| US08 | Iniciar sesión para acceder a marcas asignadas | 3 | T10 | Implementar login con bloqueo automático y carga de workspaces asignados | Formulario de login con contador de intentos fallidos. Al quinto intento consecutivo, transiciona cuenta a `BLOQUEADA` en fake API. Carga exclusivamente los `workspaceIds` asignados al usuario autenticado desde los claims del JWT. | 4h | Frontend | To-Do |
+| US08 | Iniciar sesión para acceder a marcas asignadas | 3 | T11 | Conectar login a fake API con JWT simulado en memoria | `POST /api/v1/auth/login` — retorna JWT simulado con `workspaceIds` como claims. Almacena token en memoria (no en `localStorage`). Redirige al workspace asignado. Maneja cuenta `BLOQUEADA` con 403 y mensaje claro. | 2h | Frontend | To-Do |
+| US09 | Recuperar acceso sin comprometer seguridad reputacional | 3 | T12 | Implementar flujo de recuperación en 2 pantallas con respuesta ambigua | Pantalla 1: solicitar correo (respuesta ambigua — no revela si el correo existe). Pantalla 2: nueva contraseña con token simulado en query param con validación de fortaleza. | 3h | Frontend | To-Do |
+| US09 | Recuperar acceso sin comprometer seguridad reputacional | 3 | T13 | Conectar recuperación a fake API, emitir `PasswordReset` y limpiar sesiones | `POST /api/v1/auth/forgot-password` y `POST /api/v1/auth/reset-password`. Al restablecer: actualiza contraseña, invalida token, limpia sesión activa y registra `PasswordReset` en `auditLogs`. | 2h | Frontend | To-Do |
+| US10 | Cerrar sesión para proteger datos reputacionales | 2 | T14 | Implementar logout con limpieza de contexto de sesión y BehaviorSubject | Logout invalida JWT en cliente, limpia el `BehaviorSubject` del workspace activo, cancela subscripciones RxJS pendientes y redirige al login. Detectar sesión inválida en otras pestañas. | 2h | Frontend | To-Do |
+| US10 | Cerrar sesión para proteger datos reputacionales | 2 | T15 | Implementar timeout de inactividad de 30 minutos con RxJS | Timer RxJS de 30 minutos de inactividad. Al expirar, ejecutar flujo de logout con aviso previo de 60 segundos. Sin dependencia de `localStorage`. Registrar `SessionExpired` en `auditLogs`. | 2h | Frontend | To-Do |
+| US11 | Definir perímetro de monitoreo de una marca | 5 | T16 | Implementar pantalla de creación de `BrandWorkspace` con validación de perímetro mínimo | Formulario con nombre de marca, al menos una keyword y al menos una fuente. Bloquear confirmación si configuración mínima incompleta. Rechazar nombre duplicado dentro de la cuenta. Al confirmar, transicionar `BrandWorkspace` a estado `MONITOREO_ACTIVO`. | 4h | Frontend | To-Do |
+| US11 | Definir perímetro de monitoreo de una marca | 5 | T17 | Conectar creación a fake API y emitir `BrandWorkspaceConfigured` | `POST /api/v1/brands` — persiste `BrandWorkspace` en `db.json`. Registra `BrandWorkspaceConfigured` en `auditLogs` con userId y timestamp. Retorna 409 si nombre duplicado. | 2h | Frontend | To-Do |
+| US12 | Actualizar configuración de monitoreo de una marca | 3 | T18 | Implementar pantalla de edición de `BrandWorkspace` con previsualización de cambios | Formulario precargado con configuración actual. Mostrar diferencia entre configuración anterior y nueva antes de confirmar. Al guardar, emitir `MonitoringPerimeterUpdated`. Bloquear si nombre obligatorio vacío. | 3h | Frontend | To-Do |
+| US12 | Actualizar configuración de monitoreo de una marca | 3 | T19 | Conectar edición a fake API y emitir `MonitoringPerimeterUpdated` | `PUT /api/v1/brands/{id}` — actualiza `BrandWorkspace` en `db.json` y registra `MonitoringPerimeterUpdated` en `auditLogs` con versión anterior para trazabilidad. | 2h | Frontend | To-Do |
+| US13 | Desactivar marca para suspender monitoreo sin perder evidencia | 2 | T20 | Implementar desactivación de `BrandWorkspace` con guard de rol ADMIN | Opción de desactivación visible únicamente para rol `ADMIN`. Modal de confirmación con advertencia de impacto. Bloquear si el claim de ADMIN no está presente en el JWT simulado. | 2h | Frontend | To-Do |
+| US13 | Desactivar marca para suspender monitoreo sin perder evidencia | 2 | T21 | Conectar desactivación a fake API conservando historial y emitir `BrandDeactivated` | `PATCH /api/v1/brands/{id}/deactivate` — transiciona `BrandWorkspace` a `INACTIVO` conservando historial íntegro de menciones e incidentes. Registra `BrandDeactivated` en `auditLogs` con userId y timestamp. | 2h | Frontend | To-Do |
+| US14 | Definir reglas de monitoreo para detectar menciones sensibles | 5 | T22 | Implementar gestión de `MonitoringRule` con control de versiones visual | Componente para agregar, editar y eliminar keywords por marca. Rechazar duplicados. Al eliminar la última keyword activa, mostrar advertencia y transitar workspace a `SIN_CONFIGURACIÓN`. Mostrar versión activa de las reglas. | 3h | Frontend | To-Do |
+| US14 | Definir reglas de monitoreo para detectar menciones sensibles | 5 | T23 | Conectar `MonitoringRule` a fake API y emitir `MonitoringRuleUpdated` | `PUT /api/v1/brands/{id}/keywords` — actualiza `MonitoringRule` en `db.json`, registra versión anterior para trazabilidad y emite `MonitoringRuleUpdated` en `auditLogs`. | 2h | Frontend | To-Do |
+| US15 | Centralizar canales digitales para reducir monitoreo manual | 8 | T24 | Implementar pantalla de conexión de fuentes con estados de cobertura diferenciados | Pantalla con plataformas disponibles (Twitter/X, Instagram, Google Reviews — simuladas). Estados visuales diferenciados: `CONECTADA` (verde), `DESCONECTADA` (gris), `ERROR` (rojo), `CRÍTICA` (naranja). Mostrar fecha de última sincronización por fuente. | 4h | Frontend | To-Do |
+| US15 | Centralizar canales digitales para reducir monitoreo manual | 8 | T25 | Conectar fuentes a fake API y emitir `MonitoringSourceFailed` ante errores | `POST /api/v1/brands/{id}/sources` — simula validación de credenciales. Persiste fuente en estado `CONECTADA` o `DESCONECTADA`. Falla de fuente activa transita a `ERROR` y registra `MonitoringSourceFailed` en `auditLogs`. | 2h | Frontend | To-Do |
+| US33 | Operar exclusivamente dentro del perímetro de marcas asignadas | 8 | T26 | Implementar `WorkspaceGuard` con validación de claims JWT en cada ruta | `WorkspaceGuard` verifica que el `workspaceId` en la ruta esté en los claims del JWT simulado antes de activar cualquier componente del BC. Acceso no autorizado redirige a pantalla 403 y bloquea operaciones pendientes. | 3h | Frontend | To-Do |
+| US33 | Operar exclusivamente dentro del perímetro de marcas asignadas | 8 | T27 | Implementar pantalla 403 y registrar `UnauthorizedAccessAttempted` en fake API | Pantalla de acceso denegado con mensaje claro y opción de volver al workspace asignado. `POST /api/v1/audit` registra `UnauthorizedAccessAttempted` con userId, workspaceId intentado y timestamp. | 2h | Frontend | To-Do |
+| US16 | Activar monitoreo para capturar señales reputacionales | 5 | T28 | Implementar pantalla de activación de `MentionStream` con validación de prerrequisitos | Botón de activación habilitado solo si `BrandWorkspace` tiene al menos una `MonitoringRule` activa y una fuente `CONECTADA`. Al activar, transicionar workspace a `MONITOREO_ACTIVO` y registrar timestamp de inicio para trazabilidad. | 3h | Frontend | To-Do |
+| US16 | Activar monitoreo para capturar señales reputacionales | 5 | T29 | Conectar activación a fake API y emitir `BrandMonitoringActivated` | `POST /api/v1/brands/{id}/monitoring/start` — activa el `MentionStream` en `db.json`. Registra `BrandMonitoringActivated` en `auditLogs` con timestamp. Retorna 400 si configuración incompleta con mensaje que indica qué falta. | 2h | Frontend | To-Do |
+| US17 | Identificar menciones negativas recurrentes para priorizar respuesta | 5 | T30 | Implementar listado paginado de menciones con clasificación por recurrencia | Vista con listado paginado de menciones del `MentionStream`. Cada mención muestra fuente, fecha, texto, categoría de sentimiento y frecuencia de recurrencia. Ordenar por criticidad y fecha. Mostrar aviso si alguna fuente presenta fallo. | 4h | Frontend | To-Do |
+| US17 | Identificar menciones negativas recurrentes para priorizar respuesta | 5 | T31 | Conectar listado de menciones a fake API con paginación y estado de fuentes | `GET /api/v1/brands/{id}/mentions?page={n}&size={n}` — retorna menciones paginadas con `totalElements` y `totalPages`. Si una fuente tiene estado `ERROR`, incluir aviso en la respuesta sin interrumpir el listado de las demás fuentes. | 2h | Frontend | To-Do |
+| US18 | Filtrar menciones para encontrar incidentes relevantes | 5 | T32 | Implementar panel de filtros con reinicio de paginación | Panel de filtros por fecha, fuente y categoría de sentimiento (`MentionCategory`). Al aplicar filtros, reiniciar paginación a primera página. Botón "Limpiar filtros" restaura listado completo. Mostrar conteo de resultados filtrados. | 3h | Frontend | To-Do |
+| US18 | Filtrar menciones para encontrar incidentes relevantes | 5 | T33 | Conectar filtros a fake API con query params | `GET /api/v1/brands/{id}/mentions?sentimentType={val}&source={val}&from={date}&to={date}` — retorna menciones filtradas. Si no hay resultados, retornar 200 con arreglo vacío e indicar que no hay coincidencias para esos criterios. | 2h | Frontend | To-Do |
+| US19 | Detectar fuentes recurrentes de comentarios negativos | 8 | T34 | Implementar vista de análisis de fuentes con ranking por volumen negativo | Vista con ranking de fuentes por volumen de menciones negativas. Destacar visualmente fuentes que superen umbral de criticidad. Mostrar tendencia temporal por fuente. Indicar fuentes con menos de 5 menciones como "datos insuficientes". | 4h | Frontend | To-Do |
+| US19 | Detectar fuentes recurrentes de comentarios negativos | 8 | T35 | Conectar análisis de fuentes a fake API | `GET /api/v1/brands/{id}/mentions/sources/analysis` — retorna ranking de fuentes con volumen negativo, tendencia y estado de criticidad. Fuentes con estado `ERROR` aparecen con advertencia independientemente del ranking. | 2h | Frontend | To-Do |
+| US20 | Detectar deterioro reputacional antes de afectar campañas | 5 | T36 | Implementar vista de análisis de `SentimentScore` con indicador de riesgo | Vista con distribución porcentual positivo/negativo/neutro, `SentimentScore` global e indicador visual de nivel de riesgo reputacional (`BAJO`, `MEDIO`, `ALTO`, `CRÍTICO`). Mostrar indicador de procesamiento si el análisis está en curso. | 4h | Frontend | To-Do |
+| US20 | Detectar deterioro reputacional antes de afectar campañas | 5 | T37 | Conectar análisis de sentimiento a fake API | `GET /api/v1/brands/{id}/sentiment?from={date}&to={date}` — retorna distribución porcentual, `SentimentScore` y nivel de riesgo (`ReputationIndex`). Si hay menos de 5 menciones, retornar estado `DATOS_INSUFICIENTES` con mensaje explicativo. | 2h | Frontend | To-Do |
+| US21 | Priorizar menciones que requieren atención inmediata | 3 | T38 | Implementar filtro de menciones por `SentimentType` con orden por criticidad | Selector de categoría de sentimiento (`VERY_POSITIVE`, `POSITIVE`, `NEUTRAL`, `NEGATIVE`, `VERY_NEGATIVE`). Al seleccionar `NEGATIVE` o `VERY_NEGATIVE`, ordenar menciones por frecuencia de recurrencia primero y luego por fecha. Cambio de categoría actualiza listado sin recargar. | 3h | Frontend | To-Do |
+| US21 | Priorizar menciones que requieren atención inmediata | 3 | T39 | Conectar filtro de sentimiento a fake API | `GET /api/v1/brands/{id}/mentions?sentimentType={val}` — retorna menciones de la categoría seleccionada ordenadas por criticidad. Si la categoría no tiene menciones retornar 200 con arreglo vacío y estado `SIN_INCIDENTES_EN_CATEGORÍA`. | 2h | Frontend | To-Do |
+| US22 | Evaluar impacto de acciones estratégicas en percepción de marca | 8 | T40 | Implementar gráfico de tendencia de `SentimentScore` con comparación de períodos | Gráfico de línea con evolución del `SentimentScore` en los últimos 30 días por defecto. Selector de rango personalizado. Modo comparación: dos curvas diferenciadas por color con variación porcentual entre períodos. Destacar eventos de `SentimentTrendChanged`. | 5h | Frontend | To-Do |
+| US22 | Evaluar impacto de acciones estratégicas en percepción de marca | 8 | T41 | Conectar tendencia de sentimiento a fake API con serie temporal | `GET /api/v1/brands/{id}/sentiment/trend?from={date}&to={date}&groupBy={day|week}` — retorna serie temporal de `SentimentScore`. Para comparación: aceptar dos rangos como params. Retornar variación porcentual calculada entre períodos. | 2h | Frontend | To-Do |
+| US23 | Detectar picos anómalos para activar protocolos preventivos | 8 | T42 | Implementar panel de `CrisisAlert` con badge de alertas activas no revisadas | Panel de alertas con tipo, severidad (`SeverityLevel`), mención asociada, estado (`ACTIVA`/`ATENDIDA`) y timestamp. Badge en la navegación con contador de alertas activas no revisadas. Alerta de severidad `CRÍTICA` destacada visualmente con prioridad sobre las demás. | 4h | Frontend | To-Do |
+| US23 | Detectar picos anómalos para activar protocolos preventivos | 8 | T43 | Conectar panel de alertas a fake API con polling de nuevas alertas | `GET /api/v1/brands/{id}/alerts` — retorna listado de `CrisisAlert` ordenado por `AlertPriority` descendente. Implementar polling cada 30 segundos para detectar nuevas alertas `CRÍTICA` sin requerir recarga manual. | 3h | Frontend | To-Do |
+| US24 | Configurar umbrales de escalamiento por cliente | 5 | T44 | Implementar formulario de configuración de `AlertThreshold` por marca | Formulario de configuración de umbrales: métrica evaluada, operador de comparación y valor límite. Formulario precargado con configuración actual. Validar que exista al menos un umbral activo antes de guardar. | 3h | Frontend | To-Do |
+| US24 | Configurar umbrales de escalamiento por cliente | 5 | T45 | Conectar configuración de `AlertThreshold` a fake API | `PUT /api/v1/brands/{id}/alerts/config` — persiste configuración de umbrales de `MonitoringRule`. Registra `MonitoringRuleTriggered` en `auditLogs` si el umbral cambia mientras hay un incidente activo. | 2h | Frontend | To-Do |
+| US25 | Priorizar incidentes según severidad para gestión simultánea | 5 | T46 | Implementar cola de `ReputationIncident` priorizada por severidad e impacto | Vista de incidentes activos ordenados por `SeverityLevel` (`CRÍTICO` → `ALTO` → `MEDIO` → `BAJO`) con indicador de impacto potencial por marca. Destacar incidentes sin responsable asignado. Filtro por severidad. Indicar tiempo transcurrido desde detección. | 4h | Frontend | To-Do |
+| US25 | Priorizar incidentes según severidad para gestión simultánea | 5 | T47 | Conectar cola de incidentes a fake API con filtro por severidad | `GET /api/v1/brands/{id}/incidents?severity={val}&status={val}` — retorna `ReputationIncident` ordenados por severidad. Incidentes con `status=DETECTED` y sin `assignedTo` retornan destacados en la respuesta. | 2h | Frontend | To-Do |
+| US26 | Registrar respuesta a incidente para mantener trazabilidad | 5 | T48 | Implementar vista de detalle de `ReputationIncident` con historial de acciones | Vista de detalle con contenido de la mención, estado del incidente, nivel de severidad, historial completo de respuestas (responsable + timestamp) y campo para registrar nueva respuesta. Mostrar quién hizo `acknowledge()` y cuándo. | 4h | Frontend | To-Do |
+| US26 | Registrar respuesta a incidente para mantener trazabilidad | 5 | T49 | Conectar respuesta a `ReputationIncident` y emitir `AlertAcknowledged` | `PATCH /api/v1/incidents/{id}/respond` — persiste respuesta con userId, contenido y timestamp. Transiciona incidente a `IN_RESPONSE`. Registra `AlertAcknowledged` en `auditLogs`. Retorna 400 si el campo de respuesta está vacío. | 2h | Frontend | To-Do |
+| US27 | Detectar tendencias negativas para ejecutar acciones correctivas | 8 | T50 | Implementar dashboard con `ReputationIndex` y señales de riesgo destacadas | Dashboard con widgets: volumen de menciones, distribución de `SentimentScore`, alertas activas por `AlertPriority`, `ReputationIndex` con variación respecto al período anterior e indicador de tendencia. Destacar visualmente señales de riesgo `ALTO` o `CRÍTICO`. Botón de actualización manual sin recargar la página. | 5h | Frontend | To-Do |
+| US27 | Detectar tendencias negativas para ejecutar acciones correctivas | 8 | T51 | Conectar dashboard a fake API en una sola llamada consolidada | `GET /api/v1/brands/{id}/dashboard` — retorna todos los indicadores del `BrandWorkspace` en una sola respuesta: volumen, sentimiento, alertas activas, `ReputationIndex` y variación porcentual. Campos numéricos en cero si la marca no tiene menciones aún. | 2h | Frontend | To-Do |
+| US28 | Evaluar impacto de campañas con reportes reputacionales | 8 | T52 | Implementar generador de `ReputationReport` con selector de período | Selector de rango de fechas con validación de que existan datos en el período. Al generar, mostrar progreso y habilitar descarga al completar. Incluir métricas: variaciones de sentimiento, volumen de menciones, incidentes del período y `ReputationIndex`. | 4h | Frontend | To-Do |
+| US28 | Evaluar impacto de campañas con reportes reputacionales | 8 | T53 | Conectar generación de `ReputationReport` a fake API y emitir `ReputationReportGenerated` | `POST /api/v1/brands/{id}/reports` — genera y persiste `ReputationReport` en `db.json`. Registra `ReputationReportGenerated` en `auditLogs`. Retorna 404 si el período no tiene menciones. | 2h | Frontend | To-Do |
+| US29 | Acceder a historial de evidencia reputacional | 3 | T54 | Implementar historial de `ReputationReport` con acceso a evidencia previa | Lista de reportes generados con fecha, período cubierto y botones de descarga y eliminación. Estado vacío con acceso directo al generador. Confirmación antes de eliminar con advertencia de que la evidencia no se puede recuperar. | 3h | Frontend | To-Do |
+| US29 | Acceder a historial de evidencia reputacional | 3 | T55 | Conectar historial de reportes a fake API | `GET /api/v1/brands/{id}/reports` — retorna listado. `DELETE /api/v1/reports/{id}` — elimina reporte conservando los incidentes asociados. Registra `ReportDeleted` en `auditLogs`. | 2h | Frontend | To-Do |
+| US30 | Compartir evidencia reputacional con clientes o equipo | 5 | T56 | Implementar exportación de `ReputationReport` en PDF y CSV | Botones de exportación habilitados solo cuando el reporte está en estado `GENERADO`. Al exportar PDF: descarga archivo con formato profesional. Al exportar CSV: descarga datos tabulados para análisis adicional. Botones deshabilitados con aviso si el reporte aún está generándose. | 3h | Frontend | To-Do |
+| US30 | Compartir evidencia reputacional con clientes o equipo | 5 | T57 | Conectar exportación a fake API con Content-Type diferenciado | `GET /api/v1/reports/{id}/export?format={pdf\|csv}` — retorna 200 con archivo en `Content-Type` correspondiente. Retorna 400 si el formato no es `pdf` o `csv`. Registra `ReportExported` en `auditLogs` con formato solicitado. | 2h | Frontend | To-Do |
+| US31 | Comparar períodos para evaluar evolución de estrategias | 8 | T58 | Implementar comparador de períodos con variación destacada | Dos selectores de rango independientes. Validar que los períodos sean distintos antes de habilitar "Comparar". Resultado muestra cuadro comparativo con variaciones en menciones, `SentimentScore`, alertas y `ReputationIndex`. Destacar variaciones significativas (> 20%) con indicador visual. | 4h | Frontend | To-Do |
+| US31 | Comparar períodos para evaluar evolución de estrategias | 8 | T59 | Conectar comparador a fake API y emitir `ComparativeAnalysisCompleted` | `GET /api/v1/brands/{id}/reports/compare?period1From={date}&period1To={date}&period2From={date}&period2To={date}` — retorna métricas de ambos períodos con variación calculada. Registra `ComparativeAnalysisCompleted` en `auditLogs`. | 2h | Frontend | To-Do |
+| US32 | Detectar patrones coordinados de comentarios sospechosos | 8 | T60 | Implementar vista de análisis de patrones sospechosos con detalle de correlaciones | Vista que muestra patrones detectados con origen de menciones, frecuencia, similitud semántica y nivel de sospecha. Botón para descartar falso positivo con confirmación. Al descartar, el sistema registra la decisión para calibración futura. | 4h | Frontend | To-Do |
+| US32 | Detectar patrones coordinados de comentarios sospechosos | 8 | T61 | Conectar detección de patrones a fake API y emitir `SuspiciousPatternDetected` | `GET /api/v1/brands/{id}/mentions/patterns` — retorna patrones detectados con métricas de correlación. `PATCH /api/v1/mentions/patterns/{id}/dismiss` — descarta patrón como falso positivo y registra `PatternDismissed` en `auditLogs` con userId y justificación. | 2h | Frontend | To-Do |
+| — | QA Sprint 2 | — | T62 | Pruebas del flujo de onboarding y acceso seguro | Pruebas manuales del flujo completo: registro → verificación → login → workspace. Verificar estados de dominio (`PENDIENTE_VERIFICACIÓN` → `ACTIVA` → `BLOQUEADA`) reflejados en fake API y UI. Verificar que `WorkspaceGuard` bloquee accesos no autorizados correctamente. | 3h | QA / Equipo | To-Do |
+| — | QA Sprint 2 | — | T63 | Pruebas del flujo de configuración de marca y monitoreo | Pruebas de `BrandWorkspace`: crear → configurar keywords → conectar fuentes → activar monitoreo. Verificar que el sistema bloquee activación sin configuración mínima. Verificar que `BrandDeactivated` conserve el historial íntegro en `db.json`. | 3h | QA / Equipo | To-Do |
+| — | QA Sprint 2 | — | T64 | Pruebas del flujo de detección de menciones y sentimiento | Pruebas del listado paginado de menciones con filtros. Verificar que categorías de sentimiento retornen correctamente. Verificar que el gráfico de tendencia muestre los eventos `SentimentTrendChanged` en la línea temporal. | 3h | QA / Equipo | To-Do |
+| — | QA Sprint 2 | — | T65 | Pruebas del flujo de gestión de crisis y reportes | Pruebas del panel de alertas: verificar polling de nuevas alertas `CRÍTICA`, priorización por `SeverityLevel`, trazabilidad de respuestas en `ReputationIncident`. Pruebas del dashboard consolidado y exportación de `ReputationReport` en PDF y CSV. | 3h | QA / Equipo | To-Do |
+| — | QA Sprint 2 | — | T66 | Verificar coherencia de `auditLogs` en todos los flujos del sprint | Revisar que todos los Domain Events esperados estén registrados en `auditLogs` de la fake API: `AccountRegistered`, `AccountActivated`, `BrandWorkspaceConfigured`, `MonitoringRuleUpdated`, `BrandMonitoringActivated`, `AlertAcknowledged`, `ReputationReportGenerated`, `UnauthorizedAccessAttempted`. | 2h | QA / Equipo | To-Do |
  
 <br>
 
