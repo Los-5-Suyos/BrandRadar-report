@@ -2624,15 +2624,15 @@ Finalmente, se delimitaron los límites semánticos y transaccionales del domini
 
 ![BoundextContext1](brandradar-report/assets/bounded-context/brand_workspace_1.jpg)
 
-![BoundextContext2](brandradar-report/assets/bounded-context/reputation_monitoring_2.jpg)
+![BoundextContext2](brandradar-report/assets/bounded-context/reputation_monotoring_2.jpg)
 
-![BoundextContext3](brandradar-report/assets/bounded-context/monitoring_3.jpg)
+![BoundextContext3](brandradar-report/assets/bounded-context/identity_access_3.jpg)
 
 ![BoundextContext4](brandradar-report/assets/bounded-context/sentiment_intelligence_4.jpg)
 
-![BoundextContext5](brandradar-report/assets/bounded-context/crisis_detection_5.jpg)
+![BoundextContext5](brandradar-report/assets/bounded-context/crisisdetection_5.jpg)
 
-![BoundextContext6](brandradar-report/assets/bounded-context/infrastructurehealth_6.jpg)
+![BoundextContext6](brandradar-report/assets/bounded-context/infrastructure_6.jpg)
 
 </div>
 
