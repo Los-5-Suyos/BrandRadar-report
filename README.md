@@ -2606,7 +2606,7 @@ Se incrementó el nivel de abstracción agrupando comandos y eventos alrededor d
 
 <div align="center">
   
-![Step9 - Event Storming](brandradar-report/assets/domain-driven-design/design-level-storm/step9.png)
+![Step9 - Event Storming](brandradar-report/assets/domain-driven-design/design-level-storm/step9_new.jpg)
 
 </div>
 
@@ -2616,22 +2616,22 @@ Finalmente, se delimitaron los límites semánticos y transaccionales del domini
 
 <div align="center">
   
-![Step10 - Event Storming](brandradar-report/assets/domain-driven-design/design-level-storm/step10.png)
+![Step10 - Event Storming](brandradar-report/assets/domain-driven-design/design-level-storm/step10_new.jpg)
 
   
 **Bounded Contexts:**
 
-![BoundextContext1](brandradar-report/assets/bounded-context/accountmanager.png)
+![BoundextContext1](brandradar-report/assets/bounded-context/brand_workspace_1.jpg)
 
-![BoundextContext2](brandradar-report/assets/bounded-context/brandmanager.png)
+![BoundextContext2](brandradar-report/assets/bounded-context/reputation_monotoring_2.jpg)
 
-![BoundextContext3](brandradar-report/assets/bounded-context/monitoring.png)
+![BoundextContext3](brandradar-report/assets/bounded-context/identity_access_3.jpg)
 
-![BoundextContext4](brandradar-report/assets/bounded-context/sentimentanalysis.png)
+![BoundextContext4](brandradar-report/assets/bounded-context/sentiment_intelligence_4.jpg)
 
-![BoundextContext5](brandradar-report/assets/bounded-context/alertmanagment.png)
+![BoundextContext5](brandradar-report/assets/bounded-context/crisisdetection_5.jpg)
 
-![BoundextContext6](brandradar-report/assets/bounded-context/reporting.png)
+![BoundextContext6](brandradar-report/assets/bounded-context/infrastructure_6.jpg)
 
 </div>
 
