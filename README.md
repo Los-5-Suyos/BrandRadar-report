@@ -1718,51 +1718,50 @@ Estos impactos se materializan en entregables como el motor de IA con entrenamie
 | 3 | **US03** | EP01 – Adquisición de Clientes | Reducir fricción de decisión mediante evidencia social de usuarios reales | Como gerente PyME, quiero conocer la experiencia de otras empresas similares con BrandRadar para reducir el riesgo percibido de adopción. | 1 |
 | 4 | **US04** | EP01 – Adquisición de Clientes | Seleccionar el plan que se alinea con la escala operacional del negocio | Como dueño de PyME, quiero comparar los planes con sus límites operacionales para seleccionar el que se ajusta a mi escala. | 2 |
 | 5 | **US05** | EP01 – Adquisición de Clientes | Iniciar conversación comercial antes de comprometer una suscripción | Como director de agencia, quiero contactar al equipo de BrandRadar para resolver dudas operacionales antes de comprometer una suscripción para mis clientes. | 2 |
-| 6 | **US06** | EP02 – Identidad y Acceso Seguro | Registrar cuenta para acceder a monitoreo reputacional | Como administrador corporativo, quiero crear una cuenta verificada con acceso solo a las marcas asignadas para proteger información reputacional sensible. | 5 |
-| 7 | **US07** | EP02 – Identidad y Acceso Seguro | Verificar correo para activar acceso reputacional | Como usuario recién registrado, quiero verificar mi correo para que la cuenta transite a estado `ACTIVA` y pueda acceder al workspace. | 3 |
-| 8 | **US08** | EP02 – Identidad y Acceso Seguro | Iniciar sesión para acceder a marcas asignadas | Como administrador autorizado, quiero iniciar sesión para acceder únicamente a las marcas asignadas y proteger información sensible. | 3 |
-| 9 | **US09** | EP02 – Identidad y Acceso Seguro | Recuperar acceso sin comprometer seguridad reputacional | Como usuario registrado, quiero recuperar acceso mediante flujo seguro para evitar exposición de información sensible. | 3 |
-| 10 | **US10** | EP02 – Identidad y Acceso Seguro | Cerrar sesión para proteger datos reputacionales | Como usuario autenticado, quiero cerrar sesión para invalidar la sesión y descargar el contexto del workspace en dispositivos compartidos. | 2 |
-| 11 | **US11** | EP03 – Configuración Estratégica de Marca | Definir perímetro de monitoreo de una marca | Como director de agencia, quiero configurar perfil de marca con palabras clave y fuentes para activar el motor de detección. | 5 |
-| 12 | **US12** | EP03 – Configuración Estratégica de Marca | Actualizar configuración de monitoreo de una marca | Como responsable de marketing, quiero actualizar palabras clave y fuentes para ajustar el monitoreo a la estrategia actual con trazabilidad de cambios. | 3 |
-| 13 | **US14** | EP03 – Configuración Estratégica de Marca | Definir reglas de monitoreo para detectar menciones sensibles | Como analista reputacional, quiero definir palabras clave para que el sistema detecte automáticamente menciones sensibles. | 5 |
-| 14 | **US15** | EP03 – Configuración Estratégica de Marca | Centralizar canales digitales para reducir monitoreo manual | Como especialista digital, quiero conectar múltiples plataformas para centralizar monitoreo y eliminar revisión manual dispersa. | 8 |
-| 15 | **US13** | EP03 – Configuración Estratégica de Marca | Desactivar marca para suspender monitoreo sin perder evidencia | Como director de agencia, quiero desactivar marcas inactivas conservando el historial de incidentes y menciones para análisis futuro. | 2 |
-| 16 | **US16** | EP04 – Detección y Trazabilidad de Menciones | Activar monitoreo para capturar señales reputacionales | Como director de marca, quiero activar monitoreo para capturar señales reputacionales antes de que escalen. | 5 |
-| 17 | **US17** | EP04 – Detección y Trazabilidad de Menciones | Identificar menciones negativas recurrentes para priorizar respuesta | Como community manager, quiero identificar menciones negativas recurrentes para priorizar acciones de respuesta. | 5 |
-| 18 | **US18** | EP04 – Detección y Trazabilidad de Menciones | Filtrar menciones para encontrar incidentes relevantes | Como analista reputacional, quiero filtrar menciones por criterios de sentimiento y fecha para identificar las de mayor riesgo de escalamiento. | 5 |
-| 19 | **US19** | EP04 – Detección y Trazabilidad de Menciones | Detectar fuentes recurrentes de comentarios negativos | Como gerente de marca, quiero identificar fuentes que concentran riesgo reputacional para ejecutar acciones correctivas. | 8 |
-| 20 | **US20** | EP05 – Inteligencia de Sentimiento Reputacional | Detectar deterioro reputacional antes de afectar campañas | Como director de marca, quiero identificar deterioro reputacional temprano para ejecutar acciones correctivas. | 5 |
-| 21 | **US21** | EP05 – Inteligencia de Sentimiento Reputacional | Priorizar menciones que requieren atención inmediata | Como community manager, quiero filtrar por sentimiento para priorizar menciones negativas que requieren respuesta. | 3 |
-| 22 | **US22** | EP05 – Inteligencia de Sentimiento Reputacional | Evaluar impacto de acciones estratégicas en percepción de marca | Como gerente reputacional, quiero ver evolución del `SentimentScore` para evaluar si las acciones correctivas están funcionando. | 8 |
-| 23 | **US23** | EP06 – Gestión de Crisis y Escalamiento | Detectar picos anómalos para activar protocolos preventivos | Como director reputacional, quiero que el sistema detecte picos anómalos y cree `ReputationIncident` antes de que una crisis escale. | 8 |
-| 24 | **US24** | EP06 – Gestión de Crisis y Escalamiento | Configurar umbrales de escalamiento por cliente | Como Agency Manager, quiero configurar `AlertThreshold` por marca cliente para personalizar el escalamiento de incidentes. | 5 |
-| 25 | **US25** | EP06 – Gestión de Crisis y Escalamiento | Priorizar incidentes según severidad para gestión simultánea | Como agencia digital, quiero priorizar `ReputationIncident` por `SeverityLevel` para optimizar atención de múltiples clientes. | 5 |
-| 26 | **US26** | EP06 – Gestión de Crisis y Escalamiento | Registrar respuesta a incidente para mantener trazabilidad | Como supervisor reputacional, quiero registrar quién respondió cada `ReputationIncident` para mantener trazabilidad y control. | 5 |
-| 27 | **US27** | EP07 – Inteligencia Estratégica y Reportes | Detectar tendencias negativas para ejecutar acciones correctivas | Como gerente reputacional, quiero detectar tendencias negativas en el dashboard para ejecutar acciones correctivas rápidamente. | 8 |
-| 28 | **US28** | EP07 – Inteligencia Estratégica y Reportes | Evaluar impacto de campañas con reportes reputacionales | Como gerente comercial, quiero generar `ReputationReport` por período para evaluar impacto de campañas. | 8 |
-| 29 | **US29** | EP07 – Inteligencia Estratégica y Reportes | Acceder a historial de evidencia reputacional | Como gerente de reputación, quiero conservar evidencia histórica de `ReputationReport` para analizar evolución de incidentes críticos. | 3 |
-| 30 | **US30** | EP07 – Inteligencia Estratégica y Reportes | Compartir evidencia reputacional con clientes o equipo | Como Agency Manager, quiero exportar `ReputationReport` en PDF o CSV para compartir evidencia verificada. | 5 |
-| 31 | **US31** | EP07 – Inteligencia Estratégica y Reportes | Comparar períodos para evaluar evolución de estrategias | Como Agency Manager, quiero comparar métricas entre períodos para evaluar impacto de estrategias aplicadas. | 8 |
-| 32 | **US32** | EP07 – Inteligencia Estratégica y Reportes | Detectar patrones coordinados de comentarios sospechosos | Como analista de reputación, quiero detectar patrones coordinados para identificar posibles campañas de desinformación. | 8 |
-| 33 | **US33** | EP08 – Control de Acceso Contextual | Operar exclusivamente dentro del perímetro de marcas asignadas | Como analista de agencia, quiero que el sistema impida acceder a marcas de otros clientes para garantizar confidencialidad operacional entre cuentas. | 8 |
-| 34 | **TS01** | EP02 – Identidad y Acceso Seguro | Endpoint de registro de usuario | Como Developer, quiero implementar el endpoint de registro que crea `UserAccount` en estado `PENDIENTE_VERIFICACIÓN` y emite `AccountRegistered`. | 5 |
-| 35 | **TS02** | EP02 – Identidad y Acceso Seguro | Endpoint de inicio de sesión y emisión de JWT | Como Developer, quiero implementar el endpoint de login que valida credenciales y registra intentos fallidos con bloqueo automático. | 5 |
-| 36 | **TS03** | EP02 – Identidad y Acceso Seguro | Endpoint de verificación de correo | Como Developer, quiero implementar el endpoint de verificación que transiciona la cuenta a `ACTIVA` y emite `AccountActivated`. | 3 |
-| 37 | **TS04** | EP02 – Identidad y Acceso Seguro | Endpoint de recuperación de contraseña | Como Developer, quiero implementar el flujo de recuperación que emite `PasswordRecoveryRequested` y `PasswordReset`, cerrando sesiones activas. | 5 |
-| 38 | **TS05** | EP02 – Identidad y Acceso Seguro | Endpoint de refresh de token JWT | Como Developer, quiero implementar el endpoint de renovación de token para mantener sesión activa sin nuevo login. | 5 |
-| 39 | **TS06** | EP03 – Configuración Estratégica de Marca | Endpoints de creación y consulta de `BrandWorkspace` | Como Developer, quiero implementar endpoints de creación y consulta de `BrandWorkspace` incluyendo su estado. | 5 |
-| 40 | **TS07** | EP03 – Configuración Estratégica de Marca | Endpoints de edición y desactivación de `BrandWorkspace` | Como Developer, quiero implementar endpoints de edición y desactivación que conserven historial y emitan `WorkspaceDeactivated`. | 3 |
-| 41 | **TS08** | EP03 – Configuración Estratégica de Marca | Endpoints de `MonitoringRule` y fuentes de datos | Como Developer, quiero implementar endpoints de reglas de monitoreo que versionen cambios y emitan `MonitoringRuleUpdated`. | 8 |
-| 42 | **TS09** | EP04 – Detección y Trazabilidad de Menciones | Endpoints de monitoreo y consulta paginada de menciones | Como Developer, quiero implementar endpoints de inicio de monitoreo que emitan `MonitoringActivated` y consulta paginada de menciones. | 8 |
-| 43 | **TS10** | EP05 – Inteligencia de Sentimiento Reputacional | Endpoints de `SentimentScore` y tendencias | Como Developer, quiero implementar endpoints de análisis de sentimiento que retornen `SentimentScore` con nivel de riesgo reputacional. | 8 |
-| 44 | **TS11** | EP06 – Gestión de Crisis y Escalamiento | Endpoints de `ReputationIncident` y `AlertThreshold` | Como Developer, quiero implementar endpoints de gestión de incidentes y configuración de umbrales de escalamiento. | 5 |
-| 45 | **TS12** | EP06 – Gestión de Crisis y Escalamiento | Endpoint de respuesta y trazabilidad de `ReputationIncident` | Como Developer, quiero implementar endpoint de respuesta que registre responsable, timestamp y emita `AlertAcknowledged`. | 3 |
-| 46 | **TS13** | EP07 – Inteligencia Estratégica y Reportes | Endpoints de generación y consulta de `ReputationReport` | Como Developer, quiero implementar endpoints de generación y consulta de reportes que emitan `ReportGenerated`. | 8 |
-| 47 | **TS14** | EP07 – Inteligencia Estratégica y Reportes | Endpoints de exportación y eliminación de `ReputationReport` | Como Developer, quiero implementar endpoints de exportación (PDF/CSV) y eliminación de reportes conservando los incidentes asociados. | 5 |
-| 48 | **TS15** | EP07 – Inteligencia Estratégica y Reportes | Endpoint de métricas consolidadas del dashboard | Como Developer, quiero implementar endpoint de dashboard que retorne todos los indicadores reputacionales del `BrandWorkspace` en una sola llamada. | 8 |
-| 49 | **TS16** | EP08 – Control de Acceso Contextual | Middleware de autorización contextual por workspace | Como Developer, quiero implementar un middleware que valide en cada request que el usuario autenticado tiene acceso al `BrandWorkspace` solicitado, registrando intentos no autorizados como eventos de auditoría. | 5 |
-
+| 6 | **US06** | EP02 – Identidad y Acceso Seguro | Registrar cuenta verificada para proteger información reputacional sensible | Como administrador corporativo, quiero crear una cuenta verificada con acceso solo a las marcas asignadas para proteger información reputacional sensible. | 5 |
+| 7 | **US07** | EP02 – Identidad y Acceso Seguro | Verificar correo para que la cuenta transite a `ACTIVA` y habilite el workspace | Como usuario recién registrado, quiero verificar mi correo para que la cuenta transite a estado `ACTIVA` y pueda acceder al workspace reputacional. | 3 |
+| 8 | **US08** | EP02 – Identidad y Acceso Seguro | Iniciar sesión para acceder exclusivamente a las marcas asignadas | Como administrador autorizado, quiero iniciar sesión para acceder únicamente a las marcas asignadas y proteger información reputacional sensible. | 3 |
+| 9 | **US09** | EP02 – Identidad y Acceso Seguro | Recuperar acceso mediante flujo seguro sin comprometer la confidencialidad reputacional | Como usuario registrado, quiero recuperar acceso mediante flujo seguro para evitar exposición de información sensible. | 3 |
+| 10 | **US10** | EP02 – Identidad y Acceso Seguro | Cerrar sesión para invalidar contexto de workspace en dispositivos compartidos | Como usuario autenticado, quiero cerrar sesión para invalidar la sesión activa y descargar el contexto del workspace en dispositivos compartidos. | 2 |
+| 11 | **US11** | EP03 – Configuración Estratégica de Marca | Configurar `BrandWorkspace` con palabras clave y fuentes para activar el motor de detección | Como director de agencia, quiero configurar perfil de marca con palabras clave y fuentes para activar el motor de detección reputacional. | 5 |
+| 12 | **US12** | EP03 – Configuración Estratégica de Marca | Actualizar `MonitoringRule` con trazabilidad de cambios para ajustar cobertura reputacional | Como responsable de marketing, quiero actualizar palabras clave y fuentes con trazabilidad de cambios para ajustar el monitoreo a la estrategia actual. | 3 |
+| 13 | **US13** | EP03 – Configuración Estratégica de Marca | Desactivar `BrandWorkspace` conservando historial de incidentes y menciones para análisis futuro | Como director de agencia, quiero desactivar marcas inactivas conservando el historial de incidentes y menciones para análisis futuro. | 2 |
+| 14 | **US14** | EP03 – Configuración Estratégica de Marca | Definir `MonitoringRule` con keywords para detectar menciones sensibles automáticamente | Como analista reputacional, quiero definir palabras clave para que el sistema detecte automáticamente menciones sensibles sin revisión manual. | 5 |
+| 15 | **US15** | EP03 – Configuración Estratégica de Marca | Conectar `MonitoringChannel` múltiples para eliminar revisión manual dispersa | Como especialista digital, quiero conectar múltiples plataformas para centralizar el monitoreo y eliminar revisión manual dispersa. | 8 |
+| 16 | **US16** | EP04 – Detección y Trazabilidad de Menciones | Activar monitoreo del `MentionStream` para capturar señales reputacionales antes de que escalen | Como director de marca, quiero activar monitoreo para capturar señales reputacionales antes de que escalen a incidentes críticos. | 5 |
+| 17 | **US17** | EP04 – Detección y Trazabilidad de Menciones | Identificar menciones negativas recurrentes en `MentionStream` para priorizar respuesta operacional | Como community manager, quiero identificar menciones negativas recurrentes para priorizar acciones de respuesta antes de que escalen. | 5 |
+| 18 | **US18** | EP04 – Detección y Trazabilidad de Menciones | Filtrar `MentionStream` por `SentimentType` y fecha para identificar mayor riesgo de escalamiento | Como analista reputacional, quiero filtrar menciones por criterios de sentimiento y fecha para identificar las de mayor riesgo de escalamiento. | 5 |
+| 19 | **US19** | EP04 – Detección y Trazabilidad de Menciones | Detectar `MentionSource` recurrentes de riesgo reputacional para ejecutar acciones correctivas | Como gerente de marca, quiero identificar fuentes que concentran riesgo reputacional para ejecutar acciones correctivas sobre productos o campañas específicas. | 8 |
+| 20 | **US20** | EP05 – Inteligencia de Sentimiento Reputacional | Detectar deterioro del `SentimentScore` antes de afectar campañas activas | Como director de marca, quiero identificar deterioro reputacional temprano para ejecutar acciones correctivas antes de que afecten campañas activas. | 5 |
+| 21 | **US21** | EP05 – Inteligencia de Sentimiento Reputacional | Filtrar por `SentimentType` para priorizar menciones negativas que requieren respuesta inmediata | Como community manager, quiero filtrar por sentimiento para priorizar menciones negativas que requieren respuesta antes de que escalen públicamente. | 3 |
+| 22 | **US22** | EP05 – Inteligencia de Sentimiento Reputacional | Evaluar evolución del `SentimentScore` para medir impacto de acciones estratégicas correctivas | Como gerente reputacional, quiero ver evolución del `SentimentScore` para evaluar si las acciones correctivas están teniendo efecto medible. | 8 |
+| 23 | **US23** | EP06 – Gestión de Crisis y Escalamiento | Detectar picos anómalos en `MentionStream` para crear `ReputationIncident` antes de que una crisis escale | Como director reputacional, quiero que el sistema detecte picos anómalos de menciones negativas y cree `ReputationIncident` automáticamente activando protocolos preventivos. | 8 |
+| 24 | **US24** | EP06 – Gestión de Crisis y Escalamiento | Configurar `AlertThreshold` por marca cliente para personalizar el escalamiento de `ReputationIncident` | Como Agency Manager, quiero configurar `AlertThreshold` por marca cliente para que el escalamiento de incidentes respete la sensibilidad de cada cuenta. | 5 |
+| 25 | **US25** | EP06 – Gestión de Crisis y Escalamiento | Priorizar `ReputationIncident` por `SeverityLevel` para optimizar atención simultánea de múltiples clientes | Como agencia digital, quiero priorizar `ReputationIncident` por `SeverityLevel` e impacto potencial para optimizar la atención simultánea de múltiples clientes. | 5 |
+| 26 | **US26** | EP06 – Gestión de Crisis y Escalamiento | Registrar responsable y timestamp de respuesta a `ReputationIncident` para mantener trazabilidad operacional | Como supervisor reputacional, quiero registrar quién respondió cada `ReputationIncident` con timestamp para mantener trazabilidad y control operativo. | 5 |
+| 27 | **US27** | EP07 – Inteligencia Estratégica y Reportes | Detectar tendencias negativas del `SentimentScore` para ejecutar acciones correctivas rápidamente | Como gerente reputacional, quiero detectar tendencias negativas sostenidas en el dashboard para ejecutar acciones correctivas antes de que impacten campañas. | 8 |
+| 28 | **US28** | EP07 – Inteligencia Estratégica y Reportes | Generar `ReputationReport` por período para evaluar impacto reputacional de campañas | Como gerente comercial, quiero generar `ReputationReport` por período para evaluar el impacto reputacional de campañas recientes. | 8 |
+| 29 | **US29** | EP07 – Inteligencia Estratégica y Reportes | Conservar historial de `ReputationReport` para analizar evolución de incidentes críticos | Como gerente de reputación, quiero conservar evidencia histórica de `ReputationReport` para analizar la evolución de incidentes críticos a lo largo del tiempo. | 3 |
+| 30 | **US30** | EP07 – Inteligencia Estratégica y Reportes | Exportar `ReputationReport` en PDF/CSV para compartir evidencia verificada con clientes | Como Agency Manager, quiero exportar `ReputationReport` en PDF o CSV para compartir evidencia verificada con clientes o stakeholders internos. | 5 |
+| 31 | **US31** | EP07 – Inteligencia Estratégica y Reportes | Comparar métricas entre períodos para evaluar impacto de estrategias reputacionales aplicadas | Como Agency Manager, quiero comparar métricas reputacionales entre períodos para evaluar si las estrategias aplicadas están generando mejora medible. | 8 |
+| 32 | **US32** | EP07 – Inteligencia Estratégica y Reportes | Detectar patrones coordinados en `MentionStream` para identificar posibles campañas de desinformación | Como analista de reputación, quiero detectar patrones coordinados de comentarios sospechosos para identificar posibles campañas de desinformación dirigidas a la marca. | 8 |
+| 33 | **US33** | EP08 – Control de Acceso Contextual | Operar exclusivamente dentro del perímetro de `BrandWorkspace` asignados para garantizar confidencialidad operacional | Como analista de agencia, quiero que el sistema impida acceder a marcas de otros clientes para garantizar confidencialidad operacional entre cuentas. | 8 |
+| 34 | **TS01** | EP02 – Identidad y Acceso Seguro | Endpoint de registro: crea `UserAccount` en `PENDIENTE_VERIFICACIÓN` y emite `AccountRegistered` | Como Developer, quiero implementar el endpoint de registro que crea `UserAccount` en estado `PENDIENTE_VERIFICACIÓN` y emite el Domain Event `AccountRegistered`. | 5 |
+| 35 | **TS02** | EP02 – Identidad y Acceso Seguro | Endpoint de login: valida credenciales, emite JWT y bloquea por intentos fallidos | Como Developer, quiero implementar el endpoint de login que valida credenciales, emite JWT y registra intentos fallidos con bloqueo automático tras umbral definido. | 5 |
+| 36 | **TS03** | EP02 – Identidad y Acceso Seguro | Endpoint de verificación de correo: transiciona `UserAccount` a `ACTIVA` y emite `AccountActivated` | Como Developer, quiero implementar el endpoint de verificación que transiciona la cuenta a `ACTIVA` y emite el Domain Event `AccountActivated`. | 3 |
+| 37 | **TS04** | EP02 – Identidad y Acceso Seguro | Endpoint de recuperación de contraseña con eventos `PasswordRecoveryRequested` y `PasswordReset` | Como Developer, quiero implementar el flujo de recuperación que emite `PasswordRecoveryRequested` y `PasswordReset`, invalidando sesiones activas al completar. | 5 |
+| 38 | **TS05** | EP02 – Identidad y Acceso Seguro | Endpoint de refresh de JWT para mantener sesión activa sin reautenticación | Como Developer, quiero implementar el endpoint de renovación de token para mantener sesión activa sin nuevo login. | 5 |
+| 39 | **TS06** | EP03 – Configuración Estratégica de Marca | Endpoints de creación y consulta de `BrandWorkspace` con estado operacional | Como Developer, quiero implementar endpoints de creación y consulta de `BrandWorkspace` incluyendo su estado y configuración vigente. | 5 |
+| 40 | **TS07** | EP03 – Configuración Estratégica de Marca | Endpoints de edición y desactivación de `BrandWorkspace` con emisión de `WorkspaceDeactivated` | Como Developer, quiero implementar endpoints de edición y desactivación que conserven historial de incidentes y emitan `WorkspaceDeactivated`. | 3 |
+| 41 | **TS08** | EP03 – Configuración Estratégica de Marca | Endpoints de `MonitoringRule` y `MonitoringChannel` con versionado y `MonitoringRuleUpdated` | Como Developer, quiero implementar endpoints de reglas de monitoreo que versionen cambios y emitan `MonitoringRuleUpdated` al modificar configuración. | 8 |
+| 42 | **TS09** | EP04 – Detección y Trazabilidad de Menciones | Endpoints de activación de monitoreo con `MonitoringActivated` y consulta paginada de `MentionStream` | Como Developer, quiero implementar endpoints de inicio de monitoreo que emitan `MonitoringActivated` y soporten consulta paginada de menciones con filtros. | 8 |
+| 43 | **TS10** | EP05 – Inteligencia de Sentimiento Reputacional | Endpoints de `SentimentScore` y tendencias con nivel de riesgo reputacional | Como Developer, quiero implementar endpoints de análisis de sentimiento que retornen `SentimentScore` con nivel de riesgo reputacional calculado. | 8 |
+| 44 | **TS11** | EP06 – Gestión de Crisis y Escalamiento | Endpoints de `ReputationIncident` y configuración de `AlertThreshold` por workspace | Como Developer, quiero implementar endpoints de gestión de incidentes y configuración de umbrales de escalamiento por `BrandWorkspace`. | 5 |
+| 45 | **TS12** | EP06 – Gestión de Crisis y Escalamiento | Endpoint de respuesta a `ReputationIncident` con registro de responsable, timestamp y `AlertAcknowledged` | Como Developer, quiero implementar endpoint de respuesta que registre responsable, timestamp y emita el Domain Event `AlertAcknowledged`. | 3 |
+| 46 | **TS13** | EP07 – Inteligencia Estratégica y Reportes | Endpoints de generación y consulta de `ReputationReport` con `ReportGenerated` | Como Developer, quiero implementar endpoints de generación y consulta de reportes que emitan `ReportGenerated` al completar el proceso. | 8 |
+| 47 | **TS14** | EP07 – Inteligencia Estratégica y Reportes | Endpoints de exportación PDF/CSV y eliminación de `ReputationReport` conservando incidentes asociados | Como Developer, quiero implementar endpoints de exportación y eliminación de reportes conservando los `ReputationIncident` asociados al reporte eliminado. | 5 |
+| 48 | **TS15** | EP07 – Inteligencia Estratégica y Reportes | Endpoint de métricas consolidadas del `BrandWorkspace` para dashboard de decisión reputacional | Como Developer, quiero implementar endpoint de dashboard que retorne todos los indicadores reputacionales del `BrandWorkspace` activo en una sola llamada optimizada. | 8 |
+| 49 | **TS16** | EP08 – Control de Acceso Contextual | Middleware de autorización contextual por `BrandWorkspace` con auditoría de accesos no autorizados | Como Developer, quiero implementar un middleware que valide en cada request que el usuario autenticado tiene acceso al `BrandWorkspace` solicitado, registrando intentos no autorizados como eventos de auditoría. | 5 |
 
 <br>
 
@@ -2785,31 +2784,32 @@ Consolida la información mediante procesos asíncronos para generar dashboards 
 
 <br>
 
-Descripcion
+El Identity Access Context es el contexto responsable de toda la gestión de identidad, autenticación y autorización dentro de BrandRadar. Su función central es garantizar que únicamente los usuarios verificados y autorizados accedan al sistema, y que cada usuario opere estrictamente dentro del perímetro de marcas que le fueron asignadas. Este contexto protege la información reputacional sensible desde el primer punto de contacto: el registro.
+Sus responsabilidades incluyen el ciclo de vida completo de la cuenta de usuario (registro, verificación, activación, suspensión), la gestión de sesiones autenticadas con JWT, la recuperación segura de contraseñas y el control de acceso basado en roles (UserRole). Es también el contexto que emite los eventos de dominio más críticos de seguridad: UserRegistered, SessionInvalidated y UnauthorizedAccessAttempted.
 
 <br>
 <div align="center">
 
 **Frontend Components Diagrams**
 
-![Frontend Diagram BC1](brandradar-report/assets/class-diagrams/frontend/front-diagram-.png)
+![Frontend Diagram BC1](brandradar-report/assets/class-diagrams/frontend/front-diagram-1.png)
 
 </div>
 <br>
 
-Descripcion
+El diagrama muestra cómo LoginPage y RegisterPage delegan en el composable useAuth, que a su vez sincroniza el estado a través de AuthStore. El AuthGuard protege cada ruta consultando AuthFacade antes de permitir la navegación. TokenStorageAdapter abstrae la persistencia del token, y AuthApiClient centraliza las llamadas HTTP de autenticación. El flujo completo va desde la vista hasta la API sin que los componentes conozcan los detalles de autenticación.
 
 <br>
 <div align="center">
 
 **Backend Components Diagrams**
 
-![Backend Diagram BC1](brandradar-report/assets/class-diagrams/backend/back-diagram-.png)
+![Backend Diagram BC1](brandradar-report/assets/class-diagrams/backend/back-diagram-1.png)
 
 </div>
 <br>
 
-Descripcion
+El diagrama gira en torno a dos Aggregate Roots: UserAccount y AuthSession. UserAccount encapsula el ciclo de vida completo de una cuenta —registro, activación, suspensión— y controla el acceso a marcas mediante hasAccessTo() y enforceBrandIsolation(). AuthSession representa una sesión activa, gestionando la validez del JWT y el origen de la request. Ambos aggregates emiten eventos de dominio relevantes: UserRegistered, SessionInvalidated y UnauthorizedAccessAttempted. Los Value Objects EmailAddress, HashedPassword y AccessToken encapsulan las reglas de validación de identidad, mientras que los Domain Services AuthenticationService y AuthorizationService coordinan la lógica que involucra múltiples agregados. La capa de infraestructura abstrae la generación de JWT (JwtTokenAdapter) y la integración con proveedores OAuth externos.
 
 <br>
 
@@ -2818,31 +2818,32 @@ Descripcion
 
 <br>
 
-Descripcion
+El Brand Workspace Context es el contexto responsable de la configuración estratégica de las marcas monitoreadas. Modela el espacio de trabajo operacional de cada cliente: qué marcas se monitorean, con qué palabras clave, desde qué canales digitales y bajo qué plan y políticas. Es el contexto que define el perímetro de monitoreo y activa el motor de detección reputacional.
+Este contexto es el núcleo organizacional de BrandRadar: sin una BrandWorkspace configurada, ningún otro contexto puede operar. Sus responsabilidades incluyen la gestión del ciclo de vida de workspaces y marcas, la conexión y desconexión de canales digitales (MonitoringChannel), la gestión de reglas de palabras clave (KeywordRule) y la aplicación de las políticas del plan contratado (WorkspacePolicy). También soporta el modo de emergencia (activateEmergencyMode()), que cambia el comportamiento del sistema ante una crisis reputacional activa.
 
 <br>
 <div align="center">
 
 **Frontend Components Diagrams**
 
-![Frontend Diagram BC2](brandradar-report/assets/class-diagrams/frontend/front-diagram-.png)
+![Frontend Diagram BC2](brandradar-report/assets/class-diagrams/frontend/front-diagram-2.png)
 
 </div>
 <br>
 
-Descripcion
+El diagrama muestra WorkspaceDashboardPage como punto de entrada, apoyada por BrandSelectorComponent, ChannelConnectionModal y KeywordManagerComponent para las operaciones principales. WorkspaceStore centraliza el estado del workspace activo y la marca seleccionada, mientras WorkspaceFacade expone consultas de alto nivel como hasBrandAccess(). El composable useWorkspace provee acceso reactivo a toda esta información para los componentes de presentación.
 
 <br>
 <div align="center">
 
 **Backend Components Diagrams**
 
-![Backend Diagram BC2](brandradar-report/assets/class-diagrams/backend/back-diagram-.png)
+![Backend Diagram BC2](brandradar-report/assets/class-diagrams/backend/back-diagram-2.png)
 
 </div>
 <br>
 
-Descripcion
+El diagrama tiene como núcleo al BrandWorkspace, Aggregate Root que agrupa marcas, canales y políticas del plan. Sus métodos activateEmergencyMode(), enforceBrandIsolation() y validateWorkspacePolicy() reflejan comportamiento de negocio real, no solo persistencia. El agregado Brand contiene las KeywordRule y el ReputationIndex base de la marca. La entidad MonitoringChannel gestiona el ciclo de vida de cada integración con plataformas digitales, y WorkspacePolicy encapsula los límites operacionales del plan contratado. Los eventos BrandAddedToWorkspace, MonitoringChannelConnected y EmergencyModeActivated comunican cambios estructurales al resto del sistema. ChannelIntegrationAdapter desacopla las APIs externas del dominio.
 
 <br>
 
@@ -2850,31 +2851,32 @@ Descripcion
 
 <br>
 
-Descripcion
+El Reputation Monitoring Context es el corazón operacional de BrandRadar. Es el contexto responsable de capturar, clasificar y trazar las menciones digitales de una marca, y de gestionar los incidentes reputacionales desde su detección hasta su resolución. Modela el flujo continuo de información reputacional: desde la ingesta de menciones en tiempo real hasta la escalación y resolución de crisis.
+Sus responsabilidades incluyen la captura y clasificación automática de menciones (MentionStream), la detección de anomalías en el volumen o sentimiento, la creación y gestión del ciclo de vida completo de ReputationIncident, y la generación de reportes reputacionales. Este contexto es el principal productor de eventos de dominio críticos: NegativeMentionDetected, ReputationSpikeDetected, IncidentEscalated e IncidentResolved.
 
 <br>
 <div align="center">
 
 **Frontend Components Diagrams**
 
-![Frontend Diagram BC3](brandradar-report/assets/class-diagrams/frontend/front-diagram-.png)
+![Frontend Diagram BC3](brandradar-report/assets/class-diagrams/frontend/front-diagram-3.png)
 
 </div>
 <br>
 
-Descripcion
+El diagrama organiza tres vistas principales: MentionFeedPage para el feed filtrable de menciones, IncidentDetailPage para la gestión individual de incidentes con su línea de tiempo, y ReputationDashboardPage para el score general. MonitoringStore centraliza el estado de menciones e incidentes, MonitoringFacade expone getCriticalMentions() y getOpenIncidents() para consumo de otros contextos, y useMonitoring provee el acceso reactivo desde los componentes.
 
 <br>
 <div align="center">
 
 **Backend Components Diagrams**
 
-![Backend Diagram BC3](brandradar-report/assets/class-diagrams/backend/back-diagram-.png)
+![Backend Diagram BC3](brandradar-report/assets/class-diagrams/backend/back-diagram-3.png)
 
 </div>
 <br>
 
-Descripcion
+El diagrama muestra dos Aggregate Roots con comportamiento rico. MentionStream representa el flujo activo de menciones: ingesta, clasificación, detección de anomalías y generación de snapshots. ReputationIncident gestiona el ciclo de vida completo de un incidente: escalate(), acknowledge(), resolve() y construcción de la línea de tiempo con addTimelineEvent(). La entidad Mention combina MentionSource, SentimentScore y MentionCategory para representar cada mención con su contexto completo. Los Domain Services ReputationMonitoringService y AnomalyDetectionService coordinan el escaneo periódico y la detección de desviaciones estadísticas. Los eventos NegativeMentionDetected, ReputationSpikeDetected, IncidentEscalated e IncidentResolved alimentan tanto el Crisis Detection Context como el historial de trazabilidad.
 
 <br>
 
@@ -2882,31 +2884,32 @@ Descripcion
 
 <br>
 
-Descripcion
+El Crisis Detection Context es el contexto responsable de la detección temprana, escalación y gestión de alertas de crisis reputacional. Su función es transformar señales anómalas detectadas en el MentionStream en alertas accionables con prioridad definida, y garantizar que los stakeholders correctos sean notificados en el menor tiempo posible.
+Sus responsabilidades incluyen la evaluación continua del stream de menciones contra las reglas de monitoreo configuradas, la creación y gestión del ciclo de vida de CrisisAlert, la configuración de MonitoringRule con umbrales personalizados por marca, y la notificación multi-canal de stakeholders críticos. Este contexto consume eventos del Reputation Monitoring Context (ReputationSpikeDetected) y produce sus propios eventos: CrisisAlertTriggered, CrisisEscalated, MonitoringRuleTriggered y AlertAcknowledged.
 
 <br>
 <div align="center">
 
 **Frontend Components Diagrams**
 
-![Frontend Diagram BC4](brandradar-report/assets/class-diagrams/frontend/front-diagram-.png)
+![Frontend Diagram BC4](brandradar-report/assets/class-diagrams/frontend/front-diagram-4.png)
 
 </div>
 <br>
 
-Descripcion
+El diagrama muestra CrisisAlertDashboardPage como la vista central de alertas activas, AlertDetailPage para la gestión individual y MonitoringRulesPage para configurar las reglas de detección. CrisisBannerComponent garantiza visibilidad de alertas críticas en cualquier pantalla del sistema. CrisisStore mantiene el estado de alertas y reglas; CrisisFacade expone hasCriticalAlerts() y getUnacknowledgedCount() para que otros contextos puedan mostrar indicadores de estado. La infraestructura soporta WebSocket para recibir alertas en tiempo real.
 
 <br>
 <div align="center">
 
 **Backend Components Diagrams**
 
-![Backend Diagram BC4](brandradar-report/assets/class-diagrams/backend/back-diagram-.png)
+![Backend Diagram BC4](brandradar-report/assets/class-diagrams/backend/back-diagram-4.png)
 
 </div>
 <br>
 
-Descripcion
+El diagrama tiene dos Aggregate Roots complementarios. CrisisAlert modela una alerta activa con su prioridad (AlertPriority), trigger de origen y ciclo de vida: acknowledge(), escalate(), dismiss(). El método computeResponseTime() mide el tiempo entre detección y reconocimiento, métrica clave de efectividad operacional. MonitoringRule encapsula la inteligencia de detección: el AlertThreshold define cuándo activar una alerta evaluando volumen de menciones y porcentaje de sentimiento negativo en una ventana temporal. Su método triggerAlert() es el punto de decisión central del contexto. CrisisDetectionService evalúa el stream completo contra todas las reglas activas y puede detectar ataques coordinados. AlertNotificationService orquesta notificaciones multi-canal a través de SlackNotificationAdapter y EmailNotificationAdapter. Los eventos CrisisAlertTriggered, CrisisEscalated y AlertAcknowledged documentan cada paso del ciclo de vida de la alerta.
 
 <br>
 
@@ -2914,30 +2917,32 @@ Descripcion
 
 <br>
 
-Descripcion
+El Sentiment Intelligence Context es el contexto responsable del análisis semántico y emocional de las menciones, la detección de tendencias de sentimiento y la identificación de patrones de desinformación. Provee la inteligencia que transforma texto crudo en señales reputacionales interpretables por el negocio.
+Sus responsabilidades incluyen el análisis NLP de cada mención (sentimiento, emoción dominante, temas clave, idioma), el cálculo del SentimentScore compuesto, la detección de degradación sostenida del sentimiento, la comparación entre períodos para evaluar el impacto de estrategias, y la detección de patrones coordinados que sugieran campañas de desinformación. Este contexto emite los eventos SentimentTrendChanged, NegativeSentimentSpikeDetected y DisinformationPatternFlagged.
 
 <br>
 <div align="center">
 
 **Frontend Components Diagrams**
 
-![Frontend Diagram BC5](brandradar-report/assets/class-diagrams/frontend/front-diagram-.png)
+![Frontend Diagram BC5](brandradar-report/assets/class-diagrams/frontend/front-diagram-5.png)
 
 </div>
 <br>
 
-Descripcion
+El diagrama muestra cuatro componentes visuales especializados: SentimentDashboardPage para el score general, SentimentTrendChartComponent para la evolución temporal con predicción, EmotionBreakdownComponent para la distribución de emociones y ThemeWordCloudComponent para los temas recurrentes. SentimentStore y SentimentFacade centralizan el estado y exponen isNegativeTrend() para consumo cross-context. Los DTOs SentimentScoreDTO y TrendDTO incluyen métodos como isNegative() e isWorsening() para activar alertas visuales directamente desde el componente.
+
 <br>
 <div align="center">
 
 **Backend Components Diagrams**
 
-![Backend Diagram BC5](brandradar-report/assets/class-diagrams/backend/back-diagram-.png)
+![Backend Diagram BC5](brandradar-report/assets/class-diagrams/backend/back-diagram-5.png)
 
 </div>
 <br>
 
-Descripcion
+El diagrama está organizado alrededor del SentimentAnalysis, único Aggregate Root del contexto, que consolida los resultados individuales de análisis, la tendencia calculada y el score global compuesto. Sus métodos detectSentimentDegradation(), compareWithPreviousPeriod() y getTopNegativeThemes() representan decisiones de negocio concretas, no solo cálculos técnicos. La entidad SentimentTrend modela la dirección y magnitud de la tendencia con isWorsening() e isSuddenDrop() como indicadores de alarma. El Value Object SentimentScore descompone el sentimiento en cuatro dimensiones (positivo, negativo, neutro, compuesto), y SentimentDelta cuantifica la variación entre períodos. Los Domain Services NLPAnalysisService y SentimentTrendAnalyzer abstraen los modelos de IA, permitiendo cambiar de proveedor —OpenAINLPAdapter o HuggingFaceSentimentAdapter— sin afectar el dominio. El evento DisinformationPatternFlagged conecta este contexto con el de Crisis Detection.
 
 <br>
 
@@ -2945,33 +2950,32 @@ Descripcion
 
 <br>
 
-Descripcion
+El Infrastructure Health Context es el contexto responsable de monitorear la salud operacional de los servicios técnicos que soportan BrandRadar. Su función es detectar fallos de infraestructura antes de que impacten el monitoreo reputacional, garantizar el cumplimiento del SLA de disponibilidad y cuantificar el impacto reputacional que una caída de servicio puede generar para las marcas afectadas.
+Sus responsabilidades incluyen la ejecución periódica de health checks sobre los endpoints de cada servicio, la gestión del ciclo de vida de incidentes de infraestructura (InfraIncident), el cálculo de disponibilidad y cumplimiento del SLA, y la notificación a las marcas afectadas cuando un servicio crítico falla. Este contexto conecta la dimensión técnica con la reputacional: un fallo de infraestructura que afecta la disponibilidad del sistema puede derivar en riesgo reputacional para las marcas que dependen del monitoreo en tiempo real.
 
 <br>
 <div align="center">
 
 **Frontend Components Diagrams**
 
-![Frontend Diagram BC6](brandradar-report/assets/class-diagrams/frontend/front-diagram-.png)
+![Frontend Diagram BC6](brandradar-report/assets/class-diagrams/frontend/front-diagram-6.png)
 
 </div>
 <br>
 
-Descripcion
+El diagrama organiza cuatro componentes: InfraHealthDashboardPage como vista central, ServiceStatusComponent con indicadores visuales de estado y uptime, InfraIncidentListComponent para gestión y resolución de incidentes con nota de postmortem, y AvailabilityReportComponent para el reporte de cumplimiento del SLA. InfraStore mantiene el flag hasActiveIncidents para que otros contextos del frontend puedan mostrar alertas de degradación. InfraFacade expone hasReputationalRisk() y overallHealthScore() como indicadores cross-context. Los DTOs incluyen hasReputationalImpact() e isCompliant() para lógica de presentación condicional.
 
 <br>
 <div align="center">
 
 **Backend Components Diagrams**
 
-![Backend Diagram BC6](brandradar-report/assets/class-diagrams/backend/back-diagram-.png)
+![Backend Diagram BC6](brandradar-report/assets/class-diagrams/backend/back-diagram-6.png)
 
 </div>
 <br>
 
-Descripcion
-
-
+El diagrama presenta dos Aggregate Roots con una relación directa. ServiceHealthCheck ejecuta verificaciones periódicas sobre cada servicio, calcula la disponibilidad acumulada mediante UptimeRecord y determina si está por debajo del SLA. Sus métodos performCheck(), calculateAvailability() y requiresIntervention() gobiernan el ciclo de monitoreo. InfraIncident modela el incidente técnico con su tipo (OUTAGE, LATENCY_SPIKE, SSL_EXPIRY, etc.), severidad y marcas afectadas. El método estimateReputationalImpact() es el puente conceptual entre infraestructura y negocio, y notifyAffectedBrands() propaga el impacto a los responsables de cada marca. InfrastructureMonitoringService orquesta los checks en paralelo y evalúa el riesgo reputacional de cada incidente. El evento ReputationalImpactFromInfraDetected es el más relevante del contexto: conecta explícitamente un fallo técnico con el riesgo reputacional de las marcas que dependen del sistema. PagerDutyIntegrationAdapter conecta el sistema con la plataforma de guardia operacional.
 
 <br>
 
@@ -2987,7 +2991,7 @@ Descripcion
 
 ### 4.8.1. Database Diagrams
 
->*El diagrama de base de datos de Brandradar refleja una arquitectura orientada al dominio, organizada en múltiples bounded contexts, cada uno responsable de un conjunto cohesivo de entidades. Para su elaboración se utilizó MySQL Workbench, herramienta que permitió diseñar, visualizar y estructurar las tablas, columnas y relaciones del sistema de manera clara. Aunque el modelo es único a nivel físico, en el diagrama las tablas se agrupan visualmente según el bounded context al que pertenecen, lo que facilita la comprensión de la estructura del sistema sin generar duplicación de datos.*
+>*El diagrama de base de datos de Brandradar refleja una arquitectura orientada al dominio, organizada en múltiples bounded contexts, cada uno responsable de un conjunto cohesivo de entidades. Para su elaboración se utilizó MySQL Workbench, herramienta que permitió diseñar, visualizar y estructurar las tablas, columnas y relaciones del sistema de manera clara. Aunque el modelo es único a nivel físico, en el diagrama las tablas se agrupan visualmente según el bounded context al que pertenecen, lo que facilita la comprensión de la estructura del sistema sin generar duplicación de datos. Aunque todas las tablas comparten una sola base de datos, en el diagrama se agrupan visualmente según el bounded context al que pertenecen.*
 
 <br>
 
@@ -2998,7 +3002,7 @@ Descripcion
 
 <br>
 
-![Database Diagram](brandradar-report/assets/database-diagrams/db-diagra.png)
+![Database Diagram](brandradar-report/assets/database-diagrams/db-diagram.png)
 
 </div>
 
@@ -3010,38 +3014,37 @@ Descripcion
 
 **Identity Access Context**
 
-Descripcion
-
+Gestiona todo lo relacionado con autenticación, autorización y auditoría de usuarios. La entidad central es user_account, que define el perfil del usuario con su rol (SUPER_ADMIN, AGENCY_ADMIN, BRAND_ANALYST, READ_ONLY) y estado del ciclo de vida (PENDING, ACTIVE, SUSPENDED, DELETED). Las sesiones activas se registran en auth_session, almacenando el JWT, el refresh token, la IP y la fecha de expiración, con cascada de eliminación al borrar el usuario. La tabla user_assigned_brand modela la relación N:M entre usuarios y marcas, permitiendo que un analista tenga acceso restringido solo a las marcas que le corresponden. Finalmente, unauthorized_access_log registra intentos de acceso fallidos o no autorizados —incluyendo anónimos— para fines de auditoría de seguridad.
 
 <br>
 
 **Brand Workspace Context**
 
-Descripcion
+Es el núcleo organizativo de la plataforma. Un brand_workspace agrupa marcas bajo un plan de suscripción (FREE, STARTER, PROFESSIONAL, ENTERPRISE) y embebe la política del workspace como Value Object: límite de marcas (policy_max_brands) y cuota de alertas (policy_alert_quota). Los canales habilitados por workspace se gestionan en la tabla separada workspace_allowed_channel. Cada brand pertenece a un workspace e incorpora el ReputationIndex como campos embebidos (reputation_score, reputation_calculated_at). Para cada marca se configuran keyword_rule (palabras clave con tipo de match y peso) y monitoring_channel (canales de fuente de datos con credenciales cifradas y control de última sincronización).
 
 <br>
 
 **Reputation Monitoring Context** 
 
-Descripcion
+Centraliza la captura y gestión de menciones de marca en redes y medios. Un mention_stream define una ventana temporal de escucha activa para una marca. Cada mention capturada dentro de ese stream lleva embebido el Value Object MentionSource (plataforma, URL, confiabilidad del autor) y un SentimentScore preliminar (positivo, negativo, neutral, compuesto). Cuando las menciones derivan en un problema de reputación, se crea un reputation_incident con nivel de severidad, estado del flujo de trabajo (OPEN → ESCALATED → RESOLVED) y datos de resolución. El historial completo de acciones sobre cada incidente queda registrado en incident_event, con el actor que realizó cada acción.
 
 <br>
 
 **Crisis Detection Context** 
 
-Descripcion
+Implementa el motor de detección proactiva de crisis. Las monitoring_rule definen las condiciones de disparo embebiendo el Value Object AlertThreshold: volumen máximo de menciones, porcentaje de sentimiento negativo permitido y ventana de tiempo de evaluación. Cada regla puede tener asociados keywords (monitoring_rule_keyword), canales monitoreados (monitoring_rule_channel), canales de notificación (monitoring_rule_notification_channel) y stakeholders a alertar (monitoring_rule_stakeholder). Cuando una regla se activa, genera un crisis_alert con su AlertPriority, tipo de disparo (VOLUME_SPIKE, SENTIMENT_DROP, KEYWORD_MATCH, COORDINATED_ATTACK) y métricas de confianza. El reconocimiento de la alerta queda formalizado en crisis_alert_acknowledgement y las notificaciones enviadas se rastrean en crisis_alert_notified_stakeholder.
 
 <br>
 
 **Sentiment Intelligence Context** 
 
-Descripcion
+Provee análisis de sentimiento agregado y profundo por marca. Un sentiment_analysis cubre un período temporal y contiene el SentimentScore global (positivo, negativo, neutral, compuesto), la tendencia embebida SentimentTrend (dirección: IMPROVING, STABLE, DECLINING, CRITICAL_DROP con magnitud) y el SentimentDelta comparativo respecto al período anterior. Cada sentiment_result desagrega el análisis a nivel de mención individual, registrando scores individuales y la emoción dominante detectada (JOY, ANGER, SADNESS, FEAR, SURPRISE, DISGUST). Los temas recurrentes identificados en cada resultado se almacenan como entradas individuales en sentiment_result_theme, permitiendo análisis de tendencias temáticas.
 
 <br>
 
 **Infrastructure Health Context** 
 
-Descripcion
+Monitorea la salud operativa de los servicios internos de la plataforma. Cada service_health_check registra un servicio con su ServiceEndpoint embebido (URL, método HTTP, timeout) y su UptimeRecord (total de checks realizados, exitosos y ventana de días). Los resultados individuales de cada verificación —tiempo de respuesta, HTTP status e indicador de salud— se persisten en health_check_result. Cuando se detecta una degradación, se abre un infra_incident categorizado por tipo (OUTAGE, LATENCY_SPIKE, SSL_EXPIRY, etc.) con su SeverityLevel y flujo de resolución hasta el estado POSTMORTEM. La tabla infra_incident_affected_brand vincula cada incidente de infraestructura con las marcas cuyo monitoreo fue impactado, cerrando el ciclo entre la salud técnica y su efecto reputacional.
 
 <br>
 
@@ -3653,8 +3656,8 @@ A continuación se presenta el Sprint Planning para esta segunda entrega, donde 
 | **Sprint 1 Review Summary**         | Durante el Sprint 1 se desarrolló y desplegó la Landing Page de BrandRadar, permitiendo a los usuarios conocer la propuesta de valor, funcionalidades, planes y contacto del producto. Se logró una integración completa de las secciones y su despliegue en Netlify. Como feedback, se identificó la necesidad de mejorar la redirección de los call-to-action hacia la Web Application y establecer el idioma inglés como predeterminado.  |
 | **Sprint 1 Retrospective Summary**  | El equipo mantuvo una comunicación constante a través de Discord; sin embargo, se identificaron dificultades en la gestión de ramas debido a un uso inconsistente de GitFlow. Para este sprint se adoptará un flujo más estructurado basado en feature branches por User Story, así como revisiones mediante Pull Requests antes de integrar cambios en la rama principal.   |
 | **Sprint 2 Goal**                   | Nuestro enfoque está en desarrollar la primera versión funcional del frontend de BrandRadar, implementando el flujo de autenticación (registro, login, recuperación de contraseña y logout) e integrándolo con una Fake API. Creemos que esto permitirá validar la arquitectura base del sistema y los flujos principales de usuario. Esto se confirmará cuando los usuarios puedan registrarse, iniciar sesión, recuperar su contraseña y acceder a una vista inicial protegida dentro de la aplicación Angular. |
-| **Sprint 2 Velocity**               | 45 |
-| **Sum of Story Points**             | 44 |
+| **Sprint 2 Velocity**               | 157 |
+| **Sum of Story Points**             | 157 |
 
 
 <br>
@@ -3685,72 +3688,24 @@ A continuación se presenta el Sprint Planning para esta segunda entrega, donde 
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Sprint 2** | **User Story** | | **Work-Item / Task** | | | | **Asignado a** | **Status** |
 | **ID** | **Título** | **SP** | **ID** | **Título** | **Descripción** | **Estimación** | **Asignado a** | |
-| — | Setup Sprint 2 | — | T01 | Configurar fake API completa con todos los Bounded Contexts | Ampliar `db.json` con entidades de los 5 BCs: `brandWorkspaces`, `reputationIncidents`, `mentionStreams`, `mentions`, `monitoringRules`, `sentimentResults`, `crisisAlerts`, `reputationReports`, `dashboardMetrics`, `auditLogs`, `users`. Agregar `routes.json` con todos los endpoints organizados por BC. Levantar en puerto 3000. | 5h | Frontend / Backend | To-Do |
-| — | Setup Sprint 2 | — | T02 | Implementar interceptor HTTP con JWT simulado y claims de workspace | Configurar interceptor Angular que adjunte JWT simulado con `workspaceIds` como claims en el header `Authorization`. Manejar expiración y redirección automática a login sin exponer datos reputacionales. | 2h | Frontend | To-Do |
-| — | Setup Sprint 2 | — | T03 | Implementar `AuthGuard` y `WorkspaceGuard` con validación de claims | Crear `AuthGuard` para rutas privadas. Crear `WorkspaceGuard` que valide que el `workspaceId` en la ruta pertenece a los claims del JWT simulado. Registrar `UnauthorizedAccessAttempted` en `auditLogs` ante intentos fallidos. Redirigir a pantalla 403. | 4h | Frontend | To-Do |
-| — | Setup Sprint 2 | — | T04 | Implementar servicio de estado global del `BrandWorkspace` activo | Servicio Angular con `BehaviorSubject` para gestionar el workspace activo en sesión. Limpiar contexto al logout o al revocar acceso. Exponer el estado del workspace (`ACTIVO`, `INACTIVO`, `EMERGENCIA`) a todos los componentes. | 4h | Frontend | To-Do |
-| — | Setup Sprint 2 | — | T05 | Configurar estructura de rutas por Bounded Context | Definir módulos de rutas separados por BC: `/workspace`, `/monitoring`, `/crisis`, `/sentiment`, `/reports`. Aplicar lazy loading por módulo. Registrar navegación entre BCs en `auditLogs` para trazabilidad. | 3h | Frontend | To-Do |
-| US06 | Registrar cuenta para acceder a monitoreo reputacional | 5 | T06 | Implementar componente de registro con validación de dominio | Formulario Angular Reactive Forms: nombre, correo, contraseña con indicador de fortaleza, tipo de cuenta (`PYME_OWNER` / `AGENCY_MANAGER`). Errores inline por campo. Al registrar exitosamente redirigir a pantalla de verificación pendiente. | 4h | Frontend | To-Do |
-| US06 | Registrar cuenta para acceder a monitoreo reputacional | 5 | T07 | Conectar registro a fake API y emitir `AccountRegistered` | `POST /api/v1/auth/register` — persiste cuenta en estado `PENDIENTE_VERIFICACIÓN` en `db.json`. Registra `AccountRegistered` en `auditLogs` con timestamp. Retorna 409 si correo duplicado sin revelar estado de cuenta existente. | 2h | Frontend | To-Do |
-| US07 | Verificar correo para activar acceso reputacional | 3 | T08 | Implementar pantalla de verificación con estados diferenciados | Pantalla que recibe token simulado por query param. Muestra estados diferenciados: verificación exitosa (`ACTIVA`), token expirado, token inválido. Redirige al workspace al verificar exitosamente. | 3h | Frontend | To-Do |
-| US07 | Verificar correo para activar acceso reputacional | 3 | T09 | Conectar verificación a fake API y emitir `AccountActivated` | `GET /api/v1/auth/verify?token={token}` — transiciona cuenta de `PENDIENTE_VERIFICACIÓN` a `ACTIVA`. Registra `AccountActivated` en `auditLogs`. Retorna error diferenciado para token inválido vs. expirado. | 2h | Frontend | To-Do |
-| US08 | Iniciar sesión para acceder a marcas asignadas | 3 | T10 | Implementar login con bloqueo automático y carga de workspaces asignados | Formulario de login con contador de intentos fallidos. Al quinto intento consecutivo, transiciona cuenta a `BLOQUEADA` en fake API. Carga exclusivamente los `workspaceIds` asignados al usuario autenticado desde los claims del JWT. | 4h | Frontend | To-Do |
-| US08 | Iniciar sesión para acceder a marcas asignadas | 3 | T11 | Conectar login a fake API con JWT simulado en memoria | `POST /api/v1/auth/login` — retorna JWT simulado con `workspaceIds` como claims. Almacena token en memoria (no en `localStorage`). Redirige al workspace asignado. Maneja cuenta `BLOQUEADA` con 403 y mensaje claro. | 2h | Frontend | To-Do |
-| US09 | Recuperar acceso sin comprometer seguridad reputacional | 3 | T12 | Implementar flujo de recuperación en 2 pantallas con respuesta ambigua | Pantalla 1: solicitar correo (respuesta ambigua — no revela si el correo existe). Pantalla 2: nueva contraseña con token simulado en query param con validación de fortaleza. | 3h | Frontend | To-Do |
-| US09 | Recuperar acceso sin comprometer seguridad reputacional | 3 | T13 | Conectar recuperación a fake API, emitir `PasswordReset` y limpiar sesiones | `POST /api/v1/auth/forgot-password` y `POST /api/v1/auth/reset-password`. Al restablecer: actualiza contraseña, invalida token, limpia sesión activa y registra `PasswordReset` en `auditLogs`. | 2h | Frontend | To-Do |
-| US10 | Cerrar sesión para proteger datos reputacionales | 2 | T14 | Implementar logout con limpieza de contexto de sesión y BehaviorSubject | Logout invalida JWT en cliente, limpia el `BehaviorSubject` del workspace activo, cancela subscripciones RxJS pendientes y redirige al login. Detectar sesión inválida en otras pestañas. | 2h | Frontend | To-Do |
-| US10 | Cerrar sesión para proteger datos reputacionales | 2 | T15 | Implementar timeout de inactividad de 30 minutos con RxJS | Timer RxJS de 30 minutos de inactividad. Al expirar, ejecutar flujo de logout con aviso previo de 60 segundos. Sin dependencia de `localStorage`. Registrar `SessionExpired` en `auditLogs`. | 2h | Frontend | To-Do |
-| US11 | Definir perímetro de monitoreo de una marca | 5 | T16 | Implementar pantalla de creación de `BrandWorkspace` con validación de perímetro mínimo | Formulario con nombre de marca, al menos una keyword y al menos una fuente. Bloquear confirmación si configuración mínima incompleta. Rechazar nombre duplicado dentro de la cuenta. Al confirmar, transicionar `BrandWorkspace` a estado `MONITOREO_ACTIVO`. | 4h | Frontend | To-Do |
-| US11 | Definir perímetro de monitoreo de una marca | 5 | T17 | Conectar creación a fake API y emitir `BrandWorkspaceConfigured` | `POST /api/v1/brands` — persiste `BrandWorkspace` en `db.json`. Registra `BrandWorkspaceConfigured` en `auditLogs` con userId y timestamp. Retorna 409 si nombre duplicado. | 2h | Frontend | To-Do |
-| US12 | Actualizar configuración de monitoreo de una marca | 3 | T18 | Implementar pantalla de edición de `BrandWorkspace` con previsualización de cambios | Formulario precargado con configuración actual. Mostrar diferencia entre configuración anterior y nueva antes de confirmar. Al guardar, emitir `MonitoringPerimeterUpdated`. Bloquear si nombre obligatorio vacío. | 3h | Frontend | To-Do |
-| US12 | Actualizar configuración de monitoreo de una marca | 3 | T19 | Conectar edición a fake API y emitir `MonitoringPerimeterUpdated` | `PUT /api/v1/brands/{id}` — actualiza `BrandWorkspace` en `db.json` y registra `MonitoringPerimeterUpdated` en `auditLogs` con versión anterior para trazabilidad. | 2h | Frontend | To-Do |
-| US13 | Desactivar marca para suspender monitoreo sin perder evidencia | 2 | T20 | Implementar desactivación de `BrandWorkspace` con guard de rol ADMIN | Opción de desactivación visible únicamente para rol `ADMIN`. Modal de confirmación con advertencia de impacto. Bloquear si el claim de ADMIN no está presente en el JWT simulado. | 2h | Frontend | To-Do |
-| US13 | Desactivar marca para suspender monitoreo sin perder evidencia | 2 | T21 | Conectar desactivación a fake API conservando historial y emitir `BrandDeactivated` | `PATCH /api/v1/brands/{id}/deactivate` — transiciona `BrandWorkspace` a `INACTIVO` conservando historial íntegro de menciones e incidentes. Registra `BrandDeactivated` en `auditLogs` con userId y timestamp. | 2h | Frontend | To-Do |
-| US14 | Definir reglas de monitoreo para detectar menciones sensibles | 5 | T22 | Implementar gestión de `MonitoringRule` con control de versiones visual | Componente para agregar, editar y eliminar keywords por marca. Rechazar duplicados. Al eliminar la última keyword activa, mostrar advertencia y transitar workspace a `SIN_CONFIGURACIÓN`. Mostrar versión activa de las reglas. | 3h | Frontend | To-Do |
-| US14 | Definir reglas de monitoreo para detectar menciones sensibles | 5 | T23 | Conectar `MonitoringRule` a fake API y emitir `MonitoringRuleUpdated` | `PUT /api/v1/brands/{id}/keywords` — actualiza `MonitoringRule` en `db.json`, registra versión anterior para trazabilidad y emite `MonitoringRuleUpdated` en `auditLogs`. | 2h | Frontend | To-Do |
-| US15 | Centralizar canales digitales para reducir monitoreo manual | 8 | T24 | Implementar pantalla de conexión de fuentes con estados de cobertura diferenciados | Pantalla con plataformas disponibles (Twitter/X, Instagram, Google Reviews — simuladas). Estados visuales diferenciados: `CONECTADA` (verde), `DESCONECTADA` (gris), `ERROR` (rojo), `CRÍTICA` (naranja). Mostrar fecha de última sincronización por fuente. | 4h | Frontend | To-Do |
-| US15 | Centralizar canales digitales para reducir monitoreo manual | 8 | T25 | Conectar fuentes a fake API y emitir `MonitoringSourceFailed` ante errores | `POST /api/v1/brands/{id}/sources` — simula validación de credenciales. Persiste fuente en estado `CONECTADA` o `DESCONECTADA`. Falla de fuente activa transita a `ERROR` y registra `MonitoringSourceFailed` en `auditLogs`. | 2h | Frontend | To-Do |
-| US33 | Operar exclusivamente dentro del perímetro de marcas asignadas | 8 | T26 | Implementar `WorkspaceGuard` con validación de claims JWT en cada ruta | `WorkspaceGuard` verifica que el `workspaceId` en la ruta esté en los claims del JWT simulado antes de activar cualquier componente del BC. Acceso no autorizado redirige a pantalla 403 y bloquea operaciones pendientes. | 3h | Frontend | To-Do |
-| US33 | Operar exclusivamente dentro del perímetro de marcas asignadas | 8 | T27 | Implementar pantalla 403 y registrar `UnauthorizedAccessAttempted` en fake API | Pantalla de acceso denegado con mensaje claro y opción de volver al workspace asignado. `POST /api/v1/audit` registra `UnauthorizedAccessAttempted` con userId, workspaceId intentado y timestamp. | 2h | Frontend | To-Do |
-| US16 | Activar monitoreo para capturar señales reputacionales | 5 | T28 | Implementar pantalla de activación de `MentionStream` con validación de prerrequisitos | Botón de activación habilitado solo si `BrandWorkspace` tiene al menos una `MonitoringRule` activa y una fuente `CONECTADA`. Al activar, transicionar workspace a `MONITOREO_ACTIVO` y registrar timestamp de inicio para trazabilidad. | 3h | Frontend | To-Do |
-| US16 | Activar monitoreo para capturar señales reputacionales | 5 | T29 | Conectar activación a fake API y emitir `BrandMonitoringActivated` | `POST /api/v1/brands/{id}/monitoring/start` — activa el `MentionStream` en `db.json`. Registra `BrandMonitoringActivated` en `auditLogs` con timestamp. Retorna 400 si configuración incompleta con mensaje que indica qué falta. | 2h | Frontend | To-Do |
-| US17 | Identificar menciones negativas recurrentes para priorizar respuesta | 5 | T30 | Implementar listado paginado de menciones con clasificación por recurrencia | Vista con listado paginado de menciones del `MentionStream`. Cada mención muestra fuente, fecha, texto, categoría de sentimiento y frecuencia de recurrencia. Ordenar por criticidad y fecha. Mostrar aviso si alguna fuente presenta fallo. | 4h | Frontend | To-Do |
-| US17 | Identificar menciones negativas recurrentes para priorizar respuesta | 5 | T31 | Conectar listado de menciones a fake API con paginación y estado de fuentes | `GET /api/v1/brands/{id}/mentions?page={n}&size={n}` — retorna menciones paginadas con `totalElements` y `totalPages`. Si una fuente tiene estado `ERROR`, incluir aviso en la respuesta sin interrumpir el listado de las demás fuentes. | 2h | Frontend | To-Do |
-| US18 | Filtrar menciones para encontrar incidentes relevantes | 5 | T32 | Implementar panel de filtros con reinicio de paginación | Panel de filtros por fecha, fuente y categoría de sentimiento (`MentionCategory`). Al aplicar filtros, reiniciar paginación a primera página. Botón "Limpiar filtros" restaura listado completo. Mostrar conteo de resultados filtrados. | 3h | Frontend | To-Do |
-| US18 | Filtrar menciones para encontrar incidentes relevantes | 5 | T33 | Conectar filtros a fake API con query params | `GET /api/v1/brands/{id}/mentions?sentimentType={val}&source={val}&from={date}&to={date}` — retorna menciones filtradas. Si no hay resultados, retornar 200 con arreglo vacío e indicar que no hay coincidencias para esos criterios. | 2h | Frontend | To-Do |
-| US19 | Detectar fuentes recurrentes de comentarios negativos | 8 | T34 | Implementar vista de análisis de fuentes con ranking por volumen negativo | Vista con ranking de fuentes por volumen de menciones negativas. Destacar visualmente fuentes que superen umbral de criticidad. Mostrar tendencia temporal por fuente. Indicar fuentes con menos de 5 menciones como "datos insuficientes". | 4h | Frontend | To-Do |
-| US19 | Detectar fuentes recurrentes de comentarios negativos | 8 | T35 | Conectar análisis de fuentes a fake API | `GET /api/v1/brands/{id}/mentions/sources/analysis` — retorna ranking de fuentes con volumen negativo, tendencia y estado de criticidad. Fuentes con estado `ERROR` aparecen con advertencia independientemente del ranking. | 2h | Frontend | To-Do |
-| US20 | Detectar deterioro reputacional antes de afectar campañas | 5 | T36 | Implementar vista de análisis de `SentimentScore` con indicador de riesgo | Vista con distribución porcentual positivo/negativo/neutro, `SentimentScore` global e indicador visual de nivel de riesgo reputacional (`BAJO`, `MEDIO`, `ALTO`, `CRÍTICO`). Mostrar indicador de procesamiento si el análisis está en curso. | 4h | Frontend | To-Do |
-| US20 | Detectar deterioro reputacional antes de afectar campañas | 5 | T37 | Conectar análisis de sentimiento a fake API | `GET /api/v1/brands/{id}/sentiment?from={date}&to={date}` — retorna distribución porcentual, `SentimentScore` y nivel de riesgo (`ReputationIndex`). Si hay menos de 5 menciones, retornar estado `DATOS_INSUFICIENTES` con mensaje explicativo. | 2h | Frontend | To-Do |
-| US21 | Priorizar menciones que requieren atención inmediata | 3 | T38 | Implementar filtro de menciones por `SentimentType` con orden por criticidad | Selector de categoría de sentimiento (`VERY_POSITIVE`, `POSITIVE`, `NEUTRAL`, `NEGATIVE`, `VERY_NEGATIVE`). Al seleccionar `NEGATIVE` o `VERY_NEGATIVE`, ordenar menciones por frecuencia de recurrencia primero y luego por fecha. Cambio de categoría actualiza listado sin recargar. | 3h | Frontend | To-Do |
-| US21 | Priorizar menciones que requieren atención inmediata | 3 | T39 | Conectar filtro de sentimiento a fake API | `GET /api/v1/brands/{id}/mentions?sentimentType={val}` — retorna menciones de la categoría seleccionada ordenadas por criticidad. Si la categoría no tiene menciones retornar 200 con arreglo vacío y estado `SIN_INCIDENTES_EN_CATEGORÍA`. | 2h | Frontend | To-Do |
-| US22 | Evaluar impacto de acciones estratégicas en percepción de marca | 8 | T40 | Implementar gráfico de tendencia de `SentimentScore` con comparación de períodos | Gráfico de línea con evolución del `SentimentScore` en los últimos 30 días por defecto. Selector de rango personalizado. Modo comparación: dos curvas diferenciadas por color con variación porcentual entre períodos. Destacar eventos de `SentimentTrendChanged`. | 5h | Frontend | To-Do |
-| US22 | Evaluar impacto de acciones estratégicas en percepción de marca | 8 | T41 | Conectar tendencia de sentimiento a fake API con serie temporal | `GET /api/v1/brands/{id}/sentiment/trend?from={date}&to={date}&groupBy={day|week}` — retorna serie temporal de `SentimentScore`. Para comparación: aceptar dos rangos como params. Retornar variación porcentual calculada entre períodos. | 2h | Frontend | To-Do |
-| US23 | Detectar picos anómalos para activar protocolos preventivos | 8 | T42 | Implementar panel de `CrisisAlert` con badge de alertas activas no revisadas | Panel de alertas con tipo, severidad (`SeverityLevel`), mención asociada, estado (`ACTIVA`/`ATENDIDA`) y timestamp. Badge en la navegación con contador de alertas activas no revisadas. Alerta de severidad `CRÍTICA` destacada visualmente con prioridad sobre las demás. | 4h | Frontend | To-Do |
-| US23 | Detectar picos anómalos para activar protocolos preventivos | 8 | T43 | Conectar panel de alertas a fake API con polling de nuevas alertas | `GET /api/v1/brands/{id}/alerts` — retorna listado de `CrisisAlert` ordenado por `AlertPriority` descendente. Implementar polling cada 30 segundos para detectar nuevas alertas `CRÍTICA` sin requerir recarga manual. | 3h | Frontend | To-Do |
-| US24 | Configurar umbrales de escalamiento por cliente | 5 | T44 | Implementar formulario de configuración de `AlertThreshold` por marca | Formulario de configuración de umbrales: métrica evaluada, operador de comparación y valor límite. Formulario precargado con configuración actual. Validar que exista al menos un umbral activo antes de guardar. | 3h | Frontend | To-Do |
-| US24 | Configurar umbrales de escalamiento por cliente | 5 | T45 | Conectar configuración de `AlertThreshold` a fake API | `PUT /api/v1/brands/{id}/alerts/config` — persiste configuración de umbrales de `MonitoringRule`. Registra `MonitoringRuleTriggered` en `auditLogs` si el umbral cambia mientras hay un incidente activo. | 2h | Frontend | To-Do |
-| US25 | Priorizar incidentes según severidad para gestión simultánea | 5 | T46 | Implementar cola de `ReputationIncident` priorizada por severidad e impacto | Vista de incidentes activos ordenados por `SeverityLevel` (`CRÍTICO` → `ALTO` → `MEDIO` → `BAJO`) con indicador de impacto potencial por marca. Destacar incidentes sin responsable asignado. Filtro por severidad. Indicar tiempo transcurrido desde detección. | 4h | Frontend | To-Do |
-| US25 | Priorizar incidentes según severidad para gestión simultánea | 5 | T47 | Conectar cola de incidentes a fake API con filtro por severidad | `GET /api/v1/brands/{id}/incidents?severity={val}&status={val}` — retorna `ReputationIncident` ordenados por severidad. Incidentes con `status=DETECTED` y sin `assignedTo` retornan destacados en la respuesta. | 2h | Frontend | To-Do |
-| US26 | Registrar respuesta a incidente para mantener trazabilidad | 5 | T48 | Implementar vista de detalle de `ReputationIncident` con historial de acciones | Vista de detalle con contenido de la mención, estado del incidente, nivel de severidad, historial completo de respuestas (responsable + timestamp) y campo para registrar nueva respuesta. Mostrar quién hizo `acknowledge()` y cuándo. | 4h | Frontend | To-Do |
-| US26 | Registrar respuesta a incidente para mantener trazabilidad | 5 | T49 | Conectar respuesta a `ReputationIncident` y emitir `AlertAcknowledged` | `PATCH /api/v1/incidents/{id}/respond` — persiste respuesta con userId, contenido y timestamp. Transiciona incidente a `IN_RESPONSE`. Registra `AlertAcknowledged` en `auditLogs`. Retorna 400 si el campo de respuesta está vacío. | 2h | Frontend | To-Do |
-| US27 | Detectar tendencias negativas para ejecutar acciones correctivas | 8 | T50 | Implementar dashboard con `ReputationIndex` y señales de riesgo destacadas | Dashboard con widgets: volumen de menciones, distribución de `SentimentScore`, alertas activas por `AlertPriority`, `ReputationIndex` con variación respecto al período anterior e indicador de tendencia. Destacar visualmente señales de riesgo `ALTO` o `CRÍTICO`. Botón de actualización manual sin recargar la página. | 5h | Frontend | To-Do |
-| US27 | Detectar tendencias negativas para ejecutar acciones correctivas | 8 | T51 | Conectar dashboard a fake API en una sola llamada consolidada | `GET /api/v1/brands/{id}/dashboard` — retorna todos los indicadores del `BrandWorkspace` en una sola respuesta: volumen, sentimiento, alertas activas, `ReputationIndex` y variación porcentual. Campos numéricos en cero si la marca no tiene menciones aún. | 2h | Frontend | To-Do |
-| US28 | Evaluar impacto de campañas con reportes reputacionales | 8 | T52 | Implementar generador de `ReputationReport` con selector de período | Selector de rango de fechas con validación de que existan datos en el período. Al generar, mostrar progreso y habilitar descarga al completar. Incluir métricas: variaciones de sentimiento, volumen de menciones, incidentes del período y `ReputationIndex`. | 4h | Frontend | To-Do |
-| US28 | Evaluar impacto de campañas con reportes reputacionales | 8 | T53 | Conectar generación de `ReputationReport` a fake API y emitir `ReputationReportGenerated` | `POST /api/v1/brands/{id}/reports` — genera y persiste `ReputationReport` en `db.json`. Registra `ReputationReportGenerated` en `auditLogs`. Retorna 404 si el período no tiene menciones. | 2h | Frontend | To-Do |
-| US29 | Acceder a historial de evidencia reputacional | 3 | T54 | Implementar historial de `ReputationReport` con acceso a evidencia previa | Lista de reportes generados con fecha, período cubierto y botones de descarga y eliminación. Estado vacío con acceso directo al generador. Confirmación antes de eliminar con advertencia de que la evidencia no se puede recuperar. | 3h | Frontend | To-Do |
-| US29 | Acceder a historial de evidencia reputacional | 3 | T55 | Conectar historial de reportes a fake API | `GET /api/v1/brands/{id}/reports` — retorna listado. `DELETE /api/v1/reports/{id}` — elimina reporte conservando los incidentes asociados. Registra `ReportDeleted` en `auditLogs`. | 2h | Frontend | To-Do |
-| US30 | Compartir evidencia reputacional con clientes o equipo | 5 | T56 | Implementar exportación de `ReputationReport` en PDF y CSV | Botones de exportación habilitados solo cuando el reporte está en estado `GENERADO`. Al exportar PDF: descarga archivo con formato profesional. Al exportar CSV: descarga datos tabulados para análisis adicional. Botones deshabilitados con aviso si el reporte aún está generándose. | 3h | Frontend | To-Do |
-| US30 | Compartir evidencia reputacional con clientes o equipo | 5 | T57 | Conectar exportación a fake API con Content-Type diferenciado | `GET /api/v1/reports/{id}/export?format={pdf\|csv}` — retorna 200 con archivo en `Content-Type` correspondiente. Retorna 400 si el formato no es `pdf` o `csv`. Registra `ReportExported` en `auditLogs` con formato solicitado. | 2h | Frontend | To-Do |
-| US31 | Comparar períodos para evaluar evolución de estrategias | 8 | T58 | Implementar comparador de períodos con variación destacada | Dos selectores de rango independientes. Validar que los períodos sean distintos antes de habilitar "Comparar". Resultado muestra cuadro comparativo con variaciones en menciones, `SentimentScore`, alertas y `ReputationIndex`. Destacar variaciones significativas (> 20%) con indicador visual. | 4h | Frontend | To-Do |
-| US31 | Comparar períodos para evaluar evolución de estrategias | 8 | T59 | Conectar comparador a fake API y emitir `ComparativeAnalysisCompleted` | `GET /api/v1/brands/{id}/reports/compare?period1From={date}&period1To={date}&period2From={date}&period2To={date}` — retorna métricas de ambos períodos con variación calculada. Registra `ComparativeAnalysisCompleted` en `auditLogs`. | 2h | Frontend | To-Do |
-| US32 | Detectar patrones coordinados de comentarios sospechosos | 8 | T60 | Implementar vista de análisis de patrones sospechosos con detalle de correlaciones | Vista que muestra patrones detectados con origen de menciones, frecuencia, similitud semántica y nivel de sospecha. Botón para descartar falso positivo con confirmación. Al descartar, el sistema registra la decisión para calibración futura. | 4h | Frontend | To-Do |
-| US32 | Detectar patrones coordinados de comentarios sospechosos | 8 | T61 | Conectar detección de patrones a fake API y emitir `SuspiciousPatternDetected` | `GET /api/v1/brands/{id}/mentions/patterns` — retorna patrones detectados con métricas de correlación. `PATCH /api/v1/mentions/patterns/{id}/dismiss` — descarta patrón como falso positivo y registra `PatternDismissed` en `auditLogs` con userId y justificación. | 2h | Frontend | To-Do |
-| — | QA Sprint 2 | — | T62 | Pruebas del flujo de onboarding y acceso seguro | Pruebas manuales del flujo completo: registro → verificación → login → workspace. Verificar estados de dominio (`PENDIENTE_VERIFICACIÓN` → `ACTIVA` → `BLOQUEADA`) reflejados en fake API y UI. Verificar que `WorkspaceGuard` bloquee accesos no autorizados correctamente. | 3h | QA / Equipo | To-Do |
-| — | QA Sprint 2 | — | T63 | Pruebas del flujo de configuración de marca y monitoreo | Pruebas de `BrandWorkspace`: crear → configurar keywords → conectar fuentes → activar monitoreo. Verificar que el sistema bloquee activación sin configuración mínima. Verificar que `BrandDeactivated` conserve el historial íntegro en `db.json`. | 3h | QA / Equipo | To-Do |
-| — | QA Sprint 2 | — | T64 | Pruebas del flujo de detección de menciones y sentimiento | Pruebas del listado paginado de menciones con filtros. Verificar que categorías de sentimiento retornen correctamente. Verificar que el gráfico de tendencia muestre los eventos `SentimentTrendChanged` en la línea temporal. | 3h | QA / Equipo | To-Do |
-| — | QA Sprint 2 | — | T65 | Pruebas del flujo de gestión de crisis y reportes | Pruebas del panel de alertas: verificar polling de nuevas alertas `CRÍTICA`, priorización por `SeverityLevel`, trazabilidad de respuestas en `ReputationIncident`. Pruebas del dashboard consolidado y exportación de `ReputationReport` en PDF y CSV. | 3h | QA / Equipo | To-Do |
-| — | QA Sprint 2 | — | T66 | Verificar coherencia de `auditLogs` en todos los flujos del sprint | Revisar que todos los Domain Events esperados estén registrados en `auditLogs` de la fake API: `AccountRegistered`, `AccountActivated`, `BrandWorkspaceConfigured`, `MonitoringRuleUpdated`, `BrandMonitoringActivated`, `AlertAcknowledged`, `ReputationReportGenerated`, `UnauthorizedAccessAttempted`. | 2h | QA / Equipo | To-Do |
+| **US06** | Registrar cuenta verificada para proteger información reputacional sensible | 5 | T-01 | Pantalla de Registro con validación de dominio y emisión de `AccountRegistered` | Formulario de registro (nombre, email, contraseña, plan) conectado a TS01. Valida invariantes del dominio en frontend: email único, contraseña segura, plan válido. Emite Domain Event `AccountRegistered` al confirmar y redirige a verificación. | 3h | Brianna | To Do |
+| **US06** | Registrar cuenta verificada para proteger información reputacional sensible | | T-02 | `SharedModule` – componentes atómicos reutilizables para todo el sprint | Módulo compartido con `InputField`, `PrimaryButton`, `AlertBanner`, `LoadingSpinner`, `StatusBadge`. Base de diseño consistente para todas las pantallas del sprint. Incluye manejo de estados de error alineado con respuestas de dominio. | 2h | Brianna | To Do |
+| **US07** | Verificar correo para que la cuenta transite a `ACTIVA` y habilite el workspace | 3 | T-03 | Pantalla de Verificación de Email: transiciona `UserAccount` a `ACTIVA` emitiendo `AccountActivated` | Pantalla accedida por token en URL. Llama a TS03, muestra confirmación de activación y redirige al workspace. Maneja casos de token expirado (reenvío) y ya verificado. El estado `ACTIVA` habilita acceso al `BrandWorkspace`. | 2h | Brianna | To Do |
+| **US08** | Iniciar sesión para acceder exclusivamente a las marcas asignadas | 3 | T-04 | Pantalla de Login con bloqueo por intentos fallidos y JWT asociado a `BrandWorkspace` asignados | Formulario de login conectado a TS02. Diferencia errores por credenciales inválidas vs cuenta bloqueada vs no verificada. Almacena JWT en `AuthService` (en memoria). Solo habilita acceso a los `BrandWorkspace` asignados al usuario autenticado. | 3h | Brianna | To Do |
+| **US09** | Recuperar acceso mediante flujo seguro sin comprometer la confidencialidad reputacional | 3 | T-05 | Pantalla de Recuperar Contraseña: solicita email y emite `PasswordRecoveryRequested` | Captura email y llama al flujo de recuperación (TS04). Emite `PasswordRecoveryRequested`. Respuesta genérica que no revela si el email existe en el sistema, protegiendo enumeración de cuentas. | 2h | Jean Franco | To Do |
+| **US09** | Recuperar acceso mediante flujo seguro sin comprometer la confidencialidad reputacional | | T-06 | Pantalla de Nueva Contraseña: completa `PasswordReset` e invalida sesiones activas | Pantalla accedida por token en URL. Valida requisitos del dominio para contraseña. Llama a TS04 completando `PasswordReset` e invalidando todas las sesiones activas del usuario para evitar acceso no autorizado posterior. | 2h | Jean Franco | To Do |
+| **US11** | Configurar `BrandWorkspace` con palabras clave y fuentes para activar motor de detección | 5 | T-07 | Pantalla de Selección de `BrandWorkspace`: aísla reputación por cliente y activa contexto operacional | Lista los `BrandWorkspace` asignados al usuario autenticado. Permite seleccionar el workspace activo, aislando métricas y menciones por cliente. Conecta con TS06 y persiste estado en `WorkspaceStateService`. Previene análisis cruzados incorrectos entre clientes. | 3h | Jean Franco | To Do |
+| **US27** | Detectar tendencias negativas del `SentimentScore` para ejecutar acciones correctivas rápidamente | 8 | T-08 | Pantalla de Dashboard reputacional: expone indicadores de decisión del `BrandWorkspace` activo | Consume endpoint de métricas consolidadas (TS15). Muestra `SentimentScore` actual, tendencia, menciones recientes del `MentionStream`, `ReputationIncident` activos por `SeverityLevel` y alertas pendientes. Orientado a decisión operacional, no solo visualización de métricas. | 4h | Jean Franco | To Do |
+| **US33** | Operar exclusivamente dentro del perímetro de `BrandWorkspace` asignados para garantizar confidencialidad | 8 | T-09 | Pantalla 403 – Acceso no autorizado al `BrandWorkspace`: registra intento como evento de auditoría | Se activa cuando el `WorkspaceGuard` (T-14) rechaza acceso a un `BrandWorkspace` no asignado al usuario. Muestra mensaje claro, registra el intento no autorizado como evento de auditoría (TS16) y orienta al usuario hacia sus workspaces legítimos. | 2h | Joaquin | To Do |
+| **US11** | Configurar `BrandWorkspace` con palabras clave y fuentes para activar motor de detección | 5 | T-10 | Pantalla de Gestión de Marcas: crear, editar y desactivar `BrandWorkspace` con trazabilidad | CRUD de marcas conectado a TS06 y TS07. Formulario de configuración: nombre, `KeywordRule`, `MonitoringChannel`. La desactivación conserva historial emitiendo `WorkspaceDeactivated`. Cada cambio de configuración emite `MonitoringRuleUpdated` para trazabilidad. | 5h | Joaquin | To Do |
+| **US23** | Detectar picos anómalos en `MentionStream` para crear `ReputationIncident` antes de que una crisis escale | 8 | T-11 | Pantalla de Incidentes Reputacionales: prioriza `ReputationIncident` por `SeverityLevel` y registra respuesta | Lista de `ReputationIncident` filtrable por `SeverityLevel`, `IncidentStatus` y fecha. Permite registrar respuesta emitiendo `AlertAcknowledged` con responsable y timestamp. Conecta con TS11 y TS12. Diseñada para gestión simultánea de múltiples clientes. | 5h | Joaquin | To Do |
+| **US17** | Identificar menciones negativas recurrentes en `MentionStream` para priorizar respuesta operacional | 5 | T-12 | Pantalla de Menciones: filtra `MentionStream` por `SentimentType`, `MentionSource` y fecha para identificar riesgo reputacional | Vista paginada del `MentionStream` del workspace activo. Filtros por `SentimentType`, `MentionCategory`, `MentionSource` y rango de fechas. Conecta con TS09. Identifica fuentes recurrentes de riesgo para priorizar acciones correctivas. | 4h | Joaquin | To Do |
+| **TS02** | Endpoint de login: valida credenciales, emite JWT y bloquea por intentos fallidos | 5 | T-13 | HTTP Interceptor: inyecta JWT automáticamente en cada request autenticado | Interceptor que adjunta el Bearer token JWT en el header `Authorization` de cada llamada. Detecta respuesta 401 (token expirado) y redirige a login limpiando el contexto de sesión. Transparente para todos los componentes del sprint. | 3h | Victor | To Do |
+| **TS16** | Middleware de autorización contextual por `BrandWorkspace` con auditoría de accesos no autorizados | 5 | T-14 | `WorkspaceGuard`: protege rutas del workspace activo y registra accesos no autorizados como eventos de auditoría | Guard de ruta Angular que valida antes de activar cada pantalla que el usuario autenticado tiene acceso al `BrandWorkspace` solicitado (llamando a TS16). Acceso no autorizado → redirige a pantalla 403 (T-09) y emite evento de auditoría. | 3h | Victor | To Do |
+| **US10** | Cerrar sesión para invalidar contexto de workspace en dispositivos compartidos | 2 | T-15 | Logout con timeout por inactividad e invalidación del contexto de `BrandWorkspace` | Flujo de cierre de sesión que limpia el JWT del `AuthService`, invalida el `WorkspaceStateService` y redirige al login. Incluye timeout automático configurable por inactividad para proteger datos reputacionales en dispositivos compartidos. | 2h | Victor | To Do |
+| **TS01–TS16** | Infraestructura de desarrollo, fake API y QA del sprint | — | T-16 | Fake API con `json-server`: simula endpoints TS01–TS16 con datos semilla realistas de dominio | Levantar `json-server` con rutas que simulan los endpoints del sprint: registro, login, verificación, recuperación de contraseña, workspaces, reglas de monitoreo, menciones, incidentes y métricas de dashboard. Datos semilla reflejan entidades DDD: `BrandWorkspace`, `ReputationIncident`, `MentionStream`, `SentimentScore`. | 4h | Luis | To Do |
+| — |  — |  — | T-17 | `WorkspaceStateService`: gestiona el `BrandWorkspace` activo en sesión con observables reactivos | Servicio centralizado que almacena el `BrandWorkspace` activo en memoria de sesión. Expone observables para que componentes reaccionen a cambio de workspace. Se limpia completamente en logout para evitar filtración de contexto entre sesiones. | 3h | Luis | To Do |
+| — |  — |  — | T-18 | QA: flujo completo de autenticación, autorización contextual y acceso reputacional | Pruebas de integración cubriendo el flujo completo: registro → `AccountRegistered` → verificación → `AccountActivated` → login → selección de `BrandWorkspace` → dashboard → acceso a incidentes → logout. Valida bloqueo 403, `WorkspaceGuard`, timeout y aislamiento de contexto entre clientes. | 4h | Luis | To Do |
  
 <br>
 
