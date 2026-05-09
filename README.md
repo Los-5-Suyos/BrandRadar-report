@@ -3668,6 +3668,20 @@ A continuación se presenta el Sprint Planning para esta segunda entrega, donde 
 
 <br>
 
+
+| Team Member  | GitHub Username | `[US01 · Hero + Propuesta de valor]` | `[US02 · Funcionalidades + Segmentos]` | `[US03 · Testimonios + Evidencia social]` | `[US04 · Planes + Comparativa]` | `[US05 · Formulario de contacto]` |
+|:-----------------------------------:|:---------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
+| Salinas, Brianna | brianna-salinas | L | C | C | C | C |
+| García, Victor | vicmacode | C | L | C | C | C |
+| Jáuregui, Jean | JFranco556 | C | C | L | C | C |
+| Acuña, Luis | L2006delacruz | C | C | C | L | C |
+| Cruzalegui, Joaquin | JoaquinCruzalegui | C | C | C | C | L |
+
+<br>
+
+> **L** = Leader &nbsp;|&nbsp; **C** = Collaborator
+
+<br>
 ---
 
 #### 5.2.2.3. Sprint Backlog 2
@@ -3742,8 +3756,15 @@ A continuación se presenta el Sprint Planning para esta segunda entrega, donde 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
 <br>
+El equipo utilizó la estrategia GitFlow para gestionar el desarrollo paralelo. Cada integrante trabajó en su propia rama de característica (feature/brianna, feature/victor, etc.), las cuales fueron fusionadas en la rama develop tras pasar una revisión de código básica.
 
----
+## Métricas de colaboración:
+
+- Commits: Se registró una actividad constante de los 5 miembros, con picos de integración los días previos a la entrega.
+
+- Roles: La matriz de trabajo permitió que cada componente tuviera un líder responsable, evitando la duplicidad de trabajo.
+
+- Gráfico de red de ramas en el repositorio de GitHub evidenciando la integración de las 5 ramas de características en la rama develop.
 
 <br>
 
