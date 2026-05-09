@@ -2612,7 +2612,7 @@ Se incrementó el nivel de abstracción agrupando comandos y eventos alrededor d
 
 **Step 10: Bounded Contexts**
 
-Finalmente, se delimitaron los límites semánticos y transaccionales del dominio mediante la definición de Bounded Contexts, agrupando los agregados relacionados en bloques coherentes e independientes. Este paso consolidó la arquitectura del sistema en seis contextos principales: Account Management, Brand Management, Monitoring, Sentiment Analysis, Alert Management y Reporting.
+Finalmente, se delimitaron los límites semánticos y transaccionales del dominio mediante la definición de Bounded Contexts, agrupando los agregados relacionados en bloques coherentes e independientes. Este paso consolidó la arquitectura del sistema en seis contextos principales: Brand Workspace, Reputation Monotoring, Identity Access, Sentiment Intelligence, Crisis Detection y Infrastructure Health.
 
 <div align="center">
   
