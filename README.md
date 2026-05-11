@@ -1949,7 +1949,7 @@ En esta sección se describen las decisiones relacionadas con los estándares vi
 
 El sistema de componentes ha sido diseñado bajo un enfoque minimalista sobre fondo claro, priorizando la legibilidad, la jerarquía visual y la claridad en las interacciones. Asimismo, se emplea una paleta basada en tonos neutros (blancos y grises) combinados con acentos en gradientes azul-violeta, los cuales permiten resaltar elementos clave sin sobrecargar la interfaz.
 
-Las decisiones adoptadas buscan garantizar una experiencia de usuario intuitiva, accesible y coherente en todos los módulos del sistema, especialmente en contextos de análisis de datos y monitoreo de reputación digital en tiempo real.
+Las decisiones adoptadas buscan garantizar una experiencia de intuitiva, accesible y coherente en todos los módulos del sistema, especialmente en contextos de análisis de datos y monitoreo de reputación digital en tiempo real.
 
 <br>
 
