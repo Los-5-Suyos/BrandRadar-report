@@ -2639,13 +2639,21 @@ Finalmente, se delimitaron los límites semánticos y transaccionales del domini
 
 El proceso de Design-Level Event Storming permitió profundizar en el comportamiento técnico del sistema, tomando como base los flujos identificados en el Big Picture Event Storming. En esta etapa, se definieron los límites transaccionales (Bounded Contexts) y se incorporaron elementos de diseño táctico como Comandos (Commands), Agregados (Aggregates) y Políticas (Policies). [Ver Miro](https://miro.com/welcomeonboard/OFNBUUR3ZHl3VWkyVzJPRzhPWEV5bHF2S0hiRjArNEswejJoT0ZyZVdHQ0VMVDkzNy9Xd3RCOGdHemhTN3ZJblhjSkJLRjBneGRvNjdaaXNCZHkvWVQ3N1VhMUxRYkI4SmNBRTdTaHpBWWlzRHhGTTZKL2NFVjVtK1IwcFZscnhnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=126405139400).
 
+El proceso de Design-Level Event Storming permitió profundizar en el comportamiento técnico del sistema, tomando como base los flujos identificados en el Big Picture Event Storming. En esta etapa, se definieron los límites transaccionales (Bounded Contexts) y se incorporaron elementos de diseño táctico como Comandos (Commands), Agregados (Aggregates) y Políticas (Policies). Ver Miro.
+
 A partir del análisis del dominio de BrandRadar, se consolidaron seis Bounded Contexts principales:
-1. **Account Management:** Gestiona la identidad de los usuarios, roles (PyME Owner, Agency Manager) y sesiones de autenticación.
-2. **Brand Management:** Administra la configuración de marcas, palabras clave (keywords) y la conexión con fuentes de datos externas.
-3. **Monitoring:** Coordina la integración con APIs externas y la recolección de menciones (mentions) en tiempo real.
-4. **Sentiment Analysis:** Delega el procesamiento de lenguaje natural y clasifica el sentimiento.
-5. **Alert Management:** Aplica reglas de negocio para la generación de alertas y notificaciones ante eventos críticos o menciones negativas.
-6. **Reporting:** Consolida métricas del sistema y genera dashboards y reportes exportables para análisis y toma de decisiones.
+
+Identity Access Context: Gestiona la identidad de los usuarios, roles y sesiones de autenticación, asegurando el acceso protegido a la plataforma.
+
+Brand Workspace Context: Administra la configuración de los espacios de trabajo, marcas, palabras clave (keywords) y la personalización del entorno del usuario.
+
+Reputation Monitoring Context: Coordina la recolección de menciones en tiempo real y el rastreo de la presencia de la marca en diversas fuentes digitales.
+
+Crisis Detection Context: Aplica reglas de negocio y umbrales críticos para identificar amenazas potenciales a la reputación de manera inmediata.
+
+Sentiment Intelligence Context: Delega el procesamiento de lenguaje natural para clasificar sentimientos y extraer inteligencia emocional de los datos recolectados.
+
+Infrastructure Health Context: Supervisa la salud técnica del ecosistema, incluyendo el estado de los dispositivos, la latencia de servicios y la estabilidad de la infraestructura.
    
 <br>
 
