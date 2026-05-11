@@ -69,7 +69,7 @@
 <br>
 
   
-**URL del Repositorio:** [`https://github.com/Los-5-Suyos/BrandRadar.git`](https://github.com/Los-5-Suyos/BrandRadar.git)
+**URL del Repositorio:** [`https://github.com/Los-5-Suyos/BrandRadar-report.git`](https://github.com/Los-5-Suyos/BrandRadar-report.git)
 
 <br>
 
@@ -3094,7 +3094,7 @@ En esta sección se describen las herramientas de software seleccionadas para da
 
 | Herramienta / Tecnología | Uso principal | Enlace |
 |:---|:---|:---|
-| ![VSCode](https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white) | Entorno de desarrollo integrado principal para escribir, editar y depurar el código de la aplicación. | [code.visualstudio.com](https://code.visualstudio.com) |
+| ![WebStorm](https://img.shields.io/badge/WebStorm-000000?style=for-the-badge&logo=webstorm&logoColor=white) | Entorno de desarrollo integrado principal para escribir, editar y depurar el código de la aplicación. | [jetbrains.com/webstorm](https://www.jetbrains.com/webstorm/) |
 | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) | Lenguaje de marcado para estructurar el contenido de la landing page y del dashboard de BrandRadar. | [MDN Web Docs](https://developer.mozilla.org/docs/Web/HTML) |
 | ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) | Lenguaje de estilos para definir la apariencia visual de la landing page y la aplicación web. | [MDN Web Docs](https://developer.mozilla.org/docs/Web/CSS) |
 | ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white) | Framework principal para el desarrollo de la aplicación web con componentes reutilizables y enrutamiento. | [angular.io](https://angular.io) |
@@ -3116,7 +3116,7 @@ En esta sección se describen las herramientas de software seleccionadas para da
 |:---|:---|:---|
 | ![Structurizr](https://img.shields.io/badge/Structurizr_DSL-1168BD?style=for-the-badge&logoColor=white) | Modelado de la arquitectura del sistema con el enfoque C4 mediante la técnica Diagrams-as-Code. | [structurizr.com/dsl](https://structurizr.com/dsl) |
 | ![PlantUML](https://img.shields.io/badge/PlantUML-1A5276?style=for-the-badge&logoColor=white) | Elaboración de diagramas UML y de arquitectura, compatible con la documentación técnica del proyecto. | [plantuml.com](https://plantuml.com/es/) |
-| ![MySQL](https://img.shields.io/badge/MySQL_Workbench-4479A1?style=for-the-badge&logo=mysql&logoColor=white) | Diseño visual y profesional de bases de datos relacionales. | [mysql.com/products/workbench](https://www.mysql.com/products/workbench) |
+| ![MySQL Workbench](https://img.shields.io/badge/MySQL_Workbench-4479A1?style=for-the-badge&logo=mysql&logoColor=white) | Diseño visual y profesional de bases de datos relacionales. | [mysql.com/products/workbench](https://www.mysql.com/products/workbench) |
 
 <br>
 
@@ -3171,7 +3171,7 @@ El repositorio principal del proyecto se encuentra disponible en el siguiente en
 | :----------------------- | :--------------------------------------------------------------------------------------------------- |
 | Organización Los 5 Suyos | [https://github.com/Los-5-Suyos](https://github.com/Los-5-Suyos)                                     |
 | Landing Page             | [https://github.com/Los-5-Suyos/BrandRadar-Landing-Page](https://github.com/Los-5-Suyos/BrandRadar-Landing-Page)  |
-| Report                   | [https://github.com/Los-5-Suyos/BrandRadar](https://github.com/Los-5-Suyos/BrandRadar) |
+| Report                   | [https://github.com/Los-5-Suyos/BrandRadar-report.git](https://github.com/Los-5-Suyos/BrandRadar-report.git) |
 | Web Application          | [https://github.com/Los-5-Suyos/BrandRadar-Frontend-Web-App](https://github.com/Los-5-Suyos/BrandRadar-Frontend-Web-App)  |
 | API / Backend            | [https://github.com/Los-5-Suyos/BrandRadar-Web-Services](https://github.com/Los-5-Suyos/BrandRadar-Web-Services)  |
 
@@ -3668,20 +3668,20 @@ A continuación se presenta el Sprint Planning para esta segunda entrega, donde 
 
 <br>
 
-
-| Team Member  | GitHub Username | `[US01 · Hero + Propuesta de valor]` | `[US02 · Funcionalidades + Segmentos]` | `[US03 · Testimonios + Evidencia social]` | `[US04 · Planes + Comparativa]` | `[US05 · Formulario de contacto]` |
-|:-----------------------------------:|:---------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
-| Salinas, Brianna | brianna-salinas | L | C | C | C | C |
-| García, Victor | vicmacode | C | L | C | C | C |
-| Jáuregui, Jean | JFranco556 | C | C | L | C | C |
-| Acuña, Luis | L2006delacruz | C | C | C | L | C |
-| Cruzalegui, Joaquin | JoaquinCruzalegui | C | C | C | C | L |
+| Team Member | GitHub Username | `[US06 · Registro + SharedModule]` | `[US07 · Verificación de correo]` | `[US08 · Login + JWT]` | `[US09 · Recuperación de contraseña]` | `[US11 · BrandWorkspace]` | `[US17 · MentionStream]` | `[US23 · ReputationIncident]` | `[US27 · Dashboard reputacional]` | `[US33 · Autorización contextual]` | `[TS01–TS16 · Infraestructura y QA]` |
+|:-----------------------------------:|:---------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
+| Salinas, Brianna | brianna-salinas | L | L | L | C | C | C | C | C | C | C |
+| García, Victor | vicmacode | C | C | C | C | C | C | C | C | L | C |
+| Jáuregui, Jean | JFranco556 | C | C | C | L | L | C | C | L | C | C |
+| Acuña, Luis | L2006delacruz | C | C | C | C | C | C | C | C | C | L |
+| Cruzalegui, Joaquin | JoaquinCruzalegui | C | C | C | C | C | L | L | C | C | C |
 
 <br>
 
 > **L** = Leader &nbsp;|&nbsp; **C** = Collaborator
 
 <br>
+
 ---
 
 #### 5.2.2.3. Sprint Backlog 2
