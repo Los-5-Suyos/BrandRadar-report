@@ -3741,9 +3741,123 @@ A continuación se presenta el Sprint Planning para esta segunda entrega, donde 
 
 <br>
 
+Durante el Sprint 2, el equipo se enfocó en la construcción de la arquitectura frontend de BrandRadar utilizando Angular y TypeScript bajo una estructura modular orientada a Domain-Driven Design (DDD). El objetivo principal del sprint fue implementar los flujos de autenticación, autorización contextual y gestión de workspaces reputacionales, permitiendo que cada usuario opere únicamente dentro de los espacios asignados.
+
+Se desarrollaron pantallas clave como Registro, Login, Verificación de Correo, Recuperación de Contraseña, Gestión de BrandWorkspace, Dashboard Reputacional e Incidentes, integradas mediante servicios, guards e interceptors reutilizables. Asimismo, se incorporó una Fake API con `json-server` para simular los endpoints del dominio y permitir pruebas funcionales sin depender todavía de un backend definitivo.
+
+El equipo adoptó Angular standalone architecture, Reactive Forms y un enfoque basado en componentes reutilizables mediante un `SharedModule`, permitiendo mantener consistencia visual y acelerar el desarrollo colaborativo. Además, se implementó control de acceso contextual usando `WorkspaceGuard` y JWT para proteger la información reputacional de cada cliente.
+
+El desarrollo se realizó en el repositorio público de frontend utilizando GitFlow y ramas `feature/`, permitiendo que cada integrante trabajara de manera independiente antes de integrar sus avances en la rama `develop` para pruebas de integración y revisión del sprint.
+
+<br>
+
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on (Date) |
+|:---|:---|:---|:---|:---|:---|
+| Los-5-Suyos/BrandRadar-Frontend-Web-App | main | pending | `initial frontend setup` | Configuración inicial del proyecto Angular, instalación de Angular Material y estructura DDD base | 2026-05-02 |
+| Los-5-Suyos/BrandRadar-Frontend-Web-App | develop | pending | `feat: shared architecture setup` | Creación de módulos compartidos, routing principal y estructura base de servicios y guards | 2026-05-03 |
+| Los-5-Suyos/BrandRadar-Frontend-Web-App | feature/sprint2-brianna | pending | `feat: authentication flows implementation` | Desarrollo de pantallas de registro, login, verificación de correo y componentes reutilizables del sprint | 2026-05-06 |
+| Los-5-Suyos/BrandRadar-Frontend-Web-App | feature/sprint2-victor | pending | `feat: guards and interceptor setup` | Implementación de JWT Interceptor, WorkspaceGuard y flujo de logout seguro | 2026-05-07 |
+| Los-5-Suyos/BrandRadar-Frontend-Web-App | feature/sprint2-jean | pending | `feat: workspace and recovery flows` | Desarrollo de recuperación de contraseña, selección de BrandWorkspace y dashboard reputacional | 2026-05-08 |
+| Los-5-Suyos/BrandRadar-Frontend-Web-App | feature/sprint2-joaquin | pending | `feat: incidents and mentions management` | Implementación de gestión de incidentes reputacionales, menciones y pantalla 403 | 2026-05-09 |
+| Los-5-Suyos/BrandRadar-Frontend-Web-App | feature/sprint2-luis | pending | `feat: fake api and workspace state service` | Configuración de json-server, datos semilla y WorkspaceStateService reactivo | 2026-05-09 |
+| Los-5-Suyos/BrandRadar-Frontend-Web-App | develop | pending | `merge: sprint 2 integration` | Integración completa de funcionalidades del Sprint 2 y validación de flujos de autenticación contextual | 2026-05-10 |
+
+<br>
+
 ---
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
+
+<br>
+
+Durante el Sprint 2 se implementó la primera versión funcional del sistema web de BrandRadar, enfocada en los flujos de autenticación, autorización contextual y gestión de workspaces reputacionales. El equipo desarrolló una arquitectura frontend modular utilizando Angular y TypeScript, incorporando guards, interceptors y servicios reactivos para garantizar el aislamiento seguro de información entre clientes.
+
+El sprint permitió consolidar las bases funcionales del producto mediante la integración de formularios reactivos, validaciones de dominio, manejo de JWT y navegación protegida por contexto de `BrandWorkspace`. Asimismo, se incorporó una Fake API usando `json-server`, permitiendo validar los flujos del sistema sin depender aún de un backend productivo.
+
+El desarrollo se validó mediante:
+
+- **Autenticación segura:** Registro de usuarios, login con JWT, recuperación de contraseña y verificación de correo electrónico.
+
+- **Autorización contextual:** Implementación de `WorkspaceGuard` y control de acceso exclusivo a los `BrandWorkspace` asignados.
+
+- **Arquitectura reutilizable:** Creación de componentes compartidos (`SharedModule`) y servicios reactivos para mantener consistencia y escalabilidad.
+
+- **Gestión reputacional:** Visualización de dashboard reputacional, incidentes, menciones y métricas asociadas al workspace activo.
+
+- **Infraestructura de pruebas:** Simulación de endpoints mediante `json-server` y validación integral de flujos funcionales del sprint.
+
+<br>
+
+A continuación se muestran las capturas de las vistas desarrolladas
+
+<br>
+
+**US06 Evidence – Registro de Cuenta**
+<br>
+
+![Execution Evidence 1](brandradar-report/assets/sprints/sprint-2/sprint2-execution-1.png)
+
+<br>
+
+**US07 Evidence – Verificación de Correo**
+<br>
+
+![Execution Evidence 2](brandradar-report/assets/sprints/sprint-2/sprint2-execution-2.png)
+
+<br>
+
+**US08 Evidence – Inicio de Sesión**
+<br>
+
+![Execution Evidence 3](brandradar-report/assets/sprints/sprint-2/sprint2-execution-3.png)
+
+<br>
+
+**US09 Evidence – Recuperación de Contraseña**
+<br>
+
+![Execution Evidence 4](brandradar-report/assets/sprints/sprint-2/sprint2-execution-4.png)
+
+<br>
+
+**US11 Evidence – Selección y Gestión de BrandWorkspace**
+<br>
+
+![Execution Evidence 5](brandradar-report/assets/sprints/sprint-2/sprint2-execution-5.png)
+
+<br>
+
+**US17 Evidence – Gestión de MentionStream**
+<br>
+
+![Execution Evidence 6](brandradar-report/assets/sprints/sprint-2/sprint2-execution-6.png)
+
+<br>
+
+**US23 Evidence – Gestión de ReputationIncident**
+<br>
+
+![Execution Evidence 7](brandradar-report/assets/sprints/sprint-2/sprint2-execution-7.png)
+
+<br>
+
+**US27 Evidence – Dashboard Reputacional**
+<br>
+
+![Execution Evidence 8](brandradar-report/assets/sprints/sprint-2/sprint2-execution-8.png)
+
+<br>
+
+**US33 Evidence – Pantalla 403 y WorkspaceGuard**
+<br>
+
+![Execution Evidence 9](brandradar-report/assets/sprints/sprint-2/sprint2-execution-9.png)
+
+<br>
+
+Asimismo, se elaboró un video demostrativo que muestra la ejecución de los flujos implementados durante el Sprint 2, incluyendo autenticación, autorización contextual, selección de workspaces y navegación del dashboard reputacional:
+
+[Ver video de ejecución Sprint 2](https://example.com/sprint2-demo-video)
 
 <br>
 
@@ -3753,9 +3867,85 @@ A continuación se presenta el Sprint Planning para esta segunda entrega, donde 
 
 <br>
 
+Durante el Sprint 2, el equipo implementó la primera aproximación funcional de los servicios requeridos por BrandRadar mediante el uso de una Fake API construida con `json-server`. Esta infraestructura permitió simular el comportamiento de los endpoints definidos en el modelo de dominio, facilitando el desarrollo paralelo entre frontend y backend sin depender todavía de servicios productivos reales.
+
+Los servicios simulados cubrieron los principales flujos del sprint, incluyendo autenticación, verificación de cuentas, recuperación de contraseña, gestión de `BrandWorkspace`, monitoreo reputacional e incidentes. Además, se definieron contratos preliminares de integración alineados con los bounded contexts y Domain Events del sistema.
+
+Entre los endpoints simulados implementados se encuentran:
+
+- `/auth/register`
+- `/auth/login`
+- `/auth/verify-email`
+- `/auth/recover-password`
+- `/workspaces`
+- `/mentions`
+- `/incidents`
+- `/dashboard/metrics`
+
+Asimismo, el equipo dejó preparada la base documental para futuras integraciones RESTful mediante OpenAPI/Swagger, permitiendo asegurar trazabilidad técnica y escalabilidad en los siguientes sprints.
+
+<br>
+
+**Evidencias**
+
+A continuación, se presentan capturas de la Fake API, rutas simuladas y pruebas funcionales realizadas durante el Sprint 2:
+
+![Services Evidence Sprint 2](brandradar-report/assets/sprints/sprint-2/services-1.png)
+
+![Services Evidence Sprint 2](brandradar-report/assets/sprints/sprint-2/services-2.png)
+
+![Services Evidence Sprint 2](brandradar-report/assets/sprints/sprint-2/services-3.png)
+
+![Services Evidence Sprint 2](brandradar-report/assets/sprints/sprint-2/services-4.png)
+
+<br>
+
 ---
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+<br>
+
+Durante el Sprint 2 se realizó el despliegue de la aplicación frontend de BrandRadar utilizando Vercel, integrado directamente con el repositorio del proyecto en GitHub. El despliegue permitió validar en un entorno cloud los flujos de autenticación, navegación protegida y gestión contextual de workspaces desarrollados durante el sprint.
+
+El proceso de despliegue fue automatizado mediante integración continua (CI/CD), asegurando que cada actualización en la rama principal generara automáticamente una nueva versión de la aplicación.
+
+<br>
+
+**Deployment Process**
+
+1. Ingresar a la plataforma Vercel utilizando la opción “Continue with GitHub”.
+2. Autorizar el acceso de Vercel a los repositorios del equipo.
+3. Seleccionar la opción “Add New Project”.
+4. Importar el repositorio `BrandRadar-Frontend-Web-App`.
+5. Configurar Angular como framework del proyecto.
+6. Configurar la rama principal (`main`) como rama de despliegue.
+7. Definir los parámetros de build (`npm install` y `ng build`).
+8. Ejecutar el despliegue mediante la opción “Deploy”.
+9. Esperar la generación automática del dominio público.
+10. Validar el correcto funcionamiento de la aplicación desplegada.
+
+<br>
+
+**URL pública:** [https://brandradar-frontend.vercel.app/](https://brandradar-frontend.vercel.app/)
+
+<br>
+
+**Evidencias**
+
+A continuación, se presentan capturas del proceso de despliegue y del resultado final de la aplicación:
+
+![Deployment Sprint 2](brandradar-report/assets/sprints/sprint-2/deployment-1.png)
+
+![Deployment Sprint 2](brandradar-report/assets/sprints/sprint-2/deployment-2.png)
+
+![Deployment Sprint 2](brandradar-report/assets/sprints/sprint-2/deployment-3.png)
+
+![Deployment Sprint 2](brandradar-report/assets/sprints/sprint-2/deployment-4.png)
+
+![Deployment Sprint 2](brandradar-report/assets/sprints/sprint-2/deployment-5.png)
+
+![Deployment Sprint 2](brandradar-report/assets/sprints/sprint-2/deployment-6.png)
 
 <br>
 
@@ -3764,15 +3954,28 @@ A continuación se presenta el Sprint Planning para esta segunda entrega, donde 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
 <br>
-El equipo utilizó la estrategia GitFlow para gestionar el desarrollo paralelo. Cada integrante trabajó en su propia rama de característica (feature/brianna, feature/victor, etc.), las cuales fueron fusionadas en la rama develop tras pasar una revisión de código básica.
+
+Durante el Sprint 2, el equipo continuó utilizando GitFlow como estrategia principal de colaboración y control de versiones. Cada integrante desarrolló funcionalidades específicas en ramas `feature/`, permitiendo trabajar de manera paralela sobre autenticación, guards, dashboard reputacional, gestión de incidentes y servicios compartidos sin afectar la estabilidad de la rama principal.
+
+La colaboración se fortaleció mediante integraciones frecuentes hacia `develop`, validando compatibilidad entre componentes Angular, servicios y rutas protegidas antes de consolidar el sprint completo.
+
+<br>
 
 ## Métricas de colaboración:
 
-- Commits: Se registró una actividad constante de los 5 miembros, con picos de integración los días previos a la entrega.
+- **Commits:** Se registró actividad continua de los cinco integrantes durante todo el sprint, especialmente durante la integración de autenticación y dashboard.
 
-- Roles: La matriz de trabajo permitió que cada componente tuviera un líder responsable, evitando la duplicidad de trabajo.
+- **Trabajo modular:** La arquitectura basada en componentes reutilizables y servicios permitió dividir responsabilidades sin generar conflictos de integración.
 
-- Gráfico de red de ramas en el repositorio de GitHub evidenciando la integración de las 5 ramas de características en la rama develop.
+- **Integración continua:** Las ramas feature fueron fusionadas progresivamente en `develop`, permitiendo detectar errores tempranamente y validar el flujo completo del sistema.
+
+- **Colaboración técnica:** El equipo coordinó el uso de guards, interceptors y servicios compartidos para mantener consistencia arquitectónica en toda la aplicación Angular.
+
+<br>
+
+![Team Collaboration Sprint 2](brandradar-report/assets/sprints/sprint-2/sprint2-collaboration.png)
+
+![Team Collaboration Overtime Sprint 2](brandradar-report/assets/sprints/sprint-2/sprint2-over-time.png)
 
 <br>
 
