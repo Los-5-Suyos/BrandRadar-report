@@ -3658,6 +3658,20 @@ A continuación se presenta el Sprint Planning para esta segunda entrega, donde 
 
 <br>
 
+| Team Member | GitHub Username | `[US06 · Registro + SharedModule]` | `[US07 · Verificación de correo]` | `[US08 · Login + JWT]` | `[US09 · Recuperación de contraseña]` | `[US11 · BrandWorkspace]` | `[US17 · MentionStream]` | `[US23 · ReputationIncident]` | `[US27 · Dashboard reputacional]` | `[US33 · Autorización contextual]` | `[TS01–TS16 · Infraestructura y QA]` |
+|:-----------------------------------:|:---------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
+| Salinas, Brianna | brianna-salinas | L | L | L | C | C | C | C | C | C | C |
+| García, Victor | vicmacode | C | C | C | C | C | C | C | C | L | C |
+| Jáuregui, Jean | JFranco556 | C | C | C | L | L | C | C | L | C | C |
+| Acuña, Luis | L2006delacruz | C | C | C | C | C | C | C | C | C | L |
+| Cruzalegui, Joaquin | JoaquinCruzalegui | C | C | C | C | C | L | L | C | C | C |
+
+<br>
+
+> **L** = Leader &nbsp;|&nbsp; **C** = Collaborator
+
+<br>
+
 ---
 
 #### 5.2.2.3. Sprint Backlog 2
@@ -3678,72 +3692,24 @@ A continuación se presenta el Sprint Planning para esta segunda entrega, donde 
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Sprint 2** | **User Story** | | **Work-Item / Task** | | | | **Asignado a** | **Status** |
 | **ID** | **Título** | **SP** | **ID** | **Título** | **Descripción** | **Estimación** | **Asignado a** | |
-| — | Setup Sprint 2 | — | T01 | Configurar fake API completa con todos los Bounded Contexts | Ampliar `db.json` con entidades de los 5 BCs: `brandWorkspaces`, `reputationIncidents`, `mentionStreams`, `mentions`, `monitoringRules`, `sentimentResults`, `crisisAlerts`, `reputationReports`, `dashboardMetrics`, `auditLogs`, `users`. Agregar `routes.json` con todos los endpoints organizados por BC. Levantar en puerto 3000. | 5h | Frontend / Backend | To-Do |
-| — | Setup Sprint 2 | — | T02 | Implementar interceptor HTTP con JWT simulado y claims de workspace | Configurar interceptor Angular que adjunte JWT simulado con `workspaceIds` como claims en el header `Authorization`. Manejar expiración y redirección automática a login sin exponer datos reputacionales. | 2h | Frontend | To-Do |
-| — | Setup Sprint 2 | — | T03 | Implementar `AuthGuard` y `WorkspaceGuard` con validación de claims | Crear `AuthGuard` para rutas privadas. Crear `WorkspaceGuard` que valide que el `workspaceId` en la ruta pertenece a los claims del JWT simulado. Registrar `UnauthorizedAccessAttempted` en `auditLogs` ante intentos fallidos. Redirigir a pantalla 403. | 4h | Frontend | To-Do |
-| — | Setup Sprint 2 | — | T04 | Implementar servicio de estado global del `BrandWorkspace` activo | Servicio Angular con `BehaviorSubject` para gestionar el workspace activo en sesión. Limpiar contexto al logout o al revocar acceso. Exponer el estado del workspace (`ACTIVO`, `INACTIVO`, `EMERGENCIA`) a todos los componentes. | 4h | Frontend | To-Do |
-| — | Setup Sprint 2 | — | T05 | Configurar estructura de rutas por Bounded Context | Definir módulos de rutas separados por BC: `/workspace`, `/monitoring`, `/crisis`, `/sentiment`, `/reports`. Aplicar lazy loading por módulo. Registrar navegación entre BCs en `auditLogs` para trazabilidad. | 3h | Frontend | To-Do |
-| US06 | Registrar cuenta para acceder a monitoreo reputacional | 5 | T06 | Implementar componente de registro con validación de dominio | Formulario Angular Reactive Forms: nombre, correo, contraseña con indicador de fortaleza, tipo de cuenta (`PYME_OWNER` / `AGENCY_MANAGER`). Errores inline por campo. Al registrar exitosamente redirigir a pantalla de verificación pendiente. | 4h | Frontend | To-Do |
-| US06 | Registrar cuenta para acceder a monitoreo reputacional | 5 | T07 | Conectar registro a fake API y emitir `AccountRegistered` | `POST /api/v1/auth/register` — persiste cuenta en estado `PENDIENTE_VERIFICACIÓN` en `db.json`. Registra `AccountRegistered` en `auditLogs` con timestamp. Retorna 409 si correo duplicado sin revelar estado de cuenta existente. | 2h | Frontend | To-Do |
-| US07 | Verificar correo para activar acceso reputacional | 3 | T08 | Implementar pantalla de verificación con estados diferenciados | Pantalla que recibe token simulado por query param. Muestra estados diferenciados: verificación exitosa (`ACTIVA`), token expirado, token inválido. Redirige al workspace al verificar exitosamente. | 3h | Frontend | To-Do |
-| US07 | Verificar correo para activar acceso reputacional | 3 | T09 | Conectar verificación a fake API y emitir `AccountActivated` | `GET /api/v1/auth/verify?token={token}` — transiciona cuenta de `PENDIENTE_VERIFICACIÓN` a `ACTIVA`. Registra `AccountActivated` en `auditLogs`. Retorna error diferenciado para token inválido vs. expirado. | 2h | Frontend | To-Do |
-| US08 | Iniciar sesión para acceder a marcas asignadas | 3 | T10 | Implementar login con bloqueo automático y carga de workspaces asignados | Formulario de login con contador de intentos fallidos. Al quinto intento consecutivo, transiciona cuenta a `BLOQUEADA` en fake API. Carga exclusivamente los `workspaceIds` asignados al usuario autenticado desde los claims del JWT. | 4h | Frontend | To-Do |
-| US08 | Iniciar sesión para acceder a marcas asignadas | 3 | T11 | Conectar login a fake API con JWT simulado en memoria | `POST /api/v1/auth/login` — retorna JWT simulado con `workspaceIds` como claims. Almacena token en memoria (no en `localStorage`). Redirige al workspace asignado. Maneja cuenta `BLOQUEADA` con 403 y mensaje claro. | 2h | Frontend | To-Do |
-| US09 | Recuperar acceso sin comprometer seguridad reputacional | 3 | T12 | Implementar flujo de recuperación en 2 pantallas con respuesta ambigua | Pantalla 1: solicitar correo (respuesta ambigua — no revela si el correo existe). Pantalla 2: nueva contraseña con token simulado en query param con validación de fortaleza. | 3h | Frontend | To-Do |
-| US09 | Recuperar acceso sin comprometer seguridad reputacional | 3 | T13 | Conectar recuperación a fake API, emitir `PasswordReset` y limpiar sesiones | `POST /api/v1/auth/forgot-password` y `POST /api/v1/auth/reset-password`. Al restablecer: actualiza contraseña, invalida token, limpia sesión activa y registra `PasswordReset` en `auditLogs`. | 2h | Frontend | To-Do |
-| US10 | Cerrar sesión para proteger datos reputacionales | 2 | T14 | Implementar logout con limpieza de contexto de sesión y BehaviorSubject | Logout invalida JWT en cliente, limpia el `BehaviorSubject` del workspace activo, cancela subscripciones RxJS pendientes y redirige al login. Detectar sesión inválida en otras pestañas. | 2h | Frontend | To-Do |
-| US10 | Cerrar sesión para proteger datos reputacionales | 2 | T15 | Implementar timeout de inactividad de 30 minutos con RxJS | Timer RxJS de 30 minutos de inactividad. Al expirar, ejecutar flujo de logout con aviso previo de 60 segundos. Sin dependencia de `localStorage`. Registrar `SessionExpired` en `auditLogs`. | 2h | Frontend | To-Do |
-| US11 | Definir perímetro de monitoreo de una marca | 5 | T16 | Implementar pantalla de creación de `BrandWorkspace` con validación de perímetro mínimo | Formulario con nombre de marca, al menos una keyword y al menos una fuente. Bloquear confirmación si configuración mínima incompleta. Rechazar nombre duplicado dentro de la cuenta. Al confirmar, transicionar `BrandWorkspace` a estado `MONITOREO_ACTIVO`. | 4h | Frontend | To-Do |
-| US11 | Definir perímetro de monitoreo de una marca | 5 | T17 | Conectar creación a fake API y emitir `BrandWorkspaceConfigured` | `POST /api/v1/brands` — persiste `BrandWorkspace` en `db.json`. Registra `BrandWorkspaceConfigured` en `auditLogs` con userId y timestamp. Retorna 409 si nombre duplicado. | 2h | Frontend | To-Do |
-| US12 | Actualizar configuración de monitoreo de una marca | 3 | T18 | Implementar pantalla de edición de `BrandWorkspace` con previsualización de cambios | Formulario precargado con configuración actual. Mostrar diferencia entre configuración anterior y nueva antes de confirmar. Al guardar, emitir `MonitoringPerimeterUpdated`. Bloquear si nombre obligatorio vacío. | 3h | Frontend | To-Do |
-| US12 | Actualizar configuración de monitoreo de una marca | 3 | T19 | Conectar edición a fake API y emitir `MonitoringPerimeterUpdated` | `PUT /api/v1/brands/{id}` — actualiza `BrandWorkspace` en `db.json` y registra `MonitoringPerimeterUpdated` en `auditLogs` con versión anterior para trazabilidad. | 2h | Frontend | To-Do |
-| US13 | Desactivar marca para suspender monitoreo sin perder evidencia | 2 | T20 | Implementar desactivación de `BrandWorkspace` con guard de rol ADMIN | Opción de desactivación visible únicamente para rol `ADMIN`. Modal de confirmación con advertencia de impacto. Bloquear si el claim de ADMIN no está presente en el JWT simulado. | 2h | Frontend | To-Do |
-| US13 | Desactivar marca para suspender monitoreo sin perder evidencia | 2 | T21 | Conectar desactivación a fake API conservando historial y emitir `BrandDeactivated` | `PATCH /api/v1/brands/{id}/deactivate` — transiciona `BrandWorkspace` a `INACTIVO` conservando historial íntegro de menciones e incidentes. Registra `BrandDeactivated` en `auditLogs` con userId y timestamp. | 2h | Frontend | To-Do |
-| US14 | Definir reglas de monitoreo para detectar menciones sensibles | 5 | T22 | Implementar gestión de `MonitoringRule` con control de versiones visual | Componente para agregar, editar y eliminar keywords por marca. Rechazar duplicados. Al eliminar la última keyword activa, mostrar advertencia y transitar workspace a `SIN_CONFIGURACIÓN`. Mostrar versión activa de las reglas. | 3h | Frontend | To-Do |
-| US14 | Definir reglas de monitoreo para detectar menciones sensibles | 5 | T23 | Conectar `MonitoringRule` a fake API y emitir `MonitoringRuleUpdated` | `PUT /api/v1/brands/{id}/keywords` — actualiza `MonitoringRule` en `db.json`, registra versión anterior para trazabilidad y emite `MonitoringRuleUpdated` en `auditLogs`. | 2h | Frontend | To-Do |
-| US15 | Centralizar canales digitales para reducir monitoreo manual | 8 | T24 | Implementar pantalla de conexión de fuentes con estados de cobertura diferenciados | Pantalla con plataformas disponibles (Twitter/X, Instagram, Google Reviews — simuladas). Estados visuales diferenciados: `CONECTADA` (verde), `DESCONECTADA` (gris), `ERROR` (rojo), `CRÍTICA` (naranja). Mostrar fecha de última sincronización por fuente. | 4h | Frontend | To-Do |
-| US15 | Centralizar canales digitales para reducir monitoreo manual | 8 | T25 | Conectar fuentes a fake API y emitir `MonitoringSourceFailed` ante errores | `POST /api/v1/brands/{id}/sources` — simula validación de credenciales. Persiste fuente en estado `CONECTADA` o `DESCONECTADA`. Falla de fuente activa transita a `ERROR` y registra `MonitoringSourceFailed` en `auditLogs`. | 2h | Frontend | To-Do |
-| US33 | Operar exclusivamente dentro del perímetro de marcas asignadas | 8 | T26 | Implementar `WorkspaceGuard` con validación de claims JWT en cada ruta | `WorkspaceGuard` verifica que el `workspaceId` en la ruta esté en los claims del JWT simulado antes de activar cualquier componente del BC. Acceso no autorizado redirige a pantalla 403 y bloquea operaciones pendientes. | 3h | Frontend | To-Do |
-| US33 | Operar exclusivamente dentro del perímetro de marcas asignadas | 8 | T27 | Implementar pantalla 403 y registrar `UnauthorizedAccessAttempted` en fake API | Pantalla de acceso denegado con mensaje claro y opción de volver al workspace asignado. `POST /api/v1/audit` registra `UnauthorizedAccessAttempted` con userId, workspaceId intentado y timestamp. | 2h | Frontend | To-Do |
-| US16 | Activar monitoreo para capturar señales reputacionales | 5 | T28 | Implementar pantalla de activación de `MentionStream` con validación de prerrequisitos | Botón de activación habilitado solo si `BrandWorkspace` tiene al menos una `MonitoringRule` activa y una fuente `CONECTADA`. Al activar, transicionar workspace a `MONITOREO_ACTIVO` y registrar timestamp de inicio para trazabilidad. | 3h | Frontend | To-Do |
-| US16 | Activar monitoreo para capturar señales reputacionales | 5 | T29 | Conectar activación a fake API y emitir `BrandMonitoringActivated` | `POST /api/v1/brands/{id}/monitoring/start` — activa el `MentionStream` en `db.json`. Registra `BrandMonitoringActivated` en `auditLogs` con timestamp. Retorna 400 si configuración incompleta con mensaje que indica qué falta. | 2h | Frontend | To-Do |
-| US17 | Identificar menciones negativas recurrentes para priorizar respuesta | 5 | T30 | Implementar listado paginado de menciones con clasificación por recurrencia | Vista con listado paginado de menciones del `MentionStream`. Cada mención muestra fuente, fecha, texto, categoría de sentimiento y frecuencia de recurrencia. Ordenar por criticidad y fecha. Mostrar aviso si alguna fuente presenta fallo. | 4h | Frontend | To-Do |
-| US17 | Identificar menciones negativas recurrentes para priorizar respuesta | 5 | T31 | Conectar listado de menciones a fake API con paginación y estado de fuentes | `GET /api/v1/brands/{id}/mentions?page={n}&size={n}` — retorna menciones paginadas con `totalElements` y `totalPages`. Si una fuente tiene estado `ERROR`, incluir aviso en la respuesta sin interrumpir el listado de las demás fuentes. | 2h | Frontend | To-Do |
-| US18 | Filtrar menciones para encontrar incidentes relevantes | 5 | T32 | Implementar panel de filtros con reinicio de paginación | Panel de filtros por fecha, fuente y categoría de sentimiento (`MentionCategory`). Al aplicar filtros, reiniciar paginación a primera página. Botón "Limpiar filtros" restaura listado completo. Mostrar conteo de resultados filtrados. | 3h | Frontend | To-Do |
-| US18 | Filtrar menciones para encontrar incidentes relevantes | 5 | T33 | Conectar filtros a fake API con query params | `GET /api/v1/brands/{id}/mentions?sentimentType={val}&source={val}&from={date}&to={date}` — retorna menciones filtradas. Si no hay resultados, retornar 200 con arreglo vacío e indicar que no hay coincidencias para esos criterios. | 2h | Frontend | To-Do |
-| US19 | Detectar fuentes recurrentes de comentarios negativos | 8 | T34 | Implementar vista de análisis de fuentes con ranking por volumen negativo | Vista con ranking de fuentes por volumen de menciones negativas. Destacar visualmente fuentes que superen umbral de criticidad. Mostrar tendencia temporal por fuente. Indicar fuentes con menos de 5 menciones como "datos insuficientes". | 4h | Frontend | To-Do |
-| US19 | Detectar fuentes recurrentes de comentarios negativos | 8 | T35 | Conectar análisis de fuentes a fake API | `GET /api/v1/brands/{id}/mentions/sources/analysis` — retorna ranking de fuentes con volumen negativo, tendencia y estado de criticidad. Fuentes con estado `ERROR` aparecen con advertencia independientemente del ranking. | 2h | Frontend | To-Do |
-| US20 | Detectar deterioro reputacional antes de afectar campañas | 5 | T36 | Implementar vista de análisis de `SentimentScore` con indicador de riesgo | Vista con distribución porcentual positivo/negativo/neutro, `SentimentScore` global e indicador visual de nivel de riesgo reputacional (`BAJO`, `MEDIO`, `ALTO`, `CRÍTICO`). Mostrar indicador de procesamiento si el análisis está en curso. | 4h | Frontend | To-Do |
-| US20 | Detectar deterioro reputacional antes de afectar campañas | 5 | T37 | Conectar análisis de sentimiento a fake API | `GET /api/v1/brands/{id}/sentiment?from={date}&to={date}` — retorna distribución porcentual, `SentimentScore` y nivel de riesgo (`ReputationIndex`). Si hay menos de 5 menciones, retornar estado `DATOS_INSUFICIENTES` con mensaje explicativo. | 2h | Frontend | To-Do |
-| US21 | Priorizar menciones que requieren atención inmediata | 3 | T38 | Implementar filtro de menciones por `SentimentType` con orden por criticidad | Selector de categoría de sentimiento (`VERY_POSITIVE`, `POSITIVE`, `NEUTRAL`, `NEGATIVE`, `VERY_NEGATIVE`). Al seleccionar `NEGATIVE` o `VERY_NEGATIVE`, ordenar menciones por frecuencia de recurrencia primero y luego por fecha. Cambio de categoría actualiza listado sin recargar. | 3h | Frontend | To-Do |
-| US21 | Priorizar menciones que requieren atención inmediata | 3 | T39 | Conectar filtro de sentimiento a fake API | `GET /api/v1/brands/{id}/mentions?sentimentType={val}` — retorna menciones de la categoría seleccionada ordenadas por criticidad. Si la categoría no tiene menciones retornar 200 con arreglo vacío y estado `SIN_INCIDENTES_EN_CATEGORÍA`. | 2h | Frontend | To-Do |
-| US22 | Evaluar impacto de acciones estratégicas en percepción de marca | 8 | T40 | Implementar gráfico de tendencia de `SentimentScore` con comparación de períodos | Gráfico de línea con evolución del `SentimentScore` en los últimos 30 días por defecto. Selector de rango personalizado. Modo comparación: dos curvas diferenciadas por color con variación porcentual entre períodos. Destacar eventos de `SentimentTrendChanged`. | 5h | Frontend | To-Do |
-| US22 | Evaluar impacto de acciones estratégicas en percepción de marca | 8 | T41 | Conectar tendencia de sentimiento a fake API con serie temporal | `GET /api/v1/brands/{id}/sentiment/trend?from={date}&to={date}&groupBy={day|week}` — retorna serie temporal de `SentimentScore`. Para comparación: aceptar dos rangos como params. Retornar variación porcentual calculada entre períodos. | 2h | Frontend | To-Do |
-| US23 | Detectar picos anómalos para activar protocolos preventivos | 8 | T42 | Implementar panel de `CrisisAlert` con badge de alertas activas no revisadas | Panel de alertas con tipo, severidad (`SeverityLevel`), mención asociada, estado (`ACTIVA`/`ATENDIDA`) y timestamp. Badge en la navegación con contador de alertas activas no revisadas. Alerta de severidad `CRÍTICA` destacada visualmente con prioridad sobre las demás. | 4h | Frontend | To-Do |
-| US23 | Detectar picos anómalos para activar protocolos preventivos | 8 | T43 | Conectar panel de alertas a fake API con polling de nuevas alertas | `GET /api/v1/brands/{id}/alerts` — retorna listado de `CrisisAlert` ordenado por `AlertPriority` descendente. Implementar polling cada 30 segundos para detectar nuevas alertas `CRÍTICA` sin requerir recarga manual. | 3h | Frontend | To-Do |
-| US24 | Configurar umbrales de escalamiento por cliente | 5 | T44 | Implementar formulario de configuración de `AlertThreshold` por marca | Formulario de configuración de umbrales: métrica evaluada, operador de comparación y valor límite. Formulario precargado con configuración actual. Validar que exista al menos un umbral activo antes de guardar. | 3h | Frontend | To-Do |
-| US24 | Configurar umbrales de escalamiento por cliente | 5 | T45 | Conectar configuración de `AlertThreshold` a fake API | `PUT /api/v1/brands/{id}/alerts/config` — persiste configuración de umbrales de `MonitoringRule`. Registra `MonitoringRuleTriggered` en `auditLogs` si el umbral cambia mientras hay un incidente activo. | 2h | Frontend | To-Do |
-| US25 | Priorizar incidentes según severidad para gestión simultánea | 5 | T46 | Implementar cola de `ReputationIncident` priorizada por severidad e impacto | Vista de incidentes activos ordenados por `SeverityLevel` (`CRÍTICO` → `ALTO` → `MEDIO` → `BAJO`) con indicador de impacto potencial por marca. Destacar incidentes sin responsable asignado. Filtro por severidad. Indicar tiempo transcurrido desde detección. | 4h | Frontend | To-Do |
-| US25 | Priorizar incidentes según severidad para gestión simultánea | 5 | T47 | Conectar cola de incidentes a fake API con filtro por severidad | `GET /api/v1/brands/{id}/incidents?severity={val}&status={val}` — retorna `ReputationIncident` ordenados por severidad. Incidentes con `status=DETECTED` y sin `assignedTo` retornan destacados en la respuesta. | 2h | Frontend | To-Do |
-| US26 | Registrar respuesta a incidente para mantener trazabilidad | 5 | T48 | Implementar vista de detalle de `ReputationIncident` con historial de acciones | Vista de detalle con contenido de la mención, estado del incidente, nivel de severidad, historial completo de respuestas (responsable + timestamp) y campo para registrar nueva respuesta. Mostrar quién hizo `acknowledge()` y cuándo. | 4h | Frontend | To-Do |
-| US26 | Registrar respuesta a incidente para mantener trazabilidad | 5 | T49 | Conectar respuesta a `ReputationIncident` y emitir `AlertAcknowledged` | `PATCH /api/v1/incidents/{id}/respond` — persiste respuesta con userId, contenido y timestamp. Transiciona incidente a `IN_RESPONSE`. Registra `AlertAcknowledged` en `auditLogs`. Retorna 400 si el campo de respuesta está vacío. | 2h | Frontend | To-Do |
-| US27 | Detectar tendencias negativas para ejecutar acciones correctivas | 8 | T50 | Implementar dashboard con `ReputationIndex` y señales de riesgo destacadas | Dashboard con widgets: volumen de menciones, distribución de `SentimentScore`, alertas activas por `AlertPriority`, `ReputationIndex` con variación respecto al período anterior e indicador de tendencia. Destacar visualmente señales de riesgo `ALTO` o `CRÍTICO`. Botón de actualización manual sin recargar la página. | 5h | Frontend | To-Do |
-| US27 | Detectar tendencias negativas para ejecutar acciones correctivas | 8 | T51 | Conectar dashboard a fake API en una sola llamada consolidada | `GET /api/v1/brands/{id}/dashboard` — retorna todos los indicadores del `BrandWorkspace` en una sola respuesta: volumen, sentimiento, alertas activas, `ReputationIndex` y variación porcentual. Campos numéricos en cero si la marca no tiene menciones aún. | 2h | Frontend | To-Do |
-| US28 | Evaluar impacto de campañas con reportes reputacionales | 8 | T52 | Implementar generador de `ReputationReport` con selector de período | Selector de rango de fechas con validación de que existan datos en el período. Al generar, mostrar progreso y habilitar descarga al completar. Incluir métricas: variaciones de sentimiento, volumen de menciones, incidentes del período y `ReputationIndex`. | 4h | Frontend | To-Do |
-| US28 | Evaluar impacto de campañas con reportes reputacionales | 8 | T53 | Conectar generación de `ReputationReport` a fake API y emitir `ReputationReportGenerated` | `POST /api/v1/brands/{id}/reports` — genera y persiste `ReputationReport` en `db.json`. Registra `ReputationReportGenerated` en `auditLogs`. Retorna 404 si el período no tiene menciones. | 2h | Frontend | To-Do |
-| US29 | Acceder a historial de evidencia reputacional | 3 | T54 | Implementar historial de `ReputationReport` con acceso a evidencia previa | Lista de reportes generados con fecha, período cubierto y botones de descarga y eliminación. Estado vacío con acceso directo al generador. Confirmación antes de eliminar con advertencia de que la evidencia no se puede recuperar. | 3h | Frontend | To-Do |
-| US29 | Acceder a historial de evidencia reputacional | 3 | T55 | Conectar historial de reportes a fake API | `GET /api/v1/brands/{id}/reports` — retorna listado. `DELETE /api/v1/reports/{id}` — elimina reporte conservando los incidentes asociados. Registra `ReportDeleted` en `auditLogs`. | 2h | Frontend | To-Do |
-| US30 | Compartir evidencia reputacional con clientes o equipo | 5 | T56 | Implementar exportación de `ReputationReport` en PDF y CSV | Botones de exportación habilitados solo cuando el reporte está en estado `GENERADO`. Al exportar PDF: descarga archivo con formato profesional. Al exportar CSV: descarga datos tabulados para análisis adicional. Botones deshabilitados con aviso si el reporte aún está generándose. | 3h | Frontend | To-Do |
-| US30 | Compartir evidencia reputacional con clientes o equipo | 5 | T57 | Conectar exportación a fake API con Content-Type diferenciado | `GET /api/v1/reports/{id}/export?format={pdf\|csv}` — retorna 200 con archivo en `Content-Type` correspondiente. Retorna 400 si el formato no es `pdf` o `csv`. Registra `ReportExported` en `auditLogs` con formato solicitado. | 2h | Frontend | To-Do |
-| US31 | Comparar períodos para evaluar evolución de estrategias | 8 | T58 | Implementar comparador de períodos con variación destacada | Dos selectores de rango independientes. Validar que los períodos sean distintos antes de habilitar "Comparar". Resultado muestra cuadro comparativo con variaciones en menciones, `SentimentScore`, alertas y `ReputationIndex`. Destacar variaciones significativas (> 20%) con indicador visual. | 4h | Frontend | To-Do |
-| US31 | Comparar períodos para evaluar evolución de estrategias | 8 | T59 | Conectar comparador a fake API y emitir `ComparativeAnalysisCompleted` | `GET /api/v1/brands/{id}/reports/compare?period1From={date}&period1To={date}&period2From={date}&period2To={date}` — retorna métricas de ambos períodos con variación calculada. Registra `ComparativeAnalysisCompleted` en `auditLogs`. | 2h | Frontend | To-Do |
-| US32 | Detectar patrones coordinados de comentarios sospechosos | 8 | T60 | Implementar vista de análisis de patrones sospechosos con detalle de correlaciones | Vista que muestra patrones detectados con origen de menciones, frecuencia, similitud semántica y nivel de sospecha. Botón para descartar falso positivo con confirmación. Al descartar, el sistema registra la decisión para calibración futura. | 4h | Frontend | To-Do |
-| US32 | Detectar patrones coordinados de comentarios sospechosos | 8 | T61 | Conectar detección de patrones a fake API y emitir `SuspiciousPatternDetected` | `GET /api/v1/brands/{id}/mentions/patterns` — retorna patrones detectados con métricas de correlación. `PATCH /api/v1/mentions/patterns/{id}/dismiss` — descarta patrón como falso positivo y registra `PatternDismissed` en `auditLogs` con userId y justificación. | 2h | Frontend | To-Do |
-| — | QA Sprint 2 | — | T62 | Pruebas del flujo de onboarding y acceso seguro | Pruebas manuales del flujo completo: registro → verificación → login → workspace. Verificar estados de dominio (`PENDIENTE_VERIFICACIÓN` → `ACTIVA` → `BLOQUEADA`) reflejados en fake API y UI. Verificar que `WorkspaceGuard` bloquee accesos no autorizados correctamente. | 3h | QA / Equipo | To-Do |
-| — | QA Sprint 2 | — | T63 | Pruebas del flujo de configuración de marca y monitoreo | Pruebas de `BrandWorkspace`: crear → configurar keywords → conectar fuentes → activar monitoreo. Verificar que el sistema bloquee activación sin configuración mínima. Verificar que `BrandDeactivated` conserve el historial íntegro en `db.json`. | 3h | QA / Equipo | To-Do |
-| — | QA Sprint 2 | — | T64 | Pruebas del flujo de detección de menciones y sentimiento | Pruebas del listado paginado de menciones con filtros. Verificar que categorías de sentimiento retornen correctamente. Verificar que el gráfico de tendencia muestre los eventos `SentimentTrendChanged` en la línea temporal. | 3h | QA / Equipo | To-Do |
-| — | QA Sprint 2 | — | T65 | Pruebas del flujo de gestión de crisis y reportes | Pruebas del panel de alertas: verificar polling de nuevas alertas `CRÍTICA`, priorización por `SeverityLevel`, trazabilidad de respuestas en `ReputationIncident`. Pruebas del dashboard consolidado y exportación de `ReputationReport` en PDF y CSV. | 3h | QA / Equipo | To-Do |
-| — | QA Sprint 2 | — | T66 | Verificar coherencia de `auditLogs` en todos los flujos del sprint | Revisar que todos los Domain Events esperados estén registrados en `auditLogs` de la fake API: `AccountRegistered`, `AccountActivated`, `BrandWorkspaceConfigured`, `MonitoringRuleUpdated`, `BrandMonitoringActivated`, `AlertAcknowledged`, `ReputationReportGenerated`, `UnauthorizedAccessAttempted`. | 2h | QA / Equipo | To-Do |
+| **US06** | Registrar cuenta verificada para proteger información reputacional sensible | 5 | T-01 | Pantalla de Registro con validación de dominio y emisión de `AccountRegistered` | Formulario de registro (nombre, email, contraseña, plan) conectado a TS01. Valida invariantes del dominio en frontend: email único, contraseña segura, plan válido. Emite Domain Event `AccountRegistered` al confirmar y redirige a verificación. | 3h | Brianna | To Do |
+| **US06** | Registrar cuenta verificada para proteger información reputacional sensible | | T-02 | `SharedModule` – componentes atómicos reutilizables para todo el sprint | Módulo compartido con `InputField`, `PrimaryButton`, `AlertBanner`, `LoadingSpinner`, `StatusBadge`. Base de diseño consistente para todas las pantallas del sprint. Incluye manejo de estados de error alineado con respuestas de dominio. | 2h | Brianna | To Do |
+| **US07** | Verificar correo para que la cuenta transite a `ACTIVA` y habilite el workspace | 3 | T-03 | Pantalla de Verificación de Email: transiciona `UserAccount` a `ACTIVA` emitiendo `AccountActivated` | Pantalla accedida por token en URL. Llama a TS03, muestra confirmación de activación y redirige al workspace. Maneja casos de token expirado (reenvío) y ya verificado. El estado `ACTIVA` habilita acceso al `BrandWorkspace`. | 2h | Brianna | To Do |
+| **US08** | Iniciar sesión para acceder exclusivamente a las marcas asignadas | 3 | T-04 | Pantalla de Login con bloqueo por intentos fallidos y JWT asociado a `BrandWorkspace` asignados | Formulario de login conectado a TS02. Diferencia errores por credenciales inválidas vs cuenta bloqueada vs no verificada. Almacena JWT en `AuthService` (en memoria). Solo habilita acceso a los `BrandWorkspace` asignados al usuario autenticado. | 3h | Brianna | To Do |
+| **US09** | Recuperar acceso mediante flujo seguro sin comprometer la confidencialidad reputacional | 3 | T-05 | Pantalla de Recuperar Contraseña: solicita email y emite `PasswordRecoveryRequested` | Captura email y llama al flujo de recuperación (TS04). Emite `PasswordRecoveryRequested`. Respuesta genérica que no revela si el email existe en el sistema, protegiendo enumeración de cuentas. | 2h | Jean Franco | To Do |
+| **US09** | Recuperar acceso mediante flujo seguro sin comprometer la confidencialidad reputacional | | T-06 | Pantalla de Nueva Contraseña: completa `PasswordReset` e invalida sesiones activas | Pantalla accedida por token en URL. Valida requisitos del dominio para contraseña. Llama a TS04 completando `PasswordReset` e invalidando todas las sesiones activas del usuario para evitar acceso no autorizado posterior. | 2h | Jean Franco | To Do |
+| **US11** | Configurar `BrandWorkspace` con palabras clave y fuentes para activar motor de detección | 5 | T-07 | Pantalla de Selección de `BrandWorkspace`: aísla reputación por cliente y activa contexto operacional | Lista los `BrandWorkspace` asignados al usuario autenticado. Permite seleccionar el workspace activo, aislando métricas y menciones por cliente. Conecta con TS06 y persiste estado en `WorkspaceStateService`. Previene análisis cruzados incorrectos entre clientes. | 3h | Jean Franco | To Do |
+| **US27** | Detectar tendencias negativas del `SentimentScore` para ejecutar acciones correctivas rápidamente | 8 | T-08 | Pantalla de Dashboard reputacional: expone indicadores de decisión del `BrandWorkspace` activo | Consume endpoint de métricas consolidadas (TS15). Muestra `SentimentScore` actual, tendencia, menciones recientes del `MentionStream`, `ReputationIncident` activos por `SeverityLevel` y alertas pendientes. Orientado a decisión operacional, no solo visualización de métricas. | 4h | Jean Franco | To Do |
+| **US33** | Operar exclusivamente dentro del perímetro de `BrandWorkspace` asignados para garantizar confidencialidad | 8 | T-09 | Pantalla 403 – Acceso no autorizado al `BrandWorkspace`: registra intento como evento de auditoría | Se activa cuando el `WorkspaceGuard` (T-14) rechaza acceso a un `BrandWorkspace` no asignado al usuario. Muestra mensaje claro, registra el intento no autorizado como evento de auditoría (TS16) y orienta al usuario hacia sus workspaces legítimos. | 2h | Joaquin | To Do |
+| **US11** | Configurar `BrandWorkspace` con palabras clave y fuentes para activar motor de detección | 5 | T-10 | Pantalla de Gestión de Marcas: crear, editar y desactivar `BrandWorkspace` con trazabilidad | CRUD de marcas conectado a TS06 y TS07. Formulario de configuración: nombre, `KeywordRule`, `MonitoringChannel`. La desactivación conserva historial emitiendo `WorkspaceDeactivated`. Cada cambio de configuración emite `MonitoringRuleUpdated` para trazabilidad. | 5h | Joaquin | To Do |
+| **US23** | Detectar picos anómalos en `MentionStream` para crear `ReputationIncident` antes de que una crisis escale | 8 | T-11 | Pantalla de Incidentes Reputacionales: prioriza `ReputationIncident` por `SeverityLevel` y registra respuesta | Lista de `ReputationIncident` filtrable por `SeverityLevel`, `IncidentStatus` y fecha. Permite registrar respuesta emitiendo `AlertAcknowledged` con responsable y timestamp. Conecta con TS11 y TS12. Diseñada para gestión simultánea de múltiples clientes. | 5h | Joaquin | To Do |
+| **US17** | Identificar menciones negativas recurrentes en `MentionStream` para priorizar respuesta operacional | 5 | T-12 | Pantalla de Menciones: filtra `MentionStream` por `SentimentType`, `MentionSource` y fecha para identificar riesgo reputacional | Vista paginada del `MentionStream` del workspace activo. Filtros por `SentimentType`, `MentionCategory`, `MentionSource` y rango de fechas. Conecta con TS09. Identifica fuentes recurrentes de riesgo para priorizar acciones correctivas. | 4h | Joaquin | To Do |
+| **TS02** | Endpoint de login: valida credenciales, emite JWT y bloquea por intentos fallidos | 5 | T-13 | HTTP Interceptor: inyecta JWT automáticamente en cada request autenticado | Interceptor que adjunta el Bearer token JWT en el header `Authorization` de cada llamada. Detecta respuesta 401 (token expirado) y redirige a login limpiando el contexto de sesión. Transparente para todos los componentes del sprint. | 3h | Victor | To Do |
+| **TS16** | Middleware de autorización contextual por `BrandWorkspace` con auditoría de accesos no autorizados | 5 | T-14 | `WorkspaceGuard`: protege rutas del workspace activo y registra accesos no autorizados como eventos de auditoría | Guard de ruta Angular que valida antes de activar cada pantalla que el usuario autenticado tiene acceso al `BrandWorkspace` solicitado (llamando a TS16). Acceso no autorizado → redirige a pantalla 403 (T-09) y emite evento de auditoría. | 3h | Victor | To Do |
+| **US10** | Cerrar sesión para invalidar contexto de workspace en dispositivos compartidos | 2 | T-15 | Logout con timeout por inactividad e invalidación del contexto de `BrandWorkspace` | Flujo de cierre de sesión que limpia el JWT del `AuthService`, invalida el `WorkspaceStateService` y redirige al login. Incluye timeout automático configurable por inactividad para proteger datos reputacionales en dispositivos compartidos. | 2h | Victor | To Do |
+| **TS01–TS16** | Infraestructura de desarrollo, fake API y QA del sprint | — | T-16 | Fake API con `json-server`: simula endpoints TS01–TS16 con datos semilla realistas de dominio | Levantar `json-server` con rutas que simulan los endpoints del sprint: registro, login, verificación, recuperación de contraseña, workspaces, reglas de monitoreo, menciones, incidentes y métricas de dashboard. Datos semilla reflejan entidades DDD: `BrandWorkspace`, `ReputationIncident`, `MentionStream`, `SentimentScore`. | 4h | Luis | To Do |
+| — |  — |  — | T-17 | `WorkspaceStateService`: gestiona el `BrandWorkspace` activo en sesión con observables reactivos | Servicio centralizado que almacena el `BrandWorkspace` activo en memoria de sesión. Expone observables para que componentes reaccionen a cambio de workspace. Se limpia completamente en logout para evitar filtración de contexto entre sesiones. | 3h | Luis | To Do |
+| — |  — |  — | T-18 | QA: flujo completo de autenticación, autorización contextual y acceso reputacional | Pruebas de integración cubriendo el flujo completo: registro → `AccountRegistered` → verificación → `AccountActivated` → login → selección de `BrandWorkspace` → dashboard → acceso a incidentes → logout. Valida bloqueo 403, `WorkspaceGuard`, timeout y aislamiento de contexto entre clientes. | 4h | Luis | To Do |
  
 <br>
 
@@ -3757,9 +3723,123 @@ A continuación se presenta el Sprint Planning para esta segunda entrega, donde 
 
 <br>
 
+Durante el Sprint 2, el equipo se enfocó en la construcción de la arquitectura frontend de BrandRadar utilizando Angular y TypeScript bajo una estructura modular orientada a Domain-Driven Design (DDD). El objetivo principal del sprint fue implementar los flujos de autenticación, autorización contextual y gestión de workspaces reputacionales, permitiendo que cada usuario opere únicamente dentro de los espacios asignados.
+
+Se desarrollaron pantallas clave como Registro, Login, Verificación de Correo, Recuperación de Contraseña, Gestión de BrandWorkspace, Dashboard Reputacional e Incidentes, integradas mediante servicios, guards e interceptors reutilizables. Asimismo, se incorporó una Fake API con `json-server` para simular los endpoints del dominio y permitir pruebas funcionales sin depender todavía de un backend definitivo.
+
+El equipo adoptó Angular standalone architecture, Reactive Forms y un enfoque basado en componentes reutilizables mediante un `SharedModule`, permitiendo mantener consistencia visual y acelerar el desarrollo colaborativo. Además, se implementó control de acceso contextual usando `WorkspaceGuard` y JWT para proteger la información reputacional de cada cliente.
+
+El desarrollo se realizó en el repositorio público de frontend utilizando GitFlow y ramas `feature/`, permitiendo que cada integrante trabajara de manera independiente antes de integrar sus avances en la rama `develop` para pruebas de integración y revisión del sprint.
+
+<br>
+
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on (Date) |
+|:---|:---|:---|:---|:---|:---|
+| Los-5-Suyos/BrandRadar-Frontend-Web-App | main | pending | `initial frontend setup` | Configuración inicial del proyecto Angular, instalación de Angular Material y estructura DDD base | 2026-05-02 |
+| Los-5-Suyos/BrandRadar-Frontend-Web-App | develop | pending | `feat: shared architecture setup` | Creación de módulos compartidos, routing principal y estructura base de servicios y guards | 2026-05-03 |
+| Los-5-Suyos/BrandRadar-Frontend-Web-App | feature/sprint2-brianna | pending | `feat: authentication flows implementation` | Desarrollo de pantallas de registro, login, verificación de correo y componentes reutilizables del sprint | 2026-05-06 |
+| Los-5-Suyos/BrandRadar-Frontend-Web-App | feature/sprint2-victor | pending | `feat: guards and interceptor setup` | Implementación de JWT Interceptor, WorkspaceGuard y flujo de logout seguro | 2026-05-07 |
+| Los-5-Suyos/BrandRadar-Frontend-Web-App | feature/sprint2-jean | pending | `feat: workspace and recovery flows` | Desarrollo de recuperación de contraseña, selección de BrandWorkspace y dashboard reputacional | 2026-05-08 |
+| Los-5-Suyos/BrandRadar-Frontend-Web-App | feature/sprint2-joaquin | pending | `feat: incidents and mentions management` | Implementación de gestión de incidentes reputacionales, menciones y pantalla 403 | 2026-05-09 |
+| Los-5-Suyos/BrandRadar-Frontend-Web-App | feature/sprint2-luis | pending | `feat: fake api and workspace state service` | Configuración de json-server, datos semilla y WorkspaceStateService reactivo | 2026-05-09 |
+| Los-5-Suyos/BrandRadar-Frontend-Web-App | develop | pending | `merge: sprint 2 integration` | Integración completa de funcionalidades del Sprint 2 y validación de flujos de autenticación contextual | 2026-05-10 |
+
+<br>
+
 ---
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
+
+<br>
+
+Durante el Sprint 2 se implementó la primera versión funcional del sistema web de BrandRadar, enfocada en los flujos de autenticación, autorización contextual y gestión de workspaces reputacionales. El equipo desarrolló una arquitectura frontend modular utilizando Angular y TypeScript, incorporando guards, interceptors y servicios reactivos para garantizar el aislamiento seguro de información entre clientes.
+
+El sprint permitió consolidar las bases funcionales del producto mediante la integración de formularios reactivos, validaciones de dominio, manejo de JWT y navegación protegida por contexto de `BrandWorkspace`. Asimismo, se incorporó una Fake API usando `json-server`, permitiendo validar los flujos del sistema sin depender aún de un backend productivo.
+
+El desarrollo se validó mediante:
+
+- **Autenticación segura:** Registro de usuarios, login con JWT, recuperación de contraseña y verificación de correo electrónico.
+
+- **Autorización contextual:** Implementación de `WorkspaceGuard` y control de acceso exclusivo a los `BrandWorkspace` asignados.
+
+- **Arquitectura reutilizable:** Creación de componentes compartidos (`SharedModule`) y servicios reactivos para mantener consistencia y escalabilidad.
+
+- **Gestión reputacional:** Visualización de dashboard reputacional, incidentes, menciones y métricas asociadas al workspace activo.
+
+- **Infraestructura de pruebas:** Simulación de endpoints mediante `json-server` y validación integral de flujos funcionales del sprint.
+
+<br>
+
+A continuación se muestran las capturas de las vistas desarrolladas
+
+<br>
+
+**US06 Evidence – Registro de Cuenta**
+<br>
+
+![Execution Evidence 1](brandradar-report/assets/sprints/sprint-2/sprint2-execution-1.png)
+
+<br>
+
+**US07 Evidence – Verificación de Correo**
+<br>
+
+![Execution Evidence 2](brandradar-report/assets/sprints/sprint-2/sprint2-execution-2.png)
+
+<br>
+
+**US08 Evidence – Inicio de Sesión**
+<br>
+
+![Execution Evidence 3](brandradar-report/assets/sprints/sprint-2/sprint2-execution-3.png)
+
+<br>
+
+**US09 Evidence – Recuperación de Contraseña**
+<br>
+
+![Execution Evidence 4](brandradar-report/assets/sprints/sprint-2/sprint2-execution-4.png)
+
+<br>
+
+**US11 Evidence – Selección y Gestión de BrandWorkspace**
+<br>
+
+![Execution Evidence 5](brandradar-report/assets/sprints/sprint-2/sprint2-execution-5.png)
+
+<br>
+
+**US17 Evidence – Gestión de MentionStream**
+<br>
+
+![Execution Evidence 6](brandradar-report/assets/sprints/sprint-2/sprint2-execution-6.png)
+
+<br>
+
+**US23 Evidence – Gestión de ReputationIncident**
+<br>
+
+![Execution Evidence 7](brandradar-report/assets/sprints/sprint-2/sprint2-execution-7.png)
+
+<br>
+
+**US27 Evidence – Dashboard Reputacional**
+<br>
+
+![Execution Evidence 8](brandradar-report/assets/sprints/sprint-2/sprint2-execution-8.png)
+
+<br>
+
+**US33 Evidence – Pantalla 403 y WorkspaceGuard**
+<br>
+
+![Execution Evidence 9](brandradar-report/assets/sprints/sprint-2/sprint2-execution-9.png)
+
+<br>
+
+Asimismo, se elaboró un video demostrativo que muestra la ejecución de los flujos implementados durante el Sprint 2, incluyendo autenticación, autorización contextual, selección de workspaces y navegación del dashboard reputacional:
+
+[Ver video de ejecución Sprint 2](https://example.com/sprint2-demo-video)
 
 <br>
 
@@ -3769,9 +3849,85 @@ A continuación se presenta el Sprint Planning para esta segunda entrega, donde 
 
 <br>
 
+Durante el Sprint 2, el equipo implementó la primera aproximación funcional de los servicios requeridos por BrandRadar mediante el uso de una Fake API construida con `json-server`. Esta infraestructura permitió simular el comportamiento de los endpoints definidos en el modelo de dominio, facilitando el desarrollo paralelo entre frontend y backend sin depender todavía de servicios productivos reales.
+
+Los servicios simulados cubrieron los principales flujos del sprint, incluyendo autenticación, verificación de cuentas, recuperación de contraseña, gestión de `BrandWorkspace`, monitoreo reputacional e incidentes. Además, se definieron contratos preliminares de integración alineados con los bounded contexts y Domain Events del sistema.
+
+Entre los endpoints simulados implementados se encuentran:
+
+- `/auth/register`
+- `/auth/login`
+- `/auth/verify-email`
+- `/auth/recover-password`
+- `/workspaces`
+- `/mentions`
+- `/incidents`
+- `/dashboard/metrics`
+
+Asimismo, el equipo dejó preparada la base documental para futuras integraciones RESTful mediante OpenAPI/Swagger, permitiendo asegurar trazabilidad técnica y escalabilidad en los siguientes sprints.
+
+<br>
+
+**Evidencias**
+
+A continuación, se presentan capturas de la Fake API, rutas simuladas y pruebas funcionales realizadas durante el Sprint 2:
+
+![Services Evidence Sprint 2](brandradar-report/assets/sprints/sprint-2/services-1.png)
+
+![Services Evidence Sprint 2](brandradar-report/assets/sprints/sprint-2/services-2.png)
+
+![Services Evidence Sprint 2](brandradar-report/assets/sprints/sprint-2/services-3.png)
+
+![Services Evidence Sprint 2](brandradar-report/assets/sprints/sprint-2/services-4.png)
+
+<br>
+
 ---
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+<br>
+
+Durante el Sprint 2 se realizó el despliegue de la aplicación frontend de BrandRadar utilizando Vercel, integrado directamente con el repositorio del proyecto en GitHub. El despliegue permitió validar en un entorno cloud los flujos de autenticación, navegación protegida y gestión contextual de workspaces desarrollados durante el sprint.
+
+El proceso de despliegue fue automatizado mediante integración continua (CI/CD), asegurando que cada actualización en la rama principal generara automáticamente una nueva versión de la aplicación.
+
+<br>
+
+**Deployment Process**
+
+1. Ingresar a la plataforma Vercel utilizando la opción “Continue with GitHub”.
+2. Autorizar el acceso de Vercel a los repositorios del equipo.
+3. Seleccionar la opción “Add New Project”.
+4. Importar el repositorio `BrandRadar-Frontend-Web-App`.
+5. Configurar Angular como framework del proyecto.
+6. Configurar la rama principal (`main`) como rama de despliegue.
+7. Definir los parámetros de build (`npm install` y `ng build`).
+8. Ejecutar el despliegue mediante la opción “Deploy”.
+9. Esperar la generación automática del dominio público.
+10. Validar el correcto funcionamiento de la aplicación desplegada.
+
+<br>
+
+**URL pública:** [url](url)
+
+<br>
+
+**Evidencias**
+
+A continuación, se presentan capturas del proceso de despliegue y del resultado final de la aplicación:
+
+![Deployment Sprint 2](brandradar-report/assets/sprints/sprint-2/deployment-1.png)
+
+![Deployment Sprint 2](brandradar-report/assets/sprints/sprint-2/deployment-2.png)
+
+![Deployment Sprint 2](brandradar-report/assets/sprints/sprint-2/deployment-3.png)
+
+![Deployment Sprint 2](brandradar-report/assets/sprints/sprint-2/deployment-4.png)
+
+![Deployment Sprint 2](brandradar-report/assets/sprints/sprint-2/deployment-5.png)
+
+![Deployment Sprint 2](brandradar-report/assets/sprints/sprint-2/deployment-6.png)
 
 <br>
 
@@ -3781,41 +3937,67 @@ A continuación se presenta el Sprint Planning para esta segunda entrega, donde 
 
 <br>
 
----
+Durante el Sprint 2, el equipo continuó utilizando GitFlow como estrategia principal de colaboración y control de versiones. Cada integrante desarrolló funcionalidades específicas en ramas `feature/`, permitiendo trabajar de manera paralela sobre autenticación, guards, dashboard reputacional, gestión de incidentes y servicios compartidos sin afectar la estabilidad de la rama principal.
+
+La colaboración se fortaleció mediante integraciones frecuentes hacia `develop`, validando compatibilidad entre componentes Angular, servicios y rutas protegidas antes de consolidar el sprint completo.
+
+<br>
+
+## Métricas de colaboración:
+
+- **Commits:** Se registró actividad continua de los cinco integrantes durante todo el sprint, especialmente durante la integración de autenticación y dashboard.
+
+- **Trabajo modular:** La arquitectura basada en componentes reutilizables y servicios permitió dividir responsabilidades sin generar conflictos de integración.
+
+- **Integración continua:** Las ramas feature fueron fusionadas progresivamente en `develop`, permitiendo detectar errores tempranamente y validar el flujo completo del sistema.
+
+- **Colaboración técnica:** El equipo coordinó el uso de guards, interceptors y servicios compartidos para mantener consistencia arquitectónica en toda la aplicación Angular.
+
+<br>
+
+![Team Collaboration Sprint 2](brandradar-report/assets/sprints/sprint-2/sprint2-collaboration.png)
+
+![Team Collaboration Overtime Sprint 2](brandradar-report/assets/sprints/sprint-2/sprint2-over-time.png)
 
 <br>
 
 ## Conclusiones
 
 
-1. 
+1. El equipo logró desarrollar satisfactoriamente los objetivos planteados para el TB1, estableciendo tanto la segunda versión del Landing Page como la primera versión funcional del sistema web de BrandRadar.
 
-2. 
+2. La implementación de Angular, TypeScript y una arquitectura modular  desarrollado en WebStorm permitió construir una base sólida y escalable para el desarrollo futuro del proyecto.
 
-3. 
+3. La integración de flujos de autenticación, autorización contextual y gestión de BrandWorkspace permitió validar técnicamente el enfoque de seguridad y aislamiento de información reputacional entre clientes.
 
-4. 
+4. El uso de GitFlow, ramas feature y despliegues continuos facilitó el trabajo colaborativo, permitiendo que los integrantes desarrollaran funcionalidades en paralelo sin afectar la estabilidad del proyecto.
 
-5. 
+5. La utilización de json-server como un fake api y servicios simulados permitió validar el comportamiento funcional de la aplicación antes de contar con un backend definitivo.
 
+6. El trabajo en equipo y la correcta distribución de responsabilidades permitieron cumplir con los entregables planificados dentro del sprint.
  
 
 <br>
 
 ## Recomendaciones
 
-1. 
+1. Continuar fortaleciendo la arquitectura del proyecto mediante componentes reutilizables, servicios desacoplados y una mejor organización modular.
 
-2. 
+2. Implementar un backend real que permita reemplazar la Fake API y conectar los flujos actuales con persistencia de datos segura y escalable.
 
-3. 
+3. Incorporar documentación técnica formal de endpoints y servicios utilizando OpenAPI/Swagger para facilitar futuras integraciones.
 
-4. 
+4. Aumentar la cobertura de pruebas funcionales y de integración para validar flujos críticos relacionados con autenticación y autorización.
 
-5. 
+5. Mejorar progresivamente la experiencia de usuario mediante optimizaciones visuales, manejo centralizado de errores y mejoras de accesibilidad.
 
+6. Mantener el uso de integración continua y despliegues automatizados para asegurar estabilidad y rapidez en futuras entregas del proyecto.
+
+7. Implementar mecanismos de monitoreo y seguridad en el backend para proteger la información reputacional gestionada por la plataforma.
 
 <br>
+
+---
 
 ## Video About-The-Team
 
