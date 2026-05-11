@@ -9,7 +9,7 @@
 
 <br>
 
-#  Informe de Proyecto - Avance 1
+#  Informe de Proyecto - TB1
 
 ## Presentado por "Los 5 Suyos"
 
@@ -3927,7 +3927,7 @@ El proceso de despliegue fue automatizado mediante integración continua (CI/CD)
 
 <br>
 
-**URL pública:** [https://brandradar-frontend.vercel.app/](https://brandradar-frontend.vercel.app/)
+**URL pública:** [url](url)
 
 <br>
 
@@ -3982,31 +3982,36 @@ La colaboración se fortaleció mediante integraciones frecuentes hacia `develop
 ## Conclusiones
 
 
-1. 
+1. El equipo logró desarrollar satisfactoriamente los objetivos planteados para el TB1, estableciendo tanto la Landing Page inicial como la primera versión funcional del sistema web de BrandRadar.
 
-2. 
+2. La implementación de Angular, TypeScript y una arquitectura modular permitió construir una base sólida y escalable para el desarrollo futuro del proyecto.
 
-3. 
+3. La integración de flujos de autenticación, autorización contextual y gestión de BrandWorkspace permitió validar técnicamente el enfoque de seguridad y aislamiento de información reputacional entre clientes.
 
-4. 
+4. El uso de GitFlow, ramas feature y despliegues continuos facilitó el trabajo colaborativo, permitiendo que los integrantes desarrollaran funcionalidades en paralelo sin afectar la estabilidad del proyecto.
 
-5. 
+5. La utilización de json-server y servicios simulados permitió validar el comportamiento funcional de la aplicación antes de contar con un backend definitivo.
 
+6. El trabajo en equipo y la correcta distribución de responsabilidades permitieron cumplir con los entregables planificados dentro del sprint.
  
 
 <br>
 
 ## Recomendaciones
 
-1. 
+1. Continuar fortaleciendo la arquitectura del proyecto mediante componentes reutilizables, servicios desacoplados y una mejor organización modular.
 
-2. 
+2. Implementar un backend real que permita reemplazar la Fake API y conectar los flujos actuales con persistencia de datos segura y escalable.
 
-3. 
+3. Incorporar documentación técnica formal de endpoints y servicios utilizando OpenAPI/Swagger para facilitar futuras integraciones.
 
-4. 
+4. Aumentar la cobertura de pruebas funcionales y de integración para validar flujos críticos relacionados con autenticación y autorización.
 
-5. 
+5. Mejorar progresivamente la experiencia de usuario mediante optimizaciones visuales, manejo centralizado de errores y mejoras de accesibilidad.
+
+6. Mantener el uso de integración continua y despliegues automatizados para asegurar estabilidad y rapidez en futuras entregas del proyecto.
+
+7. Implementar mecanismos de monitoreo y seguridad en el backend para proteger la información reputacional gestionada por la plataforma.
 
 
 <br>
