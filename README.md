@@ -2702,7 +2702,7 @@ A continuación, se presentan los diagramas de componentes correspondientes a lo
 <br>
 <div align="center">
   
-**Bounded Context: `Account Manager`**
+**Bounded Context: `Identity Access Context`**
 
 ![Component Diagram BC1](brandradar-report/assets/domain-driven-design/architecture/components-diagram/account-components.png)
 
@@ -2714,7 +2714,7 @@ Administra la seguridad, la emisión de tokens JWT, el registro de usuarios y el
 <br>
 <div align="center">
   
-**Bounded Context: `Brand Management`**
+**Bounded Context: `Brand Workspace Context`**
 
 ![Component Diagram BC2](brandradar-report/assets/domain-driven-design/architecture/components-diagram/brand-components.png)
 
@@ -2726,7 +2726,7 @@ Permite la configuración del núcleo del negocio: la creación de marcas, la va
 <br>
 <div align="center">
 
-**Bounded Context: `Monitoring`**
+**Bounded Context: `Reputation Monitoring Context`**
 
 ![Component Diagram BC3](brandradar-report/assets/domain-driven-design/architecture/components-diagram/monitoring-components.png)
 
@@ -2738,7 +2738,7 @@ Encargado de orquestar los ciclos programados (Schedulers) para extraer datos de
 <br>
 <div align="center">
 
-**Bounded Context: `Sentiment Analysis`**
+**Bounded Context: `Sentiment Intelligence Context`**
 
 ![Component Diagram BC4](brandradar-report/assets/domain-driven-design/architecture/components-diagram/sentiment-components.png)
 
@@ -2751,7 +2751,7 @@ Integra el motor central de evaluación. Recibe eventos de nuevas menciones, int
 <br>
 <div align="center">
   
-**Bounded Context: `Alert Management`**
+**Bounded Context: `Crisis Detection Context`**
 
 ![Component Diagram BC5](brandradar-report/assets/domain-driven-design/architecture/components-diagram/alert-components.png)
 
@@ -2763,7 +2763,7 @@ Gestiona el ciclo de vida de las crisis de reputación. Evalúa las menciones ne
 <br>
 <div align="center">
   
-**Bounded Context: `Reporting`**
+**Bounded Context: `Infrastructure Health Context`**
 
 ![Component Diagram BC6](brandradar-report/assets/domain-driven-design/architecture/components-diagram/reporting-components.png)
 
