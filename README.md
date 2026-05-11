@@ -2704,73 +2704,72 @@ A continuación, se presentan los diagramas de componentes correspondientes a lo
   
 **Bounded Context: Brand Workspace context`**
 
-![Component Diagram BC1](brandradar-report/assets/domain-driven-design/architecture/components-diagram/account-components.png)
+![Component Diagram BC1](brandradar-report/assets/domain-driven-design/architecture/components-diagram/Brand_Workspace_context.jpg)
 
 </div>
 <br>
 
-Administra la seguridad, la emisión de tokens JWT, el registro de usuarios y el control de las cuotas permitidas según el plan de suscripción adquirido.
+Administra la seguridad mediante la autenticación y emisión de tokens JWT, gestiona el registro de nuevos usuarios con verificación de identidad y controla las cuotas operativas y límites de acceso según el plan de suscripción y el entorno de marca seleccionado.
 
 <br>
 <div align="center">
   
 **Bounded Context: Reputation Monitoring context`**
 
-![Component Diagram BC2](brandradar-report/assets/domain-driven-design/architecture/components-diagram/brand-components.png)
+![Component Diagram BC2](brandradar-report/assets/domain-driven-design/architecture/components-diagram/reputation_monitoring.jpg)
 
 </div>
 <br>
 
-Permite la configuración del núcleo del negocio: la creación de marcas, la validación de palabras clave (keywords) y el intercambio seguro de tokens OAuth con plataformas de terceros.
+Se encarga de la configuración y gestión de las fuentes de datos, permitiendo crear marcas, añadir palabras clave y conectar APIs externas. El servicio valida las reglas de seguimiento, aplica políticas de reducción de ruido y persiste la configuración detallada de la marca para asegurar una sincronización constante con fuentes externas como Google Maps y redes sociales.
 
 <br>
 <div align="center">
 
 **Bounded Context: Identity Access Context`**
 
-![Component Diagram BC3](brandradar-report/assets/domain-driven-design/architecture/components-diagram/monitoring-components.png)
+![Component Diagram BC3](brandradar-report/assets/domain-driven-design/architecture/components-diagram/Identity_Access_Context.jpg)
 
 </div>
 <br>
   
-Encargado de orquestar los ciclos programados (Schedulers) para extraer datos de Google Maps y Redes Sociales, filtrarlos y almacenarlos en la base de datos documental.
+Gestiona el ciclo operativo de recolección de menciones mediante procesos programados que extraen datos de diversas APIs. Este contexto filtra las menciones irrelevantes basándose en reglas de exclusión, verifica la persistencia del sistema y asegura la integridad operativa mediante chequeos de salud de la infraestructura antes de enviar los datos al servicio de análisis.
 
 <br>
 <div align="center">
 
 **Bounded Context: Sentiment Intelligence context`**
 
-![Component Diagram BC4](brandradar-report/assets/domain-driven-design/architecture/components-diagram/sentiment-components.png)
+![Component Diagram BC4](brandradar-report/assets/domain-driven-design/architecture/components-diagram/Sentiment_Intelligence_context.jpg)
 
 </div>
 <br>
 
-Integra el motor central de evaluación. Recibe eventos de nuevas menciones, interactúa con la API de NLP externa, aplica reglas locales para detección de sarcasmo y determina si el sentimiento cruza el umbral negativo.
-
+Analiza el tono emocional de las menciones recolectadas utilizando servicios de NLP para calcular puntuaciones de sentimiento y detectar sarcasmo o ironía. Permite el ajuste manual de sentimientos por parte del usuario, identifica defensores de marca y activa alertas de riesgo reputacional cuando se superan los umbrales críticos de negatividad establecidos.
 
 <br>
 <div align="center">
   
 **Bounded Context: `Crisis Detection Context`**
 
-![Component Diagram BC5](brandradar-report/assets/domain-driven-design/architecture/components-diagram/alert-components.png)
+![Component Diagram BC5](brandradar-report/assets/domain-driven-design/architecture/components-diagram/Crisis_Detection_context.jpg)
 
 </div>
 <br>
 
-Gestiona el ciclo de vida de las crisis de reputación. Evalúa las menciones negativas, genera tickets de seguimiento y dispara notificaciones push a través de servicios como Firebase/APNs.
+Monitorea indicadores de riesgo para detectar crisis potenciales, disparando alertas urgentes y notificaciones push móviles cuando se identifican menciones críticas. Administra el ciclo de vida de los incidentes reputacionales mediante la asignación de tickets a agentes, permitiendo la revisión de alertas y la ejecución de acciones de mitigación hasta la resolución final del incidente.
 
 <br>
 <div align="center">
   
 **Bounded Context: `Infrastructure Health Context`**
 
-![Component Diagram BC6](brandradar-report/assets/domain-driven-design/architecture/components-diagram/reporting-components.png)
+![Component Diagram BC6](brandradar-report/assets/domain-driven-design/architecture/components-diagram/Infrastructure_Health_context.jpg)
 
 </div>
 <br>
 
-Consolida la información mediante procesos asíncronos para generar dashboards analíticos y reportes descargables en PDF, permitiendo a las agencias presentar resultados tangibles a sus clientes.
+Supervisa la integridad operativa del sistema mediante auditorías de infraestructura programadas y la generación de reportes analíticos mensuales. Permite la exportación de datos crudos y la creación de documentos PDF detallados sobre la salud del sistema y métricas de rendimiento para asegurar que el monitoreo de reputación no sufra interrupciones.
 
 <br>
 
