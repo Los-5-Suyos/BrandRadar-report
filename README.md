@@ -721,21 +721,21 @@ A continuación, se presentan los Problem Statements correspondientes a los dos 
 **Hypothesis Statement 1:**
 
 
-> Creemos que, al implementar alertas automáticas en tiempo real sobre menciones negativas y fallos en la infraestructura web, los responsables de marketing y equipos técnicos podrán responder de manera más oportuna y prevenir crisis reputacionales y operativas.
-**Sabremos que hemos tenido éxito** cuando al menos el 70 % de los usuarios activos configure alertas durante su primera semana de uso y se evidencie una reducción en el tiempo de respuesta ante incidentes.
+> Creemos que al implementar un sistema de alertas automáticas basado en la severidad y el impacto de las menciones, lograremos que las PyMEs y especialistas de marketing optimicen su capacidad de respuesta ante ataques reputacionales.
+**Sabremos que hemos tenido éxito** cuando el tiempo promedio de reacción y mitigación de crisis disminuya en un 50% en comparación con el monitoreo tradicional. 
 
 **Hypothesis Statement 2:**
 
 
-> Creemos que, al ofrecer un dashboard centralizado que integre métricas de reputación (sentimiento, volumen y tendencias) junto con el estado de la infraestructura web, los usuarios podrán comprender mejor el desempeño digital de su marca y tomar decisiones estratégicas más informadas.
-**Sabremos que hemos tenido éxito** cuando el 65 % de los usuarios activos consulte el dashboard al menos tres veces por semana durante el primer mes de uso.
+> Creemos que al integrar un motor de análisis de sentimiento con detección de sarcasmo y contexto local, lograremos que los analistas de marca dependan menos de la verificación manual de los datos.
+**Sabremos que hemos tenido éxito** cuando el índice de precisión del sistema alcance un 90% de coincidencia con la clasificación humana y las correcciones manuales disminuyan en un 70%. 
 
 
 **Hypothesis Statement 3:**
 
 
-> Creemos que, al integrar múltiples canales digitales junto con el monitoreo técnico en una sola plataforma, los usuarios podrán obtener una visión más completa y unificada de su ecosistema digital.
-**Sabremos que hemos tenido éxito** cuando al menos el 60 % de los usuarios activos conecte más de una fuente de datos y utilice al menos una funcionalidad de monitoreo de infraestructura durante su primera semana de uso.
+> Creemos que al unificar el monitoreo de la infraestructura web con el seguimiento de marca en un solo dashboard, lograremos que las empresas reduzcan las pérdidas de datos por desconexiones técnicas inesperadas.
+**Sabremos que hemos tenido éxito** cuando el tiempo de inactividad (downtime) de las fuentes de monitoreo disminuya en un 80% respecto a los procesos de monitoreo manual previos. 
 
 
 <br>
