@@ -9,7 +9,7 @@
 
 <br>
 
-#  Informe de Proyecto - Avance 1
+#  Informe de Proyecto - TB1
 
 ## Presentado por "Los 5 Suyos"
 
@@ -56,7 +56,7 @@
 | Versión | Fecha | Participantes | Descripción de modificación |
 |:-------:|:-----:|:-----:|:---------------------------|
 | AV1 | 2026-04-08 | Salinas Guzmán, Brianna Cristina <br> Jáuregui Cerna, Jean Franco <br> Cruzalegui Herrera, Joaquin <br> Garcia Paredes, Victor Manuel <br> Acuña de la Cruz, Luis | Avance 1 del reporte del proyecto y primera versión de la landing page |
-| TB1 | 2026-05-11 | Salinas Guzmán, Brianna Cristina  | Entrega del reporte TB1 del proyecto, nueva version del landing page y frontend web application desplegadas |
+| TB1 | 2026-05-11 | Salinas Guzmán, Brianna Cristina <br> Acuña de la Cruz, Luis  | Entrega del reporte TB1 del proyecto, nueva version del landing page y frontend web application desplegadas |
 </div>
 
 ---
@@ -69,7 +69,7 @@
 <br>
 
   
-**URL del Repositorio:** [`https://github.com/Los-5-Suyos/BrandRadar.git`](https://github.com/Los-5-Suyos/BrandRadar.git)
+**URL del Repositorio:** [`https://github.com/Los-5-Suyos/BrandRadar-report.git`](https://github.com/Los-5-Suyos/BrandRadar-report.git)
 
 <br>
 
@@ -293,8 +293,8 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 |:---|:---|:---|
-| **3.c1. Comunica oralmente con efectividad a diferentes rangos de audiencia.** | **Salinas, Brianna** <br> AV1: Durante el registro de entrevistas, conduje sesiones con usuarios del segmento objetivo adaptando mi discurso oral según el perfil del entrevistado, logrando transmitir el propósito de BrandRadar de forma clara y comprensible tanto para perfiles técnicos como no técnicos. <br><br> TB1: (acción específica)<br><br> **Jáuregui, Jean Franco** <br> AV1: (acción específica) <br><br> TB1: (acción específica)<br><br> **Cruzalegui, Joaquin** <br> AV1: Elaboré una de las entrevistas del segmento 1 (PyMEs), por la cual tuve que adecuar mi vocabulario de la mejor manera posible, para hacer sentir cómodo al entrevistado y poder recopilar la mejor información posible <br><br> TB1: (acción específica)<br><br> **Garcia Paredes, Victor** <br> AV1: Diseñé y conduje oralmente dos entrevistas dirigidas a representantes de nuestros segmentos objetivo (una PyME y una Agencia Digital). Durante las sesiones, adapté mi lenguaje y tono para generar empatía con perfiles no técnicos, logrando extraer con claridad sus dolores respecto a la gestión de su reputación digital y comunicando efectivamente el propósito de nuestra investigación. <br><br> TB1: (acción específica)<br><br> **Acuña de la Cruz, Luis** <br> AV1: (acción específica) <br><br> TB1: (acción específica) <br> | (Completar de forma grupal en cada entrega) |
-| **3.c2. Comunica por escrito con efectividad a diferentes rangos de audiencia.** | **Salinas, Brianna** <br> AV1: Redacté el Capítulo I, la sección 4.3 de Landing Page UI Design, los diagramas de clases (4.7.1) y el diseño de base de datos (4.8), empleando un lenguaje técnico preciso y estructurado acorde al formato académico del informe, garantizando que el contenido sea comprensible para lectores con distintos niveles de conocimiento en ingeniería de software. <br><br> TB1: (acción específica) <br><br> **Jáuregui, Jean Franco** <br> AV1: (acción específica) <br><br> TB1: (acción específica) <br><br> **Cruzalegui, Joaquin** <br> AV1: Realicé los Empathy Maps, los Journey Maps en base a las entrevistas y User Personas, también el Event Storming donde identifiqué los principales eventos del dominio. Además realicé el capítulo 5.2.1 sobre el sprint 1 <br><br> TB1: (acción específica) <br><br> **Garcia Paredes, Victor** <br> AV1: Redacté las secciones de segmentos objetivo, análisis competitivo, needfinding y arquitectura de software basada en DDD. Empleé un lenguaje claro, persuasivo y estructurado para documentar los User Personas; y utilicé terminología técnica estandarizada para describir el design-level event storming y los diagramas del modelo C4, garantizando que la documentación sea comprensible tanto para stakeholders como para el equipo de desarrollo. <br><br> TB1: (acción específica) <br><br> **Acuña de la Cruz, Luis** <br> AV1: (acción específica) <br><br> TB1: (acción específica) <br> | (Completar de forma grupal en cada entrega) |
+| **3.c1. Comunica oralmente con efectividad a diferentes rangos de audiencia.** | **Salinas, Brianna** <br> AV1: Durante el registro de entrevistas, conduje sesiones con usuarios del segmento objetivo adaptando mi discurso oral según el perfil del entrevistado, logrando transmitir el propósito de BrandRadar de forma clara y comprensible tanto para perfiles técnicos como no técnicos. <br><br> TB1: (acción específica)<br><br> **Jáuregui, Jean Franco** <br> AV1: (acción específica) <br><br> TB1: (acción específica)<br><br> **Cruzalegui, Joaquin** <br> AV1: Elaboré una de las entrevistas del segmento 1 (PyMEs), por la cual tuve que adecuar mi vocabulario de la mejor manera posible, para hacer sentir cómodo al entrevistado y poder recopilar la mejor información posible <br><br> TB1: (acción específica)<br><br> **Garcia Paredes, Victor** <br> AV1: Diseñé y conduje oralmente dos entrevistas dirigidas a representantes de nuestros segmentos objetivo (una PyME y una Agencia Digital). Durante las sesiones, adapté mi lenguaje y tono para generar empatía con perfiles no técnicos, logrando extraer con claridad sus dolores respecto a la gestión de su reputación digital y comunicando efectivamente el propósito de nuestra investigación. <br><br> TB1: (acción específica)<br><br> **Acuña de la Cruz, Luis** <br> AV1: Diseñé y desarrollé el landing page del proyecto, enfocándome en transmitir de forma clara y atractiva la propuesta de valor para nuestros segmentos objetivo. Además, participé activamente en la presentación y explicación del sitio web ante el equipo y usuarios potenciales, comunicando de manera efectiva las funcionalidades y beneficios de la solución. Durante este proceso, adapté la estructura y el contenido de la página para mejorar la experiencia del usuario y generar mayor interés en la propuesta planteada. <br><br> TB1:Durante el desarrollo del Sprint 2, presenté los avances del Frontend y la integración de la Fake API ante mis compañeros y el líder técnico, utilizando un lenguaje adaptado para explicar la lógica de los servicios en Angular. Durante las reuniones de sincronización, expuse de manera clara cómo la arquitectura propuesta en el Dashboard permite visualizar el sentimiento de las menciones, facilitando que tanto el equipo de desarrollo como los interesados en el negocio comprendieran el flujo de los datos. Asimismo, respondí a las inquietudes técnicas sobre el manejo de estados globales, demostrando seguridad y dominio del tema para asegurar que todos los miembros del equipo estuvieran alineados con los objetivos del proyecto. <br> | <br> AV1: Durante el AV1, el equipo logró comunicar oralmente de manera clara y organizada la propuesta inicial del proyecto BrandRadar, presentando la problemática identificada, los objetivos del sistema y la solución tecnológica planteada. La exposición permitió transmitir adecuadamente las ideas principales tanto a un público técnico como académico, utilizando apoyo visual y una distribución equilibrada de la participación entre los integrantes. <br><br> TB1: Durante el AV1, el equipo elaboró documentación escrita estructurada y comprensible, incluyendo descripciones del proyecto, análisis del problema, user stories y planificación inicial del producto. La redacción utilizada permitió comunicar las ideas de manera formal y coherente, facilitando la comprensión del alcance y propósito del sistema BrandRadar para distintos tipos de lectores. <br><br> |
+| **3.c2. Comunica por escrito con efectividad a diferentes rangos de audiencia.** | **Salinas, Brianna** <br> AV1: Redacté el Capítulo I, la sección 4.3 de Landing Page UI Design, los diagramas de clases (4.7.1) y el diseño de base de datos (4.8), empleando un lenguaje técnico preciso y estructurado acorde al formato académico del informe, garantizando que el contenido sea comprensible para lectores con distintos niveles de conocimiento en ingeniería de software. <br><br> TB1: (acción específica) <br><br> **Jáuregui, Jean Franco** <br> AV1: (acción específica) <br><br> TB1: (acción específica) <br><br> **Cruzalegui, Joaquin** <br> AV1: Realicé los Empathy Maps, los Journey Maps en base a las entrevistas y User Personas, también el Event Storming donde identifiqué los principales eventos del dominio. Además realicé el capítulo 5.2.1 sobre el sprint 1 <br><br> TB1: (acción específica) <br><br> **Garcia Paredes, Victor** <br> AV1: Redacté las secciones de segmentos objetivo, análisis competitivo, needfinding y arquitectura de software basada en DDD. Empleé un lenguaje claro, persuasivo y estructurado para documentar los User Personas; y utilicé terminología técnica estandarizada para describir el design-level event storming y los diagramas del modelo C4, garantizando que la documentación sea comprensible tanto para stakeholders como para el equipo de desarrollo. <br><br> TB1: (acción específica) <br><br> **Acuña de la Cruz, Luis** <br> AV1: Diseñé y desarrollé el landing page del proyecto, enfocándome en transmitir de forma clara y atractiva la propuesta de valor para nuestros segmentos objetivo. Además, participé activamente en la presentación y explicación del sitio web ante el equipo y usuarios potenciales, comunicando de manera efectiva las funcionalidades y beneficios de la solución. Durante este proceso, adapté la estructura y el contenido de la página para mejorar la experiencia del usuario y generar mayor interés en la propuesta planteada. <br><br> TB1: Redacté y documenté la estructura técnica del archivo db.json y los contratos de los endpoints mock para el módulo de Sentiment Analysis, asegurando que la documentación fuera comprensible para el equipo de backend y los encargados de arquitectura. Además, trabajé en la mejora de la coherencia de los Bounded Contexts, documentando mediante comentarios en el código y mensajes de commit detallados cada ajuste realizado en la integración de menciones, alertas y logs de auditoría. Esta comunicación escrita permitió una integración fluida en la rama develop, garantizando que la lógica de trazabilidad (Audit Logs) y el manejo de estados de los modelos estuvieran claramente explicados para futuras fases de mantenimiento. <br> | <br> AV1: Durante el TB1, el equipo fortaleció sus habilidades de comunicación oral mediante la presentación del avance funcional del proyecto, explicando la arquitectura frontend, los flujos implementados y las decisiones técnicas adoptadas durante los sprints. La exposición permitió evidenciar dominio del proyecto, coordinación grupal y capacidad para responder preguntas relacionadas con el desarrollo y funcionamiento del sistema. <br><br> TB1: Durante el TB1, el equipo desarrolló documentación técnica y funcional detallada, incluyendo evidencias de desarrollo, despliegue, servicios, colaboración y arquitectura del sistema. La información fue presentada de manera ordenada, utilizando un lenguaje técnico adecuado y manteniendo coherencia en la estructura del informe, permitiendo comunicar efectivamente los avances del proyecto a lectores académicos y técnicos. <br><br> |
 
 ---
 
@@ -475,7 +475,7 @@ BrandRadar permite a las empresas:
 </div>
 
 **Descripción:**
-*(Párrafo describiendo principales conocimientos técnicos y habilidades que puede aportar al equipo)*
+*Soy estudiante de Ingeniería de Software con conocimientos en desarrollo de aplicaciones, programación orientada a objetos y estructuras de datos. Tengo experiencia en C++, Git y GitHub, además de conocimientos básicos en Python, MSSQL y MongoDB. Me considero una persona responsable, con capacidad de aprendizaje autónomo y habilidades para trabajar en equipo y comunicar ideas de manera efectiva.*
 
 ---
 <br>
@@ -1412,7 +1412,7 @@ Este recorrido permite identificar puntos de fricción, emociones asociadas a ca
 |---|---|---|---|---|
 | **Doing** | Ingresa manualmente a cada red social, Google Maps y reseñas por marca para revisar nuevos comentarios. Alterna entre plataformas sin un orden fijo, dependiendo del tiempo disponible. | Copia y pega los comentarios relevantes en un documento de Notion o Trello para organizarlos por urgencia. | Redacta respuestas individuales para cada comentario negativo. Escala a sus clientes los casos más críticos por WhatsApp. | Arma reportes manuales en documentos, agregando capturas de pantalla y métricas recopiladas a mano cada mes. |
 | **Thinking** | "Hay demasiadas plataformas para revisar y siempre tengo miedo de perderme algo importante." | "Clasificar esto a mano me lleva horas que podría usar en estrategia de contenido." | "Si no detecto una queja a tiempo, el posicionamiento de mi cliente en Google puede verse afectado." | "Armar este reporte me tomó 3 horas. No es sostenible si quiero escalar mis cuentas." |
-| | "No puedo estar pendiente de todo al mismo tiempo cuando manejo más de una marca." | "No tengo certeza de que lo que priorizo sea realmente lo más urgente." | "Respondo como puedo, pero sin datos de sentimiento no sé si mi estrategia está funcionando." | " me exigen datos que yo mismo estoy calculando a ojo." |
+| | "No puedo estar pendiente de todo al mismo tiempo cuando manejo más de una marca." | "No tengo certeza de que lo que priorizo sea realmente lo más urgente." | "Respondo como puedo, pero sin datos de sentimiento no sé si mi estrategia está funcionando." | "Mis clientes me exigen datos que yo mismo estoy calculando a ojo." |
 | **Feeling** | Se siente abrumada por el volumen de información dispersa que debe revisar diariamente. | Se siente agotada al invertir más de dos horas diarias en tareas repetitivas y manuales. | Se siente bajo presión constante ante el riesgo de no detectar una crisis a tiempo. | Se siente limitada profesionalmente porque el tiempo que pierde en reportes le impide ofrecer un servicio de mayor valor a sus clientes. |
 
 
@@ -1624,10 +1624,10 @@ En conjunto, la identificación de eventos, actores y flujos permitió construir
 | --- | --- | --- | --- | --- |
 | **EP01 – Landing Page** |||||
 | **US01** | Comunicar propuesta de valor para convertir visitantes en prospectos | Como visitante PyME o de agencia digital, quiero comprender rápidamente qué problema resuelve BrandRadar y qué lo diferencia de otras herramientas para decidir si vale la pena registrarme. | **Escenario 1 – Prospecto decide iniciar registro:** <br> **Given:** el visitante accede a la página principal y lee la propuesta de valor <br>**When:** comprende que BrandRadar monitorea reputación en tiempo real <br> **Then:** el sistema registra la intención de conversión cuando el visitante hace clic en 'Comenzar gratis', emitiendo el evento `ProspectInterestCaptured` para el seguimiento comercial. <br> <br> **Escenario 2 – Visitante abandona sin conversión:** <br> **Given:** el visitante llega a la página pero no encuentra su caso de uso representado <br> **When:** abandona sin interactuar <br> **Then:** el sistema no registra ningún evento de conversión, preservando la integridad de las métricas de adquisición. <br> <br> **Escenario 3 – Prospecto desde dispositivo móvil:** <br> **Given:** el visitante accede desde un smartphone <br> **When:** lee la propuesta de valor <br> **Then:** el contenido es completamente legible y la llamada a la acción es accesible, sin pérdida de capacidad de conversión por limitaciones de dispositivo. | EP01 |
-| **US02** | Evaluar si las capacidades del producto cubren las necesidades de monitoreo reputacional | Como director de agencia digital, quiero conocer las capacidades operacionales de BrandRadar — detección de menciones, análisis de sentimiento, gestión de crisis — para evaluar si cubre el flujo de trabajo de  antes de comprometer una suscripción. | **Escenario 1 – Capacidades operacionales identificadas:** <br> **Given:** el director accede a la sección de funcionalidades <br> **When:** revisa las capacidades listadas <br> **Then:** puede identificar al menos tres flujos de trabajo reputacional concretos (monitoreo, detección de crisis, reportes) que se alinean con sus necesidades operacionales. <br> <br> **Escenario 2 – Caso de uso para agencias representado:** <br> **Given:** el director busca si BrandRadar soporta gestión multi-cliente <br> **When:** revisa la sección de agencias <br> **Then:** el sistema expone explícitamente la capacidad de gestión de múltiples marcas con reportes por cliente, habilitando evaluación de adecuación para su modelo de negocio. <br> <br> **Escenario 3 – Prospecto no encuentra su caso de uso:** **Given:** el visitante no identifica su segmento representado **When:** intenta contactar al equipo para más información **Then:** puede acceder directamente al flujo de contacto sin abandonar la evaluación. | EP01 |
+| **US02** | Evaluar si las capacidades del producto cubren las necesidades de monitoreo reputacional | Como director de agencia digital, quiero conocer las capacidades operacionales de BrandRadar — detección de menciones, análisis de sentimiento, gestión de crisis — para evaluar si cubre el flujo de trabajo de mis clientes antes de comprometer una suscripción. | **Escenario 1 – Capacidades operacionales identificadas:** <br> **Given:** el director accede a la sección de funcionalidades <br> **When:** revisa las capacidades listadas <br> **Then:** puede identificar al menos tres flujos de trabajo reputacional concretos (monitoreo, detección de crisis, reportes) que se alinean con sus necesidades operacionales. <br> <br> **Escenario 2 – Caso de uso para agencias representado:** <br> **Given:** el director busca si BrandRadar soporta gestión multi-cliente <br> **When:** revisa la sección de agencias <br> **Then:** el sistema expone explícitamente la capacidad de gestión de múltiples marcas con reportes por cliente, habilitando evaluación de adecuación para su modelo de negocio. <br> <br> **Escenario 3 – Prospecto no encuentra su caso de uso:** **Given:** el visitante no identifica su segmento representado **When:** intenta contactar al equipo para más información **Then:** puede acceder directamente al flujo de contacto sin abandonar la evaluación. | EP01 |
 | **US03** | Reducir fricción de decisión mediante evidencia social de usuarios reales | Como gerente PyME, quiero conocer la experiencia de otras empresas similares con BrandRadar para reducir el riesgo percibido de adopción y tomar una decisión de registro más informada. | **Escenario 1 – Evidencia social de segmento relevante:** <br> **Given:** el gerente accede a la sección de testimonios <br> **When:** revisa los casos presentados <br> **Then:** puede identificar al menos un testimonio de una empresa del mismo segmento (PyME o agencia) que describe un problema reputacional concreto resuelto con BrandRadar. <br> <br> **Escenario 2 – Credibilidad del testimonio verificable:** <br> **Given:** el gerente quiere validar la autenticidad del caso <br> **When:** revisa el testimonio <br> **Then:** el sistema expone nombre, tipo de empresa y descripción del resultado operacional obtenido, no solo una frase genérica de satisfacción. <br> <br> **Escenario 3 – Más de un caso disponible para comparación:** <br> **Given:** hay múltiples testimonios con casos distintos <br> **When:** el gerente navega entre ellos <br> **Then:** puede comparar experiencias de distintos perfiles para reducir incertidumbre antes de registrarse. | EP01 |
 | **US04** | Seleccionar el plan que se alinea con la escala operacional del negocio | Como dueño de PyME, quiero comparar los planes disponibles de BrandRadar con sus límites operacionales — marcas monitoreadas, fuentes, usuarios — para seleccionar el que se ajusta a mi escala sin pagar por capacidad que no usaré. | **Escenario 1 – Comparación de capacidades operacionales por plan:** <br> **Given:** el dueño accede a la sección de precios <br> **When:** compara los planes disponibles <br> **Then:** puede identificar diferencias concretas en capacidades operacionales (número de marcas, fuentes conectadas, usuarios) que le permiten tomar una decisión fundamentada en sus necesidades actuales. <br> <br> **Escenario 2 – Plan seleccionado vincula compromiso comercial:** <br> **Given:** el dueño decide qué plan se ajusta a su escala <br> **When:** elige un plan <br> **Then:** el sistema registra la selección como intención comercial y la preserva durante el flujo de registro para evitar que el prospecto deba repetir la decisión. <br> <br> **Escenario 3 – Plan sin información operacional suficiente:** <br> **Given:** el dueño no puede determinar si el plan cubre sus necesidades con la información disponible <br> **When:** intenta obtener más detalles <br> **Then:** puede acceder directamente al flujo de contacto comercial sin perder el contexto de la evaluación. | EP01 |
-| **US05** | Iniciar conversación comercial antes de comprometer una suscripción | Como director de agencia con necesidades específicas, quiero contactar directamente al equipo de BrandRadar para resolver dudas sobre capacidades operacionales antes de comprometer una suscripción para . | **Escenario 1 – Consulta comercial registrada correctamente:** <br> **Given:** el director completa nombre, correo corporativo y descripción de su necesidad operacional <br> **When:** envía el mensaje <br> **Then:** el sistema registra la consulta como evento `CommercialInquiryReceived` con todos los datos, el formulario queda limpio y el director recibe confirmación de que fue recibida. <br> <br> **Escenario 2 – Correo corporativo inválido bloqueado:** <br> **Given:** el director ingresa un formato de correo inválido <br> **When:** intenta enviar <br> **Then:** el sistema rechaza el envío y la consulta no queda registrada, protegiendo la integridad del pipeline comercial de datos incorrectos. <br> <br> **Escenario 3 – Intento de envío sin información de negocio:** <br> **Given:** el director omite campos obligatorios que impiden entender la necesidad <br> **When:** intenta enviar <br> **Then:** el sistema bloquea el envío y ninguna consulta incompleta queda registrada, evitando seguimientos comerciales sin contexto. | EP01 |
+| **US05** | Iniciar conversación comercial antes de comprometer una suscripción | Como director de agencia con necesidades específicas, quiero contactar directamente al equipo de BrandRadar para resolver dudas sobre capacidades operacionales antes de comprometer una suscripción para mis clientes. | **Escenario 1 – Consulta comercial registrada correctamente:** <br> **Given:** el director completa nombre, correo corporativo y descripción de su necesidad operacional <br> **When:** envía el mensaje <br> **Then:** el sistema registra la consulta como evento `CommercialInquiryReceived` con todos los datos, el formulario queda limpio y el director recibe confirmación de que fue recibida. <br> <br> **Escenario 2 – Correo corporativo inválido bloqueado:** <br> **Given:** el director ingresa un formato de correo inválido <br> **When:** intenta enviar <br> **Then:** el sistema rechaza el envío y la consulta no queda registrada, protegiendo la integridad del pipeline comercial de datos incorrectos. <br> <br> **Escenario 3 – Intento de envío sin información de negocio:** <br> **Given:** el director omite campos obligatorios que impiden entender la necesidad <br> **When:** intenta enviar <br> **Then:** el sistema bloquea el envío y ninguna consulta incompleta queda registrada, evitando seguimientos comerciales sin contexto. | EP01 |
 | **EP02 – Identidad y Acceso Seguro** |||||
 | **US06** | Registrar cuenta para acceder a monitoreo reputacional | Como administrador corporativo, quiero crear una cuenta verificada con acceso solo a las marcas asignadas para proteger información reputacional sensible de cada cliente. | **Escenario 1 – Registro exitoso:** <br> **Given:** el administrador completa nombre, correo, contraseña válida y tipo de cuenta <br> **When:** envía el formulario <br> **Then:** el sistema crea la cuenta en estado `PENDIENTE_VERIFICACIÓN`, emite el evento `AccountRegistered` y ningún workspace queda accesible hasta completar la verificación. <br> <br> **Escenario 2 – Contraseña inválida:** <br> **Given:** el administrador ingresa una contraseña que no cumple los requisitos mínimos de seguridad <br> **When:** envía el formulario <br> **Then:** el sistema rechaza el registro, la cuenta no se crea y el estado del dominio no cambia. <br> <br> **Escenario 3 – Correo ya registrado:** <br> **Given:** el correo ingresado ya está asociado a una cuenta existente <br> **When:** envía el formulario <br> **Then:** el sistema rechaza el registro sin revelar si la cuenta está activa o pendiente, protegiendo información de otros usuarios. | EP02 |
 | **US07** | Verificar correo para activar acceso reputacional | Como usuario recién registrado, quiero verificar mi correo electrónico para activar mi cuenta y comenzar a monitorear la reputación de mis marcas. | **Escenario 1 – Verificación exitosa:** <br> **Given:** el usuario accede al enlace de verificación con un token válido y vigente <br> **When:** el sistema valida el token <br> **Then:** la cuenta transita de estado `PENDIENTE_VERIFICACIÓN` a `ACTIVA`, se emite el evento `AccountActivated` y el usuario puede acceder al workspace asignado. <br> <br> **Escenario 2 – Token expirado:** <br> **Given:** el token de verificación ya superó su tiempo de vigencia <br> **When:** el sistema lo valida <br> **Then:** la cuenta permanece en estado `PENDIENTE_VERIFICACIÓN`, el token queda invalidado y el acceso al workspace sigue bloqueado. <br> <br> **Escenario 3 – Token inválido:** <br> **Given:** el token es incorrecto o fue manipulado <br> **When:** el sistema lo valida <br> **Then:** el sistema rechaza la verificación, registra el intento fallido como evento de auditoría y la cuenta no cambia de estado. | EP02 |
@@ -1714,55 +1714,54 @@ Estos impactos se materializan en entregables como el motor de IA con entrenamie
 | **N°** | **Story ID** | **Épica** | **Título** | **Descripción** | **Story Points** |
 | --- | --- | --- | --- | --- | --- |
 | 1 | **US01** | EP01 – Adquisición de Clientes | Comunicar propuesta de valor para convertir visitantes en prospectos | Como visitante PyME o de agencia, quiero comprender rápidamente qué problema resuelve BrandRadar para decidir si vale la pena registrarme. | 2 |
-| 2 | **US02** | EP01 – Adquisición de Clientes | Evaluar si las capacidades del producto cubren las necesidades de monitoreo reputacional | Como director de agencia, quiero conocer las capacidades operacionales de BrandRadar para evaluar si cubre el flujo de trabajo de . | 2 |
+| 2 | **US02** | EP01 – Adquisición de Clientes | Evaluar si las capacidades del producto cubren las necesidades de monitoreo reputacional | Como director de agencia, quiero conocer las capacidades operacionales de BrandRadar para evaluar si cubre el flujo de trabajo de mis clientes. | 2 |
 | 3 | **US03** | EP01 – Adquisición de Clientes | Reducir fricción de decisión mediante evidencia social de usuarios reales | Como gerente PyME, quiero conocer la experiencia de otras empresas similares con BrandRadar para reducir el riesgo percibido de adopción. | 1 |
 | 4 | **US04** | EP01 – Adquisición de Clientes | Seleccionar el plan que se alinea con la escala operacional del negocio | Como dueño de PyME, quiero comparar los planes con sus límites operacionales para seleccionar el que se ajusta a mi escala. | 2 |
-| 5 | **US05** | EP01 – Adquisición de Clientes | Iniciar conversación comercial antes de comprometer una suscripción | Como director de agencia, quiero contactar al equipo de BrandRadar para resolver dudas operacionales antes de comprometer una suscripción para . | 2 |
-| 6 | **US06** | EP02 – Identidad y Acceso Seguro | Registrar cuenta para acceder a monitoreo reputacional | Como administrador corporativo, quiero crear una cuenta verificada con acceso solo a las marcas asignadas para proteger información reputacional sensible. | 5 |
-| 7 | **US07** | EP02 – Identidad y Acceso Seguro | Verificar correo para activar acceso reputacional | Como usuario recién registrado, quiero verificar mi correo para que la cuenta transite a estado `ACTIVA` y pueda acceder al workspace. | 3 |
-| 8 | **US08** | EP02 – Identidad y Acceso Seguro | Iniciar sesión para acceder a marcas asignadas | Como administrador autorizado, quiero iniciar sesión para acceder únicamente a las marcas asignadas y proteger información sensible. | 3 |
-| 9 | **US09** | EP02 – Identidad y Acceso Seguro | Recuperar acceso sin comprometer seguridad reputacional | Como usuario registrado, quiero recuperar acceso mediante flujo seguro para evitar exposición de información sensible. | 3 |
-| 10 | **US10** | EP02 – Identidad y Acceso Seguro | Cerrar sesión para proteger datos reputacionales | Como usuario autenticado, quiero cerrar sesión para invalidar la sesión y descargar el contexto del workspace en dispositivos compartidos. | 2 |
-| 11 | **US11** | EP03 – Configuración Estratégica de Marca | Definir perímetro de monitoreo de una marca | Como director de agencia, quiero configurar perfil de marca con palabras clave y fuentes para activar el motor de detección. | 5 |
-| 12 | **US12** | EP03 – Configuración Estratégica de Marca | Actualizar configuración de monitoreo de una marca | Como responsable de marketing, quiero actualizar palabras clave y fuentes para ajustar el monitoreo a la estrategia actual con trazabilidad de cambios. | 3 |
-| 13 | **US14** | EP03 – Configuración Estratégica de Marca | Definir reglas de monitoreo para detectar menciones sensibles | Como analista reputacional, quiero definir palabras clave para que el sistema detecte automáticamente menciones sensibles. | 5 |
-| 14 | **US15** | EP03 – Configuración Estratégica de Marca | Centralizar canales digitales para reducir monitoreo manual | Como especialista digital, quiero conectar múltiples plataformas para centralizar monitoreo y eliminar revisión manual dispersa. | 8 |
-| 15 | **US13** | EP03 – Configuración Estratégica de Marca | Desactivar marca para suspender monitoreo sin perder evidencia | Como director de agencia, quiero desactivar marcas inactivas conservando el historial de incidentes y menciones para análisis futuro. | 2 |
-| 16 | **US16** | EP04 – Detección y Trazabilidad de Menciones | Activar monitoreo para capturar señales reputacionales | Como director de marca, quiero activar monitoreo para capturar señales reputacionales antes de que escalen. | 5 |
-| 17 | **US17** | EP04 – Detección y Trazabilidad de Menciones | Identificar menciones negativas recurrentes para priorizar respuesta | Como community manager, quiero identificar menciones negativas recurrentes para priorizar acciones de respuesta. | 5 |
-| 18 | **US18** | EP04 – Detección y Trazabilidad de Menciones | Filtrar menciones para encontrar incidentes relevantes | Como analista reputacional, quiero filtrar menciones por criterios de sentimiento y fecha para identificar las de mayor riesgo de escalamiento. | 5 |
-| 19 | **US19** | EP04 – Detección y Trazabilidad de Menciones | Detectar fuentes recurrentes de comentarios negativos | Como gerente de marca, quiero identificar fuentes que concentran riesgo reputacional para ejecutar acciones correctivas. | 8 |
-| 20 | **US20** | EP05 – Inteligencia de Sentimiento Reputacional | Detectar deterioro reputacional antes de afectar campañas | Como director de marca, quiero identificar deterioro reputacional temprano para ejecutar acciones correctivas. | 5 |
-| 21 | **US21** | EP05 – Inteligencia de Sentimiento Reputacional | Priorizar menciones que requieren atención inmediata | Como community manager, quiero filtrar por sentimiento para priorizar menciones negativas que requieren respuesta. | 3 |
-| 22 | **US22** | EP05 – Inteligencia de Sentimiento Reputacional | Evaluar impacto de acciones estratégicas en percepción de marca | Como gerente reputacional, quiero ver evolución del `SentimentScore` para evaluar si las acciones correctivas están funcionando. | 8 |
-| 23 | **US23** | EP06 – Gestión de Crisis y Escalamiento | Detectar picos anómalos para activar protocolos preventivos | Como director reputacional, quiero que el sistema detecte picos anómalos y cree `ReputationIncident` antes de que una crisis escale. | 8 |
-| 24 | **US24** | EP06 – Gestión de Crisis y Escalamiento | Configurar umbrales de escalamiento por cliente | Como Agency Manager, quiero configurar `AlertThreshold` por marca cliente para personalizar el escalamiento de incidentes. | 5 |
-| 25 | **US25** | EP06 – Gestión de Crisis y Escalamiento | Priorizar incidentes según severidad para gestión simultánea | Como agencia digital, quiero priorizar `ReputationIncident` por `SeverityLevel` para optimizar atención de múltiples clientes. | 5 |
-| 26 | **US26** | EP06 – Gestión de Crisis y Escalamiento | Registrar respuesta a incidente para mantener trazabilidad | Como supervisor reputacional, quiero registrar quién respondió cada `ReputationIncident` para mantener trazabilidad y control. | 5 |
-| 27 | **US27** | EP07 – Inteligencia Estratégica y Reportes | Detectar tendencias negativas para ejecutar acciones correctivas | Como gerente reputacional, quiero detectar tendencias negativas en el dashboard para ejecutar acciones correctivas rápidamente. | 8 |
-| 28 | **US28** | EP07 – Inteligencia Estratégica y Reportes | Evaluar impacto de campañas con reportes reputacionales | Como gerente comercial, quiero generar `ReputationReport` por período para evaluar impacto de campañas. | 8 |
-| 29 | **US29** | EP07 – Inteligencia Estratégica y Reportes | Acceder a historial de evidencia reputacional | Como gerente de reputación, quiero conservar evidencia histórica de `ReputationReport` para analizar evolución de incidentes críticos. | 3 |
-| 30 | **US30** | EP07 – Inteligencia Estratégica y Reportes | Compartir evidencia reputacional con clientes o equipo | Como Agency Manager, quiero exportar `ReputationReport` en PDF o CSV para compartir evidencia verificada. | 5 |
-| 31 | **US31** | EP07 – Inteligencia Estratégica y Reportes | Comparar períodos para evaluar evolución de estrategias | Como Agency Manager, quiero comparar métricas entre períodos para evaluar impacto de estrategias aplicadas. | 8 |
-| 32 | **US32** | EP07 – Inteligencia Estratégica y Reportes | Detectar patrones coordinados de comentarios sospechosos | Como analista de reputación, quiero detectar patrones coordinados para identificar posibles campañas de desinformación. | 8 |
-| 33 | **US33** | EP08 – Control de Acceso Contextual | Operar exclusivamente dentro del perímetro de marcas asignadas | Como analista de agencia, quiero que el sistema impida acceder a marcas de otros clientes para garantizar confidencialidad operacional entre cuentas. | 8 |
-| 34 | **TS01** | EP02 – Identidad y Acceso Seguro | Endpoint de registro de usuario | Como Developer, quiero implementar el endpoint de registro que crea `UserAccount` en estado `PENDIENTE_VERIFICACIÓN` y emite `AccountRegistered`. | 5 |
-| 35 | **TS02** | EP02 – Identidad y Acceso Seguro | Endpoint de inicio de sesión y emisión de JWT | Como Developer, quiero implementar el endpoint de login que valida credenciales y registra intentos fallidos con bloqueo automático. | 5 |
-| 36 | **TS03** | EP02 – Identidad y Acceso Seguro | Endpoint de verificación de correo | Como Developer, quiero implementar el endpoint de verificación que transiciona la cuenta a `ACTIVA` y emite `AccountActivated`. | 3 |
-| 37 | **TS04** | EP02 – Identidad y Acceso Seguro | Endpoint de recuperación de contraseña | Como Developer, quiero implementar el flujo de recuperación que emite `PasswordRecoveryRequested` y `PasswordReset`, cerrando sesiones activas. | 5 |
-| 38 | **TS05** | EP02 – Identidad y Acceso Seguro | Endpoint de refresh de token JWT | Como Developer, quiero implementar el endpoint de renovación de token para mantener sesión activa sin nuevo login. | 5 |
-| 39 | **TS06** | EP03 – Configuración Estratégica de Marca | Endpoints de creación y consulta de `BrandWorkspace` | Como Developer, quiero implementar endpoints de creación y consulta de `BrandWorkspace` incluyendo su estado. | 5 |
-| 40 | **TS07** | EP03 – Configuración Estratégica de Marca | Endpoints de edición y desactivación de `BrandWorkspace` | Como Developer, quiero implementar endpoints de edición y desactivación que conserven historial y emitan `WorkspaceDeactivated`. | 3 |
-| 41 | **TS08** | EP03 – Configuración Estratégica de Marca | Endpoints de `MonitoringRule` y fuentes de datos | Como Developer, quiero implementar endpoints de reglas de monitoreo que versionen cambios y emitan `MonitoringRuleUpdated`. | 8 |
-| 42 | **TS09** | EP04 – Detección y Trazabilidad de Menciones | Endpoints de monitoreo y consulta paginada de menciones | Como Developer, quiero implementar endpoints de inicio de monitoreo que emitan `MonitoringActivated` y consulta paginada de menciones. | 8 |
-| 43 | **TS10** | EP05 – Inteligencia de Sentimiento Reputacional | Endpoints de `SentimentScore` y tendencias | Como Developer, quiero implementar endpoints de análisis de sentimiento que retornen `SentimentScore` con nivel de riesgo reputacional. | 8 |
-| 44 | **TS11** | EP06 – Gestión de Crisis y Escalamiento | Endpoints de `ReputationIncident` y `AlertThreshold` | Como Developer, quiero implementar endpoints de gestión de incidentes y configuración de umbrales de escalamiento. | 5 |
-| 45 | **TS12** | EP06 – Gestión de Crisis y Escalamiento | Endpoint de respuesta y trazabilidad de `ReputationIncident` | Como Developer, quiero implementar endpoint de respuesta que registre responsable, timestamp y emita `AlertAcknowledged`. | 3 |
-| 46 | **TS13** | EP07 – Inteligencia Estratégica y Reportes | Endpoints de generación y consulta de `ReputationReport` | Como Developer, quiero implementar endpoints de generación y consulta de reportes que emitan `ReportGenerated`. | 8 |
-| 47 | **TS14** | EP07 – Inteligencia Estratégica y Reportes | Endpoints de exportación y eliminación de `ReputationReport` | Como Developer, quiero implementar endpoints de exportación (PDF/CSV) y eliminación de reportes conservando los incidentes asociados. | 5 |
-| 48 | **TS15** | EP07 – Inteligencia Estratégica y Reportes | Endpoint de métricas consolidadas del dashboard | Como Developer, quiero implementar endpoint de dashboard que retorne todos los indicadores reputacionales del `BrandWorkspace` en una sola llamada. | 8 |
-| 49 | **TS16** | EP08 – Control de Acceso Contextual | Middleware de autorización contextual por workspace | Como Developer, quiero implementar un middleware que valide en cada request que el usuario autenticado tiene acceso al `BrandWorkspace` solicitado, registrando intentos no autorizados como eventos de auditoría. | 5 |
-
+| 5 | **US05** | EP01 – Adquisición de Clientes | Iniciar conversación comercial antes de comprometer una suscripción | Como director de agencia, quiero contactar al equipo de BrandRadar para resolver dudas operacionales antes de comprometer una suscripción para mis clientes. | 2 |
+| 6 | **US06** | EP02 – Identidad y Acceso Seguro | Registrar cuenta verificada para proteger información reputacional sensible | Como administrador corporativo, quiero crear una cuenta verificada con acceso solo a las marcas asignadas para proteger información reputacional sensible. | 5 |
+| 7 | **US07** | EP02 – Identidad y Acceso Seguro | Verificar correo para que la cuenta transite a `ACTIVA` y habilite el workspace | Como usuario recién registrado, quiero verificar mi correo para que la cuenta transite a estado `ACTIVA` y pueda acceder al workspace reputacional. | 3 |
+| 8 | **US08** | EP02 – Identidad y Acceso Seguro | Iniciar sesión para acceder exclusivamente a las marcas asignadas | Como administrador autorizado, quiero iniciar sesión para acceder únicamente a las marcas asignadas y proteger información reputacional sensible. | 3 |
+| 9 | **US09** | EP02 – Identidad y Acceso Seguro | Recuperar acceso mediante flujo seguro sin comprometer la confidencialidad reputacional | Como usuario registrado, quiero recuperar acceso mediante flujo seguro para evitar exposición de información sensible. | 3 |
+| 10 | **US10** | EP02 – Identidad y Acceso Seguro | Cerrar sesión para invalidar contexto de workspace en dispositivos compartidos | Como usuario autenticado, quiero cerrar sesión para invalidar la sesión activa y descargar el contexto del workspace en dispositivos compartidos. | 2 |
+| 11 | **US11** | EP03 – Configuración Estratégica de Marca | Configurar `BrandWorkspace` con palabras clave y fuentes para activar el motor de detección | Como director de agencia, quiero configurar perfil de marca con palabras clave y fuentes para activar el motor de detección reputacional. | 5 |
+| 12 | **US12** | EP03 – Configuración Estratégica de Marca | Actualizar `MonitoringRule` con trazabilidad de cambios para ajustar cobertura reputacional | Como responsable de marketing, quiero actualizar palabras clave y fuentes con trazabilidad de cambios para ajustar el monitoreo a la estrategia actual. | 3 |
+| 13 | **US13** | EP03 – Configuración Estratégica de Marca | Desactivar `BrandWorkspace` conservando historial de incidentes y menciones para análisis futuro | Como director de agencia, quiero desactivar marcas inactivas conservando el historial de incidentes y menciones para análisis futuro. | 2 |
+| 14 | **US14** | EP03 – Configuración Estratégica de Marca | Definir `MonitoringRule` con keywords para detectar menciones sensibles automáticamente | Como analista reputacional, quiero definir palabras clave para que el sistema detecte automáticamente menciones sensibles sin revisión manual. | 5 |
+| 15 | **US15** | EP03 – Configuración Estratégica de Marca | Conectar `MonitoringChannel` múltiples para eliminar revisión manual dispersa | Como especialista digital, quiero conectar múltiples plataformas para centralizar el monitoreo y eliminar revisión manual dispersa. | 8 |
+| 16 | **US16** | EP04 – Detección y Trazabilidad de Menciones | Activar monitoreo del `MentionStream` para capturar señales reputacionales antes de que escalen | Como director de marca, quiero activar monitoreo para capturar señales reputacionales antes de que escalen a incidentes críticos. | 5 |
+| 17 | **US17** | EP04 – Detección y Trazabilidad de Menciones | Identificar menciones negativas recurrentes en `MentionStream` para priorizar respuesta operacional | Como community manager, quiero identificar menciones negativas recurrentes para priorizar acciones de respuesta antes de que escalen. | 5 |
+| 18 | **US18** | EP04 – Detección y Trazabilidad de Menciones | Filtrar `MentionStream` por `SentimentType` y fecha para identificar mayor riesgo de escalamiento | Como analista reputacional, quiero filtrar menciones por criterios de sentimiento y fecha para identificar las de mayor riesgo de escalamiento. | 5 |
+| 19 | **US19** | EP04 – Detección y Trazabilidad de Menciones | Detectar `MentionSource` recurrentes de riesgo reputacional para ejecutar acciones correctivas | Como gerente de marca, quiero identificar fuentes que concentran riesgo reputacional para ejecutar acciones correctivas sobre productos o campañas específicas. | 8 |
+| 20 | **US20** | EP05 – Inteligencia de Sentimiento Reputacional | Detectar deterioro del `SentimentScore` antes de afectar campañas activas | Como director de marca, quiero identificar deterioro reputacional temprano para ejecutar acciones correctivas antes de que afecten campañas activas. | 5 |
+| 21 | **US21** | EP05 – Inteligencia de Sentimiento Reputacional | Filtrar por `SentimentType` para priorizar menciones negativas que requieren respuesta inmediata | Como community manager, quiero filtrar por sentimiento para priorizar menciones negativas que requieren respuesta antes de que escalen públicamente. | 3 |
+| 22 | **US22** | EP05 – Inteligencia de Sentimiento Reputacional | Evaluar evolución del `SentimentScore` para medir impacto de acciones estratégicas correctivas | Como gerente reputacional, quiero ver evolución del `SentimentScore` para evaluar si las acciones correctivas están teniendo efecto medible. | 8 |
+| 23 | **US23** | EP06 – Gestión de Crisis y Escalamiento | Detectar picos anómalos en `MentionStream` para crear `ReputationIncident` antes de que una crisis escale | Como director reputacional, quiero que el sistema detecte picos anómalos de menciones negativas y cree `ReputationIncident` automáticamente activando protocolos preventivos. | 8 |
+| 24 | **US24** | EP06 – Gestión de Crisis y Escalamiento | Configurar `AlertThreshold` por marca cliente para personalizar el escalamiento de `ReputationIncident` | Como Agency Manager, quiero configurar `AlertThreshold` por marca cliente para que el escalamiento de incidentes respete la sensibilidad de cada cuenta. | 5 |
+| 25 | **US25** | EP06 – Gestión de Crisis y Escalamiento | Priorizar `ReputationIncident` por `SeverityLevel` para optimizar atención simultánea de múltiples clientes | Como agencia digital, quiero priorizar `ReputationIncident` por `SeverityLevel` e impacto potencial para optimizar la atención simultánea de múltiples clientes. | 5 |
+| 26 | **US26** | EP06 – Gestión de Crisis y Escalamiento | Registrar responsable y timestamp de respuesta a `ReputationIncident` para mantener trazabilidad operacional | Como supervisor reputacional, quiero registrar quién respondió cada `ReputationIncident` con timestamp para mantener trazabilidad y control operativo. | 5 |
+| 27 | **US27** | EP07 – Inteligencia Estratégica y Reportes | Detectar tendencias negativas del `SentimentScore` para ejecutar acciones correctivas rápidamente | Como gerente reputacional, quiero detectar tendencias negativas sostenidas en el dashboard para ejecutar acciones correctivas antes de que impacten campañas. | 8 |
+| 28 | **US28** | EP07 – Inteligencia Estratégica y Reportes | Generar `ReputationReport` por período para evaluar impacto reputacional de campañas | Como gerente comercial, quiero generar `ReputationReport` por período para evaluar el impacto reputacional de campañas recientes. | 8 |
+| 29 | **US29** | EP07 – Inteligencia Estratégica y Reportes | Conservar historial de `ReputationReport` para analizar evolución de incidentes críticos | Como gerente de reputación, quiero conservar evidencia histórica de `ReputationReport` para analizar la evolución de incidentes críticos a lo largo del tiempo. | 3 |
+| 30 | **US30** | EP07 – Inteligencia Estratégica y Reportes | Exportar `ReputationReport` en PDF/CSV para compartir evidencia verificada con clientes | Como Agency Manager, quiero exportar `ReputationReport` en PDF o CSV para compartir evidencia verificada con clientes o stakeholders internos. | 5 |
+| 31 | **US31** | EP07 – Inteligencia Estratégica y Reportes | Comparar métricas entre períodos para evaluar impacto de estrategias reputacionales aplicadas | Como Agency Manager, quiero comparar métricas reputacionales entre períodos para evaluar si las estrategias aplicadas están generando mejora medible. | 8 |
+| 32 | **US32** | EP07 – Inteligencia Estratégica y Reportes | Detectar patrones coordinados en `MentionStream` para identificar posibles campañas de desinformación | Como analista de reputación, quiero detectar patrones coordinados de comentarios sospechosos para identificar posibles campañas de desinformación dirigidas a la marca. | 8 |
+| 33 | **US33** | EP08 – Control de Acceso Contextual | Operar exclusivamente dentro del perímetro de `BrandWorkspace` asignados para garantizar confidencialidad operacional | Como analista de agencia, quiero que el sistema impida acceder a marcas de otros clientes para garantizar confidencialidad operacional entre cuentas. | 8 |
+| 34 | **TS01** | EP02 – Identidad y Acceso Seguro | Endpoint de registro: crea `UserAccount` en `PENDIENTE_VERIFICACIÓN` y emite `AccountRegistered` | Como Developer, quiero implementar el endpoint de registro que crea `UserAccount` en estado `PENDIENTE_VERIFICACIÓN` y emite el Domain Event `AccountRegistered`. | 5 |
+| 35 | **TS02** | EP02 – Identidad y Acceso Seguro | Endpoint de login: valida credenciales, emite JWT y bloquea por intentos fallidos | Como Developer, quiero implementar el endpoint de login que valida credenciales, emite JWT y registra intentos fallidos con bloqueo automático tras umbral definido. | 5 |
+| 36 | **TS03** | EP02 – Identidad y Acceso Seguro | Endpoint de verificación de correo: transiciona `UserAccount` a `ACTIVA` y emite `AccountActivated` | Como Developer, quiero implementar el endpoint de verificación que transiciona la cuenta a `ACTIVA` y emite el Domain Event `AccountActivated`. | 3 |
+| 37 | **TS04** | EP02 – Identidad y Acceso Seguro | Endpoint de recuperación de contraseña con eventos `PasswordRecoveryRequested` y `PasswordReset` | Como Developer, quiero implementar el flujo de recuperación que emite `PasswordRecoveryRequested` y `PasswordReset`, invalidando sesiones activas al completar. | 5 |
+| 38 | **TS05** | EP02 – Identidad y Acceso Seguro | Endpoint de refresh de JWT para mantener sesión activa sin reautenticación | Como Developer, quiero implementar el endpoint de renovación de token para mantener sesión activa sin nuevo login. | 5 |
+| 39 | **TS06** | EP03 – Configuración Estratégica de Marca | Endpoints de creación y consulta de `BrandWorkspace` con estado operacional | Como Developer, quiero implementar endpoints de creación y consulta de `BrandWorkspace` incluyendo su estado y configuración vigente. | 5 |
+| 40 | **TS07** | EP03 – Configuración Estratégica de Marca | Endpoints de edición y desactivación de `BrandWorkspace` con emisión de `WorkspaceDeactivated` | Como Developer, quiero implementar endpoints de edición y desactivación que conserven historial de incidentes y emitan `WorkspaceDeactivated`. | 3 |
+| 41 | **TS08** | EP03 – Configuración Estratégica de Marca | Endpoints de `MonitoringRule` y `MonitoringChannel` con versionado y `MonitoringRuleUpdated` | Como Developer, quiero implementar endpoints de reglas de monitoreo que versionen cambios y emitan `MonitoringRuleUpdated` al modificar configuración. | 8 |
+| 42 | **TS09** | EP04 – Detección y Trazabilidad de Menciones | Endpoints de activación de monitoreo con `MonitoringActivated` y consulta paginada de `MentionStream` | Como Developer, quiero implementar endpoints de inicio de monitoreo que emitan `MonitoringActivated` y soporten consulta paginada de menciones con filtros. | 8 |
+| 43 | **TS10** | EP05 – Inteligencia de Sentimiento Reputacional | Endpoints de `SentimentScore` y tendencias con nivel de riesgo reputacional | Como Developer, quiero implementar endpoints de análisis de sentimiento que retornen `SentimentScore` con nivel de riesgo reputacional calculado. | 8 |
+| 44 | **TS11** | EP06 – Gestión de Crisis y Escalamiento | Endpoints de `ReputationIncident` y configuración de `AlertThreshold` por workspace | Como Developer, quiero implementar endpoints de gestión de incidentes y configuración de umbrales de escalamiento por `BrandWorkspace`. | 5 |
+| 45 | **TS12** | EP06 – Gestión de Crisis y Escalamiento | Endpoint de respuesta a `ReputationIncident` con registro de responsable, timestamp y `AlertAcknowledged` | Como Developer, quiero implementar endpoint de respuesta que registre responsable, timestamp y emita el Domain Event `AlertAcknowledged`. | 3 |
+| 46 | **TS13** | EP07 – Inteligencia Estratégica y Reportes | Endpoints de generación y consulta de `ReputationReport` con `ReportGenerated` | Como Developer, quiero implementar endpoints de generación y consulta de reportes que emitan `ReportGenerated` al completar el proceso. | 8 |
+| 47 | **TS14** | EP07 – Inteligencia Estratégica y Reportes | Endpoints de exportación PDF/CSV y eliminación de `ReputationReport` conservando incidentes asociados | Como Developer, quiero implementar endpoints de exportación y eliminación de reportes conservando los `ReputationIncident` asociados al reporte eliminado. | 5 |
+| 48 | **TS15** | EP07 – Inteligencia Estratégica y Reportes | Endpoint de métricas consolidadas del `BrandWorkspace` para dashboard de decisión reputacional | Como Developer, quiero implementar endpoint de dashboard que retorne todos los indicadores reputacionales del `BrandWorkspace` activo en una sola llamada optimizada. | 8 |
+| 49 | **TS16** | EP08 – Control de Acceso Contextual | Middleware de autorización contextual por `BrandWorkspace` con auditoría de accesos no autorizados | Como Developer, quiero implementar un middleware que valide en cada request que el usuario autenticado tiene acceso al `BrandWorkspace` solicitado, registrando intentos no autorizados como eventos de auditoría. | 5 |
 
 <br>
 
@@ -1950,7 +1949,7 @@ En esta sección se describen las decisiones relacionadas con los estándares vi
 
 El sistema de componentes ha sido diseñado bajo un enfoque minimalista sobre fondo claro, priorizando la legibilidad, la jerarquía visual y la claridad en las interacciones. Asimismo, se emplea una paleta basada en tonos neutros (blancos y grises) combinados con acentos en gradientes azul-violeta, los cuales permiten resaltar elementos clave sin sobrecargar la interfaz.
 
-Las decisiones adoptadas buscan garantizar una experiencia de usuario intuitiva, accesible y coherente en todos los módulos del sistema, especialmente en contextos de análisis de datos y monitoreo de reputación digital en tiempo real.
+Las decisiones adoptadas buscan garantizar una experiencia de intuitiva, accesible y coherente en todos los módulos del sistema, especialmente en contextos de análisis de datos y monitoreo de reputación digital en tiempo real.
 
 <br>
 
@@ -2414,11 +2413,20 @@ Se aplican principios de diseño centrado en el usuario, consistencia visual bas
 
 ### 4.4.1. Web Applications Wireframes
 
->*Los wireframes presentados a continuación representan la estructura base de las principales vistas de la aplicación web de BrandRadar. Su elaboración se realizó aplicando principios de diseño inclusivo, asegurando que la disposición de los elementos sea clara, comprensible y accesible para usuarios con distintos niveles de experiencia tecnológica.*
+>*Los wireframes presentados a continuación representan la estructura inicial de las principales interfaces de la aplicación web BrandRadar. Estos diseños fueron elaborados con el objetivo de definir la distribución de los componentes visuales, la navegación entre vistas y la organización de la información antes de la etapa de diseño final.*
+
+>*Durante su desarrollo se consideraron principios de usabilidad, accesibilidad e inclusión digital, asegurando una experiencia intuitiva y comprensible para usuarios con distintos niveles de experiencia tecnológica. Asimismo, los wireframes permitieron validar tempranamente la arquitectura visual y el flujo de interacción de la plataforma.*
+
 
 <br>
 
-![Web App Wireframes](brandradar-report/assets/web-app/wireframes.png)
+*Elaboracion propia en Figma*
+
+![Web App Wireframes](brandradar-report/assets/ux-design/web-application/app-wireframes.png)
+
+<br>
+
+**URL:** [Wireframes Design en Figma](https://www.figma.com/design/oZhmzDVXwe4x6xAW4u4Bxt/BrandRadar?node-id=0-1&t=bD14Co1kFvyhL4u5-1)
 
 <br>
 
@@ -2447,199 +2455,19 @@ Se aplican principios de diseño centrado en el usuario, consistencia visual bas
 
 ### 4.4.3. Web Applications Mock-ups
 
->*Los mock-ups presentados a continuación representan la propuesta visual final de las principales vistas de la aplicación web de BrandRadar, incorporando el Design System definido en la sección 4.1. A diferencia de los wireframes, estas vistas integran la paleta de colores, tipografía, iconografía, componentes visuales y espaciado establecidos para la plataforma, ofreciendo una representación de alta fidelidad de la experiencia de usuario en el sistema.*
+>*Los mockups presentados a continuación muestran el diseño visual de alta fidelidad de la aplicación web BrandRadar. Estas interfaces incorporan elementos gráficos, estilos visuales, paleta de colores, tipografía y componentes interactivos que representan la apariencia final esperada del sistema.*
 
->*El diseño busca transmitir confianza, claridad y eficiencia, valores fundamentales de BrandRadar, asegurando que tanto los dueños de PyMEs como los account managers de agencias puedan interpretar la información de reputación digital de forma rápida e intuitiva.*
+>*El diseño de la interfaz fue desarrollado siguiendo criterios de consistencia visual, accesibilidad y experiencia de usuario, permitiendo una interacción clara, moderna y eficiente. Además, se priorizó la visualización de métricas, alertas y análisis de reputación mediante dashboards intuitivos y componentes visuales organizados.*
 
 <br>
+
+*Elaboracion propia en Figma*
+
+![Web App Wireframes](brandradar-report/assets/ux-design/web-application/app-mockups.png)
+
 <br>
-Register<br>
-![Register](brandradar-report/assets/web-app/registro.png)
-<br><br>
 
-Login<br>
-
-![Login](brandradar-report/assets/web-app/login.png)
-
-<br><br><br>
-
-Segmento PyME
-
-<br><br><br>
-
-Dashboard<br>
-
-![Dashboard](brandradar-report/assets/web-app/dashboard.png)
-
-<br><br>
-
-Incidentes<br>
-
-![Incidentes](brandradar-report/assets/web-app/incidentes.png)
-
-<br><br>
-
-Detalles Incidente<br>
-
-![Detalles Incidente](brandradar-report/assets/web-app/incidentes-detalles.png)
-
-<br><br>
-
-Generar Respuesta<br>
-
-![Generar Respuesta](brandradar-report/assets/web-app/generar-respuesta-ia.png)
-
-<br><br>
-
-Incidente Resuelto<br>
-
-![Incidente Resuelto](brandradar-report/assets/web-app/incidente-resuelto.png)
-
-<br><br>
-
-Menciones<br>
-
-![Menciones](brandradar-report/assets/web-app/menciones.png)
-
-<br><br>
-
-Detalles Menciones<br>
-
-![Menciones](brandradar-report/assets/web-app/detalle-mencion.png)
-
-<br><br>
-
-Mencion Respondida<br>
-
-![Menciones](brandradar-report/assets/web-app/menciones.png)
-
-<br><br>
-
-Mis Marcas<br>
-
-![Menciones](brandradar-report/assets/web-app/detalle-marca.png)
-
-<br><br>
-
-Detalles Marca<br>
-
-![Menciones](brandradar-report/assets/web-app/detalle-marca.png)
-
-<br><br>
-
-Agregar Fuente<br>
-
-![Menciones](brandradar-report/assets/web-app/agregar-fuente.png)
-
-<br><br>
-
-Reglas<br>
-![Menciones](brandradar-report/assets/web-app/reglas.png)
-
-<br><br>
-
-Reportes<br>
-
-![Menciones](brandradar-report/assets/web-app/reportes.png)
-
-<br><br>
-Infraestructura<br>
-
-![Menciones](brandradar-report/assets/web-app/infraestructura.png)
-
-<br><br><br>
-Segmento Agencia(Account Manager)
-<br><br><br>
-
-Dashboard<br>
-
-![Menciones](brandradar-report/assets/web-app/s2-dashboard.png)
-
-<br><br>
-
-![Menciones](brandradar-report/assets/web-app/mis-clientes.png)
-
-<br><br>
-
-Detalle<br>
-
-![Menciones](brandradar-report/assets/web-app/s2-incidente-agencia.png)
-
-<br><br>
-
-Clientes Respuesta IA<br>
-
-![Menciones](brandradar-report/assets/web-app/s2-respuesta-ia.png)
-
-<br><br>
-
-Incidentes<br>
-
-![Menciones](brandradar-report/assets/web-app/s2-incidentes.png)
-
-<br><br>
-
-Menciones<br>
-
-![Menciones](brandradar-report/assets/web-app/s2-menciones.png)
-
-<br><br>
-
-Generar Respuesta<br>
-
-![Menciones](brandradar-report/assets/web-app/s2-generar-respuesta-menciones.png)
-
-<br><br>
-
-Mencion Respondida<br>
-
-![Menciones](brandradar-report/assets/web-app/s2-mencion-respondida.png)
-
-<br><br>
-
-Reportes<br>
-
-![Menciones](brandradar-report/assets/web-app/s2-reporte.png)
-
-<br><br>
-
-Generar Reporte<br>
-
-![Menciones](brandradar-report/assets/web-app/s2-generar-reporte.png)
-
-<br><br>
-
-Reporte Generado<br>
-
-![Menciones](brandradar-report/assets/web-app/s2-reporte-generado.png)
-
-<br><br>
-
-Comparativas<br>
-
-![Menciones](brandradar-report/assets/web-app/s2-comparativa.png)
-
-<br><br>
-
-Configuración<br>
-
-![Menciones](brandradar-report/assets/web-app/s2-configuracion.png)
-
-<br><br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+**URL:** [Mockup Design en Figma](https://www.figma.com/design/oZhmzDVXwe4x6xAW4u4Bxt/BrandRadar?node-id=0-1&t=bD14Co1kFvyhL4u5-1)
 
 <br>
 
@@ -2793,32 +2621,32 @@ Se incrementó el nivel de abstracción agrupando comandos y eventos alrededor d
 
 <div align="center">
   
-![Step9 - Event Storming](brandradar-report/assets/domain-driven-design/design-level-storm/step9.png)
+![Step9 - Event Storming](brandradar-report/assets/domain-driven-design/design-level-storm/step9_new.jpg)
 
 </div>
 
 **Step 10: Bounded Contexts**
 
-Finalmente, se delimitaron los límites semánticos y transaccionales del dominio mediante la definición de Bounded Contexts, agrupando los agregados relacionados en bloques coherentes e independientes. Este paso consolidó la arquitectura del sistema en seis contextos principales: Account Management, Brand Management, Monitoring, Sentiment Analysis, Alert Management y Reporting.
+Finalmente, se delimitaron los límites semánticos y transaccionales del dominio mediante la definición de Bounded Contexts, agrupando los agregados relacionados en bloques coherentes e independientes. Este paso consolidó la arquitectura del sistema en seis contextos principales: Brand Workspace, Reputation Monotoring, Identity Access, Sentiment Intelligence, Crisis Detection y Infrastructure Health.
 
 <div align="center">
   
-![Step10 - Event Storming](brandradar-report/assets/domain-driven-design/design-level-storm/step10.png)
+![Step10 - Event Storming](brandradar-report/assets/domain-driven-design/design-level-storm/step10_new.jpg)
 
   
 **Bounded Contexts:**
 
-![BoundextContext1](brandradar-report/assets/bounded-context/accountmanager.png)
+![BoundextContext1](brandradar-report/assets/bounded-context/brand_workspace_1.jpg)
 
-![BoundextContext2](brandradar-report/assets/bounded-context/brandmanager.png)
+![BoundextContext2](brandradar-report/assets/bounded-context/reputation_monotoring_2.jpg)
 
-![BoundextContext3](brandradar-report/assets/bounded-context/monitoring.png)
+![BoundextContext3](brandradar-report/assets/bounded-context/identity_access_3.jpg)
 
-![BoundextContext4](brandradar-report/assets/bounded-context/sentimentanalysis.png)
+![BoundextContext4](brandradar-report/assets/bounded-context/sentiment_intelligence_4.jpg)
 
-![BoundextContext5](brandradar-report/assets/bounded-context/alertmanagment.png)
+![BoundextContext5](brandradar-report/assets/bounded-context/crisisdetection_5.jpg)
 
-![BoundextContext6](brandradar-report/assets/bounded-context/reporting.png)
+![BoundextContext6](brandradar-report/assets/bounded-context/infrastructure_6.jpg)
 
 </div>
 
@@ -2826,13 +2654,21 @@ Finalmente, se delimitaron los límites semánticos y transaccionales del domini
 
 El proceso de Design-Level Event Storming permitió profundizar en el comportamiento técnico del sistema, tomando como base los flujos identificados en el Big Picture Event Storming. En esta etapa, se definieron los límites transaccionales (Bounded Contexts) y se incorporaron elementos de diseño táctico como Comandos (Commands), Agregados (Aggregates) y Políticas (Policies). [Ver Miro](https://miro.com/welcomeonboard/OFNBUUR3ZHl3VWkyVzJPRzhPWEV5bHF2S0hiRjArNEswejJoT0ZyZVdHQ0VMVDkzNy9Xd3RCOGdHemhTN3ZJblhjSkJLRjBneGRvNjdaaXNCZHkvWVQ3N1VhMUxRYkI4SmNBRTdTaHpBWWlzRHhGTTZKL2NFVjVtK1IwcFZscnhnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=126405139400).
 
+El proceso de Design-Level Event Storming permitió profundizar en el comportamiento técnico del sistema, tomando como base los flujos identificados en el Big Picture Event Storming. En esta etapa, se definieron los límites transaccionales (Bounded Contexts) y se incorporaron elementos de diseño táctico como Comandos (Commands), Agregados (Aggregates) y Políticas (Policies). Ver Miro.
+
 A partir del análisis del dominio de BrandRadar, se consolidaron seis Bounded Contexts principales:
-1. **Account Management:** Gestiona la identidad de los usuarios, roles (PyME Owner, Agency Manager) y sesiones de autenticación.
-2. **Brand Management:** Administra la configuración de marcas, palabras clave (keywords) y la conexión con fuentes de datos externas.
-3. **Monitoring:** Coordina la integración con APIs externas y la recolección de menciones (mentions) en tiempo real.
-4. **Sentiment Analysis:** Delega el procesamiento de lenguaje natural y clasifica el sentimiento.
-5. **Alert Management:** Aplica reglas de negocio para la generación de alertas y notificaciones ante eventos críticos o menciones negativas.
-6. **Reporting:** Consolida métricas del sistema y genera dashboards y reportes exportables para análisis y toma de decisiones.
+
+Identity Access Context: Gestiona la identidad de los usuarios, roles y sesiones de autenticación, asegurando el acceso protegido a la plataforma.
+
+Brand Workspace Context: Administra la configuración de los espacios de trabajo, marcas, palabras clave (keywords) y la personalización del entorno del usuario.
+
+Reputation Monitoring Context: Coordina la recolección de menciones en tiempo real y el rastreo de la presencia de la marca en diversas fuentes digitales.
+
+Crisis Detection Context: Aplica reglas de negocio y umbrales críticos para identificar amenazas potenciales a la reputación de manera inmediata.
+
+Sentiment Intelligence Context: Delega el procesamiento de lenguaje natural para clasificar sentimientos y extraer inteligencia emocional de los datos recolectados.
+
+Infrastructure Health Context: Supervisa la salud técnica del ecosistema, incluyendo el estado de los dispositivos, la latencia de servicios y la estabilidad de la infraestructura.
    
 <br>
 
@@ -2881,75 +2717,74 @@ A continuación, se presentan los diagramas de componentes correspondientes a lo
 <br>
 <div align="center">
   
-**Bounded Context: `Account Manager`**
+**Bounded Context: Brand Workspace context`**
 
-![Component Diagram BC1](brandradar-report/assets/domain-driven-design/architecture/components-diagram/account-components.png)
+![Component Diagram BC1](brandradar-report/assets/domain-driven-design/architecture/components-diagram/Brand_Workspace_context.jpg)
 
 </div>
 <br>
 
-Administra la seguridad, la emisión de tokens JWT, el registro de usuarios y el control de las cuotas permitidas según el plan de suscripción adquirido.
+Administra la seguridad mediante la autenticación y emisión de tokens JWT, gestiona el registro de nuevos usuarios con verificación de identidad y controla las cuotas operativas y límites de acceso según el plan de suscripción y el entorno de marca seleccionado.
 
 <br>
 <div align="center">
   
-**Bounded Context: `Brand Management`**
+**Bounded Context: Reputation Monitoring context`**
 
-![Component Diagram BC2](brandradar-report/assets/domain-driven-design/architecture/components-diagram/brand-components.png)
+![Component Diagram BC2](brandradar-report/assets/domain-driven-design/architecture/components-diagram/reputation_monitoring.jpg)
 
 </div>
 <br>
 
-Permite la configuración del núcleo del negocio: la creación de marcas, la validación de palabras clave (keywords) y el intercambio seguro de tokens OAuth con plataformas de terceros.
+Se encarga de la configuración y gestión de las fuentes de datos, permitiendo crear marcas, añadir palabras clave y conectar APIs externas. El servicio valida las reglas de seguimiento, aplica políticas de reducción de ruido y persiste la configuración detallada de la marca para asegurar una sincronización constante con fuentes externas como Google Maps y redes sociales.
 
 <br>
 <div align="center">
 
-**Bounded Context: `Monitoring`**
+**Bounded Context: Identity Access Context`**
 
-![Component Diagram BC3](brandradar-report/assets/domain-driven-design/architecture/components-diagram/monitoring-components.png)
+![Component Diagram BC3](brandradar-report/assets/domain-driven-design/architecture/components-diagram/Identity_Access_Context.jpg)
 
 </div>
 <br>
   
-Encargado de orquestar los ciclos programados (Schedulers) para extraer datos de Google Maps y Redes Sociales, filtrarlos y almacenarlos en la base de datos documental.
+Gestiona el ciclo operativo de recolección de menciones mediante procesos programados que extraen datos de diversas APIs. Este contexto filtra las menciones irrelevantes basándose en reglas de exclusión, verifica la persistencia del sistema y asegura la integridad operativa mediante chequeos de salud de la infraestructura antes de enviar los datos al servicio de análisis.
 
 <br>
 <div align="center">
 
-**Bounded Context: `Sentiment Analysis`**
+**Bounded Context: Sentiment Intelligence context`**
 
-![Component Diagram BC4](brandradar-report/assets/domain-driven-design/architecture/components-diagram/sentiment-components.png)
-
-</div>
-<br>
-
-Integra el motor central de evaluación. Recibe eventos de nuevas menciones, interactúa con la API de NLP externa, aplica reglas locales para detección de sarcasmo y determina si el sentimiento cruza el umbral negativo.
-
-
-<br>
-<div align="center">
-  
-**Bounded Context: `Alert Management`**
-
-![Component Diagram BC5](brandradar-report/assets/domain-driven-design/architecture/components-diagram/alert-components.png)
+![Component Diagram BC4](brandradar-report/assets/domain-driven-design/architecture/components-diagram/Sentiment_Intelligence_context.jpg)
 
 </div>
 <br>
 
-Gestiona el ciclo de vida de las crisis de reputación. Evalúa las menciones negativas, genera tickets de seguimiento y dispara notificaciones push a través de servicios como Firebase/APNs.
+Analiza el tono emocional de las menciones recolectadas utilizando servicios de NLP para calcular puntuaciones de sentimiento y detectar sarcasmo o ironía. Permite el ajuste manual de sentimientos por parte del usuario, identifica defensores de marca y activa alertas de riesgo reputacional cuando se superan los umbrales críticos de negatividad establecidos.
 
 <br>
 <div align="center">
   
-**Bounded Context: `Reporting`**
+**Bounded Context: `Crisis Detection Context`**
 
-![Component Diagram BC6](brandradar-report/assets/domain-driven-design/architecture/components-diagram/reporting-components.png)
+![Component Diagram BC5](brandradar-report/assets/domain-driven-design/architecture/components-diagram/Crisis_Detection_context.jpg)
 
 </div>
 <br>
 
-Consolida la información mediante procesos asíncronos para generar dashboards analíticos y reportes descargables en PDF, permitiendo a las agencias presentar resultados tangibles a sus clientes.
+Monitorea indicadores de riesgo para detectar crisis potenciales, disparando alertas urgentes y notificaciones push móviles cuando se identifican menciones críticas. Administra el ciclo de vida de los incidentes reputacionales mediante la asignación de tickets a agentes, permitiendo la revisión de alertas y la ejecución de acciones de mitigación hasta la resolución final del incidente.
+
+<br>
+<div align="center">
+  
+**Bounded Context: `Infrastructure Health Context`**
+
+![Component Diagram BC6](brandradar-report/assets/domain-driven-design/architecture/components-diagram/Infrastructure_Health_context.jpg)
+
+</div>
+<br>
+
+Supervisa la integridad operativa del sistema mediante auditorías de infraestructura programadas y la generación de reportes analíticos mensuales. Permite la exportación de datos crudos y la creación de documentos PDF detallados sobre la salud del sistema y métricas de rendimiento para asegurar que el monitoreo de reputación no sufra interrupciones.
 
 <br>
 
@@ -2971,31 +2806,32 @@ Consolida la información mediante procesos asíncronos para generar dashboards 
 
 <br>
 
-Descripcion
+El Identity Access Context es el contexto responsable de toda la gestión de identidad, autenticación y autorización dentro de BrandRadar. Su función central es garantizar que únicamente los usuarios verificados y autorizados accedan al sistema, y que cada usuario opere estrictamente dentro del perímetro de marcas que le fueron asignadas. Este contexto protege la información reputacional sensible desde el primer punto de contacto: el registro.
+Sus responsabilidades incluyen el ciclo de vida completo de la cuenta de usuario (registro, verificación, activación, suspensión), la gestión de sesiones autenticadas con JWT, la recuperación segura de contraseñas y el control de acceso basado en roles (UserRole). Es también el contexto que emite los eventos de dominio más críticos de seguridad: UserRegistered, SessionInvalidated y UnauthorizedAccessAttempted.
 
 <br>
 <div align="center">
 
 **Frontend Components Diagrams**
 
-![Frontend Diagram BC1](brandradar-report/assets/class-diagrams/frontend/front-diagram-.png)
+![Frontend Diagram BC1](brandradar-report/assets/class-diagrams/frontend/front-diagram-1.png)
 
 </div>
 <br>
 
-Descripcion
+El diagrama muestra cómo LoginPage y RegisterPage delegan en el composable useAuth, que a su vez sincroniza el estado a través de AuthStore. El AuthGuard protege cada ruta consultando AuthFacade antes de permitir la navegación. TokenStorageAdapter abstrae la persistencia del token, y AuthApiClient centraliza las llamadas HTTP de autenticación. El flujo completo va desde la vista hasta la API sin que los componentes conozcan los detalles de autenticación.
 
 <br>
 <div align="center">
 
 **Backend Components Diagrams**
 
-![Backend Diagram BC1](brandradar-report/assets/class-diagrams/backend/back-diagram-.png)
+![Backend Diagram BC1](brandradar-report/assets/class-diagrams/backend/back-diagram-1.png)
 
 </div>
 <br>
 
-Descripcion
+El diagrama gira en torno a dos Aggregate Roots: UserAccount y AuthSession. UserAccount encapsula el ciclo de vida completo de una cuenta —registro, activación, suspensión— y controla el acceso a marcas mediante hasAccessTo() y enforceBrandIsolation(). AuthSession representa una sesión activa, gestionando la validez del JWT y el origen de la request. Ambos aggregates emiten eventos de dominio relevantes: UserRegistered, SessionInvalidated y UnauthorizedAccessAttempted. Los Value Objects EmailAddress, HashedPassword y AccessToken encapsulan las reglas de validación de identidad, mientras que los Domain Services AuthenticationService y AuthorizationService coordinan la lógica que involucra múltiples agregados. La capa de infraestructura abstrae la generación de JWT (JwtTokenAdapter) y la integración con proveedores OAuth externos.
 
 <br>
 
@@ -3004,31 +2840,32 @@ Descripcion
 
 <br>
 
-Descripcion
+El Brand Workspace Context es el contexto responsable de la configuración estratégica de las marcas monitoreadas. Modela el espacio de trabajo operacional de cada cliente: qué marcas se monitorean, con qué palabras clave, desde qué canales digitales y bajo qué plan y políticas. Es el contexto que define el perímetro de monitoreo y activa el motor de detección reputacional.
+Este contexto es el núcleo organizacional de BrandRadar: sin una BrandWorkspace configurada, ningún otro contexto puede operar. Sus responsabilidades incluyen la gestión del ciclo de vida de workspaces y marcas, la conexión y desconexión de canales digitales (MonitoringChannel), la gestión de reglas de palabras clave (KeywordRule) y la aplicación de las políticas del plan contratado (WorkspacePolicy). También soporta el modo de emergencia (activateEmergencyMode()), que cambia el comportamiento del sistema ante una crisis reputacional activa.
 
 <br>
 <div align="center">
 
 **Frontend Components Diagrams**
 
-![Frontend Diagram BC2](brandradar-report/assets/class-diagrams/frontend/front-diagram-.png)
+![Frontend Diagram BC2](brandradar-report/assets/class-diagrams/frontend/front-diagram-2.png)
 
 </div>
 <br>
 
-Descripcion
+El diagrama muestra WorkspaceDashboardPage como punto de entrada, apoyada por BrandSelectorComponent, ChannelConnectionModal y KeywordManagerComponent para las operaciones principales. WorkspaceStore centraliza el estado del workspace activo y la marca seleccionada, mientras WorkspaceFacade expone consultas de alto nivel como hasBrandAccess(). El composable useWorkspace provee acceso reactivo a toda esta información para los componentes de presentación.
 
 <br>
 <div align="center">
 
 **Backend Components Diagrams**
 
-![Backend Diagram BC2](brandradar-report/assets/class-diagrams/backend/back-diagram-.png)
+![Backend Diagram BC2](brandradar-report/assets/class-diagrams/backend/back-diagram-2.png)
 
 </div>
 <br>
 
-Descripcion
+El diagrama tiene como núcleo al BrandWorkspace, Aggregate Root que agrupa marcas, canales y políticas del plan. Sus métodos activateEmergencyMode(), enforceBrandIsolation() y validateWorkspacePolicy() reflejan comportamiento de negocio real, no solo persistencia. El agregado Brand contiene las KeywordRule y el ReputationIndex base de la marca. La entidad MonitoringChannel gestiona el ciclo de vida de cada integración con plataformas digitales, y WorkspacePolicy encapsula los límites operacionales del plan contratado. Los eventos BrandAddedToWorkspace, MonitoringChannelConnected y EmergencyModeActivated comunican cambios estructurales al resto del sistema. ChannelIntegrationAdapter desacopla las APIs externas del dominio.
 
 <br>
 
@@ -3036,31 +2873,32 @@ Descripcion
 
 <br>
 
-Descripcion
+El Reputation Monitoring Context es el corazón operacional de BrandRadar. Es el contexto responsable de capturar, clasificar y trazar las menciones digitales de una marca, y de gestionar los incidentes reputacionales desde su detección hasta su resolución. Modela el flujo continuo de información reputacional: desde la ingesta de menciones en tiempo real hasta la escalación y resolución de crisis.
+Sus responsabilidades incluyen la captura y clasificación automática de menciones (MentionStream), la detección de anomalías en el volumen o sentimiento, la creación y gestión del ciclo de vida completo de ReputationIncident, y la generación de reportes reputacionales. Este contexto es el principal productor de eventos de dominio críticos: NegativeMentionDetected, ReputationSpikeDetected, IncidentEscalated e IncidentResolved.
 
 <br>
 <div align="center">
 
 **Frontend Components Diagrams**
 
-![Frontend Diagram BC3](brandradar-report/assets/class-diagrams/frontend/front-diagram-.png)
+![Frontend Diagram BC3](brandradar-report/assets/class-diagrams/frontend/front-diagram-3.png)
 
 </div>
 <br>
 
-Descripcion
+El diagrama organiza tres vistas principales: MentionFeedPage para el feed filtrable de menciones, IncidentDetailPage para la gestión individual de incidentes con su línea de tiempo, y ReputationDashboardPage para el score general. MonitoringStore centraliza el estado de menciones e incidentes, MonitoringFacade expone getCriticalMentions() y getOpenIncidents() para consumo de otros contextos, y useMonitoring provee el acceso reactivo desde los componentes.
 
 <br>
 <div align="center">
 
 **Backend Components Diagrams**
 
-![Backend Diagram BC3](brandradar-report/assets/class-diagrams/backend/back-diagram-.png)
+![Backend Diagram BC3](brandradar-report/assets/class-diagrams/backend/back-diagram-3.png)
 
 </div>
 <br>
 
-Descripcion
+El diagrama muestra dos Aggregate Roots con comportamiento rico. MentionStream representa el flujo activo de menciones: ingesta, clasificación, detección de anomalías y generación de snapshots. ReputationIncident gestiona el ciclo de vida completo de un incidente: escalate(), acknowledge(), resolve() y construcción de la línea de tiempo con addTimelineEvent(). La entidad Mention combina MentionSource, SentimentScore y MentionCategory para representar cada mención con su contexto completo. Los Domain Services ReputationMonitoringService y AnomalyDetectionService coordinan el escaneo periódico y la detección de desviaciones estadísticas. Los eventos NegativeMentionDetected, ReputationSpikeDetected, IncidentEscalated e IncidentResolved alimentan tanto el Crisis Detection Context como el historial de trazabilidad.
 
 <br>
 
@@ -3068,31 +2906,32 @@ Descripcion
 
 <br>
 
-Descripcion
+El Crisis Detection Context es el contexto responsable de la detección temprana, escalación y gestión de alertas de crisis reputacional. Su función es transformar señales anómalas detectadas en el MentionStream en alertas accionables con prioridad definida, y garantizar que los stakeholders correctos sean notificados en el menor tiempo posible.
+Sus responsabilidades incluyen la evaluación continua del stream de menciones contra las reglas de monitoreo configuradas, la creación y gestión del ciclo de vida de CrisisAlert, la configuración de MonitoringRule con umbrales personalizados por marca, y la notificación multi-canal de stakeholders críticos. Este contexto consume eventos del Reputation Monitoring Context (ReputationSpikeDetected) y produce sus propios eventos: CrisisAlertTriggered, CrisisEscalated, MonitoringRuleTriggered y AlertAcknowledged.
 
 <br>
 <div align="center">
 
 **Frontend Components Diagrams**
 
-![Frontend Diagram BC4](brandradar-report/assets/class-diagrams/frontend/front-diagram-.png)
+![Frontend Diagram BC4](brandradar-report/assets/class-diagrams/frontend/front-diagram-4.png)
 
 </div>
 <br>
 
-Descripcion
+El diagrama muestra CrisisAlertDashboardPage como la vista central de alertas activas, AlertDetailPage para la gestión individual y MonitoringRulesPage para configurar las reglas de detección. CrisisBannerComponent garantiza visibilidad de alertas críticas en cualquier pantalla del sistema. CrisisStore mantiene el estado de alertas y reglas; CrisisFacade expone hasCriticalAlerts() y getUnacknowledgedCount() para que otros contextos puedan mostrar indicadores de estado. La infraestructura soporta WebSocket para recibir alertas en tiempo real.
 
 <br>
 <div align="center">
 
 **Backend Components Diagrams**
 
-![Backend Diagram BC4](brandradar-report/assets/class-diagrams/backend/back-diagram-.png)
+![Backend Diagram BC4](brandradar-report/assets/class-diagrams/backend/back-diagram-4.png)
 
 </div>
 <br>
 
-Descripcion
+El diagrama tiene dos Aggregate Roots complementarios. CrisisAlert modela una alerta activa con su prioridad (AlertPriority), trigger de origen y ciclo de vida: acknowledge(), escalate(), dismiss(). El método computeResponseTime() mide el tiempo entre detección y reconocimiento, métrica clave de efectividad operacional. MonitoringRule encapsula la inteligencia de detección: el AlertThreshold define cuándo activar una alerta evaluando volumen de menciones y porcentaje de sentimiento negativo en una ventana temporal. Su método triggerAlert() es el punto de decisión central del contexto. CrisisDetectionService evalúa el stream completo contra todas las reglas activas y puede detectar ataques coordinados. AlertNotificationService orquesta notificaciones multi-canal a través de SlackNotificationAdapter y EmailNotificationAdapter. Los eventos CrisisAlertTriggered, CrisisEscalated y AlertAcknowledged documentan cada paso del ciclo de vida de la alerta.
 
 <br>
 
@@ -3100,30 +2939,32 @@ Descripcion
 
 <br>
 
-Descripcion
+El Sentiment Intelligence Context es el contexto responsable del análisis semántico y emocional de las menciones, la detección de tendencias de sentimiento y la identificación de patrones de desinformación. Provee la inteligencia que transforma texto crudo en señales reputacionales interpretables por el negocio.
+Sus responsabilidades incluyen el análisis NLP de cada mención (sentimiento, emoción dominante, temas clave, idioma), el cálculo del SentimentScore compuesto, la detección de degradación sostenida del sentimiento, la comparación entre períodos para evaluar el impacto de estrategias, y la detección de patrones coordinados que sugieran campañas de desinformación. Este contexto emite los eventos SentimentTrendChanged, NegativeSentimentSpikeDetected y DisinformationPatternFlagged.
 
 <br>
 <div align="center">
 
 **Frontend Components Diagrams**
 
-![Frontend Diagram BC5](brandradar-report/assets/class-diagrams/frontend/front-diagram-.png)
+![Frontend Diagram BC5](brandradar-report/assets/class-diagrams/frontend/front-diagram-5.png)
 
 </div>
 <br>
 
-Descripcion
+El diagrama muestra cuatro componentes visuales especializados: SentimentDashboardPage para el score general, SentimentTrendChartComponent para la evolución temporal con predicción, EmotionBreakdownComponent para la distribución de emociones y ThemeWordCloudComponent para los temas recurrentes. SentimentStore y SentimentFacade centralizan el estado y exponen isNegativeTrend() para consumo cross-context. Los DTOs SentimentScoreDTO y TrendDTO incluyen métodos como isNegative() e isWorsening() para activar alertas visuales directamente desde el componente.
+
 <br>
 <div align="center">
 
 **Backend Components Diagrams**
 
-![Backend Diagram BC5](brandradar-report/assets/class-diagrams/backend/back-diagram-.png)
+![Backend Diagram BC5](brandradar-report/assets/class-diagrams/backend/back-diagram-5.png)
 
 </div>
 <br>
 
-Descripcion
+El diagrama está organizado alrededor del SentimentAnalysis, único Aggregate Root del contexto, que consolida los resultados individuales de análisis, la tendencia calculada y el score global compuesto. Sus métodos detectSentimentDegradation(), compareWithPreviousPeriod() y getTopNegativeThemes() representan decisiones de negocio concretas, no solo cálculos técnicos. La entidad SentimentTrend modela la dirección y magnitud de la tendencia con isWorsening() e isSuddenDrop() como indicadores de alarma. El Value Object SentimentScore descompone el sentimiento en cuatro dimensiones (positivo, negativo, neutro, compuesto), y SentimentDelta cuantifica la variación entre períodos. Los Domain Services NLPAnalysisService y SentimentTrendAnalyzer abstraen los modelos de IA, permitiendo cambiar de proveedor —OpenAINLPAdapter o HuggingFaceSentimentAdapter— sin afectar el dominio. El evento DisinformationPatternFlagged conecta este contexto con el de Crisis Detection.
 
 <br>
 
@@ -3131,33 +2972,32 @@ Descripcion
 
 <br>
 
-Descripcion
+El Infrastructure Health Context es el contexto responsable de monitorear la salud operacional de los servicios técnicos que soportan BrandRadar. Su función es detectar fallos de infraestructura antes de que impacten el monitoreo reputacional, garantizar el cumplimiento del SLA de disponibilidad y cuantificar el impacto reputacional que una caída de servicio puede generar para las marcas afectadas.
+Sus responsabilidades incluyen la ejecución periódica de health checks sobre los endpoints de cada servicio, la gestión del ciclo de vida de incidentes de infraestructura (InfraIncident), el cálculo de disponibilidad y cumplimiento del SLA, y la notificación a las marcas afectadas cuando un servicio crítico falla. Este contexto conecta la dimensión técnica con la reputacional: un fallo de infraestructura que afecta la disponibilidad del sistema puede derivar en riesgo reputacional para las marcas que dependen del monitoreo en tiempo real.
 
 <br>
 <div align="center">
 
 **Frontend Components Diagrams**
 
-![Frontend Diagram BC6](brandradar-report/assets/class-diagrams/frontend/front-diagram-.png)
+![Frontend Diagram BC6](brandradar-report/assets/class-diagrams/frontend/front-diagram-6.png)
 
 </div>
 <br>
 
-Descripcion
+El diagrama organiza cuatro componentes: InfraHealthDashboardPage como vista central, ServiceStatusComponent con indicadores visuales de estado y uptime, InfraIncidentListComponent para gestión y resolución de incidentes con nota de postmortem, y AvailabilityReportComponent para el reporte de cumplimiento del SLA. InfraStore mantiene el flag hasActiveIncidents para que otros contextos del frontend puedan mostrar alertas de degradación. InfraFacade expone hasReputationalRisk() y overallHealthScore() como indicadores cross-context. Los DTOs incluyen hasReputationalImpact() e isCompliant() para lógica de presentación condicional.
 
 <br>
 <div align="center">
 
 **Backend Components Diagrams**
 
-![Backend Diagram BC6](brandradar-report/assets/class-diagrams/backend/back-diagram-.png)
+![Backend Diagram BC6](brandradar-report/assets/class-diagrams/backend/back-diagram-6.png)
 
 </div>
 <br>
 
-Descripcion
-
-
+El diagrama presenta dos Aggregate Roots con una relación directa. ServiceHealthCheck ejecuta verificaciones periódicas sobre cada servicio, calcula la disponibilidad acumulada mediante UptimeRecord y determina si está por debajo del SLA. Sus métodos performCheck(), calculateAvailability() y requiresIntervention() gobiernan el ciclo de monitoreo. InfraIncident modela el incidente técnico con su tipo (OUTAGE, LATENCY_SPIKE, SSL_EXPIRY, etc.), severidad y marcas afectadas. El método estimateReputationalImpact() es el puente conceptual entre infraestructura y negocio, y notifyAffectedBrands() propaga el impacto a los responsables de cada marca. InfrastructureMonitoringService orquesta los checks en paralelo y evalúa el riesgo reputacional de cada incidente. El evento ReputationalImpactFromInfraDetected es el más relevante del contexto: conecta explícitamente un fallo técnico con el riesgo reputacional de las marcas que dependen del sistema. PagerDutyIntegrationAdapter conecta el sistema con la plataforma de guardia operacional.
 
 <br>
 
@@ -3173,7 +3013,7 @@ Descripcion
 
 ### 4.8.1. Database Diagrams
 
->*El diagrama de base de datos de Brandradar refleja una arquitectura orientada al dominio, organizada en múltiples bounded contexts, cada uno responsable de un conjunto cohesivo de entidades. Para su elaboración se utilizó MySQL Workbench, herramienta que permitió diseñar, visualizar y estructurar las tablas, columnas y relaciones del sistema de manera clara. Aunque el modelo es único a nivel físico, en el diagrama las tablas se agrupan visualmente según el bounded context al que pertenecen, lo que facilita la comprensión de la estructura del sistema sin generar duplicación de datos.*
+>*El diagrama de base de datos de Brandradar refleja una arquitectura orientada al dominio, organizada en múltiples bounded contexts, cada uno responsable de un conjunto cohesivo de entidades. Para su elaboración se utilizó MySQL Workbench, herramienta que permitió diseñar, visualizar y estructurar las tablas, columnas y relaciones del sistema de manera clara. Aunque el modelo es único a nivel físico, en el diagrama las tablas se agrupan visualmente según el bounded context al que pertenecen, lo que facilita la comprensión de la estructura del sistema sin generar duplicación de datos. Aunque todas las tablas comparten una sola base de datos, en el diagrama se agrupan visualmente según el bounded context al que pertenecen.*
 
 <br>
 
@@ -3184,7 +3024,7 @@ Descripcion
 
 <br>
 
-![Database Diagram](brandradar-report/assets/database-diagrams/db-diagra.png)
+![Database Diagram](brandradar-report/assets/database-diagrams/db-diagram.png)
 
 </div>
 
@@ -3194,33 +3034,39 @@ Descripcion
 
 <br>
 
+**Identity Access Context**
+
+Gestiona todo lo relacionado con autenticación, autorización y auditoría de usuarios. La entidad central es user_account, que define el perfil del usuario con su rol (SUPER_ADMIN, AGENCY_ADMIN, BRAND_ANALYST, READ_ONLY) y estado del ciclo de vida (PENDING, ACTIVE, SUSPENDED, DELETED). Las sesiones activas se registran en auth_session, almacenando el JWT, el refresh token, la IP y la fecha de expiración, con cascada de eliminación al borrar el usuario. La tabla user_assigned_brand modela la relación N:M entre usuarios y marcas, permitiendo que un analista tenga acceso restringido solo a las marcas que le corresponden. Finalmente, unauthorized_access_log registra intentos de acceso fallidos o no autorizados —incluyendo anónimos— para fines de auditoría de seguridad.
+
+<br>
+
 **Brand Workspace Context**
 
-Descripcion
+Es el núcleo organizativo de la plataforma. Un brand_workspace agrupa marcas bajo un plan de suscripción (FREE, STARTER, PROFESSIONAL, ENTERPRISE) y embebe la política del workspace como Value Object: límite de marcas (policy_max_brands) y cuota de alertas (policy_alert_quota). Los canales habilitados por workspace se gestionan en la tabla separada workspace_allowed_channel. Cada brand pertenece a un workspace e incorpora el ReputationIndex como campos embebidos (reputation_score, reputation_calculated_at). Para cada marca se configuran keyword_rule (palabras clave con tipo de match y peso) y monitoring_channel (canales de fuente de datos con credenciales cifradas y control de última sincronización).
 
 <br>
 
 **Reputation Monitoring Context** 
 
-Descripcion
+Centraliza la captura y gestión de menciones de marca en redes y medios. Un mention_stream define una ventana temporal de escucha activa para una marca. Cada mention capturada dentro de ese stream lleva embebido el Value Object MentionSource (plataforma, URL, confiabilidad del autor) y un SentimentScore preliminar (positivo, negativo, neutral, compuesto). Cuando las menciones derivan en un problema de reputación, se crea un reputation_incident con nivel de severidad, estado del flujo de trabajo (OPEN → ESCALATED → RESOLVED) y datos de resolución. El historial completo de acciones sobre cada incidente queda registrado en incident_event, con el actor que realizó cada acción.
 
 <br>
 
 **Crisis Detection Context** 
 
-Descripcion
+Implementa el motor de detección proactiva de crisis. Las monitoring_rule definen las condiciones de disparo embebiendo el Value Object AlertThreshold: volumen máximo de menciones, porcentaje de sentimiento negativo permitido y ventana de tiempo de evaluación. Cada regla puede tener asociados keywords (monitoring_rule_keyword), canales monitoreados (monitoring_rule_channel), canales de notificación (monitoring_rule_notification_channel) y stakeholders a alertar (monitoring_rule_stakeholder). Cuando una regla se activa, genera un crisis_alert con su AlertPriority, tipo de disparo (VOLUME_SPIKE, SENTIMENT_DROP, KEYWORD_MATCH, COORDINATED_ATTACK) y métricas de confianza. El reconocimiento de la alerta queda formalizado en crisis_alert_acknowledgement y las notificaciones enviadas se rastrean en crisis_alert_notified_stakeholder.
 
 <br>
 
 **Sentiment Intelligence Context** 
 
-Descripcion
+Provee análisis de sentimiento agregado y profundo por marca. Un sentiment_analysis cubre un período temporal y contiene el SentimentScore global (positivo, negativo, neutral, compuesto), la tendencia embebida SentimentTrend (dirección: IMPROVING, STABLE, DECLINING, CRITICAL_DROP con magnitud) y el SentimentDelta comparativo respecto al período anterior. Cada sentiment_result desagrega el análisis a nivel de mención individual, registrando scores individuales y la emoción dominante detectada (JOY, ANGER, SADNESS, FEAR, SURPRISE, DISGUST). Los temas recurrentes identificados en cada resultado se almacenan como entradas individuales en sentiment_result_theme, permitiendo análisis de tendencias temáticas.
 
 <br>
 
 **Infrastructure Health Context** 
 
-Descripcion
+Monitorea la salud operativa de los servicios internos de la plataforma. Cada service_health_check registra un servicio con su ServiceEndpoint embebido (URL, método HTTP, timeout) y su UptimeRecord (total de checks realizados, exitosos y ventana de días). Los resultados individuales de cada verificación —tiempo de respuesta, HTTP status e indicador de salud— se persisten en health_check_result. Cuando se detecta una degradación, se abre un infra_incident categorizado por tipo (OUTAGE, LATENCY_SPIKE, SSL_EXPIRY, etc.) con su SeverityLevel y flujo de resolución hasta el estado POSTMORTEM. La tabla infra_incident_affected_brand vincula cada incidente de infraestructura con las marcas cuyo monitoreo fue impactado, cerrando el ciclo entre la salud técnica y su efecto reputacional.
 
 <br>
 
@@ -3270,7 +3116,7 @@ En esta sección se describen las herramientas de software seleccionadas para da
 
 | Herramienta / Tecnología | Uso principal | Enlace |
 |:---|:---|:---|
-| ![VSCode](https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white) | Entorno de desarrollo integrado principal para escribir, editar y depurar el código de la aplicación. | [code.visualstudio.com](https://code.visualstudio.com) |
+| ![WebStorm](https://img.shields.io/badge/WebStorm-000000?style=for-the-badge&logo=webstorm&logoColor=white) | Entorno de desarrollo integrado principal para escribir, editar y depurar el código de la aplicación. | [jetbrains.com/webstorm](https://www.jetbrains.com/webstorm/) |
 | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) | Lenguaje de marcado para estructurar el contenido de la landing page y del dashboard de BrandRadar. | [MDN Web Docs](https://developer.mozilla.org/docs/Web/HTML) |
 | ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) | Lenguaje de estilos para definir la apariencia visual de la landing page y la aplicación web. | [MDN Web Docs](https://developer.mozilla.org/docs/Web/CSS) |
 | ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white) | Framework principal para el desarrollo de la aplicación web con componentes reutilizables y enrutamiento. | [angular.io](https://angular.io) |
@@ -3292,7 +3138,7 @@ En esta sección se describen las herramientas de software seleccionadas para da
 |:---|:---|:---|
 | ![Structurizr](https://img.shields.io/badge/Structurizr_DSL-1168BD?style=for-the-badge&logoColor=white) | Modelado de la arquitectura del sistema con el enfoque C4 mediante la técnica Diagrams-as-Code. | [structurizr.com/dsl](https://structurizr.com/dsl) |
 | ![PlantUML](https://img.shields.io/badge/PlantUML-1A5276?style=for-the-badge&logoColor=white) | Elaboración de diagramas UML y de arquitectura, compatible con la documentación técnica del proyecto. | [plantuml.com](https://plantuml.com/es/) |
-| ![MySQL](https://img.shields.io/badge/MySQL_Workbench-4479A1?style=for-the-badge&logo=mysql&logoColor=white) | Diseño visual y profesional de bases de datos relacionales. | [mysql.com/products/workbench](https://www.mysql.com/products/workbench) |
+| ![MySQL Workbench](https://img.shields.io/badge/MySQL_Workbench-4479A1?style=for-the-badge&logo=mysql&logoColor=white) | Diseño visual y profesional de bases de datos relacionales. | [mysql.com/products/workbench](https://www.mysql.com/products/workbench) |
 
 <br>
 
@@ -3347,7 +3193,7 @@ El repositorio principal del proyecto se encuentra disponible en el siguiente en
 | :----------------------- | :--------------------------------------------------------------------------------------------------- |
 | Organización Los 5 Suyos | [https://github.com/Los-5-Suyos](https://github.com/Los-5-Suyos)                                     |
 | Landing Page             | [https://github.com/Los-5-Suyos/BrandRadar-Landing-Page](https://github.com/Los-5-Suyos/BrandRadar-Landing-Page)  |
-| Report                   | [https://github.com/Los-5-Suyos/BrandRadar](https://github.com/Los-5-Suyos/BrandRadar) |
+| Report                   | [https://github.com/Los-5-Suyos/BrandRadar-report.git](https://github.com/Los-5-Suyos/BrandRadar-report.git) |
 | Web Application          | [https://github.com/Los-5-Suyos/BrandRadar-Frontend-Web-App](https://github.com/Los-5-Suyos/BrandRadar-Frontend-Web-App)  |
 | API / Backend            | [https://github.com/Los-5-Suyos/BrandRadar-Web-Services](https://github.com/Los-5-Suyos/BrandRadar-Web-Services)  |
 
@@ -3907,8 +3753,6 @@ A continuación se presenta el Sprint Planning para esta segunda entrega, donde 
 
 #### 5.2.2.4. Development Evidence for Sprint Review
 
-<br>
-
 Durante el Sprint 2, el equipo se enfocó en la construcción de la arquitectura frontend de BrandRadar utilizando Angular y TypeScript bajo una estructura modular orientada a Domain-Driven Design (DDD). El objetivo principal del sprint fue implementar los flujos de autenticación, autorización contextual y gestión de workspaces reputacionales, permitiendo que cada usuario opere únicamente dentro de los espacios asignados.
 
 Se desarrollaron pantallas clave como Registro, Login, Verificación de Correo, Recuperación de Contraseña, Gestión de BrandWorkspace, Dashboard Reputacional e Incidentes, integradas mediante servicios, guards e interceptors reutilizables. Asimismo, se incorporó una Fake API con `json-server` para simular los endpoints del dominio y permitir pruebas funcionales sin depender todavía de un backend definitivo.
@@ -3935,8 +3779,6 @@ El desarrollo se realizó en el repositorio público de frontend utilizando GitF
 ---
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
-
-<br>
 
 Durante el Sprint 2 se implementó la primera versión funcional del sistema web de BrandRadar, enfocada en los flujos de autenticación, autorización contextual y gestión de workspaces reputacionales. El equipo desarrolló una arquitectura frontend modular utilizando Angular y TypeScript, incorporando guards, interceptors y servicios reactivos para garantizar el aislamiento seguro de información entre clientes.
 
@@ -4033,8 +3875,6 @@ Asimismo, se elaboró un video demostrativo que muestra la ejecución de los flu
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
-<br>
-
 Durante el Sprint 2, el equipo implementó la primera aproximación funcional de los servicios requeridos por BrandRadar mediante el uso de una Fake API construida con `json-server`. Esta infraestructura permitió simular el comportamiento de los endpoints definidos en el modelo de dominio, facilitando el desarrollo paralelo entre frontend y backend sin depender todavía de servicios productivos reales.
 
 Los servicios simulados cubrieron los principales flujos del sprint, incluyendo autenticación, verificación de cuentas, recuperación de contraseña, gestión de `BrandWorkspace`, monitoreo reputacional e incidentes. Además, se definieron contratos preliminares de integración alineados con los bounded contexts y Domain Events del sistema.
@@ -4072,30 +3912,32 @@ A continuación, se presentan capturas de la Fake API, rutas simuladas y pruebas
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
-<br>
 
-Durante el Sprint 2 se realizó el despliegue de la aplicación frontend de BrandRadar utilizando Vercel, integrado directamente con el repositorio del proyecto en GitHub. El despliegue permitió validar en un entorno cloud los flujos de autenticación, navegación protegida y gestión contextual de workspaces desarrollados durante el sprint.
+Durante el Sprint 2 se realizó el despliegue de la aplicación frontend de BrandRadar utilizando GitHub Pages como plataforma de hosting, integrada directamente con el repositorio oficial del proyecto en GitHub. El despliegue permitió validar en un entorno web público los flujos de autenticación, navegación protegida y gestión contextual de workspaces implementados durante el sprint.
 
-El proceso de despliegue fue automatizado mediante integración continua (CI/CD), asegurando que cada actualización en la rama principal generara automáticamente una nueva versión de la aplicación.
+El proceso de publicación fue realizado mediante GitHub Pages, permitiendo alojar de manera rápida y eficiente la aplicación frontend desarrollada en Angular. Asimismo, el uso de GitHub facilitó la centralización del código fuente, control de versiones y actualización continua del proyecto.
 
-<br>
+**Deployment Process :**
 
-**Deployment Process**
-
-1. Ingresar a la plataforma Vercel utilizando la opción “Continue with GitHub”.
-2. Autorizar el acceso de Vercel a los repositorios del equipo.
-3. Seleccionar la opción “Add New Project”.
-4. Importar el repositorio `BrandRadar-Frontend-Web-App`.
-5. Configurar Angular como framework del proyecto.
-6. Configurar la rama principal (`main`) como rama de despliegue.
-7. Definir los parámetros de build (`npm install` y `ng build`).
-8. Ejecutar el despliegue mediante la opción “Deploy”.
-9. Esperar la generación automática del dominio público.
-10. Validar el correcto funcionamiento de la aplicación desplegada.
+1. Ingresar al repositorio del proyecto en GitHub.
+2. Configurar el proyecto Angular para despliegue en GitHub Pages.
+3. Instalar la dependencia angular-cli-ghpages.
+4. Generar la versión de producción mediante el comando `ng build`.
+5. Ejecutar el proceso de despliegue utilizando GitHub Pages.
+6. Publicar automáticamente los archivos compilados en la rama `gh-pages`.
+7. Habilitar GitHub Pages desde la configuración del repositorio.
+8. Esperar la generación automática de la URL pública.
+9. Validar el correcto funcionamiento de la aplicación desplegada.
 
 <br>
 
-**URL pública:** [url](url)
+#### Commands Used
+
+> npm install -g angular-cli-ghpages
+
+<br>
+
+**URL Frontend:** [url](url)
 
 <br>
 
@@ -4121,8 +3963,6 @@ A continuación, se presentan capturas del proceso de despliegue y del resultado
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
-<br>
-
 Durante el Sprint 2, el equipo continuó utilizando GitFlow como estrategia principal de colaboración y control de versiones. Cada integrante desarrolló funcionalidades específicas en ramas `feature/`, permitiendo trabajar de manera paralela sobre autenticación, guards, dashboard reputacional, gestión de incidentes y servicios compartidos sin afectar la estabilidad de la rama principal.
 
 La colaboración se fortaleció mediante integraciones frecuentes hacia `develop`, validando compatibilidad entre componentes Angular, servicios y rutas protegidas antes de consolidar el sprint completo.
@@ -4147,6 +3987,8 @@ La colaboración se fortaleció mediante integraciones frecuentes hacia `develop
 
 <br>
 
+---
+
 ## Conclusiones
 
 
@@ -4165,6 +4007,8 @@ La colaboración se fortaleció mediante integraciones frecuentes hacia `develop
 
 <br>
 
+---
+
 ## Recomendaciones
 
 1. Continuar fortaleciendo la arquitectura del proyecto mediante componentes reutilizables, servicios desacoplados y una mejor organización modular.
@@ -4181,9 +4025,8 @@ La colaboración se fortaleció mediante integraciones frecuentes hacia `develop
 
 7. Implementar mecanismos de monitoreo y seguridad en el backend para proteger la información reputacional gestionada por la plataforma.
 
-<br>
 
----
+<br>
 
 ## Video About-The-Team
 
@@ -4201,7 +4044,6 @@ El video tiene como objetivo presentar a los integrantes del equipo, sus roles, 
 <br>
 
 ---
-
 
 ##  Bibliografía
 
@@ -4243,7 +4085,7 @@ En este documento se incluyen los criterios de evaluación, evidencias de trabaj
 | Entrega | Título | Enlace |
 |:-------:|:------:|:------:|
 | AV1 | `upc-pre-202610-1asi0729-[11863]-[brandradar]-expo-av1` | [URL Microsoft Stream](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202410239_upc_edu_pe/IgBV-ACEG37lQ466daCivegHARBFGxWIBXchDZGj6xfsMAY?e=Y3HNmH) |
-| TB1 | `upc-pre-202610-1asi0729-[11863]-[brandradar]-expo-tb1` | [URL Microsoft Stream](https://upcedupe-my.sharepoint.com/) |
+| TB1 | `upc-pre-202610-1asi0729-[11863]-[brandradar]-expo-tb1` | [URL Microsoft Stream](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202410239_upc_edu_pe/IgCUwFHqhNzvSLnvprF7sOxmAcitk8v93xpRomtd_CLgQTw?e=kcPhrd) |
 
 <br>
 
