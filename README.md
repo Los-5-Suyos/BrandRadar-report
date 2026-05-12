@@ -2453,7 +2453,25 @@ Se aplican principios de diseño centrado en el usuario, consistencia visual bas
 
 <br>
 
-![Web App Mockups](brandradar-report/assets/web-app/mockups.png)
+![Register](brandradar-report/assets/web-app/registro.png)
+
+![Login](brandradar-report/assets/web-app/login.png)
+
+Segmento PyME
+
+![Dashboard](brandradar-report/assets/web-app/dashboard.png)
+
+![Incidentes](brandradar-report/assets/web-app/incidentes.png)
+
+![Detalles Incidente](brandradar-report/assets/web-app/incidentes-detalles.png)
+
+![Generar Respuesta](brandradar-report/assets/web-app/generar-respuesta-ia.png)
+
+![Incidente Resuelto](brandradar-report/assets/web-app/incidente-resuelto.png)
+
+![Menciones](brandradar-report/assets/web-app/menciones.png)
+
+
 
 <br>
 
