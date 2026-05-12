@@ -2453,23 +2453,57 @@ Se aplican principios de diseño centrado en el usuario, consistencia visual bas
 
 <br>
 
+Register
 ![Register](brandradar-report/assets/web-app/registro.png)
 
+Login
 ![Login](brandradar-report/assets/web-app/login.png)
 
 Segmento PyME
 
+Dashboard
 ![Dashboard](brandradar-report/assets/web-app/dashboard.png)
 
+Incidentes
 ![Incidentes](brandradar-report/assets/web-app/incidentes.png)
 
+Detalles Incidente
 ![Detalles Incidente](brandradar-report/assets/web-app/incidentes-detalles.png)
 
+Generar Respuesta
 ![Generar Respuesta](brandradar-report/assets/web-app/generar-respuesta-ia.png)
 
+Incidente Resuelto
 ![Incidente Resuelto](brandradar-report/assets/web-app/incidente-resuelto.png)
 
+Menciones
 ![Menciones](brandradar-report/assets/web-app/menciones.png)
+
+Detalles Menciones
+![Menciones](brandradar-report/assets/web-app/detalle-mencion.png)
+
+Mencion Respondida
+![Menciones](brandradar-report/assets/web-app/menciones.png)
+
+Mis Marcas
+![Menciones](brandradar-report/assets/web-app/detalle-marca.png)
+
+Detalles Marca
+![Menciones](brandradar-report/assets/web-app/detalle-marca.png)
+
+Agregar Fuente
+![Menciones](brandradar-report/assets/web-app/agregar-fuente.png)
+
+Reglas
+![Menciones](brandradar-report/assets/web-app/reglas.png)
+
+Reportes
+![Menciones](brandradar-report/assets/web-app/reportes.png)
+
+Infraestructura
+![Menciones](brandradar-report/assets/web-app/infraestructura.png)
+
+
 
 
 
