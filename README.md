@@ -1697,7 +1697,7 @@ Para Alfredo Negrete, el sistema no solo facilita la detección de quejas, sino 
 
 Para Romina Apaza, la solución elimina la carga operativa del monitoreo manual y le otorga capacidad analítica avanzada, permitiéndole entregar valor estratégico a través de KPIs de retención mensual y métricas de conversión real (ROI).
 
-Estos impactos se materializan en entregables como el motor de IA con entrenamiento por industria, módulos de SEO local sincronizados con Google Maps y herramientas de análisis creativo para redes sociales, asegurando una trazabilidad total con las 46 historias de usuario del backlog.
+Estos impactos se materializan en entregables como el motor de IA con entrenamiento por industria, módulos de SEO local sincronizados con Google Maps y herramientas de análisis creativo para redes sociales, asegurando una trazabilidad total con las 49 User Stories del Product Backlog.
 
 <br>
 
