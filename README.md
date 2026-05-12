@@ -3753,8 +3753,6 @@ A continuación se presenta el Sprint Planning para esta segunda entrega, donde 
 
 #### 5.2.2.4. Development Evidence for Sprint Review
 
-<br>
-
 Durante el Sprint 2, el equipo se enfocó en la construcción de la arquitectura frontend de BrandRadar utilizando Angular y TypeScript bajo una estructura modular orientada a Domain-Driven Design (DDD). El objetivo principal del sprint fue implementar los flujos de autenticación, autorización contextual y gestión de workspaces reputacionales, permitiendo que cada usuario opere únicamente dentro de los espacios asignados.
 
 Se desarrollaron pantallas clave como Registro, Login, Verificación de Correo, Recuperación de Contraseña, Gestión de BrandWorkspace, Dashboard Reputacional e Incidentes, integradas mediante servicios, guards e interceptors reutilizables. Asimismo, se incorporó una Fake API con `json-server` para simular los endpoints del dominio y permitir pruebas funcionales sin depender todavía de un backend definitivo.
@@ -3781,8 +3779,6 @@ El desarrollo se realizó en el repositorio público de frontend utilizando GitF
 ---
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
-
-<br>
 
 Durante el Sprint 2 se implementó la primera versión funcional del sistema web de BrandRadar, enfocada en los flujos de autenticación, autorización contextual y gestión de workspaces reputacionales. El equipo desarrolló una arquitectura frontend modular utilizando Angular y TypeScript, incorporando guards, interceptors y servicios reactivos para garantizar el aislamiento seguro de información entre clientes.
 
@@ -3879,8 +3875,6 @@ Asimismo, se elaboró un video demostrativo que muestra la ejecución de los flu
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
-<br>
-
 Durante el Sprint 2, el equipo implementó la primera aproximación funcional de los servicios requeridos por BrandRadar mediante el uso de una Fake API construida con `json-server`. Esta infraestructura permitió simular el comportamiento de los endpoints definidos en el modelo de dominio, facilitando el desarrollo paralelo entre frontend y backend sin depender todavía de servicios productivos reales.
 
 Los servicios simulados cubrieron los principales flujos del sprint, incluyendo autenticación, verificación de cuentas, recuperación de contraseña, gestión de `BrandWorkspace`, monitoreo reputacional e incidentes. Además, se definieron contratos preliminares de integración alineados con los bounded contexts y Domain Events del sistema.
@@ -3918,30 +3912,32 @@ A continuación, se presentan capturas de la Fake API, rutas simuladas y pruebas
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
-<br>
 
-Durante el Sprint 2 se realizó el despliegue de la aplicación frontend de BrandRadar utilizando Vercel, integrado directamente con el repositorio del proyecto en GitHub. El despliegue permitió validar en un entorno cloud los flujos de autenticación, navegación protegida y gestión contextual de workspaces desarrollados durante el sprint.
+Durante el Sprint 2 se realizó el despliegue de la aplicación frontend de BrandRadar utilizando GitHub Pages como plataforma de hosting, integrada directamente con el repositorio oficial del proyecto en GitHub. El despliegue permitió validar en un entorno web público los flujos de autenticación, navegación protegida y gestión contextual de workspaces implementados durante el sprint.
 
-El proceso de despliegue fue automatizado mediante integración continua (CI/CD), asegurando que cada actualización en la rama principal generara automáticamente una nueva versión de la aplicación.
+El proceso de publicación fue realizado mediante GitHub Pages, permitiendo alojar de manera rápida y eficiente la aplicación frontend desarrollada en Angular. Asimismo, el uso de GitHub facilitó la centralización del código fuente, control de versiones y actualización continua del proyecto.
 
-<br>
+**Deployment Process :**
 
-**Deployment Process**
-
-1. Ingresar a la plataforma Vercel utilizando la opción “Continue with GitHub”.
-2. Autorizar el acceso de Vercel a los repositorios del equipo.
-3. Seleccionar la opción “Add New Project”.
-4. Importar el repositorio `BrandRadar-Frontend-Web-App`.
-5. Configurar Angular como framework del proyecto.
-6. Configurar la rama principal (`main`) como rama de despliegue.
-7. Definir los parámetros de build (`npm install` y `ng build`).
-8. Ejecutar el despliegue mediante la opción “Deploy”.
-9. Esperar la generación automática del dominio público.
-10. Validar el correcto funcionamiento de la aplicación desplegada.
+1. Ingresar al repositorio del proyecto en GitHub.
+2. Configurar el proyecto Angular para despliegue en GitHub Pages.
+3. Instalar la dependencia angular-cli-ghpages.
+4. Generar la versión de producción mediante el comando `ng build`.
+5. Ejecutar el proceso de despliegue utilizando GitHub Pages.
+6. Publicar automáticamente los archivos compilados en la rama `gh-pages`.
+7. Habilitar GitHub Pages desde la configuración del repositorio.
+8. Esperar la generación automática de la URL pública.
+9. Validar el correcto funcionamiento de la aplicación desplegada.
 
 <br>
 
-**URL pública:** [url](url)
+#### Commands Used
+
+> npm install -g angular-cli-ghpages
+
+<br>
+
+**URL Frontend:** [url](url)
 
 <br>
 
@@ -3967,8 +3963,6 @@ A continuación, se presentan capturas del proceso de despliegue y del resultado
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
-<br>
-
 Durante el Sprint 2, el equipo continuó utilizando GitFlow como estrategia principal de colaboración y control de versiones. Cada integrante desarrolló funcionalidades específicas en ramas `feature/`, permitiendo trabajar de manera paralela sobre autenticación, guards, dashboard reputacional, gestión de incidentes y servicios compartidos sin afectar la estabilidad de la rama principal.
 
 La colaboración se fortaleció mediante integraciones frecuentes hacia `develop`, validando compatibilidad entre componentes Angular, servicios y rutas protegidas antes de consolidar el sprint completo.
@@ -3993,6 +3987,8 @@ La colaboración se fortaleció mediante integraciones frecuentes hacia `develop
 
 <br>
 
+---
+
 ## Conclusiones
 
 
@@ -4010,6 +4006,8 @@ La colaboración se fortaleció mediante integraciones frecuentes hacia `develop
  
 
 <br>
+
+---
 
 ## Recomendaciones
 
@@ -4046,7 +4044,6 @@ El video tiene como objetivo presentar a los integrantes del equipo, sus roles, 
 <br>
 
 ---
-
 
 ##  Bibliografía
 
