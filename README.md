@@ -2452,58 +2452,108 @@ Se aplican principios de diseño centrado en el usuario, consistencia visual bas
 >*El diseño busca transmitir confianza, claridad y eficiencia, valores fundamentales de BrandRadar, asegurando que tanto los dueños de PyMEs como los account managers de agencias puedan interpretar la información de reputación digital de forma rápida e intuitiva.*
 
 <br>
-
+<br>
 Register <br>
 ![Register](brandradar-report/assets/web-app/registro.png)
-<br>
+<br><br>
 Login <br>
 ![Login](brandradar-report/assets/web-app/login.png)
-<br><br>
+<br><br><br>
 Segmento PyME
-<br><br>
+<br><br><br>
 Dashboard<br>
 ![Dashboard](brandradar-report/assets/web-app/dashboard.png)
-<br>
+<br><br>
 Incidentes<br>
 ![Incidentes](brandradar-report/assets/web-app/incidentes.png)
-<br>
+<br><br>
 Detalles Incidente<br>
 ![Detalles Incidente](brandradar-report/assets/web-app/incidentes-detalles.png)
-<br>
+<br><br>
 Generar Respuesta<br>
 ![Generar Respuesta](brandradar-report/assets/web-app/generar-respuesta-ia.png)
-<br>
+<br><br>
 Incidente Resuelto<br>
 ![Incidente Resuelto](brandradar-report/assets/web-app/incidente-resuelto.png)
-<br>
+<br><br>
 Menciones<br>
 ![Menciones](brandradar-report/assets/web-app/menciones.png)
-<br>
+<br><br>
 Detalles Menciones<br>
 ![Menciones](brandradar-report/assets/web-app/detalle-mencion.png)
-<br>
+<br><br>
 Mencion Respondida<br>
 ![Menciones](brandradar-report/assets/web-app/menciones.png)
-<br>
+<br><br>
 Mis Marcas<br>
 ![Menciones](brandradar-report/assets/web-app/detalle-marca.png)
-<br>
+<br><br>
 Detalles Marca<br>
 ![Menciones](brandradar-report/assets/web-app/detalle-marca.png)
-<br>
+<br><br>
 Agregar Fuente<br>
 ![Menciones](brandradar-report/assets/web-app/agregar-fuente.png)
-<br>
+<br><br>
 Reglas<br>
 ![Menciones](brandradar-report/assets/web-app/reglas.png)
-<br>
+<br><br>
 Reportes<br>
 ![Menciones](brandradar-report/assets/web-app/reportes.png)
-<br>
+<br><br>
 Infraestructura<br>
 ![Menciones](brandradar-report/assets/web-app/infraestructura.png)
+<br><br><br>
+Segmento Agencia(Account Manager)
+<br><br><br>
+Dashboard<br>
+![Menciones](brandradar-report/assets/web-app/s2-dashboard.png)
+
+Mis Clientes
+![Menciones](brandradar-report/assets/web-app/mis-clientes.png)
 <br><br>
-Degmento Marketing
+Detalle Mis Clientes<br>
+![Menciones](brandradar-report/assets/web-app/s2-incidente-agencia.png)
+<br><br>
+Clientes Respuesta IA<br>
+![Menciones](brandradar-report/assets/web-app/s2-respuesta-ia.png)
+<br><br>
+Incidentes<br>
+![Menciones](brandradar-report/assets/web-app/s2-incidentes.png)
+<br><br>
+Menciones<br>
+![Menciones](brandradar-report/assets/web-app/s2-menciones.png)
+<br><br>
+Generar Respuesta<br>
+![Menciones](brandradar-report/assets/web-app/s2-generar-respuesta-menciones.png)
+<br><br>
+Mencion Respondida<br>
+![Menciones](brandradar-report/assets/web-app/s2-mencion-respondida.png)
+<br><br>
+Reportes<br>
+![Menciones](brandradar-report/assets/web-app/s2-reporte.png)
+<br><br>
+Generar Reporte<br>
+![Menciones](brandradar-report/assets/web-app/s2-generar-reporte.png)
+<br><br>
+Reporte Generado<br>
+![Menciones](brandradar-report/assets/web-app/s2-reporte-generado.png)
+<br><br>
+Comparativas<br>
+![Menciones](brandradar-report/assets/web-app/s2-comparativa.png)
+<br><br>
+Configuración<br>
+![Menciones](brandradar-report/assets/web-app/s2-configuracion.png)
+<br><br>
+
+
+
+
+
+
+
+
+
+
 
 
 
