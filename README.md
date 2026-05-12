@@ -1412,7 +1412,7 @@ Este recorrido permite identificar puntos de fricción, emociones asociadas a ca
 |---|---|---|---|---|
 | **Doing** | Ingresa manualmente a cada red social, Google Maps y reseñas por marca para revisar nuevos comentarios. Alterna entre plataformas sin un orden fijo, dependiendo del tiempo disponible. | Copia y pega los comentarios relevantes en un documento de Notion o Trello para organizarlos por urgencia. | Redacta respuestas individuales para cada comentario negativo. Escala a sus clientes los casos más críticos por WhatsApp. | Arma reportes manuales en documentos, agregando capturas de pantalla y métricas recopiladas a mano cada mes. |
 | **Thinking** | "Hay demasiadas plataformas para revisar y siempre tengo miedo de perderme algo importante." | "Clasificar esto a mano me lleva horas que podría usar en estrategia de contenido." | "Si no detecto una queja a tiempo, el posicionamiento de mi cliente en Google puede verse afectado." | "Armar este reporte me tomó 3 horas. No es sostenible si quiero escalar mis cuentas." |
-| | "No puedo estar pendiente de todo al mismo tiempo cuando manejo más de una marca." | "No tengo certeza de que lo que priorizo sea realmente lo más urgente." | "Respondo como puedo, pero sin datos de sentimiento no sé si mi estrategia está funcionando." | "Mis clientes me exigen datos que yo mismo estoy calculando a ojo." |
+| | "No puedo estar pendiente de todo al mismo tiempo cuando manejo más de una marca." | "No tengo certeza de que lo que priorizo sea realmente lo más urgente." | "Respondo como puedo, pero sin datos de sentimiento no sé si mi estrategia está funcionando." | " me exigen datos que yo mismo estoy calculando a ojo." |
 | **Feeling** | Se siente abrumada por el volumen de información dispersa que debe revisar diariamente. | Se siente agotada al invertir más de dos horas diarias en tareas repetitivas y manuales. | Se siente bajo presión constante ante el riesgo de no detectar una crisis a tiempo. | Se siente limitada profesionalmente porque el tiempo que pierde en reportes le impide ofrecer un servicio de mayor valor a sus clientes. |
 
 
@@ -1624,10 +1624,10 @@ En conjunto, la identificación de eventos, actores y flujos permitió construir
 | --- | --- | --- | --- | --- |
 | **EP01 – Landing Page** |||||
 | **US01** | Comunicar propuesta de valor para convertir visitantes en prospectos | Como visitante PyME o de agencia digital, quiero comprender rápidamente qué problema resuelve BrandRadar y qué lo diferencia de otras herramientas para decidir si vale la pena registrarme. | **Escenario 1 – Prospecto decide iniciar registro:** <br> **Given:** el visitante accede a la página principal y lee la propuesta de valor <br>**When:** comprende que BrandRadar monitorea reputación en tiempo real <br> **Then:** el sistema registra la intención de conversión cuando el visitante hace clic en 'Comenzar gratis', emitiendo el evento `ProspectInterestCaptured` para el seguimiento comercial. <br> <br> **Escenario 2 – Visitante abandona sin conversión:** <br> **Given:** el visitante llega a la página pero no encuentra su caso de uso representado <br> **When:** abandona sin interactuar <br> **Then:** el sistema no registra ningún evento de conversión, preservando la integridad de las métricas de adquisición. <br> <br> **Escenario 3 – Prospecto desde dispositivo móvil:** <br> **Given:** el visitante accede desde un smartphone <br> **When:** lee la propuesta de valor <br> **Then:** el contenido es completamente legible y la llamada a la acción es accesible, sin pérdida de capacidad de conversión por limitaciones de dispositivo. | EP01 |
-| **US02** | Evaluar si las capacidades del producto cubren las necesidades de monitoreo reputacional | Como director de agencia digital, quiero conocer las capacidades operacionales de BrandRadar — detección de menciones, análisis de sentimiento, gestión de crisis — para evaluar si cubre el flujo de trabajo de mis clientes antes de comprometer una suscripción. | **Escenario 1 – Capacidades operacionales identificadas:** <br> **Given:** el director accede a la sección de funcionalidades <br> **When:** revisa las capacidades listadas <br> **Then:** puede identificar al menos tres flujos de trabajo reputacional concretos (monitoreo, detección de crisis, reportes) que se alinean con sus necesidades operacionales. <br> <br> **Escenario 2 – Caso de uso para agencias representado:** <br> **Given:** el director busca si BrandRadar soporta gestión multi-cliente <br> **When:** revisa la sección de agencias <br> **Then:** el sistema expone explícitamente la capacidad de gestión de múltiples marcas con reportes por cliente, habilitando evaluación de adecuación para su modelo de negocio. <br> <br> **Escenario 3 – Prospecto no encuentra su caso de uso:** **Given:** el visitante no identifica su segmento representado **When:** intenta contactar al equipo para más información **Then:** puede acceder directamente al flujo de contacto sin abandonar la evaluación. | EP01 |
+| **US02** | Evaluar si las capacidades del producto cubren las necesidades de monitoreo reputacional | Como director de agencia digital, quiero conocer las capacidades operacionales de BrandRadar — detección de menciones, análisis de sentimiento, gestión de crisis — para evaluar si cubre el flujo de trabajo de  antes de comprometer una suscripción. | **Escenario 1 – Capacidades operacionales identificadas:** <br> **Given:** el director accede a la sección de funcionalidades <br> **When:** revisa las capacidades listadas <br> **Then:** puede identificar al menos tres flujos de trabajo reputacional concretos (monitoreo, detección de crisis, reportes) que se alinean con sus necesidades operacionales. <br> <br> **Escenario 2 – Caso de uso para agencias representado:** <br> **Given:** el director busca si BrandRadar soporta gestión multi-cliente <br> **When:** revisa la sección de agencias <br> **Then:** el sistema expone explícitamente la capacidad de gestión de múltiples marcas con reportes por cliente, habilitando evaluación de adecuación para su modelo de negocio. <br> <br> **Escenario 3 – Prospecto no encuentra su caso de uso:** **Given:** el visitante no identifica su segmento representado **When:** intenta contactar al equipo para más información **Then:** puede acceder directamente al flujo de contacto sin abandonar la evaluación. | EP01 |
 | **US03** | Reducir fricción de decisión mediante evidencia social de usuarios reales | Como gerente PyME, quiero conocer la experiencia de otras empresas similares con BrandRadar para reducir el riesgo percibido de adopción y tomar una decisión de registro más informada. | **Escenario 1 – Evidencia social de segmento relevante:** <br> **Given:** el gerente accede a la sección de testimonios <br> **When:** revisa los casos presentados <br> **Then:** puede identificar al menos un testimonio de una empresa del mismo segmento (PyME o agencia) que describe un problema reputacional concreto resuelto con BrandRadar. <br> <br> **Escenario 2 – Credibilidad del testimonio verificable:** <br> **Given:** el gerente quiere validar la autenticidad del caso <br> **When:** revisa el testimonio <br> **Then:** el sistema expone nombre, tipo de empresa y descripción del resultado operacional obtenido, no solo una frase genérica de satisfacción. <br> <br> **Escenario 3 – Más de un caso disponible para comparación:** <br> **Given:** hay múltiples testimonios con casos distintos <br> **When:** el gerente navega entre ellos <br> **Then:** puede comparar experiencias de distintos perfiles para reducir incertidumbre antes de registrarse. | EP01 |
 | **US04** | Seleccionar el plan que se alinea con la escala operacional del negocio | Como dueño de PyME, quiero comparar los planes disponibles de BrandRadar con sus límites operacionales — marcas monitoreadas, fuentes, usuarios — para seleccionar el que se ajusta a mi escala sin pagar por capacidad que no usaré. | **Escenario 1 – Comparación de capacidades operacionales por plan:** <br> **Given:** el dueño accede a la sección de precios <br> **When:** compara los planes disponibles <br> **Then:** puede identificar diferencias concretas en capacidades operacionales (número de marcas, fuentes conectadas, usuarios) que le permiten tomar una decisión fundamentada en sus necesidades actuales. <br> <br> **Escenario 2 – Plan seleccionado vincula compromiso comercial:** <br> **Given:** el dueño decide qué plan se ajusta a su escala <br> **When:** elige un plan <br> **Then:** el sistema registra la selección como intención comercial y la preserva durante el flujo de registro para evitar que el prospecto deba repetir la decisión. <br> <br> **Escenario 3 – Plan sin información operacional suficiente:** <br> **Given:** el dueño no puede determinar si el plan cubre sus necesidades con la información disponible <br> **When:** intenta obtener más detalles <br> **Then:** puede acceder directamente al flujo de contacto comercial sin perder el contexto de la evaluación. | EP01 |
-| **US05** | Iniciar conversación comercial antes de comprometer una suscripción | Como director de agencia con necesidades específicas, quiero contactar directamente al equipo de BrandRadar para resolver dudas sobre capacidades operacionales antes de comprometer una suscripción para mis clientes. | **Escenario 1 – Consulta comercial registrada correctamente:** <br> **Given:** el director completa nombre, correo corporativo y descripción de su necesidad operacional <br> **When:** envía el mensaje <br> **Then:** el sistema registra la consulta como evento `CommercialInquiryReceived` con todos los datos, el formulario queda limpio y el director recibe confirmación de que fue recibida. <br> <br> **Escenario 2 – Correo corporativo inválido bloqueado:** <br> **Given:** el director ingresa un formato de correo inválido <br> **When:** intenta enviar <br> **Then:** el sistema rechaza el envío y la consulta no queda registrada, protegiendo la integridad del pipeline comercial de datos incorrectos. <br> <br> **Escenario 3 – Intento de envío sin información de negocio:** <br> **Given:** el director omite campos obligatorios que impiden entender la necesidad <br> **When:** intenta enviar <br> **Then:** el sistema bloquea el envío y ninguna consulta incompleta queda registrada, evitando seguimientos comerciales sin contexto. | EP01 |
+| **US05** | Iniciar conversación comercial antes de comprometer una suscripción | Como director de agencia con necesidades específicas, quiero contactar directamente al equipo de BrandRadar para resolver dudas sobre capacidades operacionales antes de comprometer una suscripción para . | **Escenario 1 – Consulta comercial registrada correctamente:** <br> **Given:** el director completa nombre, correo corporativo y descripción de su necesidad operacional <br> **When:** envía el mensaje <br> **Then:** el sistema registra la consulta como evento `CommercialInquiryReceived` con todos los datos, el formulario queda limpio y el director recibe confirmación de que fue recibida. <br> <br> **Escenario 2 – Correo corporativo inválido bloqueado:** <br> **Given:** el director ingresa un formato de correo inválido <br> **When:** intenta enviar <br> **Then:** el sistema rechaza el envío y la consulta no queda registrada, protegiendo la integridad del pipeline comercial de datos incorrectos. <br> <br> **Escenario 3 – Intento de envío sin información de negocio:** <br> **Given:** el director omite campos obligatorios que impiden entender la necesidad <br> **When:** intenta enviar <br> **Then:** el sistema bloquea el envío y ninguna consulta incompleta queda registrada, evitando seguimientos comerciales sin contexto. | EP01 |
 | **EP02 – Identidad y Acceso Seguro** |||||
 | **US06** | Registrar cuenta para acceder a monitoreo reputacional | Como administrador corporativo, quiero crear una cuenta verificada con acceso solo a las marcas asignadas para proteger información reputacional sensible de cada cliente. | **Escenario 1 – Registro exitoso:** <br> **Given:** el administrador completa nombre, correo, contraseña válida y tipo de cuenta <br> **When:** envía el formulario <br> **Then:** el sistema crea la cuenta en estado `PENDIENTE_VERIFICACIÓN`, emite el evento `AccountRegistered` y ningún workspace queda accesible hasta completar la verificación. <br> <br> **Escenario 2 – Contraseña inválida:** <br> **Given:** el administrador ingresa una contraseña que no cumple los requisitos mínimos de seguridad <br> **When:** envía el formulario <br> **Then:** el sistema rechaza el registro, la cuenta no se crea y el estado del dominio no cambia. <br> <br> **Escenario 3 – Correo ya registrado:** <br> **Given:** el correo ingresado ya está asociado a una cuenta existente <br> **When:** envía el formulario <br> **Then:** el sistema rechaza el registro sin revelar si la cuenta está activa o pendiente, protegiendo información de otros usuarios. | EP02 |
 | **US07** | Verificar correo para activar acceso reputacional | Como usuario recién registrado, quiero verificar mi correo electrónico para activar mi cuenta y comenzar a monitorear la reputación de mis marcas. | **Escenario 1 – Verificación exitosa:** <br> **Given:** el usuario accede al enlace de verificación con un token válido y vigente <br> **When:** el sistema valida el token <br> **Then:** la cuenta transita de estado `PENDIENTE_VERIFICACIÓN` a `ACTIVA`, se emite el evento `AccountActivated` y el usuario puede acceder al workspace asignado. <br> <br> **Escenario 2 – Token expirado:** <br> **Given:** el token de verificación ya superó su tiempo de vigencia <br> **When:** el sistema lo valida <br> **Then:** la cuenta permanece en estado `PENDIENTE_VERIFICACIÓN`, el token queda invalidado y el acceso al workspace sigue bloqueado. <br> <br> **Escenario 3 – Token inválido:** <br> **Given:** el token es incorrecto o fue manipulado <br> **When:** el sistema lo valida <br> **Then:** el sistema rechaza la verificación, registra el intento fallido como evento de auditoría y la cuenta no cambia de estado. | EP02 |
@@ -1714,10 +1714,10 @@ Estos impactos se materializan en entregables como el motor de IA con entrenamie
 | **N°** | **Story ID** | **Épica** | **Título** | **Descripción** | **Story Points** |
 | --- | --- | --- | --- | --- | --- |
 | 1 | **US01** | EP01 – Adquisición de Clientes | Comunicar propuesta de valor para convertir visitantes en prospectos | Como visitante PyME o de agencia, quiero comprender rápidamente qué problema resuelve BrandRadar para decidir si vale la pena registrarme. | 2 |
-| 2 | **US02** | EP01 – Adquisición de Clientes | Evaluar si las capacidades del producto cubren las necesidades de monitoreo reputacional | Como director de agencia, quiero conocer las capacidades operacionales de BrandRadar para evaluar si cubre el flujo de trabajo de mis clientes. | 2 |
+| 2 | **US02** | EP01 – Adquisición de Clientes | Evaluar si las capacidades del producto cubren las necesidades de monitoreo reputacional | Como director de agencia, quiero conocer las capacidades operacionales de BrandRadar para evaluar si cubre el flujo de trabajo de . | 2 |
 | 3 | **US03** | EP01 – Adquisición de Clientes | Reducir fricción de decisión mediante evidencia social de usuarios reales | Como gerente PyME, quiero conocer la experiencia de otras empresas similares con BrandRadar para reducir el riesgo percibido de adopción. | 1 |
 | 4 | **US04** | EP01 – Adquisición de Clientes | Seleccionar el plan que se alinea con la escala operacional del negocio | Como dueño de PyME, quiero comparar los planes con sus límites operacionales para seleccionar el que se ajusta a mi escala. | 2 |
-| 5 | **US05** | EP01 – Adquisición de Clientes | Iniciar conversación comercial antes de comprometer una suscripción | Como director de agencia, quiero contactar al equipo de BrandRadar para resolver dudas operacionales antes de comprometer una suscripción para mis clientes. | 2 |
+| 5 | **US05** | EP01 – Adquisición de Clientes | Iniciar conversación comercial antes de comprometer una suscripción | Como director de agencia, quiero contactar al equipo de BrandRadar para resolver dudas operacionales antes de comprometer una suscripción para . | 2 |
 | 6 | **US06** | EP02 – Identidad y Acceso Seguro | Registrar cuenta para acceder a monitoreo reputacional | Como administrador corporativo, quiero crear una cuenta verificada con acceso solo a las marcas asignadas para proteger información reputacional sensible. | 5 |
 | 7 | **US07** | EP02 – Identidad y Acceso Seguro | Verificar correo para activar acceso reputacional | Como usuario recién registrado, quiero verificar mi correo para que la cuenta transite a estado `ACTIVA` y pueda acceder al workspace. | 3 |
 | 8 | **US08** | EP02 – Identidad y Acceso Seguro | Iniciar sesión para acceder a marcas asignadas | Como administrador autorizado, quiero iniciar sesión para acceder únicamente a las marcas asignadas y proteger información sensible. | 3 |
@@ -2480,8 +2480,11 @@ Incidentes<br>
 <br><br>
 
 Detalles Incidente<br>
+
 ![Detalles Incidente](brandradar-report/assets/web-app/incidentes-detalles.png)
+
 <br><br>
+
 Generar Respuesta<br>
 
 ![Generar Respuesta](brandradar-report/assets/web-app/generar-respuesta-ia.png)
@@ -2491,24 +2494,31 @@ Generar Respuesta<br>
 Incidente Resuelto<br>
 
 ![Incidente Resuelto](brandradar-report/assets/web-app/incidente-resuelto.png)
+
 <br><br>
 
 Menciones<br>
 
 ![Menciones](brandradar-report/assets/web-app/menciones.png)
+
 <br><br>
 
 Detalles Menciones<br>
+
 ![Menciones](brandradar-report/assets/web-app/detalle-mencion.png)
+
 <br><br>
 
 Mencion Respondida<br>
+
 ![Menciones](brandradar-report/assets/web-app/menciones.png)
+
 <br><br>
 
 Mis Marcas<br>
 
 ![Menciones](brandradar-report/assets/web-app/detalle-marca.png)
+
 <br><br>
 
 Detalles Marca<br>
@@ -2540,44 +2550,81 @@ Infraestructura<br>
 <br><br><br>
 Segmento Agencia(Account Manager)
 <br><br><br>
+
 Dashboard<br>
+
 ![Menciones](brandradar-report/assets/web-app/s2-dashboard.png)
 
-Mis Clientes
+<br><br>
+
 ![Menciones](brandradar-report/assets/web-app/mis-clientes.png)
+
 <br><br>
-Detalle Mis Clientes<br>
+
+Detalle<br>
+
 ![Menciones](brandradar-report/assets/web-app/s2-incidente-agencia.png)
+
 <br><br>
+
 Clientes Respuesta IA<br>
+
 ![Menciones](brandradar-report/assets/web-app/s2-respuesta-ia.png)
+
 <br><br>
+
 Incidentes<br>
+
 ![Menciones](brandradar-report/assets/web-app/s2-incidentes.png)
+
 <br><br>
+
 Menciones<br>
+
 ![Menciones](brandradar-report/assets/web-app/s2-menciones.png)
+
 <br><br>
+
 Generar Respuesta<br>
+
 ![Menciones](brandradar-report/assets/web-app/s2-generar-respuesta-menciones.png)
+
 <br><br>
+
 Mencion Respondida<br>
+
 ![Menciones](brandradar-report/assets/web-app/s2-mencion-respondida.png)
+
 <br><br>
+
 Reportes<br>
+
 ![Menciones](brandradar-report/assets/web-app/s2-reporte.png)
+
 <br><br>
+
 Generar Reporte<br>
+
 ![Menciones](brandradar-report/assets/web-app/s2-generar-reporte.png)
+
 <br><br>
+
 Reporte Generado<br>
+
 ![Menciones](brandradar-report/assets/web-app/s2-reporte-generado.png)
+
 <br><br>
+
 Comparativas<br>
+
 ![Menciones](brandradar-report/assets/web-app/s2-comparativa.png)
+
 <br><br>
+
 Configuración<br>
+
 ![Menciones](brandradar-report/assets/web-app/s2-configuracion.png)
+
 <br><br>
 
 
