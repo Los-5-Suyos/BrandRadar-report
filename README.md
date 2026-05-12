@@ -2413,11 +2413,20 @@ Se aplican principios de diseño centrado en el usuario, consistencia visual bas
 
 ### 4.4.1. Web Applications Wireframes
 
->*Los wireframes presentados a continuación representan la estructura base de las principales vistas de la aplicación web de BrandRadar. Su elaboración se realizó aplicando principios de diseño inclusivo, asegurando que la disposición de los elementos sea clara, comprensible y accesible para usuarios con distintos niveles de experiencia tecnológica.*
+>*Los wireframes presentados a continuación representan la estructura inicial de las principales interfaces de la aplicación web BrandRadar. Estos diseños fueron elaborados con el objetivo de definir la distribución de los componentes visuales, la navegación entre vistas y la organización de la información antes de la etapa de diseño final.*
+
+>*Durante su desarrollo se consideraron principios de usabilidad, accesibilidad e inclusión digital, asegurando una experiencia intuitiva y comprensible para usuarios con distintos niveles de experiencia tecnológica. Asimismo, los wireframes permitieron validar tempranamente la arquitectura visual y el flujo de interacción de la plataforma.*
+
 
 <br>
 
-![Web App Wireframes](brandradar-report/assets/web-app/wireframes.png)
+*Elaboracion propia en Figma*
+
+![Web App Wireframes](brandradar-report/assets/ux-design/web-application/app-wireframes.png)
+
+<br>
+
+**URL:** [Wireframes Design en Figma](https://www.figma.com/design/oZhmzDVXwe4x6xAW4u4Bxt/BrandRadar?node-id=0-1&t=bD14Co1kFvyhL4u5-1)
 
 <br>
 
@@ -2446,13 +2455,19 @@ Se aplican principios de diseño centrado en el usuario, consistencia visual bas
 
 ### 4.4.3. Web Applications Mock-ups
 
->*Los mock-ups presentados a continuación representan la propuesta visual final de las principales vistas de la aplicación web de BrandRadar, incorporando el Design System definido en la sección 4.1. A diferencia de los wireframes, estas vistas integran la paleta de colores, tipografía, iconografía, componentes visuales y espaciado establecidos para la plataforma, ofreciendo una representación de alta fidelidad de la experiencia de usuario en el sistema.*
+>*Los mockups presentados a continuación muestran el diseño visual de alta fidelidad de la aplicación web BrandRadar. Estas interfaces incorporan elementos gráficos, estilos visuales, paleta de colores, tipografía y componentes interactivos que representan la apariencia final esperada del sistema.*
 
->*El diseño busca transmitir confianza, claridad y eficiencia, valores fundamentales de BrandRadar, asegurando que tanto los dueños de PyMEs como los account managers de agencias puedan interpretar la información de reputación digital de forma rápida e intuitiva.*
+>*El diseño de la interfaz fue desarrollado siguiendo criterios de consistencia visual, accesibilidad y experiencia de usuario, permitiendo una interacción clara, moderna y eficiente. Además, se priorizó la visualización de métricas, alertas y análisis de reputación mediante dashboards intuitivos y componentes visuales organizados.*
 
 <br>
 
-![Web App Mockups](brandradar-report/assets/web-app/mockups.png)
+*Elaboracion propia en Figma*
+
+![Web App Wireframes](brandradar-report/assets/ux-design/web-application/app-mockups.png)
+
+<br>
+
+**URL:** [Mockup Design en Figma](https://www.figma.com/design/oZhmzDVXwe4x6xAW4u4Bxt/BrandRadar?node-id=0-1&t=bD14Co1kFvyhL4u5-1)
 
 <br>
 
