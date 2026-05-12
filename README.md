@@ -2489,16 +2489,23 @@ Se aplican principios de diseño centrado en el usuario, consistencia visual bas
 
 ## 4.5. Web Applications Prototyping
 
-En esta sección se presenta el prototipo interactivo de la aplicación web de BrandRadar, desarrollado en Figma a partir de los mock-ups de alta fidelidad definidos en la sección anterior. El prototipo simula la navegación real del sistema, permitiendo visualizar los flujos de interacción entre las distintas vistas de la plataforma en sus versiones Desktop y Mobile Web.
+En esta sección se presenta el prototipo interactivo de la aplicación web de BrandRadar, desarrollado en Figma a partir de los mockups de alta fidelidad definidos previamente. El prototipo permite simular la navegación e interacción entre los distintos módulos y bounded contexts de la plataforma, tanto en versiones Desktop como Mobile Web.
+
+El diseño del prototipo fue construido considerando los principales procesos del dominio identificados durante el modelado del sistema, incluyendo autenticación y acceso, gestión de workspaces, monitoreo de reputación, detección de crisis, análisis de sentimiento y supervisión de infraestructura.
 
 Las decisiones de interacción del prototipo se basaron en los siguientes criterios:
 
-- **Accesibilidad y simplicidad:** Se prioriza una navegación intuitiva que permita a cualquier usuario, independientemente de su nivel técnico, utilizar la plataforma sin necesidad de instrucciones previas, especialmente en el segmento de dueños de PyMEs.
-- **Rapidez de acceso a funciones críticas:** Las acciones más frecuentes, como la revisión de alertas, el análisis de sentimiento y la generación de reportes, se encuentran disponibles desde el Dashboard principal con el menor número de interacciones posible.
-- **Consistencia visual:** Todos los elementos siguen el Design System definido, garantizando un comportamiento coherente y predecible en componentes como botones, formularios, tarjetas y navegación.
-- **Diseño responsivo:** El prototipo se adapta a dispositivos móviles, asegurando una experiencia consistente que permita el monitoreo de la reputación digital desde cualquier dispositivo.
+- **Accesibilidad y simplicidad:** Se priorizó una navegación intuitiva y comprensible para usuarios con distintos niveles de experiencia tecnológica, facilitando el acceso rápido a las funcionalidades principales de la plataforma.
 
-A continuación, se presentan los prototipos para Desktop y Mobile Web, junto con los videos de simulación de navegación correspondientes.
+- **Integración de bounded contexts:** Las vistas y flujos fueron organizados de acuerdo con los distintos contextos del dominio, permitiendo una separación clara de responsabilidades y una experiencia de navegación estructurada.
+
+- **Rapidez de acceso a funcionalidades críticas:** Las acciones principales, como visualización de alertas reputacionales, monitoreo de menciones, análisis de sentimiento y gestión de workspaces, se encuentran disponibles desde el dashboard principal con la menor cantidad de interacciones posible.
+
+- **Consistencia visual:** Todos los componentes del prototipo siguen el Design System definido para BrandRadar, manteniendo uniformidad en estilos visuales, navegación, formularios, tarjetas y elementos interactivos.
+
+- **Diseño responsivo:** El prototipo fue adaptado para dispositivos móviles y escritorio, garantizando una experiencia consistente y accesible desde diferentes tamaños de pantalla.
+
+A continuación, se presentan los prototipos correspondientes a Desktop y Mobile Web, junto con las simulaciones de navegación desarrolladas para validar la experiencia de usuario de la plataforma.
 
 <br>
 
@@ -2506,17 +2513,13 @@ A continuación, se presentan los prototipos para Desktop y Mobile Web, junto co
 
 **Desktop Prototyping**
 
-![Screenshot Prototipo Desktop](brandradar-report/assets/prototypes/prototype-desktop-screenshot.png)
-
-[Ver video de prototipo Desktop en Microsoft Stream](`URL`)
+[Ver video de prototipo Desktop en Microsoft Stream](`https://upcedupe-my.sharepoint.com/:f:/g/personal/u202410239_upc_edu_pe/IgC6glFk1e4gTII980CTmfgbAfUaAwIFXinpHjNgmHf7drg?e=lARG1x`)
 
 <br>
 
 **Mobile Prototyping**
 
-![Screenshot Prototipo Mobile](brandradar-report/assets/prototypes/prototype-mobile-screenshot.png)
-
-[Ver video de prototipo Mobile en Microsoft Stream](`URL`)
+[Ver video de prototipo Mobile en Microsoft Stream](`https://upcedupe-my.sharepoint.com/:f:/g/personal/u202410239_upc_edu_pe/IgCkjPbP_4lpR6LS2IVOzfoWAasrMz1GywL8kyAz7uD1R7I?e=1J4H3z`)
 
 </div>
 
