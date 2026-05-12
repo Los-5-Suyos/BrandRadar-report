@@ -2453,55 +2453,57 @@ Se aplican principios de diseño centrado en el usuario, consistencia visual bas
 
 <br>
 
-Register
+Register <br>
 ![Register](brandradar-report/assets/web-app/registro.png)
-
-Login
+<br>
+Login <br>
 ![Login](brandradar-report/assets/web-app/login.png)
-
+<br><br>
 Segmento PyME
-
-Dashboard
+<br><br>
+Dashboard<br>
 ![Dashboard](brandradar-report/assets/web-app/dashboard.png)
-
-Incidentes
+<br>
+Incidentes<br>
 ![Incidentes](brandradar-report/assets/web-app/incidentes.png)
-
-Detalles Incidente
+<br>
+Detalles Incidente<br>
 ![Detalles Incidente](brandradar-report/assets/web-app/incidentes-detalles.png)
-
-Generar Respuesta
+<br>
+Generar Respuesta<br>
 ![Generar Respuesta](brandradar-report/assets/web-app/generar-respuesta-ia.png)
-
-Incidente Resuelto
+<br>
+Incidente Resuelto<br>
 ![Incidente Resuelto](brandradar-report/assets/web-app/incidente-resuelto.png)
-
-Menciones
+<br>
+Menciones<br>
 ![Menciones](brandradar-report/assets/web-app/menciones.png)
-
-Detalles Menciones
+<br>
+Detalles Menciones<br>
 ![Menciones](brandradar-report/assets/web-app/detalle-mencion.png)
-
-Mencion Respondida
+<br>
+Mencion Respondida<br>
 ![Menciones](brandradar-report/assets/web-app/menciones.png)
-
-Mis Marcas
+<br>
+Mis Marcas<br>
 ![Menciones](brandradar-report/assets/web-app/detalle-marca.png)
-
-Detalles Marca
+<br>
+Detalles Marca<br>
 ![Menciones](brandradar-report/assets/web-app/detalle-marca.png)
-
-Agregar Fuente
+<br>
+Agregar Fuente<br>
 ![Menciones](brandradar-report/assets/web-app/agregar-fuente.png)
-
-Reglas
+<br>
+Reglas<br>
 ![Menciones](brandradar-report/assets/web-app/reglas.png)
-
-Reportes
+<br>
+Reportes<br>
 ![Menciones](brandradar-report/assets/web-app/reportes.png)
-
-Infraestructura
+<br>
+Infraestructura<br>
 ![Menciones](brandradar-report/assets/web-app/infraestructura.png)
+<br><br>
+Degmento Marketing
 
 
 
