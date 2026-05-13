@@ -180,7 +180,7 @@ A continuación, se presenta el gráfico de red (network graph) del repositorio 
 <br>
 
 <div align="center">
-<img src="brandradar-report/assets/network-repo/tb1/network.png" alt="Gráfico de red TB1" width="900"/>
+<img src="brandradar-report/assets/network-repo/tb1/network2.png" alt="Gráfico de red TB1" width="900"/>
 </div>
 
 <br>
@@ -2344,22 +2344,19 @@ Las notificaciones push dirigen al usuario directamente a la mención o alerta e
 
 ## 4.3. Landing Page UI Design
 
->En esta sección se presenta la propuesta de interfaz de usuario (UI) para la Landing Page de **BrandRadar**. El diseño se fundamenta en los hallazgos obtenidos durante el proceso de investigación (entrevistas y Lean UX), priorizando las necesidades de los usuarios, especialmente la visualización clara de la reputación digital y el acceso rápido a información relevante.*
-
->*Asimismo, se han aplicado principios de diseño centrados en el usuario, una arquitectura de información clara y un enfoque visual moderno, con el objetivo de comunicar de manera efectiva el valor de la plataforma y facilitar la conversión de usuarios.*
+> *En esta sección se presenta la propuesta de interfaz de usuario (UI) para la Landing Page de BrandRadar. El diseño fue concebido a partir de los hallazgos obtenidos durante la etapa de investigación, especialmente las problemáticas relacionadas con las crisis reputacionales que enfrentan las marcas en entornos digitales, donde comentarios negativos, tendencias virales y publicaciones en redes sociales pueden afectar rápidamente la percepción pública de una empresa. La propuesta busca comunicar de manera clara el impacto que puede generar una mala gestión de la reputación digital, resaltando la necesidad de monitorear constantemente la opinión de los usuarios y reaccionar oportunamente ante posibles riesgos. Por ello, el diseño prioriza la comunicación del problema y sus consecuencias antes que la presentación de funcionalidades específicas de la plataforma. Asimismo, se aplicaron principios de diseño centrados en el usuario, una arquitectura de información clara y un enfoque visual moderno, con el objetivo de generar conciencia sobre la importancia de la reputación online y transmitir confianza a potenciales usuarios.*
 
 
 ### 4.3.1. Landing Page Wireframe
 
->*Los wireframes representan la estructura base de la Landing Page, permitiendo definir la organización de contenidos, la jerarquía visual y el flujo de navegación antes de la aplicación del diseño visual final. Se desarrollaron versiones para escritorio (desktop web browser) y dispositivos móviles (mobile web browser):*
+>*Los wireframes representan la estructura base de la Landing Page, permitiendo definir la organización de contenidos, la jerarquía visual y el flujo de navegación antes de la aplicación del diseño visual final. En esta etapa se priorizó la representación visual del problema de las crisis reputacionales, destacando mensajes relacionados con la pérdida de confianza, el impacto de las opiniones negativas y la necesidad de monitoreo constante en redes sociales y plataformas digitales. Se desarrollaron versiones para escritorio (desktop web browser) y dispositivos móviles (mobile web browser):*
+
 
 <br>
-
 <div align="center">
 
 **Desktop Web Browser**
 
-<br>
 
 *Elaboración propia en Figma*
 
@@ -2368,7 +2365,6 @@ Las notificaciones push dirigen al usuario directamente a la mención o alerta e
 <br>
 
 **Mobile Web Browser**
-<br>
 
 *Elaboración propia en Figma*
 
@@ -2379,14 +2375,13 @@ Las notificaciones push dirigen al usuario directamente a la mención o alerta e
 
 ### 4.3.2. Landing Page Mock-up
 
->*Los mock-ups representan la versión visual final de la Landing Page, incorporando los elementos definidos en el Design System, como la paleta de colores, la tipografía, la iconografía y los estilos de componentes.
-En esta etapa se materializa la propuesta de wireframes en una interfaz visual completamente definida, permitiendo validar la coherencia estética, la jerarquía visual y la experiencia de usuario antes del desarrollo final.*
+> *Los mock-ups representan la versión visual final de la Landing Page, incorporando los elementos definidos en el Design System, como la paleta de colores, la tipografía, la iconografía y los estilos de componentes. En esta etapa se materializa una propuesta visual orientada principalmente a evidenciar la problemática de las crisis reputacionales digitales y sus efectos sobre las marcas. Para ello, se utilizaron elementos gráficos, secciones informativas y mensajes visuales enfocados en transmitir la urgencia de identificar tendencias negativas y actuar rápidamente frente a situaciones que puedan afectar la percepción pública. De esta manera, la interfaz busca generar empatía con los usuarios y contextualizar el valor de la solución antes de profundizar en las funcionalidades específicas de la plataforma.*
 
+
+<br>
 <div align="center">
 
 **Desktop Web Browser**
-
-<br>
 
 *Elaboración propia en Figma*
 
@@ -2395,8 +2390,6 @@ En esta etapa se materializa la propuesta de wireframes en una interfaz visual c
 <br>
 
 **Mobile Web Browser**
-
-<br>
 
 *Elaboración propia en Figma*
 
