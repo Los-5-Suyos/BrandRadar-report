@@ -41,8 +41,11 @@
 
 `U202417228` - `Acuña de la Cruz, Luis` 
 
+<br>
 
-### **Abril 2026**
+### **Mayo 2026**
+
+<br>
 
 </div>
 
@@ -56,7 +59,7 @@
 | Versión | Fecha | Participantes | Descripción de modificación |
 |:-------:|:-----:|:-----:|:---------------------------|
 | AV1 | 2026-04-08 | Salinas Guzmán, Brianna Cristina <br> Jáuregui Cerna, Jean Franco <br> Cruzalegui Herrera, Joaquin <br> Garcia Paredes, Victor Manuel <br> Acuña de la Cruz, Luis | Avance 1 del reporte del proyecto y primera versión de la landing page |
-| TB1 | 2026-05-11 | Salinas Guzmán, Brianna Cristina <br> Acuña de la Cruz, Luis  | Entrega del reporte TB1 del proyecto, nueva version del landing page y frontend web application desplegadas |
+| TB1 | 2026-05-11 | Salinas Guzmán, Brianna Cristina <br> Acuña de la Cruz, Luis <br> Garcia Paredes, Victor Manuel | Entrega del reporte TB1 del proyecto, nueva version del landing page y frontend web application desplegadas |
 </div>
 
 ---
@@ -93,12 +96,13 @@ Para el desarrollo del AV1, cada integrante contribuyó de la siguiente manera:
 Para el desarrollo del TB1, cada integrante contribuyó de la siguiente manera:
 
 | Integrante | Tareas Realizadas |
-|------------|------------------|
-| Salinas Guzmán, Brianna Cristina | Tareas TB1 |
-| Jáuregui Cerna, Jean Franco |  Tareas TB1 |
-| Cruzalegui Herrera, Joaquin | Tareas TB1 |
-| Garcia Paredes, Victor Manuel | Tareas TB1 |
-| Acuña de la Cruz, Luis | Tareas TB1 |
+| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Salinas Guzmán, Brianna Cristina | Elaboración del Student Outcome; Corrección del Class Diagrams, User Stories, Product Backlog y Database Diagram; Video exposición; Desarrollo Frontend: Registro, Verificación email, Login + bloqueo y SharedModule                 |
+| Jáuregui Cerna, Jean Franco      | Elaboración del Student Outcome; Video exposición; Wireframes y Mockups; Desarrollo Frontend: Recuperar contraseña, Nueva contraseña, Selección workspace y Dashboard |
+| Cruzalegui Herrera, Joaquin      | Elaboración del Student Outcome; Video exposición; Corrección del Análisis de entrevistas (2.2.3), Lean UX Hypothesis, Userflows y Wireflows; Desarrollo Frontend: 403 Sin acceso, Gestión de marcas, Pantalla incidentes y Menciones |
+| Garcia Paredes, Victor Manuel    | Elaboración del Student Outcome; Video exposición; Video Prototipo Web Mobile y Web Desktop; Desarrollo Frontend: HTTP Interceptor JWT, Auth + WorkspaceGuard y Logout + timeout                                                      |
+| Acuña de la Cruz, Luis           | Elaboración del Student Outcome; Video exposición; Corrección Event Storming y Component Diagrams; Desarrollo Frontend: Fake API (json-server), WorkspaceStateService y QA flujo completo                                             |
+
 
 </div>
 
@@ -176,7 +180,7 @@ A continuación, se presenta el gráfico de red (network graph) del repositorio 
 <br>
 
 <div align="center">
-<img src="brandradar-report/assets/network-repo/tb1/network.png" alt="Gráfico de red TB1" width="900"/>
+<img src="brandradar-report/assets/network-repo/tb1/network2.png" alt="Gráfico de red TB1" width="900"/>
 </div>
 
 <br>
@@ -197,7 +201,7 @@ A continuación, se muestran los gráficos con el análisis de los commits reali
 
 ##  Tabla de Contenidos
   #### [Contenido](#-tabla-de-contenidos)
-  #### [Student Outcome](#-student-outcome)
+  #### [Student Outcome](#student-outcome-1)
 
   #### [Capítulo I: Introducción](#capítulo-i-introducción-1)
   - [1.1. Startup Profile](#11-startup-profile)
@@ -293,8 +297,8 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 |:---|:---|:---|
-| **3.c1. Comunica oralmente con efectividad a diferentes rangos de audiencia.** | **Salinas, Brianna** <br> AV1: Durante el registro de entrevistas, conduje sesiones con usuarios del segmento objetivo adaptando mi discurso oral según el perfil del entrevistado, logrando transmitir el propósito de BrandRadar de forma clara y comprensible tanto para perfiles técnicos como no técnicos. <br><br> TB1: (acción específica)<br><br> **Jáuregui, Jean Franco** <br> AV1: (acción específica) <br><br> TB1: (acción específica)<br><br> **Cruzalegui, Joaquin** <br> AV1: Elaboré una de las entrevistas del segmento 1 (PyMEs), por la cual tuve que adecuar mi vocabulario de la mejor manera posible, para hacer sentir cómodo al entrevistado y poder recopilar la mejor información posible <br><br> TB1: (acción específica)<br><br> **Garcia Paredes, Victor** <br> AV1: Diseñé y conduje oralmente dos entrevistas dirigidas a representantes de nuestros segmentos objetivo (una PyME y una Agencia Digital). Durante las sesiones, adapté mi lenguaje y tono para generar empatía con perfiles no técnicos, logrando extraer con claridad sus dolores respecto a la gestión de su reputación digital y comunicando efectivamente el propósito de nuestra investigación. <br><br> TB1: (acción específica)<br><br> **Acuña de la Cruz, Luis** <br> AV1: Diseñé y desarrollé el landing page del proyecto, enfocándome en transmitir de forma clara y atractiva la propuesta de valor para nuestros segmentos objetivo. Además, participé activamente en la presentación y explicación del sitio web ante el equipo y usuarios potenciales, comunicando de manera efectiva las funcionalidades y beneficios de la solución. Durante este proceso, adapté la estructura y el contenido de la página para mejorar la experiencia del usuario y generar mayor interés en la propuesta planteada. <br><br> TB1:Durante el desarrollo del Sprint 2, presenté los avances del Frontend y la integración de la Fake API ante mis compañeros y el líder técnico, utilizando un lenguaje adaptado para explicar la lógica de los servicios en Angular. Durante las reuniones de sincronización, expuse de manera clara cómo la arquitectura propuesta en el Dashboard permite visualizar el sentimiento de las menciones, facilitando que tanto el equipo de desarrollo como los interesados en el negocio comprendieran el flujo de los datos. Asimismo, respondí a las inquietudes técnicas sobre el manejo de estados globales, demostrando seguridad y dominio del tema para asegurar que todos los miembros del equipo estuvieran alineados con los objetivos del proyecto. <br> | <br> AV1: Durante el AV1, el equipo logró comunicar oralmente de manera clara y organizada la propuesta inicial del proyecto BrandRadar, presentando la problemática identificada, los objetivos del sistema y la solución tecnológica planteada. La exposición permitió transmitir adecuadamente las ideas principales tanto a un público técnico como académico, utilizando apoyo visual y una distribución equilibrada de la participación entre los integrantes. <br><br> TB1: Durante el AV1, el equipo elaboró documentación escrita estructurada y comprensible, incluyendo descripciones del proyecto, análisis del problema, user stories y planificación inicial del producto. La redacción utilizada permitió comunicar las ideas de manera formal y coherente, facilitando la comprensión del alcance y propósito del sistema BrandRadar para distintos tipos de lectores. <br><br> |
-| **3.c2. Comunica por escrito con efectividad a diferentes rangos de audiencia.** | **Salinas, Brianna** <br> AV1: Redacté el Capítulo I, la sección 4.3 de Landing Page UI Design, los diagramas de clases (4.7.1) y el diseño de base de datos (4.8), empleando un lenguaje técnico preciso y estructurado acorde al formato académico del informe, garantizando que el contenido sea comprensible para lectores con distintos niveles de conocimiento en ingeniería de software. <br><br> TB1: (acción específica) <br><br> **Jáuregui, Jean Franco** <br> AV1: (acción específica) <br><br> TB1: (acción específica) <br><br> **Cruzalegui, Joaquin** <br> AV1: Realicé los Empathy Maps, los Journey Maps en base a las entrevistas y User Personas, también el Event Storming donde identifiqué los principales eventos del dominio. Además realicé el capítulo 5.2.1 sobre el sprint 1 <br><br> TB1: (acción específica) <br><br> **Garcia Paredes, Victor** <br> AV1: Redacté las secciones de segmentos objetivo, análisis competitivo, needfinding y arquitectura de software basada en DDD. Empleé un lenguaje claro, persuasivo y estructurado para documentar los User Personas; y utilicé terminología técnica estandarizada para describir el design-level event storming y los diagramas del modelo C4, garantizando que la documentación sea comprensible tanto para stakeholders como para el equipo de desarrollo. <br><br> TB1: (acción específica) <br><br> **Acuña de la Cruz, Luis** <br> AV1: Diseñé y desarrollé el landing page del proyecto, enfocándome en transmitir de forma clara y atractiva la propuesta de valor para nuestros segmentos objetivo. Además, participé activamente en la presentación y explicación del sitio web ante el equipo y usuarios potenciales, comunicando de manera efectiva las funcionalidades y beneficios de la solución. Durante este proceso, adapté la estructura y el contenido de la página para mejorar la experiencia del usuario y generar mayor interés en la propuesta planteada. <br><br> TB1: Redacté y documenté la estructura técnica del archivo db.json y los contratos de los endpoints mock para el módulo de Sentiment Analysis, asegurando que la documentación fuera comprensible para el equipo de backend y los encargados de arquitectura. Además, trabajé en la mejora de la coherencia de los Bounded Contexts, documentando mediante comentarios en el código y mensajes de commit detallados cada ajuste realizado en la integración de menciones, alertas y logs de auditoría. Esta comunicación escrita permitió una integración fluida en la rama develop, garantizando que la lógica de trazabilidad (Audit Logs) y el manejo de estados de los modelos estuvieran claramente explicados para futuras fases de mantenimiento. <br> | <br> AV1: Durante el TB1, el equipo fortaleció sus habilidades de comunicación oral mediante la presentación del avance funcional del proyecto, explicando la arquitectura frontend, los flujos implementados y las decisiones técnicas adoptadas durante los sprints. La exposición permitió evidenciar dominio del proyecto, coordinación grupal y capacidad para responder preguntas relacionadas con el desarrollo y funcionamiento del sistema. <br><br> TB1: Durante el TB1, el equipo desarrolló documentación técnica y funcional detallada, incluyendo evidencias de desarrollo, despliegue, servicios, colaboración y arquitectura del sistema. La información fue presentada de manera ordenada, utilizando un lenguaje técnico adecuado y manteniendo coherencia en la estructura del informe, permitiendo comunicar efectivamente los avances del proyecto a lectores académicos y técnicos. <br><br> |
+| **3.c1. Comunica oralmente con efectividad a diferentes rangos de audiencia.** | **Salinas, Brianna** <br> AV1: Durante el registro de entrevistas, conduje sesiones con usuarios del segmento objetivo adaptando mi discurso oral según el perfil del entrevistado, logrando transmitir el propósito de BrandRadar de forma clara y comprensible tanto para perfiles técnicos como no técnicos. <br><br> TB1: Participé en la exposición del avance del proyecto BrandRadar, explicando las funcionalidades desarrolladas en el frontend como el registro de usuarios, verificación de correo electrónico y sistema de autenticación. Durante la presentación, comuniqué de manera clara las decisiones tomadas en el diseño del sistema y respondí consultas relacionadas con la arquitectura y experiencia de usuario, adaptando el lenguaje técnico según la audiencia.<br><br> **Jáuregui, Jean Franco** <br> AV1: (acción específica) <br><br> TB1: (acción específica)<br><br> **Cruzalegui, Joaquin** <br> AV1: Elaboré una de las entrevistas del segmento 1 (PyMEs), por la cual tuve que adecuar mi vocabulario de la mejor manera posible, para hacer sentir cómodo al entrevistado y poder recopilar la mejor información posible <br><br> TB1: (acción específica)<br><br> **Garcia Paredes, Victor** <br> AV1: Diseñé y conduje oralmente dos entrevistas dirigidas a representantes de nuestros segmentos objetivo (una PyME y una Agencia Digital). Durante las sesiones, adapté mi lenguaje y tono para generar empatía con perfiles no técnicos, logrando extraer con claridad sus dolores respecto a la gestión de su reputación digital y comunicando efectivamente el propósito de nuestra investigación. <br><br> TB1: Desarrollé y narré los videos de Prototyping (demostración de la aplicación). A través de esta presentación audiovisual, expliqué de forma clara y fluida la interacción del usuario con BrandRadar, adaptando la explicación técnica a un lenguaje accesible para que tanto stakeholders como usuarios finales comprendan la funcionalidad y el valor del producto.<br><br> **Acuña de la Cruz, Luis** <br> AV1: Diseñé y desarrollé el landing page del proyecto, enfocándome en transmitir de forma clara y atractiva la propuesta de valor para nuestros segmentos objetivo. Además, participé activamente en la presentación y explicación del sitio web ante el equipo y usuarios potenciales, comunicando de manera efectiva las funcionalidades y beneficios de la solución. Durante este proceso, adapté la estructura y el contenido de la página para mejorar la experiencia del usuario y generar mayor interés en la propuesta planteada. <br><br> TB1:Durante el desarrollo del Sprint 2, presenté los avances del Frontend y la integración de la Fake API ante mis compañeros y el líder técnico, utilizando un lenguaje adaptado para explicar la lógica de los servicios en Angular. Durante las reuniones de sincronización, expuse de manera clara cómo la arquitectura propuesta en el Dashboard permite visualizar el sentimiento de las menciones, facilitando que tanto el equipo de desarrollo como los interesados en el negocio comprendieran el flujo de los datos. Asimismo, respondí a las inquietudes técnicas sobre el manejo de estados globales, demostrando seguridad y dominio del tema para asegurar que todos los miembros del equipo estuvieran alineados con los objetivos del proyecto. <br> | <br> AV1: Durante el AV1, el equipo logró comunicar oralmente de manera clara y organizada la propuesta inicial del proyecto BrandRadar, presentando la problemática identificada, los objetivos del sistema y la solución tecnológica planteada. La exposición permitió transmitir adecuadamente las ideas principales tanto a un público técnico como académico, utilizando apoyo visual y una distribución equilibrada de la participación entre los integrantes. <br><br> TB1: Durante el AV1, el equipo elaboró documentación escrita estructurada y comprensible, incluyendo descripciones del proyecto, análisis del problema, user stories y planificación inicial del producto. La redacción utilizada permitió comunicar las ideas de manera formal y coherente, facilitando la comprensión del alcance y propósito del sistema BrandRadar para distintos tipos de lectores. <br><br> |
+| **3.c2. Comunica por escrito con efectividad a diferentes rangos de audiencia.** | **Salinas, Brianna** <br> AV1: Redacté el Capítulo I, la sección 4.3 de Landing Page UI Design, los diagramas de clases (4.7.1) y el diseño de base de datos (4.8), empleando un lenguaje técnico preciso y estructurado acorde al formato académico del informe, garantizando que el contenido sea comprensible para lectores con distintos niveles de conocimiento en ingeniería de software. <br><br> TB1: Contribuí en la elaboración y corrección de la documentación del proyecto, incluyendo Class Diagrams, User Stories, Product Backlog y Database Diagram. Redacté y estructuré información técnica de manera clara y organizada para facilitar la comprensión tanto del equipo de desarrollo como de los evaluadores del proyecto. Además, documenté funcionalidades del frontend relacionadas con el registro, login y verificación de usuarios siguiendo estándares de claridad y coherencia. <br><br> **Jáuregui, Jean Franco** <br> AV1: (acción específica) <br><br> TB1: (acción específica) <br><br> **Cruzalegui, Joaquin** <br> AV1: Realicé los Empathy Maps, los Journey Maps en base a las entrevistas y User Personas, también el Event Storming donde identifiqué los principales eventos del dominio. Además realicé el capítulo 5.2.1 sobre el sprint 1 <br><br> TB1: (acción específica) <br><br> **Garcia Paredes, Victor** <br> AV1: Redacté las secciones de segmentos objetivo, análisis competitivo, needfinding y arquitectura de software basada en DDD. Empleé un lenguaje claro, persuasivo y estructurado para documentar los User Personas; y utilicé terminología técnica estandarizada para describir el design-level event storming y los diagramas del modelo C4, garantizando que la documentación sea comprensible tanto para stakeholders como para el equipo de desarrollo. <br><br> TB1: Diseñé y documenté los User Flows y Wireflows, traduciendo los requerimientos del negocio en diagramas visuales y de navegación claros para el equipo. Además, apliqué estándares de código limpio y descriptivo durante mi colaboración en el desarrollo del Frontend, asegurando que la lógica de la interfaz sea fácilmente comprensible para el resto de los desarrolladores. | <br><br> **Acuña de la Cruz, Luis** <br> AV1: Diseñé y desarrollé el landing page del proyecto, enfocándome en transmitir de forma clara y atractiva la propuesta de valor para nuestros segmentos objetivo. Además, participé activamente en la presentación y explicación del sitio web ante el equipo y usuarios potenciales, comunicando de manera efectiva las funcionalidades y beneficios de la solución. Durante este proceso, adapté la estructura y el contenido de la página para mejorar la experiencia del usuario y generar mayor interés en la propuesta planteada. <br><br> TB1: Redacté y documenté la estructura técnica del archivo db.json y los contratos de los endpoints mock para el módulo de Sentiment Analysis, asegurando que la documentación fuera comprensible para el equipo de backend y los encargados de arquitectura. Además, trabajé en la mejora de la coherencia de los Bounded Contexts, documentando mediante comentarios en el código y mensajes de commit detallados cada ajuste realizado en la integración de menciones, alertas y logs de auditoría. Esta comunicación escrita permitió una integración fluida en la rama develop, garantizando que la lógica de trazabilidad (Audit Logs) y el manejo de estados de los modelos estuvieran claramente explicados para futuras fases de mantenimiento. <br> | <br> AV1: Durante el TB1, el equipo fortaleció sus habilidades de comunicación oral mediante la presentación del avance funcional del proyecto, explicando la arquitectura frontend, los flujos implementados y las decisiones técnicas adoptadas durante los sprints. La exposición permitió evidenciar dominio del proyecto, coordinación grupal y capacidad para responder preguntas relacionadas con el desarrollo y funcionamiento del sistema. <br><br> TB1: Durante el TB1, el equipo desarrolló documentación técnica y funcional detallada, incluyendo evidencias de desarrollo, despliegue de la segunda versión del landing page, la primera version frontend de BrandRadar, colaboración y arquitectura del sistema. La información fue presentada de manera ordenada, utilizando un lenguaje técnico adecuado y manteniendo coherencia en la estructura del informe, permitiendo comunicar efectivamente los avances del proyecto a lectores académicos y técnicos. <br><br> |
 
 ---
 
@@ -721,21 +725,21 @@ A continuación, se presentan los Problem Statements correspondientes a los dos 
 **Hypothesis Statement 1:**
 
 
-> Creemos que, al implementar alertas automáticas en tiempo real sobre menciones negativas y fallos en la infraestructura web, los responsables de marketing y equipos técnicos podrán responder de manera más oportuna y prevenir crisis reputacionales y operativas.
-**Sabremos que hemos tenido éxito** cuando al menos el 70 % de los usuarios activos configure alertas durante su primera semana de uso y se evidencie una reducción en el tiempo de respuesta ante incidentes.
+> Creemos que al implementar un sistema de alertas automáticas basado en la severidad y el impacto de las menciones, lograremos que las PyMEs y especialistas de marketing optimicen su capacidad de respuesta ante ataques reputacionales.
+**Sabremos que hemos tenido éxito** cuando el tiempo promedio de reacción y mitigación de crisis disminuya en un 50% en comparación con el monitoreo tradicional. 
 
 **Hypothesis Statement 2:**
 
 
-> Creemos que, al ofrecer un dashboard centralizado que integre métricas de reputación (sentimiento, volumen y tendencias) junto con el estado de la infraestructura web, los usuarios podrán comprender mejor el desempeño digital de su marca y tomar decisiones estratégicas más informadas.
-**Sabremos que hemos tenido éxito** cuando el 65 % de los usuarios activos consulte el dashboard al menos tres veces por semana durante el primer mes de uso.
+> Creemos que al integrar un motor de análisis de sentimiento con detección de sarcasmo y contexto local, lograremos que los analistas de marca dependan menos de la verificación manual de los datos.
+**Sabremos que hemos tenido éxito** cuando el índice de precisión del sistema alcance un 90% de coincidencia con la clasificación humana y las correcciones manuales disminuyan en un 70%. 
 
 
 **Hypothesis Statement 3:**
 
 
-> Creemos que, al integrar múltiples canales digitales junto con el monitoreo técnico en una sola plataforma, los usuarios podrán obtener una visión más completa y unificada de su ecosistema digital.
-**Sabremos que hemos tenido éxito** cuando al menos el 60 % de los usuarios activos conecte más de una fuente de datos y utilice al menos una funcionalidad de monitoreo de infraestructura durante su primera semana de uso.
+> Creemos que al unificar el monitoreo de la infraestructura web con el seguimiento de marca en un solo dashboard, lograremos que las empresas reduzcan las pérdidas de datos por desconexiones técnicas inesperadas.
+**Sabremos que hemos tenido éxito** cuando el tiempo de inactividad (downtime) de las fuentes de monitoreo disminuya en un 80% respecto a los procesos de monitoreo manual previos. 
 
 
 <br>
@@ -1195,35 +1199,51 @@ La mayor frustración de Vale radica en el carácter "artesanal" y manual del mo
 
 ### 2.2.3. Análisis de entrevistas
 
-> *El análisis de entrevistas permite identificar percepciones, necesidades y comportamientos de los segmentos objetivo a partir de la información recopilada. En esta sección, los resultados se presentan por segmento, utilizando porcentajes y hallazgos cualitativos para evidenciar patrones, tendencias y diferencias relevantes que apoyan la toma de decisiones en el diseño de la solución.*
+> *El análisis identifica los problemas concretos, patrones de comportamiento y decisiones de diseño que emergen de las entrevistas. Se presentan por segmento para evidenciar diferencias y convergencias que informan la propuesta de valor de BrandRadar.*
 
 <br>
 
 **Segmento objetivo 1: `Pequeñas y medianas empresas y marcas digitales (PyMEs)`**
 
-<br>
+Los tres entrevistados de este segmento comparten un problema estructural idéntico: **ninguno tiene mecanismo proactivo para monitorear su reputación digital**. 
 
-A partir de las entrevistas realizadas a emprendedores y gerentes de negocios locales, se identificaron patrones de comportamiento relevantes para la construcción del User Persona. En términos demográficos, el 100 % de los entrevistados opera en zonas comerciales urbanas (Surco) y coincide en que mantener una buena imagen, generar confianza y cumplir con su propuesta de valor son factores críticos para el éxito de sus negocios.
+El 100 % revisa Google Maps y redes sociales de forma manual y reactiva, generalmente después de recibir un reclamo directo por WhatsApp. Esto significa que la ventana de respuesta ante una crisis siempre llega tarde.
 
-Respecto al uso de tecnología, el 100 % utiliza el dispositivo móvil como principal herramienta de gestión diaria, mientras que el 50 % complementa sus actividades con el uso de laptop para tareas administrativas. En cuanto a canales digitales, existe consenso en que WhatsApp (100 %) es el medio más importante para el cierre de ventas, seguido de Instagram y Facebook (100 %) como plataformas clave para la atracción de clientes.
+El caso más crítico es el de Alfredo Negrete, cuya empresa anterior quebró sin que pudiera identificar con claridad los factores que llevaron a la pérdida de clientes. Esta incapacidad de diagnóstico evidencia que el problema no es solo operativo (detectar comentarios) sino **estratégico: sin visibilidad, no hay aprendizaje y los mismos errores se repiten**.
 
-En relación con las principales dificultades, el 100 % de los entrevistados manifestó haber experimentado pérdidas de ventas asociadas a factores como comentarios negativos, competencia en precios o abandono del proceso de compra. Asimismo, el monitoreo de la reputación digital se realiza de forma manual en plataformas como Google Maps y Facebook (100 %), lo que evidencia una ausencia de automatización en estos procesos.
+Jenifer López y Karim Castillo, aunque con negocios más jóvenes y digitales, reproducen el mismo patrón: ambos tuvieron que reaccionar ante quejas que ya estaban visibles para otros clientes potenciales. La diferencia es que ambos convirtieron la crítica en mejora (Jenifer amplió su inventario de tallas; Karim ofreció compensación), lo que sugiere **alta disposición a aprender**, pero solo cuando el problema ya impactó.
 
-Este hallazgo valida la necesidad de una solución como BrandRadar, la cual obtuvo una aceptación total (100 %) por parte de los entrevistados. Los usuarios mostraron especial interés en funcionalidades como alertas preventivas en tiempo real y la visualización de información que les permita gestionar de manera más eficiente la imagen de sus marcas.
+El patrón de uso tecnológico es consistente: el celular es el centro de operaciones y WhatsApp es el canal de cierre de ventas. Esto implica que una solución de monitoreo que requiera acceso a un dashboard de escritorio **tendrá baja adopción**. Las alertas deben llegar al móvil, en tiempo real, sin fricción.
+
+La aceptación de BrandRadar fue inmediata en los tres casos. El valor percibido no fue el análisis de datos, sino **la tranquilidad de no perderse nada crítico**: la herramienta se posiciona como prevención de pérdidas, no como herramienta de métricas.
 
 <br>
 
 **Segmento objetivo 2: `Especialistas de marketing o community managers`**
 
+Los tres entrevistados de este segmento son profesionales con alta carga operativa y experiencia concreta en gestión de crisis. El hallazgo más relevante es que **las herramientas actuales tienen un punto ciego estructural**: Meta Business Suite y plataformas similares solo notifican menciones directas (con etiqueta). En TikTok y X (Twitter), donde las críticas se viralizan con mayor frecuencia, las marcas no son etiquetadas sistemáticamente, lo que deja a los CM completamente a ciegas.
+
+Valeria Nuñez describe este escenario con claridad: una queja de un influencer no detectada derivó en una crisis reputacional que tuvo que atenderse un fin de semana, fuera de horario. Este caso ilustra que **el costo del monitoreo manual no es solo tiempo, es riesgo profesional**: un CM que "no se enteró" pierde credibilidad ante su cliente.
+
+La carga de trabajo operativa es cuantificable. Esteban Medina dedica entre 10 y 15 horas mensuales exclusivamente a la elaboración de reportes manuales (consolidar métricas, capturas y análisis de desempeño), tiempo que no genera valor estratégico. Romina Apaza invierte 1 a 2 horas diarias en monitoreo, de las cuales gran parte es revisión repetitiva de plataformas sin alertas activas.
+
+La decisión de diseño más crítica que emerge de este segmento es la cobertura de **menciones sin etiqueta**, que es la brecha que ninguna herramienta gratuita o nativa cubre actualmente. A esto se suma la automatización de reportes como caso de retención: si BrandRadar elimina o reduce drásticamente el tiempo de reporte, el producto se vuelve indispensable en el flujo de trabajo del CM.
+
+Esteban también planteó espontáneamente la posibilidad de recibir sugerencias de "hooks" de contenido basadas en el análisis de percepción de audiencia, lo que señala una **oportunidad de diferenciación hacia funcionalidades de IA generativa** en iteraciones futuras del producto.
+
 <br>
 
-A partir de las entrevistas realizadas a profesionales de marketing digital, se identificaron patrones que respaldan la viabilidad de la solución en un entorno B2B. El 100 % de los entrevistados trabaja bajo modalidad freelance o en posiciones de jefatura, gestionando cuentas de alta exigencia, y destaca por su enfoque analítico y orientación a resultados.
+**Hallazgos transversales**
 
-En cuanto al uso de herramientas, el 100 % emplea plataformas de organización como Trello o Notion, así como herramientas de comunicación como WhatsApp y videollamadas para la coordinación de equipos y clientes. Para el monitoreo de reputación digital, el 100 % utiliza múltiples canales, incluyendo Instagram, TikTok, Facebook y Google Maps.
+A pesar de las diferencias entre segmentos, cuatro hallazgos son comunes a los seis entrevistados:
 
-El principal pain point identificado es la alta carga operativa asociada al monitoreo manual. El 100 % de los entrevistados invierte entre 1 y 2 horas diarias en la revisión de redes sociales, además de entre 10 y 15 horas mensuales en la elaboración de reportes. Asimismo, el 100 % ha enfrentado situaciones críticas en las que comentarios negativos no fueron detectados a tiempo, lo que impactó directamente en el rendimiento de las campañas y la captación de clientes.
+1. **Crisis detectada tarde**: todos han experimentado al menos una situación donde un comentario negativo ya era público antes de poder responder.
 
-Estos hallazgos refuerzan la necesidad de una solución automatizada que optimice el monitoreo, centralice la información y mejore la capacidad de respuesta ante eventos críticos de reputación digital.
+2. **Monitoreo 100 % manual**: ninguno cuenta con automatización real; la revisión es ad hoc y depende del tiempo disponible.
+
+3. **Google Maps como canal crítico**: en ambos segmentos, las reseñas en Google son el principal punto de decisión de nuevos clientes y el canal con mayor impacto reputacional percibido.
+
+4. **Aceptación sin resistencia**: los seis entrevistados expresaron interés en BrandRadar sin necesidad de persuasión, lo que valida que el problema es real y sentido, no inducido por el diseño de las preguntas.
 
 <br>
 
@@ -2340,22 +2360,19 @@ Las notificaciones push dirigen al usuario directamente a la mención o alerta e
 
 ## 4.3. Landing Page UI Design
 
->En esta sección se presenta la propuesta de interfaz de usuario (UI) para la Landing Page de **BrandRadar**. El diseño se fundamenta en los hallazgos obtenidos durante el proceso de investigación (entrevistas y Lean UX), priorizando las necesidades de los usuarios, especialmente la visualización clara de la reputación digital y el acceso rápido a información relevante.*
-
->*Asimismo, se han aplicado principios de diseño centrados en el usuario, una arquitectura de información clara y un enfoque visual moderno, con el objetivo de comunicar de manera efectiva el valor de la plataforma y facilitar la conversión de usuarios.*
+> *En esta sección se presenta la propuesta de interfaz de usuario (UI) para la Landing Page de BrandRadar. El diseño fue concebido a partir de los hallazgos obtenidos durante la etapa de investigación, especialmente las problemáticas relacionadas con las crisis reputacionales que enfrentan las marcas en entornos digitales, donde comentarios negativos, tendencias virales y publicaciones en redes sociales pueden afectar rápidamente la percepción pública de una empresa. La propuesta busca comunicar de manera clara el impacto que puede generar una mala gestión de la reputación digital, resaltando la necesidad de monitorear constantemente la opinión de los usuarios y reaccionar oportunamente ante posibles riesgos. Por ello, el diseño prioriza la comunicación del problema y sus consecuencias antes que la presentación de funcionalidades específicas de la plataforma. Asimismo, se aplicaron principios de diseño centrados en el usuario, una arquitectura de información clara y un enfoque visual moderno, con el objetivo de generar conciencia sobre la importancia de la reputación online y transmitir confianza a potenciales usuarios.*
 
 
 ### 4.3.1. Landing Page Wireframe
 
->*Los wireframes representan la estructura base de la Landing Page, permitiendo definir la organización de contenidos, la jerarquía visual y el flujo de navegación antes de la aplicación del diseño visual final. Se desarrollaron versiones para escritorio (desktop web browser) y dispositivos móviles (mobile web browser):*
+>*Los wireframes representan la estructura base de la Landing Page, permitiendo definir la organización de contenidos, la jerarquía visual y el flujo de navegación antes de la aplicación del diseño visual final. En esta etapa se priorizó la representación visual del problema de las crisis reputacionales, destacando mensajes relacionados con la pérdida de confianza, el impacto de las opiniones negativas y la necesidad de monitoreo constante en redes sociales y plataformas digitales. Se desarrollaron versiones para escritorio (desktop web browser) y dispositivos móviles (mobile web browser):*
+
 
 <br>
-
 <div align="center">
 
 **Desktop Web Browser**
 
-<br>
 
 *Elaboración propia en Figma*
 
@@ -2364,7 +2381,6 @@ Las notificaciones push dirigen al usuario directamente a la mención o alerta e
 <br>
 
 **Mobile Web Browser**
-<br>
 
 *Elaboración propia en Figma*
 
@@ -2375,14 +2391,13 @@ Las notificaciones push dirigen al usuario directamente a la mención o alerta e
 
 ### 4.3.2. Landing Page Mock-up
 
->*Los mock-ups representan la versión visual final de la Landing Page, incorporando los elementos definidos en el Design System, como la paleta de colores, la tipografía, la iconografía y los estilos de componentes.
-En esta etapa se materializa la propuesta de wireframes en una interfaz visual completamente definida, permitiendo validar la coherencia estética, la jerarquía visual y la experiencia de usuario antes del desarrollo final.*
+> *Los mock-ups representan la versión visual final de la Landing Page, incorporando los elementos definidos en el Design System, como la paleta de colores, la tipografía, la iconografía y los estilos de componentes. En esta etapa se materializa una propuesta visual orientada principalmente a evidenciar la problemática de las crisis reputacionales digitales y sus efectos sobre las marcas. Para ello, se utilizaron elementos gráficos, secciones informativas y mensajes visuales enfocados en transmitir la urgencia de identificar tendencias negativas y actuar rápidamente frente a situaciones que puedan afectar la percepción pública. De esta manera, la interfaz busca generar empatía con los usuarios y contextualizar el valor de la solución antes de profundizar en las funcionalidades específicas de la plataforma.*
 
+
+<br>
 <div align="center">
 
 **Desktop Web Browser**
-
-<br>
 
 *Elaboración propia en Figma*
 
@@ -2391,8 +2406,6 @@ En esta etapa se materializa la propuesta de wireframes en una interfaz visual c
 <br>
 
 **Mobile Web Browser**
-
-<br>
 
 *Elaboración propia en Figma*
 
@@ -2437,19 +2450,17 @@ Se aplican principios de diseño centrado en el usuario, consistencia visual bas
 <br>
 
 
-**User goal: `[Nombre del User goal]`**
+**User goal: `Inicio de Sesión y Registro `**
 
-*(Descripción del flujo especificado)*
+El flujo comienza cuando el usuario abre la aplicación web y se encuentra con la pantalla de autenticación. Si ya tiene una cuenta, ingresa sus credenciales (correo y contraseña) y hace clic en "Log in" para ser redirigido directamente al Dashboard principal. Si es un usuario nuevo, debe seleccionar la opción "Sign up", la cual lo lleva a un formulario de registro. Allí ingresa su nombre, apellido, correo electrónico y crea una contraseña. Tras hacer clic en el botón de confirmar, su cuenta es creada exitosamente, permitiéndole el acceso a la plataforma BrandRadar.
 
-![Wireflow Diagrama 1](brandradar-report/assets/web-app/wireflow-1.png)
+![Wire Flow Diagrama 1](brandradar-report/assets/web-app/wire-flow-1.png)
 
-<br>
+**User goal: `Gestión de Incidentes`**
 
-**User goal: `[Nombre del User goal]`**
+El flujo comienza en el Dashboard principal, desde donde el usuario utiliza el menú lateral para navegar a la sección de "Incidentes" (o Alertas). En esta pantalla, visualiza una lista detallada de las incidencias recientes detectadas por BrandRadar (como menciones negativas o problemas de reputación). El usuario selecciona un incidente específico haciendo clic en él para ver sus detalles, lo que lo lleva a una pantalla donde puede evaluar la gravedad del problema, ver el origen de la alerta y tomar las acciones correspondientes para gestionar o resolver la situación.
 
-*(Descripción del flujo especificado)*
-
-![Wireflow Diagrama 2](brandradar-report/assets/web-app/wireflow-2.png)
+![Wire Flow Diagrama 2](brandradar-report/assets/web-app/wire-flow-2.png)
 
 <br>
 
@@ -2473,15 +2484,89 @@ Se aplican principios de diseño centrado en el usuario, consistencia visual bas
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
-*(User Flows incluyendo Mock-ups de vistas, happy paths y unhappy paths)*
-
 <br>
 
-**User goal: `[Nombre del User goal]`**
+**User goal: `Inicio de Sesión y Registro de Cuenta`**
 
-*(Descripción de los flujos y condiciones especificadas)*
+**User Persona: PyMEs y Agencia(Account Manager)**
+
+El flujo se inicia cuando el usuario ingresa a la aplicación. El sistema presenta un punto de decisión: si el usuario ya posee una cuenta, procede al "Login" ingresando sus credenciales; de lo contrario, se dirige a la opción "Sign Up" para crear una nueva cuenta completando el formulario de registro. En ambos casos, tras la validación exitosa de los datos, el sistema procesa la autenticación y redirige automáticamente al usuario hacia el Dashboard principal. Una vez dentro del Dashboard, el usuario ha cumplido su objetivo y el flujo finaliza, dándole acceso a todas las funcionalidades de monitoreo de BrandRadar.
 
 ![User Flow Diagrama 1](brandradar-report/assets/web-app/user-flow-1.png)
+
+**User goal: Resolución de incidentes**
+**User Persona: PyMEs**
+Explicación del flujo: Este flujo comienza en el 'Dashboard reputacional', donde el usuario visualiza una alerta crítica en la sección de incidentes activos. Al hacer clic, es dirigido a la lista detallada de 'Incidentes' para seleccionar el evento específico que requiere atención. Una vez seleccionado, se despliega la vista de análisis donde el usuario revisa el origen del problema y las menciones relacionadas. Posteriormente, accede a la interfaz de gestión para aplicar una respuesta o acción correctiva. Finalmente, el flujo concluye con la confirmación de la resolución del incidente, actualizando el estado de la marca a un nivel seguro y documentando la actividad en el registro de auditoría. 
+
+![User Flow Diagrama 1](brandradar-report/assets/web-app/user-flow-2.png)
+
+**User goal: Gestión y respuesta de menciones**
+**User Persona: PyMEs**
+Explicación del flujo: Este flujo inicia en el 'Dashboard reputacional', donde el usuario observa el volumen de actividad reciente y se dirige al apartado de 'Menciones' para revisar los comentarios de los clientes. Tras filtrar y seleccionar una crítica específica que requiere atención, el usuario accede a la vista de detalle para redactar una respuesta adecuada. Una vez finalizada la redacción, el usuario publica la respuesta directamente desde la plataforma. El flujo termina con la confirmación de la respuesta publicada, lo que permite a la PyME mantener una comunicación activa y gestionar su reputación digital de manera inmediata.
+
+![User Flow Diagrama 1](brandradar-report/assets/web-app/user-flow-3.png)
+
+**User goal: Conectar nueva fuente de datos**
+**User Persona: PyMEs**
+Explicación del flujo: Este flujo comienza en el 'Dashboard reputacional', desde donde el usuario navega hacia el apartado de 'Mis marcas' para gestionar su portafolio. Tras seleccionar una marca específica de la lista, el usuario accede a la vista de detalles de la marca, donde puede observar métricas clave, fuentes conectadas y el sentimiento general. Al identificar la necesidad de expandir el monitoreo, selecciona la opción para conectar una nueva fuente, lo que despliega un catálogo de plataformas disponibles (como redes sociales o sitios de reseñas). El flujo finaliza una vez que el usuario vincula la nueva cuenta, permitiendo que el sistema comience a centralizar la información de esa fuente en el panel de control.
+
+![User Flow Diagrama 1](brandradar-report/assets/web-app/user-flow-4.png)
+
+**User goal: Configuración de reglas de monitoreo** 
+**User Persona: PyMEs**
+Explicación del flujo: Este flujo inicia en el 'Dashboard reputacional', donde el usuario tiene una visión general del estado de su marca. Al requerir una automatización específica para la detección de eventos, navega hacia el apartado de 'Reglas'. Dentro de la vista de 'Reglas de monitoreo', el usuario puede visualizar las reglas activas, su frecuencia de ejecución y un historial de disparos recientes. El flujo permite al usuario editar parámetros como palabras clave, nivel de severidad y canales de notificación, o bien crear una nueva regla para personalizar las alertas que el sistema debe priorizar en el monitoreo diario.
+
+![User Flow Diagrama 1](brandradar-report/assets/web-app/user-flow-5.png)
+
+**User goal: Generación y gestión de reportes** 
+**User Persona: PyMEs**
+Explicación del flujo: Este flujo comienza en el 'Dashboard reputacional', donde el usuario analiza las métricas generales y decide profundizar en la documentación de resultados. Para ello, se dirige al apartado de 'Reportes' en el menú lateral. En esta vista, el usuario puede gestionar los informes generados anteriormente, ver reportes programados y analizar estadísticas de descargas. El flujo permite configurar un 'Nuevo reporte' personalizando el nombre, el tipo de análisis (reputación, incidentes, sentimiento) y el periodo de tiempo. Finalmente, el usuario puede generar el reporte automáticamente.
+
+![User Flow Diagrama 1](brandradar-report/assets/web-app/user-flow-6.png)
+
+**User goal: Monitoreo y gestión de infraestructura técnica** 
+**User Persona: PyMEs**
+Explicación del flujo: Este flujo inicia en el 'Dashboard reputacional', donde el usuario puede observar un resumen rápido del estado de los servicios técnicos en el widget de infraestructura. Para obtener un control detallado, navega hacia el apartado de 'Infraestructura' en el menú principal. En esta vista, el usuario visualiza la lista completa de servicios conectados (como APIs de redes sociales y pasarelas de pago). Además, puede revisar el estado general del sistema mediante un gráfico de uptime y acceder a la opción de conectar una nueva fuente desde el catálogo de plataformas disponibles. El flujo concluye con la revisión del historial de eventos.
+
+![User Flow Diagrama 1](brandradar-report/assets/web-app/user-flow-7.png)
+
+**Segmento 2**
+
+**User goal: Gestión integral de cartera y resolución de crisis de clientes** 
+**User Persona: Account Manager (Agencia)**
+Explicación del flujo: Este flujo describe el proceso de supervisión y respuesta desde una perspectiva de gestión de cuentas, comenzando en el Dashboard de Agencia donde el usuario identifica alertas críticas de toda su cartera de clientes. Acto seguido, navega al apartado 'Mis Clientes' para realizar una comparativa visual del ReputationIndex™ y filtrar aquellas cuentas que presentan incidentes activos o reportes pendientes. Al seleccionar un cliente específico, el usuario accede a un panel detallado para realizar un diagnóstico de crisis, analizando tendencias de sentimiento y menciones recientes para determinar si es necesario escalar el caso. Finalmente, el flujo concluye con la gestión técnica de un incidente puntual, donde el Account Manager analiza patrones de ataque coordinados, utiliza herramientas de respuesta con IA y coordina con su equipo mediante notas internas para resolver la crisis y cumplir con los tiempos de respuesta acordados.
+
+![User Flow Diagrama 1](brandradar-report/assets/web-app/user-flow-8.png)
+
+**User goal: Gestión de cola unificada de incidentes y asignación de recursos** 
+**User Persona: Account Manager (Agencia)**
+Explicación del flujo: Este flujo comienza en el Dashboard de Agencia y se dirige a la sección de 'Incidentes', la cual funciona como una cola unificada de todos los clientes de la cartera. El usuario visualiza una barra de alerta prioritaria que indica incidentes críticos sin asignar y el tiempo restante para evitar el incumplimiento del servicio. En esta vista, el Account Manager puede filtrar los incidentes por severidad, estado de asignación o cliente específico, permitiéndole gestionar la carga del equipo en tiempo real al ver cuántos casos tiene asignados cada analista. El flujo concluye cuando el usuario selecciona un incidente crítico, como un "Pico anómalo de menciones", y utiliza las opciones rápidas para auto-asignarse el caso, responder con IA o ver el detalle completo para iniciar el protocolo de resolución.
+
+![User Flow Diagrama 1](brandradar-report/assets/web-app/user-flow-9.png)
+
+**User goal: Gestión y respuesta optimizada de menciones multiplataforma** 
+**User Persona: Account Manager (Agencia)**
+Explicación del flujo: Este flujo comienza en el Dashboard de Agencia, donde el usuario supervisa la actividad reciente de toda su cartera antes de dirigirse a la sección de 'Menciones'. Una vez en la cola de menciones global, el usuario selecciona un comentario específico de un cliente para abrir la vista de detalle y contexto. Dentro de esta interfaz, el Account Manager utiliza herramientas de inteligencia artificial para generar una respuesta sugerida que se adapte al tono de la marca y la naturaleza del comentario. Tras revisar y validar la propuesta, el usuario procede a publicar la respuesta directamente desde la plataforma, concluyendo el flujo con la confirmación de la interacción enviada y la actualización del estado de la mención en el sistema de gestión.
+
+![User Flow Diagrama 1](brandradar-report/assets/web-app/user-flow-10.png)
+
+**User goal: Generación de informes personalizados por cliente** 
+**User Persona: Account Manager (Agencia)**
+Explicación del flujo: Este flujo inicia en el Dashboard de Agencia y se dirige a la sección de 'Reportes', donde el usuario puede visualizar el historial de informes generados para toda su cartera de clientes. Tras seleccionar la opción para crear un nuevo documento, el usuario selecciona un cliente específico y configura los parámetros del reporte, incluyendo el tipo de análisis (reputación, incidentes o sentimiento), el rango de fechas y el formato de exportación deseado. El flujo continúa con la personalización de opciones de envío automático y culmina con la generación del reporte, permitiendo al Account Manager obtener una vista previa detallada de las métricas de la marca antes de descargar el archivo o compartirlo directamente con el cliente.
+
+![User Flow Diagrama 1](brandradar-report/assets/web-app/user-flow-11.png)
+
+**User goal: Análisis de evolución y comparativa de métricas entre periodos o clientes** 
+**User Persona: Account Manager (Agencia)**
+Explicación del flujo: Este flujo se inicia en el Dashboard de Agencia y se dirige a la sección de 'Comparativas', donde el usuario puede analizar la evolución del rendimiento de sus clientes. El flujo permite seleccionar un cliente específico y comparar periodos de tiempo (por ejemplo, Marzo vs. Abril) para visualizar variaciones porcentuales en métricas clave como el ReputationIndex™, volumen de menciones y sentimientos. Además, el usuario puede apoyarse en una sección de 'Insights automáticos' que destaca caídas críticas o anomalías detectadas, y revisar gráficas de evolución temporal para identificar tendencias.
+
+![User Flow Diagrama 1](brandradar-report/assets/web-app/user-flow-12.png)
+
+**User goal: Gestión administrativa de la agencia, equipo y preferencias globales** 
+**User Persona: Account Manager (Agencia)**
+Explicación del flujo: Este flujo inicia en el Dashboard de Agencia y se dirige a la sección de 'Configuración', donde el usuario centraliza la administración operativa de la cuenta. El flujo permite gestionar el equipo de la agencia, permitiendo invitar nuevos miembros o editar roles de analistas existentes, así como revisar la información del plan y la capacidad de clientes activos. Además, el usuario puede personalizar las notificaciones multiplataforma y establecer umbrales globales de monitoreo (como alertas por menciones negativas o patrones coordinados) que se aplicarán a los nuevos clientes. El flujo concluye con la gestión de integraciones técnicas con herramientas externas y el acceso a opciones críticas en la zona de peligro para la exportación de datos o gestión de la suscripción.
+
+![User Flow Diagrama 1](brandradar-report/assets/web-app/user-flow-13.png)
 
 <br>
 
@@ -2489,16 +2574,23 @@ Se aplican principios de diseño centrado en el usuario, consistencia visual bas
 
 ## 4.5. Web Applications Prototyping
 
-En esta sección se presenta el prototipo interactivo de la aplicación web de BrandRadar, desarrollado en Figma a partir de los mock-ups de alta fidelidad definidos en la sección anterior. El prototipo simula la navegación real del sistema, permitiendo visualizar los flujos de interacción entre las distintas vistas de la plataforma en sus versiones Desktop y Mobile Web.
+En esta sección se presenta el prototipo interactivo de la aplicación web de BrandRadar, desarrollado en Figma a partir de los mockups de alta fidelidad definidos previamente. El prototipo permite simular la navegación e interacción entre los distintos módulos y bounded contexts de la plataforma, tanto en versiones Desktop como Mobile Web.
+
+El diseño del prototipo fue construido considerando los principales procesos del dominio identificados durante el modelado del sistema, incluyendo autenticación y acceso, gestión de workspaces, monitoreo de reputación, detección de crisis, análisis de sentimiento y supervisión de infraestructura.
 
 Las decisiones de interacción del prototipo se basaron en los siguientes criterios:
 
-- **Accesibilidad y simplicidad:** Se prioriza una navegación intuitiva que permita a cualquier usuario, independientemente de su nivel técnico, utilizar la plataforma sin necesidad de instrucciones previas, especialmente en el segmento de dueños de PyMEs.
-- **Rapidez de acceso a funciones críticas:** Las acciones más frecuentes, como la revisión de alertas, el análisis de sentimiento y la generación de reportes, se encuentran disponibles desde el Dashboard principal con el menor número de interacciones posible.
-- **Consistencia visual:** Todos los elementos siguen el Design System definido, garantizando un comportamiento coherente y predecible en componentes como botones, formularios, tarjetas y navegación.
-- **Diseño responsivo:** El prototipo se adapta a dispositivos móviles, asegurando una experiencia consistente que permita el monitoreo de la reputación digital desde cualquier dispositivo.
+- **Accesibilidad y simplicidad:** Se priorizó una navegación intuitiva y comprensible para usuarios con distintos niveles de experiencia tecnológica, facilitando el acceso rápido a las funcionalidades principales de la plataforma.
 
-A continuación, se presentan los prototipos para Desktop y Mobile Web, junto con los videos de simulación de navegación correspondientes.
+- **Integración de bounded contexts:** Las vistas y flujos fueron organizados de acuerdo con los distintos contextos del dominio, permitiendo una separación clara de responsabilidades y una experiencia de navegación estructurada.
+
+- **Rapidez de acceso a funcionalidades críticas:** Las acciones principales, como visualización de alertas reputacionales, monitoreo de menciones, análisis de sentimiento y gestión de workspaces, se encuentran disponibles desde el dashboard principal con la menor cantidad de interacciones posible.
+
+- **Consistencia visual:** Todos los componentes del prototipo siguen el Design System definido para BrandRadar, manteniendo uniformidad en estilos visuales, navegación, formularios, tarjetas y elementos interactivos.
+
+- **Diseño responsivo:** El prototipo fue adaptado para dispositivos móviles y escritorio, garantizando una experiencia consistente y accesible desde diferentes tamaños de pantalla.
+
+A continuación, se presentan los prototipos correspondientes a Desktop y Mobile Web, junto con las simulaciones de navegación desarrolladas para validar la experiencia de usuario de la plataforma.
 
 <br>
 
@@ -2506,17 +2598,17 @@ A continuación, se presentan los prototipos para Desktop y Mobile Web, junto co
 
 **Desktop Prototyping**
 
-![Screenshot Prototipo Desktop](brandradar-report/assets/prototypes/prototype-desktop-screenshot.png)
+![Desktop Video Prototype](brandradar-report/assets/ux-design/desktop-prototyping.png)
 
-[Ver video de prototipo Desktop en Microsoft Stream](`URL`)
+[Ver video de prototipo Desktop en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410239_upc_edu_pe/IQB1YmJu1khjTYyr7i4eSgoDAT-L5_OyZLuRS1Xi4bj-4QE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=n1DRgz)
 
 <br>
 
 **Mobile Prototyping**
 
-![Screenshot Prototipo Mobile](brandradar-report/assets/prototypes/prototype-mobile-screenshot.png)
+![Mobile Video Prototype](brandradar-report/assets/ux-design/mobile-prototyping.png)
 
-[Ver video de prototipo Mobile en Microsoft Stream](`URL`)
+[Ver video de prototipo Mobile en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410239_upc_edu_pe/IQCbmTJ-BchRRJQQJ8vTYh24AYKQVSYXj-4Q8-d3ku2ORZ8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=9KOKFm)
 
 </div>
 
@@ -3724,24 +3816,24 @@ A continuación se presenta el Sprint Planning para esta segunda entrega, donde 
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Sprint 2** | **User Story** | | **Work-Item / Task** | | | | **Asignado a** | **Status** |
 | **ID** | **Título** | **SP** | **ID** | **Título** | **Descripción** | **Estimación** | **Asignado a** | |
-| **US06** | Registrar cuenta verificada para proteger información reputacional sensible | 5 | T-01 | Pantalla de Registro con validación de dominio y emisión de `AccountRegistered` | Formulario de registro (nombre, email, contraseña, plan) conectado a TS01. Valida invariantes del dominio en frontend: email único, contraseña segura, plan válido. Emite Domain Event `AccountRegistered` al confirmar y redirige a verificación. | 3h | Brianna | To Do |
-| **US06** | Registrar cuenta verificada para proteger información reputacional sensible | | T-02 | `SharedModule` – componentes atómicos reutilizables para todo el sprint | Módulo compartido con `InputField`, `PrimaryButton`, `AlertBanner`, `LoadingSpinner`, `StatusBadge`. Base de diseño consistente para todas las pantallas del sprint. Incluye manejo de estados de error alineado con respuestas de dominio. | 2h | Brianna | To Do |
-| **US07** | Verificar correo para que la cuenta transite a `ACTIVA` y habilite el workspace | 3 | T-03 | Pantalla de Verificación de Email: transiciona `UserAccount` a `ACTIVA` emitiendo `AccountActivated` | Pantalla accedida por token en URL. Llama a TS03, muestra confirmación de activación y redirige al workspace. Maneja casos de token expirado (reenvío) y ya verificado. El estado `ACTIVA` habilita acceso al `BrandWorkspace`. | 2h | Brianna | To Do |
-| **US08** | Iniciar sesión para acceder exclusivamente a las marcas asignadas | 3 | T-04 | Pantalla de Login con bloqueo por intentos fallidos y JWT asociado a `BrandWorkspace` asignados | Formulario de login conectado a TS02. Diferencia errores por credenciales inválidas vs cuenta bloqueada vs no verificada. Almacena JWT en `AuthService` (en memoria). Solo habilita acceso a los `BrandWorkspace` asignados al usuario autenticado. | 3h | Brianna | To Do |
-| **US09** | Recuperar acceso mediante flujo seguro sin comprometer la confidencialidad reputacional | 3 | T-05 | Pantalla de Recuperar Contraseña: solicita email y emite `PasswordRecoveryRequested` | Captura email y llama al flujo de recuperación (TS04). Emite `PasswordRecoveryRequested`. Respuesta genérica que no revela si el email existe en el sistema, protegiendo enumeración de cuentas. | 2h | Jean Franco | To Do |
-| **US09** | Recuperar acceso mediante flujo seguro sin comprometer la confidencialidad reputacional | | T-06 | Pantalla de Nueva Contraseña: completa `PasswordReset` e invalida sesiones activas | Pantalla accedida por token en URL. Valida requisitos del dominio para contraseña. Llama a TS04 completando `PasswordReset` e invalidando todas las sesiones activas del usuario para evitar acceso no autorizado posterior. | 2h | Jean Franco | To Do |
-| **US11** | Configurar `BrandWorkspace` con palabras clave y fuentes para activar motor de detección | 5 | T-07 | Pantalla de Selección de `BrandWorkspace`: aísla reputación por cliente y activa contexto operacional | Lista los `BrandWorkspace` asignados al usuario autenticado. Permite seleccionar el workspace activo, aislando métricas y menciones por cliente. Conecta con TS06 y persiste estado en `WorkspaceStateService`. Previene análisis cruzados incorrectos entre clientes. | 3h | Jean Franco | To Do |
-| **US27** | Detectar tendencias negativas del `SentimentScore` para ejecutar acciones correctivas rápidamente | 8 | T-08 | Pantalla de Dashboard reputacional: expone indicadores de decisión del `BrandWorkspace` activo | Consume endpoint de métricas consolidadas (TS15). Muestra `SentimentScore` actual, tendencia, menciones recientes del `MentionStream`, `ReputationIncident` activos por `SeverityLevel` y alertas pendientes. Orientado a decisión operacional, no solo visualización de métricas. | 4h | Jean Franco | To Do |
-| **US33** | Operar exclusivamente dentro del perímetro de `BrandWorkspace` asignados para garantizar confidencialidad | 8 | T-09 | Pantalla 403 – Acceso no autorizado al `BrandWorkspace`: registra intento como evento de auditoría | Se activa cuando el `WorkspaceGuard` (T-14) rechaza acceso a un `BrandWorkspace` no asignado al usuario. Muestra mensaje claro, registra el intento no autorizado como evento de auditoría (TS16) y orienta al usuario hacia sus workspaces legítimos. | 2h | Joaquin | To Do |
-| **US11** | Configurar `BrandWorkspace` con palabras clave y fuentes para activar motor de detección | 5 | T-10 | Pantalla de Gestión de Marcas: crear, editar y desactivar `BrandWorkspace` con trazabilidad | CRUD de marcas conectado a TS06 y TS07. Formulario de configuración: nombre, `KeywordRule`, `MonitoringChannel`. La desactivación conserva historial emitiendo `WorkspaceDeactivated`. Cada cambio de configuración emite `MonitoringRuleUpdated` para trazabilidad. | 5h | Joaquin | To Do |
-| **US23** | Detectar picos anómalos en `MentionStream` para crear `ReputationIncident` antes de que una crisis escale | 8 | T-11 | Pantalla de Incidentes Reputacionales: prioriza `ReputationIncident` por `SeverityLevel` y registra respuesta | Lista de `ReputationIncident` filtrable por `SeverityLevel`, `IncidentStatus` y fecha. Permite registrar respuesta emitiendo `AlertAcknowledged` con responsable y timestamp. Conecta con TS11 y TS12. Diseñada para gestión simultánea de múltiples clientes. | 5h | Joaquin | To Do |
-| **US17** | Identificar menciones negativas recurrentes en `MentionStream` para priorizar respuesta operacional | 5 | T-12 | Pantalla de Menciones: filtra `MentionStream` por `SentimentType`, `MentionSource` y fecha para identificar riesgo reputacional | Vista paginada del `MentionStream` del workspace activo. Filtros por `SentimentType`, `MentionCategory`, `MentionSource` y rango de fechas. Conecta con TS09. Identifica fuentes recurrentes de riesgo para priorizar acciones correctivas. | 4h | Joaquin | To Do |
-| **TS02** | Endpoint de login: valida credenciales, emite JWT y bloquea por intentos fallidos | 5 | T-13 | HTTP Interceptor: inyecta JWT automáticamente en cada request autenticado | Interceptor que adjunta el Bearer token JWT en el header `Authorization` de cada llamada. Detecta respuesta 401 (token expirado) y redirige a login limpiando el contexto de sesión. Transparente para todos los componentes del sprint. | 3h | Victor | To Do |
-| **TS16** | Middleware de autorización contextual por `BrandWorkspace` con auditoría de accesos no autorizados | 5 | T-14 | `WorkspaceGuard`: protege rutas del workspace activo y registra accesos no autorizados como eventos de auditoría | Guard de ruta Angular que valida antes de activar cada pantalla que el usuario autenticado tiene acceso al `BrandWorkspace` solicitado (llamando a TS16). Acceso no autorizado → redirige a pantalla 403 (T-09) y emite evento de auditoría. | 3h | Victor | To Do |
-| **US10** | Cerrar sesión para invalidar contexto de workspace en dispositivos compartidos | 2 | T-15 | Logout con timeout por inactividad e invalidación del contexto de `BrandWorkspace` | Flujo de cierre de sesión que limpia el JWT del `AuthService`, invalida el `WorkspaceStateService` y redirige al login. Incluye timeout automático configurable por inactividad para proteger datos reputacionales en dispositivos compartidos. | 2h | Victor | To Do |
-| **TS01–TS16** | Infraestructura de desarrollo, fake API y QA del sprint | — | T-16 | Fake API con `json-server`: simula endpoints TS01–TS16 con datos semilla realistas de dominio | Levantar `json-server` con rutas que simulan los endpoints del sprint: registro, login, verificación, recuperación de contraseña, workspaces, reglas de monitoreo, menciones, incidentes y métricas de dashboard. Datos semilla reflejan entidades DDD: `BrandWorkspace`, `ReputationIncident`, `MentionStream`, `SentimentScore`. | 4h | Luis | To Do |
+| **US06** | Registrar cuenta verificada para proteger información reputacional sensible | 5 | T-01 | Pantalla de Registro con validación de dominio y emisión de `AccountRegistered` | Formulario de registro (nombre, email, contraseña, plan) conectado a TS01. Valida invariantes del dominio en frontend: email único, contraseña segura, plan válido. Emite Domain Event `AccountRegistered` al confirmar y redirige a verificación. | 3h | Brianna | Done |
+| **US06** | Registrar cuenta verificada para proteger información reputacional sensible | | T-02 | `SharedModule` – componentes atómicos reutilizables para todo el sprint | Módulo compartido con `InputField`, `PrimaryButton`, `AlertBanner`, `LoadingSpinner`, `StatusBadge`. Base de diseño consistente para todas las pantallas del sprint. Incluye manejo de estados de error alineado con respuestas de dominio. | 2h | Brianna | Done |
+| **US07** | Verificar correo para que la cuenta transite a `ACTIVA` y habilite el workspace | 3 | T-03 | Pantalla de Verificación de Email: transiciona `UserAccount` a `ACTIVA` emitiendo `AccountActivated` | Pantalla accedida por token en URL. Llama a TS03, muestra confirmación de activación y redirige al workspace. Maneja casos de token expirado (reenvío) y ya verificado. El estado `ACTIVA` habilita acceso al `BrandWorkspace`. | 2h | Brianna | Done |
+| **US08** | Iniciar sesión para acceder exclusivamente a las marcas asignadas | 3 | T-04 | Pantalla de Login con bloqueo por intentos fallidos y JWT asociado a `BrandWorkspace` asignados | Formulario de login conectado a TS02. Diferencia errores por credenciales inválidas vs cuenta bloqueada vs no verificada. Almacena JWT en `AuthService` (en memoria). Solo habilita acceso a los `BrandWorkspace` asignados al usuario autenticado. | 3h | Brianna | Done |
+| **US09** | Recuperar acceso mediante flujo seguro sin comprometer la confidencialidad reputacional | 3 | T-05 | Pantalla de Recuperar Contraseña: solicita email y emite `PasswordRecoveryRequested` | Captura email y llama al flujo de recuperación (TS04). Emite `PasswordRecoveryRequested`. Respuesta genérica que no revela si el email existe en el sistema, protegiendo enumeración de cuentas. | 2h | Jean Franco | Done |
+| **US09** | Recuperar acceso mediante flujo seguro sin comprometer la confidencialidad reputacional | | T-06 | Pantalla de Nueva Contraseña: completa `PasswordReset` e invalida sesiones activas | Pantalla accedida por token en URL. Valida requisitos del dominio para contraseña. Llama a TS04 completando `PasswordReset` e invalidando todas las sesiones activas del usuario para evitar acceso no autorizado posterior. | 2h | Jean Franco | Done |
+| **US11** | Configurar `BrandWorkspace` con palabras clave y fuentes para activar motor de detección | 5 | T-07 | Pantalla de Selección de `BrandWorkspace`: aísla reputación por cliente y activa contexto operacional | Lista los `BrandWorkspace` asignados al usuario autenticado. Permite seleccionar el workspace activo, aislando métricas y menciones por cliente. Conecta con TS06 y persiste estado en `WorkspaceStateService`. Previene análisis cruzados incorrectos entre clientes. | 3h | Jean Franco | Done |
+| **US27** | Detectar tendencias negativas del `SentimentScore` para ejecutar acciones correctivas rápidamente | 8 | T-08 | Pantalla de Dashboard reputacional: expone indicadores de decisión del `BrandWorkspace` activo | Consume endpoint de métricas consolidadas (TS15). Muestra `SentimentScore` actual, tendencia, menciones recientes del `MentionStream`, `ReputationIncident` activos por `SeverityLevel` y alertas pendientes. Orientado a decisión operacional, no solo visualización de métricas. | 4h | Jean Franco | Done |
+| **US33** | Operar exclusivamente dentro del perímetro de `BrandWorkspace` asignados para garantizar confidencialidad | 8 | T-09 | Pantalla 403 – Acceso no autorizado al `BrandWorkspace`: registra intento como evento de auditoría | Se activa cuando el `WorkspaceGuard` (T-14) rechaza acceso a un `BrandWorkspace` no asignado al usuario. Muestra mensaje claro, registra el intento no autorizado como evento de auditoría (TS16) y orienta al usuario hacia sus workspaces legítimos. | 2h | Joaquin | Done |
+| **US11** | Configurar `BrandWorkspace` con palabras clave y fuentes para activar motor de detección | 5 | T-10 | Pantalla de Gestión de Marcas: crear, editar y desactivar `BrandWorkspace` con trazabilidad | CRUD de marcas conectado a TS06 y TS07. Formulario de configuración: nombre, `KeywordRule`, `MonitoringChannel`. La desactivación conserva historial emitiendo `WorkspaceDeactivated`. Cada cambio de configuración emite `MonitoringRuleUpdated` para trazabilidad. | 5h | Joaquin | Done |
+| **US23** | Detectar picos anómalos en `MentionStream` para crear `ReputationIncident` antes de que una crisis escale | 8 | T-11 | Pantalla de Incidentes Reputacionales: prioriza `ReputationIncident` por `SeverityLevel` y registra respuesta | Lista de `ReputationIncident` filtrable por `SeverityLevel`, `IncidentStatus` y fecha. Permite registrar respuesta emitiendo `AlertAcknowledged` con responsable y timestamp. Conecta con TS11 y TS12. Diseñada para gestión simultánea de múltiples clientes. | 5h | Joaquin | Done |
+| **US17** | Identificar menciones negativas recurrentes en `MentionStream` para priorizar respuesta operacional | 5 | T-12 | Pantalla de Menciones: filtra `MentionStream` por `SentimentType`, `MentionSource` y fecha para identificar riesgo reputacional | Vista paginada del `MentionStream` del workspace activo. Filtros por `SentimentType`, `MentionCategory`, `MentionSource` y rango de fechas. Conecta con TS09. Identifica fuentes recurrentes de riesgo para priorizar acciones correctivas. | 4h | Joaquin | Done |
+| **TS02** | Endpoint de login: valida credenciales, emite JWT y bloquea por intentos fallidos | 5 | T-13 | HTTP Interceptor: inyecta JWT automáticamente en cada request autenticado | Interceptor que adjunta el Bearer token JWT en el header `Authorization` de cada llamada. Detecta respuesta 401 (token expirado) y redirige a login limpiando el contexto de sesión. Transparente para todos los componentes del sprint. | 3h | Victor | Done |
+| **TS16** | Middleware de autorización contextual por `BrandWorkspace` con auditoría de accesos no autorizados | 5 | T-14 | `WorkspaceGuard`: protege rutas del workspace activo y registra accesos no autorizados como eventos de auditoría | Guard de ruta Angular que valida antes de activar cada pantalla que el usuario autenticado tiene acceso al `BrandWorkspace` solicitado (llamando a TS16). Acceso no autorizado → redirige a pantalla 403 (T-09) y emite evento de auditoría. | 3h | Victor | Done |
+| **US10** | Cerrar sesión para invalidar contexto de workspace en dispositivos compartidos | 2 | T-15 | Logout con timeout por inactividad e invalidación del contexto de `BrandWorkspace` | Flujo de cierre de sesión que limpia el JWT del `AuthService`, invalida el `WorkspaceStateService` y redirige al login. Incluye timeout automático configurable por inactividad para proteger datos reputacionales en dispositivos compartidos. | 2h | Victor | Done |
+| **TS01–TS16** | Infraestructura de desarrollo, fake API y QA del sprint | — | T-16 | Fake API con `json-server`: simula endpoints TS01–TS16 con datos semilla realistas de dominio | Levantar `json-server` con rutas que simulan los endpoints del sprint: registro, login, verificación, recuperación de contraseña, workspaces, reglas de monitoreo, menciones, incidentes y métricas de dashboard. Datos semilla reflejan entidades DDD: `BrandWorkspace`, `ReputationIncident`, `MentionStream`, `SentimentScore`. | 4h | Luis | Done |
 | — |  — |  — | T-17 | `WorkspaceStateService`: gestiona el `BrandWorkspace` activo en sesión con observables reactivos | Servicio centralizado que almacena el `BrandWorkspace` activo en memoria de sesión. Expone observables para que componentes reaccionen a cambio de workspace. Se limpia completamente en logout para evitar filtración de contexto entre sesiones. | 3h | Luis | To Do |
-| — |  — |  — | T-18 | QA: flujo completo de autenticación, autorización contextual y acceso reputacional | Pruebas de integración cubriendo el flujo completo: registro → `AccountRegistered` → verificación → `AccountActivated` → login → selección de `BrandWorkspace` → dashboard → acceso a incidentes → logout. Valida bloqueo 403, `WorkspaceGuard`, timeout y aislamiento de contexto entre clientes. | 4h | Luis | To Do |
+| — |  — |  — | T-18 | QA: flujo completo de autenticación, autorización contextual y acceso reputacional | Pruebas de integración cubriendo el flujo completo: registro → `AccountRegistered` → verificación → `AccountActivated` → login → selección de `BrandWorkspace` → dashboard → acceso a incidentes → logout. Valida bloqueo 403, `WorkspaceGuard`, timeout y aislamiento de contexto entre clientes. | 4h | Luis | Done |
  
 <br>
 
@@ -3867,7 +3959,7 @@ A continuación se muestran las capturas de las vistas desarrolladas
 
 Asimismo, se elaboró un video demostrativo que muestra la ejecución de los flujos implementados durante el Sprint 2, incluyendo autenticación, autorización contextual, selección de workspaces y navegación del dashboard reputacional:
 
-[Ver video de ejecución Sprint 2](https://example.com/sprint2-demo-video)
+[Ver video de ejecución Sprint 2](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202410239_upc_edu_pe/IgCXUNHowWBSS6nlY18dFs7JAeyh7OpXMiejy2ojPa0Wnl4?e=BrqmCa)
 
 <br>
 
@@ -3898,13 +3990,7 @@ Asimismo, el equipo dejó preparada la base documental para futuras integracione
 
 A continuación, se presentan capturas de la Fake API, rutas simuladas y pruebas funcionales realizadas durante el Sprint 2:
 
-![Services Evidence Sprint 2](brandradar-report/assets/sprints/sprint-2/services-1.png)
-
-![Services Evidence Sprint 2](brandradar-report/assets/sprints/sprint-2/services-2.png)
-
-![Services Evidence Sprint 2](brandradar-report/assets/sprints/sprint-2/services-3.png)
-
-![Services Evidence Sprint 2](brandradar-report/assets/sprints/sprint-2/services-4.png)
+![Deployment Sprint 2](brandradar-report/assets/sprints/sprint-2/deployment-6.jpg)
 
 <br>
 
@@ -3937,7 +4023,7 @@ El proceso de publicación fue realizado mediante GitHub Pages, permitiendo aloj
 
 <br>
 
-**URL Frontend:** [url](url)
+**URL Frontend:** [https://los-5-suyos.github.io/BrandRadar-Frontend-Web-App/auth/login](https://los-5-suyos.github.io/BrandRadar-Frontend-Web-App/auth/login)
 
 <br>
 
@@ -3945,17 +4031,16 @@ El proceso de publicación fue realizado mediante GitHub Pages, permitiendo aloj
 
 A continuación, se presentan capturas del proceso de despliegue y del resultado final de la aplicación:
 
-![Deployment Sprint 2](brandradar-report/assets/sprints/sprint-2/deployment-1.png)
+![Deployment Sprint 2](brandradar-report/assets/sprints/sprint-2/deployment-1.jpg)
 
-![Deployment Sprint 2](brandradar-report/assets/sprints/sprint-2/deployment-2.png)
+![Deployment Sprint 2](brandradar-report/assets/sprints/sprint-2/deployment-2.jpg)
 
-![Deployment Sprint 2](brandradar-report/assets/sprints/sprint-2/deployment-3.png)
+![Deployment Sprint 2](brandradar-report/assets/sprints/sprint-2/deployment-3.jpg)
 
-![Deployment Sprint 2](brandradar-report/assets/sprints/sprint-2/deployment-4.png)
+![Deployment Sprint 2](brandradar-report/assets/sprints/sprint-2/deployment-4.jpg)
 
-![Deployment Sprint 2](brandradar-report/assets/sprints/sprint-2/deployment-5.png)
+![Deployment Sprint 2](brandradar-report/assets/sprints/sprint-2/deployment-5.jpg)
 
-![Deployment Sprint 2](brandradar-report/assets/sprints/sprint-2/deployment-6.png)
 
 <br>
 
@@ -3981,9 +4066,8 @@ La colaboración se fortaleció mediante integraciones frecuentes hacia `develop
 
 <br>
 
-![Team Collaboration Sprint 2](brandradar-report/assets/sprints/sprint-2/sprint2-collaboration.png)
+![Team Collaboration Sprint 2](brandradar-report/assets/sprints/sprint-2/sprint2-collaboration.jpeg)
 
-![Team Collaboration Overtime Sprint 2](brandradar-report/assets/sprints/sprint-2/sprint2-over-time.png)
 
 <br>
 
