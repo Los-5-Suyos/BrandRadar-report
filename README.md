@@ -2454,13 +2454,13 @@ Se aplican principios de diseño centrado en el usuario, consistencia visual bas
 
 El flujo comienza cuando el usuario abre la aplicación web y se encuentra con la pantalla de autenticación. Si ya tiene una cuenta, ingresa sus credenciales (correo y contraseña) y hace clic en "Log in" para ser redirigido directamente al Dashboard principal. Si es un usuario nuevo, debe seleccionar la opción "Sign up", la cual lo lleva a un formulario de registro. Allí ingresa su nombre, apellido, correo electrónico y crea una contraseña. Tras hacer clic en el botón de confirmar, su cuenta es creada exitosamente, permitiéndole el acceso a la plataforma BrandRadar.
 
-![User Flow Diagrama 1](brandradar-report/assets/web-app/user-flow-1.png)
+![Wire Flow Diagrama 1](brandradar-report/assets/web-app/wire-flow-1.png)
 
 **User goal: `Gestión de Incidentes`**
 
 El flujo comienza en el Dashboard principal, desde donde el usuario utiliza el menú lateral para navegar a la sección de "Incidentes" (o Alertas). En esta pantalla, visualiza una lista detallada de las incidencias recientes detectadas por BrandRadar (como menciones negativas o problemas de reputación). El usuario selecciona un incidente específico haciendo clic en él para ver sus detalles, lo que lo lleva a una pantalla donde puede evaluar la gravedad del problema, ver el origen de la alerta y tomar las acciones correspondientes para gestionar o resolver la situación.
 
-![User Flow Diagrama 2](brandradar-report/assets/web-app/user-flow-2.png)
+![Wire Flow Diagrama 2](brandradar-report/assets/web-app/wire-flow-2.png)
 
 <br>
 
