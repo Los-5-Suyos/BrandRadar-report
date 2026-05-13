@@ -2530,6 +2530,44 @@ Explicación del flujo: Este flujo inicia en el 'Dashboard reputacional', donde 
 
 ![User Flow Diagrama 1](brandradar-report/assets/web-app/user-flow-7.png)
 
+**Segmento 2**
+
+**User goal: Gestión integral de cartera y resolución de crisis de clientes** 
+**User Persona: Account Manager (Agencia)**
+Explicación del flujo: Este flujo describe el proceso de supervisión y respuesta desde una perspectiva de gestión de cuentas, comenzando en el Dashboard de Agencia donde el usuario identifica alertas críticas de toda su cartera de clientes. Acto seguido, navega al apartado 'Mis Clientes' para realizar una comparativa visual del ReputationIndex™ y filtrar aquellas cuentas que presentan incidentes activos o reportes pendientes. Al seleccionar un cliente específico, el usuario accede a un panel detallado para realizar un diagnóstico de crisis, analizando tendencias de sentimiento y menciones recientes para determinar si es necesario escalar el caso. Finalmente, el flujo concluye con la gestión técnica de un incidente puntual, donde el Account Manager analiza patrones de ataque coordinados, utiliza herramientas de respuesta con IA y coordina con su equipo mediante notas internas para resolver la crisis y cumplir con los tiempos de respuesta acordados.
+
+![User Flow Diagrama 1](brandradar-report/assets/web-app/user-flow-8.png)
+
+**User goal: Gestión de cola unificada de incidentes y asignación de recursos** 
+**User Persona: Account Manager (Agencia)**
+Explicación del flujo: Este flujo comienza en el Dashboard de Agencia y se dirige a la sección de 'Incidentes', la cual funciona como una cola unificada de todos los clientes de la cartera. El usuario visualiza una barra de alerta prioritaria que indica incidentes críticos sin asignar y el tiempo restante para evitar el incumplimiento del servicio. En esta vista, el Account Manager puede filtrar los incidentes por severidad, estado de asignación o cliente específico, permitiéndole gestionar la carga del equipo en tiempo real al ver cuántos casos tiene asignados cada analista. El flujo concluye cuando el usuario selecciona un incidente crítico, como un "Pico anómalo de menciones", y utiliza las opciones rápidas para auto-asignarse el caso, responder con IA o ver el detalle completo para iniciar el protocolo de resolución.
+
+![User Flow Diagrama 1](brandradar-report/assets/web-app/user-flow-9.png)
+
+**User goal: Gestión y respuesta optimizada de menciones multiplataforma** 
+**User Persona: Account Manager (Agencia)**
+Explicación del flujo: Este flujo comienza en el Dashboard de Agencia, donde el usuario supervisa la actividad reciente de toda su cartera antes de dirigirse a la sección de 'Menciones'. Una vez en la cola de menciones global, el usuario selecciona un comentario específico de un cliente para abrir la vista de detalle y contexto. Dentro de esta interfaz, el Account Manager utiliza herramientas de inteligencia artificial para generar una respuesta sugerida que se adapte al tono de la marca y la naturaleza del comentario. Tras revisar y validar la propuesta, el usuario procede a publicar la respuesta directamente desde la plataforma, concluyendo el flujo con la confirmación de la interacción enviada y la actualización del estado de la mención en el sistema de gestión.
+
+![User Flow Diagrama 1](brandradar-report/assets/web-app/user-flow-10.png)
+
+**User goal: Generación de informes personalizados por cliente** 
+**User Persona: Account Manager (Agencia)**
+Explicación del flujo: Este flujo inicia en el Dashboard de Agencia y se dirige a la sección de 'Reportes', donde el usuario puede visualizar el historial de informes generados para toda su cartera de clientes. Tras seleccionar la opción para crear un nuevo documento, el usuario selecciona un cliente específico y configura los parámetros del reporte, incluyendo el tipo de análisis (reputación, incidentes o sentimiento), el rango de fechas y el formato de exportación deseado. El flujo continúa con la personalización de opciones de envío automático y culmina con la generación del reporte, permitiendo al Account Manager obtener una vista previa detallada de las métricas de la marca antes de descargar el archivo o compartirlo directamente con el cliente.
+
+![User Flow Diagrama 1](brandradar-report/assets/web-app/user-flow-11.png)
+
+**User goal: Análisis de evolución y comparativa de métricas entre periodos o clientes** 
+**User Persona: Account Manager (Agencia)**
+Explicación del flujo: Este flujo se inicia en el Dashboard de Agencia y se dirige a la sección de 'Comparativas', donde el usuario puede analizar la evolución del rendimiento de sus clientes. El flujo permite seleccionar un cliente específico y comparar periodos de tiempo (por ejemplo, Marzo vs. Abril) para visualizar variaciones porcentuales en métricas clave como el ReputationIndex™, volumen de menciones y sentimientos. Además, el usuario puede apoyarse en una sección de 'Insights automáticos' que destaca caídas críticas o anomalías detectadas, y revisar gráficas de evolución temporal para identificar tendencias.
+
+![User Flow Diagrama 1](brandradar-report/assets/web-app/user-flow-12.png)
+
+**User goal: Gestión administrativa de la agencia, equipo y preferencias globales** 
+**User Persona: Account Manager (Agencia)**
+Explicación del flujo: Este flujo inicia en el Dashboard de Agencia y se dirige a la sección de 'Configuración', donde el usuario centraliza la administración operativa de la cuenta. El flujo permite gestionar el equipo de la agencia, permitiendo invitar nuevos miembros o editar roles de analistas existentes, así como revisar la información del plan y la capacidad de clientes activos. Además, el usuario puede personalizar las notificaciones multiplataforma y establecer umbrales globales de monitoreo (como alertas por menciones negativas o patrones coordinados) que se aplicarán a los nuevos clientes. El flujo concluye con la gestión de integraciones técnicas con herramientas externas y el acceso a opciones críticas en la zona de peligro para la exportación de datos o gestión de la suscripción.
+
+![User Flow Diagrama 1](brandradar-report/assets/web-app/user-flow-13.png)
+
 <br>
 
 ---
