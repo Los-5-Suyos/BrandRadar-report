@@ -4073,7 +4073,7 @@ La colaboración se fortaleció mediante integraciones frecuentes hacia `develop
 
 <br>
 
-![Team Collaboration Sprint 2](brandradar-report/assets/sprints/sprint-2/sprint2-collaboration.png)
+![Team Collaboration Sprint 2](brandradar-report/assets/sprints/sprint-2/sprint2-collaboration.jpeg)
 
 ![Team Collaboration Overtime Sprint 2](brandradar-report/assets/sprints/sprint-2/sprint2-over-time.png)
 
