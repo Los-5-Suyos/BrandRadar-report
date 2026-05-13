@@ -3990,13 +3990,7 @@ Asimismo, el equipo dejó preparada la base documental para futuras integracione
 
 A continuación, se presentan capturas de la Fake API, rutas simuladas y pruebas funcionales realizadas durante el Sprint 2:
 
-![Services Evidence Sprint 2](brandradar-report/assets/sprints/sprint-2/services-1.png)
-
-![Services Evidence Sprint 2](brandradar-report/assets/sprints/sprint-2/services-2.png)
-
-![Services Evidence Sprint 2](brandradar-report/assets/sprints/sprint-2/services-3.png)
-
-![Services Evidence Sprint 2](brandradar-report/assets/sprints/sprint-2/services-4.png)
+![Deployment Sprint 2](brandradar-report/assets/sprints/sprint-2/deployment-6.jpg)
 
 <br>
 
@@ -4047,7 +4041,6 @@ A continuación, se presentan capturas del proceso de despliegue y del resultado
 
 ![Deployment Sprint 2](brandradar-report/assets/sprints/sprint-2/deployment-5.jpg)
 
-![Deployment Sprint 2](brandradar-report/assets/sprints/sprint-2/deployment-6.jpg)
 
 <br>
 
@@ -4075,7 +4068,6 @@ La colaboración se fortaleció mediante integraciones frecuentes hacia `develop
 
 ![Team Collaboration Sprint 2](brandradar-report/assets/sprints/sprint-2/sprint2-collaboration.jpeg)
 
-![Team Collaboration Overtime Sprint 2](brandradar-report/assets/sprints/sprint-2/sprint2-over-time.png)
 
 <br>
 
