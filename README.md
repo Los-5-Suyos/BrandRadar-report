@@ -3990,15 +3990,13 @@ Asimismo, el equipo dejó preparada la base documental para futuras integracione
 
 A continuación, se presentan capturas de la Fake API, rutas simuladas y pruebas funcionales realizadas durante el Sprint 2:
 
-![Services Evidence Sprint 2](brandradar-report/assets/sprints/sprint-2/services-1.jpg)
+![Services Evidence Sprint 2](brandradar-report/assets/sprints/sprint-2/services-1.png)
 
-![Services Evidence Sprint 2](brandradar-report/assets/sprints/sprint-2/services-2.jpg)
+![Services Evidence Sprint 2](brandradar-report/assets/sprints/sprint-2/services-2.png)
 
-![Services Evidence Sprint 2](brandradar-report/assets/sprints/sprint-2/services-3.jpg)
+![Services Evidence Sprint 2](brandradar-report/assets/sprints/sprint-2/services-3.png)
 
-![Services Evidence Sprint 2](brandradar-report/assets/sprints/sprint-2/services-4.jpg)
-
-![Services Evidence Sprint 2](brandradar-report/assets/sprints/sprint-2/services-5.jpg)
+![Services Evidence Sprint 2](brandradar-report/assets/sprints/sprint-2/services-4.png)
 
 <br>
 
@@ -4039,17 +4037,17 @@ El proceso de publicación fue realizado mediante GitHub Pages, permitiendo aloj
 
 A continuación, se presentan capturas del proceso de despliegue y del resultado final de la aplicación:
 
-![Deployment Sprint 2](brandradar-report/assets/sprints/sprint-2/deployment-1.png)
+![Deployment Sprint 2](brandradar-report/assets/sprints/sprint-2/deployment-1.jpg)
 
-![Deployment Sprint 2](brandradar-report/assets/sprints/sprint-2/deployment-2.png)
+![Deployment Sprint 2](brandradar-report/assets/sprints/sprint-2/deployment-2.jpg)
 
-![Deployment Sprint 2](brandradar-report/assets/sprints/sprint-2/deployment-3.png)
+![Deployment Sprint 2](brandradar-report/assets/sprints/sprint-2/deployment-3.jpg)
 
-![Deployment Sprint 2](brandradar-report/assets/sprints/sprint-2/deployment-4.png)
+![Deployment Sprint 2](brandradar-report/assets/sprints/sprint-2/deployment-4.jpg)
 
-![Deployment Sprint 2](brandradar-report/assets/sprints/sprint-2/deployment-5.png)
+![Deployment Sprint 2](brandradar-report/assets/sprints/sprint-2/deployment-5.jpg)
 
-![Deployment Sprint 2](brandradar-report/assets/sprints/sprint-2/deployment-6.png)
+![Deployment Sprint 2](brandradar-report/assets/sprints/sprint-2/deployment-6.jpg)
 
 <br>
 
