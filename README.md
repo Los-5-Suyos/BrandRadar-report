@@ -3959,7 +3959,7 @@ A continuación se muestran las capturas de las vistas desarrolladas
 
 Asimismo, se elaboró un video demostrativo que muestra la ejecución de los flujos implementados durante el Sprint 2, incluyendo autenticación, autorización contextual, selección de workspaces y navegación del dashboard reputacional:
 
-[Ver video de ejecución Sprint 2](https://example.com/sprint2-demo-video)
+[Ver video de ejecución Sprint 2](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202410239_upc_edu_pe/IgCXUNHowWBSS6nlY18dFs7JAeyh7OpXMiejy2ojPa0Wnl4?e=BrqmCa)
 
 <br>
 
