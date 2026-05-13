@@ -1199,35 +1199,51 @@ La mayor frustración de Vale radica en el carácter "artesanal" y manual del mo
 
 ### 2.2.3. Análisis de entrevistas
 
-> *El análisis de entrevistas permite identificar percepciones, necesidades y comportamientos de los segmentos objetivo a partir de la información recopilada. En esta sección, los resultados se presentan por segmento, utilizando porcentajes y hallazgos cualitativos para evidenciar patrones, tendencias y diferencias relevantes que apoyan la toma de decisiones en el diseño de la solución.*
+> *El análisis identifica los problemas concretos, patrones de comportamiento y decisiones de diseño que emergen de las entrevistas. Se presentan por segmento para evidenciar diferencias y convergencias que informan la propuesta de valor de BrandRadar.*
 
 <br>
 
 **Segmento objetivo 1: `Pequeñas y medianas empresas y marcas digitales (PyMEs)`**
 
-<br>
+Los tres entrevistados de este segmento comparten un problema estructural idéntico: **ninguno tiene mecanismo proactivo para monitorear su reputación digital**. 
 
-A partir de las entrevistas realizadas a emprendedores y gerentes de negocios locales, se identificaron patrones de comportamiento relevantes para la construcción del User Persona. En términos demográficos, el 100 % de los entrevistados opera en zonas comerciales urbanas (Surco) y coincide en que mantener una buena imagen, generar confianza y cumplir con su propuesta de valor son factores críticos para el éxito de sus negocios.
+El 100 % revisa Google Maps y redes sociales de forma manual y reactiva, generalmente después de recibir un reclamo directo por WhatsApp. Esto significa que la ventana de respuesta ante una crisis siempre llega tarde.
 
-Respecto al uso de tecnología, el 100 % utiliza el dispositivo móvil como principal herramienta de gestión diaria, mientras que el 50 % complementa sus actividades con el uso de laptop para tareas administrativas. En cuanto a canales digitales, existe consenso en que WhatsApp (100 %) es el medio más importante para el cierre de ventas, seguido de Instagram y Facebook (100 %) como plataformas clave para la atracción de clientes.
+El caso más crítico es el de Alfredo Negrete, cuya empresa anterior quebró sin que pudiera identificar con claridad los factores que llevaron a la pérdida de clientes. Esta incapacidad de diagnóstico evidencia que el problema no es solo operativo (detectar comentarios) sino **estratégico: sin visibilidad, no hay aprendizaje y los mismos errores se repiten**.
 
-En relación con las principales dificultades, el 100 % de los entrevistados manifestó haber experimentado pérdidas de ventas asociadas a factores como comentarios negativos, competencia en precios o abandono del proceso de compra. Asimismo, el monitoreo de la reputación digital se realiza de forma manual en plataformas como Google Maps y Facebook (100 %), lo que evidencia una ausencia de automatización en estos procesos.
+Jenifer López y Karim Castillo, aunque con negocios más jóvenes y digitales, reproducen el mismo patrón: ambos tuvieron que reaccionar ante quejas que ya estaban visibles para otros clientes potenciales. La diferencia es que ambos convirtieron la crítica en mejora (Jenifer amplió su inventario de tallas; Karim ofreció compensación), lo que sugiere **alta disposición a aprender**, pero solo cuando el problema ya impactó.
 
-Este hallazgo valida la necesidad de una solución como BrandRadar, la cual obtuvo una aceptación total (100 %) por parte de los entrevistados. Los usuarios mostraron especial interés en funcionalidades como alertas preventivas en tiempo real y la visualización de información que les permita gestionar de manera más eficiente la imagen de sus marcas.
+El patrón de uso tecnológico es consistente: el celular es el centro de operaciones y WhatsApp es el canal de cierre de ventas. Esto implica que una solución de monitoreo que requiera acceso a un dashboard de escritorio **tendrá baja adopción**. Las alertas deben llegar al móvil, en tiempo real, sin fricción.
+
+La aceptación de BrandRadar fue inmediata en los tres casos. El valor percibido no fue el análisis de datos, sino **la tranquilidad de no perderse nada crítico**: la herramienta se posiciona como prevención de pérdidas, no como herramienta de métricas.
 
 <br>
 
 **Segmento objetivo 2: `Especialistas de marketing o community managers`**
 
+Los tres entrevistados de este segmento son profesionales con alta carga operativa y experiencia concreta en gestión de crisis. El hallazgo más relevante es que **las herramientas actuales tienen un punto ciego estructural**: Meta Business Suite y plataformas similares solo notifican menciones directas (con etiqueta). En TikTok y X (Twitter), donde las críticas se viralizan con mayor frecuencia, las marcas no son etiquetadas sistemáticamente, lo que deja a los CM completamente a ciegas.
+
+Valeria Nuñez describe este escenario con claridad: una queja de un influencer no detectada derivó en una crisis reputacional que tuvo que atenderse un fin de semana, fuera de horario. Este caso ilustra que **el costo del monitoreo manual no es solo tiempo, es riesgo profesional**: un CM que "no se enteró" pierde credibilidad ante su cliente.
+
+La carga de trabajo operativa es cuantificable. Esteban Medina dedica entre 10 y 15 horas mensuales exclusivamente a la elaboración de reportes manuales (consolidar métricas, capturas y análisis de desempeño), tiempo que no genera valor estratégico. Romina Apaza invierte 1 a 2 horas diarias en monitoreo, de las cuales gran parte es revisión repetitiva de plataformas sin alertas activas.
+
+La decisión de diseño más crítica que emerge de este segmento es la cobertura de **menciones sin etiqueta**, que es la brecha que ninguna herramienta gratuita o nativa cubre actualmente. A esto se suma la automatización de reportes como caso de retención: si BrandRadar elimina o reduce drásticamente el tiempo de reporte, el producto se vuelve indispensable en el flujo de trabajo del CM.
+
+Esteban también planteó espontáneamente la posibilidad de recibir sugerencias de "hooks" de contenido basadas en el análisis de percepción de audiencia, lo que señala una **oportunidad de diferenciación hacia funcionalidades de IA generativa** en iteraciones futuras del producto.
+
 <br>
 
-A partir de las entrevistas realizadas a profesionales de marketing digital, se identificaron patrones que respaldan la viabilidad de la solución en un entorno B2B. El 100 % de los entrevistados trabaja bajo modalidad freelance o en posiciones de jefatura, gestionando cuentas de alta exigencia, y destaca por su enfoque analítico y orientación a resultados.
+**Hallazgos transversales**
 
-En cuanto al uso de herramientas, el 100 % emplea plataformas de organización como Trello o Notion, así como herramientas de comunicación como WhatsApp y videollamadas para la coordinación de equipos y clientes. Para el monitoreo de reputación digital, el 100 % utiliza múltiples canales, incluyendo Instagram, TikTok, Facebook y Google Maps.
+A pesar de las diferencias entre segmentos, cuatro hallazgos son comunes a los seis entrevistados:
 
-El principal pain point identificado es la alta carga operativa asociada al monitoreo manual. El 100 % de los entrevistados invierte entre 1 y 2 horas diarias en la revisión de redes sociales, además de entre 10 y 15 horas mensuales en la elaboración de reportes. Asimismo, el 100 % ha enfrentado situaciones críticas en las que comentarios negativos no fueron detectados a tiempo, lo que impactó directamente en el rendimiento de las campañas y la captación de clientes.
+1. **Crisis detectada tarde**: todos han experimentado al menos una situación donde un comentario negativo ya era público antes de poder responder.
 
-Estos hallazgos refuerzan la necesidad de una solución automatizada que optimice el monitoreo, centralice la información y mejore la capacidad de respuesta ante eventos críticos de reputación digital.
+2. **Monitoreo 100 % manual**: ninguno cuenta con automatización real; la revisión es ad hoc y depende del tiempo disponible.
+
+3. **Google Maps como canal crítico**: en ambos segmentos, las reseñas en Google son el principal punto de decisión de nuevos clientes y el canal con mayor impacto reputacional percibido.
+
+4. **Aceptación sin resistencia**: los seis entrevistados expresaron interés en BrandRadar sin necesidad de persuasión, lo que valida que el problema es real y sentido, no inducido por el diseño de las preguntas.
 
 <br>
 
