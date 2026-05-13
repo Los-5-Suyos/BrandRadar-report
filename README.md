@@ -2484,13 +2484,11 @@ El flujo comienza en el Dashboard principal, desde donde el usuario utiliza el m
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
-*(User Flows incluyendo Mock-ups de vistas, happy paths y unhappy paths)*
-
 <br>
 
-**User goal: `[Nombre del User goal]`**
+**User goal: `Inicio de Sesión y Registro de Cuenta`**
 
-*(Descripción de los flujos y condiciones especificadas)*
+El flujo se inicia cuando el usuario ingresa a la aplicación. El sistema presenta un punto de decisión: si el usuario ya posee una cuenta, procede al "Login" ingresando sus credenciales; de lo contrario, se dirige a la opción "Sign Up" para crear una nueva cuenta completando el formulario de registro. En ambos casos, tras la validación exitosa de los datos, el sistema procesa la autenticación y redirige automáticamente al usuario hacia el Dashboard principal. Una vez dentro del Dashboard, el usuario ha cumplido su objetivo y el flujo finaliza, dándole acceso a todas las funcionalidades de monitoreo de BrandRadar.
 
 ![User Flow Diagrama 1](brandradar-report/assets/web-app/user-flow-1.png)
 
