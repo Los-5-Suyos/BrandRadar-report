@@ -2488,9 +2488,47 @@ El flujo comienza en el Dashboard principal, desde donde el usuario utiliza el m
 
 **User goal: `Inicio de Sesión y Registro de Cuenta`**
 
+**User Persona: PyMEs y Agencia(Account Manager)**
+
 El flujo se inicia cuando el usuario ingresa a la aplicación. El sistema presenta un punto de decisión: si el usuario ya posee una cuenta, procede al "Login" ingresando sus credenciales; de lo contrario, se dirige a la opción "Sign Up" para crear una nueva cuenta completando el formulario de registro. En ambos casos, tras la validación exitosa de los datos, el sistema procesa la autenticación y redirige automáticamente al usuario hacia el Dashboard principal. Una vez dentro del Dashboard, el usuario ha cumplido su objetivo y el flujo finaliza, dándole acceso a todas las funcionalidades de monitoreo de BrandRadar.
 
 ![User Flow Diagrama 1](brandradar-report/assets/web-app/user-flow-1.png)
+
+**User goal: Resolución de incidentes**
+**User Persona: PyMEs**
+Explicación del flujo: Este flujo comienza en el 'Dashboard reputacional', donde el usuario visualiza una alerta crítica en la sección de incidentes activos. Al hacer clic, es dirigido a la lista detallada de 'Incidentes' para seleccionar el evento específico que requiere atención. Una vez seleccionado, se despliega la vista de análisis donde el usuario revisa el origen del problema y las menciones relacionadas. Posteriormente, accede a la interfaz de gestión para aplicar una respuesta o acción correctiva. Finalmente, el flujo concluye con la confirmación de la resolución del incidente, actualizando el estado de la marca a un nivel seguro y documentando la actividad en el registro de auditoría. 
+
+![User Flow Diagrama 1](brandradar-report/assets/web-app/user-flow-2.png)
+
+**User goal: Gestión y respuesta de menciones**
+**User Persona: PyMEs**
+Explicación del flujo: Este flujo inicia en el 'Dashboard reputacional', donde el usuario observa el volumen de actividad reciente y se dirige al apartado de 'Menciones' para revisar los comentarios de los clientes. Tras filtrar y seleccionar una crítica específica que requiere atención, el usuario accede a la vista de detalle para redactar una respuesta adecuada. Una vez finalizada la redacción, el usuario publica la respuesta directamente desde la plataforma. El flujo termina con la confirmación de la respuesta publicada, lo que permite a la PyME mantener una comunicación activa y gestionar su reputación digital de manera inmediata.
+
+![User Flow Diagrama 1](brandradar-report/assets/web-app/user-flow-3.png)
+
+**User goal: Conectar nueva fuente de datos**
+**User Persona: PyMEs**
+Explicación del flujo: Este flujo comienza en el 'Dashboard reputacional', desde donde el usuario navega hacia el apartado de 'Mis marcas' para gestionar su portafolio. Tras seleccionar una marca específica de la lista, el usuario accede a la vista de detalles de la marca, donde puede observar métricas clave, fuentes conectadas y el sentimiento general. Al identificar la necesidad de expandir el monitoreo, selecciona la opción para conectar una nueva fuente, lo que despliega un catálogo de plataformas disponibles (como redes sociales o sitios de reseñas). El flujo finaliza una vez que el usuario vincula la nueva cuenta, permitiendo que el sistema comience a centralizar la información de esa fuente en el panel de control.
+
+![User Flow Diagrama 1](brandradar-report/assets/web-app/user-flow-4.png)
+
+**User goal: Configuración de reglas de monitoreo** 
+**User Persona: PyMEs**
+Explicación del flujo: Este flujo inicia en el 'Dashboard reputacional', donde el usuario tiene una visión general del estado de su marca. Al requerir una automatización específica para la detección de eventos, navega hacia el apartado de 'Reglas'. Dentro de la vista de 'Reglas de monitoreo', el usuario puede visualizar las reglas activas, su frecuencia de ejecución y un historial de disparos recientes. El flujo permite al usuario editar parámetros como palabras clave, nivel de severidad y canales de notificación, o bien crear una nueva regla para personalizar las alertas que el sistema debe priorizar en el monitoreo diario.
+
+![User Flow Diagrama 1](brandradar-report/assets/web-app/user-flow-5.png)
+
+**User goal: Generación y gestión de reportes** 
+**User Persona: PyMEs**
+Explicación del flujo: Este flujo comienza en el 'Dashboard reputacional', donde el usuario analiza las métricas generales y decide profundizar en la documentación de resultados. Para ello, se dirige al apartado de 'Reportes' en el menú lateral. En esta vista, el usuario puede gestionar los informes generados anteriormente, ver reportes programados y analizar estadísticas de descargas. El flujo permite configurar un 'Nuevo reporte' personalizando el nombre, el tipo de análisis (reputación, incidentes, sentimiento) y el periodo de tiempo. Finalmente, el usuario puede generar el reporte automáticamente.
+
+![User Flow Diagrama 1](brandradar-report/assets/web-app/user-flow-6.png)
+
+**User goal: Monitoreo y gestión de infraestructura técnica** 
+**User Persona: PyMEs**
+Explicación del flujo: Este flujo inicia en el 'Dashboard reputacional', donde el usuario puede observar un resumen rápido del estado de los servicios técnicos en el widget de infraestructura. Para obtener un control detallado, navega hacia el apartado de 'Infraestructura' en el menú principal. En esta vista, el usuario visualiza la lista completa de servicios conectados (como APIs de redes sociales y pasarelas de pago). Además, puede revisar el estado general del sistema mediante un gráfico de uptime y acceder a la opción de conectar una nueva fuente desde el catálogo de plataformas disponibles. El flujo concluye con la revisión del historial de eventos.
+
+![User Flow Diagrama 1](brandradar-report/assets/web-app/user-flow-7.png)
 
 <br>
 
