@@ -2510,13 +2510,17 @@ A continuación, se presentan los prototipos correspondientes a Desktop y Mobile
 
 **Desktop Prototyping**
 
-[Ver video de prototipo Desktop en Microsoft Stream](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202410239_upc_edu_pe/IgC6glFk1e4gTII980CTmfgbAfUaAwIFXinpHjNgmHf7drg?e=lARG1x)
+![Desktop Video Prototype](brandradar-report/assets/ux-design/desktop-prototyping.png)
+
+[Ver video de prototipo Desktop en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410239_upc_edu_pe/IQB1YmJu1khjTYyr7i4eSgoDAT-L5_OyZLuRS1Xi4bj-4QE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=n1DRgz)
 
 <br>
 
 **Mobile Prototyping**
 
-[Ver video de prototipo Mobile en Microsoft Stream](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202410239_upc_edu_pe/IgCkjPbP_4lpR6LS2IVOzfoWAasrMz1GywL8kyAz7uD1R7I?e=1J4H3z)
+![Mobile Video Prototype](brandradar-report/assets/ux-design/mobile-prototyping.png)
+
+[Ver video de prototipo Mobile en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410239_upc_edu_pe/IQCbmTJ-BchRRJQQJ8vTYh24AYKQVSYXj-4Q8-d3ku2ORZ8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=9KOKFm)
 
 </div>
 
