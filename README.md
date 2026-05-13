@@ -3990,13 +3990,15 @@ Asimismo, el equipo dejó preparada la base documental para futuras integracione
 
 A continuación, se presentan capturas de la Fake API, rutas simuladas y pruebas funcionales realizadas durante el Sprint 2:
 
-![Services Evidence Sprint 2](brandradar-report/assets/sprints/sprint-2/services-1.png)
+![Services Evidence Sprint 2](brandradar-report/assets/sprints/sprint-2/services-1.jpg)
 
-![Services Evidence Sprint 2](brandradar-report/assets/sprints/sprint-2/services-2.png)
+![Services Evidence Sprint 2](brandradar-report/assets/sprints/sprint-2/services-2.jpg)
 
-![Services Evidence Sprint 2](brandradar-report/assets/sprints/sprint-2/services-3.png)
+![Services Evidence Sprint 2](brandradar-report/assets/sprints/sprint-2/services-3.jpg)
 
-![Services Evidence Sprint 2](brandradar-report/assets/sprints/sprint-2/services-4.png)
+![Services Evidence Sprint 2](brandradar-report/assets/sprints/sprint-2/services-4.jpg)
+
+![Services Evidence Sprint 2](brandradar-report/assets/sprints/sprint-2/services-5.jpg)
 
 <br>
 
