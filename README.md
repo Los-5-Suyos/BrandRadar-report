@@ -4023,7 +4023,7 @@ El proceso de publicación fue realizado mediante GitHub Pages, permitiendo aloj
 
 <br>
 
-**URL Frontend:** [url](url)
+**URL Frontend:** [https://los-5-suyos.github.io/BrandRadar-Frontend-Web-App/auth/login](https://los-5-suyos.github.io/BrandRadar-Frontend-Web-App/auth/login)
 
 <br>
 
