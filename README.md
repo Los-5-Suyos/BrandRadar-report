@@ -9,7 +9,7 @@
 
 <br>
 
-#  Informe de Proyecto - TB1
+#  Informe de Proyecto - AV2
 
 ## Presentado por "Los 5 Suyos"
 
@@ -43,7 +43,7 @@
 
 <br>
 
-### **Mayo 2026**
+### **Junio 2026**
 
 <br>
 
@@ -60,6 +60,7 @@
 |:-------:|:-----:|:-----:|:---------------------------|
 | AV1 | 2026-04-08 | Salinas Guzmán, Brianna Cristina <br> Jáuregui Cerna, Jean Franco <br> Cruzalegui Herrera, Joaquin <br> Garcia Paredes, Victor Manuel <br> Acuña de la Cruz, Luis | Avance 1 del reporte del proyecto y primera versión de la landing page |
 | TB1 | 2026-05-11 | Salinas Guzmán, Brianna Cristina <br> Acuña de la Cruz, Luis <br> Garcia Paredes, Victor Manuel | Entrega del reporte TB1 del proyecto, nueva version del landing page y frontend web application desplegadas |
+| AV2 | 2026-06-05 | Salinas Guzmán, Brianna Cristina <br> Acuña de la Cruz, Luis <br> Garcia Paredes, Victor Manuel | Entrega del reporte AV2 del proyecto, nueva versión de Web Applications, primera versión de Web Services, Video About-The-Product y Video About-The-Team |
 </div>
 
 ---
@@ -103,6 +104,21 @@ Para el desarrollo del TB1, cada integrante contribuyó de la siguiente manera:
 | Garcia Paredes, Victor Manuel    | Elaboración del Student Outcome; Video exposición; Video Prototipo Web Mobile y Web Desktop; Desarrollo Frontend: HTTP Interceptor JWT, Auth + WorkspaceGuard y Logout + timeout                                                      |
 | Acuña de la Cruz, Luis           | Elaboración del Student Outcome; Video exposición; Corrección Event Storming y Component Diagrams; Desarrollo Frontend: Fake API (json-server), WorkspaceStateService y QA flujo completo                                             |
 
+
+<br>
+<br>
+
+**AV2 Collaboration Insights**
+
+Para el desarrollo del AV2, cada integrante contribuyó de la siguiente manera:
+
+| Integrante | Tareas Realizadas |
+| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Salinas Guzmán, Brianna Cristina | Tareas    |
+| Jáuregui Cerna, Jean Franco      | Tareas    |
+| Cruzalegui Herrera, Joaquin      | Tareas    | 
+| Garcia Paredes, Victor Manuel    | Tareas    |
+| Acuña de la Cruz, Luis           | Tareas    |
 
 </div>
 
@@ -195,6 +211,28 @@ A continuación, se muestran los gráficos con el análisis de los commits reali
 
 <br>
 
+## AV2 - Network Graph
+
+A continuación, se presenta el gráfico de red (network graph) del repositorio del proyecto de la entrega AV2, el cual permite visualizar la estructura de ramas, así como la interacción entre ellas a través de los procesos de integración (merge).
+
+<br>
+
+<div align="center">
+<img src="brandradar-report/assets/network-repo/av2/network.png" alt="Gráfico de red AV2" width="900"/>
+</div>
+
+<br>
+
+A continuación, se muestran los gráficos con el análisis de los commits realizados en el repositorio en la entrega AV2. Estos reflejan tanto la cantidad de líneas de código añadidas por cada integrante del equipo como la actividad de commits registrada.
+
+<br>
+
+<div align="center">
+<img src="brandradar-report/assets/network-repo/av2/commits.png" alt="Commits realizados AV2" width="900"/>
+</div>
+
+<br>
+
 ---
 
 <br>
@@ -276,7 +314,13 @@ A continuación, se muestran los gráficos con el análisis de los commits reali
   - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
     - [5.2.1. Sprint 1](#521-sprint-1)
     - [5.2.2. Sprint 2](#522-sprint-2)
-    
+    - [5.2.3. Sprint 3](#523-sprint-3)
+  - [5.3. Validation Interviews](#52-landing-page-services--applications-implementation)
+    - [5.3.1. Diseño de Entrevistas](#521-sprint-1)
+    - [5.3.2. Registro de Entrevistas](#522-sprint-2)
+    - [5.3.3. Evaluaciones según heurísticas](#523-sprint-3)
+  - [5.4. Video About-the-Product](#52-landing-page-services--applications-implementation)
+
   #### [Conclusiones](#conclusiones-1)
   
   #### [Recomendaciones](#recomendaciones-1)
@@ -297,8 +341,8 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 |:---|:---|:---|
-| **3.c1. Comunica oralmente con efectividad a diferentes rangos de audiencia.** | **Salinas, Brianna** <br> AV1: Durante el registro de entrevistas, conduje sesiones con usuarios del segmento objetivo adaptando mi discurso oral según el perfil del entrevistado, logrando transmitir el propósito de BrandRadar de forma clara y comprensible tanto para perfiles técnicos como no técnicos. <br><br> TB1: Participé en la exposición del avance del proyecto BrandRadar, explicando las funcionalidades desarrolladas en el frontend como el registro de usuarios, verificación de correo electrónico y sistema de autenticación. Durante la presentación, comuniqué de manera clara las decisiones tomadas en el diseño del sistema y respondí consultas relacionadas con la arquitectura y experiencia de usuario, adaptando el lenguaje técnico según la audiencia.<br><br> **Jáuregui, Jean Franco** <br> AV1: (acción específica) <br><br> TB1: (acción específica)<br><br> **Cruzalegui, Joaquin** <br> AV1: Elaboré una de las entrevistas del segmento 1 (PyMEs), por la cual tuve que adecuar mi vocabulario de la mejor manera posible, para hacer sentir cómodo al entrevistado y poder recopilar la mejor información posible <br><br> TB1: (acción específica)<br><br> **Garcia Paredes, Victor** <br> AV1: Diseñé y conduje oralmente dos entrevistas dirigidas a representantes de nuestros segmentos objetivo (una PyME y una Agencia Digital). Durante las sesiones, adapté mi lenguaje y tono para generar empatía con perfiles no técnicos, logrando extraer con claridad sus dolores respecto a la gestión de su reputación digital y comunicando efectivamente el propósito de nuestra investigación. <br><br> TB1: Desarrollé y narré los videos de Prototyping (demostración de la aplicación). A través de esta presentación audiovisual, expliqué de forma clara y fluida la interacción del usuario con BrandRadar, adaptando la explicación técnica a un lenguaje accesible para que tanto stakeholders como usuarios finales comprendan la funcionalidad y el valor del producto.<br><br> **Acuña de la Cruz, Luis** <br> AV1: Diseñé y desarrollé el landing page del proyecto, enfocándome en transmitir de forma clara y atractiva la propuesta de valor para nuestros segmentos objetivo. Además, participé activamente en la presentación y explicación del sitio web ante el equipo y usuarios potenciales, comunicando de manera efectiva las funcionalidades y beneficios de la solución. Durante este proceso, adapté la estructura y el contenido de la página para mejorar la experiencia del usuario y generar mayor interés en la propuesta planteada. <br><br> TB1:Durante el desarrollo del Sprint 2, presenté los avances del Frontend y la integración de la Fake API ante mis compañeros y el líder técnico, utilizando un lenguaje adaptado para explicar la lógica de los servicios en Angular. Durante las reuniones de sincronización, expuse de manera clara cómo la arquitectura propuesta en el Dashboard permite visualizar el sentimiento de las menciones, facilitando que tanto el equipo de desarrollo como los interesados en el negocio comprendieran el flujo de los datos. Asimismo, respondí a las inquietudes técnicas sobre el manejo de estados globales, demostrando seguridad y dominio del tema para asegurar que todos los miembros del equipo estuvieran alineados con los objetivos del proyecto. <br> | <br> AV1: Durante el AV1, el equipo logró comunicar oralmente de manera clara y organizada la propuesta inicial del proyecto BrandRadar, presentando la problemática identificada, los objetivos del sistema y la solución tecnológica planteada. La exposición permitió transmitir adecuadamente las ideas principales tanto a un público técnico como académico, utilizando apoyo visual y una distribución equilibrada de la participación entre los integrantes. <br><br> TB1: Durante el AV1, el equipo elaboró documentación escrita estructurada y comprensible, incluyendo descripciones del proyecto, análisis del problema, user stories y planificación inicial del producto. La redacción utilizada permitió comunicar las ideas de manera formal y coherente, facilitando la comprensión del alcance y propósito del sistema BrandRadar para distintos tipos de lectores. <br><br> |
-| **3.c2. Comunica por escrito con efectividad a diferentes rangos de audiencia.** | **Salinas, Brianna** <br> AV1: Redacté el Capítulo I, la sección 4.3 de Landing Page UI Design, los diagramas de clases (4.7.1) y el diseño de base de datos (4.8), empleando un lenguaje técnico preciso y estructurado acorde al formato académico del informe, garantizando que el contenido sea comprensible para lectores con distintos niveles de conocimiento en ingeniería de software. <br><br> TB1: Contribuí en la elaboración y corrección de la documentación del proyecto, incluyendo Class Diagrams, User Stories, Product Backlog y Database Diagram. Redacté y estructuré información técnica de manera clara y organizada para facilitar la comprensión tanto del equipo de desarrollo como de los evaluadores del proyecto. Además, documenté funcionalidades del frontend relacionadas con el registro, login y verificación de usuarios siguiendo estándares de claridad y coherencia. <br><br> **Jáuregui, Jean Franco** <br> AV1: (acción específica) <br><br> TB1: (acción específica) <br><br> **Cruzalegui, Joaquin** <br> AV1: Realicé los Empathy Maps, los Journey Maps en base a las entrevistas y User Personas, también el Event Storming donde identifiqué los principales eventos del dominio. Además realicé el capítulo 5.2.1 sobre el sprint 1 <br><br> TB1: (acción específica) <br><br> **Garcia Paredes, Victor** <br> AV1: Redacté las secciones de segmentos objetivo, análisis competitivo, needfinding y arquitectura de software basada en DDD. Empleé un lenguaje claro, persuasivo y estructurado para documentar los User Personas; y utilicé terminología técnica estandarizada para describir el design-level event storming y los diagramas del modelo C4, garantizando que la documentación sea comprensible tanto para stakeholders como para el equipo de desarrollo. <br><br> TB1: Diseñé y documenté los User Flows y Wireflows, traduciendo los requerimientos del negocio en diagramas visuales y de navegación claros para el equipo. Además, apliqué estándares de código limpio y descriptivo durante mi colaboración en el desarrollo del Frontend, asegurando que la lógica de la interfaz sea fácilmente comprensible para el resto de los desarrolladores. | <br><br> **Acuña de la Cruz, Luis** <br> AV1: Diseñé y desarrollé el landing page del proyecto, enfocándome en transmitir de forma clara y atractiva la propuesta de valor para nuestros segmentos objetivo. Además, participé activamente en la presentación y explicación del sitio web ante el equipo y usuarios potenciales, comunicando de manera efectiva las funcionalidades y beneficios de la solución. Durante este proceso, adapté la estructura y el contenido de la página para mejorar la experiencia del usuario y generar mayor interés en la propuesta planteada. <br><br> TB1: Redacté y documenté la estructura técnica del archivo db.json y los contratos de los endpoints mock para el módulo de Sentiment Analysis, asegurando que la documentación fuera comprensible para el equipo de backend y los encargados de arquitectura. Además, trabajé en la mejora de la coherencia de los Bounded Contexts, documentando mediante comentarios en el código y mensajes de commit detallados cada ajuste realizado en la integración de menciones, alertas y logs de auditoría. Esta comunicación escrita permitió una integración fluida en la rama develop, garantizando que la lógica de trazabilidad (Audit Logs) y el manejo de estados de los modelos estuvieran claramente explicados para futuras fases de mantenimiento. <br> | <br> AV1: Durante el TB1, el equipo fortaleció sus habilidades de comunicación oral mediante la presentación del avance funcional del proyecto, explicando la arquitectura frontend, los flujos implementados y las decisiones técnicas adoptadas durante los sprints. La exposición permitió evidenciar dominio del proyecto, coordinación grupal y capacidad para responder preguntas relacionadas con el desarrollo y funcionamiento del sistema. <br><br> TB1: Durante el TB1, el equipo desarrolló documentación técnica y funcional detallada, incluyendo evidencias de desarrollo, despliegue de la segunda versión del landing page, la primera version frontend de BrandRadar, colaboración y arquitectura del sistema. La información fue presentada de manera ordenada, utilizando un lenguaje técnico adecuado y manteniendo coherencia en la estructura del informe, permitiendo comunicar efectivamente los avances del proyecto a lectores académicos y técnicos. <br><br> |
+| **3.c1. Comunica oralmente con efectividad a diferentes rangos de audiencia.** | **Salinas, Brianna** <br> AV1: Durante el registro de entrevistas, conduje sesiones con usuarios del segmento objetivo adaptando mi discurso oral según el perfil del entrevistado, logrando transmitir el propósito de BrandRadar de forma clara y comprensible tanto para perfiles técnicos como no técnicos. <br><br> TB1: Participé en la exposición del avance del proyecto BrandRadar, explicando las funcionalidades desarrolladas en el frontend como el registro de usuarios, verificación de correo electrónico y sistema de autenticación. Durante la presentación, comuniqué de manera clara las decisiones tomadas en el diseño del sistema y respondí consultas relacionadas con la arquitectura y experiencia de usuario, adaptando el lenguaje técnico según la audiencia.<br><br> AV2: (acción específica)<br><br> **Jáuregui, Jean Franco** <br> AV1: (acción específica) <br><br> TB1: (acción específica) <br><br> AV2: (acción específica)<br><br> **Cruzalegui, Joaquin** <br> AV1: Elaboré una de las entrevistas del segmento 1 (PyMEs), por la cual tuve que adecuar mi vocabulario de la mejor manera posible, para hacer sentir cómodo al entrevistado y poder recopilar la mejor información posible <br><br> TB1: (acción específica)<br><br> AV2: (acción específica) <br><br> **Garcia Paredes, Victor** <br> AV1: Diseñé y conduje oralmente dos entrevistas dirigidas a representantes de nuestros segmentos objetivo (una PyME y una Agencia Digital). Durante las sesiones, adapté mi lenguaje y tono para generar empatía con perfiles no técnicos, logrando extraer con claridad sus dolores respecto a la gestión de su reputación digital y comunicando efectivamente el propósito de nuestra investigación. <br><br> TB1: Desarrollé y narré los videos de Prototyping (demostración de la aplicación). A través de esta presentación audiovisual, expliqué de forma clara y fluida la interacción del usuario con BrandRadar, adaptando la explicación técnica a un lenguaje accesible para que tanto stakeholders como usuarios finales comprendan la funcionalidad y el valor del producto. <br><br> AV2: (acción específica)<br><br> **Acuña de la Cruz, Luis** <br> AV1: Diseñé y desarrollé el landing page del proyecto, enfocándome en transmitir de forma clara y atractiva la propuesta de valor para nuestros segmentos objetivo. Además, participé activamente en la presentación y explicación del sitio web ante el equipo y usuarios potenciales, comunicando de manera efectiva las funcionalidades y beneficios de la solución. Durante este proceso, adapté la estructura y el contenido de la página para mejorar la experiencia del usuario y generar mayor interés en la propuesta planteada. <br><br> TB1: Durante el desarrollo del Sprint 2, presenté los avances del Frontend y la integración de la Fake API ante mis compañeros y el líder técnico, utilizando un lenguaje adaptado para explicar la lógica de los servicios en Angular. Durante las reuniones de sincronización, expuse de manera clara cómo la arquitectura propuesta en el Dashboard permite visualizar el sentimiento de las menciones, facilitando que tanto el equipo de desarrollo como los interesados en el negocio comprendieran el flujo de los datos. Asimismo, respondí a las inquietudes técnicas sobre el manejo de estados globales, demostrando seguridad y dominio del tema para asegurar que todos los miembros del equipo estuvieran alineados con los objetivos del proyecto. <br><br> AV2: (acción específica)<br><br>| <br> AV1: Durante el AV1, el equipo logró comunicar oralmente de manera clara y organizada la propuesta inicial del proyecto BrandRadar, presentando la problemática identificada, los objetivos del sistema y la solución tecnológica planteada. La exposición permitió transmitir adecuadamente las ideas principales tanto a un público técnico como académico, utilizando apoyo visual y una distribución equilibrada de la participación entre los integrantes. <br><br> TB1: Durante el AV1, el equipo elaboró documentación escrita estructurada y comprensible, incluyendo descripciones del proyecto, análisis del problema, user stories y planificación inicial del producto. La redacción utilizada permitió comunicar las ideas de manera formal y coherente, facilitando la comprensión del alcance y propósito del sistema BrandRadar para distintos tipos de lectores. <br><br> AV2: (conclusión grupal) <br><br>|
+| **3.c2. Comunica por escrito con efectividad a diferentes rangos de audiencia.** | **Salinas, Brianna** <br> AV1: Redacté el Capítulo I, la sección 4.3 de Landing Page UI Design, los diagramas de clases (4.7.1) y el diseño de base de datos (4.8), empleando un lenguaje técnico preciso y estructurado acorde al formato académico del informe, garantizando que el contenido sea comprensible para lectores con distintos niveles de conocimiento en ingeniería de software. <br><br> TB1: Contribuí en la elaboración y corrección de la documentación del proyecto, incluyendo Class Diagrams, User Stories, Product Backlog y Database Diagram. Redacté y estructuré información técnica de manera clara y organizada para facilitar la comprensión tanto del equipo de desarrollo como de los evaluadores del proyecto. Además, documenté funcionalidades del frontend relacionadas con el registro, login y verificación de usuarios siguiendo estándares de claridad y coherencia. <br><br> AV2: (acción específica)<br><br>**Jáuregui, Jean Franco** <br> AV1: (acción específica) <br><br> TB1: (acción específica) <br><br> AV2: (acción específica)<br><br>**Cruzalegui, Joaquin** <br> AV1: Realicé los Empathy Maps, los Journey Maps en base a las entrevistas y User Personas, también el Event Storming donde identifiqué los principales eventos del dominio. Además realicé el capítulo 5.2.1 sobre el sprint 1 <br><br> TB1: (acción específica) <br><br> AV2: (acción específica)<br><br> **Garcia Paredes, Victor** <br> AV1: Redacté las secciones de segmentos objetivo, análisis competitivo, needfinding y arquitectura de software basada en DDD. Empleé un lenguaje claro, persuasivo y estructurado para documentar los User Personas; y utilicé terminología técnica estandarizada para describir el design-level event storming y los diagramas del modelo C4, garantizando que la documentación sea comprensible tanto para stakeholders como para el equipo de desarrollo. <br><br> TB1: Diseñé y documenté los User Flows y Wireflows, traduciendo los requerimientos del negocio en diagramas visuales y de navegación claros para el equipo. Además, apliqué estándares de código limpio y descriptivo durante mi colaboración en el desarrollo del Frontend, asegurando que la lógica de la interfaz sea fácilmente comprensible para el resto de los desarrolladores. <br><br> AV2: (acción específica)<br><br> **Acuña de la Cruz, Luis** <br> AV1: Diseñé y desarrollé el landing page del proyecto, enfocándome en transmitir de forma clara y atractiva la propuesta de valor para nuestros segmentos objetivo. Además, participé activamente en la presentación y explicación del sitio web ante el equipo y usuarios potenciales, comunicando de manera efectiva las funcionalidades y beneficios de la solución. Durante este proceso, adapté la estructura y el contenido de la página para mejorar la experiencia del usuario y generar mayor interés en la propuesta planteada. <br><br> TB1: Redacté y documenté la estructura técnica del archivo db.json y los contratos de los endpoints mock para el módulo de Sentiment Analysis, asegurando que la documentación fuera comprensible para el equipo de backend y los encargados de arquitectura. Además, trabajé en la mejora de la coherencia de los Bounded Contexts, documentando mediante comentarios en el código y mensajes de commit detallados cada ajuste realizado en la integración de menciones, alertas y logs de auditoría. Esta comunicación escrita permitió una integración fluida en la rama develop, garantizando que la lógica de trazabilidad (Audit Logs) y el manejo de estados de los modelos estuvieran claramente explicados para futuras fases de mantenimiento. <br><br> AV2: (acción específica)<br><br> | <br> AV1: Durante el TB1, el equipo fortaleció sus habilidades de comunicación oral mediante la presentación del avance funcional del proyecto, explicando la arquitectura frontend, los flujos implementados y las decisiones técnicas adoptadas durante los sprints. La exposición permitió evidenciar dominio del proyecto, coordinación grupal y capacidad para responder preguntas relacionadas con el desarrollo y funcionamiento del sistema. <br><br> TB1: Durante el TB1, el equipo desarrolló documentación técnica y funcional detallada, incluyendo evidencias de desarrollo, despliegue de la segunda versión del landing page, la primera version frontend de BrandRadar, colaboración y arquitectura del sistema. La información fue presentada de manera ordenada, utilizando un lenguaje técnico adecuado y manteniendo coherencia en la estructura del informe, permitiendo comunicar efectivamente los avances del proyecto a lectores académicos y técnicos. <br><br> AV2: (conclusión grupal) <br><br>|
 
 ---
 
@@ -3899,11 +3943,11 @@ A continuación se muestran las capturas de las vistas desarrolladas
 
 ![Execution Evidence 1](brandradar-report/assets/sprints/sprint-2/sprint2-execution-1.png)
 
+
 <br>
 
 **US07 Evidence – Verificación de Correo**
 <br>
-
 ![Execution Evidence 2](brandradar-report/assets/sprints/sprint-2/sprint2-execution-2.png)
 
 <br>
@@ -3922,38 +3966,57 @@ A continuación se muestran las capturas de las vistas desarrolladas
 
 <br>
 
-**US11 Evidence – Selección y Gestión de BrandWorkspace**
-<br>
-
 ![Execution Evidence 5](brandradar-report/assets/sprints/sprint-2/sprint2-execution-5.png)
 
-<br>
-
-**US17 Evidence – Gestión de MentionStream**
 <br>
 
 ![Execution Evidence 6](brandradar-report/assets/sprints/sprint-2/sprint2-execution-6.png)
 
 <br>
 
+
+**US11 Evidence – Selección y Gestión de BrandWorkspace**
+<br>
+
+**Plan BASICO / PRO**
+![Execution Evidence 7](brandradar-report/assets/sprints/sprint-2/sprint2-execution-7.png)
+
+<br>
+
+**Plan ENTERPRISE**
+![Execution Evidence 8](brandradar-report/assets/sprints/sprint-2/sprint2-execution-8.png)
+
+<br>
+
+**US17 Evidence – Gestión de MentionStream**
+<br>
+
+![Execution Evidence 9](brandradar-report/assets/sprints/sprint-2/sprint2-execution-9.png)
+
+<br>
+
 **US23 Evidence – Gestión de ReputationIncident**
 <br>
 
-![Execution Evidence 7](brandradar-report/assets/sprints/sprint-2/sprint2-execution-7.png)
+![Execution Evidence 10](brandradar-report/assets/sprints/sprint-2/sprint2-execution-10.png)
 
 <br>
 
 **US27 Evidence – Dashboard Reputacional**
 <br>
 
-![Execution Evidence 8](brandradar-report/assets/sprints/sprint-2/sprint2-execution-8.png)
+![Execution Evidence 11](brandradar-report/assets/sprints/sprint-2/sprint2-execution-11.png)
+
+<br>
+
+![Execution Evidence 12](brandradar-report/assets/sprints/sprint-2/sprint2-execution-12.png)
 
 <br>
 
 **US33 Evidence – Pantalla 403 y WorkspaceGuard**
 <br>
 
-![Execution Evidence 9](brandradar-report/assets/sprints/sprint-2/sprint2-execution-9.png)
+![Execution Evidence 13](brandradar-report/assets/sprints/sprint-2/sprint2-execution-13.png)
 
 <br>
 
@@ -3990,7 +4053,9 @@ Asimismo, el equipo dejó preparada la base documental para futuras integracione
 
 A continuación, se presentan capturas de la Fake API, rutas simuladas y pruebas funcionales realizadas durante el Sprint 2:
 
-![Deployment Sprint 2](brandradar-report/assets/sprints/sprint-2/deployment-6.jpg)
+![Deployment Sprint 2](brandradar-report/assets/sprints/sprint-2/deployment-6.png)
+
+![Deployment Sprint 2](brandradar-report/assets/sprints/sprint-2/deployment-7.png)
 
 <br>
 
@@ -4039,7 +4104,7 @@ A continuación, se presentan capturas del proceso de despliegue y del resultado
 
 ![Deployment Sprint 2](brandradar-report/assets/sprints/sprint-2/deployment-4.jpg)
 
-![Deployment Sprint 2](brandradar-report/assets/sprints/sprint-2/deployment-5.jpg)
+![Deployment Sprint 2](brandradar-report/assets/sprints/sprint-2/sprint2-execution-3.png)
 
 
 <br>
@@ -4073,20 +4138,91 @@ La colaboración se fortaleció mediante integraciones frecuentes hacia `develop
 
 ---
 
+### 5.2.3. Sprint 3
+
+#### 5.2.3.1. Sprint Planning 3
+
+<br>
+
+---
+
+#### 5.2.3.2. Aspect Leaders and Collaborators
+
+<br>
+
+---
+
+#### 5.2.3.3. Sprint Backlog 3
+
+<br>
+
+---
+
+#### 5.2.3.4. Development Evidence for Sprint Review
+
+<br>
+
+---
+
+#### 5.2.3.5. Execution Evidence for Sprint Review
+
+<br>
+
+---
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+<br>
+
+---
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+<br>
+
+---
+
+## 5.3. Validation Interviews
+
+### 5.3.1. Diseño de Entrevistas
+
+<br>
+
+---
+
+### 5.3.2. Registro de Entrevistas
+
+<br>
+
+---
+
+### 5.3.3. Evaluaciones según heurísticas
+
+<br>
+
+
+---
+
+## 5.4. Video About-the-Product
+
+<br>
+
+---
+
 ## Conclusiones
 
 
-1. El equipo logró desarrollar satisfactoriamente los objetivos planteados para el TB1, estableciendo tanto la segunda versión del Landing Page como la primera versión funcional del sistema web de BrandRadar.
+1. 
 
-2. La implementación de Angular, TypeScript y una arquitectura modular  desarrollado en WebStorm permitió construir una base sólida y escalable para el desarrollo futuro del proyecto.
+2. 
 
-3. La integración de flujos de autenticación, autorización contextual y gestión de BrandWorkspace permitió validar técnicamente el enfoque de seguridad y aislamiento de información reputacional entre clientes.
+3. 
 
-4. El uso de GitFlow, ramas feature y despliegues continuos facilitó el trabajo colaborativo, permitiendo que los integrantes desarrollaran funcionalidades en paralelo sin afectar la estabilidad del proyecto.
+4. 
 
-5. La utilización de json-server como un fake api y servicios simulados permitió validar el comportamiento funcional de la aplicación antes de contar con un backend definitivo.
+5. 
 
-6. El trabajo en equipo y la correcta distribución de responsabilidades permitieron cumplir con los entregables planificados dentro del sprint.
+6. 
  
 
 <br>
@@ -4095,35 +4231,27 @@ La colaboración se fortaleció mediante integraciones frecuentes hacia `develop
 
 ## Recomendaciones
 
-1. Continuar fortaleciendo la arquitectura del proyecto mediante componentes reutilizables, servicios desacoplados y una mejor organización modular.
+1. 
 
-2. Implementar un backend real que permita reemplazar la Fake API y conectar los flujos actuales con persistencia de datos segura y escalable.
+2. 
 
-3. Incorporar documentación técnica formal de endpoints y servicios utilizando OpenAPI/Swagger para facilitar futuras integraciones.
+3. 
 
-4. Aumentar la cobertura de pruebas funcionales y de integración para validar flujos críticos relacionados con autenticación y autorización.
+4. 
 
-5. Mejorar progresivamente la experiencia de usuario mediante optimizaciones visuales, manejo centralizado de errores y mejoras de accesibilidad.
+5. 
 
-6. Mantener el uso de integración continua y despliegues automatizados para asegurar estabilidad y rapidez en futuras entregas del proyecto.
+6. 
 
-7. Implementar mecanismos de monitoreo y seguridad en el backend para proteger la información reputacional gestionada por la plataforma.
+7. 
 
 
 <br>
 
+---
+
 ## Video About-The-Team
 
-Este apartado será desarrollado en la **entrega final del proyecto**, donde se incluirá el video de presentación del equipo.
-
-En la versión final del informe se incorporarán los siguientes elementos:
-
-- Captura representativa del video
-- URL del video en Microsoft Stream  
-- URL del video en YouTube  
-- Estructura o timing del contenido presentado (introducción, desarrollo y cierre)
-
-El video tiene como objetivo presentar a los integrantes del equipo, sus roles, principales contribuciones y la experiencia obtenida durante el desarrollo del proyecto BrandRadar.
 
 <br>
 
@@ -4170,6 +4298,7 @@ En este documento se incluyen los criterios de evaluación, evidencias de trabaj
 |:-------:|:------:|:------:|
 | AV1 | `upc-pre-202610-1asi0729-[11863]-[brandradar]-expo-av1` | [URL Microsoft Stream](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202410239_upc_edu_pe/IgBV-ACEG37lQ466daCivegHARBFGxWIBXchDZGj6xfsMAY?e=Y3HNmH) |
 | TB1 | `upc-pre-202610-1asi0729-[11863]-[brandradar]-expo-tb1` | [URL Microsoft Stream](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202410239_upc_edu_pe/IgCUwFHqhNzvSLnvprF7sOxmAcitk8v93xpRomtd_CLgQTw?e=kcPhrd) |
+| AV2| `upc-pre-202610-1asi0729-[11863]-[brandradar]-expo-av2` | [URL Microsoft Stream](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202410239_upc_edu_pe/IgCUwFHqhNzvSLnvprF7sOxmAcitk8v93xpRomtd_CLgQTw?e=kcPhrd) |
 
 <br>
 
