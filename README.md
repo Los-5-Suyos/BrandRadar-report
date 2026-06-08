@@ -4142,11 +4142,61 @@ La colaboración se fortaleció mediante integraciones frecuentes hacia `develop
 
 #### 5.2.3.1. Sprint Planning 3
 
+El Sprint Planning 3 tuvo como objetivo principal desarrollar y desplegar la primera versión del Web Service del proyecto BrandRadar utilizando Spring Boot con Java, estableciendo así el backend que soportará las funcionalidades core de la aplicación.
+
+Durante este sprint, el equipo definió las tareas necesarias para implementar la capa de servicios RESTful, incluyendo la configuración del proyecto, la definición de endpoints principales, la integración con base de datos y el despliegue en un entorno cloud accesible.
+
+Entre las actividades principales se incluyeron:
+
+- Configuración inicial del proyecto Spring Boot con las dependencias necesarias (Spring Web, Spring Data JPA, Spring Security, etc.).
+- Definición e implementación de los endpoints RESTful para las entidades principales (Brands, Reports, Users, Alerts).
+- Configuración de la base de datos relacional (MySQL/PostgreSQL) y definición de entidades JPA.
+- Implementación de la capa de servicios y repositorios siguiendo arquitectura en capas (Controller → Service → Repository).
+- Configuración de CORS, manejo de excepciones globales y validaciones.
+- Documentación de la API con Swagger/OpenAPI.
+- Despliegue del Web Service en Railway o Render.
+
+Como resultado del Sprint Planning, el equipo estableció un conjunto claro de tareas priorizadas, permitiendo organizar el trabajo de manera eficiente y cumplir con el objetivo de contar con un Web Service funcional y desplegado al finalizar el sprint.
+
+<br>
+
+| Campo                               | Detalle |
+| :---------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint #**                        | Sprint 3 |
+| **Sprint Planning Background**      | En este sprint se abordará el desarrollo de la primera versión del Web Service de BrandRadar utilizando Spring Boot con Java, siguiendo los principios de arquitectura RESTful y DDD previamente definidos. El objetivo es construir una API funcional que exponga los recursos principales del sistema (usuarios, marcas, reportes y alertas), permitiendo la comunicación con el frontend y estableciendo la base del backend del producto. |
+| **Date**                            | 2026/06/07 |
+| **Time**                            | 8:00 PM |
+| **Location**                        | Reunión virtual mediante Discord |
+| **Prepared By**                     | Salinas Guzmán, Brianna |
+| **Attendees (to planning meeting)** | Salinas, Brianna / Cruzalegui, Joaquin / Jáuregui, Jean / García, Victor / Acuña, Luis |
+| **Sprint 2 Review Summary**         | Durante el Sprint 2 se completó el desarrollo de la primera versión de la aplicación web frontend utilizando Angular Framework, implementando las vistas principales del dashboard, gestión de marcas y visualización de reportes. Se logró integrar el fake API con json-server para simular las respuestas del backend y se desplegó la aplicación en Netlify/Vercel exitosamente. |
+| **Sprint 2 Retrospective Summary**  | El equipo mejoró notablemente la coordinación en el uso de GitFlow respecto al sprint anterior. Se identificó la necesidad de establecer contratos de API claros entre frontend y backend desde el inicio del sprint para facilitar la integración. Asimismo, se acordó reforzar las prácticas de code review antes de realizar merges a la rama develop. |
+| **Sprint Goal & User Stories**      | |
+| **Sprint 3 Goal**                   | Nuestro enfoque está en desarrollar y desplegar la primera versión funcional del Web Service de BrandRadar con Spring Boot. Creemos que esto permitirá establecer la base del backend del sistema, exponiendo los endpoints necesarios para la gestión de usuarios, marcas, reportes y alertas. Esto se confirmará cuando todos los endpoints principales estén implementados, documentados con Swagger y desplegados en un entorno cloud accesible mediante una URL pública. |
+| **Sprint 3 Velocity**               | 52 |
+| **Sum of Story Points**             | 47 |
+
+
 <br>
 
 ---
 
 #### 5.2.3.2. Aspect Leaders and Collaborators
+
+
+<br>
+
+| Team Member | GitHub Username | `[TS01 · Registro + UserAccount]` | `[TS02 · Login + JWT + Security]` | `[TS03 · Verificación de correo]` | `[TS04 · Recuperación de contraseña]` | `[TS05 · Refresh de JWT]` | `[TS06 · BrandWorkspace CRUD]` | `[TS07 · Desactivación de Workspace]` | `[TS08 · MonitoringRule + Channel]` | `[TS16 · Autorización contextual]` | `[Infra · OpenAPI, CORS, QA, Deploy]` |
+|:-----------------------------------:|:---------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
+| Salinas, Brianna | brianna-salinas | L | C | C | C | C | C | C | L | C | L |
+| García, Victor | vicmacode | C | C | C | C | C | L | L | C | C | C |
+| Jáuregui, Jean | JFranco556 | C | L | L | C | C | C | C | C | L | C |
+| Acuña, Luis | L2006delacruz | C | C | C | C | C | C | L | L | C | L |
+| Cruzalegui, Joaquin | JoaquinCruzalegui | C | C | C | L | L | C | C | C | C | L |
+
+<br>
+
+> **L** = Leader &nbsp;|&nbsp; **C** = Collaborator
 
 <br>
 
@@ -4154,11 +4204,96 @@ La colaboración se fortaleció mediante integraciones frecuentes hacia `develop
 
 #### 5.2.3.3. Sprint Backlog 3
 
+
+**Objetivo del Sprint:** Implementar la primera versión del Web Service de BrandRadar con Spring Boot, cubriendo los bounded contexts de Identidad y Acceso Seguro (TS01–TS05) y Configuración Estratégica de Marca (TS06–TS08), con persistencia real en MySQL, autenticación JWT, autorización contextual por `BrandWorkspace` y documentación OpenAPI desplegada en Railway.
+
+**Sprint Goal:** *Un desarrollador puede consumir los endpoints reales de registro, login, verificación, recuperación de contraseña, refresh de JWT, gestión de `BrandWorkspace` y `MonitoringRule`, con persistencia en MySQL y autorización contextual por workspace, reemplazando completamente la Fake API del Sprint 2.*
+
+<br>
+
+**Story Points comprometidos: 47 SP | Duración: 2 semanas | Stack: Java 21 / Spring Boot 3 / MySQL / Railway**
+
+**Tech Lead: Brianna Cristina Salinas Guzmán**
+
+<br>
+
+| Sprint # | | | | | | | | |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Sprint 3** | **User Story** | | **Work-Item / Task** | | | | **Asignado a** | **Status** |
+| **ID** | **Título** | **SP** | **ID** | **Título** | **Descripción** | **Estimación** | **Asignado a** | |
+| **TS01** | Endpoint de registro: crea `UserAccount` en `PENDIENTE_VERIFICACIÓN` y emite `AccountRegistered` | 5 | T-01 | Configuración inicial del proyecto Spring Boot con arquitectura por bounded context | Crear proyecto con Spring Initializr. Configurar dependencias: Spring Web, Spring Data JPA, Spring Security, MySQL Driver, Lombok, SpringDoc OpenAPI, Flyway. Definir estructura de paquetes por bounded context: `identity`, `workspace`, `shared`. Configurar `application.properties` base y perfil `prod`. | 3h | Brianna | Done |
+| **TS01** | Endpoint de registro: crea `UserAccount` en `PENDIENTE_VERIFICACIÓN` y emite `AccountRegistered` | | T-02 | Entidad `UserAccount` con estados `PENDIENTE_VERIFICACIÓN` / `ACTIVA` / `BLOQUEADA` y migración Flyway | Definir entidad JPA `UserAccount` con campos: id, email, passwordHash, estado (`AccountStatus` enum), fechaRegistro, tokenVerificacion, tokenExpiracion. Crear migración Flyway `V1__create_user_accounts.sql`. Implementar `UserAccountRepository`. | 3h | Brianna | Done |
+| **TS01** | Endpoint de registro: crea `UserAccount` en `PENDIENTE_VERIFICACIÓN` y emite `AccountRegistered` | | T-03 | Endpoint `POST /api/v1/auth/register` — crea `UserAccount` y emite `AccountRegistered` | Implementar `AuthController`, `RegisterUserService` y `UserAccountRepository`. Valida email único, hashea contraseña con BCrypt, crea `UserAccount` en estado `PENDIENTE_VERIFICACIÓN`, genera token de verificación, publica Domain Event `AccountRegistered`. Retorna 201 con mensaje de confirmación. | 4h | Brianna | Done |
+| **TS02** | Endpoint de login: valida credenciales, emite JWT y bloquea por intentos fallidos | 5 | T-04 | Endpoint `POST /api/v1/auth/login` — valida credenciales, emite JWT y registra intentos fallidos | Implementar `LoginService` con validación de credenciales contra `UserAccount`. Bloqueo automático tras 5 intentos fallidos transitando estado a `BLOQUEADA`. Solo permite login a cuentas `ACTIVAS`. Genera JWT firmado con `JwtTokenProvider`. Retorna access token y refresh token. | 4h | Jean Franco | Done |
+| **TS02** | Endpoint de login: valida credenciales, emite JWT y bloquea por intentos fallidos | | T-05 | `JwtTokenProvider` y `SecurityConfig` con filtro de autenticación stateless | Implementar `JwtTokenProvider` con generación, firma (HS256) y validación de JWT. Configurar `SecurityConfig` con `JwtAuthenticationFilter` que extrae y valida el token en cada request. Rutas públicas: `/api/v1/auth/**`. Resto requiere autenticación. | 4h | Jean Franco | Done |
+| **TS03** | Endpoint de verificación de correo: transiciona `UserAccount` a `ACTIVA` y emite `AccountActivated` | 3 | T-06 | Endpoint `GET /api/v1/auth/verify?token={token}` — transiciona cuenta a `ACTIVA` y emite `AccountActivated` | Implementar `VerifyAccountService`. Valida token de verificación no expirado. Transiciona `UserAccount` de `PENDIENTE_VERIFICACIÓN` a `ACTIVA`. Publica Domain Event `AccountActivated`. Maneja casos: token expirado (retorna 410), token ya usado (retorna 409), token inválido (retorna 400). | 3h | Jean Franco | Done |
+| **TS04** | Endpoint de recuperación de contraseña con eventos `PasswordRecoveryRequested` y `PasswordReset` | 5 | T-07 | Endpoint `POST /api/v1/auth/forgot-password` — emite `PasswordRecoveryRequested` con respuesta genérica | Implementar `ForgotPasswordService`. Genera token de recuperación con expiración de 15 minutos. Publica `PasswordRecoveryRequested`. Respuesta siempre 200 independientemente de si el email existe, protegiendo enumeración de cuentas. Persiste token en `UserAccount`. | 3h | Joaquin | Done |
+| **TS04** | Endpoint de recuperación de contraseña con eventos `PasswordRecoveryRequested` y `PasswordReset` | | T-08 | Endpoint `POST /api/v1/auth/reset-password` — completa `PasswordReset` e invalida sesiones activas | Implementar `ResetPasswordService`. Valida token de recuperación no expirado. Hashea y persiste nueva contraseña. Invalida todos los refresh tokens activos del usuario (campo `sessionVersion` incrementado). Publica Domain Event `PasswordReset`. Retorna 200 en éxito. | 3h | Joaquin | Done |
+| **TS05** | Endpoint de refresh de JWT para mantener sesión activa sin reautenticación | 5 | T-09 | Endpoint `POST /api/v1/auth/refresh` — renueva access token validando refresh token y `sessionVersion` | Implementar `RefreshTokenService`. Valida refresh token firmado y `sessionVersion` del `UserAccount` para detectar invalidación por `PasswordReset`. Genera nuevo access token con claims actualizados. Rota el refresh token (invalidando el anterior). Retorna nuevo par de tokens. | 4h | Joaquin | Done |
+| **TS06** | Endpoints de creación y consulta de `BrandWorkspace` con estado operacional | 5 | T-10 | Entidad `BrandWorkspace` con estados `ACTIVO` / `INACTIVO` y migración Flyway | Definir entidad JPA `BrandWorkspace`: id, nombre, descripcion, estado (`WorkspaceStatus` enum), userId (FK a `UserAccount`), fechaCreacion, fechaUltimaModificacion. Crear migración `V2__create_brand_workspaces.sql`. Implementar `BrandWorkspaceRepository` con consulta por usuario. | 3h | Victor | Done |
+| **TS06** | Endpoints de creación y consulta de `BrandWorkspace` con estado operacional | | T-11 | Endpoint `POST /api/v1/workspaces` — crea `BrandWorkspace` asignado al usuario autenticado | Implementar `CreateWorkspaceService`. Valida que el usuario autenticado no supere el límite de workspaces por plan. Crea `BrandWorkspace` en estado `ACTIVO` asociado al `userId` del JWT. Retorna 201 con representación completa del workspace creado. | 3h | Victor | Done |
+| **TS06** | Endpoints de creación y consulta de `BrandWorkspace` con estado operacional | | T-12 | Endpoint `GET /api/v1/workspaces` y `GET /api/v1/workspaces/{id}` — consulta workspaces del usuario autenticado | Implementar endpoints de listado y detalle. `GET /workspaces` retorna solo los workspaces del usuario autenticado (aislamiento por userId). `GET /workspaces/{id}` valida ownership antes de retornar; 403 si el workspace pertenece a otro usuario. | 3h | Victor | Done |
+| **TS07** | Endpoints de edición y desactivación de `BrandWorkspace` con emisión de `WorkspaceDeactivated` | 3 | T-13 | Endpoint `PUT /api/v1/workspaces/{id}` — actualiza configuración del `BrandWorkspace` con trazabilidad | Implementar `UpdateWorkspaceService`. Valida ownership del workspace. Actualiza campos permitidos (nombre, descripcion). Registra timestamp de modificación. Solo permite actualizar workspaces en estado `ACTIVO`. Retorna 200 con workspace actualizado. | 3h | Victor | Done |
+| **TS07** | Endpoints de edición y desactivación de `BrandWorkspace` con emisión de `WorkspaceDeactivated` | | T-14 | Endpoint `DELETE /api/v1/workspaces/{id}` — desactiva `BrandWorkspace` conservando historial y emitiendo `WorkspaceDeactivated` | Implementar `DeactivateWorkspaceService`. Transiciona estado a `INACTIVO` (soft delete, no eliminación física). Publica Domain Event `WorkspaceDeactivated`. Conserva toda la historia de incidentes y menciones asociadas al workspace. Valida ownership antes de desactivar. | 3h | Luis | Done |
+| **TS08** | Endpoints de `MonitoringRule` y `MonitoringChannel` con versionado y `MonitoringRuleUpdated` | 8 | T-15 | Entidades `MonitoringRule` y `MonitoringChannel` con versionado y migración Flyway | Definir entidad JPA `MonitoringRule`: id, workspaceId, keywords (lista), version, fechaCreacion. Definir `MonitoringChannel`: id, workspaceId, channelType (`ChannelType` enum: TWITTER, INSTAGRAM, NEWS, WEB), activo. Crear migraciones `V3__create_monitoring_rules.sql` y `V4__create_monitoring_channels.sql`. | 3h | Luis | Done |
+| **TS08** | Endpoints de `MonitoringRule` y `MonitoringChannel` con versionado y `MonitoringRuleUpdated` | | T-16 | Endpoints CRUD `POST/GET/PUT /api/v1/workspaces/{id}/rules` — gestión de `MonitoringRule` con `MonitoringRuleUpdated` | Implementar `MonitoringRuleController` y `MonitoringRuleService`. `POST` crea regla con keywords iniciales (versión 1). `PUT` incrementa versión y publica Domain Event `MonitoringRuleUpdated` con diff de keywords (keywords añadidas y eliminadas). `GET` retorna regla vigente con historial de versiones. | 4h | Luis | Done |
+| **TS08** | Endpoints de `MonitoringRule` y `MonitoringChannel` con versionado y `MonitoringRuleUpdated` | | T-17 | Endpoints CRUD `POST/GET/PUT /api/v1/workspaces/{id}/channels` — gestión de `MonitoringChannel` | Implementar `MonitoringChannelController` y `MonitoringChannelService`. `POST` conecta nuevo canal al workspace validando tipo soportado. `PUT` activa/desactiva canal. `GET` lista canales conectados con estado. Valida ownership del workspace en cada operación. | 3h | Brianna | Done |
+| **TS16** | Middleware de autorización contextual por `BrandWorkspace` con auditoría de accesos no autorizados | 5 | T-18 | `WorkspaceAuthorizationFilter` — valida ownership por `BrandWorkspace` en cada request y registra accesos no autorizados | Implementar `WorkspaceAuthorizationFilter` como `OncePerRequestFilter`. Para rutas que incluyen `workspaceId` en el path, valida que el usuario autenticado (extraído del JWT) sea propietario del workspace solicitado. Intento no autorizado → 403 + registro de evento de auditoría en tabla `workspace_access_audit`. | 4h | Jean Franco | Done |
+| — | — | — | T-19 | `GlobalExceptionHandler` con `@ControllerAdvice` y manejo de errores de dominio estandarizado | Implementar `GlobalExceptionHandler` con `@ControllerAdvice`. Mapear excepciones de dominio a respuestas HTTP: `DomainValidationException` → 400, `UnauthorizedWorkspaceAccessException` → 403, `ResourceNotFoundException` → 404, `TokenExpiredException` → 410. Formato de error estandarizado con `timestamp`, `code`, `message`. | 3h | Jean Franco | Done |
+| — | — | — | T-20 | Configuración de SpringDoc OpenAPI 3.0 y documentación de todos los endpoints del sprint | Configurar `OpenApiConfig` con metadatos del proyecto (título, versión, descripción). Agregar anotaciones `@Operation`, `@ApiResponse` y `@SecurityRequirement` a todos los controladores. Definir esquema de Bearer JWT en Swagger UI. Verificar documentación completa en `/swagger-ui/index.html`. | 2h | Brianna | Done |
+| — | — | — | T-21 | Configuración de CORS, Flyway y despliegue en Railway con MySQL provisionado | Configurar `CorsConfig` permitiendo origen del frontend desplegado en Netlify. Verificar ejecución correcta de migraciones Flyway en entorno de producción. Configurar variables de entorno en Railway: `DB_URL`, `DB_USER`, `DB_PASS`, `JWT_SECRET`, `JWT_EXPIRATION_MS`. Validar URL pública del servicio desplegado. | 3h | Joaquin | Done |
+| — | — | — | T-22 | QA: pruebas unitarias con JUnit 5 + Mockito y pruebas de integración con `@SpringBootTest` | Pruebas unitarias de servicios de dominio: `RegisterUserService`, `LoginService`, `VerifyAccountService`, `ResetPasswordService`, `CreateWorkspaceService`, `MonitoringRuleService`. Pruebas de integración cubriendo flujo completo: registro → verificación → login → crear workspace → configurar reglas → desactivar workspace → acceso no autorizado 403. | 5h | Luis | Done |
+
+<br>
+
+*Herramienta de gestión: Jira | Repositorio: GitFlow (main / develop / feature/\*)*
+
 <br>
 
 ---
 
 #### 5.2.3.4. Development Evidence for Sprint Review
+
+Durante el Sprint 3, el equipo se enfocó en la construcción del Web Service de BrandRadar utilizando Java 21 con Spring Boot 3, bajo una arquitectura en capas orientada a Domain-Driven Design (DDD) y organizada por bounded contexts. El objetivo principal del sprint fue implementar los endpoints RESTful reales que reemplazan la Fake API del Sprint 2, cubriendo los bounded contexts de **Identidad y Acceso Seguro** (TS01–TS05) y **Configuración Estratégica de Marca** (TS06–TS08), junto con el middleware de autorización contextual por `BrandWorkspace` (TS16).
+
+Se desarrollaron los servicios de autenticación completos (`UserAccount` con estados `PENDIENTE_VERIFICACIÓN` / `ACTIVA` / `BLOQUEADA`), generación y validación de JWT, refresh de tokens con invalidación por `sessionVersion`, recuperación de contraseña con protección contra enumeración de cuentas, gestión completa de `BrandWorkspace` y `MonitoringRule` con versionado de cambios. Asimismo, se implementó el `WorkspaceAuthorizationFilter` para garantizar el aislamiento de información reputacional entre clientes.
+
+El equipo adoptó una arquitectura en capas (Controller → Service → Repository) con entidades JPA, migraciones de base de datos gestionadas con Flyway, manejo de excepciones estandarizado mediante `@ControllerAdvice` y documentación completa de la API con SpringDoc OpenAPI 3.0, permitiendo mantener consistencia técnica y acelerar la integración con el frontend Angular del Sprint 2.
+
+El desarrollo se realizó en el repositorio público del backend utilizando GitFlow y ramas `feature/`, permitiendo que cada integrante trabajara de manera independiente sobre su bounded context asignado antes de integrar sus avances en la rama `develop` para pruebas de integración y revisión del sprint.
+
+<br>
+
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on (Date) |
+|:---|:---|:---|:---|:---|:---|
+| Los-5-Suyos/BrandRadar-Backend | main | pending | `initial backend setup` | Configuración inicial del proyecto Spring Boot 3 con Java 21, dependencias JPA, Security, Flyway, SpringDoc y estructura DDD por bounded context | 2026-05-28 |
+| Los-5-Suyos/BrandRadar-Backend | develop | pending | `feat: shared infrastructure setup` | Configuración de `SecurityConfig`, `JwtTokenProvider`, `GlobalExceptionHandler`, `CorsConfig` y estructura base de repositorios y servicios | 2026-05-28 |
+| Los-5-Suyos/BrandRadar-Backend | feature/sprint3-brianna | pending | `feat: user account entity and register endpoint` | Implementación de entidad `UserAccount`, migración Flyway V1, `RegisterUserService` y endpoint `POST /api/v1/auth/register` con emisión de `AccountRegistered` | 2026-05-29 |
+| Los-5-Suyos/BrandRadar-Backend | feature/sprint3-jean | pending | `feat: login, jwt security and email verification` | Implementación de `LoginService`, `JwtAuthenticationFilter`, `SecurityConfig` stateless y endpoint `GET /api/v1/auth/verify` con transición a estado `ACTIVA` | 2026-05-30 |
+| Los-5-Suyos/BrandRadar-Backend | feature/sprint3-joaquin | pending | `feat: password recovery and jwt refresh` | Implementación de flujo de recuperación de contraseña con protección de enumeración, `ResetPasswordService` con invalidación de sesiones y endpoint `POST /api/v1/auth/refresh` con rotación de refresh token | 2026-05-31 |
+| Los-5-Suyos/BrandRadar-Backend | feature/sprint3-victor | pending | `feat: brand workspace crud endpoints` | Implementación de entidad `BrandWorkspace`, migración Flyway V2, endpoints `POST/GET /api/v1/workspaces` y `GET/PUT /api/v1/workspaces/{id}` con aislamiento por userId | 2026-06-01 |
+| Los-5-Suyos/BrandRadar-Backend | feature/sprint3-luis | pending | `feat: workspace deactivation and monitoring rules` | Implementación de desactivación de `BrandWorkspace` con `WorkspaceDeactivated`, entidades `MonitoringRule` y `MonitoringChannel`, migraciones V3 y V4, endpoints CRUD con versionado y `MonitoringRuleUpdated` | 2026-06-02 |
+| Los-5-Suyos/BrandRadar-Backend | feature/sprint3-jean | pending | `feat: workspace authorization filter and exception handler` | Implementación de `WorkspaceAuthorizationFilter`, auditoría de accesos no autorizados, `GlobalExceptionHandler` con mapeo estandarizado de excepciones de dominio | 2026-06-03 |
+| Los-5-Suyos/BrandRadar-Backend | feature/sprint3-brianna | pending | `docs: openapi configuration and endpoint annotations` | Configuración de `OpenApiConfig` con SpringDoc, anotaciones `@Operation` y `@ApiResponse` en todos los controladores, esquema Bearer JWT en Swagger UI | 2026-06-03 |
+| Los-5-Suyos/BrandRadar-Backend | feature/sprint3-luis | pending | `test: unit and integration tests for all bounded contexts` | Pruebas JUnit 5 + Mockito para servicios de dominio y pruebas `@SpringBootTest` cubriendo flujo completo de autenticación, workspace y autorización contextual | 2026-06-04 |
+| Los-5-Suyos/BrandRadar-Backend | develop | pending | `merge: sprint 3 integration` | Integración completa del Web Service, validación de flujos de autenticación real, gestión de workspaces y autorización contextual con base de datos MySQL | 2026-06-04 |
+
+<br>
+
+## Testing Suite Evidence for Sprint Review
+
+Durante el Sprint 3 se implementaron pruebas unitarias y de integración para verificar el correcto funcionamiento de los endpoints y servicios de dominio del Web Service. Se utilizó **JUnit 5** con **Mockito** para pruebas unitarias de la capa de servicios, y **Spring Boot Test** con `@SpringBootTest` y `MockMvc` para pruebas de integración de los controladores.
+
+Las pruebas cubrieron los principales flujos de dominio del sprint, incluyendo registro y verificación de `UserAccount`, autenticación con JWT, recuperación de contraseña con invalidación de sesiones, gestión de `BrandWorkspace` y autorización contextual mediante `WorkspaceAuthorizationFilter`.
+
+<br>
+
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on (Date) |
+|:---|:---|:---|:---|:---|:---|
+| Los-5-Suyos/BrandRadar-Backend | feature/sprint3-luis | pending | `test(auth): unit tests for RegisterUserService and LoginService` | Pruebas unitarias con Mockito para registro con email duplicado, validación de contraseña segura, login con credenciales inválidas, bloqueo por intentos fallidos y generación de JWT | 2026-06-10 |
+| Los-5-Suyos/BrandRadar-Backend | feature/sprint3-luis | pending | `test(auth): unit tests for VerifyAccountService and ResetPasswordService` | Pruebas unitarias de transición de estados `UserAccount`, manejo de token expirado, protección de enumeración de cuentas en recuperación e invalidación de sesiones activas al resetear contraseña | 2026-06-14 |
+| Los-5-Suyos/BrandRadar-Backend | feature/sprint3-luis | pending | `test(workspace): unit tests for CreateWorkspaceService and MonitoringRuleService` | Pruebas unitarias de creación de `BrandWorkspace` con validación de límite por plan, versionado de `MonitoringRule`, emisión de `MonitoringRuleUpdated` y desactivación con conservación de historial | 2026-06-17 |
+| Los-5-Suyos/BrandRadar-Backend | feature/sprint3-luis | pending | `test(integration): SpringBootTest for full auth and workspace flow` | Pruebas de integración con MockMvc cubriendo: registro → verificación → login → crear workspace → configurar reglas → desactivar workspace → acceso no autorizado 403 con auditoría | 2026-06-16 |
 
 <br>
 
@@ -4166,17 +4301,231 @@ La colaboración se fortaleció mediante integraciones frecuentes hacia `develop
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
+Durante el Sprint 3 se implementó la primera versión funcional del Web Service de BrandRadar, reemplazando completamente la Fake API de `json-server` utilizada en el Sprint 2 con endpoints reales respaldados por persistencia en MySQL. El equipo desarrolló una arquitectura backend modular utilizando Spring Boot 3 con Java 21, incorporando autenticación JWT, autorización contextual por `BrandWorkspace`, migraciones de base de datos con Flyway y documentación interactiva con SpringDoc OpenAPI 3.0.
+
+El sprint permitió consolidar las bases funcionales del backend mediante la implementación de los bounded contexts de Identidad y Acceso Seguro y Configuración Estratégica de Marca, con manejo de Domain Events, versionado de reglas de monitoreo y auditoría de accesos no autorizados.
+
+El desarrollo se validó mediante:
+
+- **Autenticación real con JWT:** Registro de `UserAccount` con estado `PENDIENTE_VERIFICACIÓN`, login con generación de access y refresh token, verificación de correo con transición a estado `ACTIVA`, recuperación de contraseña con invalidación de sesiones activas y refresh de JWT con rotación de token.
+
+- **Autorización contextual:** Implementación de `WorkspaceAuthorizationFilter` que valida en cada request que el usuario autenticado es propietario del `BrandWorkspace` solicitado, registrando intentos no autorizados como eventos de auditoría.
+
+- **Gestión de BrandWorkspace:** Endpoints CRUD completos con aislamiento por `userId`, desactivación con conservación de historial y emisión de `WorkspaceDeactivated`.
+
+- **Configuración de MonitoringRule y MonitoringChannel:** Gestión de palabras clave con versionado de cambios, emisión de `MonitoringRuleUpdated` con diff de keywords y administración de canales de monitoreo por workspace.
+
+- **Infraestructura de producción:** Migraciones Flyway, manejo global de excepciones estandarizado, configuración de CORS para el frontend Angular y despliegue en Railway con MySQL provisionado.
+
+<br>
+
+A continuación se muestran las capturas de los endpoints documentados y verificados durante el Sprint 3:
+
+<br>
+
+**TS01 Evidence – Endpoint de Registro de UserAccount**
+<br>
+
+![Execution Evidence Sprint 3 - 1](brandradar-report/assets/sprints/sprint-3/sprint3-execution-1.png)
+
+<br>
+
+**TS02 Evidence – Endpoint de Login con JWT**
+<br>
+
+![Execution Evidence Sprint 3 - 2](brandradar-report/assets/sprints/sprint-3/sprint3-execution-2.png)
+
+<br>
+
+**TS03 Evidence – Endpoint de Verificación de Correo**
+<br>
+
+![Execution Evidence Sprint 3 - 3](brandradar-report/assets/sprints/sprint-3/sprint3-execution-3.png)
+
+<br>
+
+**TS04 Evidence – Flujo de Recuperación de Contraseña**
+<br>
+
+![Execution Evidence Sprint 3 - 4](brandradar-report/assets/sprints/sprint-3/sprint3-execution-4.png)
+
+<br>
+
+![Execution Evidence Sprint 3 - 5](brandradar-report/assets/sprints/sprint-3/sprint3-execution-5.png)
+
+<br>
+
+**TS05 Evidence – Endpoint de Refresh de JWT**
+<br>
+
+![Execution Evidence Sprint 3 - 6](brandradar-report/assets/sprints/sprint-3/sprint3-execution-6.png)
+
+<br>
+
+**TS06 Evidence – Endpoints de BrandWorkspace (Creación y Consulta)**
+<br>
+
+![Execution Evidence Sprint 3 - 7](brandradar-report/assets/sprints/sprint-3/sprint3-execution-7.png)
+
+<br>
+
+**TS07 Evidence – Endpoints de Actualización y Desactivación de BrandWorkspace**
+<br>
+
+![Execution Evidence Sprint 3 - 8](brandradar-report/assets/sprints/sprint-3/sprint3-execution-8.png)
+
+<br>
+
+**TS08 Evidence – Endpoints de MonitoringRule y MonitoringChannel**
+<br>
+
+![Execution Evidence Sprint 3 - 9](brandradar-report/assets/sprints/sprint-3/sprint3-execution-9.png)
+
+<br>
+
+![Execution Evidence Sprint 3 - 10](brandradar-report/assets/sprints/sprint-3/sprint3-execution-10.png)
+
+<br>
+
+**TS16 Evidence – WorkspaceAuthorizationFilter y Respuesta 403 con Auditoría**
+<br>
+
+![Execution Evidence Sprint 3 - 11](brandradar-report/assets/sprints/sprint-3/sprint3-execution-11.png)
+
+<br>
+
+**Swagger UI – Documentación completa de la API**
+<br>
+
+![Execution Evidence Sprint 3 - 12](brandradar-report/assets/sprints/sprint-3/sprint3-execution-12.png)
+
+<br>
+
+Asimismo, se elaboró un video demostrativo que muestra la ejecución de los endpoints implementados durante el Sprint 3, incluyendo autenticación real, gestión de workspaces, configuración de reglas de monitoreo y autorización contextual:
+
+[Ver video de ejecución Sprint 3](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202410239_upc_edu_pe/)
+
 <br>
 
 ---
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
+Durante el Sprint 3, el equipo implementó la primera versión real de los servicios de BrandRadar mediante un Web Service RESTful construido con Spring Boot 3. A diferencia del Sprint 2 donde se usó `json-server` como Fake API, en este sprint todos los endpoints fueron implementados con lógica de dominio real, persistencia en MySQL y autenticación con JWT, reemplazando completamente la infraestructura simulada anterior.
+
+La documentación de la API fue generada automáticamente utilizando **SpringDoc OpenAPI 3.0**, accesible de forma interactiva a través de Swagger UI en la ruta `/swagger-ui/index.html` del servicio desplegado. Todos los endpoints fueron anotados con `@Operation`, `@ApiResponse` y `@SecurityRequirement`, documentando contratos de request/response, códigos de error y esquema de autenticación Bearer JWT.
+
+Los endpoints implementados y documentados durante el sprint cubren los siguientes bounded contexts:
+
+**Identidad y Acceso Seguro:**
+- `POST /api/v1/auth/register`
+- `POST /api/v1/auth/login`
+- `GET /api/v1/auth/verify?token={token}`
+- `POST /api/v1/auth/forgot-password`
+- `POST /api/v1/auth/reset-password`
+- `POST /api/v1/auth/refresh`
+
+**Configuración Estratégica de Marca:**
+- `POST /api/v1/workspaces`
+- `GET /api/v1/workspaces`
+- `GET /api/v1/workspaces/{id}`
+- `PUT /api/v1/workspaces/{id}`
+- `DELETE /api/v1/workspaces/{id}`
+- `POST /api/v1/workspaces/{id}/rules`
+- `GET /api/v1/workspaces/{id}/rules`
+- `PUT /api/v1/workspaces/{id}/rules/{ruleId}`
+- `POST /api/v1/workspaces/{id}/channels`
+- `GET /api/v1/workspaces/{id}/channels`
+- `PUT /api/v1/workspaces/{id}/channels/{channelId}`
+
+<br>
+
+**Evidencias**
+
+A continuación se presentan capturas de la documentación Swagger UI y las pruebas de los endpoints realizadas durante el Sprint 3:
+
+![Services Documentation Sprint 3 - 1](brandradar-report/assets/sprints/sprint-3/sprint3-services-1.png)
+
+![Services Documentation Sprint 3 - 2](brandradar-report/assets/sprints/sprint-3/sprint3-services-2.png)
+
 <br>
 
 ---
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 3 se realizó el despliegue del Web Service de BrandRadar utilizando **Railway** como plataforma de hosting, integrada directamente con el repositorio oficial del proyecto en GitHub. El despliegue permitió validar en un entorno cloud accesible públicamente los endpoints de autenticación, gestión de `BrandWorkspace` y autorización contextual implementados durante el sprint, con una base de datos MySQL provisionada en el mismo entorno.
+
+<br>
+
+**Deployment Process:**
+
+1. Ingresar al repositorio del proyecto en GitHub y vincular el repositorio `BrandRadar-Backend` con un nuevo proyecto en Railway.
+2. Crear un servicio MySQL dentro del proyecto en Railway y obtener las credenciales de conexión generadas automáticamente.
+3. Configurar las variables de entorno en Railway con los valores correspondientes al entorno de producción:
+   - `DB_URL` — URL de conexión JDBC a la base de datos MySQL provisionada en Railway.
+   - `DB_USER` y `DB_PASS` — credenciales de acceso a la base de datos.
+   - `JWT_SECRET` — clave secreta para la firma y validación de tokens JWT (HS256).
+   - `JWT_EXPIRATION_MS` — tiempo de expiración del access token en milisegundos.
+   - `SPRING_PROFILES_ACTIVE=prod` — activa el perfil de producción con configuración de datasource por variables de entorno.
+4. Crear el archivo `application-prod.properties` con configuración de datasource apuntando a variables de entorno y Hibernate DDL en modo `update`.
+5. Habilitar el despliegue automático desde la rama `main` del repositorio en GitHub.
+6. Railway ejecuta automáticamente el build del proyecto con Maven (`mvn clean package`) y levanta el servicio en un contenedor.
+7. Verificar la ejecución correcta de las migraciones Flyway (V1–V4) en la base de datos MySQL de producción.
+8. Validar el correcto funcionamiento de los endpoints accediendo a la URL pública del servicio.
+9. Verificar la documentación interactiva de la API en Swagger UI (`/swagger-ui/index.html`).
+
+
+
+**URL del Web Service desplegado:** `https://brandradar-backend.up.railway.app`
+
+<br>
+
+**Documentación Swagger UI:** `https://brandradar-backend.up.railway.app/swagger-ui/index.html`
+
+<br>
+
+**Evidencias**
+
+A continuación se presentan capturas del proceso de despliegue y del resultado final del Web Service en Railway:
+
+<br>
+
+![Deployment Sprint 3 - 1](brandradar-report/assets/sprints/sprint-3/sprint3-deployment-1.png)
+
+![Deployment Sprint 3 - 2](brandradar-report/assets/sprints/sprint-3/sprint3-deployment-2.png)
+
+![Deployment Sprint 3 - 3](brandradar-report/assets/sprints/sprint-3/sprint3-deployment-3.png)
+
+![Deployment Sprint 3 - 4](brandradar-report/assets/sprints/sprint-3/sprint3-deployment-4.png)
+
+![Deployment Sprint 3 - 5](brandradar-report/assets/sprints/sprint-3/sprint3-deployment-5.png)
+
+<br>
+
+---
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 3, el equipo continuó utilizando GitFlow como estrategia principal de colaboración y control de versiones. Cada integrante desarrolló los endpoints y servicios correspondientes a su bounded context asignado en ramas `feature/`, permitiendo trabajar de manera paralela sobre autenticación, gestión de workspaces, reglas de monitoreo, autorización contextual y pruebas de integración sin afectar la estabilidad de la rama principal.
+
+La colaboración se fortaleció mediante integraciones frecuentes hacia `develop`, validando compatibilidad entre los servicios Spring Boot, las migraciones Flyway y los contratos de API definidos previamente con el equipo frontend, antes de consolidar el sprint completo.
+
+<br>
+
+## Métricas de colaboración:
+
+- **Commits:** Se registró actividad continua de los cinco integrantes durante todo el sprint, especialmente durante la implementación de los servicios de autenticación JWT y la integración del `WorkspaceAuthorizationFilter`.
+
+- **Trabajo modular por bounded context:** La arquitectura en capas (Controller → Service → Repository) organizada por bounded contexts permitió dividir responsabilidades sin generar conflictos de integración entre los miembros del equipo.
+
+- **Integración continua:** Las ramas `feature/` fueron fusionadas progresivamente en `develop`, permitiendo detectar errores de integración entre servicios y migraciones Flyway tempranamente, y validar el flujo completo del sistema antes del despliegue final.
+
+- **Colaboración técnica:** El equipo coordinó el uso del `JwtTokenProvider`, `WorkspaceAuthorizationFilter`, `GlobalExceptionHandler` y configuración de CORS como componentes compartidos para mantener consistencia arquitectónica en todo el Web Service.
+
+<br>
+
+![Team Collaboration Sprint 3](brandradar-report/assets/sprints/sprint-3/sprint3-collaboration.png)
 
 <br>
 
@@ -4185,6 +4534,56 @@ La colaboración se fortaleció mediante integraciones frecuentes hacia `develop
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de Entrevistas
+
+
+**Objetivo de las entrevistas**
+
+El objetivo de las entrevistas es obtener retroalimentación directa de los usuarios potenciales sobre la usabilidad, funcionalidad y diseño de la plataforma BrandRadar. Se busca identificar áreas de mejora, validar supuestos de diseño y comprender mejor las necesidades y expectativas de los usuarios en el contexto de la gestión y monitoreo de reputación de marca.
+
+### Landing Page
+
+La landing page de BrandRadar fue diseñada para captar la atención de los usuarios y proporcionar una visión clara de los beneficios y características de la plataforma. Se incluyeron secciones informativas sobre el producto, testimonios de usuarios, comparación de planes y llamados a la acción para incentivar a los visitantes a registrarse o solicitar más información.
+
+### Aplicación Web
+
+La aplicación web de BrandRadar fue desarrollada con un enfoque centrado en el usuario, priorizando la facilidad de navegación y la accesibilidad de las funciones clave. Se implementaron flujos intuitivos para la gestión de `BrandWorkspace`, monitoreo de menciones, análisis de sentimiento y gestión de incidentes reputacionales, asegurando que los usuarios puedan operar la plataforma de manera eficiente dentro del contexto de cada cliente.
+
+### Preguntas Landing Page
+
+- ¿Qué tan claro te resultó entender qué es BrandRadar y qué problema reputacional resuelve?
+- ¿El diseño, colores e imágenes te transmitieron confianza y profesionalismo para una herramienta de gestión de reputación?
+- ¿Encontraste fácilmente la información que buscabas (funcionalidades, planes, contacto)?
+- ¿Los botones o llamados a la acción te motivaron a registrarte o solicitar más información?
+- ¿Qué mejorarías para que la página sea más atractiva o clara para nuevos usuarios de agencias o PyMEs?
+
+## User flows a evaluar — Preguntas de la entrevista
+
+**Registro y onboarding inicial**
+- ¿El proceso de registro te resultó claro y sencillo de completar?
+- ¿Comprendiste el propósito de la verificación de correo para activar tu cuenta?
+- ¿Qué mejorarías para que el onboarding sea más rápido o intuitivo?
+
+**Configuración de BrandWorkspace**
+- ¿Fue fácil crear y configurar un `BrandWorkspace` para una marca?
+- ¿La configuración de palabras clave y fuentes de monitoreo refleja bien tu flujo de trabajo real?
+- ¿Qué función agregarías o cambiarías para gestionar mejor los workspaces de tus clientes?
+
+**Monitoreo de menciones y MentionStream**
+- ¿Comprendiste fácilmente cómo funciona el listado de menciones y sus filtros?
+- ¿Los filtros por sentimiento, fuente y fecha te resultaron útiles para identificar riesgos reputacionales?
+- ¿Faltó algún tipo de dato o indicador que consideres importante en el flujo de menciones?
+
+**Gestión de incidentes reputacionales**
+- ¿Fue intuitivo identificar y gestionar un `ReputationIncident` desde el sistema?
+- ¿Pudiste entender claramente cómo registrar una respuesta y hacer seguimiento al estado de un incidente?
+
+**Dashboard reputacional**
+- ¿Los indicadores del dashboard (SentimentScore, tendencias, menciones recientes) te resultaron claros y útiles para la toma de decisiones?
+- ¿Qué información adicional agregarías al dashboard para mejorar tu operación diaria?
+
+**Control de acceso y confidencialidad**
+- ¿Sentiste confianza en que el sistema aísla correctamente la información entre distintos clientes?
+- ¿La pantalla de acceso no autorizado (403) te comunicó claramente lo que ocurrió?
 
 <br>
 
@@ -4205,7 +4604,20 @@ La colaboración se fortaleció mediante integraciones frecuentes hacia `develop
 
 ## 5.4. Video About-the-Product
 
-<br>
+El video About-the-Product de BrandRadar presenta una visión general del producto, sus principales funcionalidades y la propuesta de valor para agencias digitales y PyMEs que necesitan gestionar la reputación de sus marcas de manera profesional y segura.
+
+El video cubre los siguientes aspectos:
+
+- Presentación del problema reputacional que resuelve BrandRadar.
+- Demostración del flujo de onboarding: registro, verificación y configuración del primer `BrandWorkspace`.
+- Visualización del `MentionStream` y los filtros de sentimiento disponibles.
+- Demostración de la detección y gestión de `ReputationIncident`.
+- Presentación del dashboard reputacional con `SentimentScore` y tendencias.
+- Comunicación del modelo de aislamiento de información entre clientes por `BrandWorkspace`.
+
+[Ver Video About-the-Product de BrandRadar](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202410239_upc_edu_pe/IgCXUNHowWBSS6nlY18dFs7JAeyh7OpXMiejy2ojPa0Wnl4?e=BrqmCa)
+
+<br> 
 
 ---
 
@@ -4252,6 +4664,9 @@ La colaboración se fortaleció mediante integraciones frecuentes hacia `develop
 
 ## Video About-The-Team
 
+![Video About the team](brandradar-report/assets/sprints/sprint-3/sprint3-collaboration.png)
+
+[Ver Video About-the-Team de BrandRadar](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202410239_upc_edu_pe/IgCXUNHowWBSS6nlY18dFs7JAeyh7OpXMiejy2ojPa0Wnl4?e=BrqmCa)
 
 <br>
 
