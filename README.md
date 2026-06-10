@@ -4540,15 +4540,15 @@ La colaboración se fortaleció mediante integraciones frecuentes hacia `develop
 
 El objetivo de las entrevistas es obtener retroalimentación directa de los usuarios potenciales sobre la usabilidad, funcionalidad y diseño de la plataforma BrandRadar. Se busca identificar áreas de mejora, validar supuestos de diseño y comprender mejor las necesidades y expectativas de los usuarios en el contexto de la gestión y monitoreo de reputación de marca.
 
-### Landing Page
+ <br>
+
+## Landing Page
 
 La landing page de BrandRadar fue diseñada para captar la atención de los usuarios y proporcionar una visión clara de los beneficios y características de la plataforma. Se incluyeron secciones informativas sobre el producto, testimonios de usuarios, comparación de planes y llamados a la acción para incentivar a los visitantes a registrarse o solicitar más información.
 
-### Aplicación Web
+ <br>
 
-La aplicación web de BrandRadar fue desarrollada con un enfoque centrado en el usuario, priorizando la facilidad de navegación y la accesibilidad de las funciones clave. Se implementaron flujos intuitivos para la gestión de `BrandWorkspace`, monitoreo de menciones, análisis de sentimiento y gestión de incidentes reputacionales, asegurando que los usuarios puedan operar la plataforma de manera eficiente dentro del contexto de cada cliente.
-
-### Preguntas Landing Page
+#### Preguntas Landing Page 
 
 - ¿Qué tan claro te resultó entender qué es BrandRadar y qué problema reputacional resuelve?
 - ¿El diseño, colores e imágenes te transmitieron confianza y profesionalismo para una herramienta de gestión de reputación?
@@ -4556,7 +4556,15 @@ La aplicación web de BrandRadar fue desarrollada con un enfoque centrado en el 
 - ¿Los botones o llamados a la acción te motivaron a registrarte o solicitar más información?
 - ¿Qué mejorarías para que la página sea más atractiva o clara para nuevos usuarios de agencias o PyMEs?
 
-## User flows a evaluar — Preguntas de la entrevista
+ <br>
+
+## Aplicación Web
+
+La aplicación web de BrandRadar fue desarrollada con un enfoque centrado en el usuario, priorizando la facilidad de navegación y la accesibilidad de las funciones clave. Se implementaron flujos intuitivos para la gestión de `BrandWorkspace`, monitoreo de menciones, análisis de sentimiento y gestión de incidentes reputacionales, asegurando que los usuarios puedan operar la plataforma de manera eficiente dentro del contexto de cada cliente.
+
+ <br>
+
+### User flows a evaluar — Preguntas de la entrevista
 
 **Registro y onboarding inicial**
 - ¿El proceso de registro te resultó claro y sencillo de completar?
@@ -4591,7 +4599,29 @@ La aplicación web de BrandRadar fue desarrollada con un enfoque centrado en el 
 
 ### 5.3.2. Registro de Entrevistas
 
+#### Entrevista 1
+
+*Imagen de la entrevista*
+
+<img src="brandradar-report/assets/interviews/ss_entrevista.png" alt=" Entrevista de Validacion" width="700"/>
+
 <br>
+
+<br>
+
+| Campo | Detalle |
+|:------|:--------|
+| **Nombres y apellidos** | `-` |
+| **Edad** | `- años` |
+| **Ubicación** | `-` |
+| **Fecha de entrevista** | `-` |
+| **Duración** | `-` |
+| **Enlace al video** | [Ver entrevista en Microsoft Stream](https:// ) |
+
+**Resumen:**
+
+</div>
+<br>             
 
 ---
 
