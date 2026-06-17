@@ -4392,7 +4392,7 @@ A continuación se muestran las capturas de los endpoints documentados y verific
 
 Asimismo, se elaboró un video demostrativo que muestra la ejecución de los endpoints implementados durante el Sprint 3, incluyendo autenticación real, gestión de workspaces, configuración de reglas de monitoreo y autorización contextual:
 
-[Ver video de ejecución Sprint 3](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202410239_upc_edu_pe/)
+[Ver video de ejecución Sprint 3](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202410239_upc_edu_pe/IgDuxALj7NotT5N-1a2NGXroAbRCjW7aNnbe3X4SdRMPVsY?e=OysDJ2)
 
 <br>
 
@@ -4634,7 +4634,7 @@ El video cubre los siguientes aspectos:
 - Presentación del dashboard reputacional con `SentimentScore` y tendencias.
 - Comunicación del modelo de aislamiento de información entre clientes por `BrandWorkspace`.
 
-[Ver Video About-the-Product de BrandRadar](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202410239_upc_edu_pe/IgCXUNHowWBSS6nlY18dFs7JAeyh7OpXMiejy2ojPa0Wnl4?e=BrqmCa)
+[Ver Video About-the-Product de BrandRadar](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202410239_upc_edu_pe/IgCY33XTNcmZQZI3KLIUXU6yATnu9ITeb3ZMtEUUqnQmvvA?e=INFJYg)
 
 <br> 
 
@@ -4683,9 +4683,7 @@ El video cubre los siguientes aspectos:
 
 ## Video About-The-Team
 
-![Video About the team](brandradar-report/assets/sprints/sprint-3/sprint3-collaboration.png)
-
-[Ver Video About-the-Team de BrandRadar](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202410239_upc_edu_pe/IgCXUNHowWBSS6nlY18dFs7JAeyh7OpXMiejy2ojPa0Wnl4?e=BrqmCa)
+[Ver Video About-the-Team de BrandRadar](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202410239_upc_edu_pe/IgCc_c1lhu_oQIJEGp52VZ36AbvOqnpE-PZE35QzLRyr400?e=QcYeYG)
 
 <br>
 
@@ -4732,7 +4730,6 @@ En este documento se incluyen los criterios de evaluación, evidencias de trabaj
 |:-------:|:------:|:------:|
 | AV1 | `upc-pre-202610-1asi0729-[11863]-[brandradar]-expo-av1` | [URL Microsoft Stream](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202410239_upc_edu_pe/IgBV-ACEG37lQ466daCivegHARBFGxWIBXchDZGj6xfsMAY?e=Y3HNmH) |
 | TB1 | `upc-pre-202610-1asi0729-[11863]-[brandradar]-expo-tb1` | [URL Microsoft Stream](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202410239_upc_edu_pe/IgCUwFHqhNzvSLnvprF7sOxmAcitk8v93xpRomtd_CLgQTw?e=kcPhrd) |
-| AV2| `upc-pre-202610-1asi0729-[11863]-[brandradar]-expo-av2` | [URL Microsoft Stream](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202410239_upc_edu_pe/IgCUwFHqhNzvSLnvprF7sOxmAcitk8v93xpRomtd_CLgQTw?e=kcPhrd) |
 
 <br>
 
