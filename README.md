@@ -4839,18 +4839,18 @@ El video cubre los siguientes aspectos:
 ## Conclusiones
 
 
-1. 
+1. La adopción de Domain-Driven Design como base arquitectónica del proyecto permitió delimitar con claridad los bounded contexts del sistema (Identidad y Acceso Seguro, Configuración Estratégica de Marca, Motor de Reputación en Tiempo Real), lo que facilitó la distribución del trabajo entre los integrantes del equipo sin generar conflictos de integración. Esta separación de responsabilidades demostró ser un factor determinante para mantener la coherencia técnica del sistema a medida que el proyecto escaló de un prototipo frontend hacia un Web Service real con persistencia en MySQL.
 
-2. 
+2. El uso de una Fake API basada en json-server durante el Sprint 2 como contrato provisional entre el frontend Angular y el backend en desarrollo resultó ser una estrategia efectiva para desacoplar el trabajo paralelo de ambas capas. Sin embargo, la experiencia confirmó que los contratos de API deben formalizarse desde el inicio del sprint mediante especificaciones OpenAPI, ya que las discrepancias entre la Fake API y los endpoints reales del Sprint 3 generaron trabajo adicional de adaptación durante la integración.
 
-3. 
+3. La implementación del Web Service con Spring Boot 3 y Java 21 durante el Sprint 3 demostró que una arquitectura en capas orientada a DDD (Controller → Service → Repository), combinada con migraciones de base de datos gestionadas con Flyway, permite incorporar nuevos bounded contexts de manera incremental sin afectar la estabilidad de los módulos ya desplegados. Los 47 story points comprometidos fueron completados dentro del plazo, validando la viabilidad del stack tecnológico elegido para el contexto del proyecto.
 
-4. 
+4. La integración de la Groq API con el modelo llama-3.3-70b-versatile para el Crisis Response Engine evidenció que es posible incorporar capacidades de inteligencia artificial generativa en sistemas de producción sin incurrir en costos adicionales significativos, aprovechando modelos open-weight de alto rendimiento disponibles de forma gratuita. Esta decisión técnica permitió agregar valor diferencial al dashboard de BrandRadar sin comprometer los plazos del sprint ni aumentar la complejidad de la infraestructura de despliegue.
 
-5. 
+5. El diseño e implementación del WorkspaceAuthorizationFilter como mecanismo centralizado de autorización contextual a nivel de middleware demostró ser más robusto y escalable que una validación de ownership distribuida en cada endpoint. Al interceptar todas las solicitudes que incluyen un workspaceId en el path y validar la pertenencia antes de que lleguen al controlador, se garantizó el aislamiento de información entre clientes de forma sistemática, reduciendo el riesgo de filtraciones por omisión en endpoints futuros.
 
-6. 
- 
+6. A lo largo del proyecto, la comunicación efectiva —tanto oral durante las reuniones de sincronización y exposiciones de sprint, como escrita a través de la documentación técnica, los contratos de API en Swagger y los mensajes de commit estructurados— fue un factor crítico para mantener la alineación del equipo sobre las decisiones arquitectónicas. La experiencia confirmó que en proyectos con desarrollo distribuido por bounded contexts, la calidad de la comunicación técnica escrita impacta directamente en la velocidad de integración y en la capacidad de detectar inconsistencias antes del despliegue.
+
 
 <br>
 
@@ -4858,19 +4858,19 @@ El video cubre los siguientes aspectos:
 
 ## Recomendaciones
 
-1. 
+1. Para futuros sprints, se recomienda definir los contratos de API mediante especificaciones OpenAPI completas antes de iniciar cualquier desarrollo de frontend o backend, eliminando la dependencia de una Fake API como mecanismo de sincronización. Establecer este contrato como fuente de verdad compartida desde el inicio del sprint reduciría el trabajo de adaptación durante la integración y permitiría detectar inconsistencias en el diseño de los endpoints antes de que sean costosas de corregir.
 
-2. 
+2. Se recomienda implementar un pipeline de integración continua con GitHub Actions que ejecute automáticamente las pruebas unitarias y de integración al hacer push a las ramas feature/ y al abrir pull requests hacia develop. Esto permitiría detectar regresiones entre bounded contexts de forma temprana, sin depender exclusivamente de la revisión manual durante los sprint reviews.
 
-3. 
+3. A fin de avanzar hacia un producto con datos reales, se recomienda reemplazar el MockMentionProvider por un conector a al menos una fuente de datos externa (por ejemplo, la API de Google News o el RSS de medios digitales locales), de modo que el Motor de Reputación procese menciones reales en lugar de distribuciones simuladas. Esta transición permitiría validar con mayor precisión la utilidad del SentimentScore y la detección automática de incidentes en condiciones de uso real.
 
-4. 
+4. Se recomienda incorporar paginación y filtrado por cursor en los endpoints de MentionStream y del Dashboard para garantizar que el tiempo de respuesta se mantenga dentro de límites aceptables a medida que el volumen de menciones por workspace crezca. Sin esta optimización, workspaces con alta actividad podrían experimentar degradaciones de rendimiento que afectarían la experiencia del usuario en producción.
 
-5. 
+5. Para ampliar el alcance del producto hacia el Segmento 2 (especialistas de marketing que gestionan múltiples clientes), se recomienda diseñar e implementar un modelo de roles dentro del BrandWorkspace (propietario, colaborador, observador) que permita que varios miembros de un equipo accedan al mismo espacio con diferentes niveles de permiso. Esta funcionalidad transformaría BrandRadar de una herramienta individual a una plataforma colaborativa, aumentando significativamente su propuesta de valor para agencias digitales.
 
-6. 
+6. Se recomienda mantener el Ubiquitous Language (Sección 2.5) como un documento vivo vinculado directamente desde el repositorio del proyecto, actualizado a medida que evolucionen los bounded contexts. En el estado actual, los términos del dominio están documentados en el informe pero no están referenciados desde el código fuente, lo que genera una brecha entre la documentación y la implementación que se acentúa a medida que el equipo incorpora nuevos integrantes o retoma el proyecto después de un período de inactividad.
 
-7. 
+7. Para fortalecer el capítulo de validación del informe final (TB2), se recomienda complementar la metodología Think-Aloud de las entrevistas de validación con métricas cuantitativas de usabilidad, como la tasa de completitud de tareas y el tiempo por tarea. La combinación de evidencia cualitativa (percepciones y verbalizaciones del entrevistado) con evidencia cuantitativa (datos medibles de comportamiento) permitirá construir argumentos más sólidos sobre la usabilidad y el valor percibido de BrandRadar ante los evaluadores del curso.
 
 
 <br>
