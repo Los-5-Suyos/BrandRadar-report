@@ -192,15 +192,6 @@ A continuación, se presenta el gráfico de red (network graph) del repositorio 
 <img src="brandradar-report/assets/network-repo/tb1/network2.png" alt="Gráfico de red TB1" width="900"/>
 </div>
 
-<br>
-
-A continuación, se muestran los gráficos con el análisis de los commits realizados en el repositorio en la entrega TB1. Estos reflejan tanto la cantidad de líneas de código añadidas por cada integrante del equipo como la actividad de commits registrada.
-
-<br>
-
-<div align="center">
-<img src="brandradar-report/assets/network-repo/tb1/commits.png" alt="Commits realizados TB1" width="900"/>
-</div>
 
 <br>
 
@@ -316,7 +307,6 @@ A continuación, se muestran los gráficos con el análisis de los commits reali
 
   #### [Conclusiones](#conclusiones-1)
   
-  #### [Recomendaciones](#recomendaciones-1)
 
   #### [Video About-the-Team](#video-about-the-team-1)
   
@@ -4210,39 +4200,39 @@ Como resultado del Sprint Planning, el equipo estableció un conjunto claro de t
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Sprint 3** | **User Story** | | **Work-Item / Task** | | | | **Asignado a** | **Status** |
 | **ID** | **Título** | **SP** | **ID** | **Título** | **Descripción** | **Estimación** | **Asignado a** | |
-| **TS01** | Endpoint de registro: crea `UserAccount` en `PENDIENTE_VERIFICACIÓN` y emite `AccountRegistered` | 5 | T-01 | Configuración inicial del proyecto Spring Boot con arquitectura por bounded context | Crear proyecto con Spring Initializr. Configurar dependencias: Spring Web, Spring Data JPA, Spring Security, MySQL Driver, Lombok, SpringDoc OpenAPI, Flyway. Definir estructura de paquetes por bounded context: `identity`, `workspace`, `shared`. Configurar `application.properties` base y perfil `prod`. | 3h | Brianna | To Do |
-| **TS01** | Endpoint de registro: crea `UserAccount` en `PENDIENTE_VERIFICACIÓN` y emite `AccountRegistered` | | T-02 | Entidad `UserAccount` con estados `PENDIENTE_VERIFICACIÓN` / `ACTIVA` / `BLOQUEADA` y migración Flyway | Definir entidad JPA `UserAccount` con campos: id, email, passwordHash, estado (`AccountStatus` enum), fechaRegistro, tokenVerificacion, tokenExpiracion. Crear migración Flyway `V1__create_user_accounts.sql`. Implementar `UserAccountRepository`. | 3h | Brianna | To Do |
-| **TS01** | Endpoint de registro: crea `UserAccount` en `PENDIENTE_VERIFICACIÓN` y emite `AccountRegistered` | | T-03 | Endpoint `POST /api/v1/auth/register` — crea `UserAccount` y emite `AccountRegistered` | Implementar `AuthController`, `RegisterUserService` y `UserAccountRepository`. Valida email único, hashea contraseña con BCrypt, crea `UserAccount` en estado `PENDIENTE_VERIFICACIÓN`, genera token de verificación, publica Domain Event `AccountRegistered`. Retorna 201 con mensaje de confirmación. | 4h | Brianna | To Do |
-| **TS02** | Endpoint de login: valida credenciales, emite JWT y bloquea por intentos fallidos | 5 | T-04 | Endpoint `POST /api/v1/auth/login` — valida credenciales, emite JWT y registra intentos fallidos | Implementar `LoginService` con validación de credenciales contra `UserAccount`. Bloqueo automático tras 5 intentos fallidos transitando estado a `BLOQUEADA`. Solo permite login a cuentas `ACTIVAS`. Genera JWT firmado con `JwtTokenProvider`. Retorna access token y refresh token. | 4h | Jean Franco | To Do |
-| **TS02** | Endpoint de login: valida credenciales, emite JWT y bloquea por intentos fallidos | | T-05 | `JwtTokenProvider` y `SecurityConfig` con filtro de autenticación stateless | Implementar `JwtTokenProvider` con generación, firma (HS256) y validación de JWT. Configurar `SecurityConfig` con `JwtAuthenticationFilter` que extrae y valida el token en cada request. Rutas públicas: `/api/v1/auth/**`. Resto requiere autenticación. | 4h | Jean Franco | To Do |
-| **TS03** | Endpoint de verificación de correo: transiciona `UserAccount` a `ACTIVA` y emite `AccountActivated` | 3 | T-06 | Endpoint `GET /api/v1/auth/verify?token={token}` — transiciona cuenta a `ACTIVA` y emite `AccountActivated` | Implementar `VerifyAccountService`. Valida token de verificación no expirado. Transiciona `UserAccount` de `PENDIENTE_VERIFICACIÓN` a `ACTIVA`. Publica Domain Event `AccountActivated`. Maneja casos: token expirado (retorna 410), token ya usado (retorna 409), token inválido (retorna 400). | 3h | Jean Franco | To Do |
-| **TS04** | Endpoint de recuperación de contraseña con eventos `PasswordRecoveryRequested` y `PasswordReset` | 5 | T-07 | Endpoint `POST /api/v1/auth/forgot-password` — emite `PasswordRecoveryRequested` con respuesta genérica | Implementar `ForgotPasswordService`. Genera token de recuperación con expiración de 15 minutos. Publica `PasswordRecoveryRequested`. Respuesta siempre 200 independientemente de si el email existe, protegiendo enumeración de cuentas. Persiste token en `UserAccount`. | 3h | Joaquin | To Do |
-| **TS04** | Endpoint de recuperación de contraseña con eventos `PasswordRecoveryRequested` y `PasswordReset` | | T-08 | Endpoint `POST /api/v1/auth/reset-password` — completa `PasswordReset` e invalida sesiones activas | Implementar `ResetPasswordService`. Valida token de recuperación no expirado. Hashea y persiste nueva contraseña. Invalida todos los refresh tokens activos del usuario (campo `sessionVersion` incrementado). Publica Domain Event `PasswordReset`. Retorna 200 en éxito. | 3h | Joaquin | To Do |
-| **TS05** | Endpoint de refresh de JWT para mantener sesión activa sin reautenticación | 5 | T-09 | Endpoint `POST /api/v1/auth/refresh` — renueva access token validando refresh token y `sessionVersion` | Implementar `RefreshTokenService`. Valida refresh token firmado y `sessionVersion` del `UserAccount` para detectar invalidación por `PasswordReset`. Genera nuevo access token con claims actualizados. Rota el refresh token (invalidando el anterior). Retorna nuevo par de tokens. | 4h | Joaquin | To Do |
-| **TS06** | Endpoints de creación y consulta de `BrandWorkspace` con estado operacional | 5 | T-10 | Entidad `BrandWorkspace` con estados `ACTIVO` / `INACTIVO` y migración Flyway | Definir entidad JPA `BrandWorkspace`: id, nombre, descripcion, estado (`WorkspaceStatus` enum), userId (FK a `UserAccount`), fechaCreacion, fechaUltimaModificacion. Crear migración `V2__create_brand_workspaces.sql`. Implementar `BrandWorkspaceRepository` con consulta por usuario. | 3h | Victor | To Do |
-| **TS06** | Endpoints de creación y consulta de `BrandWorkspace` con estado operacional | | T-11 | Endpoint `POST /api/v1/workspaces` — crea `BrandWorkspace` asignado al usuario autenticado | Implementar `CreateWorkspaceService`. Valida que el usuario autenticado no supere el límite de workspaces por plan. Crea `BrandWorkspace` en estado `ACTIVO` asociado al `userId` del JWT. Retorna 201 con representación completa del workspace creado. | 3h | Victor | To Do |
-| **TS06** | Endpoints de creación y consulta de `BrandWorkspace` con estado operacional | | T-12 | Endpoint `GET /api/v1/workspaces` y `GET /api/v1/workspaces/{id}` — consulta workspaces del usuario autenticado | Implementar endpoints de listado y detalle. `GET /workspaces` retorna solo los workspaces del usuario autenticado (aislamiento por userId). `GET /workspaces/{id}` valida ownership antes de retornar; 403 si el workspace pertenece a otro usuario. | 3h | Victor | To Do |
-| **TS07** | Endpoints de edición y desactivación de `BrandWorkspace` con emisión de `WorkspaceDeactivated` | 3 | T-13 | Endpoint `PUT /api/v1/workspaces/{id}` — actualiza configuración del `BrandWorkspace` con trazabilidad | Implementar `UpdateWorkspaceService`. Valida ownership del workspace. Actualiza campos permitidos (nombre, descripcion). Registra timestamp de modificación. Solo permite actualizar workspaces en estado `ACTIVO`. Retorna 200 con workspace actualizado. | 3h | Victor | To Do |
-| **TS07** | Endpoints de edición y desactivación de `BrandWorkspace` con emisión de `WorkspaceDeactivated` | | T-14 | Endpoint `DELETE /api/v1/workspaces/{id}` — desactiva `BrandWorkspace` conservando historial y emitiendo `WorkspaceDeactivated` | Implementar `DeactivateWorkspaceService`. Transiciona estado a `INACTIVO` (soft delete, no eliminación física). Publica Domain Event `WorkspaceDeactivated`. Conserva toda la historia de incidentes y menciones asociadas al workspace. Valida ownership antes de desactivar. | 3h | Victor | To Do |
-| **TS08** | Endpoints de `MonitoringRule` y `MonitoringChannel` con versionado y `MonitoringRuleUpdated` | 8 | T-15 | Entidades `MonitoringRule` y `MonitoringChannel` con versionado y migración Flyway | Definir entidad JPA `MonitoringRule`: id, workspaceId, keywords (lista), version, fechaCreacion. Definir `MonitoringChannel`: id, workspaceId, channelType (`ChannelType` enum: TWITTER, INSTAGRAM, NEWS, WEB), activo. Crear migraciones `V3__create_monitoring_rules.sql` y `V4__create_monitoring_channels.sql`. | 3h | Brianna | To Do |
-| **TS08** | Endpoints de `MonitoringRule` y `MonitoringChannel` con versionado y `MonitoringRuleUpdated` | | T-16 | Endpoints CRUD `POST/GET/PUT /api/v1/workspaces/{id}/rules` — gestión de `MonitoringRule` con `MonitoringRuleUpdated` | Implementar `MonitoringRuleController` y `MonitoringRuleService`. `POST` crea regla con keywords iniciales (versión 1). `PUT` incrementa versión y publica Domain Event `MonitoringRuleUpdated` con diff de keywords (keywords añadidas y eliminadas). `GET` retorna regla vigente con historial de versiones. | 4h | Brianna | To Do |
-| **TS08** | Endpoints de `MonitoringRule` y `MonitoringChannel` con versionado y `MonitoringRuleUpdated` | | T-17 | Endpoints CRUD `POST/GET/PUT /api/v1/workspaces/{id}/channels` — gestión de `MonitoringChannel` | Implementar `MonitoringChannelController` y `MonitoringChannelService`. `POST` conecta nuevo canal al workspace validando tipo soportado. `PUT` activa/desactiva canal. `GET` lista canales conectados con estado. Valida ownership del workspace en cada operación. | 3h | Brianna | To Do |
-| **TS16** | Middleware de autorización contextual por `BrandWorkspace` con auditoría de accesos no autorizados | 5 | T-18 | `WorkspaceAuthorizationFilter` — valida ownership por `BrandWorkspace` en cada request y registra accesos no autorizados | Implementar `WorkspaceAuthorizationFilter` como `OncePerRequestFilter`. Para rutas que incluyen `workspaceId` en el path, valida que el usuario autenticado (extraído del JWT) sea propietario del workspace solicitado. Intento no autorizado → 403 + registro de evento de auditoría en tabla `workspace_access_audit`. | 4h | Jean Franco | To Do |
-| — | — | — | T-19 | `GlobalExceptionHandler` con `@ControllerAdvice` y manejo de errores de dominio estandarizado | Implementar `GlobalExceptionHandler` con `@ControllerAdvice`. Mapear excepciones de dominio a respuestas HTTP: `DomainValidationException` → 400, `UnauthorizedWorkspaceAccessException` → 403, `ResourceNotFoundException` → 404, `TokenExpiredException` → 410. Formato de error estandarizado con `timestamp`, `code`, `message`. | 3h | Jean Franco | To Do |
-| — | — | — | T-20 | Configuración de SpringDoc OpenAPI 3.0 y documentación de todos los endpoints del sprint | Configurar `OpenApiConfig` con metadatos del proyecto (título, versión, descripción). Agregar anotaciones `@Operation`, `@ApiResponse` y `@SecurityRequirement` a todos los controladores. Definir esquema de Bearer JWT en Swagger UI. Verificar documentación completa en `/swagger-ui/index.html`. | 2h | Brianna | To Do |
-| — | — | — | T-21 | Configuración de CORS, Flyway y despliegue en Railway con MySQL provisionado | Configurar `CorsConfig` permitiendo origen del frontend desplegado en Netlify. Verificar ejecución correcta de migraciones Flyway en entorno de producción. Configurar variables de entorno en Railway: `DB_URL`, `DB_USER`, `DB_PASS`, `JWT_SECRET`, `JWT_EXPIRATION_MS`, `GROQ_API_KEY`. Validar URL pública del servicio desplegado. | 3h | Joaquin | To Do |
-| — | — | — | T-22 | QA: pruebas unitarias con JUnit 5 + Mockito y pruebas de integración con `@SpringBootTest` | Pruebas unitarias de servicios de dominio: `RegisterUserService`, `LoginService`, `VerifyAccountService`, `ResetPasswordService`, `CreateWorkspaceService`, `MonitoringRuleService`. Pruebas de integración cubriendo flujo completo: registro → verificación → login → crear workspace → configurar reglas → desactivar workspace → acceso no autorizado 403. | 5h | Jean Franco | To Do |
-| **TS09** | Ingesta y almacenamiento de menciones con score de sentimiento por mención | 5 | T-23 | Entidad `Mention` + migración Flyway V5 | Definir entidad JPA `Mention` con campos: id, workspaceId, source (`SourceType` enum: FACEBOOK/TWITTER/TIKTOK/REDDIT/NEWS/YOUTUBE), authorName, authorFollowers, content, url, sentimentScore (DECIMAL 0.000–1.000), sentimentLabel (`SentimentLabel` enum: NEG/NEU/POS), publishedAt, createdAt, isActive. Crear migración `V5__create_mentions.sql` con índices en (workspaceId, publishedAt) y (workspaceId, sentimentLabel, publishedAt). Implementar `MentionRepository` con queries por workspaceId, rango de fechas, label y top 50 por sentimentScore ascendente. | 3h | Victor | To Do |
-| **TS09** | Ingesta y almacenamiento de menciones con score de sentimiento por mención | | T-24 | Entidad `DailyMetricSnapshot` + migración Flyway V6 | Definir entidad JPA `DailyMetricSnapshot` con campos: id, workspaceId, snapshotDate, sentimentScore (INT 0–100), sentimentScoreLabel (`SentimentScoreLabel` enum: ROJO/AMBER/VERDE), totalMentions, negativeCount, neutralCount, positiveCount, negativePercent, neutralPercent, positivePercent, variationVsYesterday, topSource, topSourceSentimentIndex (`SentimentIndex` enum: ALTO/MEDIO/BAJO), calculatedAt. Crear migración `V6__create_daily_metric_snapshots.sql` con constraint UNIQUE (workspaceId, snapshotDate). Implementar `DailyMetricSnapshotRepository` con queries por workspace y rango de fechas. | 3h | Victor | To Do |
-| **TS09** | Ingesta y almacenamiento de menciones con score de sentimiento por mención | | T-25 | `MockMentionProvider` — genera menciones realistas con distribución 32% NEG / 48% NEU / 20% POS | Definir interface `MentionProvider` con método `fetchMentions(workspaceId, since)`. Implementar `MockMentionProvider` que genera entre 8 y 20 menciones por llamada usando distribución acumulada: NEG si roll < 0.32 con sentimentScore [0.05–0.39], NEU si roll < 0.80 con score [0.40–0.64], POS con score [0.65–0.98]. Distribución de fuentes: FACEBOOK 40%, TWITTER 25%, TIKTOK 20%, REDDIT 15%. Pool de contenidos con keywords "delivery", "demora", "papas frías", "tiempo de espera". Implementar `MentionIngestionService.ingest(workspaceId, since)` que invoca el provider y persiste en `MentionRepository`. | 4h | Jean Franco | To Do |
-| **TS10** | Cálculo del `SentimentScore` agregado con pesos por fuente | 5 | T-26 | `SentimentScoreCalculator` — agrega menciones con pesos por fuente y retorna score 0–100 con label | Implementar `SentimentScoreCalculator` con fórmula: `score = round(Σ(sentimentScore × sourcePeso) / Σ(sourcePeso) × 100)`. Pesos: NEWS=1.5, FACEBOOK=1.3, TWITTER=1.2, YOUTUBE=1.1, TIKTOK=1.0, REDDIT=0.9. Retorna record `SentimentScoreResult(int score, SentimentScoreLabel label)`. Label: ROJO si score < 40, AMBER si 40–69, VERDE si ≥ 70. Caso borde: lista vacía retorna score=0 y label=ROJO. Tests unitarios obligatorios: 0 menciones → ROJO, todas NEG → score < 20, distribución 32/48/20 → score entre 55–67 y label AMBER. | 3h | Jean Franco | To Do |
-| **TS10** | Cálculo del `SentimentScore` agregado con pesos por fuente | | T-27 | `DailyMetricsService` — calcula y persiste `DailyMetricSnapshot` del día para un workspace | Implementar `DailyMetricsService.calculateAndPersist(workspaceId, date)`. Recupera menciones del día con publishedAt entre [date 00:00, date 23:59]. Calcula totalMentions, conteos y porcentajes NEG/NEU/POS. Invoca `SentimentScoreCalculator`. Calcula variationVsYesterday comparando con snapshot de D-1 (null si no existe). Detecta topSource agrupando menciones por source y tomando el de mayor conteo. Calcula SentimentIndex del topSource: ALTO si promedio de sentimentScore ≥ 0.65, MEDIO si ≥ 0.40, BAJO si < 0.40. Hace upsert en `DailyMetricSnapshotRepository` (actualiza si ya existe el registro del día). | 4h | Joaquin | To Do |
-| **TS11** | Detección automática de incidentes y clasificación de severidad | 8 | T-28 | Entidad `Incident` + migración Flyway V7 | Definir entidad JPA `Incident` con campos: id, workspaceId, title (VARCHAR 500), description (TEXT), severity (`SeverityLevel` enum: ALTO/MEDIO/BAJO), status (`IncidentStatus` enum: ACTIVO/EN_REVISION/RESUELTO), assignedTo, mentionCount, resolutionPercent (INT 0–100), requiresImmediateAction (BOOLEAN), patternKeyword, detectedAt, resolvedAt. Crear migración `V7__create_incidents.sql` con índices en (workspaceId, status) y (workspaceId, requiresImmediateAction). Implementar `IncidentRepository` con queries de activos por workspace y búsqueda por título+status para deduplicación. | 3h | Joaquin | To Do |
-| **TS11** | Detección automática de incidentes y clasificación de severidad | | T-29 | `IncidentDetectionService` — detecta patrones en menciones y crea incidentes por 3 reglas | Implementar `IncidentDetectionService.detect(workspaceId)` con 3 reglas: Regla 1 (MEDIO): ≥ 50 menciones en 24h que contengan el mismo keyword del pool ["delivery","demora","frío","papas frías","espera","repartidor"] → title "Pico de menciones: {keyword}". Regla 2 (ALTO): ≥ 100 menciones NEG en 24h → title "Volumen negativo crítico". Regla 3 (ALTO + requiresImmediateAction=true): los 3 `DailyMetricSnapshot` más recientes tienen negativePercent > 60% → title "Crisis sostenida: 3 días críticos". Deduplicación: si ya existe incidente ACTIVO con mismo title, actualiza mentionCount en lugar de crear duplicado. | 5h | Joaquin | To Do |
-| **TS12** | Crisis Response Engine: diagnóstico IA de patrones de crisis vía Groq API (gratuita) | 8 | T-30 | `CrisisResponseEngineService` — llama a Groq API con modelo llama-3.3-70b para generar diagnóstico estructurado de crisis | Obtener API key gratuita en console.groq.com (sin tarjeta de crédito). Agregar variable de entorno `GROQ_API_KEY` en Railway junto a las existentes. Implementar `GroqApiClient` con POST a `https://api.groq.com/openai/v1/chat/completions` (Groq es compatible con el formato OpenAI), header `Authorization: Bearer {GROQ_API_KEY}`, modelo `llama-3.3-70b-versatile`, max_tokens=512. Cuerpo del request: `{"model":"llama-3.3-70b-versatile","messages":[{"role":"system","content":"{systemPrompt}"},{"role":"user","content":"{userPrompt}"}],"temperature":0.3,"max_tokens":512}`. System prompt instruye a responder únicamente JSON con campos: pattern (string), criticalKeywords (array de strings), geographicFocus (string o null), diagnosis (string), suggestedAction (string). User prompt incluye nombre del workspace, rango de fechas y las top 50 menciones NEG del período (las de menor sentimentScore), una por línea con formato "[FUENTE] contenido". Parsear campo `choices[0].message.content` de la respuesta con `ObjectMapper`. En caso de error de red o parseo retornar `CrisisAnalysisResult` de fallback sin propagar excepción. Registrar bean `RestTemplate` en `RestTemplateConfig` si no existe. Agregar propiedad `groq.api.key=${GROQ_API_KEY:dummy}` y `groq.api.url=https://api.groq.com/openai/v1/chat/completions` en `application.properties`. | 5h | Brianna | To Do |
-| **TS13** | Endpoint `GET /dashboard/{workspaceId}` que agrega todas las métricas en una sola respuesta | 8 | T-31 | `DashboardController` + `DashboardAggregatorService` — endpoint principal del dashboard | Implementar `GET /api/v1/workspaces/{workspaceId}/dashboard`. `DashboardAggregatorService.aggregate(workspaceId)` orquesta: (1) recupera `DailyMetricSnapshot` del día o lo calcula en tiempo real si no existe, (2) consulta incidentes ACTIVOS del workspace, (3) recupera snapshots de los últimos 15 días para la evolución, (4) invoca `CrisisResponseEngineService.analyze()` con menciones de los últimos 3 días. Retorna `DashboardResponse` con: sentimentScore, sentimentScoreLabel, mentionsToday, mentionsVariationPercent, distribution (neg/neu/pos%), activeIncidents[], topSource con sentimentIndex, sentimentEvolution[] (15 puntos fecha+score), crisisAnalysis. El `WorkspaceAuthorizationFilter` existente (T-18) valida ownership antes de llegar al controller. | 5h | Joaquin | To Do |
-| **TS13** | Endpoint `GET /dashboard/{workspaceId}` que agrega todas las métricas en una sola respuesta | | T-32 | `DashboardRefreshScheduler` — ejecuta el ciclo completo de actualización cada 5 minutos | Implementar `DashboardRefreshScheduler` con `@Scheduled(fixedRate = 300_000)`. Recupera todos los workspaces con estado `ACTIVO` via `BrandWorkspaceRepository.findByStatus(ACTIVO)`. Por cada workspace ejecuta en orden: (1) `MentionIngestionService.ingest(workspaceId, now - 5min)`, (2) `DailyMetricsService.calculateAndPersist(workspaceId, today)`, (3) `IncidentDetectionService.detect(workspaceId)`. Maneja excepción por workspace de forma aislada (un workspace que falla no interrumpe los demás). Configurable con propiedad `scheduler.dashboard.enabled=true`. Agregar `@EnableScheduling` a la clase principal `BrandRadarApplication`. | 3h | Brianna | To Do |
-| — | — | — | T-40 | QA Sprint 3: pruebas unitarias de calculadoras + prueba de integración del flujo completo del dashboard | Pruebas unitarias de `SentimentScoreCalculator`: 4 casos (lista vacía → score 0, todas NEG → score < 20, todas POS → score > 70, distribución 32/48/20 → score 55–67 label AMBER). Pruebas unitarias de `IncidentDetectionService`: Regla 2 con 110 menciones NEG crea incidente ALTO, Regla 3 con 3 snapshots > 60% NEG crea incidente con requiresImmediateAction=true, deduplicación no crea duplicado si ya existe incidente ACTIVO. Pruebas unitarias de `CrisisResponseEngineService`: mockear `GroqApiClient`, verificar que el JSON parseado se mapea correctamente a `CrisisAnalysisResult`, verificar que el fallback se retorna sin excepción cuando el cliente lanza error. Prueba de integración `@SpringBootTest` con perfil `test` (H2 en memoria, `groq.api.key=dummy`): ingestar menciones → calcular snapshot → detectar incidentes → `GET /api/v1/workspaces/1/dashboard` retorna 200 con sentimentScore, mentionsToday, distribution y crisisAnalysis presentes. Agregar dependencia H2 scope `test` en `pom.xml`. | 5h | Jean Franco | To Do |
+| **TS01** | Endpoint de registro: crea `UserAccount` en `PENDIENTE_VERIFICACIÓN` y emite `AccountRegistered` | 5 | T-01 | Configuración inicial del proyecto Spring Boot con arquitectura por bounded context | Crear proyecto con Spring Initializr. Configurar dependencias: Spring Web, Spring Data JPA, Spring Security, MySQL Driver, Lombok, SpringDoc OpenAPI, Flyway. Definir estructura de paquetes por bounded context: `identity`, `workspace`, `shared`. Configurar `application.properties` base y perfil `prod`. | 3h | Brianna | **Done** |
+| **TS01** | Endpoint de registro: crea `UserAccount` en `PENDIENTE_VERIFICACIÓN` y emite `AccountRegistered` | | T-02 | Entidad `UserAccount` con estados `PENDIENTE_VERIFICACIÓN` / `ACTIVA` / `BLOQUEADA` y migración Flyway | Definir entidad JPA `UserAccount` con campos: id, email, passwordHash, estado (`AccountStatus` enum), fechaRegistro, tokenVerificacion, tokenExpiracion. Crear migración Flyway `V1__create_user_accounts.sql`. Implementar `UserAccountRepository`. | 3h | Brianna | **Done** |
+| **TS01** | Endpoint de registro: crea `UserAccount` en `PENDIENTE_VERIFICACIÓN` y emite `AccountRegistered` | | T-03 | Endpoint `POST /api/v1/auth/register` — crea `UserAccount` y emite `AccountRegistered` | Implementar `AuthController`, `RegisterUserService` y `UserAccountRepository`. Valida email único, hashea contraseña con BCrypt, crea `UserAccount` en estado `PENDIENTE_VERIFICACIÓN`, genera token de verificación, publica Domain Event `AccountRegistered`. Retorna 201 con mensaje de confirmación. | 4h | Brianna | **Done** |
+| **TS02** | Endpoint de login: valida credenciales, emite JWT y bloquea por intentos fallidos | 5 | T-04 | Endpoint `POST /api/v1/auth/login` — valida credenciales, emite JWT y registra intentos fallidos | Implementar `LoginService` con validación de credenciales contra `UserAccount`. Bloqueo automático tras 5 intentos fallidos transitando estado a `BLOQUEADA`. Solo permite login a cuentas `ACTIVAS`. Genera JWT firmado con `JwtTokenProvider`. Retorna access token y refresh token. | 4h | Jean Franco | **Done** |
+| **TS02** | Endpoint de login: valida credenciales, emite JWT y bloquea por intentos fallidos | | T-05 | `JwtTokenProvider` y `SecurityConfig` con filtro de autenticación stateless | Implementar `JwtTokenProvider` con generación, firma (HS256) y validación de JWT. Configurar `SecurityConfig` con `JwtAuthenticationFilter` que extrae y valida el token en cada request. Rutas públicas: `/api/v1/auth/**`. Resto requiere autenticación. | 4h | Jean Franco | **Done** |
+| **TS03** | Endpoint de verificación de correo: transiciona `UserAccount` a `ACTIVA` y emite `AccountActivated` | 3 | T-06 | Endpoint `GET /api/v1/auth/verify?token={token}` — transiciona cuenta a `ACTIVA` y emite `AccountActivated` | Implementar `VerifyAccountService`. Valida token de verificación no expirado. Transiciona `UserAccount` de `PENDIENTE_VERIFICACIÓN` a `ACTIVA`. Publica Domain Event `AccountActivated`. Maneja casos: token expirado (retorna 410), token ya usado (retorna 409), token inválido (retorna 400). | 3h | Jean Franco | **In-Process** |
+| **TS04** | Endpoint de recuperación de contraseña con eventos `PasswordRecoveryRequested` y `PasswordReset` | 5 | T-07 | Endpoint `POST /api/v1/auth/forgot-password` — emite `PasswordRecoveryRequested` con respuesta genérica | Implementar `ForgotPasswordService`. Genera token de recuperación con expiración de 15 minutos. Publica `PasswordRecoveryRequested`. Respuesta siempre 200 independientemente de si el email existe, protegiendo enumeración de cuentas. Persiste token en `UserAccount`. | 3h | Joaquin | **In-Process** |
+| **TS04** | Endpoint de recuperación de contraseña con eventos `PasswordRecoveryRequested` y `PasswordReset` | | T-08 | Endpoint `POST /api/v1/auth/reset-password` — completa `PasswordReset` e invalida sesiones activas | Implementar `ResetPasswordService`. Valida token de recuperación no expirado. Hashea y persiste nueva contraseña. Invalida todos los refresh tokens activos del usuario (campo `sessionVersion` incrementado). Publica Domain Event `PasswordReset`. Retorna 200 en éxito. | 3h | Joaquin | **In-Process** |
+| **TS05** | Endpoint de refresh de JWT para mantener sesión activa sin reautenticación | 5 | T-09 | Endpoint `POST /api/v1/auth/refresh` — renueva access token validando refresh token y `sessionVersion` | Implementar `RefreshTokenService`. Valida refresh token firmado y `sessionVersion` del `UserAccount` para detectar invalidación por `PasswordReset`. Genera nuevo access token con claims actualizados. Rota el refresh token (invalidando el anterior). Retorna nuevo par de tokens. | 4h | Joaquin | **In-Process** |
+| **TS06** | Endpoints de creación y consulta de `BrandWorkspace` con estado operacional | 5 | T-10 | Entidad `BrandWorkspace` con estados `ACTIVO` / `INACTIVO` y migración Flyway | Definir entidad JPA `BrandWorkspace`: id, nombre, descripcion, estado (`WorkspaceStatus` enum), userId (FK a `UserAccount`), fechaCreacion, fechaUltimaModificacion. Crear migración `V2__create_brand_workspaces.sql`. Implementar `BrandWorkspaceRepository` con consulta por usuario. | 3h | Victor | **Done** |
+| **TS06** | Endpoints de creación y consulta de `BrandWorkspace` con estado operacional | | T-11 | Endpoint `POST /api/v1/workspaces` — crea `BrandWorkspace` asignado al usuario autenticado | Implementar `CreateWorkspaceService`. Valida que el usuario autenticado no supere el límite de workspaces por plan. Crea `BrandWorkspace` en estado `ACTIVO` asociado al `userId` del JWT. Retorna 201 con representación completa del workspace creado. | 3h | Victor | **Done** |
+| **TS06** | Endpoints de creación y consulta de `BrandWorkspace` con estado operacional | | T-12 | Endpoint `GET /api/v1/workspaces` y `GET /api/v1/workspaces/{id}` — consulta workspaces del usuario autenticado | Implementar endpoints de listado y detalle. `GET /workspaces` retorna solo los workspaces del usuario autenticado (aislamiento por userId). `GET /workspaces/{id}` valida ownership antes de retornar; 403 si el workspace pertenece a otro usuario. | 3h | Victor | **Done** |
+| **TS07** | Endpoints de edición y desactivación de `BrandWorkspace` con emisión de `WorkspaceDeactivated` | 3 | T-13 | Endpoint `PUT /api/v1/workspaces/{id}` — actualiza configuración del `BrandWorkspace` con trazabilidad | Implementar `UpdateWorkspaceService`. Valida ownership del workspace. Actualiza campos permitidos (nombre, descripcion). Registra timestamp de modificación. Solo permite actualizar workspaces en estado `ACTIVO`. Retorna 200 con workspace actualizado. | 3h | Victor | **In-Process** |
+| **TS07** | Endpoints de edición y desactivación de `BrandWorkspace` con emisión de `WorkspaceDeactivated` | | T-14 | Endpoint `DELETE /api/v1/workspaces/{id}` — desactiva `BrandWorkspace` conservando historial y emitiendo `WorkspaceDeactivated` | Implementar `DeactivateWorkspaceService`. Transiciona estado a `INACTIVO` (soft delete, no eliminación física). Publica Domain Event `WorkspaceDeactivated`. Conserva toda la historia de incidentes y menciones asociadas al workspace. Valida ownership antes de desactivar. | 3h | Victor | **In-Process** |
+| **TS08** | Endpoints de `MonitoringRule` y `MonitoringChannel` con versionado y `MonitoringRuleUpdated` | 8 | T-15 | Entidades `MonitoringRule` y `MonitoringChannel` con versionado y migración Flyway | Definir entidad JPA `MonitoringRule`: id, workspaceId, keywords (lista), version, fechaCreacion. Definir `MonitoringChannel`: id, workspaceId, channelType (`ChannelType` enum: TWITTER, INSTAGRAM, NEWS, WEB), activo. Crear migraciones `V3__create_monitoring_rules.sql` y `V4__create_monitoring_channels.sql`. | 3h | Brianna | **In-Process** |
+| **TS08** | Endpoints de `MonitoringRule` y `MonitoringChannel` con versionado y `MonitoringRuleUpdated` | | T-16 | Endpoints CRUD `POST/GET/PUT /api/v1/workspaces/{id}/rules` — gestión de `MonitoringRule` con `MonitoringRuleUpdated` | Implementar `MonitoringRuleController` y `MonitoringRuleService`. `POST` crea regla con keywords iniciales (versión 1). `PUT` incrementa versión y publica Domain Event `MonitoringRuleUpdated` con diff de keywords (keywords añadidas y eliminadas). `GET` retorna regla vigente con historial de versiones. | 4h | Brianna | **In-Process** |
+| **TS08** | Endpoints de `MonitoringRule` y `MonitoringChannel` con versionado y `MonitoringRuleUpdated` | | T-17 | Endpoints CRUD `POST/GET/PUT /api/v1/workspaces/{id}/channels` — gestión de `MonitoringChannel` | Implementar `MonitoringChannelController` y `MonitoringChannelService`. `POST` conecta nuevo canal al workspace validando tipo soportado. `PUT` activa/desactiva canal. `GET` lista canales conectados con estado. Valida ownership del workspace en cada operación. | 3h | Brianna | **In-Process** |
+| **TS16** | Middleware de autorización contextual por `BrandWorkspace` con auditoría de accesos no autorizados | 5 | T-18 | `WorkspaceAuthorizationFilter` — valida ownership por `BrandWorkspace` en cada request y registra accesos no autorizados | Implementar `WorkspaceAuthorizationFilter` como `OncePerRequestFilter`. Para rutas que incluyen `workspaceId` en el path, valida que el usuario autenticado (extraído del JWT) sea propietario del workspace solicitado. Intento no autorizado → 403 + registro de evento de auditoría en tabla `workspace_access_audit`. | 4h | Jean Franco | **In-Process** |
+| — | — | — | T-19 | `GlobalExceptionHandler` con `@ControllerAdvice` y manejo de errores de dominio estandarizado | Implementar `GlobalExceptionHandler` con `@ControllerAdvice`. Mapear excepciones de dominio a respuestas HTTP: `DomainValidationException` → 400, `UnauthorizedWorkspaceAccessException` → 403, `ResourceNotFoundException` → 404, `TokenExpiredException` → 410. Formato de error estandarizado con `timestamp`, `code`, `message`. | 3h | Jean Franco | **Done** |
+| — | — | — | T-20 | Configuración de SpringDoc OpenAPI 3.0 y documentación de todos los endpoints del sprint | Configurar `OpenApiConfig` con metadatos del proyecto (título, versión, descripción). Agregar anotaciones `@Operation`, `@ApiResponse` y `@SecurityRequirement` a todos los controladores. Definir esquema de Bearer JWT en Swagger UI. Verificar documentación completa en `/swagger-ui/index.html`. | 2h | Brianna | **Done** |
+| — | — | — | T-21 | Configuración de CORS, Flyway y despliegue en Railway con MySQL provisionado | Configurar `CorsConfig` permitiendo origen del frontend desplegado en Netlify. Verificar ejecución correcta de migraciones Flyway en entorno de producción. Configurar variables de entorno en Railway: `DB_URL`, `DB_USER`, `DB_PASS`, `JWT_SECRET`, `JWT_EXPIRATION_MS`, `GROQ_API_KEY`. Validar URL pública del servicio desplegado. | 3h | Joaquin | **In-Process** |
+| — | — | — | T-22 | QA: pruebas unitarias con JUnit 5 + Mockito y pruebas de integración con `@SpringBootTest` | Pruebas unitarias de servicios de dominio: `RegisterUserService`, `LoginService`, `VerifyAccountService`, `ResetPasswordService`, `CreateWorkspaceService`, `MonitoringRuleService`. Pruebas de integración cubriendo flujo completo: registro → verificación → login → crear workspace → configurar reglas → desactivar workspace → acceso no autorizado 403. | 5h | Jean Franco | **In-Process** |
+| **TS09** | Ingesta y almacenamiento de menciones con score de sentimiento por mención | 5 | T-23 | Entidad `Mention` + migración Flyway V5 | Definir entidad JPA `Mention` con campos: id, workspaceId, source (`SourceType` enum: FACEBOOK/TWITTER/TIKTOK/REDDIT/NEWS/YOUTUBE), authorName, authorFollowers, content, url, sentimentScore (DECIMAL 0.000–1.000), sentimentLabel (`SentimentLabel` enum: NEG/NEU/POS), publishedAt, createdAt, isActive. Crear migración `V5__create_mentions.sql` con índices en (workspaceId, publishedAt) y (workspaceId, sentimentLabel, publishedAt). Implementar `MentionRepository` con queries por workspaceId, rango de fechas, label y top 50 por sentimentScore ascendente. | 3h | Victor | **Done** |
+| **TS09** | Ingesta y almacenamiento de menciones con score de sentimiento por mención | | T-24 | Entidad `DailyMetricSnapshot` + migración Flyway V6 | Definir entidad JPA `DailyMetricSnapshot` con campos: id, workspaceId, snapshotDate, sentimentScore (INT 0–100), sentimentScoreLabel (`SentimentScoreLabel` enum: ROJO/AMBER/VERDE), totalMentions, negativeCount, neutralCount, positiveCount, negativePercent, neutralPercent, positivePercent, variationVsYesterday, topSource, topSourceSentimentIndex (`SentimentIndex` enum: ALTO/MEDIO/BAJO), calculatedAt. Crear migración `V6__create_daily_metric_snapshots.sql` con constraint UNIQUE (workspaceId, snapshotDate). Implementar `DailyMetricSnapshotRepository` con queries por workspace y rango de fechas. | 3h | Victor | **Done** |
+| **TS09** | Ingesta y almacenamiento de menciones con score de sentimiento por mención | | T-25 | `MockMentionProvider` — genera menciones realistas con distribución 32% NEG / 48% NEU / 20% POS | Definir interface `MentionProvider` con método `fetchMentions(workspaceId, since)`. Implementar `MockMentionProvider` que genera entre 8 y 20 menciones por llamada usando distribución acumulada: NEG si roll < 0.32 con sentimentScore [0.05–0.39], NEU si roll < 0.80 con score [0.40–0.64], POS con score [0.65–0.98]. Distribución de fuentes: FACEBOOK 40%, TWITTER 25%, TIKTOK 20%, REDDIT 15%. Pool de contenidos con keywords "delivery", "demora", "papas frías", "tiempo de espera". Implementar `MentionIngestionService.ingest(workspaceId, since)` que invoca el provider y persiste en `MentionRepository`. | 4h | Jean Franco | **Done** |
+| **TS10** | Cálculo del `SentimentScore` agregado con pesos por fuente | 5 | T-26 | `SentimentScoreCalculator` — agrega menciones con pesos por fuente y retorna score 0–100 con label | Implementar `SentimentScoreCalculator` con fórmula: `score = round(Σ(sentimentScore × sourcePeso) / Σ(sourcePeso) × 100)`. Pesos: NEWS=1.5, FACEBOOK=1.3, TWITTER=1.2, YOUTUBE=1.1, TIKTOK=1.0, REDDIT=0.9. Retorna record `SentimentScoreResult(int score, SentimentScoreLabel label)`. Label: ROJO si score < 40, AMBER si 40–69, VERDE si ≥ 70. Caso borde: lista vacía retorna score=0 y label=ROJO. Tests unitarios obligatorios: 0 menciones → ROJO, todas NEG → score < 20, distribución 32/48/20 → score entre 55–67 y label AMBER. | 3h | Jean Franco | **Done** |
+| **TS10** | Cálculo del `SentimentScore` agregado con pesos por fuente | | T-27 | `DailyMetricsService` — calcula y persiste `DailyMetricSnapshot` del día para un workspace | Implementar `DailyMetricsService.calculateAndPersist(workspaceId, date)`. Recupera menciones del día con publishedAt entre [date 00:00, date 23:59]. Calcula totalMentions, conteos y porcentajes NEG/NEU/POS. Invoca `SentimentScoreCalculator`. Calcula variationVsYesterday comparando con snapshot de D-1 (null si no existe). Detecta topSource agrupando menciones por source y tomando el de mayor conteo. Calcula SentimentIndex del topSource: ALTO si promedio de sentimentScore ≥ 0.65, MEDIO si ≥ 0.40, BAJO si < 0.40. Hace upsert en `DailyMetricSnapshotRepository` (actualiza si ya existe el registro del día). | 4h | Joaquin | **Done** |
+| **TS11** | Detección automática de incidentes y clasificación de severidad | 8 | T-28 | Entidad `Incident` + migración Flyway V7 | Definir entidad JPA `Incident` con campos: id, workspaceId, title (VARCHAR 500), description (TEXT), severity (`SeverityLevel` enum: ALTO/MEDIO/BAJO), status (`IncidentStatus` enum: ACTIVO/EN_REVISION/RESUELTO), assignedTo, mentionCount, resolutionPercent (INT 0–100), requiresImmediateAction (BOOLEAN), patternKeyword, detectedAt, resolvedAt. Crear migración `V7__create_incidents.sql` con índices en (workspaceId, status) y (workspaceId, requiresImmediateAction). Implementar `IncidentRepository` con queries de activos por workspace y búsqueda por título+status para deduplicación. | 3h | Joaquin | **Done** |
+| **TS11** | Detección automática de incidentes y clasificación de severidad | | T-29 | `IncidentDetectionService` — detecta patrones en menciones y crea incidentes por 3 reglas | Implementar `IncidentDetectionService.detect(workspaceId)` con 3 reglas: Regla 1 (MEDIO): ≥ 50 menciones en 24h que contengan el mismo keyword del pool ["delivery","demora","frío","papas frías","espera","repartidor"] → title "Pico de menciones: {keyword}". Regla 2 (ALTO): ≥ 100 menciones NEG en 24h → title "Volumen negativo crítico". Regla 3 (ALTO + requiresImmediateAction=true): los 3 `DailyMetricSnapshot` más recientes tienen negativePercent > 60% → title "Crisis sostenida: 3 días críticos". Deduplicación: si ya existe incidente ACTIVO con mismo title, actualiza mentionCount en lugar de crear duplicado. | 5h | Joaquin | **Done** |
+| **TS12** | Crisis Response Engine: diagnóstico IA de patrones de crisis vía Groq API (gratuita) | 8 | T-30 | `CrisisResponseEngineService` — llama a Groq API con modelo llama-3.3-70b para generar diagnóstico estructurado de crisis | Obtener API key gratuita en console.groq.com (sin tarjeta de crédito). Agregar variable de entorno `GROQ_API_KEY` en Railway junto a las existentes. Implementar `GroqApiClient` con POST a `https://api.groq.com/openai/v1/chat/completions` (Groq es compatible con el formato OpenAI), header `Authorization: Bearer {GROQ_API_KEY}`, modelo `llama-3.3-70b-versatile`, max_tokens=512. Cuerpo del request: `{"model":"llama-3.3-70b-versatile","messages":[{"role":"system","content":"{systemPrompt}"},{"role":"user","content":"{userPrompt}"}],"temperature":0.3,"max_tokens":512}`. System prompt instruye a responder únicamente JSON con campos: pattern (string), criticalKeywords (array de strings), geographicFocus (string o null), diagnosis (string), suggestedAction (string). User prompt incluye nombre del workspace, rango de fechas y las top 50 menciones NEG del período (las de menor sentimentScore), una por línea con formato "[FUENTE] contenido". Parsear campo `choices[0].message.content` de la respuesta con `ObjectMapper`. En caso de error de red o parseo retornar `CrisisAnalysisResult` de fallback sin propagar excepción. Registrar bean `RestTemplate` en `RestTemplateConfig` si no existe. Agregar propiedad `groq.api.key=${GROQ_API_KEY:dummy}` y `groq.api.url=https://api.groq.com/openai/v1/chat/completions` en `application.properties`. | 5h | Brianna | **Done** |
+| **TS13** | Endpoint `GET /dashboard/{workspaceId}` que agrega todas las métricas en una sola respuesta | 8 | T-31 | `DashboardController` + `DashboardAggregatorService` — endpoint principal del dashboard | Implementar `GET /api/v1/workspaces/{workspaceId}/dashboard`. `DashboardAggregatorService.aggregate(workspaceId)` orquesta: (1) recupera `DailyMetricSnapshot` del día o lo calcula en tiempo real si no existe, (2) consulta incidentes ACTIVOS del workspace, (3) recupera snapshots de los últimos 15 días para la evolución, (4) invoca `CrisisResponseEngineService.analyze()` con menciones de los últimos 3 días. Retorna `DashboardResponse` con: sentimentScore, sentimentScoreLabel, mentionsToday, mentionsVariationPercent, distribution (neg/neu/pos%), activeIncidents[], topSource con sentimentIndex, sentimentEvolution[] (15 puntos fecha+score), crisisAnalysis. El `WorkspaceAuthorizationFilter` existente (T-18) valida ownership antes de llegar al controller. | 5h | Joaquin | **Done** |
+| **TS13** | Endpoint `GET /dashboard/{workspaceId}` que agrega todas las métricas en una sola respuesta | | T-32 | `DashboardRefreshScheduler` — ejecuta el ciclo completo de actualización cada 5 minutos | Implementar `DashboardRefreshScheduler` con `@Scheduled(fixedRate = 300_000)`. Recupera todos los workspaces con estado `ACTIVO` via `BrandWorkspaceRepository.findByStatus(ACTIVO)`. Por cada workspace ejecuta en orden: (1) `MentionIngestionService.ingest(workspaceId, now - 5min)`, (2) `DailyMetricsService.calculateAndPersist(workspaceId, today)`, (3) `IncidentDetectionService.detect(workspaceId)`. Maneja excepción por workspace de forma aislada (un workspace que falla no interrumpe los demás). Configurable con propiedad `scheduler.dashboard.enabled=true`. Agregar `@EnableScheduling` a la clase principal `BrandRadarApplication`. | 3h | Brianna | **Done** |
+| — | — | — | T-40 | QA Sprint 3: pruebas unitarias de calculadoras + prueba de integración del flujo completo del dashboard | Pruebas unitarias de `SentimentScoreCalculator`: 4 casos (lista vacía → score 0, todas NEG → score < 20, todas POS → score > 70, distribución 32/48/20 → score 55–67 label AMBER). Pruebas unitarias de `IncidentDetectionService`: Regla 2 con 110 menciones NEG crea incidente ALTO, Regla 3 con 3 snapshots > 60% NEG crea incidente con requiresImmediateAction=true, deduplicación no crea duplicado si ya existe incidente ACTIVO. Pruebas unitarias de `CrisisResponseEngineService`: mockear `GroqApiClient`, verificar que el JSON parseado se mapea correctamente a `CrisisAnalysisResult`, verificar que el fallback se retorna sin excepción cuando el cliente lanza error. Prueba de integración `@SpringBootTest` con perfil `test` (H2 en memoria, `groq.api.key=dummy`): ingestar menciones → calcular snapshot → detectar incidentes → `GET /api/v1/workspaces/1/dashboard` retorna 200 con sentimentScore, mentionsToday, distribution y crisisAnalysis presentes. Agregar dependencia H2 scope `test` en `pom.xml`. | 5h | Jean Franco | **In-Process** |
 
 <br>
 
@@ -4254,35 +4244,62 @@ Como resultado del Sprint Planning, el equipo estableció un conjunto claro de t
 
 #### 5.2.3.4. Development Evidence for Sprint Review
 
-Durante el Sprint 3, el equipo se enfocó en la construcción del Web Service de BrandRadar utilizando Java 21 con Spring Boot 3, bajo una arquitectura en capas orientada a Domain-Driven Design (DDD) y organizada por bounded contexts. El objetivo principal del sprint fue implementar los endpoints RESTful reales que reemplazan la Fake API del Sprint 2, cubriendo los bounded contexts de **Identidad y Acceso Seguro** (TS01–TS05) y **Configuración Estratégica de Marca** (TS06–TS08), junto con el middleware de autorización contextual por `BrandWorkspace` (TS16).
+Durante el Sprint 3, el equipo se enfocó en la construcción del Web Service de BrandRadar utilizando Java 26 con Spring Boot 4, bajo una arquitectura orientada a Domain-Driven Design (DDD) organizada en 6 bounded contexts: IAM, BrandWorkspace, ReputationMonitoring, CrisisDetection, SentimentIntelligence e InfrastructureHealth. El objetivo principal fue implementar los endpoints RESTful reales que reemplazan la Fake API del Sprint 2, con énfasis en el pipeline automático de monitoreo de reputación y el motor de análisis de sentimiento con inteligencia artificial.
 
-Se desarrollaron los servicios de autenticación completos (`UserAccount` con estados `PENDIENTE_VERIFICACIÓN` / `ACTIVA` / `BLOQUEADA`), generación y validación de JWT, refresh de tokens con invalidación por `sessionVersion`, recuperación de contraseña con protección contra enumeración de cuentas, gestión completa de `BrandWorkspace` y `MonitoringRule` con versionado de cambios. Asimismo, se implementó el `WorkspaceAuthorizationFilter` para garantizar el aislamiento de información reputacional entre clientes.
+Se desarrollaron los servicios de autenticación (`POST /auth/register` con BCrypt y `POST /auth/login` con JWT), la gestión completa de `BrandWorkspace` con endpoints CRUD incluyendo soft delete con evento `WorkspaceDeactivated`, y el pipeline automático de reputación que se ejecuta cada 5 minutos mediante `DashboardRefreshScheduler`. Este pipeline integra comentarios reales de YouTube Data API v3 con menciones generadas por Groq AI (llama-3.3-70b-versatile) en español peruano, aplica análisis de sentimiento ponderado por fuente para calcular un score 0–100, detecta incidentes automáticamente y expone toda la información agregada a través del endpoint `GET /api/v1/dashboard/workspace/{id}`.
 
-El equipo adoptó una arquitectura en capas (Controller → Service → Repository) con entidades JPA, migraciones de base de datos gestionadas con Flyway, manejo de excepciones estandarizado mediante `@ControllerAdvice` y documentación completa de la API con SpringDoc OpenAPI 3.0, permitiendo mantener consistencia técnica y acelerar la integración con el frontend Angular del Sprint 2.
+El equipo adoptó una arquitectura DDD con entidades de dominio puras, repositorios como interfaces, adaptadores JPA en infraestructura, migraciones gestionadas con Flyway deshabilitado en producción (tablas creadas manualmente), manejo de excepciones estandarizado con `@ControllerAdvice` y documentación completa con SpringDoc OpenAPI 3.0. La base de datos MySQL se desplegó en Azure Database for MySQL Flexible Server con 31 tablas, y el backend se desplegó en Railway conectado al repositorio GitHub con detección automática de Maven.
 
-El desarrollo se realizó en el repositorio público del backend utilizando GitFlow y ramas `feature/`, permitiendo que cada integrante trabajara de manera independiente sobre su bounded context asignado antes de integrar sus avances en la rama `develop` para pruebas de integración y revisión del sprint.
+El desarrollo se realizó siguiendo GitFlow con ramas `feature/sprint3-{integrante}`, permitiendo que cada miembro trabajara de forma independiente sobre su bounded context asignado antes de integrar en `develop` mediante Pull Requests revisados por el equipo.
 
 <br>
 
 | Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on (Date) |
 |:---|:---|:---|:---|:---|:---|
-| Los-5-Suyos/BrandRadar-Backend | main | pending | `initial backend setup` | Configuración inicial del proyecto Spring Boot 3 con Java 21, estructura por bounded context y dependencias base | 2026-06-02 |
-| Los-5-Suyos/BrandRadar-Backend | develop | pending | `feat: shared architecture setup` | Creación de estructura de paquetes por bounded context, configuración de Flyway, perfiles de entorno y manejo global de excepciones | 2026-06-03 |
-| Los-5-Suyos/BrandRadar-Backend | feature/sprint3-brianna | pending | `feat(identity): user registration and account management` | Implementación de `POST /auth/register`, entidad `UserAccount` con estados, migración Flyway V1, token de verificación y evento `AccountRegistered` | 2026-06-06 |
-| Los-5-Suyos/BrandRadar-Backend | feature/sprint3-brianna | pending | `feat(workspace): monitoring rules, channels and OpenAPI docs` | Implementación de entidades `MonitoringRule` y `MonitoringChannel`, CRUD de reglas con versionado, CRUD de canales, migraciones V3 y V4, configuración SpringDoc OpenAPI 3.0 y documentación de todos los endpoints | 2026-06-10 |
-| Los-5-Suyos/BrandRadar-Backend | feature/sprint3-brianna | pending | `feat(ai): crisis response engine via Groq API and dashboard scheduler` | Implementación de `GroqApiClient` con modelo llama-3.3-70b-versatile, `CrisisResponseEngineService` con parseo de diagnóstico estructurado y fallback, y `DashboardRefreshScheduler` con ciclo de actualización cada 5 minutos | 2026-06-14 |
-| Los-5-Suyos/BrandRadar-Backend | feature/sprint3-jeanfranco | pending | `feat(security): JWT authentication and authorization filters` | Implementación de `JwtTokenProvider`, `SecurityConfig` stateless, `JwtAuthenticationFilter`, `POST /auth/login` con bloqueo por intentos, `GET /auth/verify` y `GlobalExceptionHandler` con `@ControllerAdvice` | 2026-06-07 |
-| Los-5-Suyos/BrandRadar-Backend | feature/sprint3-jeanfranco | pending | `feat(workspace): authorization filter and mention ingestion` | Implementación de `WorkspaceAuthorizationFilter` con auditoría de accesos, `MockMentionProvider` con distribución 32/48/20, `MentionIngestionService` y `SentimentScoreCalculator` con pesos por fuente | 2026-06-11 |
-| Los-5-Suyos/BrandRadar-Backend | feature/sprint3-jeanfranco | pending | `test(auth): unit tests for RegisterUserService and LoginService` | Pruebas unitarias con Mockito para registro con email duplicado, validación de contraseña segura, login con credenciales inválidas, bloqueo por intentos fallidos y generación de JWT | 2026-06-13 |
-| Los-5-Suyos/BrandRadar-Backend | feature/sprint3-jeanfranco | pending | `test(auth): unit tests for VerifyAccountService and ResetPasswordService` | Pruebas unitarias de transición de estados `UserAccount`, manejo de token expirado, protección de enumeración de cuentas en recuperación e invalidación de sesiones activas al resetear contraseña | 2026-06-14 |
-| Los-5-Suyos/BrandRadar-Backend | feature/sprint3-jeanfranco | pending | `test(workspace): unit tests for CreateWorkspaceService and MonitoringRuleService` | Pruebas unitarias de creación de `BrandWorkspace` con validación de límite por plan, versionado de `MonitoringRule`, emisión de `MonitoringRuleUpdated` y desactivación con conservación de historial | 2026-06-15 |
-| Los-5-Suyos/BrandRadar-Backend | feature/sprint3-jeanfranco | pending | `test(integration): SpringBootTest for full auth, workspace and dashboard flow` | Pruebas de integración con MockMvc y H2 en memoria cubriendo: registro → verificación → login → crear workspace → configurar reglas → desactivar workspace → acceso no autorizado 403 → ingestar menciones → calcular snapshot → GET /dashboard retorna 200 | 2026-06-16 |
-| Los-5-Suyos/BrandRadar-Backend | feature/sprint3-victor | pending | `feat(workspace): BrandWorkspace entity and CRUD endpoints` | Implementación de entidad `BrandWorkspace` con estados ACTIVO/INACTIVO, migración Flyway V2, endpoints POST/GET/PUT/DELETE con aislamiento por userId, soft delete con evento `WorkspaceDeactivated` | 2026-06-07 |
-| Los-5-Suyos/BrandRadar-Backend | feature/sprint3-victor | pending | `feat(mentions): Mention and DailyMetricSnapshot entities` | Implementación de entidad `Mention` con enums `SourceType` y `SentimentLabel`, migración V5 con índices de rendimiento, entidad `DailyMetricSnapshot` con constraint UNIQUE por workspace y fecha, migración V6 y repositorios con queries optimizadas | 2026-06-09 |
-| Los-5-Suyos/BrandRadar-Backend | feature/sprint3-joaquin | pending | `feat(identity): password recovery and JWT refresh endpoints` | Implementación de `POST /auth/forgot-password` con protección de enumeración, `POST /auth/reset-password` con invalidación de sesiones via `sessionVersion` y `POST /auth/refresh` con rotación de refresh token | 2026-06-08 |
-| Los-5-Suyos/BrandRadar-Backend | feature/sprint3-joaquin | pending | `feat(metrics): daily metrics service, incident detection and dashboard endpoint` | Implementación de `DailyMetricsService` con cálculo de distribución NEG/NEU/POS y variación diaria, entidad `Incident` con migración V7, `IncidentDetectionService` con 3 reglas de detección automática, `DashboardController` y `DashboardAggregatorService` para `GET /workspaces/{id}/dashboard` | 2026-06-12 |
-| Los-5-Suyos/BrandRadar-Backend | feature/sprint3-joaquin | pending | `feat(infra): CORS, Flyway production config and Railway deployment` | Configuración de `CorsConfig` para origen Netlify, verificación de migraciones V1–V7 en MySQL Railway y configuración de variables de entorno `DB_URL`, `DB_USER`, `DB_PASS`, `JWT_SECRET`, `JWT_EXPIRATION_MS`, `GROQ_API_KEY` | 2026-06-17 |
-| Los-5-Suyos/BrandRadar-Backend | develop | pending | `merge: sprint 3 integration` | Integración completa del motor de reputación, autenticación JWT, gestión de workspaces y endpoint de dashboard con métricas en tiempo real | 2026-06-18 |
+| Los-5-Suyos/BrandRadar-Web-Services | main | 175c3de | `Initial commit` | Commit inicial del repositorio | 2026-04-08 |
+| Los-5-Suyos/BrandRadar-Web-Services | main | dc3bb206 | `initial commit` | Configuración inicial del proyecto | 2026-06-07 |
+| Los-5-Suyos/BrandRadar-Web-Services | main | 4943d791 | `BrandRadar starter backend setup` | Configuración base del proyecto Spring Boot con estructura por bounded context | 2026-06-09 |
+| Los-5-Suyos/BrandRadar-Web-Services | feature/sprint3-brianna | 7254b7a5 | `feat: initial project setup with IAM bounded context` | Configuración inicial con bounded context IAM, entidades base y estructura DDD | 2026-06-13 |
+| Los-5-Suyos/BrandRadar-Web-Services | feature/sprint3-brianna | ed468690 | `feat: IAM bounded context - UserAccount entity, repository, service and controller` | Implementación completa del bounded context IAM con UserAccount, repositorio, servicio y controlador | 2026-06-13 |
+| Los-5-Suyos/BrandRadar-Web-Services | feature/sprint3-brianna | 8b9926f2 | `feat: all bounded contexts complete` | Creación de los 6 bounded contexts: IAM, BrandWorkspace, ReputationMonitoring, CrisisDetection, SentimentIntelligence, InfrastructureHealth | 2026-06-15 |
+| Los-5-Suyos/BrandRadar-Web-Services | feature/sprint3-brianna | 45c10fa4 | `feat: crisis detection bounded context complete` | Implementación completa del bounded context CrisisDetection con entidades, repositorios y servicios | 2026-06-15 |
+| Los-5-Suyos/BrandRadar-Web-Services | feature/sprint3-brianna | 3a9665cb | `feat: reputation monitoring bounded context complete` | Implementación completa del bounded context ReputationMonitoring con pipeline de ingesta de menciones | 2026-06-15 |
+| Los-5-Suyos/BrandRadar-Web-Services | feature/sprint3-brianna | 203428b0 | `feat: brandworkspace` | Implementación del bounded context BrandWorkspace con entidades y CRUD | 2026-06-15 |
+| Los-5-Suyos/BrandRadar-Web-Services | feature/sprint3-brianna | a0c11b25 | `feat: T-03 POST /auth/register with BCrypt password encoding` | Implementación de registro de usuarios con BCrypt, validación de email único y creación de UserAccount | 2026-06-15 |
+| Los-5-Suyos/BrandRadar-Web-Services | feature/sprint3-brianna | 912f737f | `feat: T-17 CRUD workspace channels complete` | Implementación completa de gestión de canales de monitoreo por workspace | 2026-06-15 |
+| Los-5-Suyos/BrandRadar-Web-Services | feature/sprint3-brianna | 4983811a | `feat: T-30 CrisisResponseEngineService via Groq API llama-3.3-70b-versatile` | Implementación de GroqApiClient y CrisisResponseEngineService con parseo de diagnóstico estructurado y fallback | 2026-06-15 |
+| Los-5-Suyos/BrandRadar-Web-Services | feature/sprint3-brianna | 69d020a9 | `feat: T-32 DashboardRefreshScheduler with @EnableScheduling` | Implementación del scheduler automático que ejecuta el pipeline de reputación cada 5 minutos | 2026-06-15 |
+| Los-5-Suyos/BrandRadar-Web-Services | feature/sprint3-brianna | 1ab5c193 | `Merge branch 'feature/sprint3-brianna' into develop` | Integración de los bounded contexts completos de Brianna al branch develop | 2026-06-15 |
+| Los-5-Suyos/BrandRadar-Web-Services | feature/sprint3-victor | 90297c6d | `chore: ignore .idea/ at repo root, untrack IDE files` | Limpieza de archivos IDE del repositorio | 2026-06-16 |
+| Los-5-Suyos/BrandRadar-Web-Services | feature/sprint3-victor | 073578ca | `feat: BrandWorkspace entity + Flyway V2 migration` | Implementación de entidad BrandWorkspace con estados ACTIVE/INACTIVE y migración Flyway V2 | 2026-06-16 |
+| Los-5-Suyos/BrandRadar-Web-Services | feature/sprint3-victor | bd344844 | `fix: update DashboardRefreshScheduler status check after WorkspaceStatus enum change` | Corrección del scheduler tras cambio en el enum WorkspaceStatus | 2026-06-16 |
+| Los-5-Suyos/BrandRadar-Web-Services | feature/sprint3-victor | fe6eb0a0 | `feat: Mention entity + Flyway V5 migration` | Implementación de entidad Mention con índices de rendimiento y migración Flyway V5 | 2026-06-16 |
+| Los-5-Suyos/BrandRadar-Web-Services | feature/sprint3-victor | 05a03f5d | `feat: DailyMetricSnapshot entity + Flyway V6 migration` | Implementación de entidad DailyMetricSnapshot con constraint UNIQUE por workspace y fecha | 2026-06-16 |
+| Los-5-Suyos/BrandRadar-Web-Services | feature/sprint3-victor | bf616025 | `feat: minimal JWT scaffolding (JwtTokenProvider, JwtAuthenticationFilter) pending T-05` | Scaffolding inicial de JWT para soporte de endpoints de workspace | 2026-06-16 |
+| Los-5-Suyos/BrandRadar-Web-Services | feature/sprint3-victor | c76387ce | `feat: T-11 POST /api/v1/workspaces with JWT-derived userId and active-workspace limit` | Implementación de creación de workspace con límite por plan y userId derivado del JWT | 2026-06-16 |
+| Los-5-Suyos/BrandRadar-Web-Services | feature/sprint3-victor | 9dc13e55 | `feat: GET /api/v1/workspaces and GET /api/v1/workspaces/{id} scoped to authenticated user` | Endpoints de consulta de workspaces con aislamiento por usuario autenticado | 2026-06-16 |
+| Los-5-Suyos/BrandRadar-Web-Services | feature/sprint3-victor | 55ddef61 | `fix: preserve createdAt on BrandWorkspace updates (merge() was nulling it)` | Corrección para preservar createdAt al actualizar BrandWorkspace | 2026-06-16 |
+| Los-5-Suyos/BrandRadar-Web-Services | feature/sprint3-victor | faef5552 | `feat: PUT /api/v1/workspaces/{id}` | Implementación del endpoint de actualización de workspace con validación de ownership | 2026-06-16 |
+| Los-5-Suyos/BrandRadar-Web-Services | feature/sprint3-victor | aa24da6d | `feat: DELETE /api/v1/workspaces/{id} soft delete + WorkspaceDeactivated event` | Implementación de soft delete con transición a INACTIVE y emisión de evento WorkspaceDeactivated | 2026-06-16 |
+| Los-5-Suyos/BrandRadar-Web-Services | feature/sprint3-victor | 36094df5 | `chore: untrack leaked .env (rotate the Groq key - already public on GitHub)` | Limpieza de archivo .env expuesto accidentalmente | 2026-06-16 |
+| Los-5-Suyos/BrandRadar-Web-Services | feature/sprint3-joaquin | — | `feat(iam): add password recovery fields and session tracking to UserAccount` | Campos de recuperación de contraseña y tracking de sesión en UserAccount | 2026-06-14 |
+| Los-5-Suyos/BrandRadar-Web-Services | feature/sprint3-joaquin | — | `feat(iam): implement password recovery token queries from domain to infrastructure database` | Implementación de queries de token de recuperación desde dominio hasta infraestructura | 2026-06-14 |
+| Los-5-Suyos/BrandRadar-Web-Services | feature/sprint3-joaquin | — | `feat(iam): implement business logic for forgot-password in unified command service` | Lógica de negocio para forgot-password con token de 15 minutos y respuesta genérica | 2026-06-14 |
+| Los-5-Suyos/BrandRadar-Web-Services | feature/sprint3-joaquin | — | `feat(iam): expose POST /forgot-password REST endpoint for security recovery requests` | Exposición del endpoint REST POST /forgot-password | 2026-06-14 |
+| Los-5-Suyos/BrandRadar-Web-Services | feature/sprint3-joaquin | — | `fix(iam): resolve compilation domino effects and data-type conflicts in persistence mapper` | Corrección de conflictos de tipos en el mapper de persistencia | 2026-06-14 |
+| Los-5-Suyos/BrandRadar-Web-Services | feature/sprint3-joaquin | — | `feat(iam): implement reset password functionality for T-08` | Implementación de reset de contraseña con invalidación de sesiones activas | 2026-06-14 |
+| Los-5-Suyos/BrandRadar-Web-Services | feature/sprint3-joaquin | — | `feat: complete IncidentRepository adapter and V7 database migration structure for T-28` | Implementación del adaptador IncidentRepository y migración Flyway V7 | 2026-06-18 |
+| Los-5-Suyos/BrandRadar-Web-Services | develop | eb787d6e | `Merge pull request #2 from Los-5-Suyos/feature/sprint3-victor` | Integración de los endpoints de BrandWorkspace, Mention y DailyMetricSnapshot de Victor | 2026-06-17 |
+| Los-5-Suyos/BrandRadar-Web-Services | develop | 20a6f00f | `Merge pull request #1 from Los-5-Suyos/feature/sprint3-joaquin` | Integración de los endpoints de recuperación de contraseña e Incident de Joaquin | 2026-06-17 |
+| Los-5-Suyos/BrandRadar-Web-Services | feature/sprint3-jfranco | 4206be1a | `feat: T-19 manejo global de excepciones` | Implementación de GlobalExceptionHandler con @ControllerAdvice mapeando excepciones a 400/403/404/410 | 2026-06-17 |
+| Los-5-Suyos/BrandRadar-Web-Services | feature/sprint3-jfranco | ea1267fd | `feat: T-05 JwtTokenProvider + SecurityConfig stateless --- feat: T-04 Endpoint POST /api/v1/auth/login — JWT + bloqueo por intentos` | Implementación de JwtTokenProvider con HS256, SecurityConfig stateless, JwtAuthenticationFilter y endpoint de login con bloqueo tras intentos fallidos | 2026-06-17 |
+| Los-5-Suyos/BrandRadar-Web-Services | feature/sprint3-brianna | 524aecc5 | `feat: POST /auth/login with JWT - BCrypt password validation` | Implementación de login con validación BCrypt y generación de token JWT | 2026-06-17 |
+| Los-5-Suyos/BrandRadar-Web-Services | feature/sprint3-brianna | ad34c970 | `feat: deduplicacion de menciones por sourceUrl + login JWT completo` | Implementación de deduplicación por sourceUrl para evitar menciones duplicadas en el pipeline | 2026-06-17 |
+| Los-5-Suyos/BrandRadar-Web-Services | feature/sprint3-brianna | ed687f06 | `feat: MockMentionProvider with Groq AI generates realistic Spanish comments + full pipeline working` | MockMentionProvider usa Groq AI para generar comentarios variados en español peruano con distribución 32% NEG / 48% NEU / 20% POS | 2026-06-17 |
+| Los-5-Suyos/BrandRadar-Web-Services | feature/sprint3-brianna | 0d2f56ab | `feat: dashboard endpoint GET /api/v1/dashboard/workspace/{id} + CORS for Angular` | Endpoint de dashboard agregado con score de sentimiento, menciones recientes, top fuente, incidentes activos y análisis de crisis con Groq AI. CORS configurado para Angular | 2026-06-17 |
+| Los-5-Suyos/BrandRadar-Web-Services | feature/sprint3-jfranco | 5f91cacf | `T-26: SentimentScoreCalculator y pruebas unitarias` | Implementación de SentimentScoreCalculator ponderado por fuente (score 0-100) con pruebas unitarias | 2026-06-18 |
+| Los-5-Suyos/BrandRadar-Web-Services | develop | f17dc982 | `Merge pull request #4 from Los-5-Suyos/feature/sprint3-jfranco` | Integración de JWT, GlobalExceptionHandler y SentimentScoreCalculator de Jean Franco | 2026-06-18 |
+| Los-5-Suyos/BrandRadar-Web-Services | main | c8139adf | `feat: complete backend MVP - pipeline, dashboard, JWT, Azure config` | Backend MVP completo con pipeline automático YouTube + Groq AI, dashboard endpoint, JWT y configuración Azure MySQL | 2026-06-18 |
 
 <br>
 
@@ -4312,81 +4329,11 @@ A continuación se muestran las capturas de los endpoints documentados y verific
 
 <br>
 
-**TS01 Evidence – Endpoint de Registro de UserAccount**
-<br>
-
-![Execution Evidence Sprint 3 - 1](brandradar-report/assets/sprints/sprint-3/sprint3-execution-1.png)
-
-<br>
-
-**TS02 Evidence – Endpoint de Login con JWT**
-<br>
-
-![Execution Evidence Sprint 3 - 2](brandradar-report/assets/sprints/sprint-3/sprint3-execution-2.png)
-
-<br>
-
-**TS03 Evidence – Endpoint de Verificación de Correo**
-<br>
-
-![Execution Evidence Sprint 3 - 3](brandradar-report/assets/sprints/sprint-3/sprint3-execution-3.png)
-
-<br>
-
-**TS04 Evidence – Flujo de Recuperación de Contraseña**
-<br>
-
-![Execution Evidence Sprint 3 - 4](brandradar-report/assets/sprints/sprint-3/sprint3-execution-4.png)
-
-<br>
-
-![Execution Evidence Sprint 3 - 5](brandradar-report/assets/sprints/sprint-3/sprint3-execution-5.png)
-
-<br>
-
-**TS05 Evidence – Endpoint de Refresh de JWT**
-<br>
-
-![Execution Evidence Sprint 3 - 6](brandradar-report/assets/sprints/sprint-3/sprint3-execution-6.png)
-
-<br>
-
-**TS06 Evidence – Endpoints de BrandWorkspace (Creación y Consulta)**
-<br>
-
-![Execution Evidence Sprint 3 - 7](brandradar-report/assets/sprints/sprint-3/sprint3-execution-7.png)
-
-<br>
-
-**TS07 Evidence – Endpoints de Actualización y Desactivación de BrandWorkspace**
-<br>
-
-![Execution Evidence Sprint 3 - 8](brandradar-report/assets/sprints/sprint-3/sprint3-execution-8.png)
-
-<br>
-
-**TS08 Evidence – Endpoints de MonitoringRule y MonitoringChannel**
-<br>
-
-![Execution Evidence Sprint 3 - 9](brandradar-report/assets/sprints/sprint-3/sprint3-execution-9.png)
-
-<br>
-
-![Execution Evidence Sprint 3 - 10](brandradar-report/assets/sprints/sprint-3/sprint3-execution-10.png)
-
-<br>
-
-**TS16 Evidence – WorkspaceAuthorizationFilter y Respuesta 403 con Auditoría**
-<br>
-
-![Execution Evidence Sprint 3 - 11](brandradar-report/assets/sprints/sprint-3/sprint3-execution-11.png)
-
-<br>
 
 **Swagger UI – Documentación completa de la API**
 <br>
 
-![Execution Evidence Sprint 3 - 12](brandradar-report/assets/sprints/sprint-3/sprint3-execution-12.png)
+![Execution Evidence Sprint 3 - 12](brandradar-report/assets/sprints/sprint-3/evidence-20.png)
 
 <br>
 
@@ -4402,30 +4349,29 @@ Asimismo, se elaboró un video demostrativo que muestra la ejecución de los end
 
 Durante el Sprint 3, el equipo implementó la primera versión real de los servicios de BrandRadar mediante un Web Service RESTful construido con Spring Boot 3. A diferencia del Sprint 2 donde se usó `json-server` como Fake API, en este sprint todos los endpoints fueron implementados con lógica de dominio real, persistencia en MySQL y autenticación con JWT, reemplazando completamente la infraestructura simulada anterior.
 
-La documentación de la API fue generada automáticamente utilizando **SpringDoc OpenAPI 3.0**, accesible de forma interactiva a través de Swagger UI en la ruta `/swagger-ui/index.html` del servicio desplegado. Todos los endpoints fueron anotados con `@Operation`, `@ApiResponse` y `@SecurityRequirement`, documentando contratos de request/response, códigos de error y esquema de autenticación Bearer JWT.
+La documentación de la API fue generada automáticamente utilizando **SpringDoc OpenAPI 3.0**, accesible de forma interactiva a través de Swagger UI en la ruta `http://localhost:8080/swagger-ui.html` del servicio desplegado. Todos los endpoints fueron anotados con `@Operation`, `@ApiResponse` y `@SecurityRequirement`, documentando contratos de request/response, códigos de error y esquema de autenticación Bearer JWT.
 
 Los endpoints implementados y documentados durante el sprint cubren los siguientes bounded contexts:
 
-**Identidad y Acceso Seguro:**
+**IAM (Identity & Access Management)**
 - `POST /api/v1/auth/register`
 - `POST /api/v1/auth/login`
-- `GET /api/v1/auth/verify?token={token}`
-- `POST /api/v1/auth/forgot-password`
-- `POST /api/v1/auth/reset-password`
-- `POST /api/v1/auth/refresh`
+- `GET /api/v1/user-accounts`
 
-**Configuración Estratégica de Marca:**
+**Configuración Estratégica de Marca (Brand Workspace)**
 - `POST /api/v1/workspaces`
 - `GET /api/v1/workspaces`
-- `GET /api/v1/workspaces/{id}`
-- `PUT /api/v1/workspaces/{id}`
-- `DELETE /api/v1/workspaces/{id}`
-- `POST /api/v1/workspaces/{id}/rules`
-- `GET /api/v1/workspaces/{id}/rules`
-- `PUT /api/v1/workspaces/{id}/rules/{ruleId}`
-- `POST /api/v1/workspaces/{id}/channels`
-- `GET /api/v1/workspaces/{id}/channels`
-- `PUT /api/v1/workspaces/{id}/channels/{channelId}`
+- `POST /api/v1/brands`
+- `GET /api/v1/brands`
+
+**Monitoreo de Reputación (Reputation Monitoring)**
+- `GET /api/v1/mentions/brand/{brandId}`
+
+**Detección de Crisis (Crisis Detection)**
+- `GET /api/v1/crisis-alerts/brand/{brandId}`
+
+**Dashboard Analítico**
+- `GET /api/v1/dashboard/workspace/{workspaceId}`
 
 <br>
 
@@ -4433,9 +4379,16 @@ Los endpoints implementados y documentados durante el sprint cubren los siguient
 
 A continuación se presentan capturas de la documentación Swagger UI y las pruebas de los endpoints realizadas durante el Sprint 3:
 
-![Services Documentation Sprint 3 - 1](brandradar-report/assets/sprints/sprint-3/sprint3-services-1.png)
+![Services Documentation Sprint 3 - 1](brandradar-report/assets/sprints/sprint-3/service-1.png)
 
-![Services Documentation Sprint 3 - 2](brandradar-report/assets/sprints/sprint-3/sprint3-services-2.png)
+![Services Documentation Sprint 3 - 2](brandradar-report/assets/sprints/sprint-3/service-2.png)
+
+![Services Documentation Sprint 3 - 3](brandradar-report/assets/sprints/sprint-3/service-3.png)
+
+![Services Documentation Sprint 3 - 4](brandradar-report/assets/sprints/sprint-3/service-4.png)
+
+
+![Services Documentation Sprint 3 - 5](brandradar-report/assets/sprints/sprint-3/service-5.png)
 
 <br>
 
@@ -4443,28 +4396,27 @@ A continuación se presentan capturas de la documentación Swagger UI y las prue
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
-Durante el Sprint 3 se realizó el despliegue del Web Service de BrandRadar utilizando **Railway** como plataforma de hosting, integrada directamente con el repositorio oficial del proyecto en GitHub. El despliegue permitió validar en un entorno cloud accesible públicamente los endpoints de autenticación, gestión de `BrandWorkspace` y autorización contextual implementados durante el sprint, con una base de datos MySQL provisionada en el mismo entorno.
+Durante el Sprint 3 se realizó el despliegue del Web Service de BrandRadar utilizando **Railway** como plataforma de hosting, integrada directamente con el repositorio oficial del proyecto en GitHub. El despliegue permitió validar en un entorno cloud accesible públicamente los endpoints de autenticación, gestión de `BrandWorkspace`, monitoreo de reputación y el pipeline automático de análisis de sentimiento implementados durante el sprint, con una base de datos MySQL provisionada en **Azure Database for MySQL Flexible Server**.
 
 <br>
 
 **Deployment Process:**
 
-1. Ingresar al repositorio del proyecto en GitHub y vincular el repositorio `BrandRadar-Backend` con un nuevo proyecto en Railway.
-2. Crear un servicio MySQL dentro del proyecto en Railway y obtener las credenciales de conexión generadas automáticamente.
-3. Configurar las variables de entorno en Railway con los valores correspondientes al entorno de producción:
-   - `DB_URL` — URL de conexión JDBC a la base de datos MySQL provisionada en Railway.
-   - `DB_USER` y `DB_PASS` — credenciales de acceso a la base de datos.
-   - `JWT_SECRET` — clave secreta para la firma y validación de tokens JWT (HS256).
-   - `JWT_EXPIRATION_MS` — tiempo de expiración del access token en milisegundos.
-   - `SPRING_PROFILES_ACTIVE=prod` — activa el perfil de producción con configuración de datasource por variables de entorno.
-4. Crear el archivo `application-prod.properties` con configuración de datasource apuntando a variables de entorno y Hibernate DDL en modo `update`.
-5. Habilitar el despliegue automático desde la rama `main` del repositorio en GitHub.
-6. Railway ejecuta automáticamente el build del proyecto con Maven (`mvn clean package`) y levanta el servicio en un contenedor.
-7. Verificar la ejecución correcta de las migraciones Flyway (V1–V4) en la base de datos MySQL de producción.
+1. Crear una instancia de **Azure Database for MySQL Flexible Server** (`brandradar-db.mysql.database.azure.com`) con el tier Burstable B1ms para entorno de desarrollo.
+2. Conectar MySQL Workbench a la base de datos Azure y ejecutar el script de estructura con las 31 tablas del modelo de dominio.
+3. Poblar la base de datos con los datos iniciales de usuarios, workspaces y brands usando scripts SQL.
+4. Ingresar a Railway y vincular el repositorio `BrandRadar-Web-Services` desde GitHub, configurando el Root Directory como `brandradar-backend`.
+5. Configurar las variables de entorno en Railway con los valores correspondientes al entorno de producción:
+   - `SPRING_DATASOURCE_URL` — URL de conexión JDBC a la base de datos MySQL en Azure.
+   - `SPRING_DATASOURCE_USERNAME` y `SPRING_DATASOURCE_PASSWORD` — credenciales de acceso.
+   - `GROQ_API_KEY` — clave para el modelo llama-3.3-70b-versatile de análisis de sentimiento con IA.
+   - `JWT_SECRET` — clave secreta para firma y validación de tokens JWT.
+   - `YOUTUBE_API_KEY` — clave para ingesta de comentarios reales desde YouTube Data API v3.
+   - `GOOGLE_SEARCH_API_KEY` y `GOOGLE_SEARCH_ENGINE_ID` — claves para búsqueda web.
+6. Railway detecta automáticamente el proyecto Maven/Spring Boot y ejecuta el build con Java 21.
+7. Verificar la ejecución correcta del pipeline automático de reputación en los logs de Railway.
 8. Validar el correcto funcionamiento de los endpoints accediendo a la URL pública del servicio.
-9. Verificar la documentación interactiva de la API en Swagger UI (`/swagger-ui/index.html`).
-
-
+9. Verificar la documentación interactiva de la API en Swagger UI.
 
 **URL del Web Service desplegado:** `https://brandradar-backend.azurewebsites.net/swagger-ui.html`
 
@@ -4514,7 +4466,10 @@ La colaboración se fortaleció mediante integraciones frecuentes hacia `develop
 
 <br>
 
-![Team Collaboration Sprint 3](brandradar-report/assets/sprints/sprint-3/sprint3-collaboration.png)
+![Team Collaboration Sprint 3](brandradar-report/assets/sprints/sprint-3/commits.png)
+
+
+![Team Collaboration Sprint 3](brandradar-report/assets/sprints/sprint-3/network.png)
 
 <br>
 
@@ -4821,15 +4776,6 @@ Para este segmento, la sesión de validación busca confirmar si BrandRadar redu
 
 El video About-the-Product de BrandRadar presenta una visión general del producto, sus principales funcionalidades y la propuesta de valor para agencias digitales y PyMEs que necesitan gestionar la reputación de sus marcas de manera profesional y segura.
 
-El video cubre los siguientes aspectos:
-
-- Presentación del problema reputacional que resuelve BrandRadar.
-- Demostración del flujo de onboarding: registro, verificación y configuración del primer `BrandWorkspace`.
-- Visualización del `MentionStream` y los filtros de sentimiento disponibles.
-- Demostración de la detección y gestión de `ReputationIncident`.
-- Presentación del dashboard reputacional con `SentimentScore` y tendencias.
-- Comunicación del modelo de aislamiento de información entre clientes por `BrandWorkspace`.
-
 [Ver Video About-the-Product de BrandRadar](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202410239_upc_edu_pe/IgCY33XTNcmZQZI3KLIUXU6yATnu9ITeb3ZMtEUUqnQmvvA?e=INFJYg)
 
 <br> 
@@ -4838,48 +4784,29 @@ El video cubre los siguientes aspectos:
 
 ## Conclusiones
 
+1. Se implementó exitosamente el pipeline automático de monitoreo de reputación que integra comentarios reales de YouTube Data API v3 con menciones generadas por inteligencia artificial (Groq AI / llama-3.3-70b-versatile), logrando un flujo completo de ingesta, análisis de sentimiento y detección de crisis que se ejecuta de forma autónoma cada 5 minutos.
 
-1. La adopción de Domain-Driven Design como base arquitectónica del proyecto permitió delimitar con claridad los bounded contexts del sistema (Identidad y Acceso Seguro, Configuración Estratégica de Marca, Motor de Reputación en Tiempo Real), lo que facilitó la distribución del trabajo entre los integrantes del equipo sin generar conflictos de integración. Esta separación de responsabilidades demostró ser un factor determinante para mantener la coherencia técnica del sistema a medida que el proyecto escaló de un prototipo frontend hacia un Web Service real con persistencia en MySQL.
+2. La arquitectura de Domain-Driven Design (DDD) aplicada al backend permitió organizar los 6 bounded contexts (IAM, BrandWorkspace, ReputationMonitoring, CrisisDetection, SentimentIntelligence, InfrastructureHealth) de manera modular e independiente, facilitando el desarrollo paralelo y la escalabilidad del sistema.
 
-2. El uso de una Fake API basada en json-server durante el Sprint 2 como contrato provisional entre el frontend Angular y el backend en desarrollo resultó ser una estrategia efectiva para desacoplar el trabajo paralelo de ambas capas. Sin embargo, la experiencia confirmó que los contratos de API deben formalizarse desde el inicio del sprint mediante especificaciones OpenAPI, ya que las discrepancias entre la Fake API y los endpoints reales del Sprint 3 generaron trabajo adicional de adaptación durante la integración.
+3. La integración de Groq AI como motor de análisis de sentimiento demostró ser una solución efectiva para procesar menciones en español peruano con alta variabilidad de contenido, generando scores de reputación precisos y diagnósticos de crisis contextualizados para cada marca monitoreada.
 
-3. La implementación del Web Service con Spring Boot 3 y Java 21 durante el Sprint 3 demostró que una arquitectura en capas orientada a DDD (Controller → Service → Repository), combinada con migraciones de base de datos gestionadas con Flyway, permite incorporar nuevos bounded contexts de manera incremental sin afectar la estabilidad de los módulos ya desplegados. Los 47 story points comprometidos fueron completados dentro del plazo, validando la viabilidad del stack tecnológico elegido para el contexto del proyecto.
+4. El despliegue del backend en Railway conectado a Azure Database for MySQL Flexible Server validó la viabilidad de una arquitectura cloud híbrida, donde la base de datos permanece en Azure por su robustez y el servicio de aplicación se aloja en Railway por su simplicidad de configuración y despliegue continuo desde GitHub.
 
-4. La integración de la Groq API con el modelo llama-3.3-70b-versatile para el Crisis Response Engine evidenció que es posible incorporar capacidades de inteligencia artificial generativa en sistemas de producción sin incurrir en costos adicionales significativos, aprovechando modelos open-weight de alto rendimiento disponibles de forma gratuita. Esta decisión técnica permitió agregar valor diferencial al dashboard de BrandRadar sin comprometer los plazos del sprint ni aumentar la complejidad de la infraestructura de despliegue.
+5. La implementación del endpoint de dashboard agregado (`GET /api/v1/dashboard/workspace/{id}`) redujo significativamente la complejidad del frontend al consolidar en una sola respuesta el score de sentimiento, menciones recientes, fuente más activa, incidentes activos y análisis de crisis generado por IA, optimizando el rendimiento de la aplicación.
 
-5. El diseño e implementación del WorkspaceAuthorizationFilter como mecanismo centralizado de autorización contextual a nivel de middleware demostró ser más robusto y escalable que una validación de ownership distribuida en cada endpoint. Al interceptar todas las solicitudes que incluyen un workspaceId en el path y validar la pertenencia antes de que lleguen al controlador, se garantizó el aislamiento de información entre clientes de forma sistemática, reduciendo el riesgo de filtraciones por omisión en endpoints futuros.
-
-6. A lo largo del proyecto, la comunicación efectiva —tanto oral durante las reuniones de sincronización y exposiciones de sprint, como escrita a través de la documentación técnica, los contratos de API en Swagger y los mensajes de commit estructurados— fue un factor crítico para mantener la alineación del equipo sobre las decisiones arquitectónicas. La experiencia confirmó que en proyectos con desarrollo distribuido por bounded contexts, la calidad de la comunicación técnica escrita impacta directamente en la velocidad de integración y en la capacidad de detectar inconsistencias antes del despliegue.
-
-
-<br>
-
----
-
-## Recomendaciones
-
-1. Para futuros sprints, se recomienda definir los contratos de API mediante especificaciones OpenAPI completas antes de iniciar cualquier desarrollo de frontend o backend, eliminando la dependencia de una Fake API como mecanismo de sincronización. Establecer este contrato como fuente de verdad compartida desde el inicio del sprint reduciría el trabajo de adaptación durante la integración y permitiría detectar inconsistencias en el diseño de los endpoints antes de que sean costosas de corregir.
-
-2. Se recomienda implementar un pipeline de integración continua con GitHub Actions que ejecute automáticamente las pruebas unitarias y de integración al hacer push a las ramas feature/ y al abrir pull requests hacia develop. Esto permitiría detectar regresiones entre bounded contexts de forma temprana, sin depender exclusivamente de la revisión manual durante los sprint reviews.
-
-3. A fin de avanzar hacia un producto con datos reales, se recomienda reemplazar el MockMentionProvider por un conector a al menos una fuente de datos externa (por ejemplo, la API de Google News o el RSS de medios digitales locales), de modo que el Motor de Reputación procese menciones reales en lugar de distribuciones simuladas. Esta transición permitiría validar con mayor precisión la utilidad del SentimentScore y la detección automática de incidentes en condiciones de uso real.
-
-4. Se recomienda incorporar paginación y filtrado por cursor en los endpoints de MentionStream y del Dashboard para garantizar que el tiempo de respuesta se mantenga dentro de límites aceptables a medida que el volumen de menciones por workspace crezca. Sin esta optimización, workspaces con alta actividad podrían experimentar degradaciones de rendimiento que afectarían la experiencia del usuario en producción.
-
-5. Para ampliar el alcance del producto hacia el Segmento 2 (especialistas de marketing que gestionan múltiples clientes), se recomienda diseñar e implementar un modelo de roles dentro del BrandWorkspace (propietario, colaborador, observador) que permita que varios miembros de un equipo accedan al mismo espacio con diferentes niveles de permiso. Esta funcionalidad transformaría BrandRadar de una herramienta individual a una plataforma colaborativa, aumentando significativamente su propuesta de valor para agencias digitales.
-
-6. Se recomienda mantener el Ubiquitous Language (Sección 2.5) como un documento vivo vinculado directamente desde el repositorio del proyecto, actualizado a medida que evolucionen los bounded contexts. En el estado actual, los términos del dominio están documentados en el informe pero no están referenciados desde el código fuente, lo que genera una brecha entre la documentación y la implementación que se acentúa a medida que el equipo incorpora nuevos integrantes o retoma el proyecto después de un período de inactividad.
-
-7. Para fortalecer el capítulo de validación del informe final (TB2), se recomienda complementar la metodología Think-Aloud de las entrevistas de validación con métricas cuantitativas de usabilidad, como la tasa de completitud de tareas y el tiempo por tarea. La combinación de evidencia cualitativa (percepciones y verbalizaciones del entrevistado) con evidencia cuantitativa (datos medibles de comportamiento) permitirá construir argumentos más sólidos sobre la usabilidad y el valor percibido de BrandRadar ante los evaluadores del curso.
-
+6. La deduplicación de menciones por `sourceUrl` y el uso de proveedores configurables (YouTubeProvider, MockMentionProvider) establecieron una base sólida para incorporar en futuros sprints nuevas fuentes de datos reales como Reddit, Twitter e Instagram sin modificar la lógica central del pipeline de reputación.
+ 
 
 <br>
+
 
 ---
 
 ## Video About-The-Team
 
-[Ver Video About-the-Team de BrandRadar](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202410239_upc_edu_pe/IgCc_c1lhu_oQIJEGp52VZ36AbvOqnpE-PZE35QzLRyr400?e=QcYeYG)
+
+[Ver Video About-the-Team de BrandRadar](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202410239_upc_edu_pe/IgCXUNHowWBSS6nlY18dFs7JAeyh7OpXMiejy2ojPa0Wnl4?e=BrqmCa)
+
 
 <br>
 
