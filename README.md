@@ -4466,7 +4466,7 @@ Durante el Sprint 3 se realizó el despliegue del Web Service de BrandRadar util
 
 
 
-**URL del Web Service desplegado:** `https://brandradar-backend.up.railway.app`
+**URL del Web Service desplegado:** `https://brandradar-backend.azurewebsites.net/swagger-ui.html`
 
 <br>
 
