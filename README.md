@@ -4783,8 +4783,242 @@ Para este segmento, la sesión de validación busca confirmar si BrandRadar redu
 
 ### 5.3.3. Evaluaciones según heurísticas
 
-<br>
+### UX Heuristics & Principles Evaluation
+**Usability – Inclusive Design – Information Architecture**
 
+| Campo | Detalle |
+|-------|---------|
+| CARRERA | Ingeniería de Software |
+| CURSO | Desarrollo de Aplicaciones Open Source - 1ASI0729 |
+| SECCIÓN | NRC 11863 |
+| PROFESORES | Ivan Robles Fernandez |
+| AUDITOR | Metrix |
+| CLIENTE(S) | BrandRadar Team |
+| SITE A EVALUAR | Landing Page: https://brandradar-landing-page.netlify.app/ / Web Application: |
+
+---
+
+### TAREAS A EVALUAR
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Navegación general del Landing Page (Hero, Características, Beneficios, Precios, Testimonios)
+2. Seguimiento del call-to-action principal ("Probar gratis" / "Empezar ahora")
+3. Cambio de idioma ES/EN en el Landing Page
+4. Inicio de sesión con credenciales válidas
+5. Cambio de idioma entre español e inglés
+6. Recuperación de contraseña
+7. Navegación general desde el sidebar
+8. Visualización del Dashboard de Reputación
+9. Gestión de incidentes activos (Ver / Resolver)
+10. Exportación de reporte desde el dashboard
+11. Cierre de sesión
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1. Gestión de Menciones (página sin implementar)
+2. Vista de Incidentes (página sin implementar)
+3. Gestión de Mis Marcas (página sin implementar)
+4. Configuración de Reglas de monitoreo (página sin implementar)
+5. Reportes (sin página ni ruta)
+6. Infraestructura (sin página ni ruta)
+7. Registro de nuevo usuario y onboarding
+
+---
+
+### ESCALA DE SEVERIDAD
+
+| Nivel | Descripción |
+|-------|-------------|
+| 1 | Problema superficial: puede ser fácilmente superado por el usuario u ocurre con muy poca frecuencia. No necesita ser corregido a menos que exista disponibilidad de tiempo. |
+| 2 | Problema menor: puede ocurrir con más frecuencia o es algo más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
+| 3 | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante que sea corregido y se le debe asignar una prioridad alta. |
+| 4 | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+---
+
+### TABLA RESUMEN
+
+| # | Problema | Severidad | Heurística / Principio violado |
+|---|----------|-----------|-------------------------------|
+| 1 | Los ítems del sidebar no tenían rutas registradas y redirigían al login | 4 | Usability: Control y libertad del usuario |
+| 2 | Las páginas de Incidentes, Menciones, Mis Marcas y Reglas no tienen contenido implementado | 4 | Usability: Visibilidad del estado del sistema |
+| 3 | El selector de idioma ES/EN desaparece al ingresar al dashboard y pantallas internas | 3 | Usability: Consistencia y estándares / i18n |
+| 4 | Los botones "Ver" y "Ver todos →" de los incidentes activos navegan a una página sin contenido | 3 | Usability: Visibilidad del estado del sistema |
+| 5 | El panel "Estado de fuentes" presenta datos demo estáticos como si fueran información en tiempo real | 2 | Usability: Visibilidad del estado del sistema |
+| 6 | La pantalla de confirmación de recuperación de contraseña no distingue si el correo existe en el sistema | 2 | Usability: Prevención de errores |
+| 7 | El Reputation Index no incluye leyenda ni explicación de la escala numérica | 2 | Usability: Reconocimiento antes que recuerdo |
+| 8 | El botón "Resolver" de un incidente no proporciona feedback visual tras ejecutarse | 2 | Usability: Visibilidad del estado del sistema |
+| 9 | Los botones CTA "Probar gratis" y "Empezar ahora →" no permiten completar el inicio de sesión | 4 | Usability: Control y libertad del usuario / Visibilidad del estado del sistema |
+| 10 | El botón secundario "Cómo funciona" no desplaza ni enlaza a ninguna sección de contenido | 2 | Usability: Visibilidad del estado del sistema |
+
+---
+
+### DESCRIPCIÓN DE PROBLEMAS
+
+---
+
+#### PROBLEMA #1: Los ítems del sidebar no tenían rutas registradas y redirigían al login
+
+- **Severidad:** 4
+- **Heurística violada:** Usability — Control y libertad del usuario
+- **Plan afectado:** Todos
+
+**Problema:**
+Al hacer clic en cualquier ítem del sidebar (Incidentes, Menciones, Mis Marcas, Reglas, Reportes, Infraestructura), la aplicación redirigía al usuario al formulario de login en lugar de navegar a la sección correspondiente. Esto ocurría porque los enlaces del sidebar solo actualizaban el estado visual del ítem activo (`activeNav = item.label`) pero no ejecutaban ninguna navegación real, y las rutas correspondientes no estaban registradas en el enrutador de Angular. El usuario quedaba expulsado de la sesión activa sin ningún aviso, lo que constituye un fallo crítico de navegación.
+
+**Recomendación:**
+Registrar todas las rutas en el módulo de enrutamiento de Angular y conectar cada ítem del sidebar con su ruta correspondiente mediante `routerLink` o llamando a `router.navigate()`. Verificar que el guard de autenticación no redirija rutas válidas al login por error de configuración.
+
+---
+
+#### PROBLEMA #2: Las páginas de Incidentes, Menciones, Mis Marcas y Reglas no tienen contenido implementado
+
+- **Severidad:** 4
+- **Heurística violada:** Usability — Visibilidad del estado del sistema
+- **Plan afectado:** Todos
+
+**Problema:**
+Las cuatro secciones principales de la aplicación (Incidentes, Menciones, Mis Marcas, Reglas) existen como componentes en el código pero no tienen interfaz implementada. Sus plantillas HTML contienen únicamente el texto de marcador de posición generado automáticamente por Angular CLI (`"incidents works!"`, `"mentions works!"`, etc.). El usuario que navega a cualquiera de estas secciones encuentra una página completamente en blanco sin mensaje explicativo, sin acciones disponibles y sin posibilidad de realizar ninguna tarea del sistema.
+
+**Recomendación:**
+Implementar el contenido de cada página o, como medida temporal antes del lanzamiento, mostrar un estado vacío explícito con mensaje descriptivo ("Esta sección estará disponible próximamente") y un enlace de regreso al dashboard. Un estado vacío informativo es siempre preferible a una página en blanco.
+
+---
+
+#### PROBLEMA #3: El selector de idioma ES/EN desaparece al ingresar al dashboard
+
+- **Severidad:** 3
+- **Heurística violada:** Usability — Consistencia y estándares / i18n
+- **Plan afectado:** Todos
+
+**Problema:**
+Las pantallas de autenticación (login, recuperar contraseña) ofrecen un selector visible de idioma entre español e inglés. Sin embargo, una vez que el usuario inicia sesión y accede al dashboard y resto de pantallas internas, dicho selector desaparece por completo. El usuario pierde la capacidad de cambiar el idioma de la aplicación una vez dentro, y no existe ningún menú de configuración de perfil ni ajuste alternativo que lo reemplace. Esto genera una inconsistencia directa entre las pantallas públicas y las pantallas autenticadas.
+
+**Recomendación:**
+Mantener el selector de idioma disponible en toda la aplicación, ya sea en el header del dashboard o en un menú de perfil de usuario. La preferencia de idioma debe persistir durante toda la sesión y guardarse en `localStorage` para sesiones futuras.
+
+---
+
+#### PROBLEMA #4: Los botones "Ver" y "Ver todos →" de incidentes navegan a una página sin contenido
+
+- **Severidad:** 3
+- **Heurística violada:** Usability — Visibilidad del estado del sistema
+- **Plan afectado:** Todos
+
+**Problema:**
+En la sección "Incidentes activos" del dashboard, cada incidente muestra un botón "Ver" que debe llevar al detalle del incidente, y el encabezado de la sección incluye un enlace "Ver todos →" para acceder al listado completo. Ambas acciones navegan a la ruta `/incidents`, cuya página no tiene contenido implementado (ver problema #2). El usuario que hace clic esperando encontrar información detallada sobre un incidente crítico se encuentra con una página vacía sin ninguna explicación, lo que genera desconfianza especialmente en el contexto de alertas activas.
+
+**Recomendación:**
+Implementar la vista de incidentes con al menos el listado básico de alertas activas. Como solución temporal, deshabilitar los botones "Ver" y ocultar el enlace "Ver todos →" hasta que la página esté disponible, evitando dirigir al usuario a un destino vacío.
+
+---
+
+#### PROBLEMA #5: El panel "Estado de fuentes" presenta datos estáticos como si fueran información en tiempo real
+
+- **Severidad:** 2
+- **Heurística violada:** Usability — Visibilidad del estado del sistema
+- **Plan afectado:** Todos
+
+**Problema:**
+El panel "Estado de fuentes" del dashboard muestra Twitter/X, Instagram y Google Reviews con indicadores de estado ("Conectado", "Degradado") y tiempos de verificación precisos ("Verificado hace 2 min", "Verificado hace 3 min", "Verificado hace 8 min"). Estos datos son valores hardcodeados en el componente y no provienen de ninguna fuente real. Google Reviews aparece siempre como "Degradado" independientemente del estado real. El usuario interpreta esta información como datos actualizados y podría tomar decisiones basadas en un estado que no es real.
+
+**Recomendación:**
+Si el endpoint de estado de fuentes no está disponible, mostrar los íconos de las plataformas sin estado de conexión, o indicar explícitamente "Estado no disponible" en lugar de mostrar datos inventados. Los datos demo no deben presentarse con apariencia de información operativa real.
+
+---
+
+#### PROBLEMA #6: La confirmación de recuperación no distingue si el correo existe en el sistema
+
+- **Severidad:** 2
+- **Heurística violada:** Usability — Prevención de errores
+- **Plan afectado:** Todos
+
+**Problema:**
+Al ingresar cualquier correo electrónico en el formulario "Recuperar contraseña" y hacer clic en "Enviar enlace", la aplicación siempre muestra la pantalla de confirmación "¡Correo enviado!" independientemente de si el correo ingresado está registrado en el sistema o no. La Fake API no implementa este endpoint, por lo que en ningún caso se envía un correo real. El usuario no puede saber si escribió mal su correo o si simplemente no está registrado.
+
+**Recomendación:**
+Implementar el endpoint `/auth/forgot-password` en el middleware de json-server que valide si el correo existe en `registered_users` y devuelva una respuesta diferenciada. Mostrar al usuario un mensaje claro si el correo no está registrado, sin necesidad de revelar información de seguridad sensible.
+
+---
+
+#### PROBLEMA #7: El Reputation Index no incluye leyenda ni explicación de la escala
+
+- **Severidad:** 2
+- **Heurística violada:** Usability — Reconocimiento antes que recuerdo
+- **Plan afectado:** Todos
+
+**Problema:**
+El "Reputation Index" mostrado en el dashboard presenta un valor numérico (90 en el ejemplo) con un color de semáforo (verde, ámbar o rojo), pero no existe ninguna leyenda, tooltip ni texto explicativo que indique al usuario qué significa ese número, qué escala usa (¿de 0 a 100? ¿de 0 a 1000?), ni qué representa el color. Un usuario que accede por primera vez no tiene forma de interpretar este indicador sin conocimiento previo del sistema.
+
+**Recomendación:**
+Agregar un tooltip al pasar el cursor sobre el Reputation Index que explique brevemente la escala y el significado del color ("90 / 100 — Reputación saludable. Verde: ≥70, Ámbar: 45-69, Rojo: <45"). Complementar con un enlace a la documentación o un modal de ayuda si el espacio no permite el texto completo.
+
+---
+
+#### PROBLEMA #8: El botón "Resolver" de un incidente no proporciona feedback visual tras ejecutarse
+
+- **Severidad:** 2
+- **Heurística violada:** Usability — Visibilidad del estado del sistema
+- **Plan afectado:** Todos
+
+**Problema:**
+Al hacer clic en el botón "Resolver" de un incidente activo, la tarjeta desaparece del listado sin ningún mensaje de confirmación, animación de transición ni notificación que indique al usuario que la acción se completó correctamente. La ausencia de feedback hace que el usuario no sepa con certeza si el incidente fue resuelto, si hubo un error, o si simplemente la tarjeta desapareció por otro motivo.
+
+**Recomendación:**
+Mostrar una notificación breve usando el componente `SnackbarComponent` del proyecto ("Incidente marcado como resuelto") al completar la acción. Opcionalmente, aplicar una animación de salida a la tarjeta antes de eliminarla del listado para que la desaparición no sea abrupta.
+
+---
+
+#### PROBLEMA #9: Los botones CTA "Probar gratis" y "Empezar ahora →" no permiten completar el inicio de sesión
+
+- **Severidad:** 4
+- **Heurística violada:** Usability — Control y libertad del usuario / Visibilidad del estado del sistema
+- **Plan afectado:** Todos
+
+**Problema:**
+El llamado a la acción principal del Landing Page se materializa en dos botones: "Probar gratis →" ubicado en la sección Hero y "Empezar ahora →" presente de forma persistente en el header de navegación. Al hacer clic, el flujo de inicio de sesión o registro se inicia pero no puede completarse satisfactoriamente: el proceso falla antes de que el usuario pueda autenticarse o crear una cuenta, quedando bloqueado sin mensaje de error informativo ni ruta alternativa. Dado que estos botones son el único punto de conversión de la landing, su mal funcionamiento impide por completo que cualquier visitante acceda al producto desde esta página.
+
+**Recomendación:**
+Verificar que el endpoint de autenticación esté operativo y que el flujo de registro/login vinculado a los CTAs esté correctamente conectado al backend. Implementar mensajes de error claros que indiquen al usuario qué ocurrió y qué puede hacer. Como medida temporal, redirigir el CTA a un formulario de lista de espera o contacto si el flujo completo no está disponible, evitando dejar al usuario en un estado de error sin salida.
+
+---
+
+#### PROBLEMA #10: El botón secundario "Cómo funciona" no desplaza ni enlaza a ninguna sección de contenido
+
+- **Severidad:** 2
+- **Heurística violada:** Usability — Visibilidad del estado del sistema
+- **Plan afectado:** Todos
+
+**Problema:**
+La sección Hero del Landing Page presenta junto al CTA principal un botón secundario con la etiqueta "Cómo funciona". El texto implica que al hacer clic el usuario será dirigido a una sección explicativa, ya sea mediante desplazamiento hacia un anclaje de la misma página o hacia una vista dedicada. Sin embargo, el botón no ejecuta ninguna de estas acciones: no realiza scroll a ningún anclaje y no navega a ninguna ruta, haciendo que la interacción no produzca efecto visible alguno. El usuario queda desorientado sin saber si el clic fue registrado o si el contenido prometido existe.
+
+**Recomendación:**
+Vincular el botón a un anclaje `#caracteristicas` dentro del propio Landing Page que desplace la vista hasta la sección de Características o Beneficios. Si la sección aún no está implementada, deshabilitar el botón visualmente o eliminarlo hasta que el destino esté disponible.
+
+---
+
+### Conclusión general de la auditoría
+
+La evaluación identificó **10 problemas** en total, distribuidos de la siguiente manera:
+
+- **Severidad 4 (imperativo corregir):** #1, #2, #9 — 3 problemas
+- **Severidad 3 (prioridad alta):** #3, #4 — 2 problemas
+- **Severidad 2 (prioridad media):** #5, #6, #7, #8, #10 — 5 problemas
+
+Se identificaron dos patrones sistémicos que afectan la experiencia global del producto:
+
+**1. Implementación incompleta de vistas principales:** Los problemas #1, #2 y #4 comparten la misma causa raíz: la mayor parte de las secciones de la aplicación (Incidentes, Menciones, Mis Marcas, Reglas, Reportes, Infraestructura) fueron declaradas en el código pero no desarrolladas. El usuario solo puede interactuar de forma real con el login, la recuperación de contraseña y el dashboard. Esto representa una brecha crítica entre la propuesta de valor del producto y su estado actual de entrega.
+
+**2. Desconexión entre Landing Page y Web Application:** Los problemas #9 y #10 evidencian que el flujo de conversión desde el Landing Page no está operativo. El punto de entrada principal al producto (CTA "Probar gratis") bloquea al usuario antes de que pueda completar el registro o inicio de sesión, lo que anula el propósito de captación de la landing. Esta desconexión entre la capa de marketing y la capa funcional es el problema más urgente de cara a cualquier demo o lanzamiento.
+
+Los problemas más urgentes a resolver antes de cualquier entrega o demo son:
+
+- **#9:** El CTA principal del Landing Page no permite completar el acceso al producto.
+- **#1 y #2:** Las secciones principales de la app son inaccesibles o están vacías.
+- **#3:** La ausencia del selector de idioma dentro de la app deja incompleto el sistema i18n.
+
+<br>
 
 ---
 
