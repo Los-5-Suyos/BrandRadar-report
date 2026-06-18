@@ -4396,31 +4396,32 @@ A continuación se presentan capturas de la documentación Swagger UI y las prue
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
-Durante el Sprint 3 se realizó el despliegue del Web Service de BrandRadar utilizando **Railway** como plataforma de hosting, integrada directamente con el repositorio oficial del proyecto en GitHub. El despliegue permitió validar en un entorno cloud accesible públicamente los endpoints de autenticación, gestión de `BrandWorkspace`, monitoreo de reputación y el pipeline automático de análisis de sentimiento implementados durante el sprint, con una base de datos MySQL provisionada en **Azure Database for MySQL Flexible Server**.
+Durante el Sprint 3 se realizó el despliegue del Web Service de BrandRadar utilizando **Railway** como plataforma de hosting, integrada directamente con el repositorio oficial del proyecto en GitHub. El despliegue permitió validar en un entorno cloud accesible públicamente los endpoints de autenticación, gestión de `BrandWorkspace`, monitoreo de reputación y el pipeline automático de análisis de sentimiento implementados durante el sprint, con una base de datos MySQL provisionada en el mismo entorno de Railway.
 
-<br>
 
-**Deployment Process:**
+## Deployment Process:
 
-1. Crear una instancia de **Azure Database for MySQL Flexible Server** (`brandradar-db.mysql.database.azure.com`) con el tier Burstable B1ms para entorno de desarrollo.
-2. Conectar MySQL Workbench a la base de datos Azure y ejecutar el script de estructura con las 31 tablas del modelo de dominio.
-3. Poblar la base de datos con los datos iniciales de usuarios, workspaces y brands usando scripts SQL.
-4. Ingresar a Railway y vincular el repositorio `BrandRadar-Web-Services` desde GitHub, configurando el Root Directory como `brandradar-backend`.
-5. Configurar las variables de entorno en Railway con los valores correspondientes al entorno de producción:
-   - `SPRING_DATASOURCE_URL` — URL de conexión JDBC a la base de datos MySQL en Azure.
-   - `SPRING_DATASOURCE_USERNAME` y `SPRING_DATASOURCE_PASSWORD` — credenciales de acceso.
+1. Ingresar a Railway y crear un nuevo proyecto con dos servicios: el backend Spring Boot y una base de datos MySQL provisionada directamente en Railway.
+2. Railway genera automáticamente las credenciales de conexión a la base de datos MySQL interna del proyecto.
+3. Conectar MySQL Workbench a la base de datos Railway y ejecutar el script de estructura con las 31 tablas del modelo de dominio.
+4. Poblar la base de datos con los datos iniciales de usuarios, workspaces y brands usando scripts SQL.
+5. Vincular el repositorio `BrandRadar-Web-Services` desde GitHub al servicio de backend, configurando el Root Directory como `brandradar-backend`.
+6. Configurar las variables de entorno en Railway con los valores correspondientes al entorno de producción:
+   - `SPRING_DATASOURCE_URL` — URL de conexión JDBC a la base de datos MySQL provisionada en Railway.
+   - `SPRING_DATASOURCE_USERNAME` y `SPRING_DATASOURCE_PASSWORD` — credenciales de acceso generadas por Railway.
    - `GROQ_API_KEY` — clave para el modelo llama-3.3-70b-versatile de análisis de sentimiento con IA.
    - `JWT_SECRET` — clave secreta para firma y validación de tokens JWT.
    - `YOUTUBE_API_KEY` — clave para ingesta de comentarios reales desde YouTube Data API v3.
    - `GOOGLE_SEARCH_API_KEY` y `GOOGLE_SEARCH_ENGINE_ID` — claves para búsqueda web.
-6. Railway detecta automáticamente el proyecto Maven/Spring Boot y ejecuta el build con Java 21.
-7. Verificar la ejecución correcta del pipeline automático de reputación en los logs de Railway.
-8. Validar el correcto funcionamiento de los endpoints accediendo a la URL pública del servicio.
-9. Verificar la documentación interactiva de la API en Swagger UI.
-
-**URL del Web Service desplegado:** `https://brandradar-backend.azurewebsites.net/swagger-ui.html`
+7. Railway detecta automáticamente el proyecto Maven/Spring Boot y ejecuta el build con Java 21.
+8. Verificar la ejecución correcta del pipeline automático de reputación en los logs de Railway.
+9. Validar el correcto funcionamiento de los endpoints accediendo a la URL pública del servicio.
+10. Verificar la documentación interactiva de la API en Swagger UI.
 
 <br>
+
+**URL del Web Service desplegado:** `https://brandradar-backend.up.railway.app`
+
 
 **Documentación Swagger UI:** `https://brandradar-backend.up.railway.app/swagger-ui/index.html`
 
@@ -4642,7 +4643,10 @@ Para este segmento, la sesión de validación busca confirmar si BrandRadar redu
 **Resumen:**
 
 </div>
+
 <br>
+
+<div align="center">
 
 #### Entrevista 2
 
@@ -4663,8 +4667,11 @@ Para este segmento, la sesión de validación busca confirmar si BrandRadar redu
 | **Enlace al video** | [Ver entrevista en Microsoft Stream](https://) |
 
 **Resumen:**
+</div>
 
 <br>
+
+<div align="center">
 
 #### Entrevista 3
 
@@ -4685,6 +4692,8 @@ Para este segmento, la sesión de validación busca confirmar si BrandRadar redu
 | **Enlace al video** | [Ver entrevista en Microsoft Stream](https://) |
 
 **Resumen:**
+
+</div>
 
 <br>
 
@@ -4714,10 +4723,14 @@ Para este segmento, la sesión de validación busca confirmar si BrandRadar redu
 | **Duración** | `` |
 | **Enlace al video** | [Ver entrevista en Microsoft Stream](https://) |
 
+
 **Resumen:**
 
 </div>
+
 <br>
+<div align="center">
+
 
 #### Entrevista 2
 
@@ -4739,7 +4752,11 @@ Para este segmento, la sesión de validación busca confirmar si BrandRadar redu
 
 **Resumen:**
 
+</div>
+
 <br>
+
+<div align="center">
 
 #### Entrevista 3
 
@@ -4760,6 +4777,8 @@ Para este segmento, la sesión de validación busca confirmar si BrandRadar redu
 | **Enlace al video** | [Ver entrevista en Microsoft Stream](https://) |
 
 **Resumen:**
+
+</div>
 
 <br>
 
