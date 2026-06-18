@@ -4524,63 +4524,135 @@ La colaboración se fortaleció mediante integraciones frecuentes hacia `develop
 
 ### 5.3.1. Diseño de Entrevistas
 
+**Objetivo de las entrevistas de validación**
 
-**Objetivo de las entrevistas**
+El objetivo de las entrevistas de validación es contrastar, mediante la interacción directa de usuarios representativos de cada segmento objetivo con el Landing Page y la Aplicación Web ya implementados, los supuestos de diseño, la usabilidad y la propuesta de valor planteados durante el proceso de Lean UX y Needfinding. A diferencia de las entrevistas de Needfinding (Sección 2.2), centradas en comprender el problema antes de construir la solución, estas entrevistas se centran en observar cómo cada segmento utiliza BrandRadar para completar tareas reales, identificando brechas entre el comportamiento esperado y el comportamiento observado.
 
-El objetivo de las entrevistas es obtener retroalimentación directa de los usuarios potenciales sobre la usabilidad, funcionalidad y diseño de la plataforma BrandRadar. Se busca identificar áreas de mejora, validar supuestos de diseño y comprender mejor las necesidades y expectativas de los usuarios en el contexto de la gestión y monitoreo de reputación de marca.
+Cada sesión combina una dinámica de Think-Aloud —en la que el participante navega el Landing Page y ejecuta los user flows seleccionados mientras verbaliza sus pensamientos— con un bloque de preguntas semiestructuradas aplicado al finalizar cada tarea. El diseño de las preguntas se elaboró por segmento objetivo, dado que las prioridades, el vocabulario y los criterios de éxito difieren entre una PyME que gestiona su propia marca y un especialista de marketing que gestiona marcas de terceros.
 
- <br>
+<br>
 
-## Landing Page
+### Segmento 1: Pequeñas y medianas empresas y marcas digitales (PyMEs)
 
-La landing page de BrandRadar fue diseñada para captar la atención de los usuarios y proporcionar una visión clara de los beneficios y características de la plataforma. Se incluyeron secciones informativas sobre el producto, testimonios de usuarios, comparación de planes y llamados a la acción para incentivar a los visitantes a registrarse o solicitar más información.
+Para este segmento, la sesión de validación busca confirmar si BrandRadar permite, sin necesidad de personal especializado en comunicación, monitorear la reputación de la marca y reaccionar ante comentarios negativos con la misma o mayor rapidez que el proceso manual descrito en las entrevistas de Needfinding.
 
- <br>
+<br>
 
-#### Preguntas Landing Page 
+**Elementos a validar — Landing Page**
 
-- ¿Qué tan claro te resultó entender qué es BrandRadar y qué problema reputacional resuelve?
-- ¿El diseño, colores e imágenes te transmitieron confianza y profesionalismo para una herramienta de gestión de reputación?
-- ¿Encontraste fácilmente la información que buscabas (funcionalidades, planes, contacto)?
-- ¿Los botones o llamados a la acción te motivaron a registrarte o solicitar más información?
-- ¿Qué mejorarías para que la página sea más atractiva o clara para nuevos usuarios de agencias o PyMEs?
+- Claridad de la propuesta de valor para un dueño o gerente de PyME sin conocimientos técnicos de marketing digital.
+- Confianza generada por los testimonios y el lenguaje utilizado (¿se sienten representados por el tipo de negocio mostrado?).
+- Claridad de los planes y precios para un negocio de presupuesto limitado.
+- Facilidad para llegar al registro desde cualquier punto de la página (CTA).
 
- <br>
+<br>
 
-## Aplicación Web
+**User flows a validar — Aplicación Web**
 
-La aplicación web de BrandRadar fue desarrollada con un enfoque centrado en el usuario, priorizando la facilidad de navegación y la accesibilidad de las funciones clave. Se implementaron flujos intuitivos para la gestión de `BrandWorkspace`, monitoreo de menciones, análisis de sentimiento y gestión de incidentes reputacionales, asegurando que los usuarios puedan operar la plataforma de manera eficiente dentro del contexto de cada cliente.
+1. Registro y verificación de cuenta.
+2. Inicio de sesión y selección del `BrandWorkspace` de su negocio.
+3. Visualización del Dashboard reputacional.
+4. Revisión y respuesta de menciones en el `MentionStream`.
+5. Identificación y gestión de un `ReputationIncident`.
 
- <br>
+<br>
 
-### User flows a evaluar — Preguntas de la entrevista
+**Preguntas — Landing Page**
 
-**Registro y onboarding inicial**
-- ¿El proceso de registro te resultó claro y sencillo de completar?
-- ¿Comprendiste el propósito de la verificación de correo para activar tu cuenta?
-- ¿Qué mejorarías para que el onboarding sea más rápido o intuitivo?
+- ¿Qué tan claro te resultó entender qué es BrandRadar y qué problema reputacional resuelve, sin tener conocimientos técnicos de marketing digital?
+- ¿El diseño, los colores y las imágenes te transmitieron confianza para confiarle el monitoreo de la reputación de tu negocio?
+- ¿Te sentiste identificado con los testimonios o ejemplos de negocios mostrados en la página?
+- ¿La información sobre planes y precios fue suficiente para decidir si BrandRadar se ajusta al presupuesto de tu negocio?
+- ¿Qué cambiarías en la página para que un dueño de PyME como tú se registre con mayor confianza?
 
-**Configuración de BrandWorkspace**
-- ¿Fue fácil crear y configurar un `BrandWorkspace` para una marca?
-- ¿La configuración de palabras clave y fuentes de monitoreo refleja bien tu flujo de trabajo real?
-- ¿Qué función agregarías o cambiarías para gestionar mejor los workspaces de tus clientes?
+<br>
 
-**Monitoreo de menciones y MentionStream**
-- ¿Comprendiste fácilmente cómo funciona el listado de menciones y sus filtros?
-- ¿Los filtros por sentimiento, fuente y fecha te resultaron útiles para identificar riesgos reputacionales?
-- ¿Faltó algún tipo de dato o indicador que consideres importante en el flujo de menciones?
+**Preguntas — Aplicación Web**
 
-**Gestión de incidentes reputacionales**
-- ¿Fue intuitivo identificar y gestionar un `ReputationIncident` desde el sistema?
-- ¿Pudiste entender claramente cómo registrar una respuesta y hacer seguimiento al estado de un incidente?
+*Registro y onboarding*
+- ¿El proceso de registro y verificación de correo te resultó sencillo de completar sin ayuda de terceros?
+- ¿En algún momento sentiste que necesitabas conocimientos técnicos para avanzar?
 
-**Dashboard reputacional**
-- ¿Los indicadores del dashboard (SentimentScore, tendencias, menciones recientes) te resultaron claros y útiles para la toma de decisiones?
-- ¿Qué información adicional agregarías al dashboard para mejorar tu operación diaria?
+*Espacio de marca*
+- ¿Fue claro qué representa el perfil o espacio de tu marca dentro de la plataforma, y qué información contiene?
+- ¿La configuración inicial (palabras clave, fuentes) refleja cómo manejas hoy la información de tu negocio?
 
-**Control de acceso y confidencialidad**
-- ¿Sentiste confianza en que el sistema aísla correctamente la información entre distintos clientes?
-- ¿La pantalla de acceso no autorizado (403) te comunicó claramente lo que ocurrió?
+*MentionStream*
+- ¿Pudiste identificar con facilidad qué menciones requieren tu atención inmediata?
+- Comparado con tu proceso manual actual, ¿este flujo te ahorraría tiempo? ¿Aproximadamente cuánto?
+
+*ReputationIncident*
+- ¿Entendiste sin ayuda qué pasos seguir para responder a un comentario negativo desde la plataforma?
+- ¿Confiarías en gestionar una crisis de reputación usando únicamente esta herramienta, sin apoyo de una agencia?
+
+*Dashboard reputacional*
+- ¿Los indicadores que ves en el dashboard tienen sentido para ti sin que alguien te los explique?
+- ¿Qué información te falta para sentir que tienes control total sobre la reputación de tu marca?
+
+<br>
+
+---
+
+### Segmento 2: Especialistas de marketing o community managers
+
+Para este segmento, la sesión de validación busca confirmar si BrandRadar reduce la carga operativa de monitoreo manual multi-plataforma y multi-marca descrita en las entrevistas de Needfinding, y si la plataforma transmite el nivel de seguridad y profesionalismo que un especialista necesita para gestionar marcas de terceros.
+
+<br>
+
+**Elementos a validar — Landing Page**
+
+- Posicionamiento de BrandRadar como herramienta profesional frente a la combinación de herramientas gratuitas o manuales que usan actualmente.
+- Claridad de los planes orientados a la gestión de múltiples marcas o clientes.
+- Credibilidad de los testimonios de agencias y marcas reconocidas (p. ej. Bancolombia, Grupo Éxito).
+- Facilidad para encontrar información sobre alcance, integraciones y soporte antes de registrarse.
+
+<br>
+
+**User flows a validar — Aplicación Web**
+
+1. Inicio de sesión y selección/cambio de `BrandWorkspace`.
+2. Configuración de palabras clave y fuentes de monitoreo por marca.
+3. Filtrado y gestión de menciones en el `MentionStream`.
+4. Gestión y escalamiento de un `ReputationIncident`.
+5. Lectura de métricas del Dashboard reputacional con fines de reporte.
+6. Comportamiento del sistema ante un intento de acceso no autorizado a un `BrandWorkspace` ajeno (403).
+
+<br>
+
+**Preguntas — Landing Page**
+
+- ¿BrandRadar se percibe como una herramienta profesional adecuada para gestionar marcas de terceros, o más bien orientada a un solo negocio?
+- ¿La información de planes te permite estimar el costo de gestionar la cantidad de marcas que manejas actualmente?
+- ¿Los testimonios de agencias y marcas reconocidas influyen en tu decisión de probar la herramienta?
+- ¿Qué información adicional necesitarías en la página para proponer BrandRadar a tu equipo o cliente?
+
+<br>
+
+**Preguntas — Aplicación Web**
+
+*Acceso y workspaces*
+- ¿Fue claro identificar en qué marca o cliente te encuentras trabajando en cada momento dentro de la plataforma?
+- Si gestionaras varias marcas, ¿el cambio entre ellas sería suficientemente rápido para tu día a día?
+
+*Configuración de monitoreo*
+- ¿La configuración de palabras clave y fuentes te permitiría reemplazar parte de tu proceso manual actual?
+- ¿Qué fuente o plataforma que usas hoy no está cubierta y consideras indispensable?
+
+*MentionStream*
+- ¿Los filtros disponibles (sentimiento, fuente, fecha) son suficientes para priorizar menciones cuando manejas un alto volumen?
+- Comparado con tu flujo actual, ¿cuánto tiempo estimas que ahorrarías al usar este módulo?
+
+*ReputationIncident*
+- ¿El flujo de gestión de incidentes te permite documentar y escalar un caso de la forma en que lo harías con tu equipo o cliente?
+- ¿Confiarías en reportar a tu cliente el estado de una crisis usando la información que provee esta pantalla?
+
+*Dashboard reputacional*
+- ¿La información del dashboard sería suficiente para armar un reporte rápido a tu jefe o cliente, sin necesidad de otra herramienta?
+- ¿Qué métrica añadirías para sustentar mejor tus decisiones frente a un cliente?
+
+*Control de acceso (403)*
+- ¿Te genera confianza que el sistema impida ver información de marcas que no gestionas?
+- ¿Este comportamiento es suficiente para garantizar la confidencialidad que tus clientes esperan?
 
 <br>
 
@@ -4588,29 +4660,153 @@ La aplicación web de BrandRadar fue desarrollada con un enfoque centrado en el 
 
 ### 5.3.2. Registro de Entrevistas
 
+<div align="center">
+
+**Segmento objetivo 1: `Pequeñas y medianas empresas y marcas digitales (PyMEs)`**
+
+<br>
+
 #### Entrevista 1
 
 *Imagen de la entrevista*
 
-<img src="brandradar-report/assets/interviews/ss_entrevista.png" alt=" Entrevista de Validacion" width="700"/>
+<img src="brandradar-report/assets/interviews/validation/ss_validacion_seg1_1.png" alt="Entrevista de Validación 1 - Segmento 1" width="700"/>
 
 <br>
-
 <br>
 
 | Campo | Detalle |
 |:------|:--------|
-| **Nombres y apellidos** | `-` |
-| **Edad** | `- años` |
-| **Ubicación** | `-` |
-| **Fecha de entrevista** | `-` |
-| **Duración** | `-` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](https:// ) |
+| **Nombres y apellidos** | `` |
+| **Edad** | `` |
+| **Ubicación** | `` |
+| **Fecha de entrevista** | `` |
+| **Duración** | `` |
+| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://) |
 
 **Resumen:**
 
 </div>
-<br>             
+<br>
+
+#### Entrevista 2
+
+*Imagen de la entrevista*
+
+<img src="brandradar-report/assets/interviews/validation/ss_validacion_seg1_2.png" alt="Entrevista de Validación 2 - Segmento 1" width="700"/>
+
+<br>
+<br>
+
+| Campo | Detalle |
+|:------|:--------|
+| **Nombres y apellidos** | `` |
+| **Edad** | `` |
+| **Ubicación** | `` |
+| **Fecha de entrevista** | `` |
+| **Duración** | `` |
+| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://) |
+
+**Resumen:**
+
+<br>
+
+#### Entrevista 3
+
+*Imagen de la entrevista*
+
+<img src="brandradar-report/assets/interviews/validation/ss_validacion_seg1_3.png" alt="Entrevista de Validación 3 - Segmento 1" width="700"/>
+
+<br>
+<br>
+
+| Campo | Detalle |
+|:------|:--------|
+| **Nombres y apellidos** | `` |
+| **Edad** | `` |
+| **Ubicación** | `` |
+| **Fecha de entrevista** | `` |
+| **Duración** | `` |
+| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://) |
+
+**Resumen:**
+
+<br>
+
+---
+
+<div align="center">
+
+**Segmento objetivo 2: `Especialistas de marketing o community managers`**
+
+<br>
+
+#### Entrevista 1
+
+*Imagen de la entrevista*
+
+<img src="brandradar-report/assets/interviews/validation/ss_validacion_seg2_1.png" alt="Entrevista de Validación 1 - Segmento 2" width="700"/>
+
+<br>
+<br>
+
+| Campo | Detalle |
+|:------|:--------|
+| **Nombres y apellidos** | `` |
+| **Edad** | `` |
+| **Ubicación** | `` |
+| **Fecha de entrevista** | `` |
+| **Duración** | `` |
+| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://) |
+
+**Resumen:**
+
+</div>
+<br>
+
+#### Entrevista 2
+
+*Imagen de la entrevista*
+
+<img src="brandradar-report/assets/interviews/validation/ss_validacion_seg2_2.png" alt="Entrevista de Validación 2 - Segmento 2" width="700"/>
+
+<br>
+<br>
+
+| Campo | Detalle |
+|:------|:--------|
+| **Nombres y apellidos** | `` |
+| **Edad** | `` |
+| **Ubicación** | `` |
+| **Fecha de entrevista** | `` |
+| **Duración** | `` |
+| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://) |
+
+**Resumen:**
+
+<br>
+
+#### Entrevista 3
+
+*Imagen de la entrevista*
+
+<img src="brandradar-report/assets/interviews/validation/ss_validacion_seg2_3.png" alt="Entrevista de Validación 3 - Segmento 2" width="700"/>
+
+<br>
+<br>
+
+| Campo | Detalle |
+|:------|:--------|
+| **Nombres y apellidos** | `` |
+| **Edad** | `` |
+| **Ubicación** | `` |
+| **Fecha de entrevista** | `` |
+| **Duración** | `` |
+| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://) |
+
+**Resumen:**
+
+<br>
 
 ---
 
