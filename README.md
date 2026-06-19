@@ -4621,8 +4621,6 @@ Para este segmento, la sesión de validación busca confirmar si BrandRadar redu
 
 #### Entrevista 1
 
-*Imagen de la entrevista*
-
 <img src="brandradar-report/assets/interviews/validation/ss_validacion_seg1_1.png" alt="Entrevista de Validación 1 - Segmento 1" width="700"/>
 
 <br>
@@ -4630,16 +4628,22 @@ Para este segmento, la sesión de validación busca confirmar si BrandRadar redu
 
 | Campo | Detalle |
 |:------|:--------|
-| **Nombres y apellidos** | `` |
-| **Edad** | `` |
-| **Ubicación** | `` |
-| **Fecha de entrevista** | `` |
-| **Duración** | `` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://) |
+| **Nombres y apellidos** | `Jenifer Natali López Huamán` |
+| **Edad** | `23 años` |
+| **Ubicación** | `Surco, Lima` |
+| **Fecha de entrevista** | `2026-06-18` |
+| **Duración** | `17:48` |
+| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/r/personal/u202410239_upc_edu_pe/Documents/BrandRadar/Validation%20Interviews/ENTREVISTA%20VALIDACION%20JENIFER%20OS.mp4?csf=1&web=1&e=chjcIO&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
 
 **Resumen:**
 
 </div>
+
+Jenifer Natali López Huamán, fundadora de Siana Boutique (tienda de ropa femenina iniciada durante la pandemia), participó en la entrevista de validación como representante del Segmento 1 (PyMEs). Gestiona su negocio de forma integral desde el celular: ventas por WhatsApp e Instagram, catálogo en Instagram y captación de clientes en Facebook Marketplace. Actualmente monitorea su reputación de manera manual, revisando Google Maps y Facebook cuando dispone de tiempo, sin contar con equipo de comunicaciones.
+
+**Hallazgos sobre el Landing Page:** La participante comprendió rápidamente la propuesta de valor de BrandRadar ("conoce lo que dicen de tu marca antes que nadie"), identificándose con el problema de enterarse tarde de los comentarios negativos. Sin embargo, señaló que el término "clasifica cada mención" le resultó ambiguo hasta que encontró la explicación de sentimiento más abajo en la página. Respecto a los testimonios, indicó que los perfiles corporativos mostrados (Directora de Comunicaciones de BancoAndino, CMO de Falabella Colombia) no la representan como emprendedora individual y sugirió incluir casos de negocios pequeños. El precio del plan Starter ($49 USD/mes) lo percibió como alto para su etapa actual, aunque valoró positivamente la prueba gratuita de 14 días sin tarjeta de crédito. Recomendó aclarar qué ocurre al finalizar el periodo de prueba.
+
+**Hallazgos sobre la Aplicación Web:** El registro lo completó sin dificultades, aunque el correo de verificación llegó a la carpeta de spam, por lo que sugirió agregar un aviso al respecto. Al acceder al dashboard, no pudo distinguir si los datos mostrados eran reales de su marca o datos de ejemplo, lo que generó confusión inicial; propuso un mensaje explícito que diferenciara datos de demostración de datos reales. La configuración de palabras clave y fuentes le pareció coherente con su flujo de trabajo actual (nombre de tienda + Instagram + Google Maps), aunque preguntó si WhatsApp estaría cubierto. El MentionStream le resultó útil para consolidar el monitoreo que hoy realiza manualmente en múltiples plataformas, estimando un ahorro de 30 a 45 minutos semanales. En la gestión de incidentes, no comprendió inicialmente la diferencia entre una mención negativa y un incidente reputacional, sugiriendo una explicación breve dentro del flujo. Los indicadores numéricos del dashboard los entendió bien, pero los gráficos de tendencia le resultaron difíciles de interpretar sin una leyenda en lenguaje natural. Finalmente, expresó confianza en gestionar situaciones reputacionales cotidianas con la herramienta, reservando consultas externas solo para crisis virales.
 
 <br>
 
