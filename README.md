@@ -113,7 +113,7 @@ Para el desarrollo del AV2, cada integrante contribuyó de la siguiente manera:
 | Salinas Guzmán, Brianna Cristina | Tareas    |
 | Jáuregui Cerna, Jean Franco      | Tareas    |
 | Cruzalegui Herrera, Joaquin      | Tareas    | 
-| Garcia Paredes, Victor Manuel    | Tareas    |
+| Garcia Paredes, Victor Manuel    | Elaboración del Student Outcome; Desarrollo Backend: entidad `BrandWorkspace` con Flyway y endpoints CRUD (POST/GET/PUT/DELETE con soft delete), entidades `Mention` y `DailyMetricSnapshot` con índices y constraints; Despliegue del Web Service en Railway (resolución de beans duplicados, referencias circulares y configuración de entorno); Entrevista de validación Segmento 1; Redacción del informe: Diseño de entrevistas de validación (5.3.1), integración de evaluación heurística (5.3.3), Conclusiones y Recomendaciones, evidencias de despliegue (5.2.3.7) |
 
 </div>
 
