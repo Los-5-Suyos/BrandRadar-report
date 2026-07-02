@@ -9,7 +9,7 @@
 
 <br>
 
-#  Informe de Proyecto - AV2
+#  Informe de Proyecto - TB2
 
 ## Presentado por "Los 5 Suyos"
 
@@ -41,7 +41,7 @@
 
 <br>
 
-### **Junio 2026**
+### **Julio 2026**
 
 <br>
 
@@ -59,6 +59,9 @@
 | AV1 | 2026-04-08 | Salinas Guzmán, Brianna Cristina <br> Jáuregui Cerna, Jean Franco <br> Cruzalegui Herrera, Joaquin <br> Garcia Paredes, Victor Manuel | Avance 1 del reporte del proyecto y primera versión de la landing page |
 | TB1 | 2026-05-11 | Salinas Guzmán, Brianna Cristina <br> Garcia Paredes, Victor Manuel | Entrega del reporte TB1 del proyecto, nueva version del landing page y frontend web application desplegadas |
 | AV2 | 2026-06-05 | Salinas Guzmán, Brianna Cristina <br> Garcia Paredes, Victor Manuel | Entrega del reporte AV2 del proyecto, nueva versión de Web Applications, primera versión de Web Services, Video About-The-Product y Video About-The-Team |
+| TB2 | 2026-07-08 | Salinas Guzmán, Brianna Cristina <br> Garcia Paredes, Victor Manuel | Entrega del reporte TB2 del proyecto, Web Applications y Web Services integrado, nueva versión del Landing Page, Video About-The-Product y Video About-The-Team |
+
+
 </div>
 
 ---
@@ -114,6 +117,23 @@ Para el desarrollo del AV2, cada integrante contribuyó de la siguiente manera:
 | Jáuregui Cerna, Jean Franco      | Elaboración del Student Outcome; Desarrollo Backend: `JwtTokenProvider` y `SecurityConfig` stateless con algoritmo HS256, `JwtAuthenticationFilter`, endpoint `POST /auth/login` con bloqueo por intentos fallidos, `GlobalExceptionHandler` con `@ControllerAdvice` mapeando excepciones a 400/403/404/410, `SentimentScoreCalculator` ponderado por fuente (NEWS=1.5, FACEBOOK=1.3, TWITTER=1.2, YOUTUBE=1.1, TIKTOK=1.0, REDDIT=0.9) con pruebas unitarias; Redacción del informe |
 | Cruzalegui Herrera, Joaquin      | Elaboración del Student Outcome; Desarrollo Backend: endpoint `POST /auth/forgot-password` con protección contra enumeración de cuentas, endpoint `POST /auth/reset-password` con invalidación de sesiones activas, entidad `Incident` con migración Flyway V7, merge y revisión de Pull Requests de los bounded contexts de Victor y Jean Franco; Redacción del informe |
 | Garcia Paredes, Victor Manuel    | Elaboración del Student Outcome; Desarrollo Backend: entidad `BrandWorkspace` con Flyway V2 y endpoints CRUD (POST/GET/PUT/DELETE con soft delete y evento `WorkspaceDeactivated`), entidades `Mention` y `DailyMetricSnapshot` con índices de rendimiento y constraints, migraciones Flyway V5 y V6; Despliegue del Web Service en Railway (resolución de beans duplicados, referencias circulares y configuración de entorno); Entrevista de validación Segmento 1; Redacción del informe: Diseño de entrevistas de validación (5.3.1), integración de evaluación heurística (5.3.3), Conclusiones y Recomendaciones, evidencias de despliegue (5.2.3.7) |
+
+
+<br>
+<br>
+
+**TB2 Collaboration Insights**
+
+Para el desarrollo del TB2, cada integrante contribuyó de la siguiente manera:
+
+| Integrante | Tareas Realizadas |
+| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Salinas Guzmán, Brianna Cristina | Tareas |
+| Jáuregui Cerna, Jean Franco      | Tareas |
+| Cruzalegui Herrera, Joaquin      | Tareas |
+| Garcia Paredes, Victor Manuel    | Tareas |
+
+
 
 </div>
 
@@ -217,6 +237,31 @@ A continuación, se muestran los gráficos con el análisis de los commits reali
 
 <br>
 
+
+<br>
+
+## TB2 - Network Graph
+
+A continuación, se presenta el gráfico de red (network graph) del repositorio del proyecto de la entrega TB2, el cual permite visualizar la estructura de ramas, así como la interacción entre ellas a través de los procesos de integración (merge).
+
+<br>
+
+<div align="center">
+<img src="brandradar-report/assets/network-repo/tb2/network.png" alt="Gráfico de red TB2" width="900"/>
+</div>
+
+<br>
+
+A continuación, se muestran los gráficos con el análisis de los commits realizados en el repositorio en la entrega TB2. Estos reflejan tanto la cantidad de líneas de código añadidas por cada integrante del equipo como la actividad de commits registrada.
+
+<br>
+
+<div align="center">
+<img src="brandradar-report/assets/network-repo/tb2/commits.png" alt="Commits realizados TB2" width="900"/>
+</div>
+
+<br>
+
 ---
 
 <br>
@@ -299,6 +344,7 @@ A continuación, se muestran los gráficos con el análisis de los commits reali
     - [5.2.1. Sprint 1](#521-sprint-1)
     - [5.2.2. Sprint 2](#522-sprint-2)
     - [5.2.3. Sprint 3](#523-sprint-3)
+    - [5.2.4. Sprint 4](#524-sprint-4)
   - [5.3. Validation Interviews](#52-landing-page-services--applications-implementation)
     - [5.3.1. Diseño de Entrevistas](#521-sprint-1)
     - [5.3.2. Registro de Entrevistas](#522-sprint-2)
@@ -4169,21 +4215,6 @@ Como resultado del Sprint Planning, el equipo estableció un conjunto claro de t
 
 #### 5.2.3.3. Sprint Backlog 3
 
-
-**Objetivo del Sprint:** Implementar la primera versión del Web Service de BrandRadar con Spring Boot, cubriendo los bounded contexts de Identidad y Acceso Seguro (TS01–TS05) y Configuración Estratégica de Marca (TS06–TS08), con persistencia real en MySQL, autenticación JWT, autorización contextual por `BrandWorkspace` y documentación OpenAPI desplegada en Railway.
-
-**Sprint Goal:** *Un desarrollador puede consumir los endpoints reales de registro, login, verificación, recuperación de contraseña, refresh de JWT, gestión de `BrandWorkspace` y `MonitoringRule`, con persistencia en MySQL y autorización contextual por workspace, reemplazando completamente la Fake API del Sprint 2.*
-
-<br>
-
-**Story Points comprometidos: 47 SP | Duración: 2 semanas | Stack: Java 21 / Spring Boot 3 / MySQL / Railway**
-
-**Tech Lead: Brianna Cristina Salinas Guzmán**
-
-<br>
-
-#### 5.2.3.3. Sprint Backlog 3
-
 **Objetivo del Sprint:** Implementar la primera versión del Web Service de BrandRadar con Spring Boot, cubriendo los bounded contexts de Identidad y Acceso Seguro (TS01–TS05), Configuración Estratégica de Marca (TS06–TS08) y Motor de Reputación en Tiempo Real (TS09–TS13), con persistencia real en MySQL, autenticación JWT, autorización contextual por `BrandWorkspace`, Crisis Response Engine vía Groq API y documentación OpenAPI desplegada en Railway.
 
 **Sprint Goal:** *Un desarrollador puede consumir los endpoints reales de registro, login, verificación, recuperación de contraseña, refresh de JWT, gestión de `BrandWorkspace` y `MonitoringRule`, y obtener métricas de reputación en tiempo real vía `GET /dashboard/{workspaceId}` con SentimentScore, detección de incidentes y diagnóstico IA, con persistencia en MySQL y autorización contextual por workspace, reemplazando completamente la Fake API del Sprint 2.*
@@ -4470,6 +4501,61 @@ La colaboración se fortaleció mediante integraciones frecuentes hacia `develop
 ![Team Collaboration Sprint 3](brandradar-report/assets/sprints/sprint-3/network.png)
 
 <br>
+
+---
+
+### 5.2.4. Sprint 4
+
+#### 5.2.4.1. Sprint Planning 4
+
+<br>
+
+---
+
+#### 5.2.4.2. Aspect Leaders and Collaborators
+
+<br>
+
+---
+
+#### 5.2.4.3. Sprint Backlog 4
+
+
+<br>
+
+---
+
+#### 5.2.4.4. Development Evidence for Sprint Review
+
+
+<br>
+
+---
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+
+<br>
+
+---
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+
+<br>
+
+---
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+<br>
+
+---
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint
+
+
+<br>
+
 
 ---
 
@@ -5038,18 +5124,17 @@ El video About-the-Product de BrandRadar presenta una visión general del produc
 
 ## Conclusiones
 
-1. Se implementó exitosamente el pipeline automático de monitoreo de reputación que integra comentarios reales de YouTube Data API v3 con menciones generadas por inteligencia artificial (Groq AI / llama-3.3-70b-versatile), logrando un flujo completo de ingesta, análisis de sentimiento y detección de crisis que se ejecuta de forma autónoma cada 5 minutos.
+1. 
 
-2. La arquitectura de Domain-Driven Design (DDD) aplicada al backend permitió organizar los 6 bounded contexts (IAM, BrandWorkspace, ReputationMonitoring, CrisisDetection, SentimentIntelligence, InfrastructureHealth) de manera modular e independiente, facilitando el desarrollo paralelo y la escalabilidad del sistema.
+2. 
 
-3. La integración de Groq AI como motor de análisis de sentimiento demostró ser una solución efectiva para procesar menciones en español peruano con alta variabilidad de contenido, generando scores de reputación precisos y diagnósticos de crisis contextualizados para cada marca monitoreada.
+3. 
 
-4. El despliegue del backend en Railway conectado a Azure Database for MySQL Flexible Server validó la viabilidad de una arquitectura cloud híbrida, donde la base de datos permanece en Azure por su robustez y el servicio de aplicación se aloja en Railway por su simplicidad de configuración y despliegue continuo desde GitHub.
+4. 
 
-5. La implementación del endpoint de dashboard agregado (`GET /api/v1/dashboard/workspace/{id}`) redujo significativamente la complejidad del frontend al consolidar en una sola respuesta el score de sentimiento, menciones recientes, fuente más activa, incidentes activos y análisis de crisis generado por IA, optimizando el rendimiento de la aplicación.
+5. 
 
-6. La deduplicación de menciones por `sourceUrl` y el uso de proveedores configurables (YouTubeProvider, MockMentionProvider) establecieron una base sólida para incorporar en futuros sprints nuevas fuentes de datos reales como Reddit, Twitter e Instagram sin modificar la lógica central del pipeline de reputación.
- 
+6. 
 
 <br>
 
@@ -5107,6 +5192,7 @@ En este documento se incluyen los criterios de evaluación, evidencias de trabaj
 |:-------:|:------:|:------:|
 | AV1 | `upc-pre-202610-1asi0729-[11863]-[brandradar]-expo-av1` | [URL Microsoft Stream](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202410239_upc_edu_pe/IgBV-ACEG37lQ466daCivegHARBFGxWIBXchDZGj6xfsMAY?e=Y3HNmH) |
 | TB1 | `upc-pre-202610-1asi0729-[11863]-[brandradar]-expo-tb1` | [URL Microsoft Stream](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202410239_upc_edu_pe/IgCUwFHqhNzvSLnvprF7sOxmAcitk8v93xpRomtd_CLgQTw?e=kcPhrd) |
+| TB2 | `upc-pre-202610-1asi0729-[11863]-[brandradar]-expo-tb2` | [URL Microsoft Stream](https://upcedupe-my.sharepoint.com/:f:/g/personal/) |
 
 <br>
 
