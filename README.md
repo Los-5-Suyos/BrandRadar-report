@@ -4508,6 +4508,25 @@ La colaboración se fortaleció mediante integraciones frecuentes hacia `develop
 
 #### 5.2.4.1. Sprint Planning 4
 
+
+A continuación se presenta el Sprint Planning para esta cuarta entrega, donde se definió el trabajo orientado a la integración del Frontend de BrandRadar con los servicios REST desarrollados en el backend, reemplazando los datos simulados utilizados en los sprints anteriores por información obtenida desde la API real.
+
+<br>
+| Campo                               | Detalle |
+| :---------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint #**                        | Sprint 4 |
+| **Sprint Planning Background**      | En este sprint se abordará la integración completa entre el Frontend desarrollado en Angular y el Backend implementado con Spring Boot. Se conectarán las principales vistas de la aplicación (Home, Dashboard, Mentions, Incidents, Configuration, Reports, Subscription y Settings) con los servicios REST correspondientes, reemplazando los datos mockeados utilizados durante el desarrollo inicial. Asimismo, se implementará un interceptor HTTP para la gestión automática del token JWT, el manejo centralizado de errores y estados de carga, con el objetivo de obtener una aplicación completamente funcional conectada a la API.   |
+| **Date**                            | 2026/06/17   |
+| **Time**                            | 9:00 PM   |
+| **Location**                        | Reunión virtual mediante la plataforma Discord |
+| **Prepared By**                     | Salinas Guzmán, Brianna Cristina  |
+| **Attendees (to planning meeting)** | Salinas, Brianna / Cruzalegui, Joaquin / Jáuregui, Jean / García, Victor  |
+| **Sprint 3 Review Summary**         | Durante el Sprint 3 se completó el desarrollo del Backend de BrandRadar, implementando la arquitectura basada en Spring Boot, los servicios REST, la lógica de negocio y la persistencia de datos. Se validó el correcto funcionamiento de los endpoints mediante pruebas con Swagger y Postman, dejando disponibles todos los servicios necesarios para la integración con el Frontend.  |
+| **Sprint 3 Retrospective Summary**  | El equipo mantuvo una adecuada coordinación entre los responsables del frontend y backend mediante reuniones periódicas y comunicación constante por Discord. Como mejora identificada, se decidió planificar la integración por módulos funcionales para facilitar las pruebas, detectar errores tempranamente y reducir conflictos durante la unión de ambos componentes del sistema.    |
+| **Sprint 4 Goal**                   | Nuestro enfoque está en integrar completamente el Frontend de BrandRadar con los servicios REST del Backend, sustituyendo los datos simulados por información real proveniente de la API y automatizando la autenticación mediante JWT. Creemos que esto permitirá contar con una aplicación completamente funcional, donde todas las operaciones principales consuman servicios reales. Esto se confirmará cuando los usuarios puedan autenticarse, gestionar sus workspaces, visualizar dashboards, consultar menciones e incidentes, configurar la plataforma, generar reportes y administrar su suscripción utilizando la API implementada. |
+| **Sprint 4 Velocity**               | 150 |
+| **Sum of Story Points**             | 150 |
+
 <br>
 
 ---
@@ -4516,12 +4535,35 @@ La colaboración se fortaleció mediante integraciones frecuentes hacia `develop
 
 <br>
 
+|       Team Member       |    GitHub Username    | `[Interceptor HTTP + JWT]` | `[Home + Workspaces]` | `[Dashboard]` | `[Mentions]` | `[Incidents]` | `[Configuration]` | `[Reports]` | `[Subscription]` | `[Settings + Forgot Password]` | `[Integración API + QA]` |
+| :---------------------: | :-------------------: | :------------------------: | :-------------------: | :-----------: | :----------: | :-----------: | :---------------: | :---------: | :--------------: | :----------------------------: | :----------------------: |
+|   **Salinas, Brianna**  |  **brianna-salinas**  |            **L**           |         **L**         |       C       |       C      |       C       |         C         |      C      |         C        |                C               |             C            |
+|    **García, Victor**   |     **vicmacode**     |              C             |           C           |       C       |       C      |     **L**     |         C         |      C      |       **L**      |                C               |             C            |
+|    **Jáuregui, Jean**   |     **JFranco556**    |              C             |           C           |     **L**     |       C      |       C       |       **L**       |      C      |         C        |                C               |             C            |
+| **Cruzalegui, Joaquin** | **JoaquinCruzalegui** |              C             |           C           |       C       |     **L**    |       C       |         C         |    **L**    |         C        |              **L**             |             C            |
+
+<br>
+
+> **L** = Leader &nbsp;|&nbsp; **C** = Collaborator
+
+<br>
+
 ---
 
 #### 5.2.4.3. Sprint Backlog 4
 
-
 <br>
+
+**Objetivo del Sprint:** Integrar completamente el Frontend de BrandRadar con el Backend implementado en Spring Boot, reemplazando los datos mockeados por el consumo de servicios REST reales. Se implementará la autenticación mediante interceptor JWT, manejo centralizado de errores, estados de carga e integración de los módulos Home, Dashboard, Mentions, Incidents, Configuration, Reports, Subscription y Settings.
+
+**Sprint Goal:** *Los usuarios podrán autenticarse y utilizar todas las funcionalidades principales de BrandRadar consumiendo la API real, gestionando workspaces, visualizando dashboards, monitoreando menciones, administrando incidentes, configuraciones, reportes y suscripciones desde una aplicación Angular completamente integrada.*
+
+**Story Points comprometidos:** 258 SP
+**Duración:** 2 semanas
+**Stack:** Angular 20 · Spring Boot 3 · MySQL · Railway · JWT
+
+**Tech Lead:** Brianna Cristina Salinas Guzmán
+
 
 ---
 
