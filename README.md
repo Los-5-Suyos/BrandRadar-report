@@ -4512,6 +4512,7 @@ La colaboración se fortaleció mediante integraciones frecuentes hacia `develop
 A continuación se presenta el Sprint Planning para esta cuarta entrega, donde se definió el trabajo orientado a la integración del Frontend de BrandRadar con los servicios REST desarrollados en el backend, reemplazando los datos simulados utilizados en los sprints anteriores por información obtenida desde la API real.
 
 <br>
+
 | Campo                               | Detalle |
 | :---------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Sprint #**                        | Sprint 4 |
@@ -4552,52 +4553,281 @@ A continuación se presenta el Sprint Planning para esta cuarta entrega, donde s
 
 #### 5.2.4.3. Sprint Backlog 4
 
+
+**Objetivo del Sprint:** Integrar completamente el Frontend de BrandRadar (Angular 17) con los servicios REST del Backend (Spring Boot), reemplazando los datos mockeados de los sprints anteriores por información real de la API — incluyendo interceptor JWT con refresh automático, manejo centralizado de errores (`ProblemDetail`) y estados de carga — para las pantallas Home, Onboarding, Dashboard, Mentions, Incidents, Configuration, Reports, Subscription y Settings.
+ 
+**Sprint Goal:** *El usuario puede autenticarse, gestionar sus `BrandWorkspace`, visualizar el dashboard reputacional, consultar menciones e incidentes, configurar la plataforma, generar reportes y administrar su suscripción — todo consumiendo servicios reales del Backend, sin datos simulados.*
+ 
 <br>
 
-**Objetivo del Sprint:** Integrar completamente el Frontend de BrandRadar con el Backend implementado en Spring Boot, reemplazando los datos mockeados por el consumo de servicios REST reales. Se implementará la autenticación mediante interceptor JWT, manejo centralizado de errores, estados de carga e integración de los módulos Home, Dashboard, Mentions, Incidents, Configuration, Reports, Subscription y Settings.
+**Story Points comprometidos: 150 SP | Duración: 2 semanas | Stack: Angular 17 / TypeScript / Spring Boot (API real)**
+ 
+**Tech Lead: Salinas Guzmán, Brianna Cristina**
+ 
+<br>
 
-**Sprint Goal:** *Los usuarios podrán autenticarse y utilizar todas las funcionalidades principales de BrandRadar consumiendo la API real, gestionando workspaces, visualizando dashboards, monitoreando menciones, administrando incidentes, configuraciones, reportes y suscripciones desde una aplicación Angular completamente integrada.*
+| Sprint # | | | | | | | | |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Sprint 4** | **User Story** | | **Work-Item / Task** | | | | **Asignado a** | **Status** |
+| **ID** | **Título** | **SP** | **ID** | **Título** | **Descripción** | **Estimación** | **Asignado a** | |
+| **US08 / TS02 / TS05** | Iniciar sesión para acceder a marcas asignadas (conectado a API real) | 8 | T-19 | `auth.interceptor.ts`: inyección automática de JWT y refresh transparente | Interceptor en `src/app/iam/infrastructure/` que lee el token de `localStorage` e inyecta el header `Authorization` en toda petición saliente. Ante `401`, intenta `POST /auth/refresh` automáticamente antes de fallar. Reemplaza el header manual en `home.component.ts`. Registrado en `app.config.ts` con `provideHttpClient(withInterceptors([authInterceptor]))`. | 5h | Victor | Done |
+| **US33 / TS16** | Operar dentro del perímetro de `BrandWorkspace` asignados (conectado a API real) | 8 | T-20 | Home: conexión real de workspaces (`addWorkspace`, delete, dashboard resumen, notificaciones) | Conecta `addWorkspace()` a `POST /api/v1/workspaces`, borrado a `DELETE /api/v1/workspaces/{id}`, tarjetas de score/mentions/incidentes a `GET /api/v1/workspaces/{id}/dashboard` (o endpoint resumen si escala mal), y campanita a `GET /api/v1/user-accounts/{userId}/notifications`. | 6h | Victor | Done |
+| **US11** | Configurar `BrandWorkspace` con palabras clave y fuentes (conectado a API real) | 13 | T-21 | Onboarding: persistencia real del flujo `finish()` | Reemplaza la navegación directa a `/success` por la secuencia: `POST /api/v1/workspaces` → `PATCH /api/v1/workspaces/{id}/config` → `POST /api/v1/brands/{brandId}/keywords` (por keyword de inclusión) → `POST /api/v1/workspaces/{id}/exclusion-keywords` → `POST /api/v1/workspaces/{id}/channels` (por canal). | 8h | Jean Franco | Done |
+| **US27 / TS15** | Detectar tendencias negativas del `SentimentScore` (dashboard conectado a API real) | 21 | T-22 | Dashboard: reemplazo completo de mocks por endpoints reales | Conecta `GET /api/v1/workspaces/{id}/dashboard`, tendencia 14 días (`/dashboard/trend`), score por canal (`/dashboard/channels`), keywords críticas (`/dashboard/critical-keywords`) y botón "Actualizar" (`POST /.../refresh`, con aviso de demora por SociaVault + Groq). Ajusta tipos: `activeIncidents` como objeto `{count, items}`, y tarjeta "Menciones Hoy" con `mentionsToday` / `mentionsDeltaVsYesterdayPercent`. Conecta preferencias de alerta (`GET/PATCH /api/v1/brands/{id}/alert-preferences/{key}`) y notificaciones. | 10h | Jean Franco | Done |
+| **US17 / US18 / US19** | Identificar y filtrar menciones negativas recurrentes (conectado a API real) | 21 | T-23 | Mentions: listado, filtros, acciones y exportación reales | Listado vía `GET /api/v1/mentions/brand/{brandId}` con filtros `sentiment/platform/search`. Elimina la key de Groq hardcodeada y el fetch directo a `api.groq.com`, reemplazando por `POST /api/v1/mentions/{id}/ai-analysis`. Conecta "Marcar como Atendida" (`PATCH /.../status`), "Crear Incidente" (`POST /.../create-incident`), pestaña Publicaciones (`engagementLikes/Comments/Views`), comentarios de TikTok (`GET /.../tiktok-comments`, solo si `sourcePlatform === 'TIKTOK'`), exportación (`GET /.../export?format=`) y contador por canal (`GET /.../channel-counts`). | 10h | Joaquin | Done |
+| **US23 / US25 / US26** | Priorizar y responder `ReputationIncident` por `SeverityLevel` (conectado a API real) | 18 | T-24 | Incidents: tabs, cambio de estado, diagnóstico IA y nueva alerta | Listado con tabs vía `GET /api/v1/incidents/brand/{brandId}?status=` (ACTIVO/MONITOREADO/RESUELTO). Cambio de estado/progreso (`PATCH /.../status` con `status, progressPct, resolutionNotes`). Diagnóstico IA (`POST /.../analyze`) e historial (`GET /.../analysis-history`). Keywords del incidente (`GET /.../keywords`). Modal "Nueva Alerta" (`POST /api/v1/crisis-alerts`), evaluando vincular `ReputationIncident`. | 9h | Joaquin | Done |
+| **US12 / US14 / US15** | Actualizar reglas de monitoreo y fuentes de una marca (conectado a API real) | 13 | T-25 | Configuration: guardado real de marca, logo, keywords y canales | `guardarCambios()` → `PATCH /api/v1/workspaces/{id}/config`. Subida de logo (`POST /.../config/logo`, multipart). Keywords de inclusión (`GET/POST/DELETE /api/v1/brands/{id}/keywords`) y exclusión (`.../exclusion-keywords`). Canales activos (`GET/POST/DELETE /api/v1/workspaces/{id}/channels`). | 7h | Brianna | Done |
+| **US10** | Gestionar sesión y perfil del usuario autenticado (Settings conectado a API real) | 8 | T-26 | Settings: perfil, avatar y cambio de contraseña reales | Perfil (`PATCH /api/v1/user-accounts/{id}`), avatar (`POST /.../avatar`), cambio de contraseña (`POST /.../change-password`). | 5h | Brianna | Done |
+| **US09 / TS04** | Recuperar acceso mediante flujo seguro (conectado a API real) | 8 | T-27 | Forgot/Reset Password: conexión real a endpoints de recuperación | `POST /api/v1/auth/forgot-password` con `{email}`. Construcción de pantalla de reset (si no existe) conectada a `POST /api/v1/auth/reset-password` con `{token, newPassword}`. | 4h | Brianna | Done |
+| **US28 / US29 / US30 / US31** | Generar y compartir evidencia reputacional (Reports conectado a API real) | 13 | T-28 | Reports: generación, listado, descarga y programación real | Generar reporte (`POST /api/v1/workspaces/{id}/reports`), listado (`GET /.../reports`), descarga forzada de binario (`GET /api/v1/reports/{id}/download`), borrado (`DELETE /api/v1/reports/{id}`), programación de envío (`GET/POST/DELETE /.../report-schedule`), y despliegue destacado del `executiveSummaryText` generado por IA. | 8h | Jean Franco | Done |
+| **— (Subscription, fuera de epics actuales)** | Administrar plan y método de pago del workspace (conectado a API real) | 8 | T-29 | Subscription/Payment: catálogo, estado, upgrade y cancelación reales | Catálogo de planes (`GET /api/v1/subscription-plans`), estado actual (`GET /api/v1/workspaces/{id}/subscription`), pago/actualización (`POST /.../subscription`), cancelación (`POST /.../subscription/cancel`). Reemplaza lecturas de `localStorage` (`selectedPlan`, `workspacePlan`) por datos reales, incluyendo los `planLabel` getters del dashboard. | 6h | Victor | Done |
+| **— (transversal a todo el sprint)** | Manejo consistente de errores y estados de carga en toda la aplicación | 11 | T-30 | Interceptor/servicio central de errores `ProblemDetail` + loading states | Servicio o interceptor central que captura las respuestas `ProblemDetail` (`status`, `title`, `detail`) del backend y muestra mensajes consistentes al usuario. Agrega spinners/skeletons en las pantallas que hoy no los tienen por haber trabajado con datos mockeados instantáneos. Maneja `403` por ownership de workspace redirigiendo a Home en vez de error genérico. | 6h | Victor | Done |
+| **TS01–TS16** | QA de integración end-to-end contra API real | — | T-31 | QA: regresión completa del flujo conectado a Backend real | Pruebas de integración sobre el flujo completo ya migrado a la API real: login con refresh de JWT → workspaces → onboarding → dashboard → mentions → incidents → configuration → reports → subscription → settings → logout. Valida manejo de `ProblemDetail`, loading states y bloqueo `403` por ownership. | 8h | Brianna | Done |
 
-**Story Points comprometidos:** 258 SP
-**Duración:** 2 semanas
-**Stack:** Angular 20 · Spring Boot 3 · MySQL · Railway · JWT
+<br>
 
-**Tech Lead:** Brianna Cristina Salinas Guzmán
+*Herramienta de gestión: Jira | Repositorio: GitFlow (main / develop / feature/\*)*
 
+<br>
 
 ---
 
 #### 5.2.4.4. Development Evidence for Sprint Review
 
+Durante el Sprint 4 el equipo se enfocó en conectar el Frontend de BrandRadar (Angular 17) con el Backend real construido en el Sprint 3 (Spring Boot 4 sobre Azure Database for MySQL y desplegado en Railway), reemplazando los datos mockeados de las pantallas de Home, Dashboard, Settings y del flujo de autenticación por llamadas reales a la API. El trabajo evidenciado combina ambos repositorios: `BrandRadar-Frontend-Web-App`, donde se construyeron primero las pantallas con datos mockeados (login, registro, verificación de email, home, dashboard, settings) y luego se reemplazaron progresivamente por la integración real contra el backend; y `BrandRadar-Web-Services`, donde se hicieron ajustes de estabilización necesarios para soportar esa conexión (limpieza de clases duplicadas en el adaptador de persistencia de `MentionStream`, endpoint de `home workspaces admin`, y remoción de credenciales expuestas del `.env` por seguridad).
+ 
+El flujo de trabajo evidenciado en el frontend siguió un patrón incremental: primero se construyó cada pantalla contra datos simulados (`feat: brandradar con datos mockeados`) para validar la experiencia de usuario sin bloquear el desarrollo por la disponibilidad del backend, y en la recta final del sprint se ejecutó la conexión real (`conexion con backend`) junto con ajustes puntuales de estabilización sobre el flujo de verificación de correo (`fix: arreglos en verify email`). En el backend, el trabajo se concentró en mantener estable el servicio ya desplegado mientras el frontend se integraba, corrigiendo una clase duplicada del adaptador de `MentionStream` que generaba conflictos de bean en Spring y retirando del repositorio un archivo `.env` que había quedado expuesto públicamente.
+ 
+<br>
 
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on (Date) |
+|:---|:---|:---|:---|:---|:---|
+| Los-5-Suyos/BrandRadar-Frontend-Web-App | main | cd0bf754 | `feat: initial frontend setup with login component` | Configuración inicial del proyecto Angular 17 con el componente de login | 2026-06-20 |
+| Los-5-Suyos/BrandRadar-Frontend-Web-App | main | 1499178f | `feat: presentation login register verify email` | Pantallas de presentación para login, registro y verificación de email | 2026-06-22 |
+| Los-5-Suyos/BrandRadar-Frontend-Web-App | main | 1a405a07 | `feat: register flow` | Implementación del flujo de registro de cuenta con validaciones de formulario | 2026-06-23 |
+| Los-5-Suyos/BrandRadar-Frontend-Web-App | main | 50caef98 | `feat: register flow` | Ajustes adicionales sobre el flujo de registro | 2026-06-23 |
+| Los-5-Suyos/BrandRadar-Frontend-Web-App | main | 45ba0de9 | `feat: home workspaces admin` | Pantalla Home con administración de `BrandWorkspace` del usuario | 2026-06-23 |
+| Los-5-Suyos/BrandRadar-Frontend-Web-App | main | 352bf72b | `feat: home workspaces admin` | Continuación de la administración de workspaces en Home | 2026-06-24 |
+| Los-5-Suyos/BrandRadar-Frontend-Web-App | main | c95a62f1 | `update Gaaaaa` | Ajustes menores de UI sobre las pantallas ya construidas | 2026-06-26 |
+| Los-5-Suyos/BrandRadar-Frontend-Web-App | main | 7fe2ad1d | `feat: dashboard, settings, home con gestión de workspaces` | Pantallas de Dashboard y Settings, más gestión de workspaces en Home | 2026-06-30 |
+| Los-5-Suyos/BrandRadar-Frontend-Web-App | main | c7d836d0 | `feat: dashboard, workspaces` | Continuación de la pantalla de Dashboard y de workspaces | 2026-06-30 |
+| Los-5-Suyos/BrandRadar-Frontend-Web-App | main | 6b09d06d | `feat: brandradar con datos mockeados` | Construcción de pantallas contra datos simulados para validar UX antes de la conexión real | 2026-07-01 |
+| Los-5-Suyos/BrandRadar-Frontend-Web-App | main | 396b1aec | `feat: brandradar con datos mockeados` | Continuación de pantallas con datos mockeados | 2026-07-01 |
+| Los-5-Suyos/BrandRadar-Frontend-Web-App | main | 7e7b5cd8 | `feat: brandradar con datos mockeados` | Cierre de la etapa de mockeado antes de iniciar la integración real | 2026-07-02 |
+| Los-5-Suyos/BrandRadar-Frontend-Web-App | main | 8ecc324f | `conexion con backend` | Reemplazo de los datos mockeados por llamadas reales a los endpoints del backend desplegado | 2026-07-06 |
+| Los-5-Suyos/BrandRadar-Frontend-Web-App | main | b8f1c7fe | `fix: arreglos en verify email` | Corrección de errores en el flujo de verificación de correo tras la conexión real | 2026-07-06 |
+| Los-5-Suyos/BrandRadar-Frontend-Web-App | main | fa00f338 | `backend` | Ajustes finales de integración frontend-backend previos al cierre del sprint | 2026-07-06 |
+| Los-5-Suyos/BrandRadar-Web-Services | main | c89fcc2b | `feat: home workspaces admin` | Soporte en backend para la administración de workspaces consumida por Home | 2026-06-23 |
+| Los-5-Suyos/BrandRadar-Web-Services | main | 914c500f | `Update README.md` | Actualización de documentación del repositorio backend | 2026-07-03 |
+| Los-5-Suyos/BrandRadar-Web-Services | main | fc7260af | `backend` | Ajustes de estabilización del backend durante la integración con el frontend | 2026-07-03 |
+| Los-5-Suyos/BrandRadar-Web-Services | main | 15b35722 | `fix: eliminar clase duplicada MentionStreamPersistenceAdapter, limpieza de .idea` | Corrección de un bean duplicado del adaptador de persistencia de `MentionStream` que generaba conflicto en el contexto de Spring, y limpieza de archivos de IDE del repositorio | 2026-07-04 |
+| Los-5-Suyos/BrandRadar-Web-Services | main | d8cf4117 | `backend` | Ajustes adicionales de backend previos al cierre del sprint | 2026-07-06 |
+| Los-5-Suyos/BrandRadar-Web-Services | main | 91e81a40 | `backend` | Ajustes finales de backend para estabilizar la conexión con el frontend | 2026-07-06 |
+ 
 <br>
 
 ---
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
 
+Durante el Sprint 4 se completó la integración del Frontend de BrandRadar (Angular 17) con el Web Service real construido en el Sprint 3, reemplazando los datos mockeados utilizados hasta ese punto por llamadas reales a los endpoints desplegados en Railway. El equipo validó de punta a punta el flujo de autenticación, la gestión de `BrandWorkspace` y las pantallas principales de la aplicación consumiendo la API real en lugar de datos simulados.
+ 
+El sprint permitió confirmar que la aplicación funciona como un sistema integrado: el frontend ya no depende de mocks ni de `json-server`, sino que opera contra el backend con persistencia real en MySQL, autenticación JWT y autorización contextual por workspace.
+ 
+El desarrollo se validó mediante:
+ 
+- **Autenticación real end-to-end:** Registro y login desde el frontend contra `POST /auth/register` y `POST /auth/login`, verificación de correo conectada al backend con corrección de errores en el flujo (`fix: arreglos en verify email`), y persistencia del JWT para las siguientes peticiones autenticadas.
+
+
+- **Conexión con backend (`conexion con backend`):** Reemplazo del set de datos mockeados construido durante el sprint (`feat: brandradar con datos mockeados`) por consumo real de los endpoints de `BrandWorkspace`, quedando Home, Dashboard y Settings alimentados por la API real en vez de arreglos estáticos en el componente.
+
+
+- **Home con gestión real de workspaces:** Listado, creación y administración de `BrandWorkspace` (`feat: home workspaces admin`) conectado al backend, reflejando el aislamiento por `userId` implementado en el Sprint 3.
+
+
+- **Dashboard y Settings conectados:** Consumo del endpoint agregado de dashboard y de los datos de perfil de usuario, reemplazando los indicadores estáticos por las métricas reales devueltas por el backend.
+
+- **Estabilización del backend durante la integración:** Corrección de una clase duplicada en el adaptador de persistencia de `MentionStream` (`fix: eliminar clase duplicada MentionStreamPersistenceAdapter`) que generaba conflicto de beans en Spring, y protección de las credenciales del servicio.
+
+<br>
+
+A continuación se muestran las capturas de las pantallas conectadas y verificadas durante el Sprint 4:
+ 
+<br>
+
+**[Nombre de pantalla] – [breve descripción de lo que muestra la captura]**
+
+<br>
+ 
+![Execution Evidence Sprint 4 - 01](brandradar-report/assets/sprints/sprint-4/evidence-01.png)
+ 
+<br>
+Asimismo, se elaboró un video demostrativo que muestra la ejecución del flujo integrado durante el Sprint 4, incluyendo autenticación real contra el backend, gestión de `BrandWorkspace` desde el frontend y las pantallas de Dashboard y Settings consumiendo datos reales de la API:
+ 
+[Ver video de ejecución Sprint 4](PENDIENTE_ENLACE_VIDEO_SPRINT_4)
+
 <br>
 
 ---
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
+ 
+Durante el Sprint 4 no se documentaron endpoints nuevos, ya que el contrato de la API fue definido y publicado con SpringDoc OpenAPI 3.0 durante el Sprint 3. El trabajo de este sprint consistió en **consumir** esa documentación como fuente de verdad para reemplazar los datos mockeados del frontend por las llamadas reales descritas en Swagger UI, verificando que cada pantalla respetara exactamente los contratos de request/response ya publicados.
+ 
+A partir de la revisión del código del Frontend (`BrandRadar-Frontend-Web-App`), los endpoints documentados en Swagger que quedaron efectivamente consumidos desde Angular durante el Sprint 4 son:
+ 
+**IAM (Identity & Access Management)**
 
+- `POST /api/v1/auth/register`
+- `POST /api/v1/auth/login`
+- `POST /api/v1/auth/verify?email={email}&code={code}`
+- `POST /api/v1/auth/forgot-password`
+- `POST /api/v1/auth/refresh`
+- `GET /api/v1/user-accounts/{id}`
+- `PATCH /api/v1/user-accounts/{id}`
+- `GET /api/v1/user-accounts/{userId}/notifications`
+
+**Brand Workspace**
+
+- `POST /api/v1/workspaces`
+- `GET /api/v1/workspaces/user/{userId}`
+- `GET /api/v1/workspaces/{id}`
+- `GET /api/v1/workspaces/{id}/config`
+- `PATCH /api/v1/workspaces/{id}/config`
+- `DELETE /api/v1/workspaces/{id}`
+- `GET /api/v1/workspaces/{id}/dashboard`
+- `GET /api/v1/workspaces/{id}/dashboard/channels`
+- `POST /api/v1/workspaces/{id}/refresh`
+- `GET/POST /api/v1/workspaces/{id}/channels`
+- `POST /api/v1/workspaces/{id}/exclusion-keywords`
+- `GET /api/v1/workspaces/{id}/subscription`
+- `POST /api/v1/workspaces/{id}/subscription`
+- `POST /api/v1/workspaces/{id}/subscription/cancel`
+- `POST /api/v1/brands`
+- `GET /api/v1/brands/workspace/{workspaceId}`
+- `GET/POST/DELETE /api/v1/brands/{id}/keywords`
+- `GET /api/v1/brands/{id}/alert-preferences`
+
+**Reputation Monitoring**
+
+- `GET /api/v1/mentions/brand/{brandId}`
+- `POST /api/v1/mentions/{id}/ai-analysis`
+- `PATCH /api/v1/mentions/{id}/status`
+- `POST /api/v1/mentions/{id}/create-incident`
+- `GET /api/v1/mentions/{id}/tiktok-comments`
+
+**Crisis Detection**
+
+- `GET /api/v1/incidents/brand/{brandId}`
+- `GET /api/v1/incidents/{id}/keywords`
+- `GET /api/v1/incidents/{id}/analysis-history`
+
+**Reportes**
+
+- `GET /api/v1/workspaces/{id}/reports`
+- `DELETE /api/v1/reports/{id}`
+- `GET /api/v1/workspaces/{id}/report-schedule`
 
 <br>
+
+**Evidencias**
+ 
+A continuación se presentan capturas de Swagger UI mostrando los contratos consumidos, junto con las pruebas de integración realizadas desde el navegador (Network tab) verificando que el frontend recibe y consume correctamente cada respuesta:
+ 
+<br>
+
+**Swagger UI – Contrato de [bounded context] verificado contra el frontend**
+
+![Services Documentation Sprint 4 - 01](brandradar-report/assets/sprints/sprint-4/service-01.png)
+
+<br>
+
+**Network tab del navegador – [pantalla] consumiendo `[endpoint]` en tiempo real**
+
+![Services Documentation Sprint 4 - 02](brandradar-report/assets/sprints/sprint-4/service-02.png)
+ 
+<br>
+
 
 ---
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
+Durante el Sprint 4 se completó el despliegue público de ambos componentes de BrandRadar: el Web Service, que continuó operando en Railway desde el Sprint 3, y el Frontend Angular, que se desplegó por primera vez en **Netlify**, quedando la aplicación disponible de punta a punta para cualquier usuario sin depender de un entorno local.
+ 
+Sobre el backend en Railway se aplicaron los ajustes de estabilización necesarios para sostener el tráfico generado por la conexión real del frontend ya desplegado (corrección de la clase duplicada del adaptador de `MentionStream` y remoción del `.env` que había quedado expuesto en el repositorio), validando que el servicio se mantuviera estable en producción durante toda la integración.
+ 
+### Deployment Process — Backend (Railway):
+ 
+1. Verificar en Railway que el servicio `BrandRadar-Web-Services` siga activo sobre la base de datos MySQL provisionada previamente.
+2. Redesplegar el servicio tras los commits de estabilización del sprint (`fix: eliminar clase duplicada MentionStreamPersistenceAdapter`, remoción del `.env` expuesto), dejando que Railway detecte el cambio en la rama `main` y ejecute el build automáticamente.
+3. Confirmar en las variables de entorno que `JWT_SECRET`, `GROQ_API_KEY`, `YOUTUBE_API_KEY` y las credenciales de MySQL sigan vigentes tras la limpieza del `.env`.
+4. Actualizar la configuración de **CORS** en el backend para aceptar peticiones desde el dominio público del frontend en Netlify (en vez de únicamente `http://localhost:4200`).
+5. Verificar en los logs de Railway que el pipeline automático de reputación y los endpoints consumidos por el frontend respondan correctamente en producción.
+
 <br>
+
+### Deployment Process — Frontend (Netlify):
+ 
+1. Conectar el repositorio `BrandRadar-Frontend-Web-App` a un nuevo sitio en Netlify.
+2. Configurar el comando de build (`ng build`) y el directorio de publicación (`dist/brandradar-project/browser`).
+3. Definir `environment.apiBaseUrl` en el build de producción apuntando a la URL pública del backend en Railway, reemplazando el valor de desarrollo (`http://localhost:8080/api/v1`).
+4. Configurar el redirect de rutas de Angular (`/* → /index.html`) en Netlify para que el enrutamiento del lado del cliente funcione correctamente en recargas directas de URL (`/dashboard`, `/mentions`, etc.).
+5. Disparar el primer deploy y verificar que las 15 pantallas de la aplicación (login, registro, verify-email, forgot-password, workspace/onboarding, subscription, payment, success, home, dashboard, settings, configuration, mentions, incidents, reports) carguen correctamente contra el backend real.
+6. Validar el flujo completo de autenticación en producción: registro → verificación de email (OTP) → login automático → onboarding de workspace, incluyendo la renovación automática del JWT por el interceptor HTTP ante una respuesta `401`.
+
+<br>
+
+**URL del Web Service (Railway):** `https://brandradar-web-services-production.up.railway.app/swagger-ui/index.html`
+ 
+**URL del Frontend (Netlify):** `https://brandradar-app.netlify.app`
+
+<br>
+
+**Evidencias**
+ 
+A continuación se presentan capturas del proceso de despliegue del frontend en Netlify, del frontend desplegado consumiendo el backend real en producción, y de los logs de Railway confirmando la estabilidad del servicio tras los ajustes del sprint:
+ 
+<br>
+
+![Deployment Sprint 4 - 01](brandradar-report/assets/sprints/sprint-4/sprint4-deployment-01.png)
+ 
+![Deployment Sprint 4 - 02](brandradar-report/assets/sprints/sprint-4/sprint4-deployment-02.png)
+ 
+![Deployment Sprint 4 - 03](brandradar-report/assets/sprints/sprint-4/sprint4-deployment-03.png)
+ 
+<br>
+
 
 ---
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint
 
+Durante el Sprint 4, a diferencia de los sprints anteriores donde el trabajo se repartió por bounded context entre los cinco integrantes, la conexión del frontend con el backend fue asumida casi en su totalidad por Brianna Salinas, quien concentró el desarrollo de las 15 pantallas de la aplicación (autenticación, onboarding, dashboard, mentions, incidents, configuration, reports, settings y subscription/payment) y su integración progresiva contra los endpoints reales del Web Service.
+ 
+El repositorio `BrandRadar-Frontend-Web-App` muestra un patrón de trabajo iterativo y sostenido a lo largo de todo el sprint: construcción de cada pantalla contra datos mockeados para validar la experiencia de usuario sin depender de la disponibilidad del backend, seguida por el reemplazo sistemático de esos mocks por las llamadas reales (`this.http.get/post/patch/delete`) a los endpoints ya documentados en Swagger, y el cierre del sprint con correcciones puntuales sobre el flujo de verificación de correo. En paralelo, sobre el repositorio `BrandRadar-Web-Services` se aplicaron los ajustes de estabilización necesarios para sostener esa integración.
+ 
+<br>
+
+### Métricas de colaboración:
+ 
+- **Commits:** La actividad del sprint (del 20 de junio al 6 de julio) se concentró en la cuenta de Brianna Salinas, con commits diarios o casi diarios cubriendo tanto el frontend como los ajustes de estabilización del backend.
+
+- **Trabajo concentrado, no distribuido por bounded context:** A diferencia del Sprint 3, este sprint no reflejó ramas `feature/sprint4-{integrante}` de los demás miembros del equipo con actividad equivalente; el trabajo de integración fue asumido de forma centralizada.
+
+- **Patrón mock-first → conexión real:** Cada pantalla se construyó primero con datos simulados y luego se conectó a la API real, permitiendo detectar rápidamente diferencias entre el contrato documentado en Swagger y lo que el frontend esperaba (por ejemplo, el tipo de `activeIncidents` como objeto en vez de número simple).
+
+- **Estabilización compartida entre frontend y backend:** La corrección de la clase duplicada `MentionStreamPersistenceAdapter` y la remoción del `.env` expuesto se hicieron directamente sobre el backend ya desplegado, evidenciando que la integración real expuso también deuda técnica pendiente del sprint anterior.
 
 <br>
 
+**[Pendiente: captura de `commits` y `network` del repositorio del Sprint 4, análoga a la del Sprint 3]**
+ 
+![Team Collaboration Sprint 4](brandradar-report/assets/sprints/sprint-4/commits.png)
+ 
+![Team Collaboration Sprint 4](brandradar-report/assets/sprints/sprint-4/network.png)
+ 
+<br>
 
 ---
 
@@ -4915,7 +5145,12 @@ Jenifer Natali López Huamán, fundadora de Siana Boutique (tienda de ropa femen
 
 ### 5.3.3. Evaluaciones según heurísticas
 
+<br>
+
 ### UX Heuristics & Principles Evaluation
+
+<br>
+
 **Usability – Inclusive Design – Information Architecture**
 
 | Campo | Detalle |
@@ -4926,9 +5161,9 @@ Jenifer Natali López Huamán, fundadora de Siana Boutique (tienda de ropa femen
 | PROFESORES | Ivan Robles Fernandez |
 | AUDITOR | Metrix |
 | CLIENTE(S) | BrandRadar Team |
-| SITE A EVALUAR | Landing Page: https://brandradar-landing-page.netlify.app/ / Web Application: |
+| SITE A EVALUAR | Landing Page: https://brandradar-landing-page.netlify.app/ <br> Web Application: |
 
----
+<br>
 
 ### TAREAS A EVALUAR
 
@@ -4956,7 +5191,7 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 6. Infraestructura (sin página ni ruta)
 7. Registro de nuevo usuario y onboarding
 
----
+<br>
 
 ### ESCALA DE SEVERIDAD
 
@@ -4967,7 +5202,7 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 | 3 | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante que sea corregido y se le debe asignar una prioridad alta. |
 | 4 | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
 
----
+<br>
 
 ### TABLA RESUMEN
 
@@ -4984,9 +5219,9 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 | 9 | Los botones CTA "Probar gratis" y "Empezar ahora →" no permiten completar el inicio de sesión | 4 | Usability: Control y libertad del usuario / Visibilidad del estado del sistema |
 | 10 | El botón secundario "Cómo funciona" no desplaza ni enlaza a ninguna sección de contenido | 2 | Usability: Visibilidad del estado del sistema |
 
----
+<br>
 
-### DESCRIPCIÓN DE PROBLEMAS
+## DESCRIPCIÓN DE PROBLEMAS
 
 ---
 
@@ -5002,6 +5237,8 @@ Al hacer clic en cualquier ítem del sidebar (Incidentes, Menciones, Mis Marcas,
 **Recomendación:**
 Registrar todas las rutas en el módulo de enrutamiento de Angular y conectar cada ítem del sidebar con su ruta correspondiente mediante `routerLink` o llamando a `router.navigate()`. Verificar que el guard de autenticación no redirija rutas válidas al login por error de configuración.
 
+<br>
+
 ---
 
 #### PROBLEMA #2: Las páginas de Incidentes, Menciones, Mis Marcas y Reglas no tienen contenido implementado
@@ -5015,6 +5252,8 @@ Las cuatro secciones principales de la aplicación (Incidentes, Menciones, Mis M
 
 **Recomendación:**
 Implementar el contenido de cada página o, como medida temporal antes del lanzamiento, mostrar un estado vacío explícito con mensaje descriptivo ("Esta sección estará disponible próximamente") y un enlace de regreso al dashboard. Un estado vacío informativo es siempre preferible a una página en blanco.
+
+<br>
 
 ---
 
@@ -5030,6 +5269,8 @@ Las pantallas de autenticación (login, recuperar contraseña) ofrecen un select
 **Recomendación:**
 Mantener el selector de idioma disponible en toda la aplicación, ya sea en el header del dashboard o en un menú de perfil de usuario. La preferencia de idioma debe persistir durante toda la sesión y guardarse en `localStorage` para sesiones futuras.
 
+<br>
+
 ---
 
 #### PROBLEMA #4: Los botones "Ver" y "Ver todos →" de incidentes navegan a una página sin contenido
@@ -5043,6 +5284,8 @@ En la sección "Incidentes activos" del dashboard, cada incidente muestra un bot
 
 **Recomendación:**
 Implementar la vista de incidentes con al menos el listado básico de alertas activas. Como solución temporal, deshabilitar los botones "Ver" y ocultar el enlace "Ver todos →" hasta que la página esté disponible, evitando dirigir al usuario a un destino vacío.
+
+<br>
 
 ---
 
@@ -5058,6 +5301,8 @@ El panel "Estado de fuentes" del dashboard muestra Twitter/X, Instagram y Google
 **Recomendación:**
 Si el endpoint de estado de fuentes no está disponible, mostrar los íconos de las plataformas sin estado de conexión, o indicar explícitamente "Estado no disponible" en lugar de mostrar datos inventados. Los datos demo no deben presentarse con apariencia de información operativa real.
 
+<br>
+
 ---
 
 #### PROBLEMA #6: La confirmación de recuperación no distingue si el correo existe en el sistema
@@ -5071,6 +5316,8 @@ Al ingresar cualquier correo electrónico en el formulario "Recuperar contraseñ
 
 **Recomendación:**
 Implementar el endpoint `/auth/forgot-password` en el middleware de json-server que valide si el correo existe en `registered_users` y devuelva una respuesta diferenciada. Mostrar al usuario un mensaje claro si el correo no está registrado, sin necesidad de revelar información de seguridad sensible.
+
+<br>
 
 ---
 
@@ -5086,6 +5333,8 @@ El "Reputation Index" mostrado en el dashboard presenta un valor numérico (90 e
 **Recomendación:**
 Agregar un tooltip al pasar el cursor sobre el Reputation Index que explique brevemente la escala y el significado del color ("90 / 100 — Reputación saludable. Verde: ≥70, Ámbar: 45-69, Rojo: <45"). Complementar con un enlace a la documentación o un modal de ayuda si el espacio no permite el texto completo.
 
+<br>
+
 ---
 
 #### PROBLEMA #8: El botón "Resolver" de un incidente no proporciona feedback visual tras ejecutarse
@@ -5099,6 +5348,8 @@ Al hacer clic en el botón "Resolver" de un incidente activo, la tarjeta desapar
 
 **Recomendación:**
 Mostrar una notificación breve usando el componente `SnackbarComponent` del proyecto ("Incidente marcado como resuelto") al completar la acción. Opcionalmente, aplicar una animación de salida a la tarjeta antes de eliminarla del listado para que la desaparición no sea abrupta.
+
+<br>
 
 ---
 
@@ -5114,6 +5365,8 @@ El llamado a la acción principal del Landing Page se materializa en dos botones
 **Recomendación:**
 Verificar que el endpoint de autenticación esté operativo y que el flujo de registro/login vinculado a los CTAs esté correctamente conectado al backend. Implementar mensajes de error claros que indiquen al usuario qué ocurrió y qué puede hacer. Como medida temporal, redirigir el CTA a un formulario de lista de espera o contacto si el flujo completo no está disponible, evitando dejar al usuario en un estado de error sin salida.
 
+<br>
+
 ---
 
 #### PROBLEMA #10: El botón secundario "Cómo funciona" no desplaza ni enlaza a ninguna sección de contenido
@@ -5127,6 +5380,8 @@ La sección Hero del Landing Page presenta junto al CTA principal un botón secu
 
 **Recomendación:**
 Vincular el botón a un anclaje `#caracteristicas` dentro del propio Landing Page que desplace la vista hasta la sección de Características o Beneficios. Si la sección aún no está implementada, deshabilitar el botón visualmente o eliminarlo hasta que el destino esté disponible.
+
+<br>
 
 ---
 
@@ -5166,20 +5421,19 @@ El video About-the-Product de BrandRadar presenta una visión general del produc
 
 ## Conclusiones
 
-1. 
+1. El Sprint 4 permitió cerrar el ciclo de desarrollo iniciado en los sprints anteriores, logrando que BrandRadar dejara de ser dos componentes independientes (un frontend con datos mockeados y un backend probado solo vía Swagger/Postman) para convertirse en una aplicación web integrada de punta a punta, donde el usuario final puede completar el flujo completo — registro, verificación, login, configuración de marca, monitoreo y reportes — consumiendo servicios reales.
 
-2. 
+2. La estrategia de construir primero cada pantalla contra datos mockeados y luego reemplazarlos progresivamente por la conexión real (`feat: brandradar con datos mockeados` → `conexion con backend`) resultó efectiva para no bloquear el avance del frontend por la disponibilidad del backend, aunque también evidenció diferencias puntuales entre lo mockeado y el contrato real (por ejemplo, el cambio de `activeIncidents` de número a objeto), que debieron corregirse durante la integración.
 
-3. 
+3. El interceptor HTTP con renovación automática de JWT (`auth.interceptor.ts`) resultó una pieza clave de la arquitectura: al centralizar la inyección del token y el refresh ante respuestas `401`, se evitó duplicar esa lógica en cada uno de los componentes que consumen la API, mejorando la mantenibilidad del código.
 
-4. 
+4. El despliegue conjunto del backend en Railway y del frontend en Netlify permitió validar el sistema en un entorno público real, cerrando la brecha entre "funciona en local" y "funciona en producción", y dejando la aplicación lista para ser evaluada por usuarios externos al equipo.
 
-5. 
+5. A diferencia de los sprints anteriores, donde el trabajo se repartió por bounded context entre los cinco integrantes, el Sprint 4 mostró una concentración importante de la carga de integración en un solo miembro del equipo. Esto permitió avanzar rápido gracias al conocimiento acumulado sobre el dominio, pero también representa un riesgo de bus factor que el equipo debería abordar en futuras iteraciones mediante una distribución más equilibrada del trabajo de integración.
 
-6. 
+6. La integración real expuso deuda técnica que no era visible mientras el frontend trabajaba con datos simulados, como la clase duplicada en el adaptador de persistencia de `MentionStream` o el archivo `.env` expuesto en el repositorio del backend. Esto confirma que conectar el sistema de punta a punta, aunque tardío en el plan del proyecto, es indispensable para descubrir y corregir este tipo de problemas antes de un despliegue definitivo.
 
 <br>
-
 
 ---
 
