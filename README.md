@@ -5009,8 +5009,6 @@ Jenifer Natali López Huamán, fundadora de Siana Boutique (tienda de ropa femen
 
 #### Entrevista 2
 
-*Imagen de la entrevista*
-
 <img src="brandradar-report/assets/interviews/validation/ss_validacion_seg1_2.png" alt="Entrevista de Validación 2 - Segmento 1" width="700"/>
 
 <br>
@@ -5018,15 +5016,21 @@ Jenifer Natali López Huamán, fundadora de Siana Boutique (tienda de ropa femen
 
 | Campo | Detalle |
 |:------|:--------|
-| **Nombres y apellidos** | `` |
-| **Edad** | `` |
-| **Ubicación** | `` |
-| **Fecha de entrevista** | `` |
-| **Duración** | `` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://) |
+| **Nombres y apellidos** | `Silvia Lizbeth Herrera Vilchez` |
+| **Edad** | `50 años` |
+| **Ubicación** | `Surco, Lima` |
+| **Fecha de entrevista** | `2026-07-06` |
+| **Duración** | `7:17` |
+| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411354_upc_edu_pe/IQBOAv0UK6bpRqkzqcNTY-K1Acsm_3Es7RA90ijo1dnvXeE?e=W3KhNS&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
 
 **Resumen:**
 </div>
+
+Silvia Lizbeth Herrera Vilchez, propietaria de Café Raíz, una cafetería especializada en café artesanal con tres años de funcionamiento, participó en la entrevista de validación como representante del Segmento 1 (Pequeñas y medianas empresas y marcas digitales – PyMEs). Administra personalmente la presencia digital de su negocio mediante Instagram, Facebook, Google Maps y WhatsApp Business, sin contar con un equipo de marketing. Actualmente monitorea la reputación de su marca de forma manual, revisando periódicamente las reseñas y comentarios publicados en las distintas plataformas, lo que le demanda tiempo y dificulta reaccionar rápidamente ante comentarios negativos.
+
+**Hallazgos sobre el Landing Page:** La participante comprendió con facilidad la propuesta de valor de BrandRadar, identificando que la plataforma centraliza el monitoreo de la reputación digital y facilita el seguimiento de comentarios provenientes de diferentes canales. No obstante, indicó que algunos términos, como "análisis de sentimiento", podrían explicarse con un lenguaje más sencillo para usuarios sin experiencia en marketing digital. El diseño, los colores y la organización de la página le transmitieron confianza y profesionalismo, aunque sugirió incorporar capturas reales de la aplicación para reforzar la credibilidad. Respecto a los testimonios, señaló que la mayoría pertenecían a empresas de mayor tamaño y recomendó incluir casos de éxito de pequeños negocios y emprendimientos similares al suyo. La información sobre planes y precios le pareció clara, pero manifestó que sería útil detallar con mayor precisión las funcionalidades incluidas en cada plan y destacar el valor de la prueba gratuita para facilitar la decisión de registro.
+
+**Hallazgos sobre la Aplicación Web:** El proceso de registro y verificación de correo le resultó sencillo y no requirió asistencia externa. Durante la configuración inicial entendió el propósito del espacio de marca y consideró que la selección de palabras clave y fuentes de información reflejaba adecuadamente la forma en que actualmente realiza el monitoreo manual de su negocio. En el MentionStream, identificó rápidamente las menciones negativas gracias a la clasificación visual de prioridades y estimó que la plataforma le permitiría ahorrar entre 20 y 30 minutos diarios, al evitar revisar individualmente cada red social. En el módulo de ReputationIncident, comprendió el flujo para responder comentarios negativos y consideró que sería suficiente para gestionar situaciones habituales de atención al cliente, sin embargo, indicó que ante una crisis de gran alcance seguiría recurriendo al apoyo de especialistas. Finalmente, el Dashboard reputacional le permitió comprender fácilmente los indicadores principales, aunque recomendó incorporar explicaciones más simples o descripciones en lenguaje natural para interpretar algunos gráficos de tendencias. Como mejora adicional, sugirió incluir alertas automáticas y recomendaciones de acción cuando se detecte un incremento significativo de comentarios negativos, con el fin de facilitar una respuesta más oportuna.
 
 <br>
 
