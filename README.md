@@ -128,10 +128,10 @@ Para el desarrollo del TB2, cada integrante contribuyó de la siguiente manera:
 
 | Integrante | Tareas Realizadas |
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Salinas Guzmán, Brianna Cristina | Tareas |
-| Jáuregui Cerna, Jean Franco      | Tareas |
-| Cruzalegui Herrera, Joaquin      | Tareas |
-| Garcia Paredes, Victor Manuel    | Tareas |
+| Salinas Guzmán, Brianna Cristina | Elaboración del Student Outcome, Backend ajustes, About the team, Conexión con frontend, Report, About the product, Despliegue de la aplicación |
+| Jáuregui Cerna, Jean Franco      | Backend ajustes, PPT keynote |
+| Cruzalegui Herrera, Joaquin      | Elaboración del Student Outcome, Videos de entrevistas, Backend ajustes, About the team |
+| Garcia Paredes, Victor Manuel    | Elaboración del Student Outcome, Videos de entrevistas, Backend ajustes, About the team |
 
 
 
