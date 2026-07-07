@@ -4652,19 +4652,35 @@ El desarrollo se validó mediante:
 <br>
 
 A continuación se muestran las capturas de las pantallas conectadas y verificadas durante el Sprint 4:
- 
-<br>
-
-**[Nombre de pantalla] – [breve descripción de lo que muestra la captura]**
 
 <br>
  
 ![Execution Evidence Sprint 4 - 01](brandradar-report/assets/sprints/sprint-4/evidence-01.png)
- 
+
+![Execution Evidence Sprint 4 - 02](brandradar-report/assets/sprints/sprint-4/evidence-02.png)
+
+
+![Execution Evidence Sprint 4 - 03](brandradar-report/assets/sprints/sprint-4/evidence-03.png)
+
+![Execution Evidence Sprint 4 - 04](brandradar-report/assets/sprints/sprint-4/evidence-04.png)
+
+
+![Execution Evidence Sprint 4 - 05](brandradar-report/assets/sprints/sprint-4/evidence-05.png)
+
+![Execution Evidence Sprint 4 - 06](brandradar-report/assets/sprints/sprint-4/evidence-06.png)
+
+![Execution Evidence Sprint 4 - 07](brandradar-report/assets/sprints/sprint-4/evidence-07.png)
+
+![Execution Evidence Sprint 4 - 08](brandradar-report/assets/sprints/sprint-4/evidence-08.png)
+
+![Execution Evidence Sprint 4 - 09](brandradar-report/assets/sprints/sprint-4/evidence-09.png)
+
+![Execution Evidence Sprint 4 - 10](brandradar-report/assets/sprints/sprint-4/evidence-10.png)
+
 <br>
 Asimismo, se elaboró un video demostrativo que muestra la ejecución del flujo integrado durante el Sprint 4, incluyendo autenticación real contra el backend, gestión de `BrandWorkspace` desde el frontend y las pantallas de Dashboard y Settings consumiendo datos reales de la API:
  
-[Ver video de ejecución Sprint 4](PENDIENTE_ENLACE_VIDEO_SPRINT_4)
+[Ver video de ejecución Sprint 4](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202410239_upc_edu_pe/IgAiQ0EzivEZToQzbMjLIgi-AQo6IfjwdTPK4wAG3my_uMc?e=hGfRFH)
 
 <br>
 
@@ -4736,16 +4752,19 @@ A continuación se presentan capturas de Swagger UI mostrando los contratos cons
  
 <br>
 
-**Swagger UI – Contrato de [bounded context] verificado contra el frontend**
+**Swagger UI mostrando los endpoints de Brandradar**
 
-![Services Documentation Sprint 4 - 01](brandradar-report/assets/sprints/sprint-4/service-01.png)
+![Services Documentation Sprint 4 - 01](brandradar-report/assets/sprints/sprint-4/evidence-01.png)
 
 <br>
 
-**Network tab del navegador – [pantalla] consumiendo `[endpoint]` en tiempo real**
+**Network tab del navegador – Login consumiendo `[endpoint]` en tiempo real**
 
-![Services Documentation Sprint 4 - 02](brandradar-report/assets/sprints/sprint-4/service-02.png)
+![Services Documentation Sprint 4 - 02](brandradar-report/assets/sprints/sprint-4/service-01.png)
  
+
+ ![Services Documentation Sprint 4 - 02](brandradar-report/assets/sprints/sprint-4/service-02.png)
+
 <br>
 
 
@@ -4753,51 +4772,84 @@ A continuación se presentan capturas de Swagger UI mostrando los contratos cons
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
-Durante el Sprint 4 se completó el despliegue público de ambos componentes de BrandRadar: el Web Service, que continuó operando en Railway desde el Sprint 3, y el Frontend Angular, que se desplegó por primera vez en **Netlify**, quedando la aplicación disponible de punta a punta para cualquier usuario sin depender de un entorno local.
+Durante el Sprint 4 se completó el despliegue público de los tres componentes de BrandRadar: el Web Service, desplegado en **Render**, el Frontend Angular, desplegado también en **Render** como servicio SSR (Server-Side Rendering), y la base de datos MySQL, provisionada en **Filess.io**, quedando la aplicación disponible de punta a punta para cualquier usuario sin depender de un entorno local.
  
-Sobre el backend en Railway se aplicaron los ajustes de estabilización necesarios para sostener el tráfico generado por la conexión real del frontend ya desplegado (corrección de la clase duplicada del adaptador de `MentionStream` y remoción del `.env` que había quedado expuesto en el repositorio), validando que el servicio se mantuviera estable en producción durante toda la integración.
+Sobre el backend en Render se aplicaron los ajustes de estabilización necesarios para sostener el tráfico generado por la conexión real del frontend ya desplegado (corrección de la clase duplicada del adaptador de `MentionStream` y remoción del `.env` que había quedado expuesto en el repositorio), validando que el servicio se mantuviera estable en producción durante toda la integración.
  
-### Deployment Process — Backend (Railway):
+### Deployment Process — Base de Datos (Filess.io):
  
-1. Verificar en Railway que el servicio `BrandRadar-Web-Services` siga activo sobre la base de datos MySQL provisionada previamente.
-2. Redesplegar el servicio tras los commits de estabilización del sprint (`fix: eliminar clase duplicada MentionStreamPersistenceAdapter`, remoción del `.env` expuesto), dejando que Railway detecte el cambio en la rama `main` y ejecute el build automáticamente.
-3. Confirmar en las variables de entorno que `JWT_SECRET`, `GROQ_API_KEY`, `YOUTUBE_API_KEY` y las credenciales de MySQL sigan vigentes tras la limpieza del `.env`.
-4. Actualizar la configuración de **CORS** en el backend para aceptar peticiones desde el dominio público del frontend en Netlify (en vez de únicamente `http://localhost:4200`).
-5. Verificar en los logs de Railway que el pipeline automático de reputación y los endpoints consumidos por el frontend respondan correctamente en producción.
+1. Crear una cuenta en **Filess.io** y provisionar una instancia de base de datos **MySQL** dentro del plan gratuito *Hobby* (2 bases de datos, 10 MB de almacenamiento, tráfico ilimitado, sin tarjeta de crédito).
+
+2. Al crearse la instancia, Filess.io entrega de forma inmediata el connection string completo: **host**, **puerto**, **usuario**, **contraseña** y **nombre de la base de datos**.
+
+3. Configurar esas credenciales en las variables de entorno del backend en Render (`SPRING_DATASOURCE_URL`, `SPRING_DATASOURCE_USERNAME`, `SPRING_DATASOURCE_PASSWORD`), reemplazando la conexión local usada en desarrollo.
+
+4. Ejecutar las migraciones/creación de esquema contra la instancia de Filess.io y validar la conexión desde el backend desplegado.
+
+5. Tener en cuenta la limitación de almacenamiento del plan gratuito (10 MB) como riesgo a monitorear a medida que crezca el volumen de menciones e incidentes registrados.
 
 <br>
 
-### Deployment Process — Frontend (Netlify):
+
+
+![Deployment Sprint 4 - 01](brandradar-report/assets/sprints/sprint-4/sprint4-deployment-02.png)
+
+![Deployment Sprint 4 - 02](brandradar-report/assets/sprints/sprint-4/sprint4-deployment-01.png)
+
+
+<br>
+
+### Deployment Process — Backend (Render):
  
-1. Conectar el repositorio `BrandRadar-Frontend-Web-App` a un nuevo sitio en Netlify.
-2. Configurar el comando de build (`ng build`) y el directorio de publicación (`dist/brandradar-project/browser`).
-3. Definir `environment.apiBaseUrl` en el build de producción apuntando a la URL pública del backend en Railway, reemplazando el valor de desarrollo (`http://localhost:8080/api/v1`).
-4. Configurar el redirect de rutas de Angular (`/* → /index.html`) en Netlify para que el enrutamiento del lado del cliente funcione correctamente en recargas directas de URL (`/dashboard`, `/mentions`, etc.).
+1. Verificar en Render que el Web Service `brandradar-web-services` siga activo y conectado a la base de datos MySQL provisionada en Filess.io.
+
+2. Redesplegar el servicio tras los commits de estabilización del sprint (`fix: eliminar clase duplicada MentionStreamPersistenceAdapter`, remoción del `.env` expuesto), dejando que Render detecte el cambio en la rama `main` y ejecute el build automáticamente (*auto-deploy*).
+
+3. Confirmar en la pestaña **Environment** de Render que `JWT_SECRET`, `GROQ_API_KEY`, `YOUTUBE_API_KEY` y las credenciales de conexión a Filess.io sigan vigentes tras la limpieza del `.env`.
+
+4. Actualizar la configuración de **CORS** en el backend para aceptar peticiones desde el dominio público del frontend en Render (en vez de únicamente `http://localhost:4200`).
+
+5. Verificar en los logs de Render que el pipeline automático de reputación y los endpoints consumidos por el frontend respondan correctamente en producción.
+
+<br>
+
+![Deployment Sprint 4 - 03](brandradar-report/assets/sprints/sprint-4/sprint4-deployment-03.png)
+
+![Deployment Sprint 4 - 04](brandradar-report/assets/sprints/sprint-4/sprint4-deployment-04.png)
+
+![Deployment Sprint 4 - 05](brandradar-report/assets/sprints/sprint-4/sprint4-deployment-05.png)
+
+![Deployment Sprint 4 - 06](brandradar-report/assets/sprints/sprint-4/sprint4-deployment-06.png)
+
+<br>
+
+### Deployment Process — Frontend (Render):
+ 
+1. Conectar el repositorio `BrandRadar-Frontend-Web-App` a un nuevo **Web Service** en Render (no *Static Site*, ya que la aplicación usa SSR con Angular Universal/Express).
+2. Configurar el **Build Command** (`npm install && npm run build`) y el **Start Command** (`node dist/brandradar-project/server/server.mjs`).
+3. Definir `environment.apiBaseUrl` en el build de producción apuntando a la URL pública del backend en Render, reemplazando el valor de desarrollo (`http://localhost:8080/api/v1`).
+4. Configurar en `angular.json` el arreglo `security.allowedHosts` (por ejemplo `["*.onrender.com"]`) para que el servidor SSR acepte el hostname público asignado por Render y no rechace las peticiones por la protección SSRF de Angular.
 5. Disparar el primer deploy y verificar que las 15 pantallas de la aplicación (login, registro, verify-email, forgot-password, workspace/onboarding, subscription, payment, success, home, dashboard, settings, configuration, mentions, incidents, reports) carguen correctamente contra el backend real.
 6. Validar el flujo completo de autenticación en producción: registro → verificación de email (OTP) → login automático → onboarding de workspace, incluyendo la renovación automática del JWT por el interceptor HTTP ante una respuesta `401`.
-
 <br>
 
-**URL del Web Service (Railway):** `https://brandradar-web-services-production.up.railway.app/swagger-ui/index.html`
+**URL del Web Service (Render):** [https://brandradar-web-services.onrender.com/swagger-ui/index.html](https://brandradar-web-services.onrender.com/swagger-ui/index.html) 
  
-**URL del Frontend (Netlify):** `https://brandradar-app.netlify.app`
-
+**URL del Frontend (Render):** [https://brandradar-frontend-web-app.onrender.com/login](https://brandradar-frontend-web-app.onrender.com/login)
+ 
 <br>
 
 **Evidencias**
  
-A continuación se presentan capturas del proceso de despliegue del frontend en Netlify, del frontend desplegado consumiendo el backend real en producción, y de los logs de Railway confirmando la estabilidad del servicio tras los ajustes del sprint:
+A continuación se presentan capturas del proceso de despliegue del frontend en Render, del frontend desplegado consumiendo el backend real en producción, y de los logs de Render confirmando la estabilidad del servicio tras los ajustes del sprint:
  
 <br>
 
-![Deployment Sprint 4 - 01](brandradar-report/assets/sprints/sprint-4/sprint4-deployment-01.png)
+![Deployment Sprint 4 - 07](brandradar-report/assets/sprints/sprint-4/sprint4-deployment-07.png)
  
-![Deployment Sprint 4 - 02](brandradar-report/assets/sprints/sprint-4/sprint4-deployment-02.png)
- 
-![Deployment Sprint 4 - 03](brandradar-report/assets/sprints/sprint-4/sprint4-deployment-03.png)
+![Deployment Sprint 4 - 08](brandradar-report/assets/sprints/sprint-4/sprint4-deployment-08.png)
  
 <br>
-
 
 ---
 
@@ -4821,7 +4873,6 @@ El repositorio `BrandRadar-Frontend-Web-App` muestra un patrón de trabajo itera
 
 <br>
 
-**[Pendiente: captura de `commits` y `network` del repositorio del Sprint 4, análoga a la del Sprint 3]**
  
 ![Team Collaboration Sprint 4](brandradar-report/assets/sprints/sprint-4/commits.png)
  
@@ -5034,32 +5085,6 @@ Silvia Lizbeth Herrera Vilchez, propietaria de Café Raíz, una cafetería espec
 
 <br>
 
-<div align="center">
-
-#### Entrevista 3
-
-*Imagen de la entrevista*
-
-<img src="brandradar-report/assets/interviews/validation/ss_validacion_seg1_3.png" alt="Entrevista de Validación 3 - Segmento 1" width="700"/>
-
-<br>
-<br>
-
-| Campo | Detalle |
-|:------|:--------|
-| **Nombres y apellidos** | `` |
-| **Edad** | `` |
-| **Ubicación** | `` |
-| **Fecha de entrevista** | `` |
-| **Duración** | `` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://) |
-
-**Resumen:**
-
-</div>
-
-<br>
-
 ---
 
 <div align="center">
@@ -5093,58 +5118,6 @@ Alex Gonzalo Torrejón Pérez, especialista de marketing que gestiona entre 5 y 
 **Hallazgos sobre el Landing Page:** Alex identificó BrandRadar como una herramienta profesional orientada a especialistas en marketing, valorando las referencias a integraciones con Slack y CRM y el lenguaje dirigido a "equipos de marketing y comunicaciones". Los testimonios de Falabella Colombia y Grupo Éxito le generaron confianza institucional, destacando especialmente el caso de Andrés Fuentes sobre la precisión del análisis de sentimiento en español latinoamericano como diferenciador clave frente a herramientas de origen anglosajón que no reconocen modismos ni sarcasmo local. Sobre los planes, descartó de entrada el Starter (3 marcas) y evaluó directamente el Pro ($149 con marcas ilimitadas), aunque señaló que falta indicar si el precio es por agencia o por usuario, dato relevante dado que trabaja con un equipo de dos personas. Identificó tres brechas de información para poder proponer la herramienta a un cliente: cobertura explícita de TikTok, detalle del sistema de reportes personalizable con logo del cliente y exportación en PDF/PowerPoint, y una demo en video real de la plataforma en funcionamiento.
 
 **Hallazgos sobre la Aplicación Web:** El modelo de selección de workspace por marca le resultó intuitivo y coherente con su forma de trabajo, aunque solicitó un indicador permanente de la marca activa en cada pantalla para evitar confusiones al gestionar múltiples cuentas simultáneamente, así como un selector rápido de cambio de marca en la barra superior sin necesidad de salir del flujo en curso. En configuración de monitoreo, estimó que la plataforma resolvería el 60% de su trabajo diario de monitoreo (entre 1,5 y 2 horas por día), al centralizar las búsquedas que hoy realiza manualmente; señaló TikTok, Google Reviews y Trustpilot como fuentes indispensables no cubiertas, y sugirió un mecanismo para registrar manualmente menciones recibidas por WhatsApp. En el módulo de menciones, valoró los filtros existentes (sentimiento, fuente, fecha) como punto de partida, pero solicitó filtrado adicional por nivel de alcance del autor —dado que una mención de alguien con 50 000 seguidores requiere otra respuesta que la de alguien con 200— y la posibilidad de marcar menciones como "gestionada" o "pendiente de respuesta"; estimó un ahorro de 8 a 10 horas semanales con el módulo en uso. En gestión de incidentes, valoró el seguimiento de estado pero solicitó la posibilidad de agregar notas internas y un historial de acciones exportable como evidencia de gestión para el cliente, reemplazando el seguimiento por WhatsApp que hoy usa y en el que se pierde el hilo fácilmente. En el dashboard, los indicadores clave (menciones, sentimiento, tendencia semanal) le resultaron adecuados como base, pero requiere exportación directa en PDF con nombre del cliente y período cubierto; además, añadiría métricas de share of voice frente a competidores y evolución del sentimiento con hitos correlacionables a eventos reales, para poder explicarle al cliente qué pasó y por qué. Finalmente, sobre el control de acceso por workspace, confirmó que el aislamiento por cuenta es suficiente para garantizar la confidencialidad prometida a sus clientes, reservando requerimientos de cifrado o auditorías de acceso solo para clientes más exigentes.
-
-<br>
-<div align="center">
-
-
-#### Entrevista 2
-
-*Imagen de la entrevista*
-
-<img src="brandradar-report/assets/interviews/validation/ss_validacion_seg2_2.png" alt="Entrevista de Validación 2 - Segmento 2" width="700"/>
-
-<br>
-<br>
-
-| Campo | Detalle |
-|:------|:--------|
-| **Nombres y apellidos** | `` |
-| **Edad** | `` |
-| **Ubicación** | `` |
-| **Fecha de entrevista** | `` |
-| **Duración** | `` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://) |
-
-**Resumen:**
-
-</div>
-
-<br>
-
-<div align="center">
-
-#### Entrevista 3
-
-*Imagen de la entrevista*
-
-<img src="brandradar-report/assets/interviews/validation/ss_validacion_seg2_3.png" alt="Entrevista de Validación 3 - Segmento 2" width="700"/>
-
-<br>
-<br>
-
-| Campo | Detalle |
-|:------|:--------|
-| **Nombres y apellidos** | `` |
-| **Edad** | `` |
-| **Ubicación** | `` |
-| **Fecha de entrevista** | `` |
-| **Duración** | `` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://) |
-
-**Resumen:**
-
-</div>
 
 <br>
 
@@ -5420,7 +5393,7 @@ Los problemas más urgentes a resolver antes de cualquier entrega o demo son:
 
 El video About-the-Product de BrandRadar presenta una visión general del producto, sus principales funcionalidades y la propuesta de valor para agencias digitales y PyMEs que necesitan gestionar la reputación de sus marcas de manera profesional y segura.
 
-[Ver Video About-the-Product de BrandRadar](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202410239_upc_edu_pe/IgCY33XTNcmZQZI3KLIUXU6yATnu9ITeb3ZMtEUUqnQmvvA?e=INFJYg)
+[Ver Video About-the-Product de BrandRadar](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202410239_upc_edu_pe/IgCY33XTNcmZQZI3KLIUXU6yAewwJOI7N838BqTFgUwvDT0?e=ac7H4V)
 
 <br> 
 
@@ -5447,7 +5420,7 @@ El video About-the-Product de BrandRadar presenta una visión general del produc
 ## Video About-The-Team
 
 
-[Ver Video About-the-Team de BrandRadar](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202410239_upc_edu_pe/IgCXUNHowWBSS6nlY18dFs7JAeyh7OpXMiejy2ojPa0Wnl4?e=BrqmCa)
+[Ver Video About-the-Team de BrandRadar](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202410239_upc_edu_pe/IgCc_c1lhu_oQIJEGp52VZ36AbvOqnpE-PZE35QzLRyr400?e=dh1r06)
 
 
 <br>
@@ -5494,8 +5467,8 @@ En este documento se incluyen los criterios de evaluación, evidencias de trabaj
 | Entrega | Título | Enlace |
 |:-------:|:------:|:------:|
 | AV1 | `upc-pre-202610-1asi0729-[11863]-[brandradar]-expo-av1` | [URL Microsoft Stream](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202410239_upc_edu_pe/IgBV-ACEG37lQ466daCivegHARBFGxWIBXchDZGj6xfsMAY?e=Y3HNmH) |
-| TB1 | `upc-pre-202610-1asi0729-[11863]-[brandradar]-expo-tb1` | [URL Microsoft Stream](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202410239_upc_edu_pe/IgCUwFHqhNzvSLnvprF7sOxmAcitk8v93xpRomtd_CLgQTw?e=kcPhrd) |
-| TB2 | `upc-pre-202610-1asi0729-[11863]-[brandradar]-expo-tb2` | [URL Microsoft Stream](https://upcedupe-my.sharepoint.com/:f:/g/personal/) |
+| TB1 | `upc-pre-202610-1asi0729-[11863]-[brandradar]-expo-tb1` | [URL Microsoft Stream](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202410239_upc_edu_pe/IgABtdFKYfQmSYv0PmBy4boHAUG_rji95cXUpzzC_jHpcPA?e=QRw7bb) |
+| TB2 | `upc-pre-202610-1asi0729-[11863]-[brandradar]-expo-tb2` | [URL Microsoft Stream](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202410239_upc_edu_pe/IgABtdFKYfQmSYv0PmBy4boHAUG_rji95cXUpzzC_jHpcPA?e=QRw7bb) |
 
 <br>
 
