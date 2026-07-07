@@ -5066,8 +5066,6 @@ Jenifer Natali López Huamán, fundadora de Siana Boutique (tienda de ropa femen
 
 #### Entrevista 1
 
-*Imagen de la entrevista*
-
 <img src="brandradar-report/assets/interviews/validation/ss_validacion_seg2_1.png" alt="Entrevista de Validación 1 - Segmento 2" width="700"/>
 
 <br>
@@ -5075,17 +5073,22 @@ Jenifer Natali López Huamán, fundadora de Siana Boutique (tienda de ropa femen
 
 | Campo | Detalle |
 |:------|:--------|
-| **Nombres y apellidos** | `` |
-| **Edad** | `` |
-| **Ubicación** | `` |
-| **Fecha de entrevista** | `` |
-| **Duración** | `` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://) |
-
+| **Nombres y apellidos** | `Alex Gonzalo Torrejón Pérez` |
+| **Edad** | `24 años` |
+| **Ubicación** | `Santiago de Surco, Lima` |
+| **Fecha de entrevista** | `2026-07-06` |
+| **Duración** | `12:30` |
+| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202012001_upc_edu_pe/IQAD8y-JLlGkRo3Ja_SVgkI6AXRtmgf6oVMft51K7pOhHCQ?e=cO3SCt) |
 
 **Resumen:**
 
 </div>
+
+Alex Gonzalo Torrejón Pérez, especialista de marketing que gestiona entre 5 y 8 clientes simultáneamente utilizando actualmente Google Alerts, búsquedas manuales en redes sociales y Hootsuite, participó como representante del Segmento 2.
+
+**Hallazgos sobre el Landing Page:** Alex identificó BrandRadar como una herramienta profesional orientada a especialistas en marketing, valorando las referencias a integraciones con Slack y CRM y el lenguaje dirigido a "equipos de marketing y comunicaciones". Los testimonios de Falabella Colombia y Grupo Éxito le generaron confianza institucional, destacando especialmente el caso de Andrés Fuentes sobre la precisión del análisis de sentimiento en español latinoamericano como diferenciador clave frente a herramientas de origen anglosajón que no reconocen modismos ni sarcasmo local. Sobre los planes, descartó de entrada el Starter (3 marcas) y evaluó directamente el Pro ($149 con marcas ilimitadas), aunque señaló que falta indicar si el precio es por agencia o por usuario, dato relevante dado que trabaja con un equipo de dos personas. Identificó tres brechas de información para poder proponer la herramienta a un cliente: cobertura explícita de TikTok, detalle del sistema de reportes personalizable con logo del cliente y exportación en PDF/PowerPoint, y una demo en video real de la plataforma en funcionamiento.
+
+**Hallazgos sobre la Aplicación Web:** El modelo de selección de workspace por marca le resultó intuitivo y coherente con su forma de trabajo, aunque solicitó un indicador permanente de la marca activa en cada pantalla para evitar confusiones al gestionar múltiples cuentas simultáneamente, así como un selector rápido de cambio de marca en la barra superior sin necesidad de salir del flujo en curso. En configuración de monitoreo, estimó que la plataforma resolvería el 60% de su trabajo diario de monitoreo (entre 1,5 y 2 horas por día), al centralizar las búsquedas que hoy realiza manualmente; señaló TikTok, Google Reviews y Trustpilot como fuentes indispensables no cubiertas, y sugirió un mecanismo para registrar manualmente menciones recibidas por WhatsApp. En el módulo de menciones, valoró los filtros existentes (sentimiento, fuente, fecha) como punto de partida, pero solicitó filtrado adicional por nivel de alcance del autor —dado que una mención de alguien con 50 000 seguidores requiere otra respuesta que la de alguien con 200— y la posibilidad de marcar menciones como "gestionada" o "pendiente de respuesta"; estimó un ahorro de 8 a 10 horas semanales con el módulo en uso. En gestión de incidentes, valoró el seguimiento de estado pero solicitó la posibilidad de agregar notas internas y un historial de acciones exportable como evidencia de gestión para el cliente, reemplazando el seguimiento por WhatsApp que hoy usa y en el que se pierde el hilo fácilmente. En el dashboard, los indicadores clave (menciones, sentimiento, tendencia semanal) le resultaron adecuados como base, pero requiere exportación directa en PDF con nombre del cliente y período cubierto; además, añadiría métricas de share of voice frente a competidores y evolución del sentimiento con hitos correlacionables a eventos reales, para poder explicarle al cliente qué pasó y por qué. Finalmente, sobre el control de acceso por workspace, confirmó que el aislamiento por cuenta es suficiente para garantizar la confidencialidad prometida a sus clientes, reservando requerimientos de cifrado o auditorías de acceso solo para clientes más exigentes.
 
 <br>
 <div align="center">
