@@ -370,8 +370,8 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 |:---|:---|:---|
-| **3.c1. Comunica oralmente con efectividad a diferentes rangos de audiencia.** | **Salinas, Brianna** <br> AV1: Durante el registro de entrevistas, conduje sesiones con usuarios del segmento objetivo adaptando mi discurso oral según el perfil del entrevistado, logrando transmitir el propósito de BrandRadar de forma clara y comprensible tanto para perfiles técnicos como no técnicos. <br><br> TB1: Participé en la exposición del avance del proyecto BrandRadar, explicando las funcionalidades desarrolladas en el frontend como el registro de usuarios, verificación de correo electrónico y sistema de autenticación. Durante la presentación, comuniqué de manera clara las decisiones tomadas en el diseño del sistema y respondí consultas relacionadas con la arquitectura y experiencia de usuario, adaptando el lenguaje técnico según la audiencia.<br><br> AV2: Participé en la grabación del video de exposición del Sprint 3, donde expliqué oralmente las decisiones arquitectónicas adoptadas en el backend de BrandRadar, incluyendo el pipeline automático de reputación con Groq AI, la integración con YouTube Data API v3 y el endpoint de dashboard agregado. Adapté el lenguaje técnico para que tanto el equipo evaluador como stakeholders no técnicos pudieran comprender el valor funcional del sistema implementado. <br><br> **Jáuregui, Jean Franco** <br> AV1: (acción específica) <br><br> TB1: (acción específica) <br><br> AV2: (acción específica)<br><br> **Cruzalegui, Joaquin** <br> AV1: Elaboré una de las entrevistas del segmento 1 (PyMEs), por la cual tuve que adecuar mi vocabulario de la mejor manera posible, para hacer sentir cómodo al entrevistado y poder recopilar la mejor información posible <br><br> TB1: (acción específica)<br><br> AV2: (acción específica) <br><br> **Garcia Paredes, Victor** <br> AV1: Diseñé y conduje oralmente dos entrevistas dirigidas a representantes de nuestros segmentos objetivo (una PyME y una Agencia Digital). Durante las sesiones, adapté mi lenguaje y tono para generar empatía con perfiles no técnicos, logrando extraer con claridad sus dolores respecto a la gestión de su reputación digital y comunicando efectivamente el propósito de nuestra investigación. <br><br> TB1: Desarrollé y narré los videos de Prototyping (demostración de la aplicación). A través de esta presentación audiovisual, expliqué de forma clara y fluida la interacción del usuario con BrandRadar, adaptando la explicación técnica a un lenguaje accesible para que tanto stakeholders como usuarios finales comprendan la funcionalidad y el valor del producto. <br><br> AV2: Conduje una entrevista de validación con un representante del Segmento 1 (PyME), guiando al participante a través de los user flows implementados en la aplicación web —registro, configuración de workspace, dashboard reputacional y gestión de menciones— mientras aplicaba la dinámica de Think-Aloud. Durante la sesión, adapté mi lenguaje para evitar terminología técnica del modelo de dominio, facilitando que el entrevistado expresara con naturalidad sus percepciones sobre la usabilidad y el valor percibido de BrandRadar para la gestión de la reputación de su negocio. <br><br> TB2: Conduje una entrevista de validación con un representante del Segmento 2 (especialista de marketing), guiando al participante a través de los user flows de la aplicación —selección de workspace, configuración de monitoreo, dashboard reputacional, gestión de menciones e incidentes— mientras aplicaba la dinámica de Think-Aloud. Adapté mi lenguaje para evitar terminología técnica del modelo de dominio, facilitando que el entrevistado —con experiencia en herramientas de marketing y gestión de múltiples marcas— expresara con naturalidad sus percepciones sobre la usabilidad profesional de BrandRadar y su potencial como reemplazo de su flujo de monitoreo manual actual. | <br> AV1: Durante el AV1, el equipo logró comunicar oralmente de manera clara y organizada la propuesta inicial del proyecto BrandRadar, presentando la problemática identificada, los objetivos del sistema y la solución tecnológica planteada. La exposición permitió transmitir adecuadamente las ideas principales tanto a un público técnico como académico, utilizando apoyo visual y una distribución equilibrada de la participación entre los integrantes. <br><br> TB1: Durante el AV1, el equipo elaboró documentación escrita estructurada y comprensible, incluyendo descripciones del proyecto, análisis del problema, user stories y planificación inicial del producto. La redacción utilizada permitió comunicar las ideas de manera formal y coherente, facilitando la comprensión del alcance y propósito del sistema BrandRadar para distintos tipos de lectores. <br><br> AV2: Durante el AV2, el equipo demostró capacidad de comunicación oral efectiva en dos contextos diferenciados. Por un lado, en las entrevistas de validación, los integrantes condujeron sesiones individuales con usuarios de ambos segmentos objetivo utilizando la dinámica de Think-Aloud, adaptando el vocabulario para evitar terminología técnica del modelo de dominio y permitiendo que los participantes expresaran con naturalidad sus percepciones sobre la usabilidad y el valor percibido de BrandRadar. Por otro lado, en la exposición del Sprint 3, el equipo presentó oralmente la arquitectura del Web Service implementado con Spring Boot, las decisiones de diseño basadas en DDD, la integración con Groq AI y YouTube Data API, y el proceso de despliegue en Railway, ajustando el nivel de detalle técnico según la audiencia evaluadora. <br><br> TB2: Durante el TB2, el equipo demostró comunicación oral efectiva mediante la conducción de entrevistas de validación con representantes de ambos segmentos objetivo —PyMEs y especialistas de marketing— aplicando la dinámica de Think-Aloud y adaptando el vocabulario para facilitar la expresión natural de los participantes. Adicionalmente, el equipo presentó oralmente el Sprint 4, comunicando la integración completa del frontend con el backend real y el estado final del producto desplegado en producción en Railway y Netlify. <br><br>|
-| **3.c2. Comunica por escrito con efectividad a diferentes rangos de audiencia.** | **Salinas, Brianna** <br> AV1: Redacté el Capítulo I, la sección 4.3 de Landing Page UI Design, los diagramas de clases (4.7.1) y el diseño de base de datos (4.8), empleando un lenguaje técnico preciso y estructurado acorde al formato académico del informe, garantizando que el contenido sea comprensible para lectores con distintos niveles de conocimiento en ingeniería de software. <br><br> TB1: Contribuí en la elaboración y corrección de la documentación del proyecto, incluyendo Class Diagrams, User Stories, Product Backlog y Database Diagram. Redacté y estructuré información técnica de manera clara y organizada para facilitar la comprensión tanto del equipo de desarrollo como de los evaluadores del proyecto. Además, documenté funcionalidades del frontend relacionadas con el registro, login y verificación de usuarios siguiendo estándares de claridad y coherencia. <br><br> AV2: Redacté las secciones del informe correspondientes al Sprint 3, incluyendo el Sprint Backlog con las tareas asignadas por bounded context, la tabla de commits por integrante, las evidencias de despliegue del Web Service en Railway con base de datos MySQL, y la documentación del pipeline automático de reputación con Groq AI e integración con YouTube Data API v3. Empleé un lenguaje técnico preciso y estructurado para garantizar la comprensión tanto del equipo evaluador como de lectores con distintos niveles de conocimiento en ingeniería de software. <br><br>**Jáuregui, Jean Franco** <br> AV1: (acción específica) <br><br> TB1: (acción específica) <br><br> AV2: (acción específica)<br><br>**Cruzalegui, Joaquin** <br> AV1: Realicé los Empathy Maps, los Journey Maps en base a las entrevistas y User Personas, también el Event Storming donde identifiqué los principales eventos del dominio. Además realicé el capítulo 5.2.1 sobre el sprint 1 <br><br> TB1: (acción específica) <br><br> AV2: Me encargué de lo que es Seguridad e Identidad dentro del proyecto (IAM), trabajando en lo que es el endpoint de forgot-password, reset-password y refresh-token. Además me encargue de consolidad la infraestructura y datos del proyecto a través de la implementación de la entidad Incident y la migración con migración Flyway V7.<br><br> **Garcia Paredes, Victor** <br> AV1: Redacté las secciones de segmentos objetivo, análisis competitivo, needfinding y arquitectura de software basada en DDD. Empleé un lenguaje claro, persuasivo y estructurado para documentar los User Personas; y utilicé terminología técnica estandarizada para describir el design-level event storming y los diagramas del modelo C4, garantizando que la documentación sea comprensible tanto para stakeholders como para el equipo de desarrollo. <br><br> TB1: Diseñé y documenté los User Flows y Wireflows, traduciendo los requerimientos del negocio en diagramas visuales y de navegación claros para el equipo. Además, apliqué estándares de código limpio y descriptivo durante mi colaboración en el desarrollo del Frontend, asegurando que la lógica de la interfaz sea fácilmente comprensible para el resto de los desarrolladores. <br><br> AV2: Implementé los endpoints RESTful del bounded context de Configuración Estratégica de Marca (POST/GET/PUT/DELETE de `BrandWorkspace` con soft delete y aislamiento por usuario) y las entidades de dominio `Mention` y `DailyMetricSnapshot` con migraciones Flyway, índices de rendimiento y constraints de unicidad. Gestioné el despliegue completo del Web Service en Railway, resolviendo problemas de beans duplicados y referencias circulares en la configuración de Spring Boot. Redacté las secciones del informe correspondientes al diseño de entrevistas de validación (5.3.1), la integración de la evaluación heurística del equipo auditor (5.3.3), las conclusiones y recomendaciones del proyecto, y la documentación de evidencias de despliegue, empleando un lenguaje técnico preciso y estructurado para garantizar la comprensión tanto del equipo evaluador como de los integrantes del equipo de desarrollo. <br><br> TB2: Implementé los módulos de integración frontend-backend en Angular: el interceptor HTTP con renovación automática de JWT, la pantalla Home con gestión de workspaces conectada a la API real, los módulos de Incidents y Subscription/Payment, y el servicio centralizado de manejo de errores ProblemDetail con estados de carga. Redacté en el informe el registro de la entrevista de validación del Segmento 2 (5.3.2), documentando los hallazgos sobre la Landing Page y la Aplicación Web con un lenguaje estructurado que permite la comprensión tanto del equipo evaluador como de lectores con distintos niveles de conocimiento en marketing digital y desarrollo de software. | <br> AV1: Durante el TB1, el equipo fortaleció sus habilidades de comunicación oral mediante la presentación del avance funcional del proyecto, explicando la arquitectura frontend, los flujos implementados y las decisiones técnicas adoptadas durante los sprints. La exposición permitió evidenciar dominio del proyecto, coordinación grupal y capacidad para responder preguntas relacionadas con el desarrollo y funcionamiento del sistema. <br><br> TB1: Durante el TB1, el equipo desarrolló documentación técnica y funcional detallada, incluyendo evidencias de desarrollo, despliegue de la segunda versión del landing page, la primera version frontend de BrandRadar, colaboración y arquitectura del sistema. La información fue presentada de manera ordenada, utilizando un lenguaje técnico adecuado y manteniendo coherencia en la estructura del informe, permitiendo comunicar efectivamente los avances del proyecto a lectores académicos y técnicos. <br><br> AV2: Durante el AV2, el equipo produjo documentación técnica y funcional que abarcó la totalidad del Sprint 3, incluyendo el Sprint Backlog con tareas distribuidas por bounded context, las evidencias de desarrollo y despliegue del Web Service en Railway con MySQL, la documentación de endpoints mediante SpringDoc OpenAPI 3.0, el diseño de entrevistas de validación diferenciado por segmento objetivo, la integración de la evaluación heurística realizada por el equipo auditor, y la redacción de conclusiones y recomendaciones fundamentadas en los resultados del proyecto. La información fue estructurada con un lenguaje técnico preciso y coherente, garantizando su comprensión tanto para el equipo evaluador del curso como para lectores con distintos niveles de conocimiento en ingeniería de software. <br><br> TB2: Durante el TB2, el equipo produjo la documentación final del proyecto, incluyendo el Sprint Backlog del Sprint 4, las evidencias de desarrollo e integración frontend-backend, la documentación del despliegue simultáneo en Railway y Netlify, el registro de entrevistas de validación para ambos segmentos objetivo, y las secciones finales del informe con conclusiones y recomendaciones fundamentadas en los resultados de la validación. La documentación fue redactada con lenguaje técnico preciso y coherente, garantizando su comprensión tanto para el equipo evaluador del curso como para lectores con distintos niveles de conocimiento en ingeniería de software. <br><br>|
+| **3.c1. Comunica oralmente con efectividad a diferentes rangos de audiencia.** | **Salinas, Brianna** <br> AV1: Durante el registro de entrevistas, conduje sesiones con usuarios del segmento objetivo adaptando mi discurso oral según el perfil del entrevistado, logrando transmitir el propósito de BrandRadar de forma clara y comprensible tanto para perfiles técnicos como no técnicos. <br><br> TB1: Participé en la exposición del avance del proyecto BrandRadar, explicando las funcionalidades desarrolladas en el frontend como el registro de usuarios, verificación de correo electrónico y sistema de autenticación. Durante la presentación, comuniqué de manera clara las decisiones tomadas en el diseño del sistema y respondí consultas relacionadas con la arquitectura y experiencia de usuario, adaptando el lenguaje técnico según la audiencia.<br><br> AV2: Participé en la grabación del video de exposición del Sprint 3, donde expliqué oralmente las decisiones arquitectónicas adoptadas en el backend de BrandRadar, incluyendo el pipeline automático de reputación con Groq AI, la integración con YouTube Data API v3 y el endpoint de dashboard agregado. Adapté el lenguaje técnico para que tanto el equipo evaluador como stakeholders no técnicos pudieran comprender el valor funcional del sistema implementado. <br><br> **Jáuregui, Jean Franco** <br> AV1: (acción específica) <br><br> TB1: (acción específica) <br><br> AV2: (acción específica)<br><br> **Cruzalegui, Joaquin** <br> AV1: Elaboré una de las entrevistas del segmento 1 (PyMEs), por la cual tuve que adecuar mi vocabulario de la mejor manera posible, para hacer sentir cómodo al entrevistado y poder recopilar la mejor información posible <br><br> TB1: (acción específica)<br><br> AV2: Elaboré una entrevista al segmento 1 (PyME), así como también el resumen y análisis de la misma, información que fue útil para el equipo, pues necesitamos saber si el producto final cumple con los requerimientos identificados en los inicios del proyecto. <br><br> **Garcia Paredes, Victor** <br> AV1: Diseñé y conduje oralmente dos entrevistas dirigidas a representantes de nuestros segmentos objetivo (una PyME y una Agencia Digital). Durante las sesiones, adapté mi lenguaje y tono para generar empatía con perfiles no técnicos, logrando extraer con claridad sus dolores respecto a la gestión de su reputación digital y comunicando efectivamente el propósito de nuestra investigación. <br><br> TB1: Desarrollé y narré los videos de Prototyping (demostración de la aplicación). A través de esta presentación audiovisual, expliqué de forma clara y fluida la interacción del usuario con BrandRadar, adaptando la explicación técnica a un lenguaje accesible para que tanto stakeholders como usuarios finales comprendan la funcionalidad y el valor del producto. <br><br> AV2: Conduje una entrevista de validación con un representante del Segmento 1 (PyME), guiando al participante a través de los user flows implementados en la aplicación web —registro, configuración de workspace, dashboard reputacional y gestión de menciones— mientras aplicaba la dinámica de Think-Aloud. Durante la sesión, adapté mi lenguaje para evitar terminología técnica del modelo de dominio, facilitando que el entrevistado expresara con naturalidad sus percepciones sobre la usabilidad y el valor percibido de BrandRadar para la gestión de la reputación de su negocio. <br><br> TB2: Conduje una entrevista de validación con un representante del Segmento 2 (especialista de marketing), guiando al participante a través de los user flows de la aplicación —selección de workspace, configuración de monitoreo, dashboard reputacional, gestión de menciones e incidentes— mientras aplicaba la dinámica de Think-Aloud. Adapté mi lenguaje para evitar terminología técnica del modelo de dominio, facilitando que el entrevistado —con experiencia en herramientas de marketing y gestión de múltiples marcas— expresara con naturalidad sus percepciones sobre la usabilidad profesional de BrandRadar y su potencial como reemplazo de su flujo de monitoreo manual actual. | <br> AV1: Durante el AV1, el equipo logró comunicar oralmente de manera clara y organizada la propuesta inicial del proyecto BrandRadar, presentando la problemática identificada, los objetivos del sistema y la solución tecnológica planteada. La exposición permitió transmitir adecuadamente las ideas principales tanto a un público técnico como académico, utilizando apoyo visual y una distribución equilibrada de la participación entre los integrantes. <br><br> TB1: Durante el AV1, el equipo elaboró documentación escrita estructurada y comprensible, incluyendo descripciones del proyecto, análisis del problema, user stories y planificación inicial del producto. La redacción utilizada permitió comunicar las ideas de manera formal y coherente, facilitando la comprensión del alcance y propósito del sistema BrandRadar para distintos tipos de lectores. <br><br> AV2: Durante el AV2, el equipo demostró capacidad de comunicación oral efectiva en dos contextos diferenciados. Por un lado, en las entrevistas de validación, los integrantes condujeron sesiones individuales con usuarios de ambos segmentos objetivo utilizando la dinámica de Think-Aloud, adaptando el vocabulario para evitar terminología técnica del modelo de dominio y permitiendo que los participantes expresaran con naturalidad sus percepciones sobre la usabilidad y el valor percibido de BrandRadar. Por otro lado, en la exposición del Sprint 3, el equipo presentó oralmente la arquitectura del Web Service implementado con Spring Boot, las decisiones de diseño basadas en DDD, la integración con Groq AI y YouTube Data API, y el proceso de despliegue en Railway, ajustando el nivel de detalle técnico según la audiencia evaluadora. <br><br> TB2: Durante el TB2, el equipo demostró comunicación oral efectiva mediante la conducción de entrevistas de validación con representantes de ambos segmentos objetivo —PyMEs y especialistas de marketing— aplicando la dinámica de Think-Aloud y adaptando el vocabulario para facilitar la expresión natural de los participantes. Adicionalmente, el equipo presentó oralmente el Sprint 4, comunicando la integración completa del frontend con el backend real y el estado final del producto desplegado en producción en Railway y Netlify. <br><br>|
+| **3.c2. Comunica por escrito con efectividad a diferentes rangos de audiencia.** | **Salinas, Brianna** <br> AV1: Redacté el Capítulo I, la sección 4.3 de Landing Page UI Design, los diagramas de clases (4.7.1) y el diseño de base de datos (4.8), empleando un lenguaje técnico preciso y estructurado acorde al formato académico del informe, garantizando que el contenido sea comprensible para lectores con distintos niveles de conocimiento en ingeniería de software. <br><br> TB1: Contribuí en la elaboración y corrección de la documentación del proyecto, incluyendo Class Diagrams, User Stories, Product Backlog y Database Diagram. Redacté y estructuré información técnica de manera clara y organizada para facilitar la comprensión tanto del equipo de desarrollo como de los evaluadores del proyecto. Además, documenté funcionalidades del frontend relacionadas con el registro, login y verificación de usuarios siguiendo estándares de claridad y coherencia. <br><br> AV2: Redacté las secciones del informe correspondientes al Sprint 3, incluyendo el Sprint Backlog con las tareas asignadas por bounded context, la tabla de commits por integrante, las evidencias de despliegue del Web Service en Railway con base de datos MySQL, y la documentación del pipeline automático de reputación con Groq AI e integración con YouTube Data API v3. Empleé un lenguaje técnico preciso y estructurado para garantizar la comprensión tanto del equipo evaluador como de lectores con distintos niveles de conocimiento en ingeniería de software. <br><br>**Jáuregui, Jean Franco** <br> AV1: (acción específica) <br><br> TB1: (acción específica) <br><br> AV2: (acción específica)<br><br>**Cruzalegui, Joaquin** <br> AV1: Realicé los Empathy Maps, los Journey Maps en base a las entrevistas y User Personas, también el Event Storming donde identifiqué los principales eventos del dominio. Además realicé el capítulo 5.2.1 sobre el sprint 1 <br><br> TB1: Me encargué de la elaboración del front end, principalmente la elaboración de la desactivación de marca, la gestión de fuentes y la pantalla de error 403 de acceso restringido, además de documentar usr flows y wire flows pendientes de la primera entrega. <br><br> AV2: Me encargué de lo que es Seguridad e Identidad dentro del proyecto (IAM), trabajando en lo que es el endpoint de forgot-password, reset-password y refresh-token. Además me encargue de consolidad la infraestructura y datos del proyecto a través de la implementación de la entidad Incident y la migración con migración Flyway V7.<br><br> **Garcia Paredes, Victor** <br> AV1: Redacté las secciones de segmentos objetivo, análisis competitivo, needfinding y arquitectura de software basada en DDD. Empleé un lenguaje claro, persuasivo y estructurado para documentar los User Personas; y utilicé terminología técnica estandarizada para describir el design-level event storming y los diagramas del modelo C4, garantizando que la documentación sea comprensible tanto para stakeholders como para el equipo de desarrollo. <br><br> TB1: Diseñé y documenté los User Flows y Wireflows, traduciendo los requerimientos del negocio en diagramas visuales y de navegación claros para el equipo. Además, apliqué estándares de código limpio y descriptivo durante mi colaboración en el desarrollo del Frontend, asegurando que la lógica de la interfaz sea fácilmente comprensible para el resto de los desarrolladores. <br><br> AV2: Implementé los endpoints RESTful del bounded context de Configuración Estratégica de Marca (POST/GET/PUT/DELETE de `BrandWorkspace` con soft delete y aislamiento por usuario) y las entidades de dominio `Mention` y `DailyMetricSnapshot` con migraciones Flyway, índices de rendimiento y constraints de unicidad. Gestioné el despliegue completo del Web Service en Railway, resolviendo problemas de beans duplicados y referencias circulares en la configuración de Spring Boot. Redacté las secciones del informe correspondientes al diseño de entrevistas de validación (5.3.1), la integración de la evaluación heurística del equipo auditor (5.3.3), las conclusiones y recomendaciones del proyecto, y la documentación de evidencias de despliegue, empleando un lenguaje técnico preciso y estructurado para garantizar la comprensión tanto del equipo evaluador como de los integrantes del equipo de desarrollo. <br><br> TB2: Implementé los módulos de integración frontend-backend en Angular: el interceptor HTTP con renovación automática de JWT, la pantalla Home con gestión de workspaces conectada a la API real, los módulos de Incidents y Subscription/Payment, y el servicio centralizado de manejo de errores ProblemDetail con estados de carga. Redacté en el informe el registro de la entrevista de validación del Segmento 2 (5.3.2), documentando los hallazgos sobre la Landing Page y la Aplicación Web con un lenguaje estructurado que permite la comprensión tanto del equipo evaluador como de lectores con distintos niveles de conocimiento en marketing digital y desarrollo de software. | <br> AV1: Durante el TB1, el equipo fortaleció sus habilidades de comunicación oral mediante la presentación del avance funcional del proyecto, explicando la arquitectura frontend, los flujos implementados y las decisiones técnicas adoptadas durante los sprints. La exposición permitió evidenciar dominio del proyecto, coordinación grupal y capacidad para responder preguntas relacionadas con el desarrollo y funcionamiento del sistema. <br><br> TB1: Durante el TB1, el equipo desarrolló documentación técnica y funcional detallada, incluyendo evidencias de desarrollo, despliegue de la segunda versión del landing page, la primera version frontend de BrandRadar, colaboración y arquitectura del sistema. La información fue presentada de manera ordenada, utilizando un lenguaje técnico adecuado y manteniendo coherencia en la estructura del informe, permitiendo comunicar efectivamente los avances del proyecto a lectores académicos y técnicos. <br><br> AV2: Durante el AV2, el equipo produjo documentación técnica y funcional que abarcó la totalidad del Sprint 3, incluyendo el Sprint Backlog con tareas distribuidas por bounded context, las evidencias de desarrollo y despliegue del Web Service en Railway con MySQL, la documentación de endpoints mediante SpringDoc OpenAPI 3.0, el diseño de entrevistas de validación diferenciado por segmento objetivo, la integración de la evaluación heurística realizada por el equipo auditor, y la redacción de conclusiones y recomendaciones fundamentadas en los resultados del proyecto. La información fue estructurada con un lenguaje técnico preciso y coherente, garantizando su comprensión tanto para el equipo evaluador del curso como para lectores con distintos niveles de conocimiento en ingeniería de software. <br><br> TB2: Durante el TB2, el equipo produjo la documentación final del proyecto, incluyendo el Sprint Backlog del Sprint 4, las evidencias de desarrollo e integración frontend-backend, la documentación del despliegue simultáneo en Railway y Netlify, el registro de entrevistas de validación para ambos segmentos objetivo, y las secciones finales del informe con conclusiones y recomendaciones fundamentadas en los resultados de la validación. La documentación fue redactada con lenguaje técnico preciso y coherente, garantizando su comprensión tanto para el equipo evaluador del curso como para lectores con distintos niveles de conocimiento en ingeniería de software. <br><br>|
 
 <br>
 
@@ -4652,19 +4652,35 @@ El desarrollo se validó mediante:
 <br>
 
 A continuación se muestran las capturas de las pantallas conectadas y verificadas durante el Sprint 4:
- 
-<br>
-
-**[Nombre de pantalla] – [breve descripción de lo que muestra la captura]**
 
 <br>
  
 ![Execution Evidence Sprint 4 - 01](brandradar-report/assets/sprints/sprint-4/evidence-01.png)
- 
+
+![Execution Evidence Sprint 4 - 02](brandradar-report/assets/sprints/sprint-4/evidence-02.png)
+
+
+![Execution Evidence Sprint 4 - 03](brandradar-report/assets/sprints/sprint-4/evidence-03.png)
+
+![Execution Evidence Sprint 4 - 04](brandradar-report/assets/sprints/sprint-4/evidence-04.png)
+
+
+![Execution Evidence Sprint 4 - 05](brandradar-report/assets/sprints/sprint-4/evidence-05.png)
+
+![Execution Evidence Sprint 4 - 06](brandradar-report/assets/sprints/sprint-4/evidence-06.png)
+
+![Execution Evidence Sprint 4 - 07](brandradar-report/assets/sprints/sprint-4/evidence-07.png)
+
+![Execution Evidence Sprint 4 - 08](brandradar-report/assets/sprints/sprint-4/evidence-08.png)
+
+![Execution Evidence Sprint 4 - 09](brandradar-report/assets/sprints/sprint-4/evidence-09.png)
+
+![Execution Evidence Sprint 4 - 10](brandradar-report/assets/sprints/sprint-4/evidence-10.png)
+
 <br>
 Asimismo, se elaboró un video demostrativo que muestra la ejecución del flujo integrado durante el Sprint 4, incluyendo autenticación real contra el backend, gestión de `BrandWorkspace` desde el frontend y las pantallas de Dashboard y Settings consumiendo datos reales de la API:
  
-[Ver video de ejecución Sprint 4](PENDIENTE_ENLACE_VIDEO_SPRINT_4)
+[Ver video de ejecución Sprint 4](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202410239_upc_edu_pe/IgAiQ0EzivEZToQzbMjLIgi-AQo6IfjwdTPK4wAG3my_uMc?e=hGfRFH)
 
 <br>
 
@@ -4736,16 +4752,19 @@ A continuación se presentan capturas de Swagger UI mostrando los contratos cons
  
 <br>
 
-**Swagger UI – Contrato de [bounded context] verificado contra el frontend**
+**Swagger UI mostrando los endpoints de Brandradar**
 
-![Services Documentation Sprint 4 - 01](brandradar-report/assets/sprints/sprint-4/service-01.png)
+![Services Documentation Sprint 4 - 01](brandradar-report/assets/sprints/sprint-4/evidence-01.png)
 
 <br>
 
-**Network tab del navegador – [pantalla] consumiendo `[endpoint]` en tiempo real**
+**Network tab del navegador – Login consumiendo `[endpoint]` en tiempo real**
 
-![Services Documentation Sprint 4 - 02](brandradar-report/assets/sprints/sprint-4/service-02.png)
+![Services Documentation Sprint 4 - 02](brandradar-report/assets/sprints/sprint-4/service-01.png)
  
+
+ ![Services Documentation Sprint 4 - 02](brandradar-report/assets/sprints/sprint-4/service-02.png)
+
 <br>
 
 
@@ -4753,51 +4772,84 @@ A continuación se presentan capturas de Swagger UI mostrando los contratos cons
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
-Durante el Sprint 4 se completó el despliegue público de ambos componentes de BrandRadar: el Web Service, que continuó operando en Railway desde el Sprint 3, y el Frontend Angular, que se desplegó por primera vez en **Netlify**, quedando la aplicación disponible de punta a punta para cualquier usuario sin depender de un entorno local.
+Durante el Sprint 4 se completó el despliegue público de los tres componentes de BrandRadar: el Web Service, desplegado en **Render**, el Frontend Angular, desplegado también en **Render** como servicio SSR (Server-Side Rendering), y la base de datos MySQL, provisionada en **Filess.io**, quedando la aplicación disponible de punta a punta para cualquier usuario sin depender de un entorno local.
  
-Sobre el backend en Railway se aplicaron los ajustes de estabilización necesarios para sostener el tráfico generado por la conexión real del frontend ya desplegado (corrección de la clase duplicada del adaptador de `MentionStream` y remoción del `.env` que había quedado expuesto en el repositorio), validando que el servicio se mantuviera estable en producción durante toda la integración.
+Sobre el backend en Render se aplicaron los ajustes de estabilización necesarios para sostener el tráfico generado por la conexión real del frontend ya desplegado (corrección de la clase duplicada del adaptador de `MentionStream` y remoción del `.env` que había quedado expuesto en el repositorio), validando que el servicio se mantuviera estable en producción durante toda la integración.
  
-### Deployment Process — Backend (Railway):
+### Deployment Process — Base de Datos (Filess.io):
  
-1. Verificar en Railway que el servicio `BrandRadar-Web-Services` siga activo sobre la base de datos MySQL provisionada previamente.
-2. Redesplegar el servicio tras los commits de estabilización del sprint (`fix: eliminar clase duplicada MentionStreamPersistenceAdapter`, remoción del `.env` expuesto), dejando que Railway detecte el cambio en la rama `main` y ejecute el build automáticamente.
-3. Confirmar en las variables de entorno que `JWT_SECRET`, `GROQ_API_KEY`, `YOUTUBE_API_KEY` y las credenciales de MySQL sigan vigentes tras la limpieza del `.env`.
-4. Actualizar la configuración de **CORS** en el backend para aceptar peticiones desde el dominio público del frontend en Netlify (en vez de únicamente `http://localhost:4200`).
-5. Verificar en los logs de Railway que el pipeline automático de reputación y los endpoints consumidos por el frontend respondan correctamente en producción.
+1. Crear una cuenta en **Filess.io** y provisionar una instancia de base de datos **MySQL** dentro del plan gratuito *Hobby* (2 bases de datos, 10 MB de almacenamiento, tráfico ilimitado, sin tarjeta de crédito).
+
+2. Al crearse la instancia, Filess.io entrega de forma inmediata el connection string completo: **host**, **puerto**, **usuario**, **contraseña** y **nombre de la base de datos**.
+
+3. Configurar esas credenciales en las variables de entorno del backend en Render (`SPRING_DATASOURCE_URL`, `SPRING_DATASOURCE_USERNAME`, `SPRING_DATASOURCE_PASSWORD`), reemplazando la conexión local usada en desarrollo.
+
+4. Ejecutar las migraciones/creación de esquema contra la instancia de Filess.io y validar la conexión desde el backend desplegado.
+
+5. Tener en cuenta la limitación de almacenamiento del plan gratuito (10 MB) como riesgo a monitorear a medida que crezca el volumen de menciones e incidentes registrados.
 
 <br>
 
-### Deployment Process — Frontend (Netlify):
+
+
+![Deployment Sprint 4 - 01](brandradar-report/assets/sprints/sprint-4/sprint4-deployment-02.png)
+
+![Deployment Sprint 4 - 02](brandradar-report/assets/sprints/sprint-4/sprint4-deployment-01.png)
+
+
+<br>
+
+### Deployment Process — Backend (Render):
  
-1. Conectar el repositorio `BrandRadar-Frontend-Web-App` a un nuevo sitio en Netlify.
-2. Configurar el comando de build (`ng build`) y el directorio de publicación (`dist/brandradar-project/browser`).
-3. Definir `environment.apiBaseUrl` en el build de producción apuntando a la URL pública del backend en Railway, reemplazando el valor de desarrollo (`http://localhost:8080/api/v1`).
-4. Configurar el redirect de rutas de Angular (`/* → /index.html`) en Netlify para que el enrutamiento del lado del cliente funcione correctamente en recargas directas de URL (`/dashboard`, `/mentions`, etc.).
+1. Verificar en Render que el Web Service `brandradar-web-services` siga activo y conectado a la base de datos MySQL provisionada en Filess.io.
+
+2. Redesplegar el servicio tras los commits de estabilización del sprint (`fix: eliminar clase duplicada MentionStreamPersistenceAdapter`, remoción del `.env` expuesto), dejando que Render detecte el cambio en la rama `main` y ejecute el build automáticamente (*auto-deploy*).
+
+3. Confirmar en la pestaña **Environment** de Render que `JWT_SECRET`, `GROQ_API_KEY`, `YOUTUBE_API_KEY` y las credenciales de conexión a Filess.io sigan vigentes tras la limpieza del `.env`.
+
+4. Actualizar la configuración de **CORS** en el backend para aceptar peticiones desde el dominio público del frontend en Render (en vez de únicamente `http://localhost:4200`).
+
+5. Verificar en los logs de Render que el pipeline automático de reputación y los endpoints consumidos por el frontend respondan correctamente en producción.
+
+<br>
+
+![Deployment Sprint 4 - 03](brandradar-report/assets/sprints/sprint-4/sprint4-deployment-03.png)
+
+![Deployment Sprint 4 - 04](brandradar-report/assets/sprints/sprint-4/sprint4-deployment-04.png)
+
+![Deployment Sprint 4 - 05](brandradar-report/assets/sprints/sprint-4/sprint4-deployment-05.png)
+
+![Deployment Sprint 4 - 06](brandradar-report/assets/sprints/sprint-4/sprint4-deployment-06.png)
+
+<br>
+
+### Deployment Process — Frontend (Render):
+ 
+1. Conectar el repositorio `BrandRadar-Frontend-Web-App` a un nuevo **Web Service** en Render (no *Static Site*, ya que la aplicación usa SSR con Angular Universal/Express).
+2. Configurar el **Build Command** (`npm install && npm run build`) y el **Start Command** (`node dist/brandradar-project/server/server.mjs`).
+3. Definir `environment.apiBaseUrl` en el build de producción apuntando a la URL pública del backend en Render, reemplazando el valor de desarrollo (`http://localhost:8080/api/v1`).
+4. Configurar en `angular.json` el arreglo `security.allowedHosts` (por ejemplo `["*.onrender.com"]`) para que el servidor SSR acepte el hostname público asignado por Render y no rechace las peticiones por la protección SSRF de Angular.
 5. Disparar el primer deploy y verificar que las 15 pantallas de la aplicación (login, registro, verify-email, forgot-password, workspace/onboarding, subscription, payment, success, home, dashboard, settings, configuration, mentions, incidents, reports) carguen correctamente contra el backend real.
 6. Validar el flujo completo de autenticación en producción: registro → verificación de email (OTP) → login automático → onboarding de workspace, incluyendo la renovación automática del JWT por el interceptor HTTP ante una respuesta `401`.
-
 <br>
 
-**URL del Web Service (Railway):** `https://brandradar-web-services-production.up.railway.app/swagger-ui/index.html`
+**URL del Web Service (Render):** [https://brandradar-web-services.onrender.com/swagger-ui/index.html](https://brandradar-web-services.onrender.com/swagger-ui/index.html) 
  
-**URL del Frontend (Netlify):** `https://brandradar-app.netlify.app`
-
+**URL del Frontend (Render):** [https://brandradar-frontend-web-app.onrender.com/login](https://brandradar-frontend-web-app.onrender.com/login)
+ 
 <br>
 
 **Evidencias**
  
-A continuación se presentan capturas del proceso de despliegue del frontend en Netlify, del frontend desplegado consumiendo el backend real en producción, y de los logs de Railway confirmando la estabilidad del servicio tras los ajustes del sprint:
+A continuación se presentan capturas del proceso de despliegue del frontend en Render, del frontend desplegado consumiendo el backend real en producción, y de los logs de Render confirmando la estabilidad del servicio tras los ajustes del sprint:
  
 <br>
 
-![Deployment Sprint 4 - 01](brandradar-report/assets/sprints/sprint-4/sprint4-deployment-01.png)
+![Deployment Sprint 4 - 07](brandradar-report/assets/sprints/sprint-4/sprint4-deployment-07.png)
  
-![Deployment Sprint 4 - 02](brandradar-report/assets/sprints/sprint-4/sprint4-deployment-02.png)
- 
-![Deployment Sprint 4 - 03](brandradar-report/assets/sprints/sprint-4/sprint4-deployment-03.png)
+![Deployment Sprint 4 - 08](brandradar-report/assets/sprints/sprint-4/sprint4-deployment-08.png)
  
 <br>
-
 
 ---
 
@@ -4821,7 +4873,6 @@ El repositorio `BrandRadar-Frontend-Web-App` muestra un patrón de trabajo itera
 
 <br>
 
-**[Pendiente: captura de `commits` y `network` del repositorio del Sprint 4, análoga a la del Sprint 3]**
  
 ![Team Collaboration Sprint 4](brandradar-report/assets/sprints/sprint-4/commits.png)
  
@@ -5034,32 +5085,6 @@ Silvia Lizbeth Herrera Vilchez, propietaria de Café Raíz, una cafetería espec
 
 <br>
 
-<div align="center">
-
-#### Entrevista 3
-
-*Imagen de la entrevista*
-
-<img src="brandradar-report/assets/interviews/validation/ss_validacion_seg1_3.png" alt="Entrevista de Validación 3 - Segmento 1" width="700"/>
-
-<br>
-<br>
-
-| Campo | Detalle |
-|:------|:--------|
-| **Nombres y apellidos** | `` |
-| **Edad** | `` |
-| **Ubicación** | `` |
-| **Fecha de entrevista** | `` |
-| **Duración** | `` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://) |
-
-**Resumen:**
-
-</div>
-
-<br>
-
 ---
 
 <div align="center">
@@ -5093,58 +5118,6 @@ Alex Gonzalo Torrejón Pérez, especialista de marketing que gestiona entre 5 y 
 **Hallazgos sobre el Landing Page:** Alex identificó BrandRadar como una herramienta profesional orientada a especialistas en marketing, valorando las referencias a integraciones con Slack y CRM y el lenguaje dirigido a "equipos de marketing y comunicaciones". Los testimonios de Falabella Colombia y Grupo Éxito le generaron confianza institucional, destacando especialmente el caso de Andrés Fuentes sobre la precisión del análisis de sentimiento en español latinoamericano como diferenciador clave frente a herramientas de origen anglosajón que no reconocen modismos ni sarcasmo local. Sobre los planes, descartó de entrada el Starter (3 marcas) y evaluó directamente el Pro ($149 con marcas ilimitadas), aunque señaló que falta indicar si el precio es por agencia o por usuario, dato relevante dado que trabaja con un equipo de dos personas. Identificó tres brechas de información para poder proponer la herramienta a un cliente: cobertura explícita de TikTok, detalle del sistema de reportes personalizable con logo del cliente y exportación en PDF/PowerPoint, y una demo en video real de la plataforma en funcionamiento.
 
 **Hallazgos sobre la Aplicación Web:** El modelo de selección de workspace por marca le resultó intuitivo y coherente con su forma de trabajo, aunque solicitó un indicador permanente de la marca activa en cada pantalla para evitar confusiones al gestionar múltiples cuentas simultáneamente, así como un selector rápido de cambio de marca en la barra superior sin necesidad de salir del flujo en curso. En configuración de monitoreo, estimó que la plataforma resolvería el 60% de su trabajo diario de monitoreo (entre 1,5 y 2 horas por día), al centralizar las búsquedas que hoy realiza manualmente; señaló TikTok, Google Reviews y Trustpilot como fuentes indispensables no cubiertas, y sugirió un mecanismo para registrar manualmente menciones recibidas por WhatsApp. En el módulo de menciones, valoró los filtros existentes (sentimiento, fuente, fecha) como punto de partida, pero solicitó filtrado adicional por nivel de alcance del autor —dado que una mención de alguien con 50 000 seguidores requiere otra respuesta que la de alguien con 200— y la posibilidad de marcar menciones como "gestionada" o "pendiente de respuesta"; estimó un ahorro de 8 a 10 horas semanales con el módulo en uso. En gestión de incidentes, valoró el seguimiento de estado pero solicitó la posibilidad de agregar notas internas y un historial de acciones exportable como evidencia de gestión para el cliente, reemplazando el seguimiento por WhatsApp que hoy usa y en el que se pierde el hilo fácilmente. En el dashboard, los indicadores clave (menciones, sentimiento, tendencia semanal) le resultaron adecuados como base, pero requiere exportación directa en PDF con nombre del cliente y período cubierto; además, añadiría métricas de share of voice frente a competidores y evolución del sentimiento con hitos correlacionables a eventos reales, para poder explicarle al cliente qué pasó y por qué. Finalmente, sobre el control de acceso por workspace, confirmó que el aislamiento por cuenta es suficiente para garantizar la confidencialidad prometida a sus clientes, reservando requerimientos de cifrado o auditorías de acceso solo para clientes más exigentes.
-
-<br>
-<div align="center">
-
-
-#### Entrevista 2
-
-*Imagen de la entrevista*
-
-<img src="brandradar-report/assets/interviews/validation/ss_validacion_seg2_2.png" alt="Entrevista de Validación 2 - Segmento 2" width="700"/>
-
-<br>
-<br>
-
-| Campo | Detalle |
-|:------|:--------|
-| **Nombres y apellidos** | `` |
-| **Edad** | `` |
-| **Ubicación** | `` |
-| **Fecha de entrevista** | `` |
-| **Duración** | `` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://) |
-
-**Resumen:**
-
-</div>
-
-<br>
-
-<div align="center">
-
-#### Entrevista 3
-
-*Imagen de la entrevista*
-
-<img src="brandradar-report/assets/interviews/validation/ss_validacion_seg2_3.png" alt="Entrevista de Validación 3 - Segmento 2" width="700"/>
-
-<br>
-<br>
-
-| Campo | Detalle |
-|:------|:--------|
-| **Nombres y apellidos** | `` |
-| **Edad** | `` |
-| **Ubicación** | `` |
-| **Fecha de entrevista** | `` |
-| **Duración** | `` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://) |
-
-**Resumen:**
-
-</div>
 
 <br>
 
@@ -5420,7 +5393,7 @@ Los problemas más urgentes a resolver antes de cualquier entrega o demo son:
 
 El video About-the-Product de BrandRadar presenta una visión general del producto, sus principales funcionalidades y la propuesta de valor para agencias digitales y PyMEs que necesitan gestionar la reputación de sus marcas de manera profesional y segura.
 
-[Ver Video About-the-Product de BrandRadar](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202410239_upc_edu_pe/IgCY33XTNcmZQZI3KLIUXU6yATnu9ITeb3ZMtEUUqnQmvvA?e=INFJYg)
+[Ver Video About-the-Product de BrandRadar](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202410239_upc_edu_pe/IgCY33XTNcmZQZI3KLIUXU6yAewwJOI7N838BqTFgUwvDT0?e=ac7H4V)
 
 <br> 
 
@@ -5447,7 +5420,7 @@ El video About-the-Product de BrandRadar presenta una visión general del produc
 ## Video About-The-Team
 
 
-[Ver Video About-the-Team de BrandRadar](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202410239_upc_edu_pe/IgCXUNHowWBSS6nlY18dFs7JAeyh7OpXMiejy2ojPa0Wnl4?e=BrqmCa)
+[Ver Video About-the-Team de BrandRadar](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202410239_upc_edu_pe/IgCc_c1lhu_oQIJEGp52VZ36AbvOqnpE-PZE35QzLRyr400?e=dh1r06)
 
 
 <br>
@@ -5494,8 +5467,8 @@ En este documento se incluyen los criterios de evaluación, evidencias de trabaj
 | Entrega | Título | Enlace |
 |:-------:|:------:|:------:|
 | AV1 | `upc-pre-202610-1asi0729-[11863]-[brandradar]-expo-av1` | [URL Microsoft Stream](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202410239_upc_edu_pe/IgBV-ACEG37lQ466daCivegHARBFGxWIBXchDZGj6xfsMAY?e=Y3HNmH) |
-| TB1 | `upc-pre-202610-1asi0729-[11863]-[brandradar]-expo-tb1` | [URL Microsoft Stream](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202410239_upc_edu_pe/IgCUwFHqhNzvSLnvprF7sOxmAcitk8v93xpRomtd_CLgQTw?e=kcPhrd) |
-| TB2 | `upc-pre-202610-1asi0729-[11863]-[brandradar]-expo-tb2` | [URL Microsoft Stream](https://upcedupe-my.sharepoint.com/:f:/g/personal/) |
+| TB1 | `upc-pre-202610-1asi0729-[11863]-[brandradar]-expo-tb1` | [URL Microsoft Stream](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202410239_upc_edu_pe/IgABtdFKYfQmSYv0PmBy4boHAUG_rji95cXUpzzC_jHpcPA?e=QRw7bb) |
+| TB2 | `upc-pre-202610-1asi0729-[11863]-[brandradar]-expo-tb2` | [URL Microsoft Stream](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202410239_upc_edu_pe/IgABtdFKYfQmSYv0PmBy4boHAUG_rji95cXUpzzC_jHpcPA?e=QRw7bb) |
 
 <br>
 
