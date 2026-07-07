@@ -131,7 +131,7 @@ Para el desarrollo del TB2, cada integrante contribuyó de la siguiente manera:
 | Salinas Guzmán, Brianna Cristina | Tareas |
 | Jáuregui Cerna, Jean Franco      | Tareas |
 | Cruzalegui Herrera, Joaquin      | Tareas |
-| Garcia Paredes, Victor Manuel    | Tareas |
+| Garcia Paredes, Victor Manuel    | Elaboración del Student Outcome TB2; Desarrollo Frontend: interceptor HTTP con renovación automática de JWT (`auth.interceptor.ts`), pantalla Home con gestión de `BrandWorkspace` conectada a la API real, módulo de Incidents conectado a endpoints reales, módulo de Subscription/Payment conectado a la API real, servicio centralizado de manejo de errores `ProblemDetail` con estados de carga; Entrevista de validación con representante del Segmento 2 (especialista de marketing) aplicando metodología Think-Aloud; Redacción del informe: registro de entrevista de validación Segmento 2 (5.3.2), Student Outcomes TB2. |
 
 
 
